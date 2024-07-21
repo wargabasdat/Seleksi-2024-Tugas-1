@@ -28,7 +28,7 @@ func main() {
 	)
 	c.Limit(&colly.LimitRule{
 		DomainGlob:  "*stackoverflow.*",
-		Delay:      5 * time.Second,
+		Delay:       5 * time.Second,
 		Parallelism: 15,
 		RandomDelay: 5 * time.Second,
 	})
@@ -40,19 +40,21 @@ func main() {
 			Title:      e.ChildText(".s-post-summary--content-title a"),
 			Link:       "https://stackoverflow.com" + e.ChildAttr(".s-post-summary--content-title a", "href"),
 			Score: func() int {
-				score, _ := strconv.Atoi(e.ChildText(".s-post-summary--stats-item-number"))
+				scoreStr := e.ChildText(".s-post-summary--stats-item__emphasized .s-post-summary--stats-item-number")
+				scoreStr = strings.ReplaceAll(scoreStr, ",", "") // Remove commas in case of large numbers
+				score, _ := strconv.Atoi(scoreStr)
 				return score
 			}(),
-			User: models.User{
-				UserID:   e.ChildAttr(".s-user-card--avatar", "data-user-id"),
-				Username: e.ChildText(".s-user-card--link a"),
-				Profile:  e.ChildAttr(".s-user-card--link a", "href"),
-				Reputation: func() int {
-					repStr := e.ChildText(".s-user-card--rep span")
-					repStr = strings.ReplaceAll(repStr, ",", "")
-					rep, _ := strconv.Atoi(repStr)
-					return rep
+			User: models.ShortUser{
+				UserID: func() string {
+					href := e.ChildAttr(".s-user-card--avatar", "href")
+					parts := strings.Split(href, "/")
+					if len(parts) > 2 {
+						return parts[2] // Assuming user ID is always the third part
+					}
+					return ""
 				}(),
+				Username: e.ChildText(".s-user-card--link a"),
 			},
 		}
 
@@ -78,6 +80,31 @@ func main() {
 					}
 				}
 				mu.Unlock()
+				
+				e.ForEach(".js-comments-container .comment", func(_ int, el *colly.HTMLElement) {
+					comment := models.Comment{
+						CommentID: el.Attr("data-comment-id"),
+						Body:      el.ChildText(".comment-copy"),
+						User: models.ShortUser{
+							UserID: func() string {
+								href := el.ChildAttr(".comment-user", "href")
+								parts := strings.Split(href, "/")
+								if len(parts) > 2 {
+									return parts[2] // Assuming user ID is always the third part
+								}
+								return ""
+							}(),
+							Username: el.ChildText(".comment-user"),
+						},
+					}
+					mu.Lock()
+					for i, q := range questions {
+						if q.QuestionID == questionID {
+							questions[i].Comments = append(questions[i].Comments, comment)
+						}
+					}
+					mu.Unlock()
+				})
 			})
 			questionCollector.OnHTML(".answer", func(e *colly.HTMLElement) {
 				answer := models.Answer{
@@ -92,16 +119,16 @@ func main() {
 				// Extract user info from the answer
 				e.ForEach(".post-signature", func(_ int, el *colly.HTMLElement) {
 					if strings.Contains(el.ChildText(".user-action-time"), "answered") {
-						answer.User = models.User{
-							UserID:   el.ChildAttr(".user-gravatar32 a", "href"),
-							Username: el.ChildText(".user-details a"),
-							Profile:  el.ChildAttr(".user-details a", "href"),
-							Reputation: func() int {
-								repStr := el.ChildText(".user-details .reputation-score")
-								repStr = strings.ReplaceAll(repStr, ",", "")
-								rep, _ := strconv.Atoi(repStr)
-								return rep
+						answer.User = models.ShortUser{
+							UserID: func() string {
+								href := el.ChildAttr(".user-gravatar32 a", "href")
+								parts := strings.Split(href, "/")
+								if len(parts) > 2 {
+									return parts[2] // Assuming user ID is always the third part
+								}
+								return ""
 							}(),
+							Username: el.ChildText(".user-details a"),
 						}
 					}
 				})
@@ -109,12 +136,17 @@ func main() {
 				e.ForEach(".js-comments-container .comment", func(_ int, el *colly.HTMLElement) {
 					comment := models.Comment{
 						CommentID: el.Attr("data-comment-id"),
-						PostID:    el.Attr("data-post-id"),
 						Body:      el.ChildText(".comment-copy"),
-						User: models.User{
-							UserID:   el.ChildAttr(".comment-user", "href"),
+						User: models.ShortUser{
+							UserID: func() string {
+								href := el.ChildAttr(".comment-user", "href")
+								parts := strings.Split(href, "/")
+								if len(parts) > 2 {
+									return parts[2] // Assuming user ID is always the third part
+								}
+								return ""
+							}(),
 							Username: el.ChildText(".comment-user"),
-							Profile:  el.ChildAttr(".comment-user", "href"),
 						},
 					}
 					answer.Comments = append(answer.Comments, comment)
@@ -142,9 +174,15 @@ func main() {
 	// Extract user data
 	c.OnHTML(".user-info.user-hover", func(e *colly.HTMLElement) {
 		user := models.User{
-			UserID:   e.ChildAttr(".user-gravatar48 a", "href"),
+			UserID: func() string {
+				href := e.ChildAttr(".user-gravatar48 a", "href")
+				parts := strings.Split(href, "/")
+				if len(parts) > 2 {
+					return parts[2] // Assuming user ID is always the third part
+				}
+				return ""
+			}(),
 			Username: e.ChildText(".user-details a"),
-			Profile:  e.ChildAttr(".user-details a", "href"),
 			Reputation: func() int {
 				reputationStr := e.ChildText(".user-details .reputation-score")
 				reputationStr = strings.ReplaceAll(reputationStr, ",", "")
@@ -183,7 +221,6 @@ func main() {
 		tagCount++
 		mu.Unlock()
 	})
-	
 
 	// Handle request and error
 	c.OnRequest(func(r *colly.Request) {
