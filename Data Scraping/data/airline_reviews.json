@@ -1,0 +1,1242 @@
+[
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Amsterdam to Jakarta",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "July 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "an outstanding experience",
+            "Review Date": "2024-07-03",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Family Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 4,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 5,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Amsterdam",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "June 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "an outstanding service",
+            "Review Date": "2024-06-22",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Family Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 4,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Sorong",
+            "Aircraft": "Boeing 737-800",
+            "Date Flown": "June 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "cabin crew very courteous and helpful",
+            "Review Date": "2024-06-05",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Business",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Amsterdam",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "May 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "appreciate the personal service onboard",
+            "Review Date": "2024-05-27",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Peter Pomeranze",
+            "Country": "United States",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Haneda to Jakarta",
+            "Aircraft": "A330 Neo",
+            "Date Flown": "May 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "crew was warm and efficient",
+            "Review Date": "2024-05-26",
+            "Overall Rating": 8,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 2,
+            "Inflight Entertainment": 2,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Amsterdam to Jakarta",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "May 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "Door to door service is outstanding",
+            "Review Date": "2024-05-12",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 5,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "S Hartin",
+            "Country": "India",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Jakarta to Sorong",
+            "Aircraft": "A320",
+            "Date Flown": "April 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "Efficient and courteous crew",
+            "Review Date": "2024-05-07",
+            "Overall Rating": 8,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 2,
+            "Inflight Entertainment": 4,
+            "Ground Service": 4,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 3,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "S Hartin",
+            "Country": "India",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Ternate to Jakarta",
+            "Aircraft": "Boeing 737-800",
+            "Date Flown": "April 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "The flight was comfortable",
+            "Review Date": "2024-05-07",
+            "Overall Rating": 7,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 4,
+            "Food & Beverages": 3,
+            "Inflight Entertainment": 4,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 4,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Amsterdam",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "May 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "provided excellent service",
+            "Review Date": "2024-05-06",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 5,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Hong Kong",
+            "Aircraft": "A330-300",
+            "Date Flown": "April 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "cabin crew were extremely friendly",
+            "Review Date": "2024-04-14",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Hong Kong",
+            "Aircraft": "A330-300",
+            "Date Flown": "April 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "Another wonderful flight",
+            "Review Date": "2024-04-10",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 0,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Amsterdam to Jakarta",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "a seamless and wonderful experience",
+            "Review Date": "2024-03-20",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 5,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 5,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Amsterdam",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "This flight is another 10/10",
+            "Review Date": "2024-03-16",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "First Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 5,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Sorong",
+            "Aircraft": "Boeing 737-800 ",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "Another delightful flight",
+            "Review Date": "2024-02-25",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Farid Ladjimi",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Jakarta to Sydney",
+            "Aircraft": "A300-300",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "ground experience is terrible",
+            "Review Date": "2024-02-25",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Business",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 2,
+            "Inflight Entertainment": 2,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 2,
+            "Value For Money": 2,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Sorong to Jakarta",
+            "Aircraft": "Boeing 737-800",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "their truly welcoming smile",
+            "Review Date": "2024-02-18",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 4,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Sorong",
+            "Aircraft": "Boeing 737-800",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "Overall, not a bad flight",
+            "Review Date": "2024-02-14",
+            "Overall Rating": 8,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 4,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "D Ming",
+            "Country": "Singapore",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Jakarta to Sydney ",
+            "Aircraft": "A330-300",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "was not a recent movie",
+            "Review Date": "2024-02-10",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Denpasar, Bali to Jakarta",
+            "Aircraft": "A330-300",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "service was excellent",
+            "Review Date": "2024-02-05",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jonathan Rodden",
+            "Country": "United Kingdom",
+            "Type": "elite"
+        },
+        "Flight": {
+            "Route": "Jakarta to Denpasar Bali",
+            "Aircraft": "Boeing 777-300-ER",
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Garuda Indonesia",
+            "Star": 5
+        },
+        "Review Details": {
+            "Review Text": "Another great flight",
+            "Review Date": "2024-02-03",
+            "Overall Rating": 10,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 0,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 5,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Eleonora Micallef",
+            "Country": "Malta",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Phuket to Bali via Kuala Lumpur",
+            "Aircraft": "Boeing 737-800 ",
+            "Date Flown": "June 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "unsatisfactory airline service",
+            "Review Date": "2024-07-19",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Aidan Watt",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Denpasar to Brisbane",
+            "Aircraft": null,
+            "Date Flown": "July 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "Useless staff all round",
+            "Review Date": "2024-07-14",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Family Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Wui ling Ong",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Kuala Lumpur to Perth",
+            "Aircraft": null,
+            "Date Flown": "July 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "can\u2019t operate properly",
+            "Review Date": "2024-07-08",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Family Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 0,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "P Liem",
+            "Country": "Indonesia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Jakarta to Surabaya",
+            "Aircraft": "A320",
+            "Date Flown": "July 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "the worst full service airline",
+            "Review Date": "2024-07-07",
+            "Overall Rating": 2,
+            "Type Of Traveller": "Business",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 3,
+            "Cabin Staff Service": 2,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 2,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 3,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Christopher Jermia",
+            "Country": "United States",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Yogyakarta to Jakarta ",
+            "Aircraft": "A320-200",
+            "Date Flown": "June 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "chaos during boarding",
+            "Review Date": "2024-07-02",
+            "Overall Rating": 9,
+            "Type Of Traveller": "Family Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 4,
+            "Cabin Staff Service": 5,
+            "Food & Beverages": 5,
+            "Inflight Entertainment": 5,
+            "Ground Service": 3,
+            "Wifi & Connectivity": 5,
+            "Value For Money": 4,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "S Phan",
+            "Country": "Thailand",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Denpasar to Kuala Lumpur ",
+            "Aircraft": null,
+            "Date Flown": "June 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "It\u2019s too cold on board",
+            "Review Date": "2024-06-20",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "T Daynasi",
+            "Country": "Indonesia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Denpesar to Brisbane",
+            "Aircraft": "A330",
+            "Date Flown": "June 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "charged $99 per 20 kg bag",
+            "Review Date": "2024-06-20",
+            "Overall Rating": 2,
+            "Type Of Traveller": "Business",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 3,
+            "Cabin Staff Service": 3,
+            "Food & Beverages": 2,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 3,
+            "Value For Money": 2,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Norman Kamarudin",
+            "Country": "Malaysia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Tashkent to Kuala Lumpur ",
+            "Aircraft": "A340",
+            "Date Flown": "May 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "recovery was within 10 hours",
+            "Review Date": "2024-05-15",
+            "Overall Rating": 8,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 4,
+            "Cabin Staff Service": 4,
+            "Food & Beverages": 4,
+            "Inflight Entertainment": 1,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 3,
+            "Value For Money": 4,
+            "Recommended": true
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Shih Yuin Chew",
+            "Country": "Malaysia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Kuala Lumpur to Hanoi",
+            "Aircraft": null,
+            "Date Flown": "May 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "degrade itself to budget airline",
+            "Review Date": "2024-05-08",
+            "Overall Rating": 4,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 5,
+            "Cabin Staff Service": 3,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 0,
+            "Ground Service": 3,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 3,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Jaspreet Hura",
+            "Country": "Malaysia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Mumbai to Kuala Lumpur",
+            "Aircraft": null,
+            "Date Flown": "April 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "customer service is pathetic",
+            "Review Date": "2024-04-24",
+            "Overall Rating": 4,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 2,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 2,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 2,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "K Miller",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Denpasar to Balikpapan ",
+            "Aircraft": "Boeing 737",
+            "Date Flown": "April 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "avoid using this substandard airline",
+            "Review Date": "2024-04-15",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Business",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 2,
+            "Food & Beverages": 0,
+            "Inflight Entertainment": 0,
+            "Ground Service": 3,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "A Harsham",
+            "Country": "Malaysia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Kuala Lumpur to Jeddah",
+            "Aircraft": "A330",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "Business class No wifi",
+            "Review Date": "2024-04-01",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Business Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 5,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 2,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "M Ahlman",
+            "Country": "Sweden",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Jakarta to Surabaya",
+            "Aircraft": "A320",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "Terrible experience",
+            "Review Date": "2024-03-31",
+            "Overall Rating": 2,
+            "Type Of Traveller": "Business",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 3,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 2,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "T Marten",
+            "Country": "United Kingdom",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Bangkok to Bali",
+            "Aircraft": "=",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "never be flying with Batik Air again",
+            "Review Date": "2024-03-28",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "W Cheng",
+            "Country": "Malaysia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Kuala Lumpur to Taipei",
+            "Aircraft": "Boeing 737MAX8",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "Long waiting time at terminal",
+            "Review Date": "2024-03-23",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 0,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Chantelle Howard",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Perth to Kuala Lumpur",
+            "Aircraft": null,
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "such a negative experience",
+            "Review Date": "2024-03-18",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 0,
+            "Inflight Entertainment": 0,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "S Bafiqah",
+            "Country": "Malaysia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Kota Kinabalu to Kota Bharu",
+            "Aircraft": "-",
+            "Date Flown": "March 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "re-scheduled my ticket absent-mindedly",
+            "Review Date": "2024-03-05",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Solo Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 3,
+            "Food & Beverages": 0,
+            "Inflight Entertainment": 0,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 2,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Anu Thapa Chhetri",
+            "Country": "New Zealand",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Auckland to Kathmandu via Perth and Malaysia",
+            "Aircraft": null,
+            "Date Flown": "February 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "instead of 8hr transit we have 20hr Transit",
+            "Review Date": "2024-02-28",
+            "Overall Rating": 1,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 1,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "Borna V Verra",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Jakarta to Perth",
+            "Aircraft": null,
+            "Date Flown": "January 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "put me in a difficult situation",
+            "Review Date": "2024-02-27",
+            "Overall Rating": 2,
+            "Type Of Traveller": "Couple Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 1,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 1,
+            "Ground Service": 1,
+            "Wifi & Connectivity": 1,
+            "Value For Money": 1,
+            "Recommended": false
+        }
+    },
+    {
+        "Reviewer": {
+            "Name": "M Paltan",
+            "Country": "Australia",
+            "Type": "nonmember"
+        },
+        "Flight": {
+            "Route": "Melbourne to Kathmandu via Kuala ",
+            "Aircraft": null,
+            "Date Flown": "January 2024"
+        },
+        "Airline": {
+            "Name": "Batik Air",
+            "Star": 3
+        },
+        "Review Details": {
+            "Review Text": "staff appeared indifferent\" ",
+            "Review Date": "2024-02-24",
+            "Overall Rating": 2,
+            "Type Of Traveller": "Family Leisure",
+            "Seat Type": "Economy Class",
+            "Seat Comfort": 2,
+            "Cabin Staff Service": 2,
+            "Food & Beverages": 1,
+            "Inflight Entertainment": 0,
+            "Ground Service": 2,
+            "Wifi & Connectivity": 0,
+            "Value For Money": 2,
+            "Recommended": false
+        }
+    }
+]
