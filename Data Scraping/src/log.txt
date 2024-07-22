@@ -1,0 +1,4 @@
+2024-07-22 15:20:26.448654: Scraped 20 reviews from garuda-indonesia
+2024-07-22 15:20:30.907891: Scraped 20 reviews from batik-air
+2024-07-22 15:20:30.915578: Saved all reviews to JSON
+2024-07-22 15:20:31.201386: Loaded data to database
