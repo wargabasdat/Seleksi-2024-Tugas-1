@@ -110,6 +110,48 @@ def create_schema():
             END;
         ''')
 
+        cursor.execute('''
+            CREATE TRIGGER check_review_date
+            BEFORE INSERT ON Review
+            FOR EACH ROW
+            BEGIN
+                IF NEW.review_date > CURDATE() THEN
+                    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Review date cannot be in the future!';
+                END IF;
+            END;
+        ''')
+
+        cursor.execute('''
+            CREATE TRIGGER check_response_date
+            BEFORE INSERT ON Response
+            FOR EACH ROW
+            BEGIN
+                DECLARE review_date DATE;
+                SELECT r.review_date INTO review_date
+                FROM Review r
+                WHERE r.response_id = NEW.response_id;
+                IF NEW.response_date < review_date THEN
+                    SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Response date cannot be earlier than the review date!';
+                END IF;
+            END;
+        ''')
+
+        cursor.execute('''
+            CREATE FUNCTION get_airline_avg_rating(airline_name VARCHAR(255))
+            RETURNS FLOAT
+            READS SQL DATA
+            BEGIN
+                DECLARE avg_rating FLOAT;
+                SELECT AVG(r.overall_rating) INTO avg_rating
+                FROM Review r
+                NATURAL JOIN Flight f
+                NATURAL JOIN Airline a
+                WHERE a.name = airline_name;
+                RETURN avg_rating;
+            END;
+        ''')
+        
+
         connection.commit()
         cursor.close()
         connection.close()
