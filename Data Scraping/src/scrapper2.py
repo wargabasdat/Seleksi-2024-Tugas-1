@@ -16,11 +16,13 @@ def scrape_recipes():
 
     driver = webdriver.Chrome(options=options)
 
-    open('Data Scraping\src\creator_url.txt', 'w').close()
+    with open(r'Data Scraping\src\creator_url.txt', 'w+') as txtfile: 
+        txtfile.truncate(0) 
     with open(r'Data Scraping\src\recipes_url.txt', 'r') as file:
         links = file.readlines()
 
     recipes = []
+    creator_links = []
 
     for recipe_url in links:
         driver.get(recipe_url)
@@ -34,10 +36,9 @@ def scrape_recipes():
             creator_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//div[@class='byline svelte-176rmbi']/a"))
             )
-            creator = creator_element.text if creator_element else ""
+            creator = creator_element.text if creator_element else "aaa"
             creator_link = creator_element.get_attribute("href")
-            with open('creator_url.txt', 'a') as txtfile: 
-                txtfile.write(creator_link + '\n')
+            creator_links.append(creator_link)
 
             # stop_elements = WebDriverWait(driver, 10).until(
             #     EC.presence_of_all_elements_located((By.XPATH, "//stop"))
@@ -150,9 +151,12 @@ def scrape_recipes():
     try:
         with open(r'Data Scraping/data/recipes.json', 'w') as jsonfile:
             json.dump(recipes, jsonfile, indent=4)
-        logger.info("Scraping completed and recipes saved to recipes.json")
+        with open('Data Scraping\src\creator_url.txt', 'w') as txtfile:
+            for creator_link in creator_links:
+                txtfile.write(creator_link + '\n')
+        logger.info("Succed")
     except Exception as e:
-        logger.error(f"Error writing to recipes.json: {e}")
+        logger.error(f"Error: {e}")
 
     driver.quit()
 
