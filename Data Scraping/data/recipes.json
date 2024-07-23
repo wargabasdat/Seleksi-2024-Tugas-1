@@ -1,0 +1,58 @@
+[
+    {
+        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
+        "creator": "Natasha Feldman",
+        "serving_size": "311",
+        "calories": "267.1",
+        "total_fat": "18.7",
+        "saturated_fat": "3.6",
+        "cholesterol": "186",
+        "protein": "10",
+        "carbohydrate": "18.1",
+        "fiber": "8.1",
+        "sugar": "5.8",
+        "sodium": "690.7"
+    },
+    {
+        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
+        "creator": "Sandi From CA",
+        "serving_size": "222",
+        "calories": "277.1",
+        "total_fat": "16.4",
+        "saturated_fat": "2.5",
+        "cholesterol": "75.5",
+        "protein": "26.4",
+        "carbohydrate": "6.9",
+        "fiber": "3.2",
+        "sugar": "1.5",
+        "sodium": "914.6"
+    },
+    {
+        "food_name": "CRISPY FRIED FALAFEL",
+        "creator": "Chef floWer",
+        "serving_size": "521",
+        "calories": "29.4",
+        "total_fat": "0.3",
+        "saturated_fat": "0",
+        "cholesterol": "0",
+        "protein": "1.8",
+        "carbohydrate": "5",
+        "fiber": "1.7",
+        "sugar": "0.8",
+        "sodium": "55.9"
+    },
+    {
+        "food_name": "MEDITERRANEAN TILAPIA POCKETS #RSC",
+        "creator": "logansw",
+        "serving_size": "182",
+        "calories": "261.9",
+        "total_fat": "17",
+        "saturated_fat": "2.8",
+        "cholesterol": "62.5",
+        "protein": "25.7",
+        "carbohydrate": "3",
+        "fiber": "1.3",
+        "sugar": "0.8",
+        "sodium": "212.6"
+    }
+]
