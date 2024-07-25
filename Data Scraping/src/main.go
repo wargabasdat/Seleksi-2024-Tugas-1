@@ -192,7 +192,7 @@ func main() {
 		}
 
 		e.ForEach(".user-tags a", func(_ int, el *colly.HTMLElement) {
-			user.Tags = append(user.Tags, el.Text)
+			user.Tags = append(user.Tags, el.Attr("href"))
 		})
 
 		mu.Lock()
@@ -259,9 +259,9 @@ func main() {
 
 	// Save data to JSON file
 	data := map[string]interface{}{
-		"questions": questions,
-		"users":     users,
 		"tags":      tags,
+		"users":     users,
+		"questions": questions,
 	}
 
 	jsonData, err := json.MarshalIndent(data, "", "  ")
