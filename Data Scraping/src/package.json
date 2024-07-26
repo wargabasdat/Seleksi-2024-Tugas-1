@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "date-fns": "^3.6.0",
+    "fast-json-stringify": "^6.0.0",
     "puppeteer": "^22.13.1",
     "queue": "^7.0.0",
     "user-agents": "^1.1.276"
