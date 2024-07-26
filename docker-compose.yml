@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  # MariaDB
+  db:
+    image: mariadb:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_DATABASE=weather_app
+      - MYSQL_USER=weather_app
+      - MYSQL_PASSWORD=123456
+    volumes:
+      - ./db_data:/var/lib/mysql
+    ports:
+      - "3307:3306" # 3306 is already used by my local MySQL
+
+volumes:
+  db_data:
