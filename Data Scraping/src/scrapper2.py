@@ -16,13 +16,18 @@ def scrape_recipes():
 
     driver = webdriver.Chrome(options=options)
 
-    with open(r'Data Scraping\src\creator_url.txt', 'w+') as txtfile: 
+    with open(r'Data Scraping\data\creator_url.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
-    with open(r'Data Scraping\src\recipes_url.txt', 'r') as file:
+    with open(r'Data Scraping\data\ingredient_links.txt', 'w+') as txtfile: 
+        txtfile.truncate(0) 
+    open(r'Data Scraping/data/made_of.json', 'w').close()
+    with open(r'Data Scraping\data\recipes_url.txt', 'r') as file:
         links = file.readlines()
-
+        
     recipes = []
+    made_of = []
     creator_links = []
+    ingredient_links = []
 
     for recipe_url in links:
         driver.get(recipe_url)
@@ -36,17 +41,21 @@ def scrape_recipes():
             creator_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//div[@class='byline svelte-176rmbi']/a"))
             )
-            creator = creator_element.text if creator_element else "aaa"
+            creator = creator_element.text if creator_element else ""
             creator_link = creator_element.get_attribute("href")
             creator_links.append(creator_link)
 
-            # stop_elements = WebDriverWait(driver, 10).until(
-            #     EC.presence_of_all_elements_located((By.XPATH, "//stop"))
-            # )
-
-            # for element in stop_elements:
-            #     offset_value = element.get_attribute("offset")
-            #     print(f"Offset: {offset_value}")
+            ingredients = driver.find_elements(By.CSS_SELECTOR, ".ingredient-text a")
+            for ingredient_element in ingredients:
+                ingredient = ingredient_element.text
+                made_of_singular = {
+                    "food_name": food_name,
+                    "ingredient": ingredient
+                }
+                made_of.append(made_of_singular)
+                ingredient_link = ingredient.get_attribute('href')
+                ingredient_links.append(ingredient_link)
+            print(ingredient_links)
 
             # Click button 
             nutrition_button = WebDriverWait(driver, 10).until(
@@ -125,7 +134,6 @@ def scrape_recipes():
             parent_span = protein_element.find_element(By.XPATH, "./..")
             protein = parent_span.text.split(" ")[-2] if parent_span else ""
 
-
             recipe = {
                 "food_name": food_name,
                 "creator": creator,
@@ -140,9 +148,6 @@ def scrape_recipes():
                 "sugar": sugar,
                 "sodium": sodium
             }
-
-            print(recipe)
-
             recipes.append(recipe)
 
         except Exception as e:
@@ -152,10 +157,21 @@ def scrape_recipes():
     try:
         with open(r'Data Scraping/data/recipes.json', 'w') as jsonfile:
             json.dump(recipes, jsonfile, indent=4)
-        with open('Data Scraping\src\creator_url.txt', 'w') as txtfile:
+
+        with open('Data Scraping\data\creator_url.txt', 'w') as txtfile:
             for creator_link in creator_links:
                 txtfile.write(creator_link + '\n')
+
+        with open('Data Scraping\data\ingredient_links.txt', 'w') as txtfile:
+            for ingredient_link in ingredient_links:
+                txtfile.write(ingredient_link + '\n')
+                txtfile.write(creator_link + '\n')
+
+        with open(r'Data Scraping/data/made_of.json', 'w') as jsonfile:
+            json.dump(made_of, jsonfile, indent=4)
+
         logger.info("Succed")
+
     except Exception as e:
         logger.error(f"Error: {e}")
 
