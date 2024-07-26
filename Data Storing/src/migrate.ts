@@ -1,15 +1,6 @@
 import fs from "fs";
 import mariadb from "mariadb";
-
-// Initialize connection instance
-const pool = mariadb.createPool({
-  database: "weather_app",
-  host: "localhost",
-  port: 3307,
-  user: "weather_app",
-  password: "123456",
-});
-
+import { pool } from "./lib/db";
 /**
  * 1. Resets the database
  * 2. Migrates the schmea from ../export/schema.sql
