@@ -57,6 +57,7 @@ def scrape_recipes():
                 EC.presence_of_element_located((By.XPATH, "//p[@class='svelte-epeb0m']"))
             )
 
+            # After button clicked  
             serving_size_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//p[@class='svelte-epeb0m']"))
             )
