@@ -3,30 +3,38 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-options = webdriver.ChromeOptions()
-options.add_argument('--ignore-certificate-errors')
-options.add_argument('--ignore-ssl-errors')
+def scrape_recipe_links():
+    options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--ignore-ssl-errors')
 
-driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(options=options)
 
-# Cuma ambil yang mediteranian sama keto (sama2 jenis diet)
-links = ["https://www.food.com/ideas/mediterranean-diet-recipes-6794?ref=nav#c-666481","https://www.food.com/ideas/keto-recipes-6652?ref=nav"]
-coll_of_url = []
+    with open('Data Scraping/data/source_link.txt', 'r') as file:
+        links = file.readlines()
 
-with open('urls.txt', 'w') as txtfile:
-    txtfile.write('')
+    coll_of_url = []
 
-for link in links:
-    driver.get(link)
-    assert "Food" in driver.title
+    for link in links:
+        driver.get(link.strip())
+        assert "Food" in driver.title
 
-    wait = WebDriverWait(driver, 10)
-    elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".smart-card.container-sm.recipe")))
+        wait = WebDriverWait(driver, 10)
+        try:
+            elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".smart-card.container-sm.recipe")))
 
-    with open('urls.txt', 'a') as txtfile: 
-        for elem in elements:
-            url = elem.get_attribute("data-url")
-            if url:
-                txtfile.write(url + '\n')
+            for elem in elements:
+                url = elem.get_attribute("data-url")
+                if url:
+                    coll_of_url.append(url)
+        except Exception as e:
+            print(f"Error: {e}")
 
-driver.quit()
+    with open('Data Scraping/data/recipe_links.txt', 'w') as txtfile: 
+        for url in coll_of_url:
+            txtfile.write(url + '\n')
+
+    driver.quit()
+
+if __name__ == "__main__":
+    scrape_recipe_links()

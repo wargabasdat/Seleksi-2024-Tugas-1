@@ -53,7 +53,7 @@ def scrape_recipes():
                     "ingredient": ingredient
                 }
                 made_of.append(made_of_singular)
-                ingredient_link = ingredient.get_attribute('href')
+                ingredient_link = ingredient_element.get_attribute('href')
                 ingredient_links.append(ingredient_link)
             print(ingredient_links)
 
@@ -165,7 +165,6 @@ def scrape_recipes():
         with open('Data Scraping\data\ingredient_links.txt', 'w') as txtfile:
             for ingredient_link in ingredient_links:
                 txtfile.write(ingredient_link + '\n')
-                txtfile.write(creator_link + '\n')
 
         with open(r'Data Scraping/data/made_of.json', 'w') as jsonfile:
             json.dump(made_of, jsonfile, indent=4)

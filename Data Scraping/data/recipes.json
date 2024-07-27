@@ -1,1 +1,16 @@
-[]
+[
+    {
+        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
+        "creator": "Natasha Feldman",
+        "serving_size": "311",
+        "calories": "267.1",
+        "total_fat": "18.7",
+        "saturated_fat": "3.6",
+        "cholesterol": "186",
+        "protein": "10",
+        "carbohydrate": "18.1",
+        "fiber": "8.1",
+        "sugar": "5.8",
+        "sodium": "690.7"
+    }
+]
