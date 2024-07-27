@@ -1,7 +1,9 @@
 version: "3.8"
+
 services:
   # MariaDB
   db:
+    container_name: weather_app_db
     image: mariadb:latest
     environment:
       - MYSQL_ROOT_PASSWORD=123456
@@ -12,6 +14,56 @@ services:
       - ./db_data:/var/lib/mysql
     ports:
       - "3307:3306" # 3306 is already used by my local MySQL
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mysqladmin",
+          "ping",
+          "-h",
+          "localhost",
+          "-P",
+          "3307",
+          "-u",
+          "root",
+          "-p$$MYSQL_PASSWORD",
+        ]
+      interval: 60s
+      timeout: 5s
+      retries: 5
+
+  # App development
+  app-dev:
+    container_name: weather_app_dev
+    build:
+      context: .
+      target: dev
+    ports:
+      - "3000:3000"
+    command: npm run dev
+    environment:
+      - NODE_ENV=development
+    #if you’re using Windows, you may need to uncomment the next line - Sol from @Kobe E
+    #- WATCHPACK_POLLING=true
+    volumes:
+      - ./Data Visualization:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - db
+
+  # App production
+  app-prod:
+    container_name: weather_app_prod
+    build:
+      context: .
+      target: runner
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
 
 volumes:
   db_data:
