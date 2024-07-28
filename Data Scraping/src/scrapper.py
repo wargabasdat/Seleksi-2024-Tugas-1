@@ -1,3 +1,4 @@
+import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,12 +11,6 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def scrape_recipe_links():
-    options = webdriver.ChromeOptions()
-    options.add_argument('--ignore-certificate-errors')
-    options.add_argument('--ignore-ssl-errors')
-
-    driver = webdriver.Chrome(options=options)
-
     with open('Data Scraping/data/source_link.txt', 'r') as file:
         links = file.readlines()
 
@@ -40,15 +35,7 @@ def scrape_recipe_links():
         for url in coll_of_url:
             txtfile.write(url + '\n')
 
-    
-
 def scrape_recipes():
-    options = webdriver.ChromeOptions()
-    options.add_argument('--ignore-certificate-errors')
-    options.add_argument('--ignore-ssl-errors')
-
-    driver = webdriver.Chrome(options=options)
-
     with open(r'Data Scraping\data\creator_url.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
     with open(r'Data Scraping\data\ingredient_links.txt', 'w+') as txtfile: 
@@ -203,10 +190,7 @@ def scrape_recipes():
     except Exception as e:
         logger.error(f"Error: {e}")
 
-    
-
 def scrape_ingredients():
-
     with open('Data Scraping\data\ingredient_links.txt', 'r') as file:
         links = file.readlines()
     
@@ -321,7 +305,54 @@ def scrape_ingredients():
 
         except Exception as e:
             logger.error(f"Error: {e}")
-            
+
+def scrape_users():
+    with open('Data Scraping/data/user_links.txt', 'r') as file:
+        links = file.readlines()
+
+    users = []
+
+    for link in links:
+        driver.get(link)
+        try:
+            name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group .name-bio-message h3"))).text.strip()
+        except Exception as e:
+            name = None
+
+        user_name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group .profileusername"))).text.strip()
+
+        try:
+            bio = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group .bio"))).text.strip()
+        except Exception as e:
+            bio = None
+
+        try:
+            user_rating_avg = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".user-facts .gk-rating .rating-text"))).text.split(' ')[0]
+        except Exception as e:
+            user_rating_avg = None
+
+        joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
+        joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m')
+
+        followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".user-followers .data .count"))).text.strip()
+
+        following = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".user-following .data .count"))).text.strip()
+
+        user = {
+            "name": name,
+            "user_name": user_name,
+            "bio": bio,
+            "user_rating_avg": user_rating_avg,
+            "joined_date": joined_date,
+            "followers": followers,
+            "following": following
+        }
+        print(user)
+        users.append(user)
+
+    with open('Data Scraping/data/users.json', 'w') as json_file:
+        json.dump(users, json_file, indent=4)
+
 
 if __name__ == "__main__":
     
@@ -339,7 +370,7 @@ if __name__ == "__main__":
     wait = WebDriverWait(driver, 10)
     
     # Scraping
-    scrape_ingredients()
+    scrape_users()
     
     # Quit driver
     driver.quit()
