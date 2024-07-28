@@ -86,6 +86,7 @@ def scrape_recipes():
                 ingredient_links.append(ingredient_link)
 
             # Questions
+            question_id = 1
             questions = driver.find_elements(By.CLASS_NAME, 'conversation__post')
             for question in questions:
                 username = question.find_element(By.CLASS_NAME, 'post__author-link').text
@@ -95,11 +96,14 @@ def scrape_recipes():
                 except:
                     likes = None
                 question_singular = {
+                    "question_id": f"{food_name}_question_{question_id}",
+                    "food_name": food_name,
                     "username": username,
                     "question": quest,
                     "likes": likes
                 }
                 question_list.append(question_singular)
+                question_id += 1
 
             # STILL ERROR
             # comments = driver.find_elements(By.CLASS_NAME, 'text-truncate.svelte-1aswkii')
