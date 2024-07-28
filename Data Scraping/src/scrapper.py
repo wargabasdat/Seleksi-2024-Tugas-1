@@ -35,19 +35,21 @@ def scrape_recipe_links():
         for url in coll_of_url:
             txtfile.write(url + '\n')
 
-def scrape_recipes():
+def scrape_recipes(): 
     with open(r'Data Scraping\data\creator_url.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
     with open(r'Data Scraping\data\ingredient_links.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
     open(r'Data Scraping/data/made_of.json', 'w').close()
-    with open(r'Data Scraping\data\recipes_url.txt', 'r') as file:
+    with open(r'Data Scraping\data\recipe_links.txt', 'r') as file:
         links = file.readlines()
         
     recipes = []
     made_of = []
     creator_links = []
     ingredient_links = []
+    comments = []
+    question_list = []
 
     for recipe_url in links:
         driver.get(recipe_url)
@@ -65,6 +67,13 @@ def scrape_recipes():
             creator_link = creator_element.get_attribute("href")
             creator_links.append(creator_link)
 
+            # STILL ERROR
+            # layout_item = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".layout_item.rating-badge")))
+            # stops = layout_item.find_elements(By.TAG_NAME, 'stop')
+            # offsets = [stop.get_attribute('offset') for stop in stops if stop.get_attribute('offset') is not None]
+            # print(offsets)
+
+            # Ingredients
             ingredients = driver.find_elements(By.CSS_SELECTOR, ".ingredient-text a")
             for ingredient_element in ingredients:
                 ingredient = ingredient_element.text
@@ -75,6 +84,34 @@ def scrape_recipes():
                 made_of.append(made_of_singular)
                 ingredient_link = ingredient_element.get_attribute('href')
                 ingredient_links.append(ingredient_link)
+
+            # Questions
+            questions = driver.find_elements(By.CLASS_NAME, 'conversation__post')
+            for question in questions:
+                username = question.find_element(By.CLASS_NAME, 'post__author-link').text
+                quest = question.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
+                try:
+                    likes = question.find_element(By.CLASS_NAME, 'recipe-likes').text
+                except:
+                    likes = None
+                question_singular = {
+                    "username": username,
+                    "question": quest,
+                    "likes": likes
+                }
+                question_list.append(question_singular)
+
+            # STILL ERROR
+            # comments = driver.find_elements(By.CLASS_NAME, 'text-truncate.svelte-1aswkii')
+            # ratings = driver.find_elements(By.CLASS_NAME, 'five-star-rating.svelte-1n6w264')
+            # users = driver.find_elements(By.CLASS_NAME, 'post__author-link caption svelte-omstw2')
+            # likes = driver.find_elements(By.CLASS_NAME, 'recipe-likes__count caption svelte-omstw2')
+            # for comment, rating, user, like in zip(comments, ratings, users, likes):
+            #     comment_text = comment.text
+            #     rating_value = rating.find_element(By.TAG_NAME, 'svg').get_attribute('title')
+            #     username = user.text
+            #     like_count = like.text
+            #     print(f'Username: {username}\nComment: {comment_text}\nRating: {rating_value}\nLikes: {like_count}\n')
 
             # Click button 
             nutrition_button = WebDriverWait(driver, 10).until(
@@ -184,6 +221,9 @@ def scrape_recipes():
 
         with open(r'Data Scraping/data/made_of.json', 'w') as jsonfile:
             json.dump(made_of, jsonfile, indent=4)
+
+        with open(r'Data Scraping/data/questions.json', 'w') as jsonfile:
+            json.dump(question_list, jsonfile, indent=4)
 
         logger.info("Succed")
 
@@ -331,6 +371,16 @@ def scrape_users():
         except Exception as e:
             user_rating_avg = None
 
+        # STILL ERROR
+        # try:
+        #     location_element = wait.until(EC.presence_of_element_located((By.XPATH, "//i[contains(@class, 'icon-fdc-map-pin')]/following-sibling::div")))
+        #     location = location_element.text.strip()
+        #     user_state = location.split(',')[1].strip() if ',' in location else None
+        # except Exception as e:
+        #     print(f"error: {e}")
+        #     location = None
+        #     user_state = None
+
         joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
         joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m')
 
@@ -343,6 +393,9 @@ def scrape_users():
             "user_name": user_name,
             "bio": bio,
             "user_rating_avg": user_rating_avg,
+            # STILL ERROR
+            # "location": location,
+            # "state": user_state,
             "joined_date": joined_date,
             "followers": followers,
             "following": following
@@ -370,7 +423,7 @@ if __name__ == "__main__":
     wait = WebDriverWait(driver, 10)
     
     # Scraping
-    scrape_users()
+    scrape_recipes()
     
     # Quit driver
     driver.quit()
