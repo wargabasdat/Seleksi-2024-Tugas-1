@@ -5,7 +5,7 @@ import undetected_chromedriver as uc
 import time
 import json
 
-def char_scrape(driver, main_url):
+def char_scrape():
 
     """
     Prosedur ini melakukan scraping dari main_url, yaitu laman top hated character dari anime-planet
@@ -100,7 +100,7 @@ def char_scrape(driver, main_url):
     with open('./Data Scraping/data/hated_characters_anime_url.json', 'w') as outfile:
         json.dump(anime_dict, outfile, indent=4)        
 
-def anime_scrape(driver, wait):
+def anime_scrape():
     
     """
     Prosedur ini melakukan scraping terhadap laman-laman anime yang disimpan di hated_characters_anime_url.json
@@ -150,18 +150,21 @@ def anime_scrape(driver, wait):
         except:
             print("anime type not found")
         
-        # Mengambil dan menyimpan nama studio serta musim dan tahun rilisnya
+        # Mengambil dan menyimpan nama studio
         try:
             anime_details_a_tag = anime_details_element.find_elements(By.TAG_NAME, "a")
             for atag in anime_details_a_tag:
                 if ("studio" in atag.get_attribute("href")):
                     anime_details["studio"] = atag.text.lower()
-                elif ("season" in atag.get_attribute("href")):
-                    season_year = atag.text.lower().split(" ")  # season_year ini formatnya "season year"
-                    anime_details["season"] = season_year[0]    # split untuk mendapatkan season
-                    anime_details["year"] = int(season_year[1]) # split untuk mendapatkan year
-        except:
-            print("studio or season not found")
+        except Exception as e:
+            print("studio not found")
+            
+        # Mengambil dan menyimpan tahun rilisnya
+        try:
+            anime_details_year = anime_details_element.find_element(By.CSS_SELECTOR, "span.iconYear").text.lower().split("-")[0].strip()
+            anime_details["year"] = int(anime_details_year)
+        except Exception as e:
+            print("year not found")
         
         try:
             avg_rating = anime_details_element.find_element(By.CSS_SELECTOR, "div.avgRating").text.lower().split(" ")[0].strip()    # perlu indexing karena deskripsi ratingnya berbentuk kalimat
@@ -177,8 +180,8 @@ def anime_scrape(driver, wait):
                 reviewer = cards.find_element(By.CSS_SELECTOR, "span.user__username").text.lower()
                 review_details["reviewer"] = reviewer
                 
-                timestamp = cards.find_element(By.CSS_SELECTOR, "time.ShortReview__date").get_attribute("datetime").split(" ")[0]   # dilakukan split karena detail jam, menit, detik tidak diperlukan
-                review_details["timestamp"] = timestamp
+                date = cards.find_element(By.CSS_SELECTOR, "time.ShortReview__date").get_attribute("datetime").split(" ")[0]   # dilakukan split karena detail jam, menit, detik tidak diperlukan
+                review_details["date"] = date
                 
                 score = float(cards.find_element(By.CSS_SELECTOR, "span.ShortReview__rating").text)
                 review_details["score"] = score
@@ -250,8 +253,10 @@ def anime_scrape(driver, wait):
         print(f"progress: {len(anime_list)} / {len(anime_dict)} ; ETA: {(end_time-start_time)*(len(anime_dict)-len(anime_list)):.2f}s")
         print("==========")
         
-        if (len(anime_list) == 1):
-            break
+        # Statemen di bawah boleh di uncomment untuk testing purposes
+        # karena jumlah anime yang discrape ada sekitar 182 judul (~ 25 menit)
+        # if (len(anime_list) == 5):
+        #     break
         
     # Menyimpan semua informasi anime, review, dan custom list menjadi json    
     with open('./Data Scraping/data/anime_list.json', 'w') as outfile:
@@ -261,7 +266,7 @@ def anime_scrape(driver, wait):
     with open('./Data Scraping/data/clists_list.json', 'w') as outfile:
         json.dump(clists_list, outfile, indent=4)
 
-def main():
+if __name__ == "__main__":
     main_url = "https://www.anime-planet.com/characters/top-hated"
 
     # Buat objek options dari uc.ChromeOptions()
@@ -294,15 +299,12 @@ def main():
     print("driver setup done")
 
     # Memanggil prosedur untuk scraping karakter
-    char_scrape(driver, main_url)
+    # char_scrape()
     
     # Memanggil prosedur untuk scraping anime
-    anime_scrape(driver, wait)
+    anime_scrape()
 
     overall_end = time.time()
     print(f"Total scraping duration: {(overall_end-overall_start)//60:.2f} minutes") # Menghitung durasi total proses scraping
     
     driver.quit()
-
-if __name__ == "__main__":
-    main()
