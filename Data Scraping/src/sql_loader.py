@@ -8,8 +8,39 @@ config = {
     'user': 'root',
     'password': 'password',
     'host': 'localhost',
-    'database': 'airline_reviews'
+    'database': 'airline'
     }
+
+def init_database():
+    '''
+    create databse if not exists
+    '''
+    try:
+        connection = mysql.connector.connect(
+            host=config['host'],
+            user=config['user'],
+            password=config['password']
+        )
+        cursor = connection.cursor()
+
+        # Check if database exists
+        cursor.execute(f"SHOW DATABASES LIKE '{config['database']}';")
+        result = cursor.fetchone()
+
+        if result:
+            print(f"Database '{config['database']}' already exists!")
+        else:
+            # Create the database
+            cursor.execute(f"CREATE DATABASE {config['database']};")
+            connection.database = config['database']
+            print(f"Database '{config['database']}' created!")
+            create_schema()
+        
+        cursor.close()
+        connection.close()
+    except mysql.connector.Error as err:
+        print(f"Error: {err}")
+        exit(1)
 
 def create_schema():
     '''
@@ -169,7 +200,10 @@ def fetch_existing_data(cursor):
     cursor.execute('SELECT * FROM Flight')
     flights = {(airline_id, route, date, aircraft_type): flight_id for flight_id, airline_id, route, date, time, aircraft_type in cursor.fetchall()}
 
-    return airlines, reviewers, flights
+    cursor.execute('SELECT review_id, reviewer_id, flight_id, review_date FROM Review')
+    reviews = {(reviewer_id, flight_id, review_date): review_id for review_id, reviewer_id, flight_id, review_date in cursor.fetchall()}
+
+    return airlines, reviewers, flights, reviews
 
 def insert_airline(cursor, airline, cache):
     if airline['Name'] in cache:
@@ -198,7 +232,10 @@ def insert_reviewer(cursor, reviewer, cache):
     return reviewer_id
 
 def insert_flight(cursor, flight, airline_id, cache):
-    flight_date = parse_date_flown(flight['Date Flown'])
+    try:
+        flight_date = parse_date_flown(flight['Date Flown'])
+    except:
+        flight_date = flight['Date Flown']
     key = (airline_id, flight['Route'], flight_date, flight['Aircraft'])
     if key in cache:
         return cache[key]
@@ -211,8 +248,12 @@ def insert_flight(cursor, flight, airline_id, cache):
     cache[key] = flight_id
     return flight_id
 
-def insert_review(cursor, review, reviewer_id, flight_id):
+def insert_review(cursor, review, reviewer_id, flight_id, cache):
     review_date = datetime.datetime.strptime(review['Review Date'], '%Y-%m-%d').date()
+    key = (reviewer_id, flight_id, review_date)
+    if key in cache:
+        return cache[key]
+    
     cursor.execute('''
         INSERT INTO Review (reviewer_id, flight_id, review_text, review_date, overall_rating, seat_comfort_rating, cabin_staff_service_rating, food_beverage_rating, ground_service_rating, inflight_entertainment_rating, value_for_money_rating, wifi_and_connectivity_rating, is_recommended, traveller_type, seat_type)
         VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
@@ -230,13 +271,13 @@ def load_data():
         with open(cwd[:-3] +"data/airline_reviews.json", "r") as f:
             data = json.load(f)
 
-        airline_cache, reviewer_cache, flight_cache = fetch_existing_data(cursor)
+        airline_cache, reviewer_cache, flight_cache, review_cache = fetch_existing_data(cursor)
 
         for review in data:
             airline_id = insert_airline(cursor, review['Airline'], airline_cache)
             reviewer_id = insert_reviewer(cursor, review['Reviewer'], reviewer_cache)
             flight_id = insert_flight(cursor, review['Flight'], airline_id, flight_cache)
-            insert_review(cursor, review['Review Details'], reviewer_id, flight_id)
+            insert_review(cursor, review['Review Details'], reviewer_id, flight_id, review_cache)
             
         connection.commit()
         cursor.close()

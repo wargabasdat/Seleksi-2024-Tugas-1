@@ -8,18 +8,18 @@ def log(message):
         
 def main():
     airlines = ["garuda-indonesia", "batik-air"]
-    max_reviews_per_airline = 20
+    # max_reviews_per_airline = 20
     all_reviews = []
 
     for airline in airlines:
-        reviews = scrape_airline_reviews(airline, max_reviews_per_airline)
+        reviews = scrape_airline_reviews(airline)
         all_reviews.extend(reviews)
         log(f"Scraped {len(reviews)} reviews from {airline}")
 
     save_to_json(all_reviews)
     log("Saved all reviews to JSON")
     
-    create_schema()
+    init_database()
     load_data()
     log("Loaded data to database")
 

@@ -73,7 +73,10 @@ def scrape_and_clean_review(url: str, airline: str):
             if star_value:
                 value = int(star_value.get_text())
             else:
-                value = value.get_text()
+                try:
+                    value = value.get_text()
+                except:
+                    pass
 
             if key in ['Route','Date Flown','Aircraft']:
                 review_dict['Flight'][key] = value
@@ -95,7 +98,7 @@ def scrape_and_clean_review(url: str, airline: str):
     
     return review_list
 
-def scrape_airline_reviews(airline_name: list, max_reviews: int, pagesize: int = 10):
+def scrape_airline_reviews(airline_name: list, pagesize: int = 50):
     """
     Scrape all review from an airline
     """
@@ -104,7 +107,8 @@ def scrape_airline_reviews(airline_name: list, max_reviews: int, pagesize: int =
     try_count = 0
     current_page = 1
     
-    while max_reviews > review_scraped and try_count < 2:
+    # while max_reviews > review_scraped and try_count < 2:
+    while try_count < 2:
         try:
             print(f"Scraping page {current_page} for {airline_name}")
             url = f"https://www.airlinequality.com/airline-reviews/{airline_name}/page/{current_page}/?pagesize={pagesize}"
