@@ -1,10 +1,40 @@
 [
     {
-        "description": "A member of the nightshade family, eggplant is related to the potato and tomato. Eggplant is actually a fruit, specifically a berry. Although the most common type is large and dark purple, eggplant comes in many sizes (2-12 inches), shapes (oblong to round), and colors (white to green to purple). The first varieties of eggplant known to English-speaking people bore colorful eggshaped fruits, thus the name eggplant. At one time eggplant was discounted as poisonous and dubbed the \"mala insane\" (raging apple) because it was believed to cause insanity.",
-        "how_to_select": "Look for smooth, shiney skin with a firm but slightly springy texture. Avoid soft or brown spots.",
-        "how_to_store": "Eggplant becomes bitter with age. Store in a cool dry place and use within a day or two of purchase. To store longer, place in the refrigerator to for several days.",
-        "how_to_prepare": "bake, braise, boil, fry, grill, roast, saute, stew. When young, the skin is delicious and edible; older eggplants should be peeled. The flesh discolors quickly, cut just before using. When cutting or chopping it, use a stainless-steel knife, since carbon-steel utensils can cause discoloration and a bitter aftertaste.",
-        "matches_well_with": "aioli, anchovies, bacon, balsamic vinegar, basil, bechamel sauce, brad crumbs, capers, cream, cumin, garlic, goat cheese, Gruyere, ham, lamb, lemon, mint, Mozzarella, mushrooms olive oil, olives, onions, oregano, Parmesan, parsley, peppers, pesto, pine nuts, rice, Ricotta, rosemary, shallots, thyme, tomatoes, walnuts, yogurt, zucchini",
-        "substitution": ""
+        "ingredient_name": "DILL",
+        "description": "A green herb with feathery leaves, called dill weed. The flat tan dill seed is actually the dried fruit of the herb.",
+        "season": "available year-round",
+        "how_to_select": "",
+        "how_to_store": "",
+        "how_to_prepare": "The flavor is destroyed in heating so add at the end of cooking. Often used in pickles and flavoring fish.",
+        "matches_well_with": "beets, breads, cabbage, carrots, chicken cucumbers, cream sauces, eggs, fish, pickles, potatoes, salmon, scallops, seafood, sour cream, tomatoes, veal",
+        "substitution": "",
+        "calories": 0.0,
+        "total_fat": 0.0,
+        "saturated_fat": 0.0,
+        "cholesterol": 0.0,
+        "sodium": 0.0,
+        "total_carbohydrate": 0.1,
+        "dietary_fiber": 0.0,
+        "sugars": 0.0,
+        "protein": 0.0
+    },
+    {
+        "ingredient_name": "PARSLEY",
+        "description": "There are more than 30 varieties of parley, but the most common are curly-leaf and the more pungent Italian or flat-leaf parsley. The flat-leaf has more flavor than curly parsley and is preferred for cooking, while dried parsley has little flavor at all. In ancient times parsley wreaths were used to ward off drunkenness. Chewing parsley will help with bad breath from food odors such as garlic.",
+        "season": "available year-round",
+        "how_to_select": "Choose bright green leaves that show no sign of wilting.",
+        "how_to_store": "Rinse and wrap in a paper towel and then a plastic bag. Refrigerated it will last for a week. You can freeze parsley! Just clean, chop and let dry; then put in little baggies and seal.",
+        "how_to_prepare": "The leaves are most commonly used, however the stalks are good for adding flavor to stocks.",
+        "matches_well_with": "chicken, eggplant, eggs, fish, game, lentils, mushrooms, mussels, pasta, peas, potatoes, poultry, rice, seafood, tomatoes, zucchini, lemon",
+        "substitution": "",
+        "calories": 1.0,
+        "total_fat": 0.0,
+        "saturated_fat": 0.0,
+        "cholesterol": 0.0,
+        "sodium": 2.0,
+        "total_carbohydrate": 0.3,
+        "dietary_fiber": 0.1,
+        "sugars": 0.0,
+        "protein": 0.1
     }
 ]

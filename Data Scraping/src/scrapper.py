@@ -9,6 +9,39 @@ import re
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+def scrape_recipe_links():
+    options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--ignore-ssl-errors')
+
+    driver = webdriver.Chrome(options=options)
+
+    with open('Data Scraping/data/source_link.txt', 'r') as file:
+        links = file.readlines()
+
+    coll_of_url = []
+
+    for link in links:
+        driver.get(link.strip())
+        assert "Food" in driver.title
+
+        wait = WebDriverWait(driver, 10)
+        try:
+            elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".smart-card.container-sm.recipe")))
+
+            for elem in elements:
+                url = elem.get_attribute("data-url")
+                if url:
+                    coll_of_url.append(url)
+        except Exception as e:
+            print(f"Error: {e}")
+
+    with open('Data Scraping/data/recipe_links.txt', 'w') as txtfile: 
+        for url in coll_of_url:
+            txtfile.write(url + '\n')
+
+    
+
 def scrape_recipes():
     options = webdriver.ChromeOptions()
     options.add_argument('--ignore-certificate-errors')
@@ -55,16 +88,12 @@ def scrape_recipes():
                 made_of.append(made_of_singular)
                 ingredient_link = ingredient_element.get_attribute('href')
                 ingredient_links.append(ingredient_link)
-            print(ingredient_links)
 
             # Click button 
             nutrition_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//button[@class='link facts__nutrition svelte-1dqq0pw']"))
+                EC.element_to_be_clickable((By.XPATH, "//a[@class='nutrition'][@data-target='#128_nutrition']"))
             )
             nutrition_button.click()
-            WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//p[@class='svelte-epeb0m']"))
-            )
 
             # After button clicked  
             serving_size_element = WebDriverWait(driver, 10).until(
@@ -174,7 +203,143 @@ def scrape_recipes():
     except Exception as e:
         logger.error(f"Error: {e}")
 
-    driver.quit()
+    
+
+def scrape_ingredients():
+
+    with open('Data Scraping\data\ingredient_links.txt', 'r') as file:
+        links = file.readlines()
+    
+    ingredients = []
+
+    for link in links:
+        driver.get(link)
+        id = re.findall(r'\d+', link)
+        button_id = "#" + "_".join(id) + "_nutrition"
+        print(button_id)
+
+        try:
+            # Before button clicked
+            name_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ingredient-detail")))
+            name = name_element.text.split('\n')[0]
+
+            try:
+                desc_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ingredient-definition")))
+                desc = desc_element.text
+            except:
+                desc = ""
+
+            try:
+                season_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='Season']/following-sibling::p")))
+                season = season_element.text
+            except:
+                season = ""
+        
+            try:
+                how_to_select_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='How to select']/following-sibling::p")))
+                how_to_select = how_to_select_element.text
+            except:
+                how_to_select = ""
+
+            try:
+                how_to_store_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='How to store']/following-sibling::p")))
+                how_to_store = how_to_store_element.text
+            except:
+                how_to_store = ""
+
+
+            try:
+                how_to_prepare_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='How to prepare']/following-sibling::p")))
+                how_to_prepare = how_to_prepare_element.text
+            except:
+                how_to_prepare = ""
+
+            try:
+                match_with_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='Matches well with']/following-sibling::p")))
+                match_with = match_with_element.text 
+            except:
+                match_with_element = ""
+
+            try:
+                substitution_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='Substitution']/following-sibling::p")))
+                substitution = substitution_element.text
+
+            except:
+                substitution = ""
+
+            # Click button
+            try:
+                nutrition_button = wait.until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, f"a.nutrition[data-target='{button_id}']"))
+                )
+                nutrition_button.click()
+            except Exception as e:
+                print(f"Error:{e}")
+
+            # After button clicked
+            try:
+                modal_content = wait.until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "div.modal-body"))
+                )
+                nutrition_info = modal_content.text
+            except Exception as e:
+                print(f"Error:{e}")
+
+            calories = float(re.search(r'Calories (\d+)', nutrition_info).group(1))
+            total_fat = float(re.search(r'Total Fat ([\d.]+) g', nutrition_info).group(1))
+            saturated_fat = float(re.search(r'Saturated Fat ([\d.]+) g', nutrition_info).group(1))
+            cholesterol = float(re.search(r'Cholesterol ([\d.]+) mg', nutrition_info).group(1))
+            sodium = float(re.search(r'Sodium (\d+) mg', nutrition_info).group(1))
+            total_carbohydrate = float(re.search(r'Total Carbohydrate ([\d.]+) g', nutrition_info).group(1))
+            dietary_fiber = float(re.search(r'Dietary Fiber ([\d.]+) g', nutrition_info).group(1))
+            sugars = float(re.search(r'Sugars ([\d.]+) g', nutrition_info).group(1))
+            protein = float(re.search(r'Protein ([\d.]+) g', nutrition_info).group(1))
+
+            ingredient = {
+                "ingredient_name": name,
+                "description": desc,
+                "season": season,
+                "how_to_select": how_to_select,
+                "how_to_store": how_to_store,
+                "how_to_prepare": how_to_prepare,
+                "matches_well_with": match_with,
+                "substitution": substitution,
+                "calories": calories,
+                "total_fat": total_fat,
+                "saturated_fat": saturated_fat,
+                "cholesterol": cholesterol,
+                "sodium": sodium,
+                "total_carbohydrate": total_carbohydrate,
+                "dietary_fiber": dietary_fiber,
+                "sugars": sugars,
+                "protein": protein
+            }
+            ingredients.append(ingredient)
+
+            with open(r'Data Scraping/data/ingredients.json', 'w') as jsonfile:
+                json.dump(ingredients, jsonfile, indent=4)
+
+        except Exception as e:
+            logger.error(f"Error: {e}")
+            
 
 if __name__ == "__main__":
-    scrape_recipes()
+    
+    # Setup & run driver
+    options = webdriver.ChromeOptions()
+    options.add_argument('--ignore-certificate-errors')
+    options.add_argument('--ignore-ssl-errors')
+    options.add_argument('--allow-insecure-localhost')
+    options.add_argument('--blink-settings=imagesEnabled=false')
+    options.add_argument("--disable-javascript")
+    options.page_load_strategy = 'eager'
+    options.add_argument("--disable-extensions")
+
+    driver = webdriver.Chrome(options=options)
+    wait = WebDriverWait(driver, 10)
+    
+    # Scraping
+    scrape_ingredients()
+    
+    # Quit driver
+    driver.quit()
