@@ -30,37 +30,5 @@
         "dietary_fiber": 0.1,
         "sugars": 0.0,
         "protein": 0.1
-    },
-    {
-        "ingredient_id": "363",
-        "ingredient_name": "GREEN ONION",
-        "season_start": "January",
-        "season_end": "December",
-        "substitution": "",
-        "calories": 32.0,
-        "total_fat": 0.2,
-        "saturated_fat": 0.0,
-        "cholesterol": 0.0,
-        "sodium": 16.0,
-        "total_carbohydrate": 7.3,
-        "dietary_fiber": 2.6,
-        "sugars": 2.3,
-        "protein": 1.8
-    },
-    {
-        "ingredient_id": "330",
-        "ingredient_name": "MINT",
-        "season_start": "January",
-        "season_end": "December",
-        "substitution": "",
-        "calories": 0.0,
-        "total_fat": 0.0,
-        "saturated_fat": 0.0,
-        "cholesterol": 0.0,
-        "sodium": 0.0,
-        "total_carbohydrate": 0.0,
-        "dietary_fiber": 0.0,
-        "sugars": 0.0,
-        "protein": 0.0
     }
 ]

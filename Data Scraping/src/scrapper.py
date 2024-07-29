@@ -115,11 +115,21 @@ def scrape_recipes():
 
                 # review
                 elif post.get_attribute("class") == "conversation__post svelte-1f82czh":
+                    stop_elements = post.find_elements(By.TAG_NAME, "stop")
+                    rating_sum = 0
+                    for stop_element in stop_elements:
+                        rating = stop_element.get_attribute("offset")
+                        rating = re.findall(r'\d+', rating)[0]
+                        rating = int(rating)
+                        rating_sum += rating
+                    rating_mean = rating_sum/100
+                    # print([int(re.findall(r'\d+', stop.get_attribute("offset"))[0]) for stop in stop_elements])
                     review_singular = {
                     "review_id": f"review_{id}_{review_id}",
                     "food_id": id,
                     "username": username,
                     "review": content,
+                    "rating": rating_mean,
                     "likes": likes
                     }
                     review_id += 1
@@ -136,57 +146,6 @@ def scrape_recipes():
                     }
                     tweak_id += 1
                     tweak_list.append(tweak_singular)
-
-                # STILL ERROR
-                # The replies
-                # try:
-                #     reply_button = question.find_element(By.XPATH, ".//button[contains(@class, 'post__reply-action svelte-omstw2')]")
-                #     reply_button.click()  
-                #     WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, 'post__reply-item')))
-                    
-                #     replies = question.find_elements(By.CLASS_NAME, 'post__reply-item')
-                #     for reply in replies:
-                #         replying_user = reply.find_element(By.CLASS_NAME, 'post__author-link').text
-                #         reply_text = reply.find_element(By.CLASS_NAME, 'post__text').text
-                #         reply_data = {
-                #             "replying_user": replying_user,
-                #             "reply_text": reply_text
-                #         }
-                #         question_singular["replies"].append(reply_data)
-                # except Exception as e:
-                #     print(f"No replies or error occurred: {e}")
-                
-            # Comment 
-            # question_id = 1
-            # questions = driver.find_elements(By.CLASS_NAME, 'conversation__post')
-            # for question in questions:
-            #     username = question.find_element(By.CLASS_NAME, 'post__author-link').text
-            #     quest = question.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
-            #     try:
-            #         likes = question.find_element(By.CLASS_NAME, 'recipe-likes').text
-            #     except:
-            #         likes = None
-            #     question_singular = {
-            #         "question_id": f"{food_name}_question_{question_id}",
-            #         "food_name": food_name,
-            #         "username": username,
-            #         "question": quest,
-            #         "likes": likes
-            #     }
-            #     question_list.append(question_singular)
-            #     question_id += 1
-
-            # STILL ERROR
-            # comments = driver.find_elements(By.CLASS_NAME, 'text-truncate.svelte-1aswkii')
-            # ratings = driver.find_elements(By.CLASS_NAME, 'five-star-rating.svelte-1n6w264')
-            # users = driver.find_elements(By.CLASS_NAME, 'post__author-link caption svelte-omstw2')
-            # likes = driver.find_elements(By.CLASS_NAME, 'recipe-likes__count caption svelte-omstw2')
-            # for comment, rating, user, like in zip(comments, ratings, users, likes):
-            #     comment_text = comment.text
-            #     rating_value = rating.find_element(By.TAG_NAME, 'svg').get_attribute('title')
-            #     username = user.text
-            #     like_count = like.text
-            #     print(f'Username: {username}\nComment: {comment_text}\nRating: {rating_value}\nLikes: {like_count}\n')
 
             # Click button 
             nutrition_button = WebDriverWait(driver, 10).until(
@@ -509,7 +468,7 @@ if __name__ == "__main__":
     wait = WebDriverWait(driver, 10)
     
     # Scraping
-    scrape_ingredients()
+    scrape_recipes()
     
     # Quit driver
     driver.quit()
