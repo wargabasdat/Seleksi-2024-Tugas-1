@@ -1,4 +1,5 @@
 import datetime
+from requests import post
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -89,12 +90,27 @@ def scrape_recipes():
             question_id = 1
             questions = driver.find_elements(By.CLASS_NAME, 'conversation__post')
             for question in questions:
+                print(question.get_attribute("class"))
+                if question.get_attribute("class") == "conversation__post svelte-10quso3":
+                    print("ini question")
+                    question_id = 1
+                    # section_id += 1
+                elif question.get_attribute("class") == "conversation__post svelte-1f82czh":
+                    print("ini reviews")
+                    question_id = 1
+                    # section_id += 1
+                else:
+                    print("ini tweaks")
+                    question_id = 1
+
                 username = question.find_element(By.CLASS_NAME, 'post__author-link').text
                 quest = question.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
+                
                 try:
                     likes = question.find_element(By.CLASS_NAME, 'recipe-likes').text
                 except:
                     likes = None
+
                 question_singular = {
                     "question_id": f"{food_name}_question_{question_id}",
                     "food_name": food_name,
@@ -102,8 +118,48 @@ def scrape_recipes():
                     "question": quest,
                     "likes": likes
                 }
+
                 question_list.append(question_singular)
                 question_id += 1
+
+                # STILL ERROR
+                # The replies
+                # try:
+                #     reply_button = question.find_element(By.XPATH, ".//button[contains(@class, 'post__reply-action svelte-omstw2')]")
+                #     reply_button.click()  
+                #     WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CLASS_NAME, 'post__reply-item')))
+                    
+                #     replies = question.find_elements(By.CLASS_NAME, 'post__reply-item')
+                #     for reply in replies:
+                #         replying_user = reply.find_element(By.CLASS_NAME, 'post__author-link').text
+                #         reply_text = reply.find_element(By.CLASS_NAME, 'post__text').text
+                #         reply_data = {
+                #             "replying_user": replying_user,
+                #             "reply_text": reply_text
+                #         }
+                #         question_singular["replies"].append(reply_data)
+                # except Exception as e:
+                #     print(f"No replies or error occurred: {e}")
+                
+            # Comment 
+            # question_id = 1
+            # questions = driver.find_elements(By.CLASS_NAME, 'conversation__post')
+            # for question in questions:
+            #     username = question.find_element(By.CLASS_NAME, 'post__author-link').text
+            #     quest = question.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
+            #     try:
+            #         likes = question.find_element(By.CLASS_NAME, 'recipe-likes').text
+            #     except:
+            #         likes = None
+            #     question_singular = {
+            #         "question_id": f"{food_name}_question_{question_id}",
+            #         "food_name": food_name,
+            #         "username": username,
+            #         "question": quest,
+            #         "likes": likes
+            #     }
+            #     question_list.append(question_singular)
+            #     question_id += 1
 
             # STILL ERROR
             # comments = driver.find_elements(By.CLASS_NAME, 'text-truncate.svelte-1aswkii')
