@@ -1,12 +1,9 @@
 [
     {
+        "ingredient_id": "164",
         "ingredient_name": "DILL",
-        "description": "A green herb with feathery leaves, called dill weed. The flat tan dill seed is actually the dried fruit of the herb.",
-        "season": "available year-round",
-        "how_to_select": "",
-        "how_to_store": "",
-        "how_to_prepare": "The flavor is destroyed in heating so add at the end of cooking. Often used in pickles and flavoring fish.",
-        "matches_well_with": "beets, breads, cabbage, carrots, chicken cucumbers, cream sauces, eggs, fish, pickles, potatoes, salmon, scallops, seafood, sour cream, tomatoes, veal",
+        "season_start": "January",
+        "season_end": "December",
         "substitution": "",
         "calories": 0.0,
         "total_fat": 0.0,
@@ -19,13 +16,10 @@
         "protein": 0.0
     },
     {
+        "ingredient_id": "171",
         "ingredient_name": "PARSLEY",
-        "description": "There are more than 30 varieties of parley, but the most common are curly-leaf and the more pungent Italian or flat-leaf parsley. The flat-leaf has more flavor than curly parsley and is preferred for cooking, while dried parsley has little flavor at all. In ancient times parsley wreaths were used to ward off drunkenness. Chewing parsley will help with bad breath from food odors such as garlic.",
-        "season": "available year-round",
-        "how_to_select": "Choose bright green leaves that show no sign of wilting.",
-        "how_to_store": "Rinse and wrap in a paper towel and then a plastic bag. Refrigerated it will last for a week. You can freeze parsley! Just clean, chop and let dry; then put in little baggies and seal.",
-        "how_to_prepare": "The leaves are most commonly used, however the stalks are good for adding flavor to stocks.",
-        "matches_well_with": "chicken, eggplant, eggs, fish, game, lentils, mushrooms, mussels, pasta, peas, potatoes, poultry, rice, seafood, tomatoes, zucchini, lemon",
+        "season_start": "January",
+        "season_end": "December",
         "substitution": "",
         "calories": 1.0,
         "total_fat": 0.0,
@@ -36,5 +30,37 @@
         "dietary_fiber": 0.1,
         "sugars": 0.0,
         "protein": 0.1
+    },
+    {
+        "ingredient_id": "363",
+        "ingredient_name": "GREEN ONION",
+        "season_start": "January",
+        "season_end": "December",
+        "substitution": "",
+        "calories": 32.0,
+        "total_fat": 0.2,
+        "saturated_fat": 0.0,
+        "cholesterol": 0.0,
+        "sodium": 16.0,
+        "total_carbohydrate": 7.3,
+        "dietary_fiber": 2.6,
+        "sugars": 2.3,
+        "protein": 1.8
+    },
+    {
+        "ingredient_id": "330",
+        "ingredient_name": "MINT",
+        "season_start": "January",
+        "season_end": "December",
+        "substitution": "",
+        "calories": 0.0,
+        "total_fat": 0.0,
+        "saturated_fat": 0.0,
+        "cholesterol": 0.0,
+        "sodium": 0.0,
+        "total_carbohydrate": 0.0,
+        "dietary_fiber": 0.0,
+        "sugars": 0.0,
+        "protein": 0.0
     }
 ]

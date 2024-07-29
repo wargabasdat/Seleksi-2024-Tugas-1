@@ -1,22 +1,20 @@
 [
     {
+        "user_id": "2002302245",
         "name": "NULL NULL",
         "user_name": "@Natasha Feldman",
-        "bio": "Natasha Feldman is a cooking show host and private chef based out of Los Angeles. She has created and produced Webby-nominated content for brands and ... More",
+        "bio": "Natasha Feldman is a cooking show host and private chef based out of Los Angeles. She has created and produced Webby-nominated content for brands and ...",
         "user_rating_avg": "4.8",
-        "location": null,
-        "state": null,
         "joined_date": "2018-10",
         "followers": "36",
         "following": "0"
     },
     {
+        "user_id": "11176",
         "name": "SANDI (",
         "user_name": "@Sandi From CA",
         "bio": "",
         "user_rating_avg": "4.7",
-        "location": null,
-        "state": null,
         "joined_date": "2001-06",
         "followers": "108",
         "following": "12"
