@@ -38,26 +38,28 @@ def scrape_recipe_links():
             txtfile.write(url + '\n')
 
 def scrape_recipes(): 
-    with open(r'Data Scraping\data\creator_url.txt', 'w+') as txtfile: 
+    with open(r'Data Scraping\data\user_links.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
     with open(r'Data Scraping\data\ingredient_links.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
-    open(r'Data Scraping/data/made_of.json', 'w').close()
-    with open(r'Data Scraping\data\recipe_links.txt', 'r') as file:
-        links = file.readlines()
-        
+    # open(r'Data Scraping/data/made_of.json', 'w').close()
+    with open('Data Scraping/data/recipe_links.txt', 'r') as file:
+        recipe_links = file.readlines()
+
     recipes = []
     made_of = []
-    creator_links = []
-    ingredient_links = []
     question_list = []
-    review_list = []
-    tweak_list = []
+    tweak_and_review_list = []
 
-    for link in links:
+    for link in recipe_links:
+        with open('Data Scraping/data/user_links.txt', 'r') as file:
+            pre_user_links = file.readlines()
+        with open('Data Scraping/data/ingredient_links.txt', 'r') as file:
+            pre_ingredient_links = file.readlines()
+        user_links = []
+        ingredient_links = []
         driver.get(link)
         id = re.findall(r'\d+', link)[0]
-        print(id)
         try:
             # Before button clicked
             food_name_element = WebDriverWait(driver, 10).until(
@@ -70,37 +72,38 @@ def scrape_recipes():
             )
             creator = creator_element.text if creator_element else ""
             creator_link = creator_element.get_attribute("href")
-            creator_links.append(creator_link)
-
-            # STILL ERROR
-            # layout_item = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".layout_item.rating-badge")))
-            # stops = layout_item.find_elements(By.TAG_NAME, 'stop')
-            # offsets = [stop.get_attribute('offset') for stop in stops if stop.get_attribute('offset') is not None]
-            # print(offsets)
+            user_links.append(creator_link)
 
             # Ingredients
             ingredients = driver.find_elements(By.CSS_SELECTOR, ".ingredient-text a")
             for ingredient_element in ingredients:
                 ingredient = ingredient_element.text
-                made_of_singular = {
-                    "food_name": food_name,
-                    "ingredient": ingredient
-                }
-                made_of.append(made_of_singular)
                 ingredient_link = ingredient_element.get_attribute('href')
-                ingredient_links.append(ingredient_link)
+                ingredient_id = re.findall(r'\d+', ingredient_link)[0]
+                made_of_singular = {
+                    "food_id": id,
+                    "ingredient_id": ingredient_id
+                }
+                if made_of_singular not in made_of:
+                    made_of.append(made_of_singular)
+                # print(f"{ingredient_link} not in {pre_ingredient_links}: {ingredient_link not in pre_ingredient_links}")
+                if ingredient_link not in pre_ingredient_links and ingredient_link not in ingredient_links:
+                    ingredient_links.append(ingredient_link)
 
             # Post
             try:
-                print("ERROR BUNGGGG")
-                view_more_button = WebDriverWait(driver, 10).until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, "span.conversation__show-more__text.svelte-1f82czh"))
-                )
-                print("BUBUBUUUBU")
-                view_more_button.click()
-                print("HAHAHAHAH")
+                while True:
+                    try:
+                        view_more_button = WebDriverWait(driver, 10).until(
+                            EC.element_to_be_clickable((By.CSS_SELECTOR, "span.conversation__show-more__text.svelte-1f82czh"))
+                        )
+                        view_more_button.click()
+                        time.sleep(10)
+                    except Exception as e:
+                        print("Abiss")
+                        break
             except Exception as e:
-                print(f"ERROR SINI: {e}")
+                print(f"Error: {e}")
 
             question_id = 1
             review_id = 1
@@ -108,12 +111,16 @@ def scrape_recipes():
             posts = driver.find_elements(By.CLASS_NAME, 'conversation__post')
             time.sleep(10)                
             for post in posts:
-                username = post.find_element(By.CLASS_NAME, 'post__author-link').text
+                username_element = post.find_element(By.CLASS_NAME, 'post__author-link')
+                username = username_element.text
+                user_link = username_element.get_attribute('href')
+                # print(user_link)
+                if (user_link not in pre_user_links) and (user_link not in user_links):
+                    user_links.append(user_link)
                 content = post.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
                 likes = post.find_element(By.CLASS_NAME, 'recipe-likes').text
                 if likes == "": likes = "0"
 
-                print(post.get_attribute("class"))
                 # question
                 if post.get_attribute("class") == "conversation__post svelte-10quso3":
                     question_singular = {
@@ -136,33 +143,32 @@ def scrape_recipes():
                         rating = int(rating)
                         rating_sum += rating
                     rating_mean = rating_sum/100
-                    # print([int(re.findall(r'\d+', stop.get_attribute("offset"))[0]) for stop in stop_elements])
                     review_singular = {
-                    "review_id": f"review_{id}_{review_id}",
+                    "tweak_and_review_id": f"review_{id}_{review_id}",
                     "food_id": id,
                     "username": username,
-                    "review": content,
+                    "content": content,
                     "rating": rating_mean,
                     "likes": likes
                     }
                     review_id += 1
-                    review_list.append(review_singular)
+                    tweak_and_review_list.append(review_singular)
 
                 #tweak
                 else:
                     tweak_singular = {
-                    "tweak_id": f"tweak_{id}_{tweak_id}",
+                    "tweak_and_review_id": f"tweak_{id}_{tweak_id}",
                     "food_id": id,
                     "username": username,
-                    "tweak": content,
+                    "content": content,
                     "likes": likes
                     }
                     tweak_id += 1
-                    tweak_list.append(tweak_singular)
+                    tweak_and_review_list.append(tweak_singular)
 
             # Click button 
             nutrition_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//a[@class='nutrition'][@data-target='#128_nutrition']"))
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "button.link.facts__nutrition.svelte-1dqq0pw"))
             )
             nutrition_button.click()
 
@@ -250,42 +256,41 @@ def scrape_recipes():
                 "sodium": sodium
             }
             recipes.append(recipe)
+            # print(recipe)
+            try:
+                with open('Data Scraping/data/user_links.txt', 'a') as txtfile:
+                    for user_link in user_links:
+                        txtfile.write(user_link + '\n')
+                with open('Data Scraping/data/ingredient_links.txt', 'a') as txtfile:
+                    for ingredient_link in ingredient_links:
+                        txtfile.write(ingredient_link + '\n')
+            except Exception as e:
+                logger.error(f"Error: {e}")
 
         except Exception as e:
             logger.error(f"Error scraping {link}: {e}")
             logger.debug(f"Page source: {driver.page_source}")
 
     try:
-        with open(r'Data Scraping/data/recipes.json', 'w') as jsonfile:
+        with open('Data Scraping/data/recipes.json', 'w') as jsonfile:
             json.dump(recipes, jsonfile, indent=4)
 
-        with open('Data Scraping\data\creator_url.txt', 'w') as txtfile:
-            for creator_link in creator_links:
-                txtfile.write(creator_link + '\n')
-
-        with open('Data Scraping\data\ingredient_links.txt', 'w') as txtfile:
-            for ingredient_link in ingredient_links:
-                txtfile.write(ingredient_link + '\n')
-
-        with open(r'Data Scraping/data/made_of.json', 'w') as jsonfile:
+        with open('Data Scraping/data/made_of.json', 'w') as jsonfile:
             json.dump(made_of, jsonfile, indent=4)
 
-        with open(r'Data Scraping/data/questions.json', 'w') as jsonfile:
+        with open('Data Scraping/data/questions.json', 'w') as jsonfile:
             json.dump(question_list, jsonfile, indent=4)
 
-        with open(r'Data Scraping/data/reviews.json', 'w') as jsonfile:
-            json.dump(review_list, jsonfile, indent=4)
+        with open('Data Scraping/data/tweaks_and_reviews.json', 'w') as jsonfile:
+            json.dump(tweak_and_review_list, jsonfile, indent=4)
 
-        with open(r'Data Scraping/data/tweaks.json', 'w') as jsonfile:
-            json.dump(tweak_list, jsonfile, indent=4)
-
-        logger.info("Succed")
+        logger.info("Succeed")
 
     except Exception as e:
         logger.error(f"Error: {e}")
 
 def scrape_ingredients():
-    with open('Data Scraping\data\ingredient_links.txt', 'r') as file:
+    with open('Data Scraping/data/ingredient_links.txt', 'r') as file:
         links = file.readlines()
     
     ingredients = []
@@ -294,18 +299,10 @@ def scrape_ingredients():
         driver.get(link)
         id = re.findall(r'\d+', link)[0]
         button_id = "#" + id + "_nutrition"
-        print(button_id)
-
         try:
             # Before button clicked
             name_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ingredient-detail")))
             name = name_element.text.split('\n')[0]
-
-            # try:
-            #     desc_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ingredient-definition")))
-            #     desc = desc_element.text
-            # except:
-            #     desc = ""
 
             try:
                 season_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='Season']/following-sibling::p")))
@@ -361,19 +358,27 @@ def scrape_ingredients():
                     EC.presence_of_element_located((By.CSS_SELECTOR, "div.modal-body"))
                 )
                 nutrition_info = modal_content.text
-                print(nutrition_info)
             except Exception as e:
                 print(f"Error:{e}")
 
-            calories = float(re.search(r'Calories (\d+)', nutrition_info).group(1))
-            total_fat = float(re.search(r'Total Fat ([\d.]+) g', nutrition_info).group(1))
-            saturated_fat = float(re.search(r'Saturated Fat ([\d.]+) g', nutrition_info).group(1))
-            cholesterol = float(re.search(r'Cholesterol ([\d.]+) mg', nutrition_info).group(1))
-            sodium = float(re.search(r'Sodium (\d+) mg', nutrition_info).group(1))
-            total_carbohydrate = float(re.search(r'Total Carbohydrate ([\d.]+) g', nutrition_info).group(1))
-            dietary_fiber = float(re.search(r'Dietary Fiber ([\d.]+) g', nutrition_info).group(1))
-            sugars = float(re.search(r'Sugars ([\d.]+) g', nutrition_info).group(1))
-            protein = float(re.search(r'Protein ([\d.]+) g', nutrition_info).group(1))
+            try : calories = float(re.search(r'Calories (\d+)', nutrition_info).group(1))
+            except : calories = ""
+            try : total_fat = float(re.search(r'Total Fat ([\d.]+) g', nutrition_info).group(1))
+            except : total_fat = ""
+            try: saturated_fat = float(re.search(r'Saturated Fat ([\d.]+) g', nutrition_info).group(1))
+            except : saturated_fat = ""
+            try : cholesterol = float(re.search(r'Cholesterol ([\d.]+) mg', nutrition_info).group(1))
+            except : cholesterol = ""
+            try : sodium = float(re.search(r'Sodium (\d+) mg', nutrition_info).group(1))
+            except : sodium = ""
+            try : total_carbohydrate = float(re.search(r'Total Carbohydrate ([\d.]+) g', nutrition_info).group(1))
+            except : total_carbohydrate = ""
+            try : dietary_fiber = float(re.search(r'Dietary Fiber ([\d.]+) g', nutrition_info).group(1))
+            except : dietary_fiber = ""
+            try : sugars = float(re.search(r'Sugars ([\d.]+) g', nutrition_info).group(1))
+            except : sugars = ""
+            try : protein = float(re.search(r'Protein ([\d.]+) g', nutrition_info).group(1))
+            except :protein = ""
 
             ingredient = {
                 "ingredient_id": id,
@@ -396,10 +401,11 @@ def scrape_ingredients():
                 "protein": protein
             }
             ingredients.append(ingredient)
-
-            with open(r'Data Scraping/data/ingredients.json', 'w') as jsonfile:
-                json.dump(ingredients, jsonfile, indent=4)
-
+            try:
+                with open('Data Scraping/data/ingredients.json', 'w') as jsonfile:
+                    json.dump(ingredients, jsonfile, indent=4)
+            except Exception as e:
+                logger.error(f"Error: {e}")
         except Exception as e:
             logger.error(f"Error: {e}")
 
@@ -413,44 +419,34 @@ def scrape_users():
         driver.get(link)
         id = re.findall(r'\d+', link)[0]
         try:
-            name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group.name-bio-message.h3"))).text.strip()
+            name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.name-bio-message h3"))).text.strip()
         except Exception as e:
             name = None
 
-        user_name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group.profileusername"))).text.strip()
+        user_name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.profileusername"))).text.strip()
 
-        try:
-            bio = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group.bio"))).text.strip()
-        except Exception as e:
-            bio = None
-
-        try:
-            user_rating_avg = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".user-facts .gk-rating .rating-text"))).text.split(' ')[0]
-        except Exception as e:
-            user_rating_avg = None
-
-        # STILL ERROR
         # try:
-        #     location_element = wait.until(EC.presence_of_element_located((By.XPATH, "//i[contains(@class, 'icon-fdc-map-pin')]/following-sibling::div")))
-        #     location = location_element.text.strip()
-        #     user_state = location.split(',')[1].strip() if ',' in location else None
+        #     bio = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group.bio"))).text.strip()
         # except Exception as e:
-        #     print(f"error: {e}")
-        #     location = None
-        #     user_state = None
+        #     bio = None
+
+        try:
+            user_rating_avg = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.gk-rating span.rating-text"))).text.split(' ')[0]
+        except Exception as e:
+            user_rating_avg = ""
 
         joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
         joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m')
 
-        followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".user-followers .data .count"))).text.strip()
+        followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-followers span.count"))).text.strip()
 
-        following = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".user-following .data .count"))).text.strip()
+        following = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-following span.count"))).text.strip()
 
         user = {
             "user_id": id,
             "name": name,
             "user_name": user_name,
-            "bio": bio,
+            # "bio": bio,
             "user_rating_avg": user_rating_avg,
             # STILL ERROR
             # "location": location,
@@ -459,13 +455,14 @@ def scrape_users():
             "followers": followers,
             "following": following
         }
-        print(user)
         users.append(user)
 
     with open('Data Scraping/data/users.json', 'w') as json_file:
         json.dump(users, json_file, indent=4)
 
 if __name__ == "__main__":
+
+    start = time.time()
     
     # Setup & run driver
     options = webdriver.ChromeOptions()
@@ -478,10 +475,18 @@ if __name__ == "__main__":
     options.add_argument("--disable-extensions")
 
     driver = webdriver.Chrome(options=options)
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 20)
     
     # Scraping
-    scrape_recipes()
+    # scrape_recipe_links()
+    # scrape_recipes()
+    scrape_ingredients()
+    # scrape_users()
     
     # Quit driver
     driver.quit()
+
+    end = time.time()
+
+    p = (end - start) / 60 
+    print(f"{p} minutes")

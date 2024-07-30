@@ -1,178 +1,58 @@
 [
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "dill"
+        "food_id": "293197",
+        "ingredient_id": "193"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "parsley"
+        "food_id": "293197",
+        "ingredient_id": "220"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "scallion"
+        "food_id": "293197",
+        "ingredient_id": "459"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "mint"
+        "food_id": "293197",
+        "ingredient_id": "171"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "kosher salt"
+        "food_id": "293197",
+        "ingredient_id": "330"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "lemon"
+        "food_id": "293197",
+        "ingredient_id": "16"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "mint"
+        "food_id": "293197",
+        "ingredient_id": "148"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "dill"
+        "food_id": "293197",
+        "ingredient_id": "165"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "garlic clove"
+        "food_id": "293197",
+        "ingredient_id": "983"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "apple cider vinegar"
+        "food_id": "293197",
+        "ingredient_id": "20"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "kosher salt"
+        "food_id": "293197",
+        "ingredient_id": "349"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "ground black pepper"
+        "food_id": "293197",
+        "ingredient_id": "320"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "extra virgin olive oil"
+        "food_id": "293197",
+        "ingredient_id": "359"
     },
     {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "paprika"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "cherry tomatoes"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "extra virgin olive oil"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "kosher salt"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "eggplant"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "yellow onion"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "garlic cloves"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "paprika"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "cayenne pepper"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "cumin seed"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "sweet potato"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "zucchini"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "red bell pepper"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "whole wheat tortillas"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "eggs"
-    },
-    {
-        "food_name": "SHAKSHUKA BURRITO WITH ROASTED PEPPER SALSA AND TZATZIKI",
-        "ingredient": "avocados"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "boneless skinless chicken breast halves"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "lemon peel"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "fresh lemon juice"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "olive oil"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "olive oil"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "garlic clove"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "salt"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "ground black pepper"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "garlic cloves"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "sea salt"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "fresh ground pepper"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "tomatoes"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "capers"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "fresh basil leaves"
-    },
-    {
-        "food_name": "MEDITERRANEAN CHICKEN BREASTS WITH AVOCADO TAPENADE",
-        "ingredient": "Hass avocado"
+        "food_id": "293197",
+        "ingredient_id": "7"
     }
 ]

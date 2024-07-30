@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "food_id": "293197",
+        "food_name": "CRISPY FRIED FALAFEL",
+        "creator": "Chef floWer",
+        "serving_size": "521",
+        "calories": "29.4",
+        "total_fat": "0.3",
+        "saturated_fat": "0",
+        "cholesterol": "0",
+        "protein": "1.8",
+        "carbohydrate": "5",
+        "fiber": "1.7",
+        "sugar": "0.8",
+        "sodium": "55.9"
+    }
+]
