@@ -1,4 +1,7 @@
-export interface NonChart {
-  label: string;
-  value: number;
+export interface AverageWeatherData {
+  temperature: number;
+  dewPoint: number;
+  humidity: number;
+  windSpeed: number;
+  pressure: number;
 }
