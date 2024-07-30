@@ -26,6 +26,7 @@ interface CustomLineChartProps {
   chartData: TimeSeriesChartData[];
   labelY: string;
   formatUnitY: FormatUnit;
+  deltaDomainY?: number;
 }
 
 export function CustomLineChart({
@@ -34,6 +35,7 @@ export function CustomLineChart({
   chartData,
   labelY,
   formatUnitY,
+  deltaDomainY = 10,
 }: CustomLineChartProps) {
   const chartConfig = {
     tooltip: {
@@ -64,39 +66,39 @@ export function CustomLineChart({
 
   return (
     <Card className="col-span-2">
-      <CardHeader className="flex flex-col items-stretch space-y-0 border-b p-0 sm:flex-row">
-        <div className="flex flex-1 flex-col justify-center gap-1 px-6 py-5 sm:py-6">
+      <CardHeader className="flex flex-col items-stretch space-y-0 border-b p-0 lg:flex-row">
+        <div className="flex flex-1 flex-col justify-center gap-1 px-6 py-5 lg:py-6">
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </div>
         <div className="flex">
           {/* Min */}
-          <div className="flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 text-left even:border-l data-[active=true]:bg-muted/50 sm:border-l sm:border-t-0 sm:px-8 sm:py-6">
+          <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Minimum</span>
-            <span className="text-lg font-bold leading-none sm:text-3xl">
+            <span className="text-lg font-bold leading-none lg:text-3xl">
               {formatterY(summary.minY)}
             </span>
           </div>
 
           {/* Avg */}
-          <div className="flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 text-left even:border-l data-[active=true]:bg-muted/50 sm:border-l sm:border-t-0 sm:px-8 sm:py-6">
+          <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left border-l hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Average</span>
-            <span className="text-lg font-bold leading-none sm:text-3xl">
+            <span className="text-lg font-bold leading-none lg:text-3xl">
               {formatterY(summary.avgY)}
             </span>
           </div>
 
           {/* Max */}
-          <div className="flex flex-1 flex-col justify-center gap-1 border-t px-6 py-4 text-left even:border-l data-[active=true]:bg-muted/50 sm:border-l sm:border-t-0 sm:px-8 sm:py-6">
+          <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left border-l hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Maximum</span>
-            <span className="text-lg font-bold leading-none sm:text-3xl">
+            <span className="text-lg font-bold leading-none lg:text-3xl">
               {formatterY(summary.maxY)}
             </span>
           </div>
         </div>
       </CardHeader>
 
-      <CardContent className="px-2 sm:p-6">
+      <CardContent className="px-2 pt-6 sm:p-6">
         <ChartContainer
           config={chartConfig}
           className="aspect-auto h-[250px] w-full"
@@ -132,7 +134,11 @@ export function CustomLineChart({
               tickLine={false}
               axisLine={false}
               tickMargin={8}
-              tickFormatter={(value) => formatterY(value)}
+              domain={[
+                summary.minY - deltaDomainY,
+                summary.maxY + deltaDomainY,
+              ]}
+              tickFormatter={(value) => value.toFixed(1)}
             />
 
             <ChartTooltip

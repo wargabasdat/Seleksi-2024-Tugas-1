@@ -78,7 +78,7 @@ export default async function DashboardPage({
 
   const testQueryFilter: QueryFilter = {
     station: "WIHH",
-    startDate: new Date("2024-04-28"),
+    startDate: new Date("2015-04-28"),
     endDate: new Date("2024-04-31"),
   };
 
@@ -111,19 +111,12 @@ export default async function DashboardPage({
           {/* Temperature line chart */}
           <CustomLineChart
             title="Temperature"
-            description="Temperature overtime in Celcius over the selected date range and location."
+            description="Temperature overtime in Celcius over the selected daterange and location."
             labelY="Temperature"
             formatUnitY="celcius"
             chartData={xyChartData.temperature}
+            deltaDomainY={5}
           />
-
-          {/* Dew point line chart */}
-          <Card className="col-span-2">
-            <CardHeader>
-              <CardTitle className="text-lg">Dew Point</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
 
           {/* Humidity area chart */}
           <Card className="col-span-2">
@@ -133,15 +126,27 @@ export default async function DashboardPage({
             <CardContent className="pl-2"></CardContent>
           </Card>
 
-          {/* Wind speed vs overtime */}
-          <Card className="col-span-2">
-            <CardHeader>
-              <CardTitle className="text-lg">Wind Speed</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
+          {/* Pressure line chart */}
+          <CustomLineChart
+            title="Pressure"
+            description="Pressure in ″Hg over the selected daterange and location."
+            labelY="Pressure"
+            formatUnitY="inhg"
+            chartData={xyChartData.pressure}
+            deltaDomainY={50}
+          />
 
-          {/* Wind directory radar/pie chart */}
+          {/* Wind speed line chart */}
+          <CustomLineChart
+            title="Wind Speed"
+            description="Wind speed in km/h over the selected daterange and location."
+            labelY="Wind Speed"
+            formatUnitY="kmph"
+            chartData={xyChartData.windSpeed}
+            deltaDomainY={5}
+          />
+
+          {/* Wind direction radar chart */}
           <Card className="">
             <CardHeader>
               <CardTitle className="text-lg">Wind Direction</CardTitle>
@@ -149,7 +154,7 @@ export default async function DashboardPage({
             <CardContent className="pl-2"></CardContent>
           </Card>
 
-          {/* Weather condition radar/pie chart */}
+          {/* Weather condition pie chart */}
           <Card className="">
             <CardHeader>
               <CardTitle className="text-lg">Weather Condition</CardTitle>
@@ -157,21 +162,15 @@ export default async function DashboardPage({
             <CardContent className="pl-2"></CardContent>
           </Card>
 
-          {/* Pressure line chart */}
-          <Card className="col-span-2">
-            <CardHeader>
-              <CardTitle className="text-lg">Pressure</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
-
-          {/* Temperatrue vs Humididty */}
-          <Card className="col-span-2">
-            <CardHeader>
-              <CardTitle className="text-lg">Temperature & Humidity</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
+          {/* Dew point line chart */}
+          <CustomLineChart
+            title="Dew Point"
+            description="Dew point in Celcius over the selected daterange and location."
+            labelY="Dew Point"
+            formatUnitY="celcius"
+            chartData={xyChartData.dewPoint}
+            deltaDomainY={5}
+          />
         </section>
       </div>
     </main>

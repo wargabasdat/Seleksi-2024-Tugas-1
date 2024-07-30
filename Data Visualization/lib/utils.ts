@@ -118,7 +118,7 @@ export function formatWindSpeedKmH(windSpeed: number, precision: number = 1) {
  * @returns
  */
 export function formatPressureInHg(pressure: number, precision: number = 1) {
-  return `${pressure.toFixed(precision)} inHg`;
+  return `${pressure.toFixed(precision)} ″Hg`;
 }
 
 /**
