@@ -25,6 +25,7 @@ import {
   formatTemperatureCelcius,
   formatWindSpeedKmH,
 } from "@/lib/utils";
+import { CustomLineChart } from "./line-chart";
 
 export const metadata: Metadata = {
   title: "Dashboard | Weather Wise",
@@ -77,20 +78,23 @@ export default async function DashboardPage({
 
   const testQueryFilter: QueryFilter = {
     station: "WIHH",
-    startDate: new Date("2024-01-01"),
+    startDate: new Date("2024-04-28"),
     endDate: new Date("2024-04-31"),
   };
 
-  // Get average data
-  const averageData = await getAverageData(testQueryFilter);
-  console.log(averageData);
+  // Get frequency data
+  const weatherConditionData = await getFreqWeatherCondition(testQueryFilter);
+  const windDirectionData = await getFreqWindDirection(testQueryFilter);
+
+  // Get XY chart data
+  const xyChartData = await getXYChartData(testQueryFilter);
 
   return (
     <main className="flex flex-auto justify-center px-5 py-12 lg:p-16">
       <div className="w-full max-w-7xl flex flex-col gap-8">
         <header className="flex flex-col lg:flex-row lg:justify-between gap-4">
           {/* Title */}
-          <h1 className="font-bold text-3xl lg:text-4xl ">Dashboard</h1>
+          <h1 className="font-bold text-3xl lg:text-4xl">Dashboard</h1>
 
           {/* Filters */}
           <div className="flex flex-col sm:flex-row gap-4 lg:gap-4">
@@ -102,96 +106,72 @@ export default async function DashboardPage({
           </div>
         </header>
 
-        {/* Non Charts (Number) */}
-        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {/* Average temperature */}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Temperature</CardTitle>
-              <Thermometer className="size-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">
-                {formatTemperatureCelcius(averageData.temperature)}
-              </div>
-              <p className="text-xs text-muted-foreground">Average value</p>
-            </CardContent>
-          </Card>
-
-          {/* Average dew point*/}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Dew Point</CardTitle>
-              <ThermometerSnowflake className="size-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">
-                {formatTemperatureCelcius(averageData.dewPoint)}
-              </div>
-              <p className="text-xs text-muted-foreground">Average value</p>
-            </CardContent>
-          </Card>
-
-          {/* Average humidity */}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Humidity</CardTitle>
-              <Droplets className="size-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">
-                {formatHumidity(averageData.humidity)}
-              </div>
-              <p className="text-xs text-muted-foreground">Average value</p>
-            </CardContent>
-          </Card>
-
-          {/* Average wind_speed */}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Wind Speed</CardTitle>
-              <Wind className="size-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">
-                {formatWindSpeedKmH(averageData.windSpeed)}
-              </div>
-              <p className="text-xs text-muted-foreground">Average value</p>
-            </CardContent>
-          </Card>
-
-          {/* Average pressure */}
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium">Pressure</CardTitle>
-              <CircleGauge className="size-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">
-                {formatPressureInHg(averageData.pressure)}
-              </div>
-              <p className="text-xs text-muted-foreground">Average value</p>
-            </CardContent>
-          </Card>
-        </section>
-
-        {/* Charts */}
-        <section>
+        {/* Charts & Data */}
+        <section className="grid grid-cols-2 gap-4">
           {/* Temperature line chart */}
+          <CustomLineChart
+            title="Temperature"
+            description="Temperature overtime in Celcius over the selected date range and location."
+            labelY="Temperature"
+            formatUnitY="celcius"
+            chartData={xyChartData.temperature}
+          />
 
           {/* Dew point line chart */}
+          <Card className="col-span-2">
+            <CardHeader>
+              <CardTitle className="text-lg">Dew Point</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
 
           {/* Humidity area chart */}
+          <Card className="col-span-2">
+            <CardHeader>
+              <CardTitle className="text-lg">Humidity</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
 
           {/* Wind speed vs overtime */}
+          <Card className="col-span-2">
+            <CardHeader>
+              <CardTitle className="text-lg">Wind Speed</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
 
           {/* Wind directory radar/pie chart */}
-
-          {/* Pressure line chart */}
-
-          {/* Temperatrue vs Humididty */}
+          <Card className="">
+            <CardHeader>
+              <CardTitle className="text-lg">Wind Direction</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
 
           {/* Weather condition radar/pie chart */}
+          <Card className="">
+            <CardHeader>
+              <CardTitle className="text-lg">Weather Condition</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
+
+          {/* Pressure line chart */}
+          <Card className="col-span-2">
+            <CardHeader>
+              <CardTitle className="text-lg">Pressure</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
+
+          {/* Temperatrue vs Humididty */}
+          <Card className="col-span-2">
+            <CardHeader>
+              <CardTitle className="text-lg">Temperature & Humidity</CardTitle>
+            </CardHeader>
+            <CardContent className="pl-2"></CardContent>
+          </Card>
         </section>
       </div>
     </main>

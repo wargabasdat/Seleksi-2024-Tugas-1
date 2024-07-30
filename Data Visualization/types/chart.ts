@@ -3,7 +3,7 @@ export interface XYChartData<X, Y> {
   y: Y;
 }
 
-export type TimeSeriesChartData = XYChartData<Date, number>;
+export type TimeSeriesChartData = XYChartData<string, number>; // Date must be in string for recharts to work
 
 export type NumberNumberChartData = XYChartData<number, number>;
 

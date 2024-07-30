@@ -1,5 +1,6 @@
 import { type Location } from "@/types/location";
 import { type ClassValue, clsx } from "clsx";
+import { differenceInDays } from "date-fns";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
@@ -47,6 +48,40 @@ export function formateDateQuery(date: Date) {
 }
 
 /**
+ * Format date according to min and max date
+ *
+ * @param date
+ * @param minDate
+ * @param maxDate
+ *
+ * @returns formatted date
+ */
+export function formatDateChart(date: Date, minDate: Date, maxDate: Date) {
+  const d = new Date(date);
+  const min = new Date(minDate);
+  const max = new Date(maxDate);
+
+  const delta = differenceInDays(max, min);
+  if (delta < 5) {
+    return d.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+      hour: "numeric",
+      hour12: true,
+      minute: "numeric",
+    });
+  } else {
+    return d.toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      year: "numeric",
+    });
+  }
+}
+
+export type FormatUnit = "celcius" | "percentage" | "kmph" | "inhg";
+/**
  * Format temperature to to celcius
  *
  * @param temp
@@ -84,4 +119,20 @@ export function formatWindSpeedKmH(windSpeed: number, precision: number = 1) {
  */
 export function formatPressureInHg(pressure: number, precision: number = 1) {
   return `${pressure.toFixed(precision)} inHg`;
+}
+
+/**
+ * Format mapper
+ */
+export function mapFormatter(formatUnit: FormatUnit) {
+  switch (formatUnit) {
+    case "celcius":
+      return formatTemperatureCelcius;
+    case "percentage":
+      return formatHumidity;
+    case "kmph":
+      return formatWindSpeedKmH;
+    case "inhg":
+      return formatPressureInHg;
+  }
 }

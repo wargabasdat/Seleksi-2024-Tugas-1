@@ -18,7 +18,7 @@ interface QueryResultXYChartData {
 
 // Gets XY chart data for weather
 //
-// Group the data into 25 groups if there are more than 25 rows
+// Group the data into 200 groups if there are more than 200 rows
 export async function getXYChartData(
   filter: QueryFilter
 ): Promise<WeatherXYChartData> {
@@ -37,7 +37,7 @@ export async function getXYChartData(
       SELECT
         *,
         CASE
-          WHEN total_rows > 25 THEN CEIL(row_num / (total_rows / 25))
+          WHEN total_rows > 200 THEN CEIL(row_num / (total_rows / 200))
           ELSE row_num
         END AS group_num
       FROM numbered_weather
@@ -67,11 +67,11 @@ export async function getXYChartData(
   const temperatureHumidityData: NumberNumberChartData[] = [];
 
   result.forEach((row) => {
-    temperatureData.push({ x: row.datetime, y: row.temperature });
-    dewPointData.push({ x: row.datetime, y: row.dew_point });
-    humidityData.push({ x: row.datetime, y: row.humidity });
-    windSpeedData.push({ x: row.datetime, y: row.wind_speed });
-    pressureData.push({ x: row.datetime, y: row.pressure });
+    temperatureData.push({ x: row.datetime.toUTCString(), y: row.temperature });
+    dewPointData.push({ x: row.datetime.toUTCString(), y: row.dew_point });
+    humidityData.push({ x: row.datetime.toUTCString(), y: row.humidity });
+    windSpeedData.push({ x: row.datetime.toUTCString(), y: row.wind_speed });
+    pressureData.push({ x: row.datetime.toUTCString(), y: row.pressure });
     temperatureHumidityData.push({ x: row.temperature, y: row.humidity });
   });
 
