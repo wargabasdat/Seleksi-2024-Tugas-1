@@ -1,4 +1,4 @@
-import { pool } from "../db";
+import { dbQuery } from "../db";
 
 export async function getLocationOptions(): Promise<Location[]> {
   const query = `
@@ -11,7 +11,7 @@ export async function getLocationOptions(): Promise<Location[]> {
       location;
   `;
 
-  const result = (await pool.query(query)) as Location[];
+  const result = await dbQuery<Location[]>(query);
 
   return result;
 }
