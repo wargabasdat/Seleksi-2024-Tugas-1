@@ -121,7 +121,7 @@ const NavBar = ({
                     href={path.url}
                     className={`${
                       pathname.startsWith(path.url)
-                        ? "font-semibold text-foreground"
+                        ? "font-medium text-foreground"
                         : "font-medium text-muted-foreground lg:hover:text-foreground"
                     }`}
                   >
