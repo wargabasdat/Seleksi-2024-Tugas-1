@@ -1,3 +1,4 @@
+import { Location } from "@/types/location";
 import { dbQuery } from "../db";
 
 export async function getLocationOptions(): Promise<Location[]> {
