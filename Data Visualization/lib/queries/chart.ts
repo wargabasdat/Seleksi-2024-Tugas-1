@@ -1,12 +1,13 @@
 import { QueryFilter } from "@/types/filter";
 import { dbQuery } from "../db";
 import {
+  FreqChartData,
   NumberNumberChartData,
   TimeSeriesChartData,
   WeatherXYChartData,
 } from "@/types/chart";
 
-interface QueryResult {
+interface QueryResultXYChartData {
   datetime: Date;
   temperature: number;
   dew_point: number;
@@ -55,7 +56,7 @@ export async function getXYChartData(
 
   const params = [filter.station, filter.startDate, filter.endDate];
 
-  const result = await dbQuery<QueryResult[]>(query, params);
+  const result = await dbQuery<QueryResultXYChartData[]>(query, params);
 
   // Map result to WeatherXYChartData
   const temperatureData: TimeSeriesChartData[] = [];
@@ -84,4 +85,50 @@ export async function getXYChartData(
   };
 
   return weatherXYChartData;
+}
+
+// Get radar/pie chart data for wind direction
+export async function getFreqWindDirection(
+  filter: QueryFilter
+): Promise<FreqChartData[]> {
+  const query = `
+    SELECT
+      wind as label,
+      COUNT(*) as value
+    FROM weather
+    WHERE
+      station_code = ? AND
+      datetime BETWEEN ? AND ?
+    GROUP BY wind
+    ORDER BY wind;
+  `;
+
+  const params = [filter.station, filter.startDate, filter.endDate];
+
+  const result = await dbQuery<FreqChartData[]>(query, params);
+
+  return result;
+}
+
+// Get radar/pie chart data for weather condition
+export async function getFreqWeatherCondition(
+  filter: QueryFilter
+): Promise<FreqChartData[]> {
+  const query = `
+    SELECT
+      \`condition\` as label,
+      COUNT(*) as value
+    FROM weather
+    WHERE
+      station_code = ? AND
+      datetime BETWEEN ? AND ?
+    GROUP BY \`condition\`
+    ORDER BY \`condition\`;
+  `;
+
+  const params = [filter.station, filter.startDate, filter.endDate];
+
+  const result = await dbQuery<FreqChartData[]>(query, params);
+
+  return result;
 }
