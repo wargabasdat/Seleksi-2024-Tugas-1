@@ -1,4 +1,5 @@
 import datetime
+import time
 from requests import post
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -89,11 +90,23 @@ def scrape_recipes():
                 ingredient_link = ingredient_element.get_attribute('href')
                 ingredient_links.append(ingredient_link)
 
-            # Questions
+            # Post
+            try:
+                print("ERROR BUNGGGG")
+                view_more_button = WebDriverWait(driver, 10).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, "span.conversation__show-more__text.svelte-1f82czh"))
+                )
+                print("BUBUBUUUBU")
+                view_more_button.click()
+                print("HAHAHAHAH")
+            except Exception as e:
+                print(f"ERROR SINI: {e}")
+
             question_id = 1
             review_id = 1
             tweak_id = 1
             posts = driver.find_elements(By.CLASS_NAME, 'conversation__post')
+            time.sleep(10)                
             for post in posts:
                 username = post.find_element(By.CLASS_NAME, 'post__author-link').text
                 content = post.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
