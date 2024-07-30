@@ -40,7 +40,7 @@ export function WeatherDatePicker() {
         router.push(newURL);
       }}
       variant="outline"
-      className="w-full sm:max-w-80 justify-start font-normal"
+      className="w-full sm:w-80 justify-start font-normal"
     />
   );
 }

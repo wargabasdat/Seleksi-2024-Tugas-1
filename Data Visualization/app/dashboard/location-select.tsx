@@ -34,7 +34,7 @@ export function LocationSelect({ options }: LocationSelectProps) {
         router.push(newURL);
       }}
     >
-      <SelectTrigger className="w-full sm:max-w-80">
+      <SelectTrigger className="w-full sm:w-80">
         <SelectValue placeholder="Select location" />
       </SelectTrigger>
       <SelectContent>

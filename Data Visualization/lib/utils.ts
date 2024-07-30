@@ -6,6 +6,12 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+/**
+ * Converts type Location to a formatted string
+ *
+ * @param location
+ * @returns
+ */
 export function locationFormatter(location: Location) {
   const combined: string[] = [];
   if (location.city && location.city != "Unknown") {
@@ -25,12 +31,57 @@ export function locationFormatter(location: Location) {
   return combined.join(", ");
 }
 
+/**
+ * Format date to yyyy-MM-dd format in localtime
+ *
+ * @param date
+ * @returns
+ */
 export function formateDateQuery(date: Date) {
-  // yyyy-MM-dd in localtime
   const d = new Date(date);
   const year = d.getFullYear();
   const month = String(d.getMonth() + 1).padStart(2, "0"); // month index starts from 0
   const day = String(d.getDate()).padStart(2, "0");
 
   return `${year}-${month}-${day}`;
+}
+
+/**
+ * Format temperature to to celcius
+ *
+ * @param temp
+ * @returns formatted temperature
+ */
+export function formatTemperatureCelcius(temp: number, precision: number = 1) {
+  return `${temp.toFixed(precision)}°C`;
+}
+
+/**
+ * Formats humidity to percentage
+ *
+ * @param humidity
+ * @returns formatted humidity
+ */
+export function formatHumidity(humidity: number, precision: number = 1) {
+  return `${humidity.toFixed(precision)}%`;
+}
+
+/**
+ * Format wind speed to km/h
+ *
+ * @param windSpeed
+ * @returns formatted wind speed
+ */
+export function formatWindSpeedKmH(windSpeed: number, precision: number = 1) {
+  return `${windSpeed.toFixed(precision)} km/h`;
+}
+
+/**
+ * Format pressure to inHg
+ *
+ * @param pressure
+ * @returns
+ */
+export function formatPressureInHg(pressure: number, precision: number = 1) {
+  return `${pressure.toFixed(precision)} inHg`;
 }
