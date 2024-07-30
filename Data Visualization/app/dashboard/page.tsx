@@ -4,7 +4,6 @@ import {
   getXYChartData,
 } from "@/lib/queries/chart";
 import { getLocationOptions } from "@/lib/queries/location";
-import { getAverageData } from "@/lib/queries/non-chart";
 import { filterQuerySchema } from "@/schema/filter";
 import { Metadata } from "next";
 import { LocationSelect } from "./location-select";
@@ -12,20 +11,8 @@ import { WeatherDatePicker } from "./weather-date-picker";
 import { redirect } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { QueryFilter } from "@/types/filter";
-import {
-  CircleGauge,
-  Droplets,
-  Thermometer,
-  ThermometerSnowflake,
-  Wind,
-} from "lucide-react";
-import {
-  formatHumidity,
-  formatPressureInHg,
-  formatTemperatureCelcius,
-  formatWindSpeedKmH,
-} from "@/lib/utils";
 import { CustomLineChart } from "./line-chart";
+import { CustomAreaChart } from "./area-chart";
 
 export const metadata: Metadata = {
   title: "Dashboard | Weather Wise",
@@ -107,7 +94,7 @@ export default async function DashboardPage({
         </header>
 
         {/* Charts & Data */}
-        <section className="grid grid-cols-2 gap-4">
+        <section className="grid grid-cols-2 gap-4 lg:gap-6">
           {/* Temperature line chart */}
           <CustomLineChart
             title="Temperature"
@@ -119,12 +106,13 @@ export default async function DashboardPage({
           />
 
           {/* Humidity area chart */}
-          <Card className="col-span-2">
-            <CardHeader>
-              <CardTitle className="text-lg">Humidity</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
+          <CustomAreaChart
+            title="Humidity"
+            description="Humidity in percentage over the selected daterange and location."
+            labelY="Humidity"
+            formatUnitY="percentage"
+            chartData={xyChartData.humidity}
+          />
 
           {/* Pressure line chart */}
           <CustomLineChart

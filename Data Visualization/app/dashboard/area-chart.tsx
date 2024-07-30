@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts";
+import { Area, AreaChart, CartesianGrid, XAxis, YAxis } from "recharts";
 
 import {
   Card,
@@ -26,16 +26,14 @@ interface CustomLineChartProps {
   chartData: TimeSeriesChartData[];
   labelY: string;
   formatUnitY: FormatUnit;
-  deltaDomainY?: number;
 }
 
-export function CustomLineChart({
+export function CustomAreaChart({
   title,
   description,
   chartData,
   labelY,
   formatUnitY,
-  deltaDomainY = 10,
 }: CustomLineChartProps) {
   const chartConfig = {
     y: {
@@ -104,14 +102,7 @@ export function CustomLineChart({
           config={chartConfig}
           className="aspect-auto h-[250px] w-full"
         >
-          <LineChart
-            accessibilityLayer
-            data={chartData}
-            margin={{
-              left: 12,
-              right: 12,
-            }}
-          >
+          <AreaChart data={chartData}>
             <CartesianGrid vertical={false} />
 
             <XAxis
@@ -135,17 +126,15 @@ export function CustomLineChart({
               tickLine={false}
               axisLine={false}
               tickMargin={8}
-              domain={[
-                summary.minY - deltaDomainY,
-                summary.maxY + deltaDomainY,
-              ]}
-              tickFormatter={(value) => value.toFixed(1)}
+              minTickGap={32}
             />
 
             <ChartTooltip
+              cursor={false}
               content={
                 <ChartTooltipContent
                   className="w-[175px]"
+                  indicator="dot"
                   nameKey="y"
                   labelFormatter={(value) => {
                     const date = new Date(value);
@@ -158,9 +147,8 @@ export function CustomLineChart({
                 />
               }
             />
-
-            <Line dataKey={"y"} type="monotone" strokeWidth={2} dot={false} />
-          </LineChart>
+            <Area dataKey="y" type="natural" fillOpacity={0.4} />
+          </AreaChart>
         </ChartContainer>
       </CardContent>
     </Card>
