@@ -1,9 +1,142 @@
 [
     {
-        "question_id": "question_293197_1",
+        "tweak_and_question_id": "question_178249_1",
+        "food_id": "178249",
+        "username": "<SCRIPT>ALERT(DOCUMENT.COOKIE)</SCRIPT>",
+        "content": "Can kalamata olives be substituted for the green olives?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_178249_2",
+        "food_id": "178249",
+        "username": "CWILEY55",
+        "content": "Can kalamata olives be substituted for the green olives?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_178249_3",
+        "food_id": "178249",
+        "username": "ANNAGRAM54",
+        "content": "I know it would be delicious, but must the chicken be grilled? Can it be baked in the oven?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_178249_4",
+        "food_id": "178249",
+        "username": "LISA S.",
+        "content": "How many calories sodium and carbs in this meal\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_293197_1",
         "food_id": "293197",
         "username": "VANESSA H.",
-        "question": "What can the falafel be served with?\n ",
+        "content": "What can the falafel be served with?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_158351_1",
+        "food_id": "158351",
+        "username": "THOMAS M.",
+        "content": "What is the bed the salmon is placed upon ?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_537249_1",
+        "food_id": "537249",
+        "username": "CADDY LADY",
+        "content": "There are directions for making the vinaigrette but the ingredients for the vinaigrette are not listed. How much vinegar, orange juice, Dijon mustard, shallots, and garlic?\n ",
+        "likes": "3"
+    },
+    {
+        "tweak_and_question_id": "question_12684_1",
+        "food_id": "12684",
+        "username": "ANNAGRAM54",
+        "content": "Is there anything else you can substitute for the beans besides chickpeas? I'm not a bean fan but would like to have the protein.\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_304166_1",
+        "food_id": "304166",
+        "username": "YUSUKE U.",
+        "content": "I have a couple of quick questions I have never really dealt with english cucumbers. I've read about the differences. Can you use plain cucumbers instead? Does it significantly alter the taste of the sauce?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_536714_1",
+        "food_id": "536714",
+        "username": "BEADY BAKER",
+        "content": "The last ingredient for the tabbouleh is listed as \" 1 other seeds or nuts\". What measurement is this \"1\" referring to? One Tablespoon, One Cup, ??\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_220089_1",
+        "food_id": "220089",
+        "username": "TDUDZIAK",
+        "content": "I may have missed it, but is there a list of the nutritional information (including calorie count)?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_81419_1",
+        "food_id": "81419",
+        "username": "DEBRA R.",
+        "content": "In another minestrone recipe they use a borlotti bean. Is there another name for it ? Also your recipe is the best I've found so far. It's the oregano definitely. I add more pepper as well. Plus I'll only add the pasta needed and then freeze the soup. I can boil some pasta as needed in vegetable broth for more flavor. Thanks in advance for your expertise. ?????????? !!! I\nSee More  ",
+        "likes": "2"
+    },
+    {
+        "tweak_and_question_id": "question_81419_2",
+        "food_id": "81419",
+        "username": "KARENVJOHNSON09",
+        "content": "Should you drain the beans or add the entire can, undrained. Has anyone used chicken or vegetable broth instead of water?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_379639_1",
+        "food_id": "379639",
+        "username": "ANNA T.",
+        "content": "Hi everyone, just wondering if this would still be good if kept in the fridge for 24hrs? Would like to prepare day before a party.\n ",
+        "likes": "1"
+    },
+    {
+        "tweak_and_question_id": "question_379639_2",
+        "food_id": "379639",
+        "username": "DEBBIELPAYNE",
+        "content": "Is Tabouli Gluten free?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_156662_1",
+        "food_id": "156662",
+        "username": "ANNAGRAM54",
+        "content": "Would you cook bone-in, skin on chicken thighs a little longer to thoroughly cook?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_82509_1",
+        "food_id": "82509",
+        "username": "ANDREA R.",
+        "content": "keto friendly ?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_82509_2",
+        "food_id": "82509",
+        "username": "ANTCANDY44",
+        "content": "Why do you put a potato that you shred into the recipe.? Is it to give it an added creaminess?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_131972_1",
+        "food_id": "131972",
+        "username": "ANNAGRAM54",
+        "content": "Since you're not using mayonnaise, could you use tuna packed in oil so it's hopefully not dry?\n ",
+        "likes": "0"
+    },
+    {
+        "tweak_and_question_id": "question_214004_1",
+        "food_id": "214004",
+        "username": "SAPIOANGELA",
+        "content": "How long can this dip be made ahead of time??\n ",
         "likes": "0"
     }
 ]

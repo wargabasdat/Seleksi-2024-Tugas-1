@@ -1,58 +1,46 @@
 [
     {
-        "food_id": "293197",
-        "ingredient_id": "193"
+        "food_id": "178249",
+        "ingredient_id": "221"
     },
     {
-        "food_id": "293197",
-        "ingredient_id": "220"
+        "food_id": "178249",
+        "ingredient_id": "125"
     },
     {
-        "food_id": "293197",
-        "ingredient_id": "459"
+        "food_id": "178249",
+        "ingredient_id": "55"
     },
     {
-        "food_id": "293197",
-        "ingredient_id": "171"
+        "food_id": "178249",
+        "ingredient_id": "495"
     },
     {
-        "food_id": "293197",
-        "ingredient_id": "330"
-    },
-    {
-        "food_id": "293197",
-        "ingredient_id": "16"
-    },
-    {
-        "food_id": "293197",
-        "ingredient_id": "148"
-    },
-    {
-        "food_id": "293197",
+        "food_id": "178249",
         "ingredient_id": "165"
     },
     {
-        "food_id": "293197",
-        "ingredient_id": "983"
-    },
-    {
-        "food_id": "293197",
-        "ingredient_id": "20"
-    },
-    {
-        "food_id": "293197",
-        "ingredient_id": "349"
-    },
-    {
-        "food_id": "293197",
-        "ingredient_id": "320"
-    },
-    {
-        "food_id": "293197",
+        "food_id": "178249",
         "ingredient_id": "359"
     },
     {
-        "food_id": "293197",
-        "ingredient_id": "7"
+        "food_id": "178249",
+        "ingredient_id": "337"
+    },
+    {
+        "food_id": "178249",
+        "ingredient_id": "151"
+    },
+    {
+        "food_id": "178249",
+        "ingredient_id": "13"
+    },
+    {
+        "food_id": "178249",
+        "ingredient_id": "317"
+    },
+    {
+        "food_id": "178249",
+        "ingredient_id": "190"
     }
 ]
