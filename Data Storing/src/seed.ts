@@ -1,10 +1,14 @@
-import { WeatherData } from "./../../Data Scraping/src/models/weather-data";
-import { ScrapeLog } from "./../../Data Scraping/src/models/log";
-import { Location } from "./../../Data Scraping/src/models/location";
+import { WeatherData } from "./models/weather-data";
+import { ScrapeLog } from "./models/log";
+import { Location } from "./models/location";
 import mariadb from "mariadb";
 import fs from "fs";
 import { pool } from "./lib/db";
 
+/**
+ * 1. Read json files from data scraping
+ * 2. Insert data into database
+ */
 async function startSeed() {
   // Read json file
   const locations: Location[] = JSON.parse(
