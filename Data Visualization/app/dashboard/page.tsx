@@ -71,7 +71,7 @@ export default async function DashboardPage({
         {!queryFilter.station ||
         !queryFilter.startDate ||
         !queryFilter.endDate ? (
-          <p className="text-base text-muted-foreground lg:text-lg text-center">
+          <p className="text-base text-muted-foreground mt-5 lg:text-lg text-center">
             Select location & date to begin!
           </p>
         ) : (

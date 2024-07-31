@@ -29,7 +29,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
       {/* Temperature line chart */}
       <CustomLineChart
         title="Temperature"
-        description="Temperature overtime in Celcius over the selected daterange and location."
+        description="Temperature overtime in Celcius over the selected date and location."
         labelY="Temperature"
         formatUnitY="celcius"
         chartData={xyChartData.temperature}
@@ -39,7 +39,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
       {/* Humidity area chart */}
       <CustomAreaChart
         title="Humidity"
-        description="Humidity in percentage over the selected daterange and location."
+        description="Humidity in percentage over the selected date and location."
         labelY="Humidity"
         formatUnitY="percentage"
         chartData={xyChartData.humidity}
@@ -48,7 +48,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
       {/* Pressure line chart */}
       <CustomLineChart
         title="Pressure"
-        description="Pressure in ″Hg over the selected daterange and location."
+        description="Pressure in ″Hg over the selected date and location."
         labelY="Pressure"
         formatUnitY="inhg"
         chartData={xyChartData.pressure}
@@ -58,7 +58,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
       {/* Wind speed line chart */}
       <CustomLineChart
         title="Wind Speed"
-        description="Wind speed in km/h over the selected daterange and location."
+        description="Wind speed in km/h over the selected date and location."
         labelY="Wind Speed"
         formatUnitY="kmph"
         chartData={xyChartData.windSpeed}
@@ -68,7 +68,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
       {/* Wind direction radar chart */}
       <CustomRadarChart
         title="Wind Direction"
-        description="Wind direction frequency over the selected daterange and location."
+        description="Wind direction distribution over the selected date and location."
         chartData={windDirectionData}
         freqLabel="%"
       />
@@ -76,14 +76,14 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
       {/* Weather condition pie chart */}
       <CustomPieChart
         title="Weather Condition"
-        description="Weather condition frequency over the selected daterange and location."
+        description="Weather condition distribution over the selected date and location."
         chartData={weatherConditionData}
       />
 
       {/* Dew point line chart */}
       <CustomLineChart
         title="Dew Point"
-        description="Dew point in Celcius over the selected daterange and location."
+        description="Dew point in Celcius over the selected date and location."
         labelY="Dew Point"
         formatUnitY="celcius"
         chartData={xyChartData.dewPoint}
