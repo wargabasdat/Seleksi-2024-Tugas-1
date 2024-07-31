@@ -155,26 +155,53 @@ export async function getFreqWindDirection(
   return sortedResult;
 }
 
+interface QueryResultFreqWeatherCondition {
+  label: string;
+  value: string;
+}
+
 // Get radar/pie chart data for weather condition (only top 8)
 export async function getFreqWeatherCondition(
   filter: QueryFilter
 ): Promise<FreqChartData[]> {
   const query = `
+    WITH ranked_counts AS (
+      SELECT
+        \`condition\`,
+        COUNT(*) AS count,
+        ROW_NUMBER() OVER (ORDER BY COUNT(*) DESC) AS rank
+      FROM weather
+      GROUP BY \`condition\`
+    )
     SELECT
-      \`condition\` as label,
-      COUNT(*) as value
-    FROM weather
-    WHERE
-      station_code = ? AND
-      datetime BETWEEN ? AND ?
-    GROUP BY \`condition\`
-    ORDER BY value DESC
-    LIMIT 9;
-  `;
+      CASE
+        WHEN rank < 5 THEN \`condition\`
+        ELSE 'Other'
+      END AS label,
+      SUM(count) AS value
+    FROM ranked_counts
+    GROUP BY label
+    ORDER BY value DESC;
+`;
 
   const params = [filter.station, filter.startDate, filter.endDate];
 
-  const result = await dbQuery<FreqChartData[]>(query, params);
+  const result = await dbQuery<QueryResultFreqWeatherCondition[]>(
+    query,
+    params
+  );
 
-  return result;
+  const total = result.reduce((acc, curr) => acc + Number(curr.value), 0);
+
+  const processed: FreqChartData[] = [];
+  result.forEach((row) => {
+    const parsedVal = Number(row.value);
+    const percentage = (100 * parsedVal) / total;
+    processed.push({
+      label: row.label,
+      value: percentage,
+    });
+  });
+
+  return processed;
 }

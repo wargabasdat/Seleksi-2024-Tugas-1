@@ -7,7 +7,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -40,7 +39,7 @@ export function CustomRadarChart({
   } satisfies ChartConfig;
 
   return (
-    <Card>
+    <Card className="shadow-md col-span-2 lg:col-span-1">
       <CardHeader className="items-start pb-4">
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>

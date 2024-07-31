@@ -14,6 +14,7 @@ import { QueryFilter } from "@/types/filter";
 import { CustomLineChart } from "./line-chart";
 import { CustomAreaChart } from "./area-chart";
 import { CustomRadarChart } from "./radar-chart";
+import { CustomPieChart } from "./pie-chart";
 
 export const metadata: Metadata = {
   title: "Dashboard | Weather Wise",
@@ -144,12 +145,11 @@ export default async function DashboardPage({
           />
 
           {/* Weather condition pie chart */}
-          <Card className="">
-            <CardHeader>
-              <CardTitle className="text-lg">Weather Condition</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
+          <CustomPieChart
+            title="Weather Condition"
+            description="Weather condition frequency over the selected daterange and location."
+            chartData={weatherConditionData}
+          />
 
           {/* Dew point line chart */}
           <CustomLineChart
