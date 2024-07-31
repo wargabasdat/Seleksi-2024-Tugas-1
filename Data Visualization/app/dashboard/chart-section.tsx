@@ -33,7 +33,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
         labelY="Temperature"
         formatUnitY="celcius"
         chartData={xyChartData.temperature}
-        deltaDomainY={5}
+        deltaDomainY={4}
       />
 
       {/* Humidity area chart */}
@@ -52,7 +52,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
         labelY="Pressure"
         formatUnitY="inhg"
         chartData={xyChartData.pressure}
-        deltaDomainY={50}
+        deltaDomainY={8}
       />
 
       {/* Wind speed line chart */}
@@ -62,7 +62,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
         labelY="Wind Speed"
         formatUnitY="kmph"
         chartData={xyChartData.windSpeed}
-        deltaDomainY={5}
+        deltaDomainY={0}
       />
 
       {/* Wind direction radar chart */}
@@ -87,7 +87,7 @@ export async function ChartSection(queryFilter: ChartSectionProps) {
         labelY="Dew Point"
         formatUnitY="celcius"
         chartData={xyChartData.dewPoint}
-        deltaDomainY={5}
+        deltaDomainY={4}
       />
     </section>
   );
