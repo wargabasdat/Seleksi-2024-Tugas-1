@@ -5,11 +5,12 @@ services:
   db:
     container_name: weather_app_db
     image: mariadb:latest
+    env_file: .env
     environment:
-      - MYSQL_ROOT_PASSWORD=123456
-      - MYSQL_DATABASE=weather_app
-      - MYSQL_USER=weather_app
-      - MYSQL_PASSWORD=123456
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=${DB_USER}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
     volumes:
       - ./Data Storing/export/:/docker-entrypoint-initdb.d # Load the seeded data when the container is created
       - ./db_data:/var/lib/mysql # Persist the data
@@ -41,6 +42,7 @@ services:
     build:
       context: .
       target: app_dev
+    env_file: .env
     ports:
       - 3000:3000
     command: npm run dev
@@ -61,6 +63,7 @@ services:
     build:
       context: .
       target: app_runner
+    env_file: .env
     environment:
       - NODE_ENV=production
     ports:
@@ -76,6 +79,7 @@ services:
     build:
       context: .
       target: scheduler_runner
+    env_file: .env
     environment:
       - NODE_ENV=production
     depends_on:
