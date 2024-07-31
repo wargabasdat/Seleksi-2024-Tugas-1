@@ -12,6 +12,9 @@ import {
   endOfYear,
   startOfDay,
   endOfDay,
+  subYears,
+  subMonths,
+  subWeeks,
 } from "date-fns";
 import { toDate, formatInTimeZone } from "date-fns-tz";
 import { DateRange } from "react-day-picker";
@@ -261,38 +264,46 @@ export const CalendarDatePicker = React.forwardRef<
 
     const years = Array.from(
       { length: yearsRange + 1 },
-      (_, i) => today.getFullYear() - yearsRange / 2 + i
+      (_, i) => today.getFullYear() - yearsRange + i
     );
 
     const dateRanges = [
       { label: "Today", start: today, end: today },
-      { label: "Yesterday", start: subDays(today, 1), end: subDays(today, 1) },
       {
-        label: "This Week",
-        start: startOfWeek(today, { weekStartsOn: 1 }),
-        end: endOfWeek(today, { weekStartsOn: 1 }),
+        label: "Last 3 days",
+        start: subDays(today, 3),
+        end: today,
       },
       {
-        label: "Last Week",
-        start: subDays(startOfWeek(today, { weekStartsOn: 1 }), 7),
-        end: subDays(endOfWeek(today, { weekStartsOn: 1 }), 7),
-      },
-      { label: "Last 7 Days", start: subDays(today, 6), end: today },
-      {
-        label: "This Month",
-        start: startOfMonth(today),
-        end: endOfMonth(today),
+        label: "Last 1 week",
+        start: subWeeks(today, 1),
+        end: today,
       },
       {
-        label: "Last Month",
-        start: startOfMonth(subDays(today, today.getDate())),
-        end: endOfMonth(subDays(today, today.getDate())),
+        label: "Last 1 month",
+        start: subMonths(today, 1),
+        end: today,
       },
-      { label: "This Year", start: startOfYear(today), end: endOfYear(today) },
+      { label: "Last 3 months", start: subMonths(today, 3), end: today },
       {
-        label: "Last Year",
-        start: startOfYear(subDays(today, 365)),
-        end: endOfYear(subDays(today, 365)),
+        label: "Last 6 months",
+        start: subMonths(today, 6),
+        end: today,
+      },
+      {
+        label: "Last 1 year",
+        start: subYears(today, 1),
+        end: today,
+      },
+      {
+        label: "Last 5 years",
+        start: subYears(today, 5),
+        end: today,
+      },
+      {
+        label: "Last 10 years",
+        start: subYears(today, 10),
+        end: today,
       },
     ];
 
