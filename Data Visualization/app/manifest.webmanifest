@@ -1,0 +1,14 @@
+{
+  "name": "WeatherWise",
+  "short_name": "WeatherWise",
+  "start_url": "https://localhost:3000/",
+  "display": "browser",
+  "description": "Your interactive dashboard for comprehensive weather analytics. Explore historical data for any city, with customizable timeframes and detailed visualizations.",
+  "icons": [
+    {
+      "src": "/icon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}

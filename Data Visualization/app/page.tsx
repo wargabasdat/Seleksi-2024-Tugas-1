@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { openGraphTemplate, twitterTemplate } from "@/lib/metadata";
 import { ArrowRightCircle } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -6,6 +7,14 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "WeatherWise",
+  openGraph: {
+    ...openGraphTemplate,
+    title: "WeatherWise",
+  },
+  twitter: {
+    ...twitterTemplate,
+    title: "WeatherWise",
+  },
 };
 
 export default function Home() {

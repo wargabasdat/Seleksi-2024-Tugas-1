@@ -7,9 +7,18 @@ import { redirect } from "next/navigation";
 import { ChartSection } from "./chart-section";
 import { Suspense } from "react";
 import { ChartSectionLoading } from "./chart-section-loading";
+import { openGraphTemplate, twitterTemplate } from "@/lib/metadata";
 
 export const metadata: Metadata = {
-  title: "Dashboard | Weather Wise",
+  title: "Dashboard | WeatherWise",
+  openGraph: {
+    ...openGraphTemplate,
+    title: "Dashboard | WeatherWise",
+  },
+  twitter: {
+    ...twitterTemplate,
+    title: "Dashboard | WeatherWise",
+  },
 };
 
 export default async function DashboardPage({
