@@ -1,15 +1,19 @@
 import mariadb from "mariadb";
+import dotenv from "dotenv";
+dotenv.config();
 
 export async function dbQuery<T>(sql: string, params: any[] = []): Promise<T> {
   let conn;
+
   try {
     conn = await mariadb.createConnection({
-      host: "localhost",
-      port: 3307, // For docker mariadb, 3306 is used by local MySQL
-      user: "weather_app",
-      password: "123456",
-      database: "weather_app",
+      host: process.env.DB_HOST as string,
+      port: Number(process.env.DB_PORT),
+      user: process.env.DB_USER as string,
+      password: process.env.DB_PASSWORD as string,
+      database: process.env.DB_DATABASE as string,
     });
+
     const result = await conn.query(sql, params);
     return result;
   } catch (err) {

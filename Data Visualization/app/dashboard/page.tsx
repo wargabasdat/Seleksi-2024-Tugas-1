@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   },
 };
 
+// Force dynamic
+export const dynamic = "force-dynamic";
+
 export default async function DashboardPage({
   searchParams,
 }: {

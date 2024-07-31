@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  # MariaDB
+  # Maria DB
   db:
     container_name: weather_app_db
     image: mariadb:latest
@@ -12,9 +12,11 @@ services:
       - MYSQL_PASSWORD=123456
     volumes:
       - ./Data Storing/export/:/docker-entrypoint-initdb.d # Load the seeded data when the container is created
-      - ./db_data:/var/lib/mysql
+      - ./db_data:/var/lib/mysql # Persist the data
     ports:
-      - "3307:3306" # 3306 is already used by my local MySQL
+      - "3307:3306" # 3307 (host) to 3306 (container). 3306 is (maybe) used by local MySQLis already used by host's local MySQL
+    networks:
+      - weather_app_network
     healthcheck:
       test:
         [
@@ -38,33 +40,53 @@ services:
     container_name: weather_app_dev
     build:
       context: .
-      target: dev
+      target: app_dev
     ports:
-      - "3000:3000"
+      - 3000:3000
     command: npm run dev
     environment:
       - NODE_ENV=development
-    #if you’re using Windows, you may need to uncomment the next line - Sol from @Kobe E
-    #- WATCHPACK_POLLING=true
     volumes:
       - ./Data Visualization:/app
       - /app/node_modules
       - /app/.next
     depends_on:
       - db
+    networks:
+      - weather_app_network
 
   # App production
   app-prod:
     container_name: weather_app_prod
     build:
       context: .
-      target: runner
+      target: app_runner
     environment:
       - NODE_ENV=production
     ports:
-      - "3000:3000"
+      - 3000:3000
     depends_on:
       - db
+    networks:
+      - weather_app_network
+
+  # Scheduler
+  scheduler:
+    container_name: weather_app_scheduler
+    build:
+      context: .
+      target: scheduler_runner
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - db
+    networks:
+      - weather_app_network
 
 volumes:
   db_data:
+
+networks: # Network for the services
+  weather_app_network:
+    external: true
+    driver: bridge

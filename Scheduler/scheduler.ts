@@ -3,7 +3,7 @@ import { dbQuery } from "./lib/db";
 import { ScrapeLog } from "./models/log";
 import { generateUserAgent, startDate, weatherStations } from "./lib/constants";
 import { generateRandomDelay, generateScrapeURL } from "./lib/utils";
-import { addDays } from "date-fns";
+import { addDays, startOfDay } from "date-fns";
 import { WeatherData } from "./models/weather-data";
 import puppeteer from "puppeteer";
 import Queue from "queue";
@@ -56,12 +56,12 @@ async function funcJob() {
   }> = [];
 
   for (const [station, lastScrapeDate] of stationLatestScrapeMap) {
-    let start = new Date(lastScrapeDate);
-    const end = new Date();
+    let start = startOfDay(lastScrapeDate);
+    const end = startOfDay(new Date());
 
     let d = start;
     while (d <= end) {
-      const date = new Date(d);
+      const date = d;
       const url = generateScrapeURL(station, date);
       scrapeToDo.push({ station, date, url });
 
@@ -77,7 +77,10 @@ async function funcJob() {
   const newScrapeLogs: ScrapeLog[] = [];
 
   // Launch the browser
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    executablePath: "/usr/bin/chromium-browser",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
 
   // Initialize queue to scrape
   const q = new Queue({ concurrency: 10 });
@@ -400,8 +403,8 @@ async function funcJob() {
   console.log("====================================");
 }
 
-// Run at first and then every 1 hour
+// Run the job every hour
 // NOTE: PROGRAM MUST ALWAYS BE RUNNING
 const job = schedule.scheduleJob("0 * * * *", funcJob);
 // const job = schedule.scheduleJob("*/1 * * * *", funcJob);
-job.invoke();
+// job.invoke();
