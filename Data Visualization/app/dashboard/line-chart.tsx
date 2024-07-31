@@ -65,6 +65,8 @@ export function CustomLineChart({
   // Get formatter function
   const formatterY = mapFormatter(formatUnitY);
 
+  const isEmpty = chartData.length === 0;
+
   return (
     <Card className="col-span-2 shadow-md">
       <CardHeader className="flex flex-col items-stretch space-y-0 border-b p-0 lg:flex-row">
@@ -77,7 +79,7 @@ export function CustomLineChart({
           <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Minimum</span>
             <span className="text-lg font-bold leading-none lg:text-3xl">
-              {formatterY(summary.minY)}
+              {isEmpty ? "N/A" : formatterY(summary.minY)}
             </span>
           </div>
 
@@ -85,7 +87,7 @@ export function CustomLineChart({
           <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left border-l hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Average</span>
             <span className="text-lg font-bold leading-none lg:text-3xl">
-              {formatterY(summary.avgY)}
+              {isEmpty ? "N/A" : formatterY(summary.avgY)}
             </span>
           </div>
 
@@ -93,82 +95,90 @@ export function CustomLineChart({
           <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left border-l hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Maximum</span>
             <span className="text-lg font-bold leading-none lg:text-3xl">
-              {formatterY(summary.maxY)}
+              {isEmpty ? "N/A" : formatterY(summary.maxY)}
             </span>
           </div>
         </div>
       </CardHeader>
 
       <CardContent className="px-2 pt-6 sm:p-6">
-        <ChartContainer
-          config={chartConfig}
-          className="aspect-auto h-[300px] w-full"
-        >
-          <LineChart
-            accessibilityLayer
-            data={chartData}
-            margin={{
-              left: 12,
-              right: 12,
-            }}
+        {isEmpty ? (
+          <div className="h-[300px] flex items-center justify-center">
+            <p className="text-base text-muted-foreground">
+              Data for this daterange & location is not available.
+            </p>
+          </div>
+        ) : (
+          <ChartContainer
+            config={chartConfig}
+            className="aspect-auto h-[300px] w-full"
           >
-            <CartesianGrid vertical={false} />
-
-            <XAxis
-              dataKey="x"
-              tickLine={false}
-              axisLine={false}
-              tickMargin={8}
-              minTickGap={32}
-              tickFormatter={(value) => {
-                const date = new Date(value);
-                return formatDateChart(
-                  date,
-                  new Date(summary.minX),
-                  new Date(summary.maxX)
-                );
+            <LineChart
+              accessibilityLayer
+              data={chartData}
+              margin={{
+                left: 12,
+                right: 12,
               }}
-            />
+            >
+              <CartesianGrid vertical={false} />
 
-            <YAxis
-              dataKey="y"
-              tickLine={false}
-              axisLine={false}
-              tickMargin={8}
-              domain={[
-                summary.minY - deltaDomainY,
-                summary.maxY + deltaDomainY,
-              ]}
-              tickFormatter={(value) => value.toFixed(1)}
-            />
+              <XAxis
+                dataKey="x"
+                tickLine={false}
+                axisLine={false}
+                tickMargin={8}
+                minTickGap={32}
+                tickFormatter={(value) => {
+                  const date = new Date(value);
+                  return formatDateChart(
+                    date,
+                    new Date(summary.minX),
+                    new Date(summary.maxX)
+                  );
+                }}
+              />
 
-            <ChartTooltip
-              content={
-                <ChartTooltipContent
-                  className="w-[175px]"
-                  nameKey="y"
-                  labelFormatter={(value) => {
-                    const date = new Date(value);
-                    return formatDateChart(
-                      date,
-                      new Date(summary.minX),
-                      new Date(summary.maxX)
-                    );
-                  }}
-                />
-              }
-            />
+              <YAxis
+                dataKey="y"
+                tickLine={false}
+                axisLine={false}
+                tickMargin={8}
+                domain={[
+                  summary.minY - deltaDomainY,
+                  summary.maxY + deltaDomainY,
+                ]}
+                tickFormatter={(value) => value.toFixed(1)}
+              />
 
-            <Line
-              dataKey={"y"}
-              type="monotone"
-              strokeWidth={2}
-              dot={false}
-              fill="var(--color-y)"
-              stroke="var(--color-y)"
-            />
-          </LineChart>
-        </ChartContainer>
+              <ChartTooltip
+                content={
+                  <ChartTooltipContent
+                    className="w-[175px]"
+                    nameKey="y"
+                    labelFormatter={(value) => {
+                      const date = new Date(value);
+                      return formatDateChart(
+                        date,
+                        new Date(summary.minX),
+                        new Date(summary.maxX)
+                      );
+                    }}
+                  />
+                }
+              />
+
+              <Line
+                dataKey={"y"}
+                type="monotone"
+                strokeWidth={2}
+                dot={false}
+                fill="var(--color-y)"
+                stroke="var(--color-y)"
+              />
+            </LineChart>
+          </ChartContainer>
+        )}
       </CardContent>
     </Card>
   );

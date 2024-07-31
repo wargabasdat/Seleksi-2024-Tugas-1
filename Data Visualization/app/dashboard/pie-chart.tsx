@@ -45,36 +45,46 @@ export function CustomPieChart({
     fill: `hsl(var(--chart-${index + 1}))`,
   }));
 
+  const isEmpty = chartData.length === 0;
+
   return (
     <Card className="shadow-md flex flex-col col-span-2 lg:col-span-1">
-      <CardHeader className="items-start">
+      <CardHeader className="items-start border-b">
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
-      <CardContent className="flex-1 flex">
-        <ChartContainer
-          config={chartConfig}
-          className="mx-auto aspect-square max-h-[350px]"
-        >
-          <PieChart>
-            <ChartTooltip
-              content={
-                <ChartTooltipContent
-                  nameKey="label"
-                  className="w-[175px]"
-                  hideLabel
-                />
-              }
-            />
+      <CardContent className="pt-6">
+        {isEmpty ? (
+          <div className="h-[350px] flex items-center justify-center">
+            <p className="text-base text-muted-foreground">
+              Data for this daterange & location is not available.
+            </p>
+          </div>
+        ) : (
+          <ChartContainer
+            config={chartConfig}
+            className="mx-auto aspect-square max-h-[375px]"
+          >
+            <PieChart>
+              <ChartTooltip
+                content={
+                  <ChartTooltipContent
+                    nameKey="label"
+                    className="w-[175px]"
+                    hideLabel
+                  />
+                }
+              />
 
-            <Pie data={chartDataWithFill} dataKey="value" />
+              <Pie data={chartDataWithFill} dataKey="value" />
 
-            <ChartLegend
-              content={<ChartLegendContent nameKey="label" />}
-              className="-translate-y-2 flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center"
-            />
-          </PieChart>
-        </ChartContainer>
+              <ChartLegend
+                content={<ChartLegendContent nameKey="label" />}
+                className="-translate-y-2 flex-wrap gap-2 [&>*]:basis-1/4 [&>*]:justify-center"
+              />
+            </PieChart>
+          </ChartContainer>
+        )}
       </CardContent>
     </Card>
   );

@@ -123,6 +123,10 @@ export async function getFreqWindDirection(
     totalWind += parsed;
   });
 
+  if (totalWind === 0) {
+    return [];
+  }
+
   // Create sorted wind directions
   const windDirections = [
     "N",
@@ -171,6 +175,11 @@ export async function getFreqWeatherCondition(
         COUNT(*) AS count,
         ROW_NUMBER() OVER (ORDER BY COUNT(*) DESC) AS rank
       FROM weather
+      WHERE
+        station_code = ? AND
+        datetime BETWEEN ? AND ? AND
+        \`condition\` IS NOT NULL AND
+        \`condition\` <> 'N/A'
       GROUP BY \`condition\`
     )
     SELECT

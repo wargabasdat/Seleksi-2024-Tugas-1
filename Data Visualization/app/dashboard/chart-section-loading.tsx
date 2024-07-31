@@ -16,10 +16,10 @@ export function ChartSectionLoading() {
       <Skeleton className="h-[530px] sm:h-[510px] lg:h-[467px] xl:h-[455px] rounded-lg col-span-2" />
 
       {/* Wind direction radar chart */}
-      <Skeleton className="col-span-2 lg:col-span-1 rounded-lg h-[420px] sm:h-[446px]" />
+      <Skeleton className="col-span-2 lg:col-span-1 rounded-lg h-[480px] sm:h-[500px] lg:h-[545px] xl:h-[525px]" />
 
       {/* Weather condition pie chart */}
-      <Skeleton className="col-span-2 lg:col-span-1 rounded-lg h-[420px] sm:h-[446px]" />
+      <Skeleton className="col-span-2 lg:col-span-1 rounded-lg h-[480px] sm:h-[500px] lg:h-[545px] xl:h-[525px]" />
 
       {/* Dew Point line chart */}
       <Skeleton className="h-[530px] sm:h-[510px] lg:h-[467px] xl:h-[455px] rounded-lg col-span-2" />

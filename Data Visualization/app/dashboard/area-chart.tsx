@@ -63,6 +63,8 @@ export function CustomAreaChart({
   // Get formatter function
   const formatterY = mapFormatter(formatUnitY);
 
+  const isEmpty = chartData.length === 0;
+
   return (
     <Card className="col-span-2 shadow-md">
       <CardHeader className="flex flex-col items-stretch space-y-0 border-b p-0 lg:flex-row">
@@ -75,7 +77,7 @@ export function CustomAreaChart({
           <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Minimum</span>
             <span className="text-lg font-bold leading-none lg:text-3xl">
-              {formatterY(summary.minY)}
+              {isEmpty ? "N/A" : formatterY(summary.minY)}
             </span>
           </div>
 
@@ -83,7 +85,7 @@ export function CustomAreaChart({
           <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left border-l hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Average</span>
             <span className="text-lg font-bold leading-none lg:text-3xl">
-              {formatterY(summary.avgY)}
+              {isEmpty ? "N/A" : formatterY(summary.avgY)}
             </span>
           </div>
 
@@ -91,71 +93,79 @@ export function CustomAreaChart({
           <div className="flex flex-1 lg:flex-none flex-col justify-center gap-1 border-t px-6 py-4 text-left border-l hover:bg-muted/50 lg:border-l lg:border-t-0 lg:px-8 lg:py-6">
             <span className="text-xs text-muted-foreground">Maximum</span>
             <span className="text-lg font-bold leading-none lg:text-3xl">
-              {formatterY(summary.maxY)}
+              {isEmpty ? "N/A" : formatterY(summary.maxY)}
             </span>
           </div>
         </div>
       </CardHeader>
 
       <CardContent className="px-2 pt-6 sm:p-6">
-        <ChartContainer
-          config={chartConfig}
-          className="aspect-auto h-[300px] w-full"
-        >
-          <AreaChart data={chartData}>
-            <CartesianGrid vertical={false} />
+        {isEmpty ? (
+          <div className="h-[300px] flex items-center justify-center">
+            <p className="text-base text-muted-foreground">
+              Data for this daterange & location is not available.
+            </p>
+          </div>
+        ) : (
+          <ChartContainer
+            config={chartConfig}
+            className="aspect-auto h-[300px] w-full"
+          >
+            <AreaChart data={chartData}>
+              <CartesianGrid vertical={false} />
 
-            <XAxis
-              dataKey="x"
-              tickLine={false}
-              axisLine={false}
-              tickMargin={8}
-              minTickGap={32}
-              tickFormatter={(value) => {
-                const date = new Date(value);
-                return formatDateChart(
-                  date,
-                  new Date(summary.minX),
-                  new Date(summary.maxX)
-                );
-              }}
-            />
+              <XAxis
+                dataKey="x"
+                tickLine={false}
+                axisLine={false}
+                tickMargin={8}
+                minTickGap={32}
+                tickFormatter={(value) => {
+                  const date = new Date(value);
+                  return formatDateChart(
+                    date,
+                    new Date(summary.minX),
+                    new Date(summary.maxX)
+                  );
+                }}
+              />
 
-            <YAxis
-              dataKey="y"
-              tickLine={false}
-              axisLine={false}
-              tickMargin={8}
-              minTickGap={32}
-            />
+              <YAxis
+                dataKey="y"
+                tickLine={false}
+                axisLine={false}
+                tickMargin={8}
+                minTickGap={32}
+              />
 
-            <ChartTooltip
-              cursor={false}
-              content={
-                <ChartTooltipContent
-                  className="w-[175px]"
-                  indicator="dot"
-                  nameKey="y"
-                  labelFormatter={(value) => {
-                    const date = new Date(value);
-                    return formatDateChart(
-                      date,
-                      new Date(summary.minX),
-                      new Date(summary.maxX)
-                    );
-                  }}
-                />
-              }
-            />
-            <Area
-              dataKey="y"
-              type="natural"
-              fillOpacity={0.4}
-              fill="var(--color-y)"
-              stroke="var(--color-y)"
-            />
-          </AreaChart>
-        </ChartContainer>
+              <ChartTooltip
+                cursor={false}
+                content={
+                  <ChartTooltipContent
+                    className="w-[175px]"
+                    indicator="dot"
+                    nameKey="y"
+                    labelFormatter={(value) => {
+                      const date = new Date(value);
+                      return formatDateChart(
+                        date,
+                        new Date(summary.minX),
+                        new Date(summary.maxX)
+                      );
+                    }}
+                  />
+                }
+              />
+              <Area
+                dataKey="y"
+                type="natural"
+                fillOpacity={0.4}
+                fill="var(--color-y)"
+                stroke="var(--color-y)"
+              />
+            </AreaChart>
+          </ChartContainer>
+        )}
       </CardContent>
     </Card>
   );
