@@ -11,6 +11,7 @@ services:
       - MYSQL_USER=weather_app
       - MYSQL_PASSWORD=123456
     volumes:
+      - ./Data Storing/export/:/docker-entrypoint-initdb.d # Load the seeded data when the container is created
       - ./db_data:/var/lib/mysql
     ports:
       - "3307:3306" # 3306 is already used by my local MySQL

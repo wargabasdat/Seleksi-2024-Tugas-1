@@ -3,7 +3,7 @@ import mariadb from "mariadb";
 import { pool } from "./lib/db";
 /**
  * 1. Resets the database
- * 2. Migrates the schmea from ../export/schema.sql
+ * 2. Migrates the schmea from ./schema.sql
  */
 const migrate = async () => {
   let conn: mariadb.PoolConnection | null = null;
@@ -15,7 +15,7 @@ const migrate = async () => {
     conn = await pool.getConnection();
 
     // Read file
-    const sqlSchema = fs.readFileSync("../export/schema.sql", "utf8");
+    const sqlSchema = fs.readFileSync("./schema.sql", "utf8");
     const statements = sqlSchema.split(";").filter((stmt) => stmt.trim());
 
     for (const statement of statements) {
