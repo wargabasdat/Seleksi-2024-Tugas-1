@@ -102,7 +102,7 @@ export function CustomLineChart({
       <CardContent className="px-2 pt-6 sm:p-6">
         <ChartContainer
           config={chartConfig}
-          className="aspect-auto h-[250px] w-full"
+          className="aspect-auto h-[300px] w-full"
         >
           <LineChart
             accessibilityLayer
@@ -159,7 +159,14 @@ export function CustomLineChart({
               }
             />
 
-            <Line dataKey={"y"} type="monotone" strokeWidth={2} dot={false} />
+            <Line
+              dataKey={"y"}
+              type="monotone"
+              strokeWidth={2}
+              dot={false}
+              fill="var(--color-y)"
+              stroke="var(--color-y)"
+            />
           </LineChart>
         </ChartContainer>
       </CardContent>

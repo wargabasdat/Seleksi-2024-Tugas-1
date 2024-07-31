@@ -100,7 +100,7 @@ export function CustomAreaChart({
       <CardContent className="px-2 pt-6 sm:p-6">
         <ChartContainer
           config={chartConfig}
-          className="aspect-auto h-[250px] w-full"
+          className="aspect-auto h-[300px] w-full"
         >
           <AreaChart data={chartData}>
             <CartesianGrid vertical={false} />
@@ -147,7 +147,13 @@ export function CustomAreaChart({
                 />
               }
             />
-            <Area dataKey="y" type="natural" fillOpacity={0.4} />
+            <Area
+              dataKey="y"
+              type="natural"
+              fillOpacity={0.4}
+              fill="var(--color-y)"
+              stroke="var(--color-y)"
+            />
           </AreaChart>
         </ChartContainer>
       </CardContent>

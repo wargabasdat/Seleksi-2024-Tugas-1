@@ -87,7 +87,12 @@ export async function getXYChartData(
   return weatherXYChartData;
 }
 
-// Get radar/pie chart data for wind direction
+interface QueryResultWindDirectionData {
+  label: string;
+  value: bigint;
+}
+
+// Get radar/pie chart data for wind direction in percentage
 export async function getFreqWindDirection(
   filter: QueryFilter
 ): Promise<FreqChartData[]> {
@@ -98,19 +103,59 @@ export async function getFreqWindDirection(
     FROM weather
     WHERE
       station_code = ? AND
-      datetime BETWEEN ? AND ?
+      datetime BETWEEN ? AND ? AND
+      wind IS NOT NULL AND
+      wind <> 'VAR' AND
+      wind <> 'CALM'
     GROUP BY wind
     ORDER BY wind;
   `;
 
   const params = [filter.station, filter.startDate, filter.endDate];
 
-  const result = await dbQuery<FreqChartData[]>(query, params);
+  const result = await dbQuery<QueryResultWindDirectionData[]>(query, params);
 
-  return result;
+  let totalWind = 0;
+  const windCountMap = new Map<string, number>();
+  result.forEach((row) => {
+    const parsed = Number(row.value);
+    windCountMap.set(row.label, parsed);
+    totalWind += parsed;
+  });
+
+  // Create sorted wind directions
+  const windDirections = [
+    "N",
+    "NNE",
+    "NE",
+    "ENE",
+    "E",
+    "ESE",
+    "SE",
+    "SSE",
+    "S",
+    "SSW",
+    "SW",
+    "WSW",
+    "W",
+    "WNW",
+    "NW",
+    "NNW",
+  ];
+  const sortedResult: FreqChartData[] = [];
+  windDirections.forEach((direction) => {
+    const val = windCountMap.get(direction);
+    const percentage = val ? (100 * val) / totalWind : 0;
+    sortedResult.push({
+      label: direction,
+      value: percentage,
+    });
+  });
+
+  return sortedResult;
 }
 
-// Get radar/pie chart data for weather condition
+// Get radar/pie chart data for weather condition (only top 8)
 export async function getFreqWeatherCondition(
   filter: QueryFilter
 ): Promise<FreqChartData[]> {
@@ -123,7 +168,8 @@ export async function getFreqWeatherCondition(
       station_code = ? AND
       datetime BETWEEN ? AND ?
     GROUP BY \`condition\`
-    ORDER BY \`condition\`;
+    ORDER BY value DESC
+    LIMIT 9;
   `;
 
   const params = [filter.station, filter.startDate, filter.endDate];

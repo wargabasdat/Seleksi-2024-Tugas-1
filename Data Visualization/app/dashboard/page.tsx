@@ -13,6 +13,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { QueryFilter } from "@/types/filter";
 import { CustomLineChart } from "./line-chart";
 import { CustomAreaChart } from "./area-chart";
+import { CustomRadarChart } from "./radar-chart";
 
 export const metadata: Metadata = {
   title: "Dashboard | Weather Wise",
@@ -135,12 +136,12 @@ export default async function DashboardPage({
           />
 
           {/* Wind direction radar chart */}
-          <Card className="">
-            <CardHeader>
-              <CardTitle className="text-lg">Wind Direction</CardTitle>
-            </CardHeader>
-            <CardContent className="pl-2"></CardContent>
-          </Card>
+          <CustomRadarChart
+            title="Wind Direction"
+            description="Wind direction frequency over the selected daterange and location."
+            chartData={windDirectionData}
+            freqLabel="%"
+          />
 
           {/* Weather condition pie chart */}
           <Card className="">
