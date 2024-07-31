@@ -41,11 +41,17 @@ Stack Overflow adalah platform tanya jawab populer yang berfokus pada pemrograma
     [MariaDB] source ddl.sql;
    ```
 
-4. Jalankan perintah berikut untuk menginstalasi package dan dependensi Go yang diperlukan dan menjalankan scraper
+4. Jalankan perintah berikut untuk menginstalasi package dan dependensi Go yang diperlukan dan menjalankan converter
+
    ```
        go mod tidy
        go mod download
        go run main.go
+   ```
+
+5. Apabila terdapat unicode error, pastikan character-set dan collate pada MariaDB menggunakan encoding utf-8, jika belum jalankan perintah berikut, dan jalankan kembali converter
+   ```
+       ALTER DATABASE [nama database] CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
    ```
 
 ## Struktur file JSON
@@ -62,6 +68,7 @@ ERD dan Diagram Relasional dapat diamati pada folder Data Storing/design. Adapun
 4. Suatu pengguna ataupun pertanyaan dapat memiliki 1 tag.
 
 ## Screenshot Program
+
 ![OutputScraper](./Data%20Scraping/screenshot/result.png)
 ![ss1](./Data%20Storing/screenshot/ss1.png)
 ![ss2](./Data%20Storing/screenshot/ss2.png)
@@ -70,7 +77,7 @@ ERD dan Diagram Relasional dapat diamati pada folder Data Storing/design. Adapun
 ![ss5](./Data%20Storing/screenshot/ss5.png)
 ![ss6](./Data%20Storing/screenshot/ss6.png)
 
-
 ## Referensi
+
 1. [GoColly](https://github.com/gocolly/colly/v2)
 2. [Stackoverflow](https://stackoverflow.com)
