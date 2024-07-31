@@ -58,7 +58,7 @@ const NavBar = ({
       <Link
         tabIndex={1}
         href="/"
-        className="flex flex-row items-center gap-2 font-inter text-xl font-medium"
+        className="flex flex-row items-center gap-2 font-inter text-xl font-semibold"
       >
         <Image width={40} height={40} src="/logo.png" alt="Weather Wise Logo" />
         <span>WeatherWise</span>
