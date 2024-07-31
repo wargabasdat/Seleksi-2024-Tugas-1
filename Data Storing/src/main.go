@@ -232,7 +232,7 @@ func main() {
 				log.Fatal(err)
 			}
 			if !exists {
-				_, err := insertTagStmt.Exec(tagID, tag.Name, 0)
+				_, err := insertTagStmt.Exec(tagID, tag.Name, 1)
 				if err != nil {
 					log.Fatal(err)
 				}
