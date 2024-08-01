@@ -48,6 +48,12 @@ The walkthrough of the dashboard's usage can be seen from
 4. **Traveling Type**:
    -  Majority of reviewers travel in Solo and Business leisure. However, Solo and Family travelers tend to be more satisfied compared to Business and Couple travelers. This means that both airlines need to improve the service for both leisure, and keep up the service for Solo travelers.
 
+## Reference
+1. BeautifulSoup
+2. JSON
+3. mysql.connector
+4. mariadb
+
 ## Author
 
 Kayla Namira Mariadi - 13522050
