@@ -1,0 +1,1686 @@
+{
+    "characters": [
+        {
+            "Name": "aalto",
+            "Rarity": 4,
+            "Element": "aero",
+            "HP": 9850,
+            "ATK": 263,
+            "DEF": 1076,
+            "Max Energy": 150,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "roaring rock fist",
+            "A_Mats": "wintry bell",
+            "W_Mats": "impure phlogiston",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "static mist",
+            "Weapon S Level": 1,
+            "Best Echo Set": "moonlit",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/aalto"
+        },
+        {
+            "Name": "baizhi",
+            "Rarity": 4,
+            "Element": "glacio",
+            "HP": 12813,
+            "ATK": 213,
+            "DEF": 1002,
+            "Max Energy": 175,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "sound-keeping tacet core",
+            "A_Mats": "lanternberry",
+            "W_Mats": "lento helix",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "variation",
+            "Weapon S Level": 1,
+            "Best Echo Set": "rejuvenating",
+            "Best Main Echo": "bell-borne geochelone",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/baizhi"
+        },
+        {
+            "Name": "calcharo",
+            "Rarity": 5,
+            "Element": "electro",
+            "HP": 10500,
+            "ATK": 438,
+            "DEF": 1186,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "crude ring",
+            "RA_Mats": "thundering tacet core",
+            "A_Mats": "iris",
+            "W_Mats": "waveworn residue 210",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "lustrous razor",
+            "Weapon S Level": 1,
+            "Best Echo Set": "lingering",
+            "Best Main Echo": "tempest mephis",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/calcharo"
+        },
+        {
+            "Name": "changli",
+            "Rarity": 5,
+            "Element": "fusion",
+            "HP": 10388,
+            "ATK": 463,
+            "DEF": 1100,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "crude ring",
+            "RA_Mats": "rage tacet core",
+            "A_Mats": "pavo plum",
+            "W_Mats": "inert metallic drip",
+            "SU_Mats": "sentinel 's dagger",
+            "Weapon Name": "blazing brilliance",
+            "Weapon S Level": 1,
+            "Best Echo Set": "molten",
+            "Best Main Echo": "inferno rider",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/changli"
+        },
+        {
+            "Name": "chixia",
+            "Rarity": 4,
+            "Element": "fusion",
+            "HP": 9088,
+            "ATK": 300,
+            "DEF": 953,
+            "Max Energy": 150,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "rage tacet core",
+            "A_Mats": "belle poppy",
+            "W_Mats": "impure phlogiston",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "static mist",
+            "Weapon S Level": 1,
+            "Best Echo Set": "molten",
+            "Best Main Echo": "inferno rider",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/chixia"
+        },
+        {
+            "Name": "danjin",
+            "Rarity": 4,
+            "Element": "havoc",
+            "HP": 9438,
+            "ATK": 263,
+            "DEF": 1149,
+            "Max Energy": 100,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "crude ring",
+            "RA_Mats": "strife tacet core",
+            "A_Mats": "belle poppy",
+            "W_Mats": "inert metallic drip",
+            "SU_Mats": "unwarranted feather",
+            "Weapon Name": "emerald of genesis",
+            "Weapon S Level": 1,
+            "Best Echo Set": "havoc",
+            "Best Main Echo": "dreamless",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/danjin"
+        },
+        {
+            "Name": "encore",
+            "Rarity": 5,
+            "Element": "fusion",
+            "HP": 10513,
+            "ATK": 425,
+            "DEF": 1247,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "rage tacet core",
+            "A_Mats": "pecok flower",
+            "W_Mats": "lento helix",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "stringmaster",
+            "Weapon S Level": 1,
+            "Best Echo Set": "molten",
+            "Best Main Echo": "inferno rider",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/encore"
+        },
+        {
+            "Name": "jianxin",
+            "Rarity": 5,
+            "Element": "aero",
+            "HP": 14113,
+            "ATK": 338,
+            "DEF": 1124,
+            "Max Energy": 150,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "roaring rock fist",
+            "A_Mats": "lanternberry",
+            "W_Mats": "cadence seed",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "originite : type iv",
+            "Weapon S Level": 5,
+            "Best Echo Set": "rejuvenating",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/jianxin"
+        },
+        {
+            "Name": "jinhsi",
+            "Rarity": 5,
+            "Element": "spectro",
+            "HP": 10825,
+            "ATK": 413,
+            "DEF": 1259,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "elegy tacet core",
+            "A_Mats": "loong 's pearl",
+            "W_Mats": "waveworn residue 210",
+            "SU_Mats": "sentinel 's dagger",
+            "Weapon Name": "ages of harvest",
+            "Weapon S Level": 1,
+            "Best Echo Set": "celestial",
+            "Best Main Echo": "jué",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/jinhsi"
+        },
+        {
+            "Name": "jiyan",
+            "Rarity": 5,
+            "Element": "aero",
+            "HP": 10488,
+            "ATK": 438,
+            "DEF": 1186,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "roaring rock fist",
+            "A_Mats": "pecok flower",
+            "W_Mats": "waveworn residue 210",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "verdant summit",
+            "Weapon S Level": 1,
+            "Best Echo Set": "sierra",
+            "Best Main Echo": "feilian beringal",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/jiyan"
+        },
+        {
+            "Name": "lingyang",
+            "Rarity": 5,
+            "Element": "glacio",
+            "HP": 10388,
+            "ATK": 438,
+            "DEF": 1210,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "sound-keeping tacet core",
+            "A_Mats": "coriolus",
+            "W_Mats": "cadence seed",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "abyss surges",
+            "Weapon S Level": 1,
+            "Best Echo Set": "lingering",
+            "Best Main Echo": "lampylumen myriad",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/lingyang"
+        },
+        {
+            "Name": "mortefi",
+            "Rarity": 4,
+            "Element": "fusion",
+            "HP": 10025,
+            "ATK": 250,
+            "DEF": 1137,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "rage tacet core",
+            "A_Mats": "coriolus",
+            "W_Mats": "impure phlogiston",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "static mist",
+            "Weapon S Level": 1,
+            "Best Echo Set": "moonlit",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/mortefi"
+        },
+        {
+            "Name": "rover ( havoc )",
+            "Rarity": 5,
+            "Element": "havoc",
+            "HP": 10825,
+            "ATK": 413,
+            "DEF": 1259,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "mysterious code",
+            "A_Mats": "pecok flower",
+            "W_Mats": "inert metallic drip",
+            "SU_Mats": "unwarranted feather",
+            "Weapon Name": "emerald of genesis",
+            "Weapon S Level": 1,
+            "Best Echo Set": "havoc",
+            "Best Main Echo": "dreamless",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/rover-havoc"
+        },
+        {
+            "Name": "rover ( spectro )",
+            "Rarity": 5,
+            "Element": "spectro",
+            "HP": 11400,
+            "ATK": 375,
+            "DEF": 1369,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "mysterious code",
+            "A_Mats": "pecok flower",
+            "W_Mats": "inert metallic drip",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "emerald of genesis",
+            "Weapon S Level": 1,
+            "Best Echo Set": "celestial",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/rover-spectro"
+        },
+        {
+            "Name": "sanhua",
+            "Rarity": 4,
+            "Element": "glacio",
+            "HP": 10063,
+            "ATK": 275,
+            "DEF": 941,
+            "Max Energy": 100,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "sound-keeping tacet core",
+            "A_Mats": "wintry bell",
+            "W_Mats": "inert metallic drip",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "emerald of genesis",
+            "Weapon S Level": 1,
+            "Best Echo Set": "moonlit",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/sanhua"
+        },
+        {
+            "Name": "taoqi",
+            "Rarity": 4,
+            "Element": "havoc",
+            "HP": 8950,
+            "ATK": 225,
+            "DEF": 1564,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "gold-dissolving feather",
+            "A_Mats": "iris",
+            "W_Mats": "waveworn residue 210",
+            "SU_Mats": "unwarranted feather",
+            "Weapon Name": "discord",
+            "Weapon S Level": 1,
+            "Best Echo Set": "rejuvenating",
+            "Best Main Echo": "bell-borne geochelone",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/taoqi"
+        },
+        {
+            "Name": "verina",
+            "Rarity": 5,
+            "Element": "spectro",
+            "HP": 14238,
+            "ATK": 338,
+            "DEF": 1100,
+            "Max Energy": 175,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "howler core",
+            "RA_Mats": "elegy tacet core",
+            "A_Mats": "belle poppy",
+            "W_Mats": "lento helix",
+            "SU_Mats": "monument bell",
+            "Weapon Name": "variation",
+            "Weapon S Level": 1,
+            "Best Echo Set": "rejuvenating",
+            "Best Main Echo": "bell-borne geochelone",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/verina"
+        },
+        {
+            "Name": "xiangli yao",
+            "Rarity": 5,
+            "Element": "unknown",
+            "HP": null,
+            "ATK": null,
+            "DEF": null,
+            "Max Energy": null,
+            "CRIT Rate": null,
+            "CRIT DMG": null,
+            "Healing Bonus": null,
+            "Element DMG": null,
+            "WS_Mats": "NULL",
+            "RA_Mats": "NULL",
+            "A_Mats": "NULL",
+            "W_Mats": "NULL",
+            "SU_Mats": "NULL",
+            "Weapon Name": "NULL",
+            "Weapon S Level": null,
+            "Best Echo Set": "NULL",
+            "Best Main Echo": "NULL",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/xiangli-yao"
+        },
+        {
+            "Name": "yangyang",
+            "Rarity": 4,
+            "Element": "aero",
+            "HP": 10200,
+            "ATK": 250,
+            "DEF": 1100,
+            "Max Energy": 100,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "crude ring",
+            "RA_Mats": "roaring rock fist",
+            "A_Mats": "wintry bell",
+            "W_Mats": "inert metallic drip",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "originite : type ii",
+            "Weapon S Level": 5,
+            "Best Echo Set": "rejuvenating",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/yangyang"
+        },
+        {
+            "Name": "yinlin",
+            "Rarity": 5,
+            "Element": "electro",
+            "HP": 11000,
+            "ATK": 400,
+            "DEF": 1283,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "whisperin core",
+            "RA_Mats": "group abomination tacet core",
+            "A_Mats": "coriolus",
+            "W_Mats": "lento helix",
+            "SU_Mats": "unwarranted feather",
+            "Weapon Name": "stringmaster",
+            "Weapon S Level": 1,
+            "Best Echo Set": "void",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/yinlin"
+        },
+        {
+            "Name": "yuanwu",
+            "Rarity": 4,
+            "Element": "electro",
+            "HP": 8525,
+            "ATK": 225,
+            "DEF": 1638,
+            "Max Energy": 125,
+            "CRIT Rate": 5,
+            "CRIT DMG": 150,
+            "Healing Bonus": 0,
+            "Element DMG": 0,
+            "WS_Mats": "crude ring",
+            "RA_Mats": "hidden thunder tacet core",
+            "A_Mats": "? ? ?",
+            "W_Mats": "cadence seed",
+            "SU_Mats": "unending destruction",
+            "Weapon Name": "amity accord",
+            "Weapon S Level": 1,
+            "Best Echo Set": "rejuvenating",
+            "Best Main Echo": "impermanence heron",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/yuanwu"
+        },
+        {
+            "Name": "zhezhi",
+            "Rarity": 5,
+            "Element": "unknown",
+            "HP": null,
+            "ATK": null,
+            "DEF": null,
+            "Max Energy": null,
+            "CRIT Rate": null,
+            "CRIT DMG": null,
+            "Healing Bonus": null,
+            "Element DMG": null,
+            "WS_Mats": "NULL",
+            "RA_Mats": "NULL",
+            "A_Mats": "NULL",
+            "W_Mats": "NULL",
+            "SU_Mats": "NULL",
+            "Weapon Name": "NULL",
+            "Weapon S Level": null,
+            "Best Echo Set": "NULL",
+            "Best Main Echo": "NULL",
+            "detail_url": "https://www.prydwen.gg/wuthering-waves/characters/zhezhi"
+        }
+    ],
+    "echoes": [
+        {
+            "Name": "bell-borne geochelone",
+            "Class": "calamity",
+            "Cost": 4,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "rejuvenating",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "dreamless",
+            "Class": "calamity",
+            "Cost": 4,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "havoc"
+            ]
+        },
+        {
+            "Name": "jué",
+            "Class": "calamity",
+            "Cost": 4,
+            "Element DMG": "spectro",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "celestial"
+            ]
+        },
+        {
+            "Name": "crownless",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "havoc"
+            ]
+        },
+        {
+            "Name": "feilian beringal",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "aero",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "sierra"
+            ]
+        },
+        {
+            "Name": "impermanence heron",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "inferno rider",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "molten"
+            ]
+        },
+        {
+            "Name": "lampylumen myriad",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "freezing"
+            ]
+        },
+        {
+            "Name": "mech abomination",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "electro",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "lingering"
+            ]
+        },
+        {
+            "Name": "mourning aix",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "spectro",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "celestial"
+            ]
+        },
+        {
+            "Name": "tempest mephis",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "electro",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "void"
+            ]
+        },
+        {
+            "Name": "thundering mephis",
+            "Class": "overlord",
+            "Cost": 4,
+            "Element DMG": "electro",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "void"
+            ]
+        },
+        {
+            "Name": "autopuppet scout",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "freezing",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "chaserazor",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "aero",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "sierra",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "chasm guardian",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "rejuvenating",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "cyan-feathered heron",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "aero",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "sierra",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "flautist",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "electro",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "void",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "geohide saurian",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "molten",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "glacio dreadmane",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 20,
+            "Sets": [
+                "freezing",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "havoc dreadmane",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "molten",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "hoochief",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "aero",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "sierra",
+                "rejuvenating"
+            ]
+        },
+        {
+            "Name": "lightcrusher",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "spectro",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "celestial"
+            ]
+        },
+        {
+            "Name": "lumiscale construct",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "freezing",
+                "void"
+            ]
+        },
+        {
+            "Name": "rocksteady guardian",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "spectro",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "celestial",
+                "rejuvenating"
+            ]
+        },
+        {
+            "Name": "roseshroom",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "freezing",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "spearback",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "moonlit",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "stonewall bracer",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "rejuvenating",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "tambourinist",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "freezing",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "violet-feathered heron",
+            "Class": "elite",
+            "Cost": 3,
+            "Element DMG": "electro",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "molten",
+                "void"
+            ]
+        },
+        {
+            "Name": "aero predator",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "aero",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "void",
+                "sierra"
+            ]
+        },
+        {
+            "Name": "chirpuff",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "aero",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "sierra",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "clang bang",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "freezing",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "cruisewing",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "celestial",
+                "rejuvenating",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "diamondclaw",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "moonlit",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "dwarf cassowary",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "sierra",
+                "rejuvenating"
+            ]
+        },
+        {
+            "Name": "electro predator",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "electro",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "molten",
+                "void"
+            ]
+        },
+        {
+            "Name": "excarat",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 2,
+            "Sets": [
+                "freezing",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "fission junrock",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "void",
+                "rejuvenating",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "fusion dreamane minor",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "molten",
+                "rejuvenating"
+            ]
+        },
+        {
+            "Name": "fusion prism",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "freezing",
+                "molten",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "fusion warrior",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "molten",
+                "void",
+                "sierra"
+            ]
+        },
+        {
+            "Name": "glacio predator",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "freezing",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "glacio prism",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "freezing",
+                "havoc",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "gulpuff",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "glacio",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "freezing",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "havoc prism",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "void",
+                "celestial",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "havoc warrior",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "celestial",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "hoartoise",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 2,
+            "Sets": [
+                "freezing",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "hooscamp",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "aero",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "sierra",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "lava larva",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "molten",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "sabyr boar",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "freezing",
+                "sierra",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "snip snap",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "fusion",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "molten",
+                "rejuvenating",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "spectro prism",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "spectro",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "molten",
+                "void",
+                "celestial"
+            ]
+        },
+        {
+            "Name": "tick tack",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "havoc",
+                "rejuvenating",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "traffic illuminator",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "molten",
+                "void",
+                "sierra"
+            ]
+        },
+        {
+            "Name": "vanguard junrock",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "void",
+                "rejuvenating",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "whiff whaff",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "aero",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "sierra",
+                "rejuvenating",
+                "moonlit"
+            ]
+        },
+        {
+            "Name": "young geohide saurian",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "NULL",
+            "Cooldown (s)": 2,
+            "Sets": [
+                "molten",
+                "void",
+                "lingering"
+            ]
+        },
+        {
+            "Name": "young roseshroom",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "havoc",
+            "Cooldown (s)": 8,
+            "Sets": [
+                "sierra",
+                "havoc"
+            ]
+        },
+        {
+            "Name": "zig zag",
+            "Class": "common",
+            "Cost": 1,
+            "Element DMG": "spectro",
+            "Cooldown (s)": 15,
+            "Sets": [
+                "celestial",
+                "moonlit",
+                "lingering"
+            ]
+        }
+    ],
+    "weapons": [
+        {
+            "Name": "abyss surges",
+            "Rarity": 5,
+            "Type": "gauntlets",
+            "Atk": 587,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "ages of harvest",
+            "Rarity": 5,
+            "Type": "broadblade",
+            "Atk": 587,
+            "Substat": "crit rate",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "blazing brilliance",
+            "Rarity": 5,
+            "Type": "sword",
+            "Atk": 587,
+            "Substat": "crit dmg",
+            "Substat%": 48.6
+        },
+        {
+            "Name": "cosmic ripples",
+            "Rarity": 5,
+            "Type": "rectifier",
+            "Atk": 500,
+            "Substat": "atk",
+            "Substat%": 54.0
+        },
+        {
+            "Name": "emerald of genesis",
+            "Rarity": 5,
+            "Type": "sword",
+            "Atk": 587,
+            "Substat": "crit rate",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "lustrous razor",
+            "Rarity": 5,
+            "Type": "broadblade",
+            "Atk": 587,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "static mist",
+            "Rarity": 5,
+            "Type": "pistols",
+            "Atk": 587,
+            "Substat": "crit rate",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "stringmaster",
+            "Rarity": 5,
+            "Type": "rectifier",
+            "Atk": 500,
+            "Substat": "crit rate",
+            "Substat%": 36.0
+        },
+        {
+            "Name": "verdant summit",
+            "Rarity": 5,
+            "Type": "broadblade",
+            "Atk": 587,
+            "Substat": "crit dmg",
+            "Substat%": 48.6
+        },
+        {
+            "Name": "amity accord",
+            "Rarity": 4,
+            "Type": "gauntlets",
+            "Atk": 337,
+            "Substat": "def",
+            "Substat%": 61.5
+        },
+        {
+            "Name": "augment",
+            "Rarity": 4,
+            "Type": "rectifier",
+            "Atk": 412,
+            "Substat": "crit rate",
+            "Substat%": 20.2
+        },
+        {
+            "Name": "autumntrace",
+            "Rarity": 4,
+            "Type": "broadblade",
+            "Atk": 412,
+            "Substat": "crit rate",
+            "Substat%": 20.2
+        },
+        {
+            "Name": "broadblade # 41",
+            "Rarity": 4,
+            "Type": "broadblade",
+            "Atk": 412,
+            "Substat": "energy regen",
+            "Substat%": 32.3
+        },
+        {
+            "Name": "cadenza",
+            "Rarity": 4,
+            "Type": "pistols",
+            "Atk": 337,
+            "Substat": "energy regen",
+            "Substat%": 51.8
+        },
+        {
+            "Name": "comet flare",
+            "Rarity": 4,
+            "Type": "rectifier",
+            "Atk": 412,
+            "Substat": "hp",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "commando of conviction",
+            "Rarity": 4,
+            "Type": "sword",
+            "Atk": 412,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "dauntless evernight",
+            "Rarity": 4,
+            "Type": "broadblade",
+            "Atk": 337,
+            "Substat": "def",
+            "Substat%": 61.5
+        },
+        {
+            "Name": "discord",
+            "Rarity": 4,
+            "Type": "broadblade",
+            "Atk": 337,
+            "Substat": "energy regen",
+            "Substat%": 51.8
+        },
+        {
+            "Name": "gauntlets # 21d",
+            "Rarity": 4,
+            "Type": "gauntlets",
+            "Atk": 387,
+            "Substat": "energy regen",
+            "Substat%": 38.8
+        },
+        {
+            "Name": "helios cleaver",
+            "Rarity": 4,
+            "Type": "broadblade",
+            "Atk": 412,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "hollow mirage",
+            "Rarity": 4,
+            "Type": "gauntlets",
+            "Atk": 412,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "jinzhou keeper",
+            "Rarity": 4,
+            "Type": "rectifier",
+            "Atk": 387,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "lumingloss",
+            "Rarity": 4,
+            "Type": "sword",
+            "Atk": 387,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "lunar cutter",
+            "Rarity": 4,
+            "Type": "sword",
+            "Atk": 412,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "marcato",
+            "Rarity": 4,
+            "Type": "gauntlets",
+            "Atk": 337,
+            "Substat": "energy regen",
+            "Substat%": 51.8
+        },
+        {
+            "Name": "novaburst",
+            "Rarity": 4,
+            "Type": "pistols",
+            "Atk": 412,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "pistols # 26",
+            "Rarity": 4,
+            "Type": "pistols",
+            "Atk": 387,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "rectifier # 25",
+            "Rarity": 4,
+            "Type": "rectifier",
+            "Atk": 337,
+            "Substat": "energy regen",
+            "Substat%": 51.8
+        },
+        {
+            "Name": "scale : slasher",
+            "Rarity": 4,
+            "Type": "sword",
+            "Atk": 337,
+            "Substat": "energy regen",
+            "Substat%": 51.8
+        },
+        {
+            "Name": "stonard",
+            "Rarity": 4,
+            "Type": "gauntlets",
+            "Atk": 412,
+            "Substat": "crit rate",
+            "Substat%": 20.2
+        },
+        {
+            "Name": "sword # 18",
+            "Rarity": 4,
+            "Type": "sword",
+            "Atk": 387,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "thunderbolt",
+            "Rarity": 4,
+            "Type": "pistols",
+            "Atk": 387,
+            "Substat": "atk",
+            "Substat%": 36.4
+        },
+        {
+            "Name": "undying flame",
+            "Rarity": 4,
+            "Type": "pistols",
+            "Atk": 412,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "variation",
+            "Rarity": 4,
+            "Type": "rectifier",
+            "Atk": 337,
+            "Substat": "energy regen",
+            "Substat%": 51.8
+        },
+        {
+            "Name": "beguiling melody",
+            "Rarity": 3,
+            "Type": "broadblade",
+            "Atk": 300,
+            "Substat": "atk",
+            "Substat%": 30.4
+        },
+        {
+            "Name": "broadblade of night",
+            "Rarity": 3,
+            "Type": "broadblade",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "broadblade of voyager",
+            "Rarity": 3,
+            "Type": "broadblade",
+            "Atk": 300,
+            "Substat": "energy regen",
+            "Substat%": 32.3
+        },
+        {
+            "Name": "gauntlets of night",
+            "Rarity": 3,
+            "Type": "gauntlets",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "gauntlets of voyager",
+            "Rarity": 3,
+            "Type": "gauntlets",
+            "Atk": 325,
+            "Substat": "def",
+            "Substat%": 30.7
+        },
+        {
+            "Name": "guardian broadblade",
+            "Rarity": 3,
+            "Type": "broadblade",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "guardian gauntlets",
+            "Rarity": 3,
+            "Type": "gauntlets",
+            "Atk": 300,
+            "Substat": "def",
+            "Substat%": 38.4
+        },
+        {
+            "Name": "guardian pistols",
+            "Rarity": 3,
+            "Type": "pistols",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "guardian rectifier",
+            "Rarity": 3,
+            "Type": "rectifier",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "guardian sword",
+            "Rarity": 3,
+            "Type": "sword",
+            "Atk": 300,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "originite : type i",
+            "Rarity": 3,
+            "Type": "broadblade",
+            "Atk": 300,
+            "Substat": "def",
+            "Substat%": 38.4
+        },
+        {
+            "Name": "originite : type ii",
+            "Rarity": 3,
+            "Type": "sword",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "originite : type iii",
+            "Rarity": 3,
+            "Type": "pistols",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "originite : type iv",
+            "Rarity": 3,
+            "Type": "gauntlets",
+            "Atk": 300,
+            "Substat": "crit dmg",
+            "Substat%": 40.5
+        },
+        {
+            "Name": "originite : type v",
+            "Rarity": 3,
+            "Type": "rectifier",
+            "Atk": 300,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "pistols of night",
+            "Rarity": 3,
+            "Type": "pistols",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "pistols of voyager",
+            "Rarity": 3,
+            "Type": "pistols",
+            "Atk": 300,
+            "Substat": "atk",
+            "Substat%": 30.3
+        },
+        {
+            "Name": "rectifier of night",
+            "Rarity": 3,
+            "Type": "rectifier",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "rectifier of voyager",
+            "Rarity": 3,
+            "Type": "rectifier",
+            "Atk": 300,
+            "Substat": "energy regen",
+            "Substat%": 32.3
+        },
+        {
+            "Name": "sword of night",
+            "Rarity": 3,
+            "Type": "sword",
+            "Atk": 325,
+            "Substat": "atk",
+            "Substat%": 24.3
+        },
+        {
+            "Name": "sword of voyager",
+            "Rarity": 3,
+            "Type": "sword",
+            "Atk": 300,
+            "Substat": "energy regen",
+            "Substat%": 32.3
+        },
+        {
+            "Name": "tyro broadblade",
+            "Rarity": 2,
+            "Type": "broadblade",
+            "Atk": 275,
+            "Substat": "atk",
+            "Substat%": 14.8
+        },
+        {
+            "Name": "tyro gauntlets",
+            "Rarity": 2,
+            "Type": "gauntlets",
+            "Atk": 275,
+            "Substat": "atk",
+            "Substat%": 14.8
+        },
+        {
+            "Name": "tyro pistols",
+            "Rarity": 2,
+            "Type": "pistols",
+            "Atk": 275,
+            "Substat": "atk",
+            "Substat%": 14.8
+        },
+        {
+            "Name": "tyro rectifier",
+            "Rarity": 2,
+            "Type": "rectifier",
+            "Atk": 275,
+            "Substat": "atk",
+            "Substat%": 14.8
+        },
+        {
+            "Name": "tyro sword",
+            "Rarity": 2,
+            "Type": "sword",
+            "Atk": 275,
+            "Substat": "atk",
+            "Substat%": 14.8
+        },
+        {
+            "Name": "training broadblade",
+            "Rarity": 1,
+            "Type": "broadblade",
+            "Atk": 250,
+            "Substat": "atk",
+            "Substat%": 11.4
+        },
+        {
+            "Name": "training gauntlets",
+            "Rarity": 1,
+            "Type": "gauntlets",
+            "Atk": 250,
+            "Substat": "atk",
+            "Substat%": 11.4
+        },
+        {
+            "Name": "training pistols",
+            "Rarity": 1,
+            "Type": "pistols",
+            "Atk": 250,
+            "Substat": "atk",
+            "Substat%": 11.4
+        },
+        {
+            "Name": "training rectifier",
+            "Rarity": 1,
+            "Type": "rectifier",
+            "Atk": 250,
+            "Substat": "atk",
+            "Substat%": 11.4
+        },
+        {
+            "Name": "training sword",
+            "Rarity": 1,
+            "Type": "sword",
+            "Atk": 250,
+            "Substat": "atk",
+            "Substat%": 11.4
+        }
+    ]
+}
