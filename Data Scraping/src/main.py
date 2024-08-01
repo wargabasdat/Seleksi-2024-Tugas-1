@@ -8,7 +8,6 @@ def log(message):
         
 def main():
     airlines = ["garuda-indonesia", "batik-air"]
-    # max_reviews_per_airline = 20
     all_reviews = []
 
     for airline in airlines:
@@ -22,7 +21,6 @@ def main():
     init_database()
     load_data()
     log("Loaded data to database")
-    # print("Loaded data to database")
 
 if __name__ == "__main__":
     main()
