@@ -329,7 +329,7 @@ Data visualization dashboard is made using Next.js. Here is a few screenshots of
 
 ## Scheduler
 
-The scheduler is useful to update the database with new weather data from the [https://www.wunderground.com](https://www.wunderground.com/history/). **NOTE that the scheduler only updates the database, and do not update the json files in `./Data Scraping`.** General algorithm:
+The scheduler is useful to update the database with new weather data from the [https://www.wunderground.com](https://www.wunderground.com/history/). The scheduler runs on first time executed and every hour. The script must be kept on running for the scheduler to work continously. **NOTE that the scheduler only updates the database, and do not update the json files in `./Data Scraping`.** General algorithm:
 
 1. Read scrape_logs from the database and find the latest successfull scrape log for each station.
 2. Generate the URLs to be scraped.
