@@ -61,6 +61,14 @@ export default async function DashboardPage({
   }
 
   const queryFilter = zodResult.data;
+  // Query date only stores the date (year, month date). Setup the time to 00:00:00
+  if (queryFilter.startDate) {
+    queryFilter.startDate.setHours(0, 0, 0, 0);
+  }
+  // Query date only stores the date (year, month date). Setup the time to 23:59:59
+  if (queryFilter.endDate) {
+    queryFilter.endDate.setHours(23, 59, 59, 999);
+  }
 
   return (
     <main className="flex flex-auto justify-center px-5 py-12 lg:p-16">
