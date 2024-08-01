@@ -88,18 +88,18 @@ def scrape_recipes():
                     ingredient_links.append(ingredient_link)
 
             # Post
-            try:
-                while True:
-                    try:
-                        view_more_button = WebDriverWait(driver, 10).until(
-                            EC.element_to_be_clickable((By.CSS_SELECTOR, "span.conversation__show-more__text.svelte-1f82czh"))
-                        )
-                        view_more_button.click()
-                        time.sleep(10)
-                    except:
-                        break
-            except Exception as e:
-                print(f"Error: {e}")
+            # try:
+            #     while True:
+            #         try:
+            #             view_more_button = WebDriverWait(driver, 10).until(
+            #                 EC.element_to_be_clickable((By.CSS_SELECTOR, "span.conversation__show-more__text.svelte-1f82czh"))
+            #             )
+            #             view_more_button.click()
+            #             time.sleep(10)
+            #         except:
+            #             break
+            # except Exception as e:
+            #     print(f"Error: {e}")
 
             question_id = 1
             review_id = 1
@@ -413,9 +413,12 @@ def scrape_users():
 
         try:
             joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
-            joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m')
+            joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m').split("-")
+            year = joined_date[0]
+            month = joined_date[1]
         except:
-            joined_date = ""
+            year = ""
+            month = ""
 
         try:
             followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-followers span.count"))).text.strip()
@@ -433,17 +436,17 @@ def scrape_users():
             "user_rating_avg": user_rating_avg,
             "city": city,
             "state": state,
-            "joined_month": joined_date,
+            "joined_year": year,
+            "joined_month": month,
             "followers": followers,
             "following": following
         }
         users.append(user)
 
     with open('Data Scraping/data/users.json', 'w') as json_file:
-        json.dump(users, json_file, indent=4)
-
-if __name__ == "__main__":
-
+        json.dump(users, json_file, indent=4)\
+        
+def run_all():
     start = time.time()
     
     # Setup & run driver
@@ -461,14 +464,16 @@ if __name__ == "__main__":
     
     # Scraping
     # scrape_recipe_links()
-    # scrape_recipes()
-    # scrape_ingredients()
+    scrape_recipes()
+    scrape_ingredients()
     scrape_users()
     
     # Quit driver
     driver.quit()
 
     end = time.time()
-
     p = (end - start) / 60 
     print(f"{p} minutes")
+
+if __name__ == "__main__":
+    run_all()
