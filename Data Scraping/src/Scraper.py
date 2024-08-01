@@ -62,6 +62,37 @@ season_overview = Util.fixSeasonOverview(rest_season,prologue_season,3)
 complete_liste.append(darwin_special)
 complete_liste.append(gumball_chronicles)
 
+for i in range(len(complete_liste)):
+    for j in range(len(complete_liste[i])):
+        for k in range (len(complete_liste[i][j][4])):
+            if (complete_liste[i][j][4][k] == "Joe Markham[nb 3]"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace("[nb 3]","")
+            elif (complete_liste[i][j][4][k] == "[a] Tobi Wilson"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace("[a] ","")
+            elif (complete_liste[i][j][4][k] == "Guillaume Cassuto Tobi Wilson"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace(" Tobi Wilson","")
+                complete_liste[i][j][4].append("Tobi Wilson")
+            elif (complete_liste[i][j][4][k] == "Ben Bocquelet Mic Graves"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace(" Mic Graves","")
+                complete_liste[i][j][4].append("Mic Graves")
+            elif (complete_liste[i][j][4][k] == "Tobi Wilson,"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace(",","")
+            elif (complete_liste[i][j][4][k] == "Oliver Kindeberg,[a] Tobi Wilson"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace(",[a] Tobi Wilson","")
+                complete_liste[i][j][4].append("Tobi Wilson")
+            elif (complete_liste[i][j][4][k] == "Joe Parham Tobi Wilson"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace(" Tobi Wilson","")
+                complete_liste[i][j][4].append("Tobi Wilson")
+            elif (complete_liste[i][j][4][k] == "Jon Foster James Lamont"):
+                complete_liste[i][j][4][k] = complete_liste[i][j][4][k].replace(" James Lamont","")
+                complete_liste[i][j][4].append("James Lamont")
+
+for i in range(len(complete_liste)):
+    for j in range(len(complete_liste[i])):
+        for k in range (len(complete_liste[i][j][5])):
+            if (complete_liste[i][j][5][k] == "Sebastian Hary (uncredited)"):
+                complete_liste[i][j][5][k] = complete_liste[i][j][5][k].replace(" (uncredited)","")
+
 seasons = Util.createSeasons(season_overview,complete_liste,headers_prologue)
 show = Util.createShow(seasons)
 json_object = json.dumps(show,indent=4,ensure_ascii=False)

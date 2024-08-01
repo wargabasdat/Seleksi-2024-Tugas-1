@@ -1,3 +1,5 @@
+from datetime import datetime
+
 def splitAndComma(string: str):
     stringChange = string.replace(" and "," ")
     stringChange = stringChange.split(", ")
@@ -28,6 +30,8 @@ def fixList (liste: list, divider: int, episode_tracker: int):
                 liste[i*(divider-1)+j] = splitAndComma(liste[i*(divider-1)+j])
             elif (j == 4):
                 liste[i*(divider-1)+j] = splitJustAnd(liste[i*(divider-1)+j])
+            elif (j == 2):
+                liste[i*(divider-1)+j] = splitJustAnd(liste[i*(divider-1)+j])
             if (j == 5):
                 stringer = liste[i*(divider-1)+j]
                 for k in range(len(stringer)):
@@ -35,6 +39,7 @@ def fixList (liste: list, divider: int, episode_tracker: int):
                         stringer = stringer[:k-1]
                         break
                 stringer = stringer.replace("\xa0"," ")
+                stringer = convertToDate(stringer)
                 liste[i*(divider-1)+j] = stringer
             if (j == divider-2):
                 stringer = liste[i*(divider-1)+j]
@@ -59,7 +64,7 @@ def fixListHoled (liste: list, divider: int, episode_tracker: int):
                 tracker.append(liste[i*(divider-1)+j])
                 continue
             if (j == 2):
-                tracker.append("N/A")
+                tracker.append(["N/A"])
                 continue
             if (j == 3):
                 liste[i*(divider-1)+j-1] = splitAndComma(liste[i*(divider-1)+j-1])
@@ -72,6 +77,7 @@ def fixListHoled (liste: list, divider: int, episode_tracker: int):
                         stringer = stringer[:k-1]
                         break
                 stringer = stringer.replace("\xa0"," ")
+                stringer = convertToDate(stringer)
                 liste[i*(divider-1)+j-1] = stringer
             if (j == divider-2):
                 stringer = liste[i*(divider-1)+j]
@@ -100,6 +106,8 @@ def fixListUK4 (liste: list, divider: int, episode_tracker: int):
                     liste[i*(divider-1)+j] = splitAndComma(liste[i*(divider-1)+j])
                 elif (j == 4):
                     liste[i*(divider-1)+j] = splitJustAnd(liste[i*(divider-1)+j])
+                elif (j == 2):
+                    liste[i*(divider-1)+j] = splitJustAnd(liste[i*(divider-1)+j])
                 if (j == 5):
                     stringer = liste[i*(divider-1)+j]
                     for k in range(len(stringer)):
@@ -107,6 +115,7 @@ def fixListUK4 (liste: list, divider: int, episode_tracker: int):
                             stringer = stringer[:k-1]
                             break
                     stringer = stringer.replace("\xa0"," ")
+                    stringer = convertToDate(stringer)
                     liste[i*(divider-1)+j] = stringer
                 if (j == 6):
                     continue
@@ -130,13 +139,13 @@ def fixListUK4 (liste: list, divider: int, episode_tracker: int):
             liste_new.append(tracker)
             tracker = []
             episode_tracker += 1
-            tracker.append(episode_tracker)
+            tracker.append(episode_tracker-1)
             tracker.append(22)
             tracker.append(liste[(i)*(divider-1)+4])
-            tracker.append(liste[(i)*(divider-1)+5])
+            tracker.append([liste[(i)*(divider-1)+5]])
             tracker.append(splitJustAnd(liste[i*(divider-1)+6]))
-            tracker.append(liste[(i)*(divider-1)+7])
-            tracker.append(liste[(i)*(divider-1)+9])
+            tracker.append([liste[(i)*(divider-1)+7]])
+            tracker.append(convertToDate(liste[(i)*(divider-1)+9]))
             tracker.append(liste[(i)*(divider-1)+10])
             tracker.append(liste[(i-1)*(divider-1)+8])
             liste.remove("21")
@@ -157,6 +166,8 @@ def fixListUK (liste: list, divider: int, episode_tracker: int):
                 liste[i*(divider-1)+j] = splitAndComma(liste[i*(divider-1)+j])
             elif (j == 4):
                 liste[i*(divider-1)+j] = splitJustAnd(liste[i*(divider-1)+j])
+            elif (j == 2):
+                liste[i*(divider-1)+j] = splitJustAnd(liste[i*(divider-1)+j])
             if (j == 5):
                 stringer = liste[i*(divider-1)+j]
                 for k in range(len(stringer)):
@@ -164,6 +175,7 @@ def fixListUK (liste: list, divider: int, episode_tracker: int):
                         stringer = stringer[:k-1]
                         break
                 stringer = stringer.replace("\xa0"," ")
+                stringer = convertToDate(stringer)
                 liste[i*(divider-1)+j] = stringer
             if (j == 6):
                 continue
@@ -190,15 +202,16 @@ def fixPrologue (liste: list):
             break
     liste[0] = stringer
     liste_new.append(liste[0])
-    liste_new.append("N/A")
-    liste_new.append(liste[1])
-    liste_new.append(liste[2])
+    liste_new.append(["N/A"])
+    liste_new.append([liste[1]])
+    liste_new.append([liste[2]])
     stringer = liste[3]
     for i in range(len(stringer)):
         if (stringer[i] == '('):
             stringer = stringer[:i-1]
             break
     stringer = stringer.replace("\xa0"," ")
+    stringer = convertToDate(stringer)
     liste[3] = stringer
     liste_new.append(liste[3])
     liste_new.append("N/A")
@@ -219,6 +232,7 @@ def fixDarwinSpecial (liste: list, divider: int, episode_tracker: int):
                     if (stringer[k] == '['):
                         stringer = stringer[:k]
                         break
+                stringer = convertToDate(stringer)
                 liste[i*(divider-1)+j] = stringer
             if (j == divider-2):
                 stringer = liste[i*(divider-1)+j]
@@ -230,9 +244,9 @@ def fixDarwinSpecial (liste: list, divider: int, episode_tracker: int):
             if (j != 1):
                 tracker.append(liste[i*(divider-1)+j])
             if (j == 0):
-                tracker.append("N/A")
-                tracker.append("N/A")
-                tracker.append("N/A")
+                tracker.append(["N/A"])
+                tracker.append(["N/A"])
+                tracker.append(["N/A"])
         liste_new.append(tracker)
         tracker = []
     return liste_new, episode_tracker
@@ -254,6 +268,7 @@ def fixGumballChronicles (liste: list, divider: int, episode_tracker: int):
                         stringer = stringer[:k-1]
                         break
                 stringer = stringer.replace("\xa0"," ")
+                stringer = convertToDate(stringer)
                 liste[i*(divider-1)+j] = stringer
             if (j == divider-2 or j == 5):
                 stringer = liste[i*(divider-1)+j]
@@ -281,6 +296,7 @@ def fixSeasonOverview (liste: list, extra_data: str, divider: int):
             stringer = stringer[:k-1]
             break
     stringer = stringer.replace("\xa0"," ")
+    stringer = convertToDate(stringer)
     extra_data = stringer
     for i in range(2):
         tracker.append(extra_data)
@@ -301,6 +317,7 @@ def fixSeasonOverview (liste: list, extra_data: str, divider: int):
                         stringer = stringer[:k-1]
                         break
                 stringer = stringer.replace("\xa0"," ")
+                stringer = convertToDate(stringer)
                 liste[i*(divider)+j] = stringer
             tracker.append(liste[i*(divider)+j])
         liste_new.append(tracker)
@@ -350,3 +367,8 @@ def createShow (season_liste: list):
         "Seasons": season_liste
     }
     return show
+
+def convertToDate (date_string: str):
+    date_object = datetime.strptime(date_string, "%B %d, %Y")
+    formatted_date = date_object.strftime("%Y-%m-%d")
+    return formatted_date
