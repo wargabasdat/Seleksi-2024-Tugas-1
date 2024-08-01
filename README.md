@@ -51,4 +51,60 @@ The JSON format of the scraped data is
 
 ## Data Modeling
 
-### ERD
+Here is the ERD design for the database. Where Contributor table is stored is the contest writers, Problem table is stored the problems, Contest table is stored the contests, and Tag table is stored all kind of tags that a problem can have.
+| ERD DESIGN |
+| ----------------------------------------------------------------------------------------------------------------- |
+| ![ERD Design](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/design/ERD.png) |
+
+| Relational Database Table Design                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Relational Diagram Design](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/design/relational-model.png) |
+
+How did i convert the ERD concept into the Relational database design?
+
+- I converted all many to many relationships into a table that contains all the corresponding primary key. (ContributorContest and ProblemTag table)
+- I handled all one to many relationship by providing the primary key of the "many" side into the "one", with that "one" side now also has "many" primary keys as its primary keys.
+
+## Data Storing
+
+Below is the proof that i had stored the scraped data into the dumped sql.
+
+### Contest Table
+
+| Contest Table                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| ![Contest Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Contest.png) |
+
+### Contributor Table
+
+| Contributor Table                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Contributor Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Contributor.png) |
+
+### ContributorContest Table
+
+| ContributorContest Table                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![ContributorContest Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/ContributorContest.png) |
+
+### Problem Table
+
+| Problem Table                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| ![Problem Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Problem.png) |
+
+### ProblemTag Table
+
+| ProblemTag Table                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ![ProblemTag Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/ProblemTag.png) |
+
+### Tag Table
+
+| Tag Table                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------- |
+| ![Tag Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Tag.png) |
+
+## Special Thanks
+
+Special thanks to Codeforces for providing the information. [codeforces.com](https://codeforces.com)
