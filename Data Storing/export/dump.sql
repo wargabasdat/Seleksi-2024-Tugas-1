@@ -885,38 +885,38 @@ COPY public.item (id, name, description, detail_url, image_id) FROM stdin;
 --
 
 COPY public.level (id, name, detail_url, setting_id, image_id, course_map_image_id) FROM stdin;
-1	World 1-1	https://www.mariowiki.com/World_1-1_(Super_Mario_Bros.)	2	50	51
+1	World 1-1	https://www.mariowiki.com/World_1-1_(Super_Mario_Bros.)	1	50	51
 2	World 1-2	https://www.mariowiki.com/World_1-2_(Super_Mario_Bros.)	3	52	53
-3	World 1-3	https://www.mariowiki.com/World_1-3_(Super_Mario_Bros.)	5	54	55
-4	World 1-4	https://www.mariowiki.com/World_1-4_(Super_Mario_Bros.)	1	56	57
-5	World 2-1	https://www.mariowiki.com/World_2-1_(Super_Mario_Bros.)	2	58	59
-6	World 2-2	https://www.mariowiki.com/World_2-2_(Super_Mario_Bros.)	4	60	61
-7	World 2-3	https://www.mariowiki.com/World_2-3_(Super_Mario_Bros.)	5	62	63
-8	World 2-4	https://www.mariowiki.com/World_2-4_(Super_Mario_Bros.)	1	64	65
-9	World 3-1	https://www.mariowiki.com/World_3-1_(Super_Mario_Bros.)	2	66	67
-10	World 3-2	https://www.mariowiki.com/World_3-2_(Super_Mario_Bros.)	2	68	69
-11	World 3-3	https://www.mariowiki.com/World_3-3_(Super_Mario_Bros.)	5	70	71
-12	World 3-4	https://www.mariowiki.com/World_3-4_(Super_Mario_Bros.)	1	72	73
-13	World 4-1	https://www.mariowiki.com/World_4-1_(Super_Mario_Bros.)	2	74	75
+3	World 1-3	https://www.mariowiki.com/World_1-3_(Super_Mario_Bros.)	4	54	55
+4	World 1-4	https://www.mariowiki.com/World_1-4_(Super_Mario_Bros.)	5	56	57
+5	World 2-1	https://www.mariowiki.com/World_2-1_(Super_Mario_Bros.)	1	58	59
+6	World 2-2	https://www.mariowiki.com/World_2-2_(Super_Mario_Bros.)	2	60	61
+7	World 2-3	https://www.mariowiki.com/World_2-3_(Super_Mario_Bros.)	4	62	63
+8	World 2-4	https://www.mariowiki.com/World_2-4_(Super_Mario_Bros.)	5	64	65
+9	World 3-1	https://www.mariowiki.com/World_3-1_(Super_Mario_Bros.)	1	66	67
+10	World 3-2	https://www.mariowiki.com/World_3-2_(Super_Mario_Bros.)	1	68	69
+11	World 3-3	https://www.mariowiki.com/World_3-3_(Super_Mario_Bros.)	4	70	71
+12	World 3-4	https://www.mariowiki.com/World_3-4_(Super_Mario_Bros.)	5	72	73
+13	World 4-1	https://www.mariowiki.com/World_4-1_(Super_Mario_Bros.)	1	74	75
 14	World 4-2	https://www.mariowiki.com/World_4-2_(Super_Mario_Bros.)	3	76	77
-15	World 4-3	https://www.mariowiki.com/World_4-3_(Super_Mario_Bros.)	5	78	79
-16	World 4-4	https://www.mariowiki.com/World_4-4_(Super_Mario_Bros.)	1	80	81
-17	World 5-1	https://www.mariowiki.com/World_5-1_(Super_Mario_Bros.)	2	82	83
-18	World 5-2	https://www.mariowiki.com/World_5-2_(Super_Mario_Bros.)	2	84	85
-19	World 5-3	https://www.mariowiki.com/World_5-3_(Super_Mario_Bros.)	5	86	87
-20	World 5-4	https://www.mariowiki.com/World_5-4_(Super_Mario_Bros.)	1	88	89
-21	World 6-1	https://www.mariowiki.com/World_6-1_(Super_Mario_Bros.)	2	90	91
-22	World 6-2	https://www.mariowiki.com/World_6-2_(Super_Mario_Bros.)	2	92	93
-23	World 6-3	https://www.mariowiki.com/World_6-3_(Super_Mario_Bros.)	5	94	95
-24	World 6-4	https://www.mariowiki.com/World_6-4_(Super_Mario_Bros.)	1	96	97
-25	World 7-1	https://www.mariowiki.com/World_7-1_(Super_Mario_Bros.)	2	98	99
-26	World 7-2	https://www.mariowiki.com/World_7-2_(Super_Mario_Bros.)	4	100	101
-27	World 7-3	https://www.mariowiki.com/World_7-3_(Super_Mario_Bros.)	5	102	103
-28	World 7-4	https://www.mariowiki.com/World_7-4_(Super_Mario_Bros.)	1	104	105
-29	World 8-1	https://www.mariowiki.com/World_8-1_(Super_Mario_Bros.)	2	106	107
-30	World 8-2	https://www.mariowiki.com/World_8-2_(Super_Mario_Bros.)	2	108	109
-31	World 8-3	https://www.mariowiki.com/World_8-3_(Super_Mario_Bros.)	2	110	111
-32	World 8-4	https://www.mariowiki.com/World_8-4_(Super_Mario_Bros.)	1	112	113
+15	World 4-3	https://www.mariowiki.com/World_4-3_(Super_Mario_Bros.)	4	78	79
+16	World 4-4	https://www.mariowiki.com/World_4-4_(Super_Mario_Bros.)	5	80	81
+17	World 5-1	https://www.mariowiki.com/World_5-1_(Super_Mario_Bros.)	1	82	83
+18	World 5-2	https://www.mariowiki.com/World_5-2_(Super_Mario_Bros.)	1	84	85
+19	World 5-3	https://www.mariowiki.com/World_5-3_(Super_Mario_Bros.)	4	86	87
+20	World 5-4	https://www.mariowiki.com/World_5-4_(Super_Mario_Bros.)	5	88	89
+21	World 6-1	https://www.mariowiki.com/World_6-1_(Super_Mario_Bros.)	1	90	91
+22	World 6-2	https://www.mariowiki.com/World_6-2_(Super_Mario_Bros.)	1	92	93
+23	World 6-3	https://www.mariowiki.com/World_6-3_(Super_Mario_Bros.)	4	94	95
+24	World 6-4	https://www.mariowiki.com/World_6-4_(Super_Mario_Bros.)	5	96	97
+25	World 7-1	https://www.mariowiki.com/World_7-1_(Super_Mario_Bros.)	1	98	99
+26	World 7-2	https://www.mariowiki.com/World_7-2_(Super_Mario_Bros.)	2	100	101
+27	World 7-3	https://www.mariowiki.com/World_7-3_(Super_Mario_Bros.)	4	102	103
+28	World 7-4	https://www.mariowiki.com/World_7-4_(Super_Mario_Bros.)	5	104	105
+29	World 8-1	https://www.mariowiki.com/World_8-1_(Super_Mario_Bros.)	1	106	107
+30	World 8-2	https://www.mariowiki.com/World_8-2_(Super_Mario_Bros.)	1	108	109
+31	World 8-3	https://www.mariowiki.com/World_8-3_(Super_Mario_Bros.)	1	110	111
+32	World 8-4	https://www.mariowiki.com/World_8-4_(Super_Mario_Bros.)	5	112	113
 \.
 
 
@@ -1309,11 +1309,11 @@ COPY public.reference (id, name, description, detail_url, type) FROM stdin;
 --
 
 COPY public.setting (id, name) FROM stdin;
-1	Castle
-2	Overworld
+1	Overworld
+2	Underwater
 3	Underground
-4	Underwater
-5	Athletic
+4	Athletic
+5	Castle
 \.
 
 

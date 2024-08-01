@@ -16,6 +16,10 @@ DBMS yang dibuat merupakan data dari game [Super Mario Bros](https://www.mariowi
 <!-- - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya -->
 Pastikan untuk membuka folder `DataScraping/src` di terminal.
 
+### Environtment Variables
+Buat file `.env` di dalam folder `DataScraping/src` dengan isi dapat mengikuti examplenya pada file `DataScraping/src/.env.example.docker` atau `DataScraping/src/.env.example.localhost`. Atau langsung saja rename yang `DataScraping/src/.env.example.localhost` menjadi `DataScraping/src/.env`.
+
+
 ### Docker
 Jika ingin menggunakan docker, jalankan ini
 ```
