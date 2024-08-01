@@ -29,6 +29,11 @@ jalankan command berikut untuk melakukan dump database
 docker exec -it mariodb pg_dump mariodb > dump/dump.sql
 ```
 
+### Restore Dump
+jalankan command berikut untuk melakukan restore database
+```
+docker exec -i mariodb psql -U user -d mariodb < dump/dump.sql
+```
 
 ### Manual
 Jika tidak menggunakan docker, anda bisa mengikuti ini. Pastikan Python dan PostgreSQL terinstall.

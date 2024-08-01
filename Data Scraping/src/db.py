@@ -396,6 +396,9 @@ if __name__ == "__main__":
         db.create_tables()
         db.truncate_tables()
         db.insert_tables(json.loads(open("json/data.json", "r").read()))
+    elif sys.argv[1] == "dropall":
+        db = DB()
+        db.drop_tables()
     else:
         db = DB()
         print(db.query(sys.argv[1]))
