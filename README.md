@@ -7,10 +7,17 @@
 - [References](#references)
 
 ## Overview
+The airline industry is a vital part of global transportation, impacting millions of travelers worldwide. Understanding passenger satisfaction is crucial for airlines to improve their services and remain competitive.Understanding passengers feedback and where improvements are needed is critical for maintaining a competitive edge in the airline industry.
+
+This ETL project focuses on analyzing passenger reviews for two major Indonesian airlines: Garuda Indonesia and Batik Air. By scraping data from airlinequality.com, this project aims to provide insights into passenger experiences, helping these airlines enhance their services and customer satisfaction. 
+
+## How to Use
+
+## JSON Structure
 
 
 ## Data Scraping
-
+The primary objective of this project is to extract detailed review data from airlinequality.com, transform it into a JSON structured format, and load it into a MySQL database for comprehensive analysis. This analysis will provide a deep dive into various aspects of passenger experiences, such as service quality, comfort, and overall satisfaction.
 
 ## Data Modeling + Data Storing
 
