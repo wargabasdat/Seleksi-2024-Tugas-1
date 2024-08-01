@@ -678,6 +678,7 @@ export const CalendarDatePicker = React.forwardRef<
                   </div>
                   <div className="flex">
                     <Calendar
+                      disabled={{ after: new Date() }} // Disable future dates
                       mode="range"
                       defaultMonth={monthFrom}
                       month={monthFrom}
