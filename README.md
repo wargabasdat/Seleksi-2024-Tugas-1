@@ -7,7 +7,7 @@
 </h2>
 
 ## Deskripsi 
-Restoran merupakan tempat dimana kita dapat menikmati makanan yang merupakan kebutuhan primer setiap manusia. Alasan memilih restoran dikarenakan saya sangat suka makan dan tentu saja setiap orang ingin mencoba makanan yang enak. Saya juga tertarik untuk mencoba makanan baru dari berbagai negara
+Restoran merupakan tempat dimana kita dapat menikmati makanan yang merupakan kebutuhan primer setiap manusia. Alasan memilih restoran dikarenakan saya sangat suka makan dan tentu saja setiap orang ingin mencoba makanan yang enak. Saya juga tertarik untuk mencoba makanan baru dari berbagai negara. Database ini berisi top 50 restoran di dunia.
 
 ## Cara Menggunakan Scraper
 1. Masuk ke directory scraper
@@ -38,7 +38,7 @@ Restoran merupakan tempat dimana kita dapat menikmati makanan yang merupakan keb
     ```
 
 ## Struktur File JSON
-File JSON berjumlah 50 data restoran dan di setiap datanya memiliki 6 kolom yaitu nama, alamat, nomor telepon, website, instagram, dan facebook dari masing-masing restoran. Null pada file JSON menandakan bahwa restoran  tidak memiliki data pada kolom tersebut. Untuk struktur lengkapnya dapat dilihat pada folder data yang terletak di dalam folder Data Storing
+File JSON berjumlah 50 data restoran dan di setiap datanya memiliki 6 kolom yaitu nama, alamat, nomor telepon, website, instagram, dan facebook dari masing-masing restoran. Null pada file JSON menandakan bahwa restoran tidak memiliki data pada kolom tersebut. Untuk struktur lengkapnya dapat dilihat pada folder data yang terletak di dalam folder Data Storing
 
 ## Struktur ERD dan Diagram RDBMS
 1. Seorang pemilik dapat memiliki lebih dari 1 restoran dan suatu restoran dapat memiliki lebih dari 1 pemilik.
@@ -48,11 +48,11 @@ File JSON berjumlah 50 data restoran dan di setiap datanya memiliki 6 kolom yait
 3. Suatu restoran wajib memiliki satu menu. Suatu restoran dapat memiliki banyak menu tetapi suatu menu hanya bisa terdapat di satu restoran saja (mempertimbangkan resep yang berbeda antar restoran)
 
 ## Proses Translasi ERD ke Diagram Relational
-1. Untuk relasi many to many, dibuat relasi baru dan primary keynya diambil dari primary key masing-masing relasi
+1. Untuk relasi many to many, dibuat relasi baru dan primary keynya diambil dari primary key kedua relasi
 
 2. Untuk relasi one to many, menambahkan foreign key di bagian many yang merujuk ke primary key si one
 
-3. Untuk relasi dengan atribut tambahan, dibuat relasi baru dan primary keynya diambil dari primary key masing-masing relasi serta menambahkan atribut tambahan pada relasi baru tersebut
+3. Untuk relasi dengan atribut tambahan, dibuat relasi baru dan primary keynya diambil dari primary key kedua relasi serta menambahkan atribut tambahan pada relasi baru tersebut
 
 ## Screenshot Hasil Program
 1. SS kode scraper <br>
