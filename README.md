@@ -47,6 +47,12 @@ File JSON berjumlah 50 data restoran dan di setiap datanya memiliki 6 kolom yait
 
 3. Suatu restoran wajib memiliki satu menu. Suatu restoran dapat memiliki banyak menu tetapi suatu menu hanya bisa terdapat di satu restoran saja (mempertimbangkan resep yang berbeda antar restoran)
 
+SS ERD <br>
+![ERD](./Data%20Storing/design/ERD.png) <br>
+
+SS RM <br>
+![RM](./Data%20Storing/design/RM.png) <br>
+
 ## Proses Translasi ERD ke Diagram Relational
 1. Untuk relasi many to many, dibuat relasi baru dan primary keynya diambil dari primary key kedua relasi
 
