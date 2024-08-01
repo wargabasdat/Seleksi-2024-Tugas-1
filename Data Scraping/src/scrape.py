@@ -11,9 +11,11 @@ from table.level import level
 from json import dump
 import asyncio
 from typing import Callable
-from db import DB
+import asyncio
+import os
 
-async def scrape(on_scrape_completed: Callable):
+
+async def scrape(on_scrape_completed: Callable[[Dict], None]):
     soup = Table.get_soup()
 
     levels_tables = level()
@@ -34,8 +36,21 @@ async def scrape(on_scrape_completed: Callable):
 
     await levels_tables.populate_detail()
 
-    with open("json/data.json", "w") as outfile: 
-        dump(json, outfile)
+    try:
+        if not os.path.exists("json"):
+            os.makedirs("json")
+        with open("json/data.json", "w") as outfile: 
+            dump(json, outfile)
+    except Exception as e:
+        print(e)
+        # print all folders in the current directory
+        print(os.listdir(os.getcwd()))
 
     if on_scrape_completed:
-        on_scrape_completed()
+        on_scrape_completed(json)
+
+
+if __name__ == "__main__":
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    asyncio.run(scrape())
+    

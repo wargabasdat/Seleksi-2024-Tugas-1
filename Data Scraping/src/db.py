@@ -383,6 +383,12 @@ WHERE name = 'Luigi'
         cursor.execute("DROP TABLE IF EXISTS image")
         self.conn.commit()
 
+def create_db(json: Dict):
+    db = DB()
+    db.drop_tables()
+    db.create_tables()
+    db.insert_tables(json)
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         db = DB()

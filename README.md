@@ -9,10 +9,50 @@
 | Dhafin Fawwaz Ikramullah  |    13522084   |
 
 ## Deskripsi
-- Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
+<!-- - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut -->
+DBMS yang dibuat merupakan data dari game [Super Mario Bros](https://www.mariowiki.com/Super_Mario_Bros.) yang data-datanya merupakan hasil web scrapping. Topik ini dipilih karena akan cocok untuk dijadikan sebuah sistem basis data relasional dengan adanya hal-hal seperti character yang memiliki beberapa tipe, level yang berisikan item-item dengan jumlah tertentu, hubungan antara power up, playable character, dan form power up, dan sebagainya. Dengan adanya DBMS ini kita dapat dengan mudah memperoleh sebuah insight untuk game ini.
 
 ## Cara Menggunakan
-- Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
+<!-- - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya -->
+Pastikan untuk membuka folder `DataScraping/src` di terminal.
+
+### Docker
+Jika ingin menggunakan docker, jalankan ini
+```
+docker-compose up
+```
+Program akan secara otomatis melakukan web scraping dan menyimpannya di `json/data.json` serta memasukkan data-data ke basis data.
+
+### Dump
+jalankan command berikut untuk melakukan dump database
+```
+docker exec -it mariodb pg_dump mariodb > dump/dump.sql
+```
+
+
+### Manual
+Jika tidak menggunakan docker, anda bisa mengikuti ini. Pastikan Python dan PostgreSQL terinstall.
+Jalankan
+```
+python main.py
+```
+Dan akan otomatis web scraping dan memasukkan data ke basis data.
+
+Jika hanya ingin web scraping saja maka jalankan
+```
+python scrape.py
+```
+
+Jika hanya ingin memasukkan ke database saja maka jalankan
+```
+python db.py
+```
+
+Contoh jika ingin menjalankan sebuah query dari code adalah sebagai berikut.
+```
+python db.py "SELECT * FROM item"
+```
+
 
 ## Struktur File Hasil Scrapping
 - Penjelasan struktur dari file JSON yang dihasilkan scraper
