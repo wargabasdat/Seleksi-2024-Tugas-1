@@ -1,75 +1,50 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2024 <br>
-  ETL Project
+  The Amazing World of Gumball Episodes <br>
+  By: Marvin Scifo Y. Hutahaean - 13522110
   <br>
   <br>
 </h1>
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Deskripsi
+Ini adalah data-data yang berisi tentang daftar-daftar episode dari sebuah serial kartun yang bernama The Amazing World of Gumball. Pada data ini, terdapat konten berupa nama dari serial kartun tersebut, musim-musim atau miniseries yang ada di kartun tersebut, dan episode-episode yang ada di kartun tersebut beserta detil-detilnya. Topik ini saya pilih karena saya selalu menyukai melihat daftar-daftar episode seperti ini dan akan mempermudah orang juga jika ingin melihat rilis sebuah episode secara langsung menggunakan sistem DBMS dan kakas seperti MariaDB.
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## Cara Menggunakan Scraper
+Scraper yang digunakan untuk mengambil data tersebut adalah BeautifulSoup dengan menggunakan bahasa pemrograman Python. Scraper digunakan dengan pertama membuat objek BeautifulSoup dengan membuka dan membaca url dari halaman page yang di scrape lalu di parse oleh BeautifulSoup. Setelah itu, Beautiful mencari elemen berupa table karena episode, musim, dan informasi lainnya terdapat di table tersebut. Simpan semua informasi ke dalam array sementara terlebih dahulu karena urutan informasinya banyak yang tidak beraturan. Lakukan perpindahan array ke array yang baru setelah melakukan pemrosesan array agar informasi yang dimasukkan tidak salah karena urutan informasinya yang tidak beraturan. Setelah itu, pindahkan ke JSON dengan struktur yang sudah ditentukan.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Struktur JSON
+Tingkat 1: Nama Kartun (The Amazing World of Gumball) dan Daftar Musim dari TAWOG
+Tingkat 2 (Ekspansi dari Daftar Musim dari TAWOG): Nama Musim, Jumlah Episode, Tanggal Mulai dan Berakhirnya Musim, dan Daftar Episode dari Musim
+Tingkat 3 (Ekspansi dari Daftar Episode): Nomor Episode Keseluruhan, Nomor Episode dalam Musim, Judul Episode, Daftar Direktur, Daftar Penulis, Daftar Pembuat Cerita, Tanggal Rilis, Kode Produksi, dan Penonton di Amerika dalam Jutaan
+Tingkat 4: Direktur-Direktur (Ekspansi dari Daftar Direktur), Penulis-Penulis (Ekspansi dari Daftar Penulis), dan Pembuat-Pembuat Cerita (Ekspansi dari Pembuat-Pembuat Cerita)
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+## ERD, Relasional dan Penjelasan
+![alt text](https://github.com/scifo04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/ERDGumball.png)
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+Ini adalah struktur ERD dari Daftar Episode Gumball
 
+![alt text](https://github.com/scifo04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/RelationalGumball.png)
 
+Ini adalah struktur Relasional dari Daftar Episode Gumball
 
+Proses konversi ERD ke Relasional dimulai dengan menambahkan atribut ShowID ke tabel season dan memasang foreign key disitu karena relasinya yang one to many dan full participation. Setelah itu, SeasonID juga ditambahkan ke Episodes dan dijadikan foreign key karena relasinya juga one to many dan full participation. Pada relasinya dari Episodes ke Writers, Storyboarders, dan Directors, relasi baru dibuat dengan atribut EpisodeID dan WriterID/DirectorID/StoryboarderID terdapat di relasi tersebut dan menjadi primary key dan foreign key ke Episodes dan Writers/Storyboarders/Directors karena relasinya many to many partial participation.
+
+## Screenshot RDBMS
+![alt text](https://github.com/scifo04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/SELECT_Episode.png)
+
+Gambar pemilihan episode
+
+![alt text](https://github.com/scifo04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/SELECT_Season.png)
+
+Gambar pemilihan musim
+
+![alt text](https://github.com/scifo04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/SELECT_Director.png)
+
+Gambar pemilihan direktur
+
+## Referensi
+https://pypi.org/project/beautifulsoup4/
+Referensi ke BeautifulSoup (Scraper Python)
+
+https://en.wikipedia.org/wiki/List_of_The_Amazing_World_of_Gumball_episodes
+Referensi ke data yang di scrape
