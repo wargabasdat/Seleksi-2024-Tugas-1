@@ -42,7 +42,6 @@ def scrape_recipes():
         txtfile.truncate(0) 
     with open(r'Data Scraping\data\ingredient_links.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
-    # open(r'Data Scraping/data/made_of.json', 'w').close()
     with open('Data Scraping/data/recipe_links.txt', 'r') as file:
         recipe_links = file.readlines()
 
@@ -70,7 +69,6 @@ def scrape_recipes():
             creator_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//div[@class='byline svelte-176rmbi']/a"))
             )
-            # creator = creator_element.text if creator_element else ""
             creator_link = creator_element.get_attribute("href")
             creator_id = re.findall(r'\d+', creator_link)[0]
             user_links.append(creator_link)
@@ -90,7 +88,6 @@ def scrape_recipes():
                     ingredient_links.append(ingredient_link)
 
             # Post
-            # Kalo mau ngescrape semua komennya ini tinggal di uncomment ajah
             try:
                 while True:
                     try:
@@ -113,6 +110,7 @@ def scrape_recipes():
                 username_element = post.find_element(By.CLASS_NAME, 'post__author-link')
                 username = username_element.text
                 user_link = username_element.get_attribute('href')
+                user_id = re.findall(r'\d+', user_link)[0]
                 if (user_link not in pre_user_links) and (user_link not in user_links):
                     user_links.append(user_link)
                 content = post.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
@@ -124,7 +122,7 @@ def scrape_recipes():
                     question_singular = {
                     "tweak_and_question_id": f"question_{id}_{question_id}",
                     "food_id": id,
-                    "username": username,
+                    "user_id": user_id,
                     "content": content,
                     "likes": likes
                     }
@@ -144,7 +142,7 @@ def scrape_recipes():
                     review_singular = {
                     "review_id": f"review_{id}_{review_id}",
                     "food_id": id,
-                    "username": username,
+                    "user_id": user_id,
                     "content": content,
                     "rating": rating_mean,
                     "likes": likes
@@ -157,7 +155,7 @@ def scrape_recipes():
                     tweak_singular = {
                     "tweak_and_question_id": f"tweak_{id}_{tweak_id}",
                     "food_id": id,
-                    "username": username,
+                    "user_id": user_id,
                     "content": content,
                     "likes": likes
                     }
@@ -254,7 +252,7 @@ def scrape_recipes():
                 "sodium": sodium
             }
             recipes.append(recipe)
-            # print(recipe)
+
             try:
                 with open('Data Scraping/data/user_links.txt', 'a') as txtfile:
                     for user_link in user_links:
@@ -314,32 +312,6 @@ def scrape_ingredients():
             else:
                 season_start = "January"
                 season_end = "December"
-        
-            # try:
-            #     how_to_select_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='How to select']/following-sibling::p")))
-            #     how_to_select = how_to_select_element.text
-            # except:
-            #     how_to_select = ""
-
-            # try:
-            #     how_to_store_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='How to store']/following-sibling::p")))
-            #     how_to_store = how_to_store_element.text
-            # except:
-            #     how_to_store = ""
-
-
-            # try:
-            #     how_to_prepare_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='How to prepare']/following-sibling::p")))
-            #     how_to_prepare = how_to_prepare_element.text
-            # except:
-            #     how_to_prepare = ""
-
-            try:
-                substitution_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='Substitution']/following-sibling::p")))
-                substitution = substitution_element.text
-
-            except:
-                substitution = ""
 
             # Click button
             try:
@@ -381,22 +353,17 @@ def scrape_ingredients():
             ingredient = {
                 "ingredient_id": id,
                 "ingredient_name": name,
-                # "description": desc,
                 "season_start": season_start,
                 "season_end": season_end,
-                # "how_to_select": how_to_select,
-                # "how_to_store": how_to_store,
-                # "how_to_prepare": how_to_prepare,
-                "substitution": substitution,
                 "calories": calories,
                 "total_fat": total_fat,
                 "saturated_fat": saturated_fat,
                 "cholesterol": cholesterol,
-                "sodium": sodium,
-                "total_carbohydrate": total_carbohydrate,
-                "dietary_fiber": dietary_fiber,
-                "sugars": sugars,
-                "protein": protein
+                "protein": protein,
+                "carbohydrate": total_carbohydrate,
+                "fiber": dietary_fiber,
+                "sugar": sugars,
+                "sodium": sodium
             }
             ingredients.append(ingredient)
             try:
@@ -418,38 +385,55 @@ def scrape_users():
         id = re.findall(r'\d+', link)[0]
         try:
             name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.name-bio-message h3"))).text.strip()
-        except Exception as e:
-            name = None
+        except: name = None
 
-        user_name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.profileusername"))).text.strip()
+        try:
+            user_name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.profileusername"))).text.strip()
+        except: user_name = ""
 
-        # try:
-        #     bio = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".text-group.bio"))).text.strip()
-        # except Exception as e:
-        #     bio = None
+        try:
+            user_fact = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.user-facts"))).text.strip()
+            user_fact_list = user_fact.split("\n")
+            for fact in user_fact_list:
+                contains_comma = len(re.findall(", ", fact)) != 0
+                if contains_comma:
+                    city = fact.split(",")[0]
+                    state = fact.split(",")[1]
+                    break
+            if not contains_comma:
+                city = ""
+                state = ""
+        except:
+            city = ""
+            state = ""
 
         try:
             user_rating_avg = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.gk-rating span.rating-text"))).text.split(' ')[0]
-        except Exception as e:
-            user_rating_avg = ""
+        except: user_rating_avg = ""
 
-        joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
-        joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m')
+        try:
+            joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
+            joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m')
+        except:
+            joined_date = ""
 
-        followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-followers span.count"))).text.strip()
+        try:
+            followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-followers span.count"))).text.strip()
+        except: followers = "0"
 
-        following = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-following span.count"))).text.strip()
+        try: 
+            following = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-following span.count"))).text.strip()
+        except: 
+            following = "0"
 
         user = {
             "user_id": id,
             "name": name,
-            "user_name": user_name,
-            # "bio": bio,
+            "username": user_name,
             "user_rating_avg": user_rating_avg,
-            # STILL ERROR
-            # "location": location,
-            # "state": user_state,
-            "joined_date": joined_date,
+            "city": city,
+            "state": state,
+            "joined_month": joined_date,
             "followers": followers,
             "following": following
         }
@@ -476,9 +460,9 @@ if __name__ == "__main__":
     wait = WebDriverWait(driver, 20)
     
     # Scraping
-    scrape_recipe_links()
-    scrape_recipes()
-    scrape_ingredients()
+    # scrape_recipe_links()
+    # scrape_recipes()
+    # scrape_ingredients()
     scrape_users()
     
     # Quit driver
