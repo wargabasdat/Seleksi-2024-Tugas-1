@@ -103,8 +103,8 @@ async function funcJob() {
 
       try {
         // Throws an error if the table is not found
-        await page.goto(url, { timeout: 15000 });
-        await page.waitForSelector(tableSelector, { timeout: 15000 });
+        await page.goto(url, { timeout: 30000 });
+        await page.waitForSelector(tableSelector, { timeout: 30000 });
       } catch (error) {
         // Store the log
         const errMessage = `Table not found for ${station} on ${date}`;
@@ -367,9 +367,9 @@ async function funcJob() {
     await dbQuery(
       "INSERT INTO scrape_logs (datetime, station_code, created_at, status, error) VALUES (?, ?, ?, ?, ?)",
       [
-        new Date(log.logDateTime),
-        log.scrapeStation,
         new Date(log.scrapeDateTime),
+        log.scrapeStation,
+        new Date(log.logDateTime),
         log.status,
         log.error,
       ]

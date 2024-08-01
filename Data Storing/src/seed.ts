@@ -39,9 +39,9 @@ async function startSeed() {
       await conn.query(
         "INSERT INTO scrape_logs (datetime, station_code, created_at, status, error) VALUES (?, ?, ?, ?, ?)",
         [
-          new Date(log.logDateTime),
-          log.scrapeStation,
           new Date(log.scrapeDateTime),
+          log.scrapeStation,
+          new Date(log.logDateTime),
           log.status,
           log.error,
         ]
