@@ -1,3 +1,2 @@
-# ignore semua file .txt
 *.drawio
-*.ipynb
+Data Storing/export/intermediate/

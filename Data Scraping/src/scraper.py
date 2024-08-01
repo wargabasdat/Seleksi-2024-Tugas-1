@@ -2,6 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import undetected_chromedriver as uc
+from datetime import datetime
 import time
 import json
 
@@ -9,7 +10,6 @@ def char_scrape():
 
     """
     Prosedur ini melakukan scraping dari main_url, yaitu laman top hated character dari anime-planet
-    Parameternya merupakan driver dan main_url yang diberikan dari fungsi main
     Hasil akhirnya adalah dibuatnya file hated_characters.json dan hated_characters_anime_url.json
     yang disimpan di folder data
     """
@@ -21,12 +21,12 @@ def char_scrape():
     # Mencari semua baris dari tabel karakter
     row_elements = driver.find_elements(By.TAG_NAME, "tr")
 
-    char_list = []  # digunakan untuk menyimpan detail semua karakter
+    char_set = {}  # digunakan untuk menyimpan detail semua karakter
     anime_dict = {} # digunakan untuk menyimpan url anime yang ada di laman main_url
     char_details = {}   # digunakan untuk menyimpan detail karakter di setiap baris
 
-    # Mengiterasi semua elemen baris pada tabel
-    for i in range(len(row_elements)):
+    # Mengiterasi 50 elemen baris pertama pada tabel
+    for i in range(50):
         
         # Mengambil dan menyimpan nama dan laman karakter
         try:
@@ -90,34 +90,36 @@ def char_scrape():
             print(row_elements[i], "doesnt have anime")
         
         if (len(char_details) > 0):
-            char_list.append(char_details.copy())   # Menambahkan detail karakter ke list (preprocessing: aggregation)
+            char_set.add(char_details.copy())   # Menambahkan detail karakter ke list (preprocessing: aggregation)
         
         print(f"Scraping row {i} done")
 
-    # Menyimpan hasil scraping dari page karakter (preprocessing: storing)
-    with open('./Data Scraping/data/hated_characters.json', 'w') as outfile:
-        json.dump(char_list, outfile, indent=4)        
-    with open('./Data Scraping/data/hated_characters_anime_url.json', 'w') as outfile:
-        json.dump(anime_dict, outfile, indent=4)        
+        # Menyimpan hasil scraping dari page karakter (preprocessing: storing)
+        with open('./Data Scraping/data/hated_characters.json', 'w') as outfile:
+            json.dump(char_set, outfile, indent=4)        
+        with open('./Data Scraping/data/hated_characters_anime_url.json', 'w') as outfile:
+            json.dump(anime_dict, outfile, indent=4)        
+
 
 def anime_scrape():
     
     """
     Prosedur ini melakukan scraping terhadap laman-laman anime yang disimpan di hated_characters_anime_url.json
-    Parameter driver dan wait diberikan dari fungsi main()
-    Hasil dari prosedur ini adalah 3 file: anime_list.json, review_list.json, clists_list.json yang masing-masing merupakan
+    Hasil dari prosedur ini adalah 3 file: anime_set.json, review_set.json, clists_set.js{} yang masing-masing merupakan
     data detail anime yang discrape, review yang ditemukan untuk semua anime yang discrape, dan semua custom list yang
     relevan dengan anime yang discrape
     """
     
-    anime_list = [] # menyimpan detail semua anime yang discrape
+    anime_set = {} # menyimpan detail semua anime yang discrape
     anime_details = {}  # menyimpan detail masing-masing anime
 
-    review_list = []    # menyimpan detail semua review dari anime yang discrape
+    review_set = {}    # menyimpan detail semua review dari anime yang discrape
     review_details = {} # menyimpan detail masing-masing review di setiap anime
 
-    clists_list = []    # menyimpan detail semua custom list yang discrape
+    clists_set = {}    # menyimpan detail semua custom list yang discrape
     clists_details = {} # menyimpan detail masing-masing custom list yang discrape
+    
+    user_names = {} # menyimpan user names yang terkait dengan review dan custom lists yang discrape
 
     # Membaca url anime yang perlu dikunjungi
     with open('./Data Scraping/data/hated_characters_anime_url.json', 'r') as file:
@@ -146,7 +148,7 @@ def anime_scrape():
             # Melakukan preprocessing (parsing) pada teks untuk mengekstrak bagian yang relevan saja
             anime_type = anime_details_element.find_element(By.CSS_SELECTOR, "span.type").text.lower() # hasil anime type formatnya <tipe>(<episode>)
             anime_details["type"] = anime_type.split("(")[0].strip()    # split hasil anime type untuk mendapatkan tipenya saja
-            anime_details["episode_count"] = anime_type.split("(")[1].split("ep")[0].strip()    # split hasil anime type untuk mendapatkan jumlah episodenya saja
+            anime_details["episode_count"] = int(anime_type.split("(")[1].split("ep")[0].strip())    # split hasil anime type untuk mendapatkan jumlah episodenya saja
         except:
             print("anime type not found")
         
@@ -156,6 +158,7 @@ def anime_scrape():
             for atag in anime_details_a_tag:
                 if ("studio" in atag.get_attribute("href")):
                     anime_details["studio"] = atag.text.lower()
+
         except Exception as e:
             print("studio not found")
             
@@ -166,12 +169,6 @@ def anime_scrape():
         except Exception as e:
             print("year not found")
         
-        try:
-            avg_rating = anime_details_element.find_element(By.CSS_SELECTOR, "div.avgRating").text.lower().split(" ")[0].strip()    # perlu indexing karena deskripsi ratingnya berbentuk kalimat
-            anime_details["rating"] = float(avg_rating)
-        except:
-            print("average rating not found")
-        
         # Mengambil detail review
         try:
             anime_review_cards = driver.find_elements(By.CSS_SELECTOR, "a.ShortReview.rounded-card")
@@ -179,6 +176,7 @@ def anime_scrape():
             for cards in anime_review_cards:
                 reviewer = cards.find_element(By.CSS_SELECTOR, "span.user__username").text.lower()
                 review_details["reviewer"] = reviewer
+                user_names[reviewer] = "https://www.anime-planet.com/users/" + reviewer
                 
                 date = cards.find_element(By.CSS_SELECTOR, "time.ShortReview__date").get_attribute("datetime").split(" ")[0]   # dilakukan split karena detail jam, menit, detik tidak diperlukan
                 review_details["date"] = date
@@ -190,12 +188,12 @@ def anime_scrape():
                 review_details["first_sentence"] = first_sentence
                 
                 # Menyimpan detail suatu entitas review ke dalam list review
-                review_list.append(review_details.copy())
+                review_set.add(review_details.copy())
         except Exception as e:
             print(e)
             print("review cards not found")
         
-        print("review_list done, length: " + str(len(review_list)))
+        print("review_set done, length: " + str(len(review_set)))
         
         # Mengambil detail custom lists
         try:
@@ -217,6 +215,8 @@ def anime_scrape():
                 # Mencari nama pembuat custom list dari ref link nya
                 creator = cards.get_attribute("href").split("/")[4]
                 clists_details["creator"] = creator
+                user_names[creator] = "https://www.anime-planet.com/users/" + creator
+                
                 
                 # Mengambil data jumlah komentar suatu custom list
                 try:
@@ -228,12 +228,12 @@ def anime_scrape():
                 # Mengambil data jumlah likes suatu custom list
                 try:
                     clists_likes = cards.find_element(By.CSS_SELECTOR, "span.CustomList__likes").text.lower().replace(",", ".")
-                    clists_details["list_likes"] = clists_likes
+                    clists_details["list_likes"] = int(clists_likes)
                 except:
                     clists_details["list_likes"] = 0
                 
                 # Menyimpan detail dari suatu custom list ke list custom lists
-                clists_list.append(clists_details.copy())
+                clists_set.add(clists_details.copy())
                 
         except Exception as e:
             print(e)
@@ -242,30 +242,89 @@ def anime_scrape():
         anime_details["contained_in"] = curr_anime_clists.copy()
         
         # Menyimpan detail dari suatu anime ke list anime
-        anime_list.append(anime_details.copy())
-        print("anime_list done, length: " + str(len(anime_list)))
+        anime_set.add(anime_details.copy())
+        print("anime_set done, length: " + str(len(anime_set)))
         
-        print("clists_list done, length: " + str(len(clists_list)))
-        
+        print("clists_set do, length: " + str(len(clists_set)))      
         print(f"Scraping details for {title} is done")
         end_time = time.time()
         print(f"duration: {(end_time-start_time):.2f}s")
-        print(f"progress: {len(anime_list)} / {len(anime_dict)} ; ETA: {(end_time-start_time)*(len(anime_dict)-len(anime_list)):.2f}s")
+        print(f"progress: {len(anime_set)} / {len(anime_dict)} ; ETA: {(end_time-start_time)*(len(anime_dict)-len(anime_set)):.2f}s")
         print("==========")
         
         # Statemen di bawah boleh di uncomment untuk testing purposes
         # karena jumlah anime yang discrape ada sekitar 182 judul (~ 25 menit)
-        # if (len(anime_list) == 5):
+        # if (len(anime_set) == 5):
         #     break
         
-    # Menyimpan semua informasi anime, review, dan custom list menjadi json    
-    with open('./Data Scraping/data/anime_list.json', 'w') as outfile:
-        json.dump(anime_list, outfile, indent=4)        
-    with open('./Data Scraping/data/review_list.json', 'w') as outfile:
-        json.dump(review_list, outfile, indent=4)   
-    with open('./Data Scraping/data/clists_list.json', 'w') as outfile:
-        json.dump(clists_list, outfile, indent=4)
+        # Menyimpan semua informasi anime, review, dan custom list menjadi json    
+        with open('./Data Scraping/data/anime_set.json', 'w') as outfile:
+            json.dump(anime_set, outfile, indent=4)        
+        with open('./Data Scraping/data/review_set.json', 'w') as outfile:
+            json.dump(review_set, outfile, indent=4)   
+        with open('./Data Scraping/data/clists_set.json', 'w') as outfile:
+            json.dump(clists_set, outfile, indent=4)
+        with open('./Data Scraping/data/users_url.json', 'w') as outfile:
+            json.dump(user_names, outfile, indent=4)
 
+def users_scrape():
+    
+    """
+    Prosedur ini melakukan scraping terhadap laman-laman user yang disimpan di users_url.json
+    Hasil dari prosedur ini adalah users.json yang merupakan data detail user yang discrape
+    """
+    
+    users_set = {}
+    user_details = {}
+    
+    with open('./Data Scraping/data/users_url.json', 'r') as file:
+        users_dict = json.load(file)
+    
+    for name in users_dict.keys():
+        print("==========")
+        print(f"Visiting {name}")
+        print(f"at URL {users_dict[name]}")
+        start_time = time.time()
+        driver.get(users_dict[name])
+
+        user_details["username"] = name
+        
+        time.sleep(5)   # Menunggu laman termuat
+        
+        user_stats_elements = wait.until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, "ul.userStats"))
+        )
+                
+        user_stats = user_stats_elements.find_elements(By.CSS_SELECTOR, "li")
+        for stats in user_stats:
+            icon_class = stats.find_element(By.TAG_NAME, "i").get_attribute("class")
+            if "calendar" in icon_class:
+                join_date = " ".join(stats.text.split(" ")[1:])
+                user_details["join_date"] = (datetime.strptime(join_date, "%b %d, %Y")).strftime("%Y-%m-%d")
+            if "user" in icon_class:
+                try:
+                    user_details["age"] = int(stats.text.lower().split("/")[0].strip())
+                except:
+                    user_details["age"] = None
+                
+                try:
+                    user_details["gender"] = stats.text.lower().split("/")[1].strip()    
+                    assert ((stats.text.lower().split("/")[1].strip() == "m") or (stats.text.lower().split("/")[1].strip() == "f"))          
+                except:
+                    user_details["gender"] = None
+        
+        print(f"Scraping details for {name} is done")
+        end_time = time.time()
+        print(f"duration: {(end_time-start_time):.2f}s")
+        print(f"progress: {len(users_set)} / {len(users_dict)} ; ETA: {(end_time-start_time)*(len(users_dict)-len(users_set)):.2f}s")
+        print("==========")
+        
+        users_set.add(user_details.copy())
+        
+        with open('./Data Scraping/data/users.json', 'w') as outfile:
+            json.dump(users_set, outfile, indent=4)  
+                        
+        
 if __name__ == "__main__":
     main_url = "https://www.anime-planet.com/characters/top-hated"
 
@@ -295,7 +354,7 @@ if __name__ == "__main__":
     driver.set_window_position(150, 0)
 
     # Membuat webdriverwait object untuk digunakan pada expected condition
-    wait = WebDriverWait(driver, 10)
+    wait = WebDriverWait(driver, 15)
     print("driver setup done")
 
     # Memanggil prosedur untuk scraping karakter
@@ -303,6 +362,9 @@ if __name__ == "__main__":
     
     # Memanggil prosedur untuk scraping anime
     anime_scrape()
+    
+    # Memanggil prosedur untuk scraping users
+    users_scrape()
 
     overall_end = time.time()
     print(f"Total scraping duration: {(overall_end-overall_start)//60:.2f} minutes") # Menghitung durasi total proses scraping
