@@ -54,10 +54,10 @@ def scrape_and_clean_review(url: str, airline: str):
         }
         try:
             review_dict['Review Details']['Review Date'] = review.find("meta").get("content")
+            review_dict['Review Details']['Overall Rating'] = int(review.find('span', attrs={'itemprop':'ratingValue'}).get_text())
+            review_dict['Review Details']['Review Text'] = review.find('h2', attrs={'class':'text_header'}).get_text().strip('"').strip('“').strip('”')
         except:
             pass
-        review_dict['Review Details']['Overall Rating'] = int(review.find('span', attrs={'itemprop':'ratingValue'}).get_text())
-        review_dict['Review Details']['Review Text'] = review.find('h2', attrs={'class':'text_header'}).get_text().strip('"').strip('“').strip('”')
 
         table = review.find("table", { "class": "review-ratings" })
         data = table.find_all("td")
@@ -75,6 +75,8 @@ def scrape_and_clean_review(url: str, airline: str):
             else:
                 try:
                     value = value.get_text()
+                    if value == 'N/A':
+                        value = None
                 except:
                     pass
 
@@ -98,7 +100,7 @@ def scrape_and_clean_review(url: str, airline: str):
     
     return review_list
 
-def scrape_airline_reviews(airline_name: list, pagesize: int = 50):
+def scrape_airline_reviews(airline_name: list, pagesize: int = 100):
     """
     Scrape all review from an airline
     """
@@ -122,12 +124,8 @@ def scrape_airline_reviews(airline_name: list, pagesize: int = 50):
                 try_count += 1  
             current_page += 1 # Scrap next page
         except Exception as e:
-            print(f"Error on page {current_page}: {e}")
             try_count += 1
         time.sleep(0.5)
-
-    if try_count >= 2:
-        print("Too many failures, stopping scrape.")
 
     return reviews_list
 
@@ -137,21 +135,3 @@ def save_to_json(all_reviews):
     cwd = os.getcwd()
     with open(cwd[:-3] +"data/airline_reviews.json", "w") as f:
         json.dump(all_reviews, f, indent=4)
-    
-# if __name__ == "__main__":
-#     airlines = ["garuda-indonesia", "batik-air"]
-#     max_reviews_per_airline = 20
-#     all_reviews = []
-#     for airline in airlines:
-#         reviews = scrape_airline_reviews(airline, max_reviews_per_airline)
-#         all_reviews.extend(reviews)
-#         print(f"Scraped {len(reviews)} reviews for {airline}")
-#         print()
-#         # print(f"Reviews: {reviews}")
-#         print()
-#         print('------------------------------------------')
-
-#     # Save scraped data to JSON file
-#     cwd = os.getcwd()
-#     with open(cwd[:-3] +"data/airline_reviews.json", "w") as f:
-#         json.dump(all_reviews, f, indent=4)

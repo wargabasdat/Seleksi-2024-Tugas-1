@@ -284,14 +284,3 @@ def load_data():
         connection.close()
     except mysql.connector.Error as err:
         print(f"Error: {err}")
-        
-# if __name__ == "__main__":
-#     config = {
-#     'user': 'root',
-#     'password': 'password',
-#     'host': 'localhost',
-#     'database': 'airline_reviews'
-#     }
-#     airlines = ["garuda-indonesia", "batik-air"]
-#     create_schema(config)
-#     load_data(config, airlines)

@@ -14,7 +14,7 @@ def main():
     for airline in airlines:
         reviews = scrape_airline_reviews(airline)
         all_reviews.extend(reviews)
-        log(f"Scraped {len(reviews)} reviews from {airline}")
+        print(f"Scraped {len(reviews)} reviews from {airline}")
 
     save_to_json(all_reviews)
     log("Saved all reviews to JSON")
@@ -22,6 +22,7 @@ def main():
     init_database()
     load_data()
     log("Loaded data to database")
+    # print("Loaded data to database")
 
 if __name__ == "__main__":
     main()
