@@ -15,6 +15,10 @@ import (
 	"github.com/joho/godotenv"
 )
 
+/**
+* Komentar: Sengaja tidak pakai ORM biar terbiasa untuk menggunakan SQL langsung
+ */
+
 func main() {
 	// Load the .env file
 	err := godotenv.Load()
