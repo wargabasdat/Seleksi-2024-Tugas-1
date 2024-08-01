@@ -1,0 +1,26 @@
+[
+  {
+    "airportCode": "WIHH",
+    "city": "Jakarta",
+    "state": "Unknown",
+    "country": "Indonesia"
+  },
+  {
+    "airportCode": "WIII",
+    "city": "Tangerang City",
+    "state": "Banten",
+    "country": "Indonesia"
+  },
+  {
+    "airportCode": "WICC",
+    "city": "Bandung City",
+    "state": "West Java",
+    "country": "Indonesia"
+  },
+  {
+    "airportCode": "WADD",
+    "city": "Badung",
+    "state": "Bali",
+    "country": "Indonesia"
+  }
+]
