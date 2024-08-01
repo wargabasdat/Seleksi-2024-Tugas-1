@@ -1,0 +1,32 @@
+[
+    {
+        "ingredient_id": "221",
+        "ingredient_name": "CHICKEN",
+        "season_start": "January",
+        "season_end": "December",
+        "calories": 0.0,
+        "total_fat": 0.0,
+        "saturated_fat": 0.0,
+        "cholesterol": 0.0,
+        "protein": 0.0,
+        "carbohydrate": 0.0,
+        "fiber": 0.0,
+        "sugar": 0.0,
+        "sodium": 0.0
+    },
+    {
+        "ingredient_id": "125",
+        "ingredient_name": "LEMON",
+        "season_start": "January",
+        "season_end": "December",
+        "calories": 0.0,
+        "total_fat": 0.0,
+        "saturated_fat": "",
+        "cholesterol": 0.0,
+        "protein": 0.0,
+        "carbohydrate": 0.0,
+        "fiber": 0.0,
+        "sugar": 0.0,
+        "sodium": ""
+    }
+]

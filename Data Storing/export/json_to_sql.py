@@ -4,10 +4,13 @@ import pandas as pd
 import datetime
 
 def json_to_sql(json_folder_path):
-    ordered_files = [
-        'ingredients.json', 'users.json', 'recipes.json',
-        'made_of.json', 'reviews.json', 'tweaks_and_questions.json'
-    ]
+    ingredient_file = find_latest_json_file('Data Scraping/data', 'ingredients', '.json')
+    user_file = find_latest_json_file('Data Scraping/data', 'users', '.json')
+    recipe_file = find_latest_json_file('Data Scraping/data', 'recipes', '.json')
+    made_of_file = find_latest_json_file('Data Scraping/data', 'madeof', '.json')
+    review_file = find_latest_json_file('Data Scraping/data', 'reviews', '.json')
+    tweak_and_question_file = find_latest_json_file('Data Scraping/data', 'tweaksandquestions', '.json')
+    ordered_files = [ingredient_file, user_file, recipe_file, made_of_file, review_file, tweak_and_question_file]
 
     sqls = []
     for json_file in ordered_files:
@@ -36,7 +39,7 @@ def json_to_sql(json_folder_path):
                         values.append(f"'{escaped_value}'")
                 
                 table_name = os.path.splitext(json_file)[0]
-                sql = f"INSERT INTO {table_name} ({', '.join(df.columns)}) VALUES ({', '.join(values)});"
+                sql = f"INSERT INTO {table_name.split("_")[0]} ({', '.join(df.columns)}) VALUES ({', '.join(values)});"
                 sqls.append(sql)
         
         except ValueError as ve:
@@ -68,15 +71,16 @@ def generate_timestamp():
 
 def extract_timestamp(filename):
     filename_arr = filename.split('_')
-    timestamp_str = filename_arr[2] + "_" + filename_arr[3].replace('.sql', '')
+    print(filename_arr)
+    timestamp_str = filename_arr[1] + "_" + filename_arr[2].replace('.json', '')
     timestamp = datetime.datetime.strptime(timestamp_str, '%Y-%m-%d_%Hh%Mm%Ss')
-    print(timestamp)
     return timestamp
 
-def find_latest_insert_data_file():
-    files = [file for file in os.listdir("Data Storing/export") if file.endswith('.sql') and file.startswith("insert_data_")] 
+def find_latest_json_file(folder, start, end):
+    files = [file for file in os.listdir(folder) if file.endswith(end) and file.startswith(start)] 
     for file in files:
         file = extract_timestamp(file)
+    print(max(files))
     return max(files)
 
 def run_all():

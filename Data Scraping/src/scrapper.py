@@ -268,16 +268,16 @@ def scrape_recipes():
             logger.debug(f"Page source: {driver.page_source}")
 
     try:
-        with open('Data Scraping/data/recipes.json', 'w') as jsonfile:
+        with open('Data Scraping/data/recipes_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(recipes, jsonfile, indent=4)
 
-        with open('Data Scraping/data/made_of.json', 'w') as jsonfile:
+        with open('Data Scraping/data/madeof_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(made_of, jsonfile, indent=4)
 
-        with open('Data Scraping/data/reviews.json', 'w') as jsonfile:
+        with open('Data Scraping/data/reviews_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(review_list, jsonfile, indent=4)
 
-        with open('Data Scraping/data/tweaks_and_questions.json', 'w') as jsonfile:
+        with open('Data Scraping/data/tweaksandquestions_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(tweak_and_question_list, jsonfile, indent=4)
 
         logger.info("Succeed")
@@ -367,7 +367,7 @@ def scrape_ingredients():
             }
             ingredients.append(ingredient)
             try:
-                with open('Data Scraping/data/ingredients.json', 'w') as jsonfile:
+                with open('Data Scraping/data/ingredients_' + generate_timestamp() + '.json', 'w') as jsonfile:
                     json.dump(ingredients, jsonfile, indent=4)
             except Exception as e:
                 logger.error(f"Error: {e}")
@@ -443,10 +443,20 @@ def scrape_users():
         }
         users.append(user)
 
-    with open('Data Scraping/data/users.json', 'w') as json_file:
+    with open('Data Scraping/data/users_' + generate_timestamp() + '.json', 'w') as json_file:
         json.dump(users, json_file, indent=4)\
         
-def run_all():
+def generate_timestamp():
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%Hh%Mm%Ss") 
+    return timestamp
+        
+def scrape_all():
+    # scrape_recipe_links()
+    scrape_recipes()
+    scrape_ingredients()
+    scrape_users()
+
+if __name__ == "__main__":
     start = time.time()
     
     # Setup & run driver
@@ -461,19 +471,12 @@ def run_all():
 
     driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 20)
-    
-    # Scraping
-    # scrape_recipe_links()
-    scrape_recipes()
-    scrape_ingredients()
-    scrape_users()
-    
+
+    scrape_all()
+
     # Quit driver
     driver.quit()
 
     end = time.time()
     p = (end - start) / 60 
     print(f"{p} minutes")
-
-if __name__ == "__main__":
-    run_all()
