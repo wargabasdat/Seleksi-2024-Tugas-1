@@ -1,0 +1,22 @@
+[data-testid=stMetric] {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 5% 5% 5% 10%;
+    border-radius: 5px;
+    border-left: 0.5rem solid #686664 !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+div[data-testid="stMarkdownContainer"] p
+{
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0);
+    border-color: #000000;
+    color-scheme: #000000;
+}
+.plot-container.plotly>div {
+    box-shadow: 0 0 2px #070505;
+    padding: 5px;
+    border-color: #000000;
+    
+   
+}

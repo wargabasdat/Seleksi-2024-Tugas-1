@@ -1,0 +1,5 @@
+streamlit
+pandas
+mariadb
+numerize
+plotly
