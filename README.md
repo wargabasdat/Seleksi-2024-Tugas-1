@@ -138,6 +138,65 @@ File file JSON hasil *scraping* akan disimpan pada sebuah folder yang diberi nam
 - Relasi Group_Release merepresentasikan hubungan antara translator group dengan chapter dari suatu series yang ditranslatenya (asumsi setiap chapter hanya memiliki satu translator group)
 ## Relational Diagram
 ![Relational Diagram](Data%20Storing/design/Basdat_OHL_Relational%20Diagram.png)
+1. **Series PK: (seriesName)**
+    - seriesName VARCHAR(255): judul dari series/novel
+    - rating DECIMAL(4,2): rating untuk series
+    - ratingCount INT: jumlah user yang memberi rating
+    - author VARCHAR(255): penulis dari series
+    - year INT: tahun series di-*publish*
+    - status ENUM{'Completed;, 'Ongoing'}: novel sudah selesai atau masih berlangsung
+    - publisher VARCHAR(150): *publisher* dari series
+    - total_chapter INT: total chapter yang dimiliki series
+    - description TEXT: deskripsi dari series
+    - URL VARCHAR(255): url menuju page series 
+    - last_update DATE: tanggal data di-*scraped*
+2. **Alternative_Names PK: (seriesName, altName)**
+    - seriesName VARCHAR(255): nama series
+    - altName VARCHAR(255): nama lain dari series
+3. **Series_Tag PK: (seriesName,tag)**
+    - seriesName VARCHAR(255): nama series
+    - tag VARCHAR(255): tag pada series
+4.  **Tags PK: (tag)**
+    - tag VARCHAR(255): nama tag
+    - definition VARCHAR(255): definisi dari tag tersebut
+5.  **Series_Genre PK: (seriesName,genre)**
+    - seriesName VARCHAR(255): nama series
+    - genre VARCHAR(255): genre pada series
+6.  **Genres PK: (genre)**
+    - genre VARCHAR(255): nama genre
+    - definition VARCHAR(255): definisi dari genre tersebut
+7.   **Recommendation PK: (seriesName, recommendedSeries)**
+      - seriesName VARCHAR(255): nama series
+      - recommendedSeries VARCHAR(255): nama series yang direkomendasikan
+      - jumlah INT: jumlah orang yang merekomendasikan
+8.   **Recommendation_List PK: (rec_ID)**
+      - rec_ID INT AUTO_INCREMENT: id 
+      - user_ID VARCHAR(13): id dari user yang membuat list
+      - title VARCHAR(255): judul dari list
+      - description TEXT: deskripsi dari list
+9.  **SeriesInRecList PK: (seriesName, rec_ID)**
+    - seriesName VARCHAR(255): nama series
+    - rec_ID INT: id dari rec list
+10. **TagInRecList PK: (rec_ID, tag)**
+    - rec_ID INT: id dari rec list
+    - tag VARCHAR(255): nama tag
+11. **Related_Series PK: (seriesName, relatedSeries)**
+    - seriesName VARCHAR(255): nama series
+    - relatedSeries VARCHAR(255): nama series yang *related*
+12. **Chapter_Release PK: (seriesName, chapter)**
+    - seriesName VARCHAR(255): nama series
+    - chapter INT: chapter ke-
+    - title VARCHAR(255): judul dari chapter
+    - URL VARCHAR(255): link menuju halaman chapter tersebut
+    - date_updated DATE: tanggal data di updated
+13. **Group_Release PK: (seriesName, chapter)**
+      - seriesName VARCHAR(255): nama series
+      - chapter INT: chapter ke-
+      - group_ID INT: id dari group yang men-*translate* chapter tersebut
+14. **Translator_Group PK: (group_ID)**
+      - group_ID INT AUTO_INCREMENT: id dari group
+      - nama VARCHAR(255): nama dari group
+      - URL VARCHAR(255): link menuju halaman dari group tersebut
 ## Translasi ERD to Relational Diagram
 1. Translasi ERD ke Relational Diagram dimulai dengan mengubah semua entity menjadi tabel pada Relational Diagram. 
 
