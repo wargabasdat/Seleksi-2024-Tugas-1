@@ -94,33 +94,33 @@ Setelah selesai melakukan *set up*, proses *scraping* akan dijalankan setiap har
 
 ## JSON File
 File file JSON hasil *scraping* akan disimpan pada sebuah folder yang diberi nama tanggal dilakukannya *scraping* dengan format YYYY-MM-DD. Folder tersebut akan diletakkan pada `Data Scraping/data`
-- `AlternativeNames.json` <br>
+- **AlternativeNames.json** <br>
   File JSON ini berisi *list* dari sebuah JSON Object yang merepresentasikan Alternative Names dari sebuah series/novel. JSON Object tersebut mempunyai *field* **seriesName dan altName**
-- `AlternativeNamesMap.json` <br>
+- **AlternativeNamesMap.json** <br>
   File JSON ini berisi *mapping* dari **seriesName dan altName** dengan *boolean* agar *entry* pada `AlternativeNames.json` tidak ada yang duplikat
-- `Folder Chapter`<br>
-  Folder ini berisi beberapa file JSON `Chapter_Release x.json`. Tiap file tersebut berisi *list* dari sebuah JSON Object yang merepresentasikan Chapter_Release dari setiap series/novel yang di *scraped*. Setiap series/novel dibatasi 50 *entry* pada Chapter_Release karena alasan ukuran (Github track file max 100MB)
-- `Chapter_ReleaseMap.json`<br>
+- **Folder Chapter**<br>
+  Folder ini berisi beberapa file JSON `Chapter_Release x.json`. Tiap file tersebut berisi *list* dari sebuah JSON Object yang merepresentasikan Chapter_Release dari setiap series/novel yang di *scraped*. Setiap series/novel dibatasi 50 *entry* pada Chapter_Release karena alasan ukuran (Github track file max 100MB). Chapter_Release memiliki 5 *field*, yaitu **seriesName, chapter, title, URL, dan date_added**
+- **Chapter_ReleaseMap.json**<br>
   File JSON ini berisi *mapping* dari **seriesName dan chapter** dengan *boolean* agar *entry* pada `Chapter_Release x.json` tidak ada yang duplikat
-- `Genres.json` <br>
-  File JSON ini berisi *list* JSON Object yang merepresentasikan **Genre** yang ada dari semua series/novel yang telah di *scraped*
-- `GenreMap.json`<br>
+- **Genres.json** <br>
+  File JSON ini berisi *list* JSON Object yang merepresentasikan **Genre** yang ada dari semua series/novel yang telah di *scraped*. Genre memiliki 2 *field*, yaitu **genre dan definition**
+- **GenreMap.json**<br>
   File JSON ini berisi *mapping* dari **genre** dengan *boolean* agar *entry* pada `Genres.json` tidak ada yang duplikat
-- `GenreNovel.json`<br>
-  File JSON ini berisi *list* JSON Object yang merepresentasikan pasangan **seriesName dengan genre-nya**
-- `GenreNovelMap`<br>
+- **GenreNovel.json**<br>
+  File JSON ini berisi *list* JSON Object yang merepresentasikan pasangan **seriesName dengan genre-nya**. GenreNovel memiliki 2 *field*, yaitu **seriesName dan genre**
+- **GenreNovelMap**<br>
   File JSON ini berisi *mapping* dari **seriesName dan genre** dengan *boolean* agar *entry* pada `GenreNoveljson` tidak ada yang duplikat
-- `Tags.json` <br>
-  File JSON ini berisi *list* JSON Object yang merepresentasikan **Tag** yang ada dari semua series/novel yang telah di *scraped*
-- `TagsMap.json`<br>
+- **Tags.json** <br>
+  File JSON ini berisi *list* JSON Object yang merepresentasikan **Tag** yang ada dari semua series/novel yang telah di *scraped*. Tag memiliki 2 *field*, yaitu **tag dan definition**
+- **TagsMap.json**<br>
   File JSON ini berisi *mapping* dari **tag** dengan ***boolean*** agar *entry* pada `Tags.json` tidak ada yang duplikat
-- `TagNovel.json`<br>
-  File JSON ini berisi *list* JSON Object yang merepresentasikan pasangan **seriesName dengan tag-nya**
-- `TagNovelMap`<br>
+- **TagNovel.json**<br>
+  File JSON ini berisi *list* JSON Object yang merepresentasikan pasangan **seriesName dengan tag-nya**. TagNovel memiliki 2 *field*, yaitu **seriesName dan tag**
+- **TagNovelMap**<br>
   File JSON ini berisi *mapping* dari **seriesName dan tag** dengan *boolean* agar *entry* pada `TagNovel.json` tidak ada yang duplikat
-- `Series.json`<br>
+- **Series.json**<br>
   File JSON ini berisi *list* dari JSON Object yang merepresentasikan **series/novel**. JSON Object ini memiliki 11 *field*, yaitu **seriesName, rating, ratingCount, author, year, publisher, total_chapter, description, link, dan last_update.**
-- `NovelsMap.json`<br>
+- **NovelsMap.json**<br>
   File JSON ini berisi *mapping* dari seriesName dengan *boolean* agar *entry* pada `Series.json` tidak ada yang duplikat
 
 ## Entity Relationship Diagram
