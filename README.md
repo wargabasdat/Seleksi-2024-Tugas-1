@@ -316,6 +316,6 @@ Insight dari visualisasi tersebut menunjukkan total skor yang dicetak oleh setia
 4. Dokumentasi Selenium : (https://selenium-python.readthedocs.io/)
 
 ## Author
-Ricky Wijaya - 18222043  
+Ricky Wijaya - 18222043
 Sistem dan Teknologi Informasi  
 Institut Teknologi Bandung  
