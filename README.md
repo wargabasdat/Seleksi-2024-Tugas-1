@@ -95,6 +95,14 @@ Contoh jika ingin menjalankan sebuah sql query dari code adalah sebagai berikut.
 python db.py "SELECT * FROM item"
 ```
 
+### Frontend Visualization
+Pastikan node.js sudah diinstall. Pastikan database menyala. Buka folder [Data Visualization/src](Data/Visualization/src) di terminal. Copy paste file `.env` yang ada di saata Data Scraping ke folder tersebut. Jalankan
+```
+npm install
+npm run dev
+```
+Buka browser sesuai dengan url yang diberikan di terminal. Misalnya `http://localhost:3000/`.
+
 
 ## Struktur File Hasil Scrapping
 <!-- - Penjelasan struktur dari file JSON yang dihasilkan scraper -->
@@ -296,6 +304,11 @@ Proses translasi ERD menjadi diagram relasional dilakukan dengan cara mengubah s
 
 ## Automated Scheduling Update
 Proses web scraping dapat diupdate dalam jangka waktu tertentu. Dalam program ini, proses web scraping akan dijalankan setiap 2 menit. Konfigurasi ini bisa diubah dari main.py pada variabel wait_time. Nilainya dalam detik. File json hasil scraping akan disimpan di [Data Scraping/src/json/data.json](Data%20Scraping/src/json/data.json).
+
+## Data Visualization
+Total item, power up, obstacle, dan enemy yang ada di tiap level.
+<br>
+<img src="Data Visualization/screenshot/visualization.png"/>
 
 ## Screenshot
 <!-- - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan) -->

@@ -5,7 +5,7 @@ from typing import Dict
 import platform
 import datetime
 
-wait_time = 60*2
+wait_time = 360*2
 
 if platform.system() == 'Windows':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
