@@ -12,7 +12,7 @@ promo_file_path = os.path.join(data_folder, "promo.json")
 potonganProm_file_path = os.path.join(data_folder, "potongan_prom.json")
 normalProm_file_path = os.path.join(data_folder, "normal_prom.json")
 
-# Load JSON data from the files
+# Load JSON data
 with open(produk_file_path) as file:
     produk_info = json.load(file)
 
@@ -31,7 +31,7 @@ with open(potonganProm_file_path) as file:
 with open(normalProm_file_path) as file:
     normalProm_info = json.load(file)
 
-# Connect to the PostgreSQL database
+# menghubungkan ke PostgreSQL database
 try:
     conn = psycopg2.connect(
         host="localhost",
@@ -146,11 +146,11 @@ if conn:
 
     """
 
-    # Execute the schema creation query
+    # Eksekusi pembuatan query
     cursor.execute(schema)
     conn.commit()
 
-    # Insert data into the tables
+    # Masukkan data ke tabel
     insert_produk_query = "INSERT INTO produk (id_prod, nama_prod, harga_prod, terjual_prod, kat_prod, nama_sup) VALUES (%s, %s, %s, %s, %s, %s)"
     for item in produk_info:
         values = (
@@ -218,10 +218,10 @@ if conn:
             )
             cursor.execute(insert_digunakan_query, values)
 
-    # Commit the changes
+    # Commit perubahan
     conn.commit()
 
-    # Close the cursor and connection
+    # Menutup koneksi
     cursor.close()
     conn.close()
     print("Database connection closed.")
