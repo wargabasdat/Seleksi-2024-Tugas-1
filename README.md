@@ -7,6 +7,7 @@ Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 * [Topic and DBMS](#topic-and-dbms)
 * [How to Run the Scrapper](#how-to-run-the-scrapper)
 * [JSON Structure](#json-structure)
+* [How to Convert ERD into Relational Diagram](#how-to-convert-erd-into-relational-diagram)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -99,6 +100,11 @@ The users_[timestamp].json file contains a list of dictionaries with attributes:
 - joined_year: the year the user joined; <br>
 - followers: the total followers of the user (in this code, the followers data is taken directly from the web interface); <br>
 - followers: total accounts followed by the user (in this code, the following data is taken directly from the web interface). <br><br>
+
+
+## How to Convert ERD into Relational Diagram
+1. Transform a many to many relations into a new table which contain the primary keys of the two initial tables (for example in a “madeof” relation). <br>
+2. For one to many relations, insert the primary key from table “one” into table “many” (for example in the write relation, the primary key of the users table is inserted into the attribute in the recipes table). <br><br>
 
 
 ## Acknowledgements
