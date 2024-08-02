@@ -1,75 +1,200 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2024 <br>
-  ETL Project
+    TranserMarkt Scrape
   <br>
   <br>
 </h1>
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+### Raizan Iqbal Resi - 18222068
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## Project Description
+Transfermarkt adalah web didedikasikan untuk informasi football. Platform ini menyediakan basis data yang sangat luas yang berisi informasi tentang pemain, tim, transfer, nilai pasar, dan hasil pertandingan dari liga-liga di seluruh dunia. 
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+Projek ini dirancang untuk mengekstrak data yang berhubungan dengan informasi pemain dari Top 100 Pemain EPL berdasarkan dari Transfermarkt.com. Dengan proses pengumpulan data, projek ini bertujuan untuk mengumpulkan insights mengenai statistik pemain, nilai pasar, sejarah transfer, dan informasi relevan lainnya. Data ini dapat digunakan untuk berbagai tujuan, termasuk analisis data dan lain-lain.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+## Scraping Process
+### WebScrape
+1. Install all dependencies
+```
+pip install selenium
+pip install pyscopg2
+pip install beautifulsoup4
+pip install unidecode
+```
+2. Clone this repository
+>
+    git clone https://github.com/Qibaal/Seleksi-2024-Tugas-1.git
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+3. Change directory
+>
+    cd /Data Scraping/src
+
+4. Run the scraper
+> 
+    python main.py
+
+5. Get the JSON file
+
+### Data Processing and Storing
+To automate the scraping, processing and inserting data to the PSQL database, here are the steps to follow:
+
+1. Create a new database on PostgreSQL
+
+2. Save the SQL file from the Data Storing/export directory and place it on users directory on windows. Then, insert the SQL file. You can do this by:
+> 
+    psql -U uname -d dbname -f C:\Users\{user}\transfermarkt.sql
+
+3. Go to the automate directory
+>
+    cd Data Scraping/automate
+
+4. Run the python script, this will automatically scrape, clean, and insert new data to the database
+>
+    python main.py
+
+### Automatic Scheduling
+In getting the most updated data, we can utilize auto scheduling by creating jobs on Windows task scheduler. To schedule jobs on the whole process (scraping, processing, and inserting) here are the steps to follow:
+1. Open Windows Task Scheduler
+
+2. Go to the actions task and select create task
+
+3. In the General Tab, Insert name to be TransferMarkt Scrape, below, select Run whether user is logged in or not, and select Run with highest privileges.
+
+<img src="Data Scraping\src\automate\screenshot\general.png">
+
+4. Then go to the Triggers Tab. create a new trigger, select the start date to be the last date on this month (example: 30). Dont forget to enable the trigger (default is enabled) 
+
+<img src="Data Scraping\src\automate\screenshot\trigger.png">
+
+5. Go to actions tab. Create a new action. On program/script, paste the python.exe path. to see your python.exe file, here are the steps:
+    - Go to command prompt
+    - Write ‘where python’
+    - Copy your python.exe path
+
+<img src="Data Scraping\src\automate\screenshot\action.png">
+
+6. On Conditions tab, unselect the "Start the task only if the computer is on AC Power". 
+
+<img src="Data Scraping\src\automate\screenshot\condition.png">
+
+
+
+### JSON Structure
+Setiap elemen dari JSON array merepresent player information. Informasi antara lain yaitu player info berupa nama, informasi pribadi, posisi, dll. Lalu ada current contract dan current value. Lalu ada stats berupa array yang merepresentasikan stats setiap season pemain di premier league. transfer history berupa array untuk informasi historis transfer pemain. dan array awards berisi awards yang didapatkan para pemain dan tahun didapatkan (Sebuah player memiliki null awards jika tidak pernah mendapatkan penghargaan) 
+```
+[
+    {
+        "player_info": {
+            "name": "Erling Haaland",
+            "player_number": 9,
+            "birth_date": "2000-07-21T00:00:00",
+            "birth_place": "Leeds",
+            "height": 1.95,
+            "nationality": "Norway",
+            "position": "Attack - Centre-Forward",
+            "preffered_foot": "left",
+            "player_agent": "Rafaela Pimenta",
+            "outfitter": "Nike"
+        },
+        "current_contract": {
+            "current_club": "Manchester City",
+            "date_joined": "2022-07-01T00:00:00",
+            "contract_expired": "2027-06-30T00:00:00"
+        },
+        "current_value": {
+            "current_value": 180.0,
+            "last_update_date": "2024-05-27T00:00:00"
+        },
+        "stats": [
+            {
+                "season": "23/24",
+                "matches_played": 31,
+                "goals": 27,
+                "assists": 5,
+                "minutes_played": 2558
+            },
+
+        ],
+        "transfer_history": [
+            {
+                "season": "22/23",
+                "transfer_date": "2022-07-01T00:00:00",
+                "club_left": "Bor. Dortmund",
+                "club_joined": "Man City",
+                "market_value": 150.0,
+                "fee": 60.0,
+                "is_loan": false
+            },
+        ],
+        "awards": [
+            {
+                "award_name": "UEFA Best Player in Europe",
+                "details": [
+                    {
+                        "year": "2023"
+                    }
+                ]
+            },
+        ]
+    },
+]
+```
+
+## Struktur ERD
+### Entity Relationship Diagram
+<img src="Data Storing/design/TransferMarkt-ER.png">
+
+### Relation Diagram
+<img src="Data Storing/design/TransferMarkt-Relation.png">
+
+## Penjelasan dan proses translasi ERD
+ERD yang dibuat memiliki beberapa entity, seperti player dan awards yang merupakan strong entity. Contract, Stats, Player Value, dan Transfer merupakan weak entity karena existancenya bergantung pada entity player. Berikut adalah keterangan mengenai ERD:
+- Stats (weak entity) memiliki specialization entity yang dikategorikan berdasarkan posisi player (Field player atau Goalkeeper). Stats memiliki full participation relation dengan IS A, dan one to one cardinality untuk tiap tipe stats. Player dan stats memiliki one to many relation dengan full participation dari stats ke player dan partial participation dari player ke stats. Proses translasi dilakukan dengan penambahan player id sebagai foreign key pada kedua tabel stats
+- Player dan transfer (weak entity) memiliki relation one to many. Proses translasi dilakukan dengan penambahan player id sebagai foreign key pada tabel transfer
+- Player dan Player Value (weak entity) memiliki relation one to many. Player value menyimpan data current value dan data historis untuk value. Proses translasi dilakukan dengan penambahan player id sebagai foreign key pada tabel player value
+- Player dan contract (weak entity) memiliki relation one to many. contract menyimpan data current contract dan contract history. Proses translasi dilakukan dengan penambahan player id sebagai foreign key pada tabel contract
+- Player dan awards memiliki relation many to many. Proses translasi dilakukan dengan menambahkan junction table dengan penambahan atribut year. 
+
+
+## Screenshots
+### PSQL Queries
+<img src="Data Storing\screenshot\player-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\award-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\contract-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\field-player-stats-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\goalkeeper-stats-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\player-value-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\player-award-screenshot.png">
+<br>
+<img src="Data Storing\screenshot\transfer-screenshot.png">
+<br>
+
+### Scripts
+<img src="Data Scraping\screenshot\scraper.png">
+<br>
+
+## Referensi
+- DBMS: PostgreSQL
+
+- Library:
+    - Selenium      (WebScrape)
+    - pyscopg2       (DB Driver)
+    - BeautifulSoup4 (WebScrape)
+    - Unidecode     (Character normalization)
+
+- URLS:
+    - https://www.transfermarkt.com/premier-league/marktwerte/wettbewerb/GB1
+    - https://www.transfermarkt.com/premier-league/marktwerte/wettbewerb/GB1/page/2
+    - https://www.transfermarkt.com/premier-league/marktwerte/wettbewerb/GB1/page/3
+    - https://www.transfermarkt.com/premier-league/marktwerte/wettbewerb/GB1/page/4
+
+
 
 
 
