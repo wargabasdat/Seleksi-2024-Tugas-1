@@ -8,8 +8,10 @@ import (
 func main() {
 	var err error
 
+	// Init scraper
 	scraper := scraper.NewScraper()
 
+	// Load it with the current state
 	err = scraper.LoadConfig("config.json")
 	if err != nil {
 		fmt.Println("Error loading config -", err, "!")
@@ -17,6 +19,7 @@ func main() {
 	}
 
 
+	// Do Scrape
 	err = scraper.Scrape()
 	if err != nil {
 		fmt.Println("Error scraping -", err, "!")
@@ -24,6 +27,7 @@ func main() {
 	}
 
 
+	// Save state
 	err = scraper.Save()
 	if err != nil {
 		fmt.Println("Error while saving -", err, "!")

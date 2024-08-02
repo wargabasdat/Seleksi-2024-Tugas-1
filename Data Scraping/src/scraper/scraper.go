@@ -22,6 +22,13 @@ type Scraper struct {
 	contests []models.Contest
 }
 
+/**
+Scraping yang dilakuka telah melalui 4 tahap,
+1. Cleaning, dilakukan pengambilan data hanya bagian yang relevan, dan tidak mengandnug html tag.
+2. Parsing, data yang diambil kemudian dimaknai. contoh dari string menjadi datetime, atau dari string menjadi beberapa bagian string yang bermakna
+3. Transformasi, terakhir data yang diambil dijadikan sehingga mengikuti format tertentu.
+*/
+
 func NewScraper() *Scraper {
 	return &Scraper{
 		c: colly.NewCollector(
