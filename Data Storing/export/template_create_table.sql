@@ -74,43 +74,38 @@ CREATE TABLE madeof (
    	 ON UPDATE CASCADE
 );
 
-DROP TABLE IF EXISTS reviews;
-CREATE TABLE reviews (
-    "review_id" VARCHAR(255) NOT NULL,
+DROP TABLE IF EXISTS posts CASCADE;
+CREATE TABLE posts (
+    "post_id" VARCHAR(255) NOT NULL,
     "food_id" VARCHAR(255) NOT NULL,
     "user_id" VARCHAR(255) NOT NULL,
     "content" TEXT,
-    "rating" FLOAT,
     "likes" FLOAT,
-    PRIMARY KEY ("review_id"),
-    CONSTRAINT "fk_food_id_reviews"
+    "type" VARCHAR(255) NOT NULL,
+    PRIMARY KEY ("post_id", "food_id"),
+    CONSTRAINT "fk_food_id_posts"
    	 FOREIGN KEY ("food_id")
    	 REFERENCES recipes ("food_id")
    	 ON DELETE CASCADE
    	 ON UPDATE CASCADE,
-    CONSTRAINT "fk_user_id_reviews"
+    CONSTRAINT "fk_user_id_posts"
    	 FOREIGN KEY ("user_id")
    	 REFERENCES users ("user_id")
    	 ON DELETE CASCADE
-   	 ON UPDATE CASCADE
+   	 ON UPDATE CASCADE,
+    CONSTRAINT "post_type_check"
+        CHECK("type" IN ('review', 'tweak', 'question'))
 );
 
-DROP TABLE IF EXISTS tweaksandquestions;
-CREATE TABLE tweaksandquestions (
-    "tweak_and_question_id" VARCHAR(255) NOT NULL,
+DROP TABLE IF EXISTS reviews;
+CREATE TABLE reviews (
+    "post_id" VARCHAR(255) NOT NULL,
     "food_id" VARCHAR(255) NOT NULL,
-    "user_id" VARCHAR(255) NOT NULL,
-    "content" TEXT,
-    "likes" FLOAT,
-    PRIMARY KEY ("tweak_and_question_id"),
-    CONSTRAINT "fk_food_id_tweaks_and_questions"
-   	 FOREIGN KEY ("food_id")
-   	 REFERENCES recipes ("food_id")
-   	 ON DELETE CASCADE
-   	 ON UPDATE CASCADE,
-    CONSTRAINT "fk_user_id_tweaks_and_questions"
-   	 FOREIGN KEY ("user_id")
-   	 REFERENCES users ("user_id")
+    "rating" FLOAT,
+    PRIMARY KEY ("post_id", "food_id"),
+    CONSTRAINT "fk_post_id_posts"
+   	 FOREIGN KEY ("post_id", "food_id")
+   	 REFERENCES posts ("post_id", "food_id")
    	 ON DELETE CASCADE
    	 ON UPDATE CASCADE
 );

@@ -47,16 +47,12 @@ def scrape_recipes():
 
     recipes = []
     made_of = []
-    review_list = []
-    tweak_and_question_list = []
+    post_list = []
+    reviews = []
+    ingredient_links = set()
+    user_links = set()
 
     for link in recipe_links:
-        with open('Data Scraping/data/user_links.txt', 'r') as file:
-            pre_user_links = set(file.read().splitlines())
-        with open('Data Scraping/data/ingredient_links.txt', 'r') as file:
-            pre_ingredient_links = set(file.read().splitlines())
-        user_links = []
-        ingredient_links = []
         driver.get(link)
         id = re.findall(r'\d+', link)[0]
         try:
@@ -71,7 +67,7 @@ def scrape_recipes():
             )
             creator_link = creator_element.get_attribute("href")
             creator_id = re.findall(r'\d+', creator_link)[0]
-            user_links.append(creator_link)
+            user_links.add(creator_link)
 
             # Ingredients
             ingredients = driver.find_elements(By.CSS_SELECTOR, ".ingredient-text a")
@@ -82,37 +78,18 @@ def scrape_recipes():
                     "food_id": id,
                     "ingredient_id": ingredient_id
                 }
-                if made_of_singular not in made_of:
+                if made_of_singular not in made_of and 'about' in ingredient_link:
                     made_of.append(made_of_singular)
-                if ingredient_link not in pre_ingredient_links and ingredient_link not in ingredient_links:
-                    ingredient_links.append(ingredient_link)
+                    ingredient_links.add(ingredient_link)
 
-            # Post
-            # try:
-            #     while True:
-            #         try:
-            #             view_more_button = WebDriverWait(driver, 10).until(
-            #                 EC.element_to_be_clickable((By.CSS_SELECTOR, "span.conversation__show-more__text.svelte-1f82czh"))
-            #             )
-            #             view_more_button.click()
-            #             time.sleep(10)
-            #         except:
-            #             break
-            # except Exception as e:
-            #     print(f"Error: {e}")
-
-            question_id = 1
-            review_id = 1
-            tweak_id = 1
+            post_id = 1
             posts = driver.find_elements(By.CLASS_NAME, 'conversation__post')
             time.sleep(10)                
             for post in posts:
                 username_element = post.find_element(By.CLASS_NAME, 'post__author-link')
-                username = username_element.text
                 user_link = username_element.get_attribute('href')
                 user_id = re.findall(r'\d+', user_link)[0]
-                if (user_link not in pre_user_links) and (user_link not in user_links):
-                    user_links.append(user_link)
+                user_links.add(user_link)
                 content = post.find_element(By.CLASS_NAME, 'text-truncate.svelte-1aswkii').text
                 likes = post.find_element(By.CLASS_NAME, 'recipe-likes').text
                 if likes == "": likes = "0"
@@ -120,14 +97,15 @@ def scrape_recipes():
                 # question
                 if post.get_attribute("class") == "conversation__post svelte-10quso3":
                     question_singular = {
-                    "tweak_and_question_id": f"question_{id}_{question_id}",
+                    "post_id": post_id,
                     "food_id": id,
                     "user_id": user_id,
                     "content": content,
-                    "likes": likes
+                    "likes": likes,
+                    "type": "question"
                     }
-                    question_id += 1
-                    tweak_and_question_list.append(question_singular)
+                    post_id += 1
+                    post_list.append(question_singular)
 
                 # review
                 elif post.get_attribute("class") == "conversation__post svelte-1f82czh":
@@ -140,27 +118,35 @@ def scrape_recipes():
                         rating_sum += rating
                     rating_mean = rating_sum/100
                     review_singular = {
-                    "review_id": f"review_{id}_{review_id}",
+                    "post_id": post_id,
                     "food_id": id,
                     "user_id": user_id,
                     "content": content,
-                    "rating": rating_mean,
-                    "likes": likes
+                    "likes": likes,
+                    "type": "review"
                     }
-                    review_id += 1
-                    review_list.append(review_singular)
+                    post_list.append(review_singular)
+
+                    review_specialization = {
+                    "post_id": post_id,
+                    "food_id": id,
+                    "rating": rating_mean
+                    }
+                    reviews.append(review_specialization)
+                    post_id += 1
 
                 #tweak
                 else:
                     tweak_singular = {
-                    "tweak_and_question_id": f"tweak_{id}_{tweak_id}",
+                    "post_id": post_id,
                     "food_id": id,
                     "user_id": user_id,
                     "content": content,
-                    "likes": likes
+                    "likes": likes,
+                    "type": "tweak"
                     }
-                    tweak_id += 1
-                    tweak_and_question_list.append(tweak_singular)
+                    post_id += 1
+                    post_list.append(tweak_singular)
 
             # Click button 
             nutrition_button = WebDriverWait(driver, 10).until(
@@ -253,16 +239,6 @@ def scrape_recipes():
             }
             recipes.append(recipe)
 
-            try:
-                with open('Data Scraping/data/user_links.txt', 'a') as txtfile:
-                    for user_link in user_links:
-                        txtfile.write(user_link + '\n')
-                with open('Data Scraping/data/ingredient_links.txt', 'a') as txtfile:
-                    for ingredient_link in ingredient_links:
-                        txtfile.write(ingredient_link + '\n')
-            except Exception as e:
-                logger.error(f"Error: {e}")
-
         except Exception as e:
             logger.error(f"Error scraping {link}: {e}")
             logger.debug(f"Page source: {driver.page_source}")
@@ -274,11 +250,19 @@ def scrape_recipes():
         with open('Data Scraping/data/madeof_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(made_of, jsonfile, indent=4)
 
-        with open('Data Scraping/data/reviews_' + generate_timestamp() + '.json', 'w') as jsonfile:
-            json.dump(review_list, jsonfile, indent=4)
+        with open('Data Scraping/data/posts_' + generate_timestamp() + '.json', 'w') as jsonfile:
+            json.dump(post_list, jsonfile, indent=4)
 
-        with open('Data Scraping/data/tweaksandquestions_' + generate_timestamp() + '.json', 'w') as jsonfile:
-            json.dump(tweak_and_question_list, jsonfile, indent=4)
+        with open('Data Scraping/data/reviews_' + generate_timestamp() + '.json', 'w') as jsonfile:
+            json.dump(reviews, jsonfile, indent=4)
+
+        with open('Data Scraping/data/user_links.txt', 'a') as txtfile:
+            for user_link in user_links:
+                txtfile.write(user_link + '\n')
+
+        with open('Data Scraping/data/ingredient_links.txt', 'a') as txtfile:
+            for ingredient_link in ingredient_links:
+                txtfile.write(ingredient_link + '\n')
 
         logger.info("Succeed")
 
@@ -366,13 +350,13 @@ def scrape_ingredients():
                 "sodium": sodium
             }
             ingredients.append(ingredient)
-            try:
-                with open('Data Scraping/data/ingredients_' + generate_timestamp() + '.json', 'w') as jsonfile:
-                    json.dump(ingredients, jsonfile, indent=4)
-            except Exception as e:
-                logger.error(f"Error: {e}")
         except Exception as e:
             logger.error(f"Error: {e}")
+    try:
+        with open('Data Scraping/data/ingredients_' + generate_timestamp() + '.json', 'w') as jsonfile:
+            json.dump(ingredients, jsonfile, indent=4)
+    except Exception as e:
+        logger.error(f"Error: {e}")
 
 def scrape_users():
     with open('Data Scraping/data/user_links.txt', 'r') as file:
@@ -453,8 +437,8 @@ def generate_timestamp():
 def scrape_all():
     # scrape_recipe_links()
     scrape_recipes()
-    scrape_ingredients()
-    scrape_users()
+    # scrape_ingredients()
+    # scrape_users()
 
 if __name__ == "__main__":
     start = time.time()
