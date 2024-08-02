@@ -1,6 +1,6 @@
 # FIT HUB Class Schedule Analytics
 
-## Identitas 
+## Author
 <table>
     <tr>
         <td>Nama</td>
@@ -14,6 +14,14 @@
 
 ## Deskripsi Singkat Data
 Data yang di-scrape pada proyek ini adalah data jadwal kelas dari FIT HUB, khususnya pada cabang-cabang daerah Bandung. FIT HUB adalah salah satu commercial gym di Indonesia yang memiliki lebih dari 80 cabang di seluruh Indonesia dan lebih dari 20 jenis kelas yang bervariasi. Selain data jadwal kelas, proyek ini juga melakukan scraping terhadap data cabang FIT HUB di seluruh Indonesia serta informasi kelas yang disediakan oleh FIT HUB.
+
+Pada DBMS yang telah dibuat, terdapat 6 tabel, yaitu:
+- branches: Berisi informasi tentang daftar cabang FIT HUB di seluruh Indonesia
+- classes: Berisi informasi tentang daftar kelas yang diselenggarakan oleh FIT HUB
+- schedule: Berisi informasi tentang jadwal penyelenggaraan kelas pada suatu cabang FIT HUB
+- instructors: Berisi informasi tentang instruktur yang mengajar pada suatu jadwal kelas
+- member: Berisi informasi tentang daftar member yang memiliki membership di FIT HUB (tabel tambahan, tidak diisi)
+- schedule_attendants: Berisi informasi tentang daftar member yang hadir dalam suatu jadwal kelas
 
 Alasan saya memilih topik tersebut adalah agar dapat mengetahui variasi kelas yang diadakan di tiap cabang, kategori kelas yang sering diadakan di setiap cabang, lokasi dan jumlah cabang di setiap wilayah, waktu yang populer untuk mengadakan kelas, dan insight mengenai jadwal kelas lainnya. Dengan informasi tersebut, seseorang dapat lebih mudah menentukan lokasi cabang dan waktu yang tepat untuk mengikuti kelas tertentu. Selain itu, topik tersebut merupakan topik yang saya minati karena tempat ini merupakan tempat saya berolahraga. Informasi tentang jadwal kelas juga mudah didapatkan di situs resmi FIT HUB.
 
@@ -175,8 +183,14 @@ Dapat terlihat bahwa scraping informasi kelas dilakukan dua kali, yaitu pada cla
 ## Struktur ERD dan Diagam Relasional RDBMS
 
 ### Struktur ERD
+| ERD                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------|
+| ![ERD](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/design/erd.png) |
 
 ### Diagram Relasional
+| Diagram Relasional                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------|
+| ![ERD](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/design/relational_diagram.png) |
 
 ## Proses Translasi ERD Menjadi Diagram Relasional
 Pertama-tama, semua entitas dikonversi menjadi suatu tabel yang memiliki atribut yang sama dengan atribut pada entitas. Untuk entitas schedule yang merupakan weak entity, ditambahkan atribut branch_id dari identifying entity set-nya (entitas branch) primary key dari tabel schedule menjadi (branch_id, class_datetime).
@@ -185,5 +199,25 @@ Setelah itu, masing-masing relationship akan dikonversi menjadi bentuk relasiona
 
 ## Screenshot Program
 
+### Schedule Scraper
+| Schedule Scraper Source Code                                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![schedule-source-1](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Scraping/screenshot/schedule_scraper/source-1.png) |
+| ![schedule-source-2](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Scraping/screenshot/schedule_scraper/source-2.png) |
+| ![schedule-source-3](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Scraping/screenshot/schedule_scraper/source-3.png) |
+
+
+| Schedule Scraper Output Log                                                                                                                          |
+| -----------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![branch-output-log](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Scraping/screenshot/schedule_scraper/output-log.png) |
+
+## Schedule Table
+| Schedule Table                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------|
+| ![schedule-table-1](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/schedule-1.png) |
+| ![schedule-table-2](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/schedule-2.png) |
+
 ## Referensi
-- 
+- [FIT HUB Official Website](https://fithub.id/)
+- [FIT HUB Class Schedules](https://schedules.fithub.id/)
+- [Selenium Unofficial Docs](https://selenium-python.readthedocs.io/)
