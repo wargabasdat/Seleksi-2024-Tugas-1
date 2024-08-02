@@ -383,6 +383,11 @@ WHERE name = 'Luigi'
         cursor.execute("DROP TABLE IF EXISTS image")
         self.conn.commit()
 
+    def apply_settings(self):
+        cursor = self.conn.cursor()
+        cursor.execute("ALTER SYSTEM SET track_commit_timestamp = on;")
+        self.conn.commit()
+
 def create_db(json: Dict):
     db = DB()
     db.drop_tables()
@@ -392,6 +397,7 @@ def create_db(json: Dict):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         db = DB()
+        db.apply_settings()
         db.drop_tables()
         db.create_tables()
         db.truncate_tables()

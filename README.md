@@ -17,7 +17,7 @@ DBMS yang dibuat merupakan data dari game [Super Mario Bros](https://www.mariowi
 Pastikan untuk membuka folder `DataScraping/src` di terminal.
 
 ### Environtment Variables
-Buat file `.env` di dalam folder `DataScraping/src` dengan isi dapat mengikuti examplenya pada file `DataScraping/src/.env.example.docker` atau `DataScraping/src/.env.example.localhost`. Atau langsung saja rename yang `DataScraping/src/.env.example.localhost` menjadi `DataScraping/src/.env`.
+Buat file `.env` di dalam folder [Data Scraping/src](Data%20Scraping/src) dengan isi dapat mengikuti examplenya pada file [Data Scraping/src/.env.example.docker](Data%20Scraping/src/.env.example.docker) atau [Data Scraping/src/.env.example.localhost](Data%20Scraping/src/.env.example.localhost). Atau langsung saja rename yang [Data Scraping/src/.env.example.localhost](Data%20Scraping/src/.env.example.localhost) menjadi `Data Scraping/src/.env`.
 
 
 ### Docker
@@ -46,6 +46,16 @@ Misalnya
 ```
 docker exec -it mariodb psql -U user mariodb
 SELECT * FROM image;
+```
+
+### Cek Last Updated
+Jika ingin mengecek kapan terakhir kali data diupdate, bisa dengan query berikut
+```
+SELECT pg_xact_commit_timestamp(xmin) FROM <TABLE_NAME> LIMIT 1;
+```
+Misalnya
+```
+SELECT pg_xact_commit_timestamp(xmin) FROM obstacle LIMIT 1;
 ```
 
 ### Dump
@@ -88,7 +98,7 @@ python db.py "SELECT * FROM item"
 ## Struktur File Hasil Scrapping
 <!-- - Penjelasan struktur dari file JSON yang dihasilkan scraper -->
 
-```json
+```
 {
   "character": {
 
@@ -238,6 +248,8 @@ python db.py "SELECT * FROM item"
     },
     "detail_url": string,
     "setting": string,
+
+    // Saat scraping juga memiliki id html yang tidak konsisten. Bisa beda-beda antara Level_map, Level_maps, Course_map, Map
     "course_map_image": {
       "name": string,
       "url": string,
@@ -278,15 +290,37 @@ python db.py "SELECT * FROM item"
 
 ## Translasi ERD Menjadi diagram relasional
 <!-- - Penjelasan mengenai proses translasi ERD menjadi diagram relasional -->
-
+<!-- Cek draw.io ada di tabel ada typenya ga ? trus ada kaya enum gitu typenya ga ? -->
+Proses translasi ERD menjadi diagram relasional dilakukan dengan cara:
+  
+## Automated Scheduling Update
+Proses web scraping dapat diupdate dalam jangka waktu tertentu. Dalam program ini, proses web scraping akan dijalankan setiap 2 menit. Konfigurasi ini bisa diubah dari main.py pada variabel wait_time. Nilainya dalam detik. File json hasil scraping akan disimpan di [Data Scraping/src/json/data.json](Data%20Scraping/src/json/data.json).
 
 ## Screenshot
 <!-- - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan) -->
-### Web Scrapping
-<img src="Data Scraping/screenshot/web-scraping-1.png"/>
 
 ### Query SQL
+Contoh login dan query SELECT ke tabel obstacle.
 <img src="Data Storing/screenshot/query-sql.png"/>
+
+### Scheduling
+Contoh mengambil timestamp untuk mengetahui kapan terakhir kali obstacle diupdate.
+Yang bawah merupakan setelah ditunggu sekitar 2 menit.
+<br>
+<img src="Data Storing/screenshot/scheduling.png"/>
+
+### Web Scrapping
+<img src="Data Scraping/screenshot/main.py.png"/>
+<img src="Data Scraping/screenshot/table.py.png"/>
+<img src="Data Scraping/screenshot/character.py.png"/>
+<img src="Data Scraping/screenshot/item.py.png"/>
+<img src="Data Scraping/screenshot/level.py.png"/>
+<img src="Data Scraping/screenshot/object.py.png"/>
+<img src="Data Scraping/screenshot/obstacle.py.png"/>
+<img src="Data Scraping/screenshot/power_up.py.png"/>
+<img src="Data Scraping/screenshot/reference.py.png"/>
+<img src="Data Scraping/screenshot/table.py.png"/>
+<img src="Data Scraping/screenshot/version.py.png"/>
 
 
 ## Referensi
