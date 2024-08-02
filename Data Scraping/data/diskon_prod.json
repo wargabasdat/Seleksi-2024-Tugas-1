@@ -1,0 +1,3112 @@
+[
+    {
+        "ID_prod": "8995102800448",
+        "nama_prod": "Safe Care Minyak Aromatherapy",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "18500",
+        "terjual_prod": "5",
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8995102800578",
+        "nama_prod": "Safe Care Roll On 3 Point Oil",
+        "harga_prod_norm": "18400",
+        "harga_prod_disc": "15400",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8995102800592",
+        "nama_prod": "Safe Care Roll On Kayu Putih Plus",
+        "harga_prod_norm": "10000",
+        "harga_prod_disc": "7000",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8995102800561",
+        "nama_prod": "Safe Care Minyak Aromatherapy",
+        "harga_prod_norm": "12900",
+        "harga_prod_disc": "9900",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8995102800462",
+        "nama_prod": "Safe Care Roll On Kayu Putih Plus",
+        "harga_prod_norm": "18400",
+        "harga_prod_disc": "15400",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Kayu Putih",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8995102800738",
+        "nama_prod": "Safe Care Roll On Strong",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "18500",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8995102800745",
+        "nama_prod": "Safe Care Aromatherapy Roll On",
+        "harga_prod_norm": "43600",
+        "harga_prod_disc": "40600",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. SURABAYA INDAH PERMAI",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8992741906098",
+        "nama_prod": "Safe Care Anise Mint Gummy",
+        "harga_prod_norm": "12700",
+        "harga_prod_disc": "9700",
+        "terjual_prod": 0,
+        "kat_prod": "Permen",
+        "nama_sup": "PT YUPI INDO JELLY GUM",
+        "nama_prom": "Diskon Produk Safe Care"
+    },
+    {
+        "ID_prod": "8997009070979",
+        "nama_prod": "Ashitaki Fried Noodle Low Carbo Original",
+        "harga_prod_norm": "21800",
+        "harga_prod_disc": "14800",
+        "terjual_prod": 0,
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. AQUASLOVE SANARIA",
+        "nama_prom": "Diskon Produk Ashitaki Mi"
+    },
+    {
+        "ID_prod": "8997009070986",
+        "nama_prod": "Ashitaki Fried Noodle Low Carbo Ala Jepang",
+        "harga_prod_norm": "21800",
+        "harga_prod_disc": "14800",
+        "terjual_prod": 0,
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. AQUASLOVE SANARIA",
+        "nama_prom": "Diskon Produk Ashitaki Mi"
+    },
+    {
+        "ID_prod": "8997009070993",
+        "nama_prod": "Ashitaki Noodle Low Carbo Soto 69.",
+        "harga_prod_norm": "19800",
+        "harga_prod_disc": "12800",
+        "terjual_prod": "5",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. AQUASLOVE SANARIA",
+        "nama_prom": "Diskon Produk Ashitaki Mi"
+    },
+    {
+        "ID_prod": "8801073411524",
+        "nama_prod": "Samyang Buldak Hot Chicken Sauce",
+        "harga_prod_norm": "75400",
+        "harga_prod_disc": "65400",
+        "terjual_prod": 0,
+        "kat_prod": "Saos Pedas Lainnya",
+        "nama_sup": "SAMYANG FOODS CO., LTD",
+        "nama_prom": "Diskon Produk Samyang"
+    },
+    {
+        "ID_prod": "8801073411562",
+        "nama_prod": "Samyang Buldak Sauce Extreme",
+        "harga_prod_norm": "75400",
+        "harga_prod_disc": "65400",
+        "terjual_prod": 0,
+        "kat_prod": "Saos Pedas Lainnya",
+        "nama_sup": "SAMYANG FOODS CO., LTD",
+        "nama_prom": "Diskon Produk Samyang"
+    },
+    {
+        "ID_prod": "8994985000273",
+        "nama_prod": "Pokka Lychee Tea",
+        "harga_prod_norm": "5800",
+        "harga_prod_disc": "4800",
+        "terjual_prod": 0,
+        "kat_prod": "Teh Kemasan Botol",
+        "nama_sup": "PT DIMA BEVERAGE INTERNATIONAL",
+        "nama_prom": "Diskon Produk Pokka"
+    },
+    {
+        "ID_prod": "8994985000242",
+        "nama_prod": "Pokka Lemon Black Tea",
+        "harga_prod_norm": "5800",
+        "harga_prod_disc": "4800",
+        "terjual_prod": 0,
+        "kat_prod": "Teh Kemasan Botol",
+        "nama_sup": "PT DIMA BEVERAGES INTERNASIONAL",
+        "nama_prom": "Diskon Produk Pokka"
+    },
+    {
+        "ID_prod": "8994985000266",
+        "nama_prod": "Pokka Teh Mangga",
+        "harga_prod_norm": "5800",
+        "harga_prod_disc": "4800",
+        "terjual_prod": 0,
+        "kat_prod": "Teh Kemasan Botol",
+        "nama_sup": "PT POKKA DIMA INTERNATIONAL",
+        "nama_prom": "Diskon Produk Pokka"
+    },
+    {
+        "ID_prod": "8886012206072",
+        "nama_prod": "Dahlia Air Freshner Teh Keraton Reff",
+        "harga_prod_norm": "10600",
+        "harga_prod_disc": "9600",
+        "terjual_prod": "100",
+        "kat_prod": "Pengharum Ruangan",
+        "nama_sup": "PT UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012001035",
+        "nama_prod": "Dahlia Toilet Ball Aromatic Green",
+        "harga_prod_norm": "24000",
+        "harga_prod_disc": "23000",
+        "terjual_prod": "10",
+        "kat_prod": "Kamper / Kapur Barus (Camphor/naphtalene Ball)",
+        "nama_sup": "PT. UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012883167",
+        "nama_prod": "Dahlia Aromatic Yellow K",
+        "harga_prod_norm": "25400",
+        "harga_prod_disc": "24400",
+        "terjual_prod": "2",
+        "kat_prod": "Kamper / Kapur Barus (Camphor/naphtalene Ball)",
+        "nama_sup": "PT. UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012826249",
+        "nama_prod": "Dahlia Air Freshener Cherry Blossom",
+        "harga_prod_norm": "10100",
+        "harga_prod_disc": "9100",
+        "terjual_prod": "2",
+        "kat_prod": "Pengharum Ruangan",
+        "nama_sup": "PT. UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012000205",
+        "nama_prod": "Dahlia Toilet Ball Double Action Coffee 5's K",
+        "harga_prod_norm": "24000",
+        "harga_prod_disc": "23000",
+        "terjual_prod": "2",
+        "kat_prod": "Kamper / Kapur Barus (Camphor/naphtalene Ball) Dengan Gantungan Dan Isi",
+        "nama_sup": "PT. UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012206034",
+        "nama_prod": "Dahlia Air Freshener Royal Coffee",
+        "harga_prod_norm": "10100",
+        "harga_prod_disc": "9100",
+        "terjual_prod": "2",
+        "kat_prod": "Pengharum Ruangan Gantung",
+        "nama_sup": "PT UNITANG SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012001028",
+        "nama_prod": "Dahlia Toilet Ball Air Fresh Fruity",
+        "harga_prod_norm": "24000",
+        "harga_prod_disc": "23000",
+        "terjual_prod": "1",
+        "kat_prod": "Kamper / Kapur Barus (Camphor/naphtalene Ball)",
+        "nama_sup": "PT. UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8886012000212",
+        "nama_prod": "Dahlia Aromatic Purple Lavender K",
+        "harga_prod_norm": "25400",
+        "harga_prod_disc": "24400",
+        "terjual_prod": 0,
+        "kat_prod": "Kamper / Kapur Barus (Camphor/naphtalene Ball)",
+        "nama_sup": "PT. UNITAMA SARI MAS",
+        "nama_prom": "Diskon Produk Dahlia"
+    },
+    {
+        "ID_prod": "8993018110514",
+        "nama_prod": "Ikan Dorang Spc Jerigen",
+        "harga_prod_norm": "148200",
+        "harga_prod_disc": "140900",
+        "terjual_prod": "1",
+        "kat_prod": "Minyak Kelapa",
+        "nama_sup": "PT. PABRIK MINYAK PERNIAGAAN",
+        "nama_prom": "Diskon Produk Ikan Dorang"
+    },
+    {
+        "ID_prod": "8993018110101",
+        "nama_prod": "Minyak Kelapa Ikan Dorang Special Botol",
+        "harga_prod_norm": "33700",
+        "harga_prod_disc": "30900",
+        "terjual_prod": "1",
+        "kat_prod": "Minyak Kelapa",
+        "nama_sup": "PT IKAN DORANG SURABAYA",
+        "nama_prom": "Diskon Produk Ikan Dorang"
+    },
+    {
+        "ID_prod": "8993018703273",
+        "nama_prod": "Ikan Dorang Virgin Coconut Oil Box 10 @",
+        "harga_prod_norm": "44300",
+        "harga_prod_disc": "35000",
+        "terjual_prod": "1",
+        "kat_prod": "Minyak Kelapa",
+        "nama_sup": "PT. IKAN DORANG",
+        "nama_prom": "Diskon Produk Ikan Dorang"
+    },
+    {
+        "ID_prod": "8993018702740",
+        "nama_prod": "Ikan Dorang Virgin Coconut Oil Botol",
+        "harga_prod_norm": "58800",
+        "harga_prod_disc": "43400",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Kelapa",
+        "nama_sup": "PT.IKAN DORANG",
+        "nama_prom": "Diskon Produk Ikan Dorang"
+    },
+    {
+        "ID_prod": "8993018116004",
+        "nama_prod": "Minyak Kelapa Ikan Dorang Spesial",
+        "harga_prod_norm": "31700",
+        "harga_prod_disc": "28900",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Kelapa",
+        "nama_sup": "PT IKAN DORANG",
+        "nama_prom": "Diskon Produk Ikan Dorang"
+    },
+    {
+        "ID_prod": "8993018519003",
+        "nama_prod": "Minyak Kelapa Ikan Dorang Special Pouch 1.",
+        "harga_prod_norm": "62600",
+        "harga_prod_disc": "57900",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Kelapa",
+        "nama_sup": "PT IKAN DORANG",
+        "nama_prom": "Diskon Produk Ikan Dorang"
+    },
+    {
+        "ID_prod": "8994388130157",
+        "nama_prod": "Stimuno Syrup Botol",
+        "harga_prod_norm": "50200",
+        "harga_prod_disc": "45200",
+        "terjual_prod": 0,
+        "kat_prod": "Vitamin & Multivitamin",
+        "nama_sup": "PT. BETA PHARMACON",
+        "nama_prom": "Diskon Produk Stimuno Sirup"
+    },
+    {
+        "ID_prod": "9415007055631",
+        "nama_prod": "Anchor Pure New Zealand Salted Butter",
+        "harga_prod_norm": "64100",
+        "harga_prod_disc": "59100",
+        "terjual_prod": "5",
+        "kat_prod": "Mentega (Butter)",
+        "nama_sup": "FONTERA LIMITED",
+        "nama_prom": "Diskon Produk Anchor Butter"
+    },
+    {
+        "ID_prod": "9415007055648",
+        "nama_prod": "Anchor Pure New Zealand Unsalted Butter",
+        "harga_prod_norm": "64100",
+        "harga_prod_disc": "59100",
+        "terjual_prod": "2",
+        "kat_prod": "Mentega (Butter)",
+        "nama_sup": "FONTERA LIMITED",
+        "nama_prom": "Diskon Produk Anchor Butter"
+    },
+    {
+        "ID_prod": "8992772585026",
+        "nama_prod": "Adem Sari Chingku Pet",
+        "harga_prod_norm": "8000",
+        "harga_prod_disc": "7500",
+        "terjual_prod": "5",
+        "kat_prod": "Minuman Kesehatan",
+        "nama_sup": "PT. HOKKAN INDONESIA",
+        "nama_prom": "Diskon Produk Adem Sari"
+    },
+    {
+        "ID_prod": "8997239630110",
+        "nama_prod": "Adem Sari Dus 12 @",
+        "harga_prod_norm": "34500",
+        "harga_prod_disc": "31500",
+        "terjual_prod": 0,
+        "kat_prod": "Obat Minum Lainnya",
+        "nama_sup": "PT. SARI ENESIS INDAH",
+        "nama_prom": "Diskon Produk Adem Sari"
+    },
+    {
+        "ID_prod": "8992772586016",
+        "nama_prod": "Adem Sari Ching Ku Can",
+        "harga_prod_norm": "8000",
+        "harga_prod_disc": "7500",
+        "terjual_prod": 0,
+        "kat_prod": "Minuman Kesehatan",
+        "nama_sup": "PT SINGA MAS INDONESIA",
+        "nama_prom": "Diskon Produk Adem Sari"
+    },
+    {
+        "ID_prod": "8993292118220",
+        "nama_prod": "Premier Toothbrush Action Soft",
+        "harga_prod_norm": "5700",
+        "harga_prod_disc": "5200",
+        "terjual_prod": "2",
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "PT. TMC INDONESIA",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8993292011415",
+        "nama_prod": "Prodental B Toothbrush Supreme Medium",
+        "harga_prod_norm": "5100",
+        "harga_prod_disc": "4600",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "FULIJAYA MANUFACTURING SDN. BHD",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8993292118817",
+        "nama_prod": "Premier Toothbrush Classic Soft",
+        "harga_prod_norm": "4400",
+        "harga_prod_disc": "3900",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "PT TMC - INDONESIA",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8993292118848",
+        "nama_prod": "Premier Basic Medium",
+        "harga_prod_norm": "4400",
+        "harga_prod_disc": "3900",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "PT TMC -INDONESIA",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8993292118312",
+        "nama_prod": "Premier Toothbrush Deluxe Medium",
+        "harga_prod_norm": "5700",
+        "harga_prod_disc": "5200",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "PT TMC INDONESIA",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8993292118831",
+        "nama_prod": "Premier Toothbrush Basic Soft",
+        "harga_prod_norm": "4400",
+        "harga_prod_disc": "3900",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "PT TMC INDONESIA",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8993292118114",
+        "nama_prod": "Premier Toothbrush Superior Medium",
+        "harga_prod_norm": "5700",
+        "harga_prod_disc": "5200",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "PT. TMC INDONESIA",
+        "nama_prom": "Diskon Produk Prodental"
+    },
+    {
+        "ID_prod": "8992828881782",
+        "nama_prod": "Ambeven",
+        "harga_prod_norm": "23400",
+        "harga_prod_disc": "21800",
+        "terjual_prod": 0,
+        "kat_prod": "Obat Pencernaan Lainnya",
+        "nama_sup": "PT. MEDIKON PRIMA LABORATORIES",
+        "nama_prom": "Diskon Produk Ambeven Verile"
+    },
+    {
+        "ID_prod": "8992828889993",
+        "nama_prod": "Verile Acne Care Facial Wash",
+        "harga_prod_norm": "20300",
+        "harga_prod_disc": "17900",
+        "terjual_prod": 0,
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT MEDIKON PRIMA LABORATORIES",
+        "nama_prom": "Diskon Produk Ambeven Verile"
+    },
+    {
+        "ID_prod": "8992828889887",
+        "nama_prod": "Verile Acne Gel",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "19100",
+        "terjual_prod": 0,
+        "kat_prod": "Krim Jerawat",
+        "nama_sup": "PT. MEDIKOM PRIMA LABORATORIES",
+        "nama_prom": "Diskon Produk Ambeven Verile"
+    },
+    {
+        "ID_prod": "8992828890272",
+        "nama_prod": "Verile Acne Blemish Cream",
+        "harga_prod_norm": "35300",
+        "harga_prod_disc": "31300",
+        "terjual_prod": 0,
+        "kat_prod": "Krim Jerawat",
+        "nama_sup": "PT. MEDIKOM PRIMA LABORATORIES",
+        "nama_prom": "Diskon Produk Ambeven Verile"
+    },
+    {
+        "ID_prod": "8997215750085",
+        "nama_prod": "Wincheez Gold",
+        "harga_prod_norm": "13700",
+        "harga_prod_disc": "11200",
+        "terjual_prod": "2",
+        "kat_prod": "Keju",
+        "nama_sup": "PT BANGUN RASAGUNA LESTARI",
+        "nama_prom": "Diskon Produk Wincheeze"
+    },
+    {
+        "ID_prod": "8997215750153",
+        "nama_prod": "Wincheez Cheddar Premium",
+        "harga_prod_norm": "17800",
+        "harga_prod_disc": "15800",
+        "terjual_prod": 0,
+        "kat_prod": "Keju",
+        "nama_sup": "PT. BANGUN RASAGUNA LESTARI",
+        "nama_prom": "Diskon Produk Wincheeze"
+    },
+    {
+        "ID_prod": "8997001990312",
+        "nama_prod": "Sierra",
+        "harga_prod_norm": "3800",
+        "harga_prod_disc": "3200",
+        "terjual_prod": "50",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT JAYAMAS DWI PERKASA",
+        "nama_prom": "Diskon Produk Sierra"
+    },
+    {
+        "ID_prod": "8997001990305",
+        "nama_prod": "Sierra",
+        "harga_prod_norm": "1900",
+        "harga_prod_disc": "1600",
+        "terjual_prod": "20",
+        "kat_prod": "Air Mineral",
+        "nama_sup": "PT JAYAMAS DWI PERKASA",
+        "nama_prom": "Diskon Produk Sierra"
+    },
+    {
+        "ID_prod": "8993351121307",
+        "nama_prod": "Greenfields Uht Full Cream",
+        "harga_prod_norm": "22100",
+        "harga_prod_disc": "20100",
+        "terjual_prod": "20",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "8993351127309",
+        "nama_prod": "Greenfields Uht Skimmed",
+        "harga_prod_norm": "23800",
+        "harga_prod_disc": "21800",
+        "terjual_prod": "20",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "8993351124209",
+        "nama_prod": "Greenfields Uht Strawberry",
+        "harga_prod_norm": "7500",
+        "harga_prod_disc": "7000",
+        "terjual_prod": "5",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "8993351129617",
+        "nama_prod": "Greenfields Uht Chocolate",
+        "harga_prod_norm": "22400",
+        "harga_prod_disc": "20400",
+        "terjual_prod": "2",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "8993351128306",
+        "nama_prod": "Greenfields Uht Low Fat",
+        "harga_prod_norm": "23800",
+        "harga_prod_disc": "21800",
+        "terjual_prod": "2",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "8993351124001",
+        "nama_prod": "Greenfields Uht Full Cream Milk",
+        "harga_prod_norm": "7500",
+        "harga_prod_disc": "7000",
+        "terjual_prod": "2",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "8993351122618",
+        "nama_prod": "Greenfields Uht Chocolate",
+        "harga_prod_norm": "7500",
+        "harga_prod_disc": "7000",
+        "terjual_prod": 0,
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT GREENFIELDS INDONESIA",
+        "nama_prom": "Diskon Produk Greenfields Uht"
+    },
+    {
+        "ID_prod": "6908594419021",
+        "nama_prod": "Laurier Super Slimguard Night Wing 35 Cm Isi 8",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "18100",
+        "terjual_prod": "2",
+        "kat_prod": "Pembalut",
+        "nama_sup": "KAO CORPORATION SHANGHAI",
+        "nama_prom": "Diskon Produk Kao Distributor"
+    },
+    {
+        "ID_prod": "6908594417034",
+        "nama_prod": "Laurier Super Slimguard Night Wing 30 Cm Isi",
+        "harga_prod_norm": "30700",
+        "harga_prod_disc": "27600",
+        "terjual_prod": "1",
+        "kat_prod": "Pembalut",
+        "nama_sup": "KAO INDUSTRIAL (THAILAND) CO., LTD",
+        "nama_prom": "Diskon Produk Kao Distributor"
+    },
+    {
+        "ID_prod": "8992727007399",
+        "nama_prod": "Biore Uv Aqua Rich Watery Essence Spf50",
+        "harga_prod_norm": "37100",
+        "harga_prod_disc": "27900",
+        "terjual_prod": 0,
+        "kat_prod": "Sun Block / Sun Screen",
+        "nama_sup": "KAO VIETNAM CO.LTD",
+        "nama_prom": "Diskon Produk Kao Distributor"
+    },
+    {
+        "ID_prod": "8997010252418",
+        "nama_prod": "Super Kifa All In Cleaner Refill",
+        "harga_prod_norm": "7900",
+        "harga_prod_disc": "7650",
+        "terjual_prod": "5",
+        "kat_prod": "Cairan Pembersih Lantai Kemasan Refill (Pouch)",
+        "nama_sup": "PT. BUDINUSA TATAPIRMA",
+        "nama_prom": "Diskon Produk Super Kifa"
+    },
+    {
+        "ID_prod": "8997010254023",
+        "nama_prod": "Super Kifa Karbol Sereh Refill",
+        "harga_prod_norm": "13800",
+        "harga_prod_disc": "12700",
+        "terjual_prod": "2",
+        "kat_prod": "Karbol Kemasan Refill (Pouch)",
+        "nama_sup": "PT. BUDNUSA TATAPRIMA",
+        "nama_prom": "Diskon Produk Super Kifa"
+    },
+    {
+        "ID_prod": "8997010254108",
+        "nama_prod": "Super Kifa Hand Soap Chamomile",
+        "harga_prod_norm": "9500",
+        "harga_prod_disc": "8800",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Cuci Tangan Cair Kemasan Refill (Pouch)",
+        "nama_sup": "PT. BUDINUSA TATAPRIMA",
+        "nama_prom": "Diskon Produk Super Kifa"
+    },
+    {
+        "ID_prod": "8997010252425",
+        "nama_prod": "Super Kifa Powder Cleaner Botol",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "10600",
+        "terjual_prod": "2",
+        "kat_prod": "Pembersih Multifungsi Bubuk",
+        "nama_sup": "PT. BUDINUSA TATAPRIMA",
+        "nama_prom": "Diskon Produk Super Kifa"
+    },
+    {
+        "ID_prod": "8997010254115",
+        "nama_prod": "Super Kifa Hand Soap Strawberry",
+        "harga_prod_norm": "9500",
+        "harga_prod_disc": "8800",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Cuci Tangan Cair Kemasan Refill (Pouch)",
+        "nama_sup": "PT. BUDINUSA TATAPRIMA",
+        "nama_prom": "Diskon Produk Super Kifa"
+    },
+    {
+        "ID_prod": "8997010253224",
+        "nama_prod": "Super Kifa Karbol Wangi",
+        "harga_prod_norm": "12500",
+        "harga_prod_disc": "11500",
+        "terjual_prod": "1",
+        "kat_prod": "Karbol Kemasan Refill (Pouch)",
+        "nama_sup": "PT BUDINUSA TATAPRIMA",
+        "nama_prom": "Diskon Produk Super Kifa"
+    },
+    {
+        "ID_prod": "8997019581649",
+        "nama_prod": "Green Soft Facial Tissue",
+        "harga_prod_norm": "7700",
+        "harga_prod_disc": "7200",
+        "terjual_prod": "10",
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "PT. TRI JAYA TISSUE",
+        "nama_prom": "Diskon Produk T-soft"
+    },
+    {
+        "ID_prod": "8997019581496",
+        "nama_prod": "T-soft Facial Tissue Premium Isi 4 @",
+        "harga_prod_norm": "19000",
+        "harga_prod_disc": "17400",
+        "terjual_prod": "5",
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "PT TRI JAYA TISSUR",
+        "nama_prom": "Diskon Produk T-soft"
+    },
+    {
+        "ID_prod": "8997019581489",
+        "nama_prod": "T-soft Premium 2@",
+        "harga_prod_norm": "20800",
+        "harga_prod_disc": "18600",
+        "terjual_prod": 0,
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "PT. TRI JAYA TISSUE",
+        "nama_prom": "Diskon Produk T-soft"
+    },
+    {
+        "ID_prod": "8997019580536",
+        "nama_prod": "T-soft Soft Facial Tissue Isi",
+        "harga_prod_norm": "9900",
+        "harga_prod_disc": "9200",
+        "terjual_prod": 0,
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "PT TRI JAYA TISSUE",
+        "nama_prom": "Diskon Produk T-soft"
+    },
+    {
+        "ID_prod": "8997206771044",
+        "nama_prod": "Mayonaise Kewpie Original",
+        "harga_prod_norm": "30500",
+        "harga_prod_disc": "28000",
+        "terjual_prod": "5",
+        "kat_prod": "Mayones",
+        "nama_sup": "PT. KEWPIE INDONESIA",
+        "nama_prom": "Diskon Produk Kewpie"
+    },
+    {
+        "ID_prod": "8997206771167",
+        "nama_prod": "Mayonaise Kewpie Original",
+        "harga_prod_norm": "53200",
+        "harga_prod_disc": "49200",
+        "terjual_prod": "1",
+        "kat_prod": "Mayones",
+        "nama_sup": "PT. KEWPIE INDONESIA",
+        "nama_prom": "Diskon Produk Kewpie"
+    },
+    {
+        "ID_prod": "8997206772317",
+        "nama_prod": "Salad Dressing Kewpie Wijen Sangrai",
+        "harga_prod_norm": "79600",
+        "harga_prod_disc": "73600",
+        "terjual_prod": 0,
+        "kat_prod": "Saus Salad",
+        "nama_sup": "PT. KEWPIE INDONESIA",
+        "nama_prom": "Diskon Produk Kewpie"
+    },
+    {
+        "ID_prod": "8991003101387",
+        "nama_prod": "Bumbu Nasi Goreng Sedap Kokita",
+        "harga_prod_norm": "7400",
+        "harga_prod_disc": "4400",
+        "terjual_prod": "5",
+        "kat_prod": "Bumbu Masak Instan",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003012065",
+        "nama_prod": "Bumbu Rendang Padang Kokita",
+        "harga_prod_norm": "6900",
+        "harga_prod_disc": "3900",
+        "terjual_prod": "2",
+        "kat_prod": "Bumbu Masak Instan",
+        "nama_sup": "PT IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003014014",
+        "nama_prod": "Tauco Super Kokita",
+        "harga_prod_norm": "16600",
+        "harga_prod_disc": "13600",
+        "terjual_prod": "2",
+        "kat_prod": "Taucho",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003679428",
+        "nama_prod": "Bumbu Inti Turmenic Kokita",
+        "harga_prod_norm": "7300",
+        "harga_prod_disc": "4800",
+        "terjual_prod": 0,
+        "kat_prod": "Bumbu Masak Instan",
+        "nama_sup": "PT IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003015011",
+        "nama_prod": "Sambal Bajak Hot Kokita",
+        "harga_prod_norm": "26700",
+        "harga_prod_disc": "22700",
+        "terjual_prod": 0,
+        "kat_prod": "Sambal Kemasan Jar",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "649626011023",
+        "nama_prod": "Bumbu Nasi Goreng Mild Pedas Sedang Kokita",
+        "harga_prod_norm": "7400",
+        "harga_prod_disc": "4400",
+        "terjual_prod": 0,
+        "kat_prod": "Bumbu Masak Instan",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003015028",
+        "nama_prod": "Sambal Bajak Mild Kokita",
+        "harga_prod_norm": "25500",
+        "harga_prod_disc": "21500",
+        "terjual_prod": 0,
+        "kat_prod": "Saos  Pedas & Sambal",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003679039",
+        "nama_prod": "Sambal Rebon Kering Hot Kokita",
+        "harga_prod_norm": "15800",
+        "harga_prod_disc": "12800",
+        "terjual_prod": 0,
+        "kat_prod": "Cabai Bubuk",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8991003678643",
+        "nama_prod": "Tauco Asin Kokita",
+        "harga_prod_norm": "20900",
+        "harga_prod_disc": "16900",
+        "terjual_prod": 0,
+        "kat_prod": "Taucho",
+        "nama_sup": "PT. IKAFOOD PUTRAMAS",
+        "nama_prom": "Diskon Produk Kokita"
+    },
+    {
+        "ID_prod": "8992772198059",
+        "nama_prod": "Kispray Glamorous Gold Refill",
+        "harga_prod_norm": "5900",
+        "harga_prod_disc": "5200",
+        "terjual_prod": "20",
+        "kat_prod": "Pelicin Pakaian Kemasan Refill (Pouch)",
+        "nama_sup": "PT. HERLINA INDAH",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8992772198073",
+        "nama_prod": "Kispray Fine Parfume Elegante Sapphire",
+        "harga_prod_norm": "4700",
+        "harga_prod_disc": "4000",
+        "terjual_prod": "10",
+        "kat_prod": "Pelicin Pakaian Kemasan Refill (Pouch)",
+        "nama_sup": "PT. HERLINA INDAH",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8992772195089",
+        "nama_prod": "Kispray Violet Botol",
+        "harga_prod_norm": "12800",
+        "harga_prod_disc": "11800",
+        "terjual_prod": "2",
+        "kat_prod": "Pelicin Pakaian Kemasan Spray",
+        "nama_sup": "PT. HERLINA INDAH",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8992772195058",
+        "nama_prod": "Kispray Bluis Botol",
+        "harga_prod_norm": "12800",
+        "harga_prod_disc": "11800",
+        "terjual_prod": "2",
+        "kat_prod": "Pelicin Pakaian Kemasan Spray",
+        "nama_sup": "PT. HERLINA INDAH",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8992772195027",
+        "nama_prod": "Kispray Amoris Botol",
+        "harga_prod_norm": "12800",
+        "harga_prod_disc": "11800",
+        "terjual_prod": "1",
+        "kat_prod": "Pelicin Pakaian Kemasan Spray",
+        "nama_sup": "PT. HERLINA INDAH",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8992772195010",
+        "nama_prod": "Kispray Segeris Botol",
+        "harga_prod_norm": "12800",
+        "harga_prod_disc": "11800",
+        "terjual_prod": 0,
+        "kat_prod": "Pelicin Pakaian Kemasan Spray",
+        "nama_sup": "PT. HERLINA INDAH",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8997239630462",
+        "nama_prod": "Plossa Mini Panasin Pegal Linu",
+        "harga_prod_norm": "6900",
+        "harga_prod_disc": "5900",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. CAPUNG INDAH ABADI",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8992772116015",
+        "nama_prod": "Force Magic Aerosol Orange Peel",
+        "harga_prod_norm": "38900",
+        "harga_prod_disc": "32500",
+        "terjual_prod": 0,
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT DWI PRIMA REZEKI",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "8997239630448",
+        "nama_prod": "Plossa Mini Presh&soothe Aromatic Citrus With Herbal",
+        "harga_prod_norm": "6900",
+        "harga_prod_disc": "5900",
+        "terjual_prod": 0,
+        "kat_prod": "Minyak Angin",
+        "nama_sup": "PT. CAPUNG INDAH ABADI",
+        "nama_prom": "Diskon Produk Kispray, Plossa, Force Magic"
+    },
+    {
+        "ID_prod": "9415007008262",
+        "nama_prod": "Andec Boneeto Vanilla Twist",
+        "harga_prod_norm": "76500",
+        "harga_prod_disc": "69500",
+        "terjual_prod": 0,
+        "kat_prod": "Susu Bubuk",
+        "nama_sup": "FONTERRA BRANDS MANUFACTURING INDONESIA",
+        "nama_prom": "Diskon Produk Anmum Boneeto"
+    },
+    {
+        "ID_prod": "9415007045526",
+        "nama_prod": "Anmum Materna Strawberry White Choco",
+        "harga_prod_norm": "46800",
+        "harga_prod_disc": "40800",
+        "terjual_prod": 0,
+        "kat_prod": "Susu Ibu Hamil",
+        "nama_sup": "PT FANTERRA BRANDS MANUFACTURING INDONESIA",
+        "nama_prom": "Diskon Produk Anmum Boneeto"
+    },
+    {
+        "ID_prod": "9415007007296",
+        "nama_prod": "Andec Boneeto Ch.choc",
+        "harga_prod_norm": "76500",
+        "harga_prod_disc": "69500",
+        "terjual_prod": 0,
+        "kat_prod": "Susu Bubuk",
+        "nama_sup": "FONTERRA BRANDS MANUFACTURING INDONESIA",
+        "nama_prom": "Diskon Produk Anmum Boneeto"
+    },
+    {
+        "ID_prod": "9415007051145",
+        "nama_prod": "Anmum Emesa Ibu Hamil Coklat",
+        "harga_prod_norm": "47900",
+        "harga_prod_disc": "41900",
+        "terjual_prod": 0,
+        "kat_prod": "Susu Ibu Hamil",
+        "nama_sup": "PT FANTERRA BRANDS MANUFACTURING INDONESIA",
+        "nama_prom": "Diskon Produk Anmum Boneeto"
+    },
+    {
+        "ID_prod": "9415007013297",
+        "nama_prod": "Anmum Materna Coklat Box",
+        "harga_prod_norm": "46800",
+        "harga_prod_disc": "40800",
+        "terjual_prod": 0,
+        "kat_prod": "Susu Ibu Hamil",
+        "nama_sup": "PT FANTERRA BRANDS MANUFACTURING INDONESIA",
+        "nama_prom": "Diskon Produk Anmum Boneeto"
+    },
+    {
+        "ID_prod": "8997034000071",
+        "nama_prod": "Goldenfil Choco Crunchy",
+        "harga_prod_norm": "35700",
+        "harga_prod_disc": "33700",
+        "terjual_prod": "1",
+        "kat_prod": "Olesan",
+        "nama_sup": "PT. PRIMARASA ABADI SEJAHTERA",
+        "nama_prom": "Diskon Produk Goldenfill"
+    },
+    {
+        "ID_prod": "8997034000132",
+        "nama_prod": "Tkh Tepung Ketan Hitam",
+        "harga_prod_norm": "27600",
+        "harga_prod_disc": "25600",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Ketan",
+        "nama_sup": "PT. PRIMARASA ABADI SEJAHTERA",
+        "nama_prom": "Diskon Produk Goldenfill"
+    },
+    {
+        "ID_prod": "8997034000507",
+        "nama_prod": "Primsfood Custard Powder",
+        "harga_prod_norm": "12700",
+        "harga_prod_disc": "10700",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Kue Instant",
+        "nama_sup": "PT PRIMARASA ABADI SEJAHTERA",
+        "nama_prom": "Diskon Produk Goldenfill"
+    },
+    {
+        "ID_prod": "8997034000842",
+        "nama_prod": "Goldenfil Hazelnut Crunchy",
+        "harga_prod_norm": "47200",
+        "harga_prod_disc": "45200",
+        "terjual_prod": 0,
+        "kat_prod": "Olesan",
+        "nama_sup": "PT. PRIMARASA ABADI SEJAHTERA",
+        "nama_prom": "Diskon Produk Goldenfill"
+    },
+    {
+        "ID_prod": "8997010321237",
+        "nama_prod": "Kikkoman Saus Teriyaki Bawang",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "18500",
+        "terjual_prod": "2",
+        "kat_prod": "Saus Teriyaki",
+        "nama_sup": "PT. KIKKOMAN AKUFOOD INDONESIA",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8997010321879",
+        "nama_prod": "Kikkoman Saus Pedas Ala Korea",
+        "harga_prod_norm": "23500",
+        "harga_prod_disc": "21500",
+        "terjual_prod": "2",
+        "kat_prod": "Saos Pedas Lainnya",
+        "nama_sup": "PT. KIKKOMAN AKUFOOD INDONESIA",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8997010321916",
+        "nama_prod": "Kikkoman Kecap Asin Khas Jepang",
+        "harga_prod_norm": "21200",
+        "harga_prod_disc": "19400",
+        "terjual_prod": "2",
+        "kat_prod": "Kecap Asin",
+        "nama_sup": "PT. KIKKOMAN AKUFOOD INDONESIA",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8936036021783",
+        "nama_prod": "Delfiorion Choco Pie Isi 6 @",
+        "harga_prod_norm": "17500",
+        "harga_prod_disc": "13500",
+        "terjual_prod": "2",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "ORIN FOOD VINA CO.LTD",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8997010321794",
+        "nama_prod": "Kikkoman Saus Bumbu Rasa Tiram",
+        "harga_prod_norm": "19600",
+        "harga_prod_disc": "17950",
+        "terjual_prod": "1",
+        "kat_prod": "Saus Tiram",
+        "nama_sup": "PT. KIKKOMAN",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8997010321725",
+        "nama_prod": "Kikkoman Sauce Bulgogi",
+        "harga_prod_norm": "23500",
+        "harga_prod_disc": "21500",
+        "terjual_prod": "1",
+        "kat_prod": "Saos Bulgogi",
+        "nama_sup": "PT. KIKKOMAN AKUFOOD INDONESIA",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8997010321824",
+        "nama_prod": "Kikkoman Saus Teriyaki Lada Hitam Botol",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "18500",
+        "terjual_prod": "1",
+        "kat_prod": "Saus Teriyaki",
+        "nama_sup": "PT. KIKKOMAN AKUFOOD INDONESIA",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "8997010323804",
+        "nama_prod": "Kikkoman Saus Rasa Ikan Botol",
+        "harga_prod_norm": "14500",
+        "harga_prod_disc": "13200",
+        "terjual_prod": 0,
+        "kat_prod": "Kecap Ikan",
+        "nama_sup": "PT. KIKKOMAN AKUFOOD INDONESIA",
+        "nama_prom": "Diskon Produk Kikkoman"
+    },
+    {
+        "ID_prod": "6920354815560",
+        "nama_prod": "Colgate Triple Action Original Mint",
+        "harga_prod_norm": "18600",
+        "harga_prod_disc": "17200",
+        "terjual_prod": "5",
+        "kat_prod": "Pasta Gigi Dewasa",
+        "nama_sup": "COLGATE-PALMOLIVE(CHINA) CO.LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "8850006300039",
+        "nama_prod": "Colgate Mouthwash Plax Peppermint Fresh",
+        "harga_prod_norm": "59300",
+        "harga_prod_disc": "50100",
+        "terjual_prod": 0,
+        "kat_prod": "Obat Kumur (Mouthwash) Dewasa",
+        "nama_sup": "COLGATE PALMOLIVE (THAILAND) LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "8850006304020",
+        "nama_prod": "Colgate Mouthwash Plax Freshmint Splash",
+        "harga_prod_norm": "59300",
+        "harga_prod_disc": "50100",
+        "terjual_prod": 0,
+        "kat_prod": "Obat Kumur (Mouthwash) Dewasa",
+        "nama_sup": "COLGATE PALMOLIVE (THAILAND) LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "9556031206054",
+        "nama_prod": "Palmolive Naturals Milk & Honey Pump",
+        "harga_prod_norm": "102100",
+        "harga_prod_disc": "90200",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Botol",
+        "nama_sup": "COLGATE-PALMOLIVE (THAILAND) LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "8850006332559",
+        "nama_prod": "Colgate Toothbrush Slimsoft Charcoal Isi 2",
+        "harga_prod_norm": "44100",
+        "harga_prod_disc": "40700",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "COLGATE SANXIAO CO.LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "9556031312434",
+        "nama_prod": "Colgate Toothbrush Super Flexi Charcoal Soft Isi 3",
+        "harga_prod_norm": "19700",
+        "harga_prod_disc": "18200",
+        "terjual_prod": 0,
+        "kat_prod": "Sikat Gigi Dewasa",
+        "nama_sup": "COLGATE SANXIAO CO., LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "6920354824265",
+        "nama_prod": "Colgate Optic White Volcano Mineral",
+        "harga_prod_norm": "45400",
+        "harga_prod_disc": "38300",
+        "terjual_prod": 0,
+        "kat_prod": "Pasta Gigi Dewasa",
+        "nama_sup": "COLGATE PALMOLIVE (CHINA) LTD",
+        "nama_prom": "Diskon Produk Colgate, Palmolive"
+    },
+    {
+        "ID_prod": "8992786400339",
+        "nama_prod": "Pondan Pudding Mangga",
+        "harga_prod_norm": "12900",
+        "harga_prod_disc": "11400",
+        "terjual_prod": "2",
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786100116",
+        "nama_prod": "Pondan Sponge Pandan",
+        "harga_prod_norm": "32900",
+        "harga_prod_disc": "30900",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Kue Instant",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786400315",
+        "nama_prod": "Pondan Pudding Cokelat",
+        "harga_prod_norm": "13800",
+        "harga_prod_disc": "12300",
+        "terjual_prod": 0,
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786400322",
+        "nama_prod": "Pondan Pudding Vanilla",
+        "harga_prod_norm": "12900",
+        "harga_prod_disc": "11400",
+        "terjual_prod": 0,
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786400049",
+        "nama_prod": "Tepung Bumbu Bakso Goreng Pondan",
+        "harga_prod_norm": "17300",
+        "harga_prod_disc": "15300",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Bumbu Instan",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786601439",
+        "nama_prod": "Pondan Frutijell Lychee",
+        "harga_prod_norm": "5800",
+        "harga_prod_disc": "3770",
+        "terjual_prod": 0,
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786601378",
+        "nama_prod": "Pondan Frutijell Choco Flavour",
+        "harga_prod_norm": "6700",
+        "harga_prod_disc": "4355",
+        "terjual_prod": 0,
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786601200",
+        "nama_prod": "Pondan Tepung Tempura Batter Mix",
+        "harga_prod_norm": "8300",
+        "harga_prod_disc": "7300",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Bumbu Instan",
+        "nama_sup": "PT PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786601514",
+        "nama_prod": "Pondan Frutijell Strawberry Flavour",
+        "harga_prod_norm": "5800",
+        "harga_prod_disc": "3770",
+        "terjual_prod": 0,
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786601415",
+        "nama_prod": "Pondan Frutijell Orange Flavour",
+        "harga_prod_norm": "5800",
+        "harga_prod_disc": "3770",
+        "terjual_prod": 0,
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786100123",
+        "nama_prod": "Pondan Sponge Coklat",
+        "harga_prod_norm": "37600",
+        "harga_prod_disc": "35600",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Kue Instant",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786100130",
+        "nama_prod": "Pondan Sponge Vanilla",
+        "harga_prod_norm": "32300",
+        "harga_prod_disc": "30300",
+        "terjual_prod": 0,
+        "kat_prod": "Bahan Kue Lainnya",
+        "nama_sup": "PT. PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992786601255",
+        "nama_prod": "Pondan Kentucky Original Sachet",
+        "harga_prod_norm": "8600",
+        "harga_prod_disc": "7600",
+        "terjual_prod": 0,
+        "kat_prod": "Tepung Bumbu Instan",
+        "nama_sup": "PT PONDAN PANGAN MAKMUR INDONESIA",
+        "nama_prom": "Diskon Produk Pondan"
+    },
+    {
+        "ID_prod": "8992727008136",
+        "nama_prod": "Biore Micellar Massage Wash",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29500",
+        "terjual_prod": 0,
+        "kat_prod": "Micellar Water",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727004206",
+        "nama_prod": "Biore Facial Foam Acne Care",
+        "harga_prod_norm": "27200",
+        "harga_prod_disc": "25100",
+        "terjual_prod": 0,
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727006354",
+        "nama_prod": "Biore Makeup Remover Cleansing Water Soften Up",
+        "harga_prod_norm": "68100",
+        "harga_prod_disc": "62900",
+        "terjual_prod": 0,
+        "kat_prod": "Micellar Water",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727009003",
+        "nama_prod": "Biore Uv Fresh & Bright Soothing Spf 50 Pa+++",
+        "harga_prod_norm": "34200",
+        "harga_prod_disc": "31400",
+        "terjual_prod": 0,
+        "kat_prod": "Sun Block / Sun Screen",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727006323",
+        "nama_prod": "Biore Facial Foam Mild Smooth",
+        "harga_prod_norm": "27200",
+        "harga_prod_disc": "25100",
+        "terjual_prod": 0,
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727008501",
+        "nama_prod": "Biore Uv Fresh & Bright Oil Control Matte",
+        "harga_prod_norm": "34200",
+        "harga_prod_disc": "31400",
+        "terjual_prod": 0,
+        "kat_prod": "Sun Block / Sun Screen",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727008518",
+        "nama_prod": "Biore Uv Fresh & Bridht Instant Cover",
+        "harga_prod_norm": "34200",
+        "harga_prod_disc": "31400",
+        "terjual_prod": 0,
+        "kat_prod": "Sun Block / Sun Screen",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727004244",
+        "nama_prod": "Biore Skin Caring Facial Foam Bright & Oil Clear",
+        "harga_prod_norm": "27200",
+        "harga_prod_disc": "25100",
+        "terjual_prod": 0,
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727006378",
+        "nama_prod": "Biore Make Up Remover Cleansing Water Oil Clear",
+        "harga_prod_norm": "68100",
+        "harga_prod_disc": "62900",
+        "terjual_prod": 0,
+        "kat_prod": "Micellar Water",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Wajah"
+    },
+    {
+        "ID_prod": "8992727007436",
+        "nama_prod": "Biore Body Foam Relaxing Aromatic Refill",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "35500",
+        "terjual_prod": "10",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727007382",
+        "nama_prod": "Biore Body Foam Caring Protect Pouch",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "18800",
+        "terjual_prod": "10",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727004121",
+        "nama_prod": "Biore Body Foam Clear Fresh Refill",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "19800",
+        "terjual_prod": "5",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727002554",
+        "nama_prod": "Biore Body Foam White Scrub Refill",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "19800",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727007443",
+        "nama_prod": "Biore Guard Body Foam Lively Refresh Refill",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "33600",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008679",
+        "nama_prod": "Biore Body Foam Pure Mild Refill",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "35500",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727007931",
+        "nama_prod": "Biore Body Foam Fresh Pomegranate Peach Refill",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "19800",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008532",
+        "nama_prod": "Biore Guard Antibacterial Body Foams & Shampoo All In 1 Hygienic Refresh Pouch",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "18800",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008273",
+        "nama_prod": "Biore Guard Body Foam Hygienic Antibacterial Plus Refill",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "18800",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727005661",
+        "nama_prod": "Biore Body Foam Forest Bless Refill",
+        "harga_prod_norm": "31700",
+        "harga_prod_disc": "29100",
+        "terjual_prod": "1",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008686",
+        "nama_prod": "Biore Guard Body Foam Energetic Cool Refill",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "33600",
+        "terjual_prod": "1",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008198",
+        "nama_prod": "Biore Guard Body Foam Active Antibacterial Refill",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "33600",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008181",
+        "nama_prod": "Biore Body Foam Lovely Sakura Refill",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "35500",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727009065",
+        "nama_prod": "Biore Guard Deo Protect Tawas & Delima Reff",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "35800",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008877",
+        "nama_prod": "Biore Bright Glow Up Lilac Pch",
+        "harga_prod_norm": "21500",
+        "harga_prod_disc": "19800",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727009041",
+        "nama_prod": "Biore Guard Deo Protect Tawas & Minyak Zaitun Reffil",
+        "harga_prod_norm": "38500",
+        "harga_prod_disc": "35800",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727005692",
+        "nama_prod": "Biore Body Wash Dancing Beach Refill",
+        "harga_prod_norm": "31700",
+        "harga_prod_disc": "29100",
+        "terjual_prod": "5",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727005630",
+        "nama_prod": "Biore Body Wash Exotic Cinnamon Refill",
+        "harga_prod_norm": "31700",
+        "harga_prod_disc": "29100",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008150",
+        "nama_prod": "Biore Guard Gel Hand Soap Eucalyptus Scent Refill",
+        "harga_prod_norm": "13400",
+        "harga_prod_disc": "11200",
+        "terjual_prod": "1",
+        "kat_prod": "Sabun Cuci Tangan Cair Kemasan Refill (Pouch)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8992727008143",
+        "nama_prod": "Biore Guard Gel Hand Soap Eucalyptus Scent Pump",
+        "harga_prod_norm": "16700",
+        "harga_prod_disc": "14000",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Cuci Tangan Cair Kemasan Botol",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Badan"
+    },
+    {
+        "ID_prod": "8853301550017",
+        "nama_prod": "Whiskas Pouch Adult 1+ Tuna",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": "10",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PET CARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301550024",
+        "nama_prod": "Whiskas Pouch Adult 1+ Tuna & White Fish",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": "10",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PET CARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301550048",
+        "nama_prod": "Whiskas Pouch Junior Tuna",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": "5",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301550123",
+        "nama_prod": "Whiskas Pouch Junior Mackerel",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": "5",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "9310022530708",
+        "nama_prod": "Pedigree Dry Puppy Chicken, Egg & Milk 1.",
+        "harga_prod_norm": "76800",
+        "harga_prod_disc": "69300",
+        "terjual_prod": "2",
+        "kat_prod": "Makanan Anjing",
+        "nama_sup": "MARS PETCARE(THAILAND) CO.LTD",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301004992",
+        "nama_prod": "Whiskas Tasty Mix Pouch Adult 1+ Chicken With Salmon & Wakame Seaweed In Gravy",
+        "harga_prod_norm": "8400",
+        "harga_prod_disc": "7900",
+        "terjual_prod": "2",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301005036",
+        "nama_prod": "Whiskas Tasty Mix Pouch Adult 1+ Tuna With Kanikama & Carrot In Gravy",
+        "harga_prod_norm": "8400",
+        "harga_prod_disc": "7900",
+        "terjual_prod": "2",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "9310022866401",
+        "nama_prod": "Whiskas Dry Adult 1+ Ocean Fish",
+        "harga_prod_norm": "30600",
+        "harga_prod_disc": "27100",
+        "terjual_prod": "2",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301550031",
+        "nama_prod": "Whiskas Pouch Adult 1+ Mackerel",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": "2",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301550086",
+        "nama_prod": "Whiskas Pouch Adult Grilled Saba Flavour",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": "2",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301140645",
+        "nama_prod": "Whiskas Dry Adult 1+ Mackerel",
+        "harga_prod_norm": "30600",
+        "harga_prod_disc": "27100",
+        "terjual_prod": "1",
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "9334214022963",
+        "nama_prod": "Pedigree Dry Adult Chicken & Vegetables",
+        "harga_prod_norm": "137000",
+        "harga_prod_disc": "129500",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Anjing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301004954",
+        "nama_prod": "Whiskas Tasty Mix Pouch Adult 1+ With Seafood Cocktail & Wakame Seaweed In Gravy",
+        "harga_prod_norm": "8400",
+        "harga_prod_disc": "7900",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301005715",
+        "nama_prod": "Whiskas Dry Adult Skin & Coat",
+        "harga_prod_norm": "35200",
+        "harga_prod_disc": "31700",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301400138",
+        "nama_prod": "Whiskas Dry Adult 1+ Hairball Control",
+        "harga_prod_norm": "35200",
+        "harga_prod_disc": "31700",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301893718",
+        "nama_prod": "Pedigree Dry Mini Small Breed Beef, Lamb & Vegetable Flavour 1.",
+        "harga_prod_norm": "76800",
+        "harga_prod_disc": "69300",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Anjing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301140799",
+        "nama_prod": "Whiskas Dry Junior Ocean Fish",
+        "harga_prod_norm": "32500",
+        "harga_prod_disc": "29000",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE (THAILAND) CO.LTD",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301000338",
+        "nama_prod": "Whiskas Pouch Tuna Senior",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301140652",
+        "nama_prod": "Whiskas Dry Adult 1+ Mackarel 1.",
+        "harga_prod_norm": "70400",
+        "harga_prod_disc": "63400",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "9310022866104",
+        "nama_prod": "Whiskas Dry Adult 1+ Ocean Fish 1.",
+        "harga_prod_norm": "70400",
+        "harga_prod_disc": "63400",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "9310022866203",
+        "nama_prod": "Whiskas Dry Adult 1+ Tuna Flavour 1.",
+        "harga_prod_norm": "70400",
+        "harga_prod_disc": "63400",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301140812",
+        "nama_prod": "Whiskas Dry Junior Ocean Fish 1.",
+        "harga_prod_norm": "73100",
+        "harga_prod_disc": "66100",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301550055",
+        "nama_prod": "Whiskas Pouch Adult 1+ Ocean Fish",
+        "harga_prod_norm": "7000",
+        "harga_prod_disc": "6500",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "9310022866500",
+        "nama_prod": "Whiskas Dry Adult 1+ Tuna",
+        "harga_prod_norm": "30600",
+        "harga_prod_disc": "27100",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE (THAILAND)CO.LTD",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8853301004916",
+        "nama_prod": "Whiskas Tasty Mix Pocuh Adult 1+ Chicken With Tuna & Carrot In Gravy",
+        "harga_prod_norm": "8400",
+        "harga_prod_disc": "7900",
+        "terjual_prod": 0,
+        "kat_prod": "Makanan Kucing",
+        "nama_sup": "MARS PETCARE",
+        "nama_prom": "Diskon Produk Pedigree, Whiskas"
+    },
+    {
+        "ID_prod": "8992727003537",
+        "nama_prod": "Men's Biore Facial Foam Deep Pore Clean",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29500",
+        "terjual_prod": "2",
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727002882",
+        "nama_prod": "Biore Body Foam Men White Refill",
+        "harga_prod_norm": "27500",
+        "harga_prod_disc": "25200",
+        "terjual_prod": "2",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727003841",
+        "nama_prod": "Men's Biore Body Foam Hygienic Energy P",
+        "harga_prod_norm": "27500",
+        "harga_prod_disc": "25200",
+        "terjual_prod": "1",
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727005524",
+        "nama_prod": "Men's Biore Facial Foam Acne Bacterior",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29500",
+        "terjual_prod": "1",
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727005135",
+        "nama_prod": "Men's Biore  Facial Foam Bright Energy",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29500",
+        "terjual_prod": "1",
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727005111",
+        "nama_prod": "Men's Biore  Facial Foam Cool Oil Clear",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29500",
+        "terjual_prod": "1",
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727001793",
+        "nama_prod": "Men's Biore Body Foam Cool Energy P",
+        "harga_prod_norm": "27500",
+        "harga_prod_disc": "25200",
+        "terjual_prod": 0,
+        "kat_prod": "Sabun Badan Cair Kemasan Refill",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727007948",
+        "nama_prod": "Mens Biore Facial Foam Bright Oil Clear",
+        "harga_prod_norm": "30600",
+        "harga_prod_disc": "28100",
+        "terjual_prod": 0,
+        "kat_prod": "Pembersih Wajah (Face Wash)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Pria"
+    },
+    {
+        "ID_prod": "8992727007726",
+        "nama_prod": "Attack Fresh Up Joyful Refill",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "18300",
+        "terjual_prod": "20",
+        "kat_prod": "Pelembut & Pewangi Pakaian (Softener) Kemasan Refill (Pouch)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727008631",
+        "nama_prod": "Attack Sensor Matic",
+        "harga_prod_norm": "39400",
+        "harga_prod_disc": "36200",
+        "terjual_prod": "10",
+        "kat_prod": "Deterjen Bubuk",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727006910",
+        "nama_prod": "Attack Softener Freshup Dazzling Lilac Refill",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "18300",
+        "terjual_prod": "10",
+        "kat_prod": "Pelembut & Pewangi Pakaian (Softener) Kemasan Refill (Pouch)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727005487",
+        "nama_prod": "Attack Plus Softener 1.",
+        "harga_prod_norm": "40300",
+        "harga_prod_disc": "37000",
+        "terjual_prod": "5",
+        "kat_prod": "Deterjen Bubuk",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727007597",
+        "nama_prod": "Attack Hygiene Protection Liquid Refill 1.",
+        "harga_prod_norm": "38800",
+        "harga_prod_disc": "35000",
+        "terjual_prod": "5",
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727005982",
+        "nama_prod": "Jaz 1 Pesona Segar 1.",
+        "harga_prod_norm": "32400",
+        "harga_prod_disc": "29700",
+        "terjual_prod": "5",
+        "kat_prod": "Deterjen Bubuk",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727006880",
+        "nama_prod": "Attack Softener Freshup Sakura Blossom Refill",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "18300",
+        "terjual_prod": "2",
+        "kat_prod": "Pelembut & Pewangi Pakaian (Softener) Kemasan Refill (Pouch)",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727008006",
+        "nama_prod": "Attack Jaz 1 Detergel Pesona Segar Refill",
+        "harga_prod_norm": "17800",
+        "harga_prod_disc": "15500",
+        "terjual_prod": "2",
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727007986",
+        "nama_prod": "Attack Jaz 1 Detergel Semerbak Cinta Pouch",
+        "harga_prod_norm": "17800",
+        "harga_prod_disc": "15500",
+        "terjual_prod": "1",
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727008952",
+        "nama_prod": "Attack Hygiene Plus Protection 1.",
+        "harga_prod_norm": "42100",
+        "harga_prod_disc": "38800",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Bubuk",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727008945",
+        "nama_prod": "Attack Jazz1 Softener 1.",
+        "harga_prod_norm": "33900",
+        "harga_prod_disc": "31200",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Bubuk",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727007603",
+        "nama_prod": "Attack Plus Softener Liquid 1.",
+        "harga_prod_norm": "38800",
+        "harga_prod_disc": "35000",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727005975",
+        "nama_prod": "Jaz 1 Semerbak Cinta 1.",
+        "harga_prod_norm": "32400",
+        "harga_prod_disc": "29700",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Bubuk",
+        "nama_sup": "PT. KAO INDONESIA TBK",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727007641",
+        "nama_prod": "Attack Easy Liquid Detergent Sweet Glamour Refill 1.",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29400",
+        "terjual_prod": "5",
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727007665",
+        "nama_prod": "Attack Easy Deterjen Liquid Lively Energetic Refill 1.",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29400",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727007634",
+        "nama_prod": "Attack Easy Liquid Detergent Sparkling Blooming Refill 1.",
+        "harga_prod_norm": "32000",
+        "harga_prod_disc": "29400",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Perawatan Rumah"
+    },
+    {
+        "ID_prod": "8992727003094",
+        "nama_prod": "Laurier Relax Night Wing 35 Cm Isi",
+        "harga_prod_norm": "17000",
+        "harga_prod_disc": "15300",
+        "terjual_prod": "20",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727002974",
+        "nama_prod": "Laurier Active Day X-tra Wing 22 Cm Isi",
+        "harga_prod_norm": "21600",
+        "harga_prod_disc": "19800",
+        "terjual_prod": "20",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727006262",
+        "nama_prod": "Laurier Healthy Skin Night Wing 35 Cm Isi 6",
+        "harga_prod_norm": "12400",
+        "harga_prod_disc": "11100",
+        "terjual_prod": "5",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727007269",
+        "nama_prod": "Laurier Relax Night Wing 30 Cm Isi",
+        "harga_prod_norm": "22800",
+        "harga_prod_disc": "20400",
+        "terjual_prod": "5",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008358",
+        "nama_prod": "Laurier Natural Clean Wing 22 Cm Isi",
+        "harga_prod_norm": "17400",
+        "harga_prod_disc": "15700",
+        "terjual_prod": "5",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008280",
+        "nama_prod": "Laurier Relax Night Gathers Wing 40 Cm Isi",
+        "harga_prod_norm": "38800",
+        "harga_prod_disc": "34700",
+        "terjual_prod": "5",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727006224",
+        "nama_prod": "Laurier Helathy Skin Night Wing 30 Cm Isi 8",
+        "harga_prod_norm": "14300",
+        "harga_prod_disc": "12800",
+        "terjual_prod": "2",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008372",
+        "nama_prod": "Laurier Pantyliner Natural Clean Isi",
+        "harga_prod_norm": "14000",
+        "harga_prod_disc": "12900",
+        "terjual_prod": "2",
+        "kat_prod": "Panty Liner",
+        "nama_sup": "PT. KAO INDONESIa",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727002387",
+        "nama_prod": "Laurier Relax Night Wing 35 Cm Isi 8",
+        "harga_prod_norm": "15100",
+        "harga_prod_disc": "13900",
+        "terjual_prod": "2",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008396",
+        "nama_prod": "Laurier Pantyliner Natural Clean Long 40's",
+        "harga_prod_norm": "20700",
+        "harga_prod_disc": "19000",
+        "terjual_prod": "2",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008365",
+        "nama_prod": "Laurier Natural Clean Long Wing 25 Cm Isi",
+        "harga_prod_norm": "17400",
+        "harga_prod_disc": "15700",
+        "terjual_prod": "1",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008389",
+        "nama_prod": "Laurier Natural Clean Night 35 Cm Isi",
+        "harga_prod_norm": "20100",
+        "harga_prod_disc": "18100",
+        "terjual_prod": "1",
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008402",
+        "nama_prod": "Laurier Natural Clean 22 Cm Isi",
+        "harga_prod_norm": "15500",
+        "harga_prod_disc": "14000",
+        "terjual_prod": 0,
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727008839",
+        "nama_prod": "Laurier Fit Shape 30cm Isi 14 +2",
+        "harga_prod_norm": "14900",
+        "harga_prod_disc": "13600",
+        "terjual_prod": 0,
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727002714",
+        "nama_prod": "Laurier Active Dayx-tra Isi",
+        "harga_prod_norm": "15900",
+        "harga_prod_disc": "14600",
+        "terjual_prod": 0,
+        "kat_prod": "Pembalut",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Pembalut Wanita"
+    },
+    {
+        "ID_prod": "8992727006101",
+        "nama_prod": "Merries Pants Good Skin M",
+        "harga_prod_norm": "104600",
+        "harga_prod_disc": "85600",
+        "terjual_prod": "2",
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727006484",
+        "nama_prod": "Merries Pants Good Skin S",
+        "harga_prod_norm": "67200",
+        "harga_prod_disc": "59800",
+        "terjual_prod": "1",
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727005456",
+        "nama_prod": "Merries Pants Good Skin Xl",
+        "harga_prod_norm": "71600",
+        "harga_prod_disc": "60800",
+        "terjual_prod": "1",
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727005371",
+        "nama_prod": "Merries Pants Good Skin M",
+        "harga_prod_norm": "71600",
+        "harga_prod_disc": "60800",
+        "terjual_prod": "1",
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727008051",
+        "nama_prod": "Merries Pants Skin Protection L",
+        "harga_prod_norm": "83100",
+        "harga_prod_disc": "72900",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727008082",
+        "nama_prod": "Merries Pants Skin Protection Xl",
+        "harga_prod_norm": "146600",
+        "harga_prod_disc": "128325",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727008020",
+        "nama_prod": "Merries Pants Skin Protection S",
+        "harga_prod_norm": "83100",
+        "harga_prod_disc": "72900",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727008068",
+        "nama_prod": "Merries Pants Skin Protection L",
+        "harga_prod_norm": "133100",
+        "harga_prod_disc": "116500",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727008044",
+        "nama_prod": "Merries Pants Skin Protection M",
+        "harga_prod_norm": "133100",
+        "harga_prod_disc": "116500",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727005418",
+        "nama_prod": "Merries Pants Good Skin L",
+        "harga_prod_norm": "71600",
+        "harga_prod_disc": "60800",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727008037",
+        "nama_prod": "Merries Pants Skin Protection M",
+        "harga_prod_norm": "83100",
+        "harga_prod_disc": "72900",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727006118",
+        "nama_prod": "Merries Pants Good Skin L",
+        "harga_prod_norm": "104600",
+        "harga_prod_disc": "85600",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727006491",
+        "nama_prod": "Merries Pants Good Skin Xl",
+        "harga_prod_norm": "104600",
+        "harga_prod_disc": "85600",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8992727007320",
+        "nama_prod": "Merries Pants Good Skin Xxl",
+        "harga_prod_norm": "93800",
+        "harga_prod_disc": "80000",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Anak & Bayi Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. KAO INDONESIA",
+        "nama_prom": "Diskon Produk Popok Bayi"
+    },
+    {
+        "ID_prod": "8997028301795",
+        "nama_prod": "Bulk Pack Adult Pants Xl8",
+        "harga_prod_norm": "69600",
+        "harga_prod_disc": "64000",
+        "terjual_prod": "1",
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301023",
+        "nama_prod": "Bulk Pack Adult Diapers Xl6",
+        "harga_prod_norm": "45400",
+        "harga_prod_disc": "43600",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Dengan Perekat",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301955",
+        "nama_prod": "Bulk Pack Adult Pants Xxl8",
+        "harga_prod_norm": "76600",
+        "harga_prod_disc": "73500",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "6922868286560",
+        "nama_prod": "Oto Diapers Pants Xl3",
+        "harga_prod_norm": "37000",
+        "harga_prod_disc": "34000",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301405",
+        "nama_prod": "Oto Adult Diapers Pants L4",
+        "harga_prod_norm": "38700",
+        "harga_prod_disc": "34000",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. ARKSTARINDO ARTHA MAKMUR",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301528",
+        "nama_prod": "Bulk Pack Adult Diapers L4",
+        "harga_prod_norm": "90700",
+        "harga_prod_disc": "87600",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "9556848127863",
+        "nama_prod": "Oto Adult Diapers Xl6",
+        "harga_prod_norm": "50800",
+        "harga_prod_disc": "47700",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "6928836502113",
+        "nama_prod": "Oto Adult Diapers Pants Xl8",
+        "harga_prod_norm": "73200",
+        "harga_prod_disc": "67300",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301351",
+        "nama_prod": "Oto Diapers Pants Jumbo M",
+        "harga_prod_norm": "161000",
+        "harga_prod_disc": "141300",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "6903244323208",
+        "nama_prod": "Bulk Pack Adult Diapers L7",
+        "harga_prod_norm": "40900",
+        "harga_prod_disc": "39300",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Dengan Perekat",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301399",
+        "nama_prod": "Florence Disposable Pants 48-106 Cm Isi 2",
+        "harga_prod_norm": "20200",
+        "harga_prod_disc": "14800",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. REJEKI PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8997028301771",
+        "nama_prod": "Bulk Pack Adult Pants M8",
+        "harga_prod_norm": "62300",
+        "harga_prod_disc": "54700",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Model Celana",
+        "nama_sup": "PT. REJEKI PUTRA PUTRI ELIMAN",
+        "nama_prom": "Diskon Produk Oto Pants"
+    },
+    {
+        "ID_prod": "8996001526163",
+        "nama_prod": "Mie Oven Kuah Iga Sapi",
+        "harga_prod_norm": "2800",
+        "harga_prod_disc": "2200",
+        "terjual_prod": "5",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. DELLIFOODS SENTOSA CARPINDO",
+        "nama_prom": "Diskon Produk Mie Oven"
+    },
+    {
+        "ID_prod": "8996001526149",
+        "nama_prod": "Mie Oven Goreng Gulai Sultan",
+        "harga_prod_norm": "2800",
+        "harga_prod_disc": "2200",
+        "terjual_prod": "1",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT DELIFOOD SENTOSA CORPINDO",
+        "nama_prom": "Diskon Produk Mie Oven"
+    },
+    {
+        "ID_prod": "8996001526156",
+        "nama_prod": "Mie Oven Goreng Bawang",
+        "harga_prod_norm": "2800",
+        "harga_prod_disc": "2200",
+        "terjual_prod": 0,
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT DELIFOOD SENTOSA CORPINDO",
+        "nama_prom": "Diskon Produk Mie Oven"
+    },
+    {
+        "ID_prod": "8998666001375",
+        "nama_prod": "Torabika Creamy Latte Box Isi 10 @",
+        "harga_prod_norm": "16400",
+        "harga_prod_disc": "12900",
+        "terjual_prod": "10",
+        "kat_prod": "Kopi Instan (Rtd)",
+        "nama_sup": "PT TORABIKA EKA SEMESTA",
+        "nama_prom": "Diskon Produk Torabika"
+    },
+    {
+        "ID_prod": "8996001603468",
+        "nama_prod": "Energen Champion Isi 10 @",
+        "harga_prod_norm": "23800",
+        "harga_prod_disc": "18800",
+        "terjual_prod": "2",
+        "kat_prod": "Sereal",
+        "nama_sup": "PT TORABIKA EKA SEMESTA",
+        "nama_prom": "Diskon Produk Torabika"
+    },
+    {
+        "ID_prod": "8996001402023",
+        "nama_prod": "Torabika Susu Xtra Full Cream Isi 10 @",
+        "harga_prod_norm": "14400",
+        "harga_prod_disc": "11600",
+        "terjual_prod": 0,
+        "kat_prod": "Kopi Instan (Rtd)",
+        "nama_sup": "PT TORABIKA EKA SEMESTA",
+        "nama_prom": "Diskon Produk Torabika"
+    },
+    {
+        "ID_prod": "8996001600375",
+        "nama_prod": "Le Minerale",
+        "harga_prod_norm": "1800",
+        "harga_prod_disc": "1600",
+        "terjual_prod": "200",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT TIRTA FRESSINDO JAYA",
+        "nama_prom": "Diskon Produk Le Minerale"
+    },
+    {
+        "ID_prod": "8996001600269",
+        "nama_prod": "Le Minerale",
+        "harga_prod_norm": "2700",
+        "harga_prod_disc": "2400",
+        "terjual_prod": "20",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT TIRTA FRESSINDO JAYA",
+        "nama_prom": "Diskon Produk Le Minerale"
+    },
+    {
+        "ID_prod": "8996001600764",
+        "nama_prod": "Le Minerale",
+        "harga_prod_norm": "15000",
+        "harga_prod_disc": "14000",
+        "terjual_prod": "10",
+        "kat_prod": "Air Mineral Kemasan Galon",
+        "nama_sup": "PT TIRTA FRESINDO JAYA",
+        "nama_prom": "Diskon Produk Le Minerale"
+    },
+    {
+        "ID_prod": "8996001401187",
+        "nama_prod": "Gentle Gen Deterjen Konsentrat Morning Breeze",
+        "harga_prod_norm": "19900",
+        "harga_prod_disc": "13500",
+        "terjual_prod": "20",
+        "kat_prod": "Deterjen Cair Untuk Pakaian Dewasa",
+        "nama_sup": "PT. PASCAL CORPINDO SEMESTA",
+        "nama_prom": "Diskon Produk Gentle Gen"
+    },
+    {
+        "ID_prod": "8996001401200",
+        "nama_prod": "Gentle Gen Deterjen Cair Parisienne Garden",
+        "harga_prod_norm": "19900",
+        "harga_prod_disc": "13500",
+        "terjual_prod": "10",
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT PASCAL CORPRINDO SEMESTA",
+        "nama_prom": "Diskon Produk Gentle Gen"
+    },
+    {
+        "ID_prod": "8996001401194",
+        "nama_prod": "Gentle Gen Deterjen Cair Konsentrat French Peony",
+        "harga_prod_norm": "19900",
+        "harga_prod_disc": "13500",
+        "terjual_prod": "10",
+        "kat_prod": "Deterjen Cair",
+        "nama_sup": "PT. PASCAL CORPINDO SEMESTA",
+        "nama_prom": "Diskon Produk Gentle Gen"
+    },
+    {
+        "ID_prod": "8996001401255",
+        "nama_prod": "Gentle Gen Detergen Anti Keringat",
+        "harga_prod_norm": "19900",
+        "harga_prod_disc": "13500",
+        "terjual_prod": 0,
+        "kat_prod": "Deterjen Cair Untuk Pakaian Dewasa",
+        "nama_sup": "PT. PASCAL CORPINDO SEMESTA",
+        "nama_prom": "Diskon Produk Gentle Gen"
+    },
+    {
+        "ID_prod": "8991102101837",
+        "nama_prod": "Formula Strong",
+        "harga_prod_norm": "11300",
+        "harga_prod_disc": "9300",
+        "terjual_prod": "2",
+        "kat_prod": "Paket Sikat Gigi Dan Pasta Gigi Dewasa",
+        "nama_sup": "PT. ULTRA PRIMA ABADI",
+        "nama_prom": "Diskon Produk Formula Thoothpaste"
+    },
+    {
+        "ID_prod": "8991102100748",
+        "nama_prod": "Formula Junior Toothbrush + Toothpaste Mix Berry",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9300",
+        "terjual_prod": "1",
+        "kat_prod": "Paket Sikat Gigi Dan Pasta Gigi Anak & Bayi",
+        "nama_sup": "PT. ULTRA PRIMA ABADI",
+        "nama_prom": "Diskon Produk Formula Thoothpaste"
+    },
+    {
+        "ID_prod": "8991102100434",
+        "nama_prod": "Formula Sparkling White",
+        "harga_prod_norm": "14700",
+        "harga_prod_disc": "12700",
+        "terjual_prod": 0,
+        "kat_prod": "Paket Sikat Gigi Dan Pasta Gigi Dewasa",
+        "nama_sup": "PT. ULTRA PRIMA ABADI",
+        "nama_prom": "Diskon Produk Formula Thoothpaste"
+    },
+    {
+        "ID_prod": "8991102999991",
+        "nama_prod": "Formula Junior X Balita Tp+tb Mix Fruit",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9300",
+        "terjual_prod": 0,
+        "kat_prod": "Paket Sikat Gigi Dan Pasta Gigi Anak & Bayi",
+        "nama_sup": "PT ULTRA PRIMA ABADI",
+        "nama_prom": "Diskon Produk Formula Thoothpaste"
+    },
+    {
+        "ID_prod": "4710020240138",
+        "nama_prod": "Dr.p Adult Diapers Xl8",
+        "harga_prod_norm": "77500",
+        "harga_prod_disc": "67500",
+        "terjual_prod": 0,
+        "kat_prod": "Popok (Diapers) Dewasa Sekali Pakai (Disposable) Dengan Perekat",
+        "nama_sup": "PT. SINERGI ADMITRA JAYA",
+        "nama_prom": "Diskon Produk Dr P Rafaksi"
+    },
+    {
+        "ID_prod": "8993883950338",
+        "nama_prod": "Alamii Biscuits Seaweed & Veggie",
+        "harga_prod_norm": "17900",
+        "harga_prod_disc": "16400",
+        "terjual_prod": 0,
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT. ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950314",
+        "nama_prod": "Alamii Biscuits Oat & Milk",
+        "harga_prod_norm": "17900",
+        "harga_prod_disc": "16400",
+        "terjual_prod": 0,
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT. ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950321",
+        "nama_prod": "Alamii Biscuits Milk & Cocoa",
+        "harga_prod_norm": "17900",
+        "harga_prod_disc": "16400",
+        "terjual_prod": 0,
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT. ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "013256110515",
+        "nama_prod": "Tong Garden Salted Peanut",
+        "harga_prod_norm": "7400",
+        "harga_prod_disc": "5000",
+        "terjual_prod": "2",
+        "kat_prod": "Kacang, Biji Bijan, Dan Buah Kering",
+        "nama_sup": "PT. TONG GARDEN FOOD INDONESIA",
+        "nama_prom": "Diskon Produk Tong Garden"
+    },
+    {
+        "ID_prod": "013256140406",
+        "nama_prod": "Tong Garden Honey Peanuts",
+        "harga_prod_norm": "7400",
+        "harga_prod_disc": "5000",
+        "terjual_prod": "1",
+        "kat_prod": "Kacang, Biji Bijan, Dan Buah Kering",
+        "nama_sup": "PT. TONG GARDEN FOOD INDONESIA",
+        "nama_prom": "Diskon Produk Tong Garden"
+    },
+    {
+        "ID_prod": "8850291160356",
+        "nama_prod": "Tong Garden Honey Sunflower",
+        "harga_prod_norm": "7600",
+        "harga_prod_disc": "5200",
+        "terjual_prod": 0,
+        "kat_prod": "Kacang Dan Snack Lainnya",
+        "nama_sup": "PT. TONG GARDEN FOOD INDONESIA",
+        "nama_prom": "Diskon Produk Tong Garden"
+    },
+    {
+        "ID_prod": "8850291100031",
+        "nama_prod": "Tong Garden Bbq Sunflower",
+        "harga_prod_norm": "7600",
+        "harga_prod_disc": "5200",
+        "terjual_prod": 0,
+        "kat_prod": "Kacang Dan Snack Lainnya",
+        "nama_sup": "PT. TONG GARDEN FOOD INDONESIA",
+        "nama_prom": "Diskon Produk Tong Garden"
+    },
+    {
+        "ID_prod": "013256510414",
+        "nama_prod": "Tong Garden Party Snack",
+        "harga_prod_norm": "7400",
+        "harga_prod_disc": "5000",
+        "terjual_prod": 0,
+        "kat_prod": "Kacang Dan Snack Lainnya",
+        "nama_sup": "PT. TONG GARDEN FOOD INDONESIA",
+        "nama_prom": "Diskon Produk Tong Garden"
+    },
+    {
+        "ID_prod": "8993883950079",
+        "nama_prod": "Alamii Cheese Puffs",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": "2",
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950116",
+        "nama_prod": "Alamii Cheesy Tomato Puffs",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": "2",
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950086",
+        "nama_prod": "Alamii Chocolate Puffs",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": "2",
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950123",
+        "nama_prod": "Alamii Golden Veggie Puffs",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": "2",
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950093",
+        "nama_prod": "Alamii Peanut Butter Puffs",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": "2",
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950215",
+        "nama_prod": "Alamii Chicken Mushroom Puffs",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": "1",
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NUSANTARA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8993883950109",
+        "nama_prod": "Alamii Strawberry Yogurt",
+        "harga_prod_norm": "10300",
+        "harga_prod_disc": "9800",
+        "terjual_prod": 0,
+        "kat_prod": "Snack Bayi",
+        "nama_sup": "PT ALAMII NATURA SEJAHTERA",
+        "nama_prom": "Diskon Produk Alamii"
+    },
+    {
+        "ID_prod": "8850389108277",
+        "nama_prod": "Mogu-mogu Coconut",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "8400",
+        "terjual_prod": "2",
+        "kat_prod": "Minuman Dengan Nata De Coco (Kelapa)",
+        "nama_sup": "SAPPE PUBLIC CIMPANY LIMITED",
+        "nama_prom": "Diskon Produk Mogu Mogu"
+    },
+    {
+        "ID_prod": "8850389108314",
+        "nama_prod": "Mogu-mogu Grape",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "8400",
+        "terjual_prod": "2",
+        "kat_prod": "Minuman Dengan Nata De Coco (Kelapa)",
+        "nama_sup": "SAPPE PUBLIC CIMPANY LIMITED",
+        "nama_prom": "Diskon Produk Mogu Mogu"
+    },
+    {
+        "ID_prod": "8850389108048",
+        "nama_prod": "Mogu-mogu Mangga",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "8400",
+        "terjual_prod": "1",
+        "kat_prod": "Minuman Dengan Nata De Coco (Kelapa)",
+        "nama_sup": "SAPPE PUBLIC CIMPANY LIMITED",
+        "nama_prom": "Diskon Produk Mogu Mogu"
+    },
+    {
+        "ID_prod": "8850389108055",
+        "nama_prod": "Mogu-mogu Strawberry",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "8400",
+        "terjual_prod": "1",
+        "kat_prod": "Minuman Dengan Nata De Coco (Kelapa)",
+        "nama_sup": "SAPPE PUBLIC CIMPANY LIMITED",
+        "nama_prom": "Diskon Produk Mogu Mogu"
+    },
+    {
+        "ID_prod": "8850389108291",
+        "nama_prod": "Mogu-mogu Nanas",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "8400",
+        "terjual_prod": 0,
+        "kat_prod": "Minuman Dengan Nata De Coco (Kelapa)",
+        "nama_sup": "SAPPE PUBLIC COMPANY LIMITED",
+        "nama_prom": "Diskon Produk Mogu Mogu"
+    },
+    {
+        "ID_prod": "8850389108062",
+        "nama_prod": "Mogu-mogu Lychee",
+        "harga_prod_norm": "11400",
+        "harga_prod_disc": "8400",
+        "terjual_prod": 0,
+        "kat_prod": "Minuman Dengan Nata De Coco (Kelapa)",
+        "nama_sup": "SAPPE PUBLIC CIMPANY LIMITED",
+        "nama_prom": "Diskon Produk Mogu Mogu"
+    },
+    {
+        "ID_prod": "8993883950468",
+        "nama_prod": "Alamii Honey Gummy Tropical Rush",
+        "harga_prod_norm": "11200",
+        "harga_prod_disc": "10200",
+        "terjual_prod": 0,
+        "kat_prod": "Permen Jelly",
+        "nama_sup": "PT NATURAL FOOD SUCCES",
+        "nama_prom": "Diskon Produk Alamii Gummy"
+    },
+    {
+        "ID_prod": "8993883950475",
+        "nama_prod": "Alamii Honey Gummy Wild Berries",
+        "harga_prod_norm": "11200",
+        "harga_prod_disc": "10200",
+        "terjual_prod": 0,
+        "kat_prod": "Permen Jelly",
+        "nama_sup": "PT NATURAL FOOD SUCCES",
+        "nama_prom": "Diskon Produk Alamii Gummy"
+    },
+    {
+        "ID_prod": "8995555819837",
+        "nama_prod": "Kimbo Heppiii Baso Sapi",
+        "harga_prod_norm": "28500",
+        "harga_prod_disc": "25500",
+        "terjual_prod": "5",
+        "kat_prod": "Bakso Beku",
+        "nama_sup": "PT MADUSARI",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555150930",
+        "nama_prod": "Kimbo Probites Korean Hot & Spicy",
+        "harga_prod_norm": "7600",
+        "harga_prod_disc": "6100",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Beku",
+        "nama_sup": "PT MADUSARI NUSAPERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555150718",
+        "nama_prod": "Kimbo Sosis Ayam Rasa Keju",
+        "harga_prod_norm": "7600",
+        "harga_prod_disc": "6100",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Siap Makan",
+        "nama_sup": "PT MADUSARI NUSAPERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555118756",
+        "nama_prod": "Kimbo Gold Plus Butter Cheese Bratwurst",
+        "harga_prod_norm": "55000",
+        "harga_prod_disc": "50000",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Beku",
+        "nama_sup": "PT MADUSARI NUSAPERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555215110",
+        "nama_prod": "Kimbo Sosis Sapi Serbaguna Isi",
+        "harga_prod_norm": "120200",
+        "harga_prod_disc": "100200",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Beku",
+        "nama_sup": "PT MADUSARI NUSA PERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555184744",
+        "nama_prod": "Kimbo Probites German Bratwurst",
+        "harga_prod_norm": "7600",
+        "harga_prod_disc": "6100",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Siap Makan",
+        "nama_sup": "PT MADUSARI NUSA PERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555676713",
+        "nama_prod": "Kimbo Gold Plus Baso Sapi",
+        "harga_prod_norm": "47500",
+        "harga_prod_disc": "42500",
+        "terjual_prod": 0,
+        "kat_prod": "Bakso Beku",
+        "nama_sup": "PT MADUSARI",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555150749",
+        "nama_prod": "Kimbo Probites American Cheese",
+        "harga_prod_norm": "7600",
+        "harga_prod_disc": "6100",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Siap Makan",
+        "nama_sup": "PT MADUSARI NUSA PERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8995555118237",
+        "nama_prod": "Kimbo Goldplus Original Bratwurst",
+        "harga_prod_norm": "48900",
+        "harga_prod_disc": "43900",
+        "terjual_prod": 0,
+        "kat_prod": "Sosis Beku",
+        "nama_sup": "PT MADUSARI NUSA PERDANA",
+        "nama_prom": "Diskon Produk Kimbo"
+    },
+    {
+        "ID_prod": "8998899001470",
+        "nama_prod": "Baygon Aerosol Silky Lavender",
+        "harga_prod_norm": "42900",
+        "harga_prod_disc": "36500",
+        "terjual_prod": "20",
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899994802",
+        "nama_prod": "Baygon Liquid Elektrik Base Silky Jasmine Refill",
+        "harga_prod_norm": "22700",
+        "harga_prod_disc": "13900",
+        "terjual_prod": "5",
+        "kat_prod": "Anti Nyamuk Elektrik Kemasan Refill Saja",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995397",
+        "nama_prod": "Baygon Aerosol Flower Garden",
+        "harga_prod_norm": "31400",
+        "harga_prod_disc": "25900",
+        "terjual_prod": "2",
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995090",
+        "nama_prod": "Baygon Aerosol Flower Garden",
+        "harga_prod_norm": "42900",
+        "harga_prod_disc": "33500",
+        "terjual_prod": "2",
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995984",
+        "nama_prod": "Baygon Aerosol Zen Garden",
+        "harga_prod_norm": "42900",
+        "harga_prod_disc": "34500",
+        "terjual_prod": "2",
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995526",
+        "nama_prod": "Baygon Liquid Elektrik Orange Blossom",
+        "harga_prod_norm": "22700",
+        "harga_prod_disc": "13900",
+        "terjual_prod": "1",
+        "kat_prod": "Anti Nyamuk Elektrik Kemasan Refill Saja",
+        "nama_sup": "PT JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "4968306479585",
+        "nama_prod": "Kiwi Paste Sp Black",
+        "harga_prod_norm": "24900",
+        "harga_prod_disc": "21500",
+        "terjual_prod": 0,
+        "kat_prod": "Semir Sepatu Non Cair",
+        "nama_sup": "PT.LF BEAUTY MANUFACTURING INDONESIA",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995953",
+        "nama_prod": "Autan Lotion Wangi Sakura Tube",
+        "harga_prod_norm": "11900",
+        "harga_prod_disc": "7900",
+        "terjual_prod": 0,
+        "kat_prod": "Anti Nyamuk Lotion",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899996141",
+        "nama_prod": "Autan Citrus Soft Tube",
+        "harga_prod_norm": "11900",
+        "harga_prod_disc": "7900",
+        "terjual_prod": 0,
+        "kat_prod": "Anti Nyamuk Lotion",
+        "nama_sup": "PT. JAHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995922",
+        "nama_prod": "Baygon Aerosol Cherry Blossom",
+        "harga_prod_norm": "42900",
+        "harga_prod_disc": "36500",
+        "terjual_prod": 0,
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8998899995601",
+        "nama_prod": "Baygon Aerosol Silky Lavender",
+        "harga_prod_norm": "31400",
+        "harga_prod_disc": "25900",
+        "terjual_prod": 0,
+        "kat_prod": "Semprotan Pembasmi Hama",
+        "nama_sup": "PT. JOHNSON HOME HYGIENE PRODUCTS",
+        "nama_prom": "Diskon Produk Baygon"
+    },
+    {
+        "ID_prod": "8995151160944",
+        "nama_prod": "Mustika Ratu Beras Kencur",
+        "harga_prod_norm": "8100",
+        "harga_prod_disc": "5670",
+        "terjual_prod": 0,
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT MUSTIKA RATU TBK",
+        "nama_prom": "Diskon Produk Sidomuncul Rtd"
+    },
+    {
+        "ID_prod": "8995151170042",
+        "nama_prod": "Mustika Ratu Gula Asem B",
+        "harga_prod_norm": "7100",
+        "harga_prod_disc": "4970",
+        "terjual_prod": 0,
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT MUSTIKA RATU TBK",
+        "nama_prom": "Diskon Produk Sidomuncul Rtd"
+    }
+]
