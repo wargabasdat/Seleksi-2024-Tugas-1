@@ -25,7 +25,7 @@ Jika ingin menggunakan docker, jalankan ini
 ```
 docker-compose up
 ```
-Program akan secara otomatis melakukan web scraping dan menyimpannya di `json/data.json` serta memasukkan data-data ke basis data.
+Program akan secara otomatis melakukan web scraping dan menyimpannya di [Data Scraping/src/json/data.json](Data%20Scraping/src/json/data.json) serta memasukkan data-data ke basis data.
 
 Jika hanya ingin menghidupkan database, jalankan ini
 ```
@@ -63,6 +63,7 @@ jalankan command berikut untuk melakukan dump database
 ```
 docker exec -it mariodb pg_dump mariodb > dump/dump.sql
 ```
+Hasil dump ada di [Data Scraping/src/dump/dump.sql](Data%20Scraping/src/dump/dump.sql)
 
 ### Restore Dump
 jalankan command berikut untuk melakukan restore database
