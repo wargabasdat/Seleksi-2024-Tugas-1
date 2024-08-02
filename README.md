@@ -16,9 +16,27 @@
 
 
 
-
 DAFTAR ISI
-
+- System Description
+- Program Specification
+- How To Use
+  - Data Scraping
+  - Data Storing
+- JSON Structure
+- Database Structure
+  - Entity Relationship Diagram
+  - Relational Diagram
+  - Convertion Explanation
+    - Pemetaan *entity* menjadi relasi
+    - Pemetaan *relationship* menjadi relasi
+    - Pemetaan *specialization/ generalization* menjadi relasi
+    - Pemetaan *composit attributes* menjadi relasi
+- Screenshot
+  - Data Scrapping & Pre-processing
+  - Data Storing
+- Data Visualization (BONUS)
+- Reference
+- Author
 
 
 
@@ -196,7 +214,7 @@ a) *Strong Entity*
 
 Cara translasi nya adalah dengan membawa PK dari salah satu sisi sebagai FK di sisi lain yang paling sesuai (bebas)
 <div align="center">
-  <img src="Data Storing/Design/one-to-one.png" width="400"/>
+  <img src="Data Storing/design/one-to-one.png" width="400"/>
 </div>
 
 - *Transaksi* = (__id_tran__, jenis_tran, id_ker)
@@ -208,7 +226,7 @@ b) *Weak Entity*
 
 *Weak Entity* adalah entitas yang tidak bisa berdiri sendiri dan bergantung pada entitas lain, serta memiliki __*diskriminator*__ (contohnya adalah atribut "Urutan" pada tabel "Orders").
 <div align="center">
-  <img src="Data Storing/Design/Weak-Entity.png" width="400"/>
+  <img src="Data Storing/design/Weak-Entity.png" width="400"/>
 </div>
 
 
@@ -226,7 +244,7 @@ a) Pemetaan `many-to-many relationship` menjadi relasi
 
 Cara translasi nya adalah dengan membuat relationship antara kedua tabel menjadi entitas baru yang mengandung PK dari kedua belah sisi
 <div align="center">
-  <img src="Data Storing/Design/many-to-many.png" width="400"/>
+  <img src="Data Storing/design/many-to-many.png" width="400"/>
 </div>
 
 - *Digunakan* = (__id_prod__, __nama_prom__)
@@ -240,7 +258,7 @@ b) Pemetaan *ternary relationship* menjadi relasi
 Relasi ternary melibatkan tiga entitas dan direpresentasikan dengan tabel yang mencakup ketiga entitas tersebut. Hubungan antara ketiga entitas tersebut akan dibuat menjadi entitas baru yang memiliki PK dari entitas denngan sisi many dan FK dari ketiga entitas.
 
 <div align="center">
-  <img src="Data Storing/Design/ternary.png" width="400"/>
+  <img src="Data Storing/design/ternary.png" width="400"/>
 </div>
 
 - *Pesanan* = (__id_prod__, __id_ker__, id_pel)
@@ -255,7 +273,7 @@ FK:
 Specialization/generalization adalah konsep di mana entitas dapat dibagi menjadi sub-entitas yang lebih spesifik atau digabungkan menjadi entitas yang lebih umum.
 
 <div align="center">
-  <img src="Data Storing/Design/specialization.png" width="400"/>
+  <img src="Data Storing/design/specialization.png" width="400"/>
 </div>
 
 - *Diskon_prod* = (__id_prod__, nama_prom, harga_disc)
@@ -266,7 +284,7 @@ Specialization/generalization adalah konsep di mana entitas dapat dibagi menjadi
 Cara translasi nya adalah dengan membawa PK dari sisi One sebagai FK di sisi Many
 
 <div align="center">
-  <img src="Data Storing/Design/one-to-many.png" width="400"/>
+  <img src="Data Storing/design/one-to-many.png" width="400"/>
 </div>
 
 - *Normal_prod* = (__id_prod__)
@@ -284,7 +302,7 @@ __4. Pemetaan *composit attributes* menjadi relasi__
 Atribut multivalued adalah atribut yang dapat memiliki lebih dari satu nilai untuk satu entitas. Dalam database relasional, atribut ini biasanya dipecah menjadi tabel terpisah.
 
 <div align="center">
-  <img src="Data Storing/Design/composit.png" width="400"/>
+  <img src="Data Storing/design/composit.png" width="400"/>
 </div>
 
 - *Alamat_pel* = (__id_pel__, __al_jalan__, __al_NoR__)
@@ -350,7 +368,7 @@ Ada beberapa produk yang berulang pada data yang saya *scrapping* oleh karena it
 
 Pada database borma_dago, saya melakukan *create table* dengan menggunakan psycopg2 sebagai berikut
 <div align="center">
-  <img src="Data Scraping/screenshot/SS_create_table.png" width="400"/>
+  <img src="Data Scraping/screenshot/ss_create_table.png" width="400"/>
 </div>
 
 informasi produk diskon didapatkan melalui halaman promo. Ketika proses *scrapping*, informasi produk tersebut justru terdapat di file __potongan_promo.json__ padahal seharusnya ada di __produk.json__. Cara saya menyiasatinya adalah ketika melalukan *eksport* ke __SQL__ sayang memasukkan beberapa atribut pada dari __potongan_promo.json__ ke __produk.json__
@@ -364,13 +382,13 @@ Setelah berhasil mengumpulkan data melalui web scraping, langkah selanjutnya ada
 
 Berikut adalah hasil visualisasi yang didapatkan untuk memenuhi tujuan awal *scraping* website ini yaitu untuk membandingkan hubungan antara promo yang ditawarkan dengan jumlah penjualan produk.
 <div align="center">
-  <img src="Data Visualization/Visualisasi/1.png" width="400"/>
+  <img src="Data Visualization/Visualization/1.png" width="400"/>
 </div>
 
 Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak memberikan diskon, produk paling variatif, dan penjualan produk yang paling tinggi.
 
 <div align="center">
-  <img src="Data Visualization/Visualisasi/2.png" width="400"/>
+  <img src="Data Visualization/Visualization/2.png" width="400"/>
 </div>
 
 
@@ -378,7 +396,7 @@ Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak
 1. [Borma Dago Website](https://www.bormadago.com/)
 2. [Dokumentasi Selenium](https://selenium-python.readthedocs.io/)
 3. [Dokumentasi Beautifulsoup4](https://beautiful-soup-4.readthedocs.io/)
-4. [Dokumentasi ]()
+4. [Dokumentasi psycopg2](https://pypi.org/project/psycopg2/)
 5. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
 
 ## Author
