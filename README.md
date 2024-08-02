@@ -17,8 +17,8 @@ This ETL project focuses on analyzing passenger reviews for two major Indonesian
 The primary objective of this project is to extract detailed review data from [airlinequality.com](https://www.airlinequality.com/), clean it, transform it into a JSON format, and load it into a MySQL database. Additionally, this project provide an analysis into various aspects of passenger experience by data visualization.
 
 ## Program Specification
-- **Python3**: Forweb scraping, data cleaning.
-  - Libraries: BeautifulSoup, Requests
+- **Python3**: For web scraping, data cleaning.
+Libraries: BeautifulSoup, Requests
 - **MySQL**: For RDBMS
 - **Tableau**: For data visualization and dashboard creation.
 
@@ -41,6 +41,14 @@ The primary objective of this project is to extract detailed review data from [a
 ## Data Scraping
 #### 1. Scraping process
 #### 2. Data Cleaning
+The cleaning process includes:
+- Convert numerical value to int
+- Handle missing values and change 'N/A' values to None
+- Convert categorical values(yes/no) to boolean(true/false)
+- Strip weird characters
+- Strip whitespace
+- Parse and format dates to datetime
+
 #### 3. JSON Structure
 The json file in ```Data Scraping/data/airline_reviews.json``` contains the pure data extracted and cleaned from the scraping process.
 >
@@ -78,21 +86,43 @@ The json file in ```Data Scraping/data/airline_reviews.json``` contains the pure
 
 
 ## Data Modelling and Storing
-#### 1. Design
+#### 1. ERD and Relational Design
 The scraped data is stored in a MySQL database. The choice of MySQL was based on its efficiency, ease of use, and strong performance in handling read-heavy operations. The schema consists of 6 tables, but the the data from scraping will only be stored in 4 tables. 
 There are some assumptions regarding the db design:
-
+- A reviewer dont have to be a member to create a review
+- There are 4 type of registered member: 'elite', 'flyer', 'globethrotter', and 'hiflyer'
+- A reviewer can create many review
+- An airline can have many reviewed flight
+- A flight can be reviewed more than once
+- A review corresponds to exactly one flight and one user
+- 'overall_rating' in the Review schema is user-defined in this context, not from average rating calculation
+- Some attributes are not informed, like the time of flight, reviewer's email and password
+- Some rating attribute can be null because not all of them is rated by user
 ![ERD](./Data%20Storing/design/ERD.png)
 ![Relational](./Data%20Storing/design/relational.png)
+
+The ERD is translated to Relational by process:
+- Reduce strong entity set (Review, Airline, Flight) to schema with the same attributes
+- Flatten composite attribute (‘Rating_component’ attribute in the Review entity)
+- Represent User specialization by forming new schema for Reviewer and Airline_Staff with inherited attributes from User
+- Represent many-to-one relationship by adding the primary key of “the one side” as extra attribute  to “the many side” 
+   - Review and Reviewer: Add ‘reviewer_id’ to Review (many side)
+   - Review and Flight: Add ‘flight_id’ to Review (many side)
+   - Flight and Airline: Add ‘airline_id’ to Flight (many side)	
+   - Review and Response: Add ‘response_id’ to Review (many_side)
+   - Response and Airline_Staff: Add ‘staff_id’ to Response
+   - Airline and Airline_Staff:  Add ‘airline_id’ to Airline_Staff(many side)
 
 For more detail of translation process, open
 [ERD to Relational](https://docs.google.com/document/d/1YF99NFnt15oXDe_dA7ZArG0HlRCYbsNA4lst8M5uVzM/edit?usp=sharing)
 
 #### 2. Constraints and functions
 Triggers, constraints and functions are also applied to the db.
-- Function to count average rating
-- ...
-- ...
+- Check to ensure membership type of user  is 'elite', 'flyer', 'hiflyer', 'globetrotter', or 'nonmember'
+- Trigger to prevent downgrading a reviewer's membership type to nonmember if it was previously a higher type
+- Trigger to ensure that the review date is not in the future
+- Trigger to ensure that the response date is not earlier than the review date
+- Function to count average overall rating of an airline
 
 ## Data Visualization and Analysis
 For data analysis, there are several KPIs to be considered.
@@ -129,22 +159,22 @@ The walkthrough of the dashboard's usage can be seen from
    -  Majority of reviewers travel in Solo and Business leisure. However, Solo and Family travelers tend to be more satisfied compared to Business and Couple travelers. This means that both airlines need to improve the service for both leisure, and keep up the service for Solo travelers.
 
 ## Screenshots
-1. Data scraping script
+### 1. Data scraping
 ![Scraping](<Data Scraping/screenshot/scraper1.png>)
 ![Scraping](<Data Scraping/screenshot/scraper2.png>)
-2. Data scraping process log
-![Scraping](<Data Scraping/screenshot/scrape_process.png>)
-3. JSON loading script
+![Scraping](<Data Scraping/screenshot/scrapeprocess.png>)
+### 2. JSON loading 
 ![Scraping](<Data Scraping/screenshot/scraper3.png>)
-4. Description of tables
-![Tables](<Data Storing/screenshot/show_table.png>)
-![Tables](<Data Storing/screenshot/desc_1.png>)
-![Tables](<Data Storing/screenshot/desc_2.png>)
-![Tables](<Data Storing/screenshot/all_airline.png>)
-![Tables](<Data Storing/screenshot/all_flight.png>)
-![Tables](<Data Storing/screenshot/all_review.png>)
-![Tables](<Data Storing/screenshot/all_reviewer.png>)
-5. Trigger and function
+### 3. Tables in database
+![Scraping](<Data Storing/screenshot/show_table.png>)
+### 4. Description of table
+![Scraping](<Data Storing/screenshot/desc_1.png>)
+![Scraping](<Data Storing/screenshot/desc_2.png>)
+![Scraping](<Data Storing/screenshot/all_airline.png>)
+![Scraping](<Data Storing/screenshot/all_flight.png>)
+![Scraping](<Data Storing/screenshot/all_review.png>)
+![Scraping](<Data Storing/screenshot/all_reviewer.png>)
+### 5. Trigger and function
 ![trigger](<Data Storing/screenshot/trigger.png>)
 ![function](<Data Storing/screenshot/function.png>)
 ![function](<Data Storing/screenshot/function_demo.png>)
