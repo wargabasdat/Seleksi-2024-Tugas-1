@@ -4,13 +4,13 @@
 Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 
 ## Table of Contents
-* [General Info](#general-information)
+* [Topic and DBMS](#topic-and-dbms)
 * [How to Run the Scrapper](#how-to-run-the-scrapper)
 * [JSON Structure](#json-structure)
 * [Acknowledgements](#acknowledgements)
 
 
-## General Information
+## Topic and DBMS
 In this database laboratory assistant selection task, I chose a topic about the food recipe community taken from the food.com web. The data taken is data about food recipes, users, ingredients, and posts (questions, reviews, and tweaks). The database management system is used to manage the community website. <br>
 
 
