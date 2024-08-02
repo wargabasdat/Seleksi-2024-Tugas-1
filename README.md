@@ -9,6 +9,8 @@ Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 * [JSON Structure](#json-structure)
 * [Explanation of ERD and Relational Diagram in RDBMS](#explanation-of-erd-and-relational-diagram-in-rdbms)
 * [How to Convert ERD into Relational Diagram](#how-to-convert-erd-into-relational-diagram)
+* [References](#references)
+* [Libraries Used](#libraries-used)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -137,6 +139,24 @@ There are 6 relations (tables):
 1. Transform a many to many relations into a new table which contain the primary keys of the two initial tables (for example in a “madeof” relation). <br>
 2. For one to many relations, insert the primary key from table “one” into table “many” (for example in the write relation, the primary key of the users table is inserted into the attribute in the recipes table). <br><br>
 
+
+## Libraries Used
+- selenium
+- requets
+- logging
+- datetime
+- json
+- re
+- pandas
+- os
+- apscheduler
+- sys
+
+
+## References
+- [The Scrapped Web](food.com).
+- [Selenium Documentation](https://selenium-python.readthedocs.io).
+  
 
 ## Acknowledgements
 - This project was based on [Seleksi Tahap 2 Asisten Basis Data 2024](https://docs.google.com/document/d/1Mi0OJNlCIp6ky1uDF-xzhgE-yos3b0ThI24Gvde70gM/edit).
