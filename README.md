@@ -23,7 +23,7 @@ Run the scrapper with the command
 python3 Scrap.py
 ```
 
-Output dari scraper ini adalah json file yang berisi data rank, nama film, tahun, rating, artis yang memainkan film tersebut, serta sutradara dari film tersebut. Untuk memudahkan pencarian, saya hanya menggunakan 1 nama orang saja di tabel artis dan sutradara.
+Output dari scraper ini adalah json file yang berisi data rank, nama film, tahun, rating, artis yang memainkan film tersebut, serta sutradara dari film tersebut. Untuk memudahkan pencarian, saya hanya menggunakan 1 nama orang saja di tabel artis dan sutradara. Saya juga menggunakan converter dari JSON ke NDJSON agar format json dapat dimasukkan ke dalam PostgreSQL.
 
 ## STRUKTUR ERD DAN DIAGRAM RELASIONAL DBMS
 Pada ERD, terdiri atas 9 entitas yang menggambarkan data tersebut: <br>
@@ -75,6 +75,8 @@ Proses translasi dari ERD ke relasional mengikuti seperti yang diajarkan dari pe
 ## REFERENSI
 - BeautifulSoup4
 - Python3
+- PostgreSQL
+- [JSON to NDJSON Converter](https://konbert.com/convert/ndjson/to/json)
 - [The 100 Best Movies on Disney+ (August 2024)](https://editorial.rottentomatoes.com/guide/best-disney-movies-to-watch-now/)
 
 
