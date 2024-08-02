@@ -1,75 +1,117 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2024 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# CF Analytics.
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Description
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+Main reason why did I built this is because i always wanted to know how many problems are there, how many problems contains a specific tag, how many contests are there, and how many contests are there for a specific type. So for my curiousity, I scraped the codeforces website.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Author
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+|   NIM    |           Nama           |
+| :------: | :----------------------: |
+| 13522066 | Nyoman Ganadipa Narayana |
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+## Tools / Library Used
 
+- [MariaDB](https://mariadb.org/)
+- [Next.js](https://nextjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [recharts](https://recharts.org/en-US/)
+- [gocolly](https://github.com/gocolly/colly)
 
+## Data Scraping
 
+### How To Run
+
+1. Change dir into "/Data Scraping/src"
+
+2. Scrapes the data from codeforces.com
+
+```bash
+go run main.go
+```
+
+3. While the data isn't complete (you can tell by config.json is not {}), do step 2, otherwise go step 4.
+
+4. The complete data that we need is in ../data/data.json
+
+### Scraped Data
+
+The JSON format of the scraped data is
+
+```js
+{
+    problems: ...
+    contests: ...
+}
+```
+
+- Inside the problems attribute there contains thousands of problems with each have its own id, title, url, tags, and rating.
+- Inside the contests attribute there contains thousands of contests with each have its own id, name, writers, starttime, duration, and the number of participants.
+
+## Data Modeling
+
+Here is the ERD design for the database. Where Contributor table is stored is the contest writers, Problem table is stored the problems, Contest table is stored the contests, and Tag table is stored all kind of tags that a problem can have.
+| ERD DESIGN |
+| ----------------------------------------------------------------------------------------------------------------- |
+| ![ERD Design](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/design/ERD.png) |
+
+| Relational Database Table Design                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Relational Diagram Design](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/design/relational-model.png) |
+
+How did i convert the ERD concept into the Relational database design?
+
+- I converted all many to many relationships into a table that contains all the corresponding primary key. (ContributorContest and ProblemTag table)
+- I handled all one to many relationship by providing the primary key of the "many" side into the "one", with that "one" side now also has "many" primary keys as its primary keys.
+
+## Data Storing
+
+Below is the proof that i had stored the scraped data into the dumped sql.
+
+### Contest Table
+
+| Contest Table                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| ![Contest Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Contest.png) |
+
+### Contributor Table
+
+| Contributor Table                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Contributor Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Contributor.png) |
+
+### ContributorContest Table
+
+| ContributorContest Table                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![ContributorContest Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/ContributorContest.png) |
+
+### Problem Table
+
+| Problem Table                                                                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------- |
+| ![Problem Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Problem.png) |
+
+### ProblemTag Table
+
+| ProblemTag Table                                                                                                                   |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ![ProblemTag Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/ProblemTag.png) |
+
+### Tag Table
+
+| Tag Table                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------- |
+| ![Tag Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Tag.png) |
+
+## Data Visualization
+
+### How to run
+
+1. cd "Data Visualization"/src
+2. pnpm install && pnpm dev
+
+## Special Thanks
+
+Special thanks to Codeforces for providing the information. [codeforces.com](https://codeforces.com)
