@@ -17,15 +17,15 @@ Sistem dan Teknologi Informasi
 Institut Teknologi Bandung
 
 ## Table of Contents
-- [Table of Contents](https://github.com/yovankas/draft-seleksi-basdat#table-of-contents)
-- [Description](https://github.com/yovankas/draft-seleksi-basdat#description)
-- [How to Use the Scraper](https://github.com/yovankas/draft-seleksi-basdat#how-to-use-the-scraper)
-- [JSON File Structure](https://github.com/yovankas/draft-seleksi-basdat#json-file-structure)
-- [Entity-Relationship Diagram (ERD)](https://github.com/yovankas/draft-seleksi-basdat#entity-relationship-diagram-erd)
-- [Translating Entity-Relationship Diagram (ERD) to Relational Diagram](https://github.com/yovankas/draft-seleksi-basdat#translating-entity-relationship-diagram-erd-to-relational-diagram)
-- [Relational Diagram](https://github.com/yovankas/draft-seleksi-basdat#relational-diagram)
-- [Screenshots](https://github.com/yovankas/draft-seleksi-basdat#screenshots)
-- [Reference](https://github.com/yovankas/draft-seleksi-basdat#reference)
+- [Table of Contents](https://github.com/yovankas/Seleksi-2024-Tugas-1#table-of-contents)
+- [Description](https://github.com/yovankas/Seleksi-2024-Tugas-1#description)
+- [How to Use the Scraper](https://github.com/yovankas/Seleksi-2024-Tugas-1#how-to-use-the-scraper)
+- [JSON File Structure](https://github.com/yovankas/Seleksi-2024-Tugas-1#json-file-structure)
+- [Entity-Relationship Diagram (ERD)](https://github.com/yovankas/Seleksi-2024-Tugas-1#entity-relationship-diagram-erd)
+- [Translating Entity-Relationship Diagram (ERD) to Relational Diagram](https://github.com/yovankas/Seleksi-2024-Tugas-1#translating-entity-relationship-diagram-erd-to-relational-diagram)
+- [Relational Diagram](https://github.com/yovankas/Seleksi-2024-Tugas-1#relational-diagram)
+- [Screenshots](https://github.com/yovankas/Seleksi-2024-Tugas-1#screenshots)
+- [Reference](https://github.com/yovankas/Seleksi-2024-Tugas-1#reference)
   
 ## Description
 Data _scraping_ dilakukan pada halaman MLB Prospects, yang mencantumkan [100 Prospek Terbaik Major League Baseball (MLB) 2024](https://www.mlb.com/prospects). Prospek adalah pemain muda yang diharapkan menjadi atlet profesional sukses. Data mencakup informasi seperti nama pemain, peringkat, posisi, tim, level, _ETA_ (tahun perkiraan masuk liga utama), usia, _bats_ (cara memukul), _throws_ (cara melempar), tinggi, dan berat pemain.
@@ -46,7 +46,7 @@ git clone https://github.com/yovankas/draft-seleksi-basdat
 pip install selenium pandas beautifulsoup4 mariadb
 ```
 3. _Install Chrome Webdriver_ dengan mengikuti langkah-langkah pada tautan berikut [Tutorial _Install Chrome Webdriver_](https://katekuehl.medium.com/installation-guide-for-google-chrome-chromedriver-and-selenium-in-a-python-virtual-environment-e1875220be2f).
-4. Buka _file_ data_scraping_src.py pada folder [_Data Scraping Source Code_](https://github.com/yovankas/draft-seleksi-basdat/tree/main/data) di aplikasi _editor_ pilihan Anda seperti Visual Studio Code, PyCharm, atau _editor_ teks lainnya.
+4. Buka _file_ data_scraping_src.py pada folder [_Data Scraping Source Code_](https://github.com/yovankas/Seleksi-2024-Tugas-1/tree/main/Data%20Scraping/src) di aplikasi _editor_ pilihan Anda seperti Visual Studio Code, PyCharm, atau _editor_ teks lainnya.
 5. Ganti variabel _chrome_driver_path_ pada _file source_ menjadi _path_ dari aplikasi _Chrome Webdriver_ yang sudah diunduh sebelumnya.
 6. _Set up_ basis data di MariaDB dan ganti variabel _host, user,_ dan _password_ pada _file source_ sesuai dengan milik Anda.
 7. Jalankan fungsi scrape_and_store_prospects() dalam _file_ data_scraping_src.py pada aplikasi _editor_ yang Anda pilih.
@@ -91,7 +91,7 @@ Berikut merupakan contoh salah satu _tuple_ pada data hasil.
 
 ## Entity-Relationship Diagram (ERD)
 Berikut merupakan Entity-Relationship Diagram (ERD) dari basis data yang telah dirancang beserta dengan asumsi dan penjelasannya.
-![ERD](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+![ERD](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/erd.png)
 
 ## Translating Entity-Relationship Diagram (ERD) to Relational Diagram
 Berikut merupakan langkah-langkah translasi ERD ke Relational Diagram.
@@ -133,17 +133,23 @@ Untuk _specialization_, pemetaan dilakukan dengan membentuk 3 relasi, yaitu _hig
 
 ## Relational Diagram
 Berikut merupakan Relational Diagram yang diperoleh dari hasil translasi ERD basis data yang telah dirancang.
-![rel](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+![rel](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/relationalmodel.png)
 
 ## Screenshots
-- _Website_ yang di-_scrape_ ![website](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-- _Source code scraping data_ ![src1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-  ![src2](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-- _Source code preprocessing data_ ![pre1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-  ![pre2](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-- _Query Show Tables_ pada _database_ ![show1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-- _Describe database_ hasil _data storing_ ![des1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
-- _Query Select From Where_ pada _database_ ![quer1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+- _Website_ yang di-_scrape_ ![website](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/website_scraping.jpg)
+- _Source code scraping data_ ![src1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/src_code(1).png)
+  ![src2](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/src_code(2).png)
+- _Source code preprocessing data_ ![pre1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/preprocess_src_code.png)
+- _Source code storing data_ ![stor1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/store_src_code.png)
+- _Query Show Tables_ pada _database_ ![show1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/tables_in_database.jpg)
+- _Describe database_ hasil _data storing_ ![des1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/describe_table(1).jpg)
+  ![des2](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/describe_table(2).jpg)
+  ![des3](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/describe_table(3).jpg)
+  ![des4](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/describe_table(4).jpg)
+- _Query Select From Where_ pada _database_ ![quer1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select(1).jpg)
+  ![quer2](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select(2).jpg)
+  ![quer3](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select_where.jpg)
+  ![quer4](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select_where(2).jpg)
 
 ## Reference
 1. _Library_ yang digunakan :
