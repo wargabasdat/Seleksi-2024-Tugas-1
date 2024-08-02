@@ -1,4 +1,4 @@
-# Seleksi Tahap 2 Asisten Basis Data 2024
+# Stage 2 Selection of 2024 Database Assistant
 ### ETL Project: Data Scraping, Database Modeling, and Data Storing
 
 Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
