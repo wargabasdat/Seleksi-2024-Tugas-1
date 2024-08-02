@@ -1,5 +1,4 @@
 # Seleksi Asisten Basis Data - 2024
-![Tes](Data Scraping/screenshot/Sc1.png)
 Nama : Farah Aulia
 
 NIM : 18222096
@@ -28,7 +27,7 @@ Alasan memilih topik ini adalah untuk memahami ekonomi dan industri dari perusah
 
 ### Struktur File JSON
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb23990a-f5fc-441f-8a45-83ad52076085/e575e1e4-1be5-49c3-b8e8-7c202133112f/Untitled.png)
+![FileJSON](Data%20%Scraping/screenshot/json.png)
 
 1. **Rank**: Peringkat perusahaan berdasarkan pendapatan.
 2. **Name**: Nama perusahaan.
@@ -43,11 +42,11 @@ Alasan memilih topik ini adalah untuk memahami ekonomi dan industri dari perusah
 
 1. ER Diagram
 
-![ER Seleksi Asisten-ER.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb23990a-f5fc-441f-8a45-83ad52076085/11b47a9d-97b6-4ff2-a566-463290c15d09/ER_Seleksi_Asisten-ER.jpg)
+![ERDiagram](Data%20%Storing/design/ER%20%Diagram.png)
 
 2. Diagram Relasional
 
-![ER Seleksi Asisten-Copy of ER.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb23990a-f5fc-441f-8a45-83ad52076085/0a4d3b6a-5d29-43c0-82ff-78ddc34ed98c/ER_Seleksi_Asisten-Copy_of_ER.jpg)
+![Relasional](Data%20%Storing/design/Diagram%20%Relasional.png)
 
 ### Translasi ERD Menjadi Diagram Relasional
 
@@ -92,15 +91,26 @@ Gambar lebih lengkap bisa dilihat di bagian masing-masing folder.
 
 1. Scrapping
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb23990a-f5fc-441f-8a45-83ad52076085/dcbc98a6-19d7-4df1-a1ab-ff86c9170235/Untitled.png)
+![Scraping1](Data%20%Scraping/screenshot/Sc1.png)
+![Scraping2](Data%20%Scraping/screenshot/Sc2.png)
+![Scraping3](Data%20%Scraping/screenshot/Sc3.png)
+![Scraping4](Data%20%Scraping/screenshot/Sc4.png)
 
 2. Storing
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb23990a-f5fc-441f-8a45-83ad52076085/8da8b5e2-733b-4c4c-8820-d000f3e6abb2/Untitled.png)
+![AllData](Data%20%Storing/screenshot/All%20%Data.png)
+![TabelCity](Data%20%Storing/screenshot/Tabel%20%City.png)
+![TabelCompany](Data%20%Storing/screenshot/Tabel%20%Company.png)
+![Industry](Data%20%Storing/screenshot/Tabel%20%Industry.png)
+![State](Data%20%Storing/screenshot/Tabel%20%State.png)
+
 
 3. Visualisasi
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/fb23990a-f5fc-441f-8a45-83ad52076085/82cde0bd-9c8e-4bf6-a407-c1dae29f209b/Untitled.png)
+![Dashboard](Data%20%Visualization/Screenshot/Dashboard.png)
+![Geography](Data%20%Visualization/Screenshot/Data%20%Geography.png)
+![PerbandinganRevenueDenganJumlahKaryawan](Data%20%Visualization/Screenshot/Perbandingan%20%Revenue%20%dan%20%Jumlah%20%Karyawan.png)
+![PersebaranIndustry](Data%20%Visualization/Screenshot/Persebaran%20%Industry.png)
 
 ### Referrensi / Library / Tools
 
