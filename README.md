@@ -114,14 +114,33 @@ Hubungan `practice` antara `Doctor` dan `City` dalam ERD merupakan hubungan many
   <img src="Data Storing/design/Model_Relasional_Disesuaikan_dengan_Batasan_SQL_dan_Tabel_Tambahan.png" alt="fix diagram relasional" />
 </div>
 
-Diagram relasional tersebut sudah disesuaikan agar dapat diimplementasikan dalam MariaDB dan terdapat beberapa tambahan tabel lain yang relevam berupa Patient, Contact, dan Checkup. Relasi `Patient` menyimpan informasi tentang data `Patient`. Relasi `Contact` menyimpan informasi tentang kontak dokter dan pasien. Terakhir, relasi `Checkup` menyimpan informasi tentang pencatatan dokter memeriksa pasien.
-
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+Diagram relasional tersebut sudah disesuaikan agar dapat diimplementasikan dalam MariaDB dan terdapat beberapa tambahan tabel lain yang relevam berupa `Patient`, `Contact`, dan `Checkup`. Relasi `Patient` menyimpan informasi tentang data Pasien. Relasi `Contact` menyimpan informasi tentang kontak dokter dan pasien. Terakhir, relasi `Checkup` menyimpan informasi tentang pencatatan dokter memeriksa pasien.
 
 ## Hasil Program
-
+### 1. Hasil Scraping (Output)
+<div align="center">
+  <img src="Data Scraping/screenshots/(9)Contoh_Output.png" alt="Output" />
+</div>
+### 2. Menampilkan Data Seluruh Dokter
+<div align="center">
+  <img src="Data Storing/screenshot/1.png" alt="1" />
+</div>
+### 3. Menampilkan Data Seluruh Eduacation
+<div align="center">
+  <img src="Data Storing/screenshot/11.png" alt="11" />
+</div>
+### 4. Menampilkan Data Seluruh City
+<div align="center">
+  <img src="Data Storing/screenshot/13.png" alt="13" />
+</div>
+### 5. Menampilkan Data Seluruh Province
+<div align="center">
+  <img src="Data Storing/screenshot/14.png" alt="14" />
+</div>
+### 6. Menampilkan Data Pendidikan yang ditempuh oleh Dr. Fitri Tyas Sp.GK, AIFO-K
+<div align="center">
+  <img src="Data Storing/screenshot/10.png" alt="10" />
+</div>
 
 ## Referensi/Library
 - [Go Documentations](https://go.dev/doc/)
