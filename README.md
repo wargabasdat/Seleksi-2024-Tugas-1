@@ -27,7 +27,7 @@ Alasan memilih topik ini adalah untuk memahami ekonomi dan industri dari perusah
 
 ### Struktur File JSON
 
-![FileJSON](Data%20%Scraping/screenshot/json.png)
+![FileJSON](Data%20Scraping/screenshot/json.png)
 
 1. **Rank**: Peringkat perusahaan berdasarkan pendapatan.
 2. **Name**: Nama perusahaan.
@@ -42,11 +42,11 @@ Alasan memilih topik ini adalah untuk memahami ekonomi dan industri dari perusah
 
 1. ER Diagram
 
-![ERDiagram](Data%20%Storing/design/ER%20%Diagram.png)
+![ERDiagram](Data%20Storing/design/ER%20Diagram.png)
 
 2. Diagram Relasional
 
-![Relasional](Data%20%Storing/design/Diagram%20%Relasional.png)
+![Relasional](Data%20Storing/design/Diagram%20Relasional.png)
 
 ### Translasi ERD Menjadi Diagram Relasional
 
@@ -91,26 +91,32 @@ Gambar lebih lengkap bisa dilihat di bagian masing-masing folder.
 
 1. Scrapping
 
-![Scraping1](Data%20%Scraping/screenshot/Sc1.png)
-![Scraping2](Data%20%Scraping/screenshot/Sc2.png)
-![Scraping3](Data%20%Scraping/screenshot/Sc3.png)
-![Scraping4](Data%20%Scraping/screenshot/Sc4.png)
+![Scraping1](Data%20Scraping/screenshot/Sc1.png)
+![Scraping2](Data%20Scraping/screenshot/Sc2.png)
+![Scraping3](Data%20Scraping/screenshot/Sc3.png)
+![Scraping4](Data%20Scraping/screenshot/Sc4.png)
 
 2. Storing
 
-![AllData](Data%20%Storing/screenshot/All%20%Data.png)
-![TabelCity](Data%20%Storing/screenshot/Tabel%20%City.png)
-![TabelCompany](Data%20%Storing/screenshot/Tabel%20%Company.png)
-![Industry](Data%20%Storing/screenshot/Tabel%20%Industry.png)
-![State](Data%20%Storing/screenshot/Tabel%20%State.png)
+![AllData](Data%20Storing/screenshot/All%20Data.png)
+![TabelCity](Data%20Storing/screenshot/Tabel%20City.png)
+![TabelCompany](Data%20Storing/screenshot/Tabel%20Company.png)
+![Industry](Data%20Storing/screenshot/Tabel%20Industry.png)
+![State](Data%20Storing/screenshot/Tabel%20State.png)
 
 
 3. Visualisasi
 
-![Dashboard](Data%20%Visualization/Screenshot/Dashboard.png)
-![Geography](Data%20%Visualization/Screenshot/Data%20%Geography.png)
-![PerbandinganRevenueDenganJumlahKaryawan](Data%20%Visualization/Screenshot/Perbandingan%20%Revenue%20%dan%20%Jumlah%20%Karyawan.png)
-![PersebaranIndustry](Data%20%Visualization/Screenshot/Persebaran%20%Industry.png)
+![Dashboard](Data%20Visualization/Screenshot/Dashboard.png)
+![Geography](Data%20Visualization/Screenshot/Data%20Geography.png)
+Persebaran perusahaan besar paling banyak berada di New York sebanyak 15. 
+![PerbandinganRevenueDenganJumlahKaryawan](Data%20Visualization/Screenshot/Perbandingan%20Revenue%20dan%20Jumlah%20Karyawan.png)
+Hasil analisis ini mengindikasikan bahwa terdapat korelasi positif yang signifikan secara statistik antara jumlah karyawan dan pendapatan perusahaan. Dengan nilai analisis regresi sebagai berikut:
+Employees = 1,72865*Revenue (USD millions) +-35164,2
+R-Squared: 0,412157
+P-value: < 0,0001
+![PersebaranIndustry](Data%20Visualization/Screenshot/Persebaran%20Industry.png)
+Perusahaan besar di Amerika paling banyak bergerak di bidang Financials yaitu sebanyak 11 perusahaan.
 
 ### Referrensi / Library / Tools
 
