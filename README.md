@@ -1,75 +1,207 @@
 <h1 align="center">
   <br>
-  Seleksi Warga Basdat 2024 <br>
-  ETL Project
-  <br>
+  Discover the Titans: Top Companies Dominating Each Sector in Indonesia
   <br>
 </h1>
 
 <h2 align="left">
   <br>
-  Singkatnya?
+  Author
   <br>
 </h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+Anindita Widya Santoso (18222128)
+<br>
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## Deskripsi Singkat
+<p align="justify">
+Topik yang saya pilih untuk proyek ETL ini berhubungan dengan <strong>pasar saham</strong>. Saya memilih topik ini karena investasi adalah aktivitas yang penting untuk dilakukan. Namun, sebagai orang awam yang tidak mengenal pasar saham secara mendalam, seringkali saya merasa ragu ketika ingin terjun ke dunia saham. Saya khawatir tidak dapat melakukan analisis yang menyeluruh, sehingga saham yang saya pilih mungkin ternyata kurang menguntungkan. Untuk itu, saya melakukan <em>web scraping</em> terhadap data saham terkemuka di Indonesia dengan riwayat lima tahun terakhir. Tujuan saya adalah membantu para pemuda yang ingin mempelajari investasi untuk mencoba saham yang lebih <em><strong>low risk</strong></em> sebelum akhirnya mereka memiliki kepercayaan diri yang cukup untuk memasuki pasar saham yang lebih <em><strong>high risk</strong></em>.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+<p align="justify">
+Data yang dikumpulkan berasal dari situs web <strong><a href="https://www.idnfinancials.com">IDN Financials</a></strong>, yang menyediakan informasi mengenai kode perusahaan, nama perusahaan, kapitalisasi pasar (<em>market cap</em>), dan profitabilitasnya selama beberapa tahun terakhir. Sistem Basis Data Manajemen (DBMS) yang digunakan dalam proyek ini adalah PostgreSQL. Saya memilih PostgreSQL karena kemampuannya dalam menangani data dalam skala besar dengan efisien dan kemampuan untuk menjalankan query yang kompleks secara cepat.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+## Cara Menggunakan Scraper
+1. Install seluruh library yang dibutuhkan dengan menggunakan perintah `pip install`. Lakukan instalasi pada library `notebook`,`selenium`, `webdriver-manager`,`beautifulsoup4`,`pandas`,`sqlalchemy`,`psycopg2-binary`,`pipreqs`.
+    ```bash
+    pip install notebook selenium webdriver-manager beautifulsoup4 pandas sqlalchemy psycopg2-binary pipreqs
+    ```
+2. Clone repository ini untuk menggunakan scraper
+    ```bash
+    git clone https://github.com/aninditaws/Seleksi-2024-Tugas-1
+    ```
+3. Buka path `Data Scrapping\src`
+4. Buat server PostgreSQL pada terminal
+    ```bash
+    > psql -U postgres
+    Password: # Masukkan password PostgreSQL Anda
+    ```
+    ```bash
+    CREATE DATABASE titans;
+    ```
+5. Ubah kredensial PostgreSQL yang ada pada file `scraping.ipynb` bagian `engine` SQL File
+    ```bash
+    'postgresql://<username>:<password>@localhost:<port>/titans'
+    ```
+6. Jalankan script `scraping.ipynb` dengan perintah `jupyter nbconvert --to notebook --execute scraping.ipynb` atau lakukan Run All pada file tersebut
+7. Apabila ingin melakukan dump file SQL. Jalankan perintah berikut.
+    ```bash
+    > pg_dump -U postgres -d titans > titans.sql
+    ```
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+## Struktur File JSON
+Terdapat 3 file JSON yang dihasilkan dengan strukturnya yang berbeda-beda.
 
+**sectors_name.json** </p>
+  ```bash
+  {
+    "sectors-name": [
+      "Energy",
+      "Basic Materials",
+      "Industrials",
+      "Consumer Non-Cyclicals",
+      "Consumer Cyclicals",
+      "Healthcare",
+      "Financials",
+      "Properties and Real Estate",
+      "Technology",
+      "Infrastructure",
+      "Transportation and Logistics",
+      "Listed Investment Products"
+    ]
+  }
+  ```
 
+**sectors_data.json** </p>
+  ```bash
+  {
+    "Code":"VKTR",
+    "Company Name":"PT. VKTR Teknologi Mobilitas Tbk",
+    "Sector":"Consumer Cyclicals",
+    "Market Cap":"5.687.500,00",
+    "Price":"130",
+    "Change":"-5 (-4,00%)",
+    "Profit 2019":"n\/a",
+    "Profit 2020":"n\/a",
+    "Profit 2021":"n\/a",
+    "Profit 2022":"n\/a",
+    "Profit 2023":"5.428(0.51%)"
+  }
+  ```
 
+**all_data.json** </p>
+  ```bash
+  {
+    "Code":"VKTR",
+    "Company Name":"PT. VKTR Teknologi Mobilitas Tbk",
+    "Sector":"Consumer Cyclicals",
+    "Market Cap":5687500.0,
+    "Price":129.0,
+    "Change":-1.0,
+    "Profit 2019":0.0,
+    "Profit 2020":0.0,
+    "Profit 2021":0.0,
+    "Profit 2022":0.0,
+    "Profit 2023":5428.0,
+    "Profit 2019 %":0.0,
+    "Profit 2020 %":0.0,
+    "Profit 2021 %":0.0,
+    "Profit 2022 %":0.0,
+    "Profit 2023 %":0.51,
+    "Change %":-1.0
+  }
+  ```
+
+## Struktur ERD dan Diagram Relasional RDBMS
+Berikut merupakan perancangan database dalam bentuk ERD dan relasional.
+
+**Entity Relationship Diagram </p>**
+![ERD](Data%20Storing/design/ERD.png)
+
+Berdasarkan ERD di atas, saya mentranslasikan diagram relasional yang menjadi basis dari pembuatan tabel SQL </p>
+
+**Diagram Relasional </p>**
+![Relasional](Data%20Storing/design/Relasional.png)
+
+## Translasi ERD menjadi Relasional
+Berikut merupakan pemetaan entitas berdasarkan tipenya menjadi relasi.
+
+**Pemetaan <em> strong entity </em> menjadi relasi </p>**
+![Strong Entity](Data%20Storing/design/strong_entity.png)
+
+**Pemetaan <em> weak entity </em> menjadi relasi </p>**
+![Weak Entity](Data%20Storing/design/weak_entity.png)
+
+***Foreign Keys***
+- companies(sector_id) → sectors(sector_id)
+- pricehistory(company_code) → companies(company_code)
+- profit(company_code) → companies(company_code)
+
+**Relasi**
+- companies(<u>company_code</u>, sector_id, company_name, market_cap)
+- sectors(<u>sector_id</u>, sector_name)
+- profit(<u>year</u>, <u>company_code</u>, profit_value, profit_percentage)
+- pricehistory(<u>date</u>, <u>company_code</u>, price, change, change_percentage)
+
+***Trigger***
+- trigger_pricehistory_insert (tabel pricehistory)
+
+## Screenshot Program
+Berikut merupakan *screenshot* yang berhubungan dengan *scraping website* IDN Financials. 
+
+**Tampilan Website </p>**
+![Tampilan Website](Data%20Scraping/screenshot/website_sectors.png)
+![Tampilan Website](Data%20Scraping/screenshot/website_holdings.png)
+
+**Kode untuk Scrape Sectors </p>**
+![Scrape Sectors](Data%20Scraping/screenshot/scrape_sectors.png)
+
+**Kode untuk Scrape Holdings </p>**
+![Scrape Holdings](Data%20Scraping/screenshot/scrape_holdings1.png)
+![Scrape Holdings](Data%20Scraping/screenshot/scrape_holdings2.png)
+
+**Isi SQL </p>**
+**Daftar Tabel SQL </p>**
+![Daftar Tabel](Data%20Storing/screenshot/daftar_tabel.png)
+
+**Tabel Companies </p>**
+![Tabel Companies](Data%20Storing/screenshot/tabel_companies.png)
+![Isi Tabel Companies](Data%20Storing/screenshot/isi_companies.png)
+
+**Tabel Sectors </p>**
+![Tabel Sectors](Data%20Storing/screenshot/tabel_sectors.png)
+![Isi Tabel Sectors](Data%20Storing/screenshot/isi_sectors.png)
+
+**Tabel Profit </p>**
+![Tabel Profit](Data%20Storing/screenshot/tabel_profit.png)
+![Isi Tabel Profit](Data%20Storing/screenshot/isi_profit.png)
+
+**Tabel PriceHistory </p>**
+![Tabel PriceHistory](Data%20Storing/screenshot/tabel_pricehistory.png)
+![Isi Tabel PriceHistory](Data%20Storing/screenshot/isi_pricehistory.png)
+
+## Automated Scraping
+<p align="justify">
+Saat ini, fitur automated scraping yang saya rancang baru bisa <strong> bekerja di lokal </strong>. Sehingga, harus terdapat terminal yang selalu terbuka untuk merealisasikan fitur ini. </p>
+
+<p align="justify">
+Fitur ini dirancang untuk melakukan scraping setiap 24 jam guna mengambil data perubahan harga harian. Kode yang digunakan pada fitur ini dapat ditemukan pada <code>Data Scraping/src/app</code></p>
+
+**Data <m> Batch </m> Pertama**
+![Batch 1](Data%20Storing/screenshot/automated1.png)
+
+**Data <m> Batch </m> Kedua**
+![Batch 2](Data%20Storing/screenshot/automated2.png)
+
+**Data Companies Sebelum Automated Scraping**
+![Companies1](Data%20Storing/screenshot/count_companies.png)
+
+**Data Companies Setelah Automated Scraping**
+![Companies2](Data%20Storing/screenshot/count_companies2.png)
+
+## Referensi
+  - [selenium](https://selenium-python.readthedocs.io/)
+  - [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+  - [pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)
+  - [sqlalchemy](https://docs.sqlalchemy.org/en/14/)
+  - [psycopg2-binary](https://www.psycopg.org/docs/)
+  - [pipreqs](https://pypi.org/project/pipreqs/)
+  - [IDN Financials](https://www.idnfinancials.com/)
