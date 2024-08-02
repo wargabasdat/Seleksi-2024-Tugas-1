@@ -343,7 +343,7 @@ untuk data promo, setelah kita *click* promo tersebut, maka harus melakukan lang
 
 `Preprocessing Data`
 
-Selanjutnya, data yang didapatkan harus diberihkan agar bisa meng-ekstrak informasi yang dibutuhkan, seperti harga dalam bentuk integer, nama produk, perusahaan, dan kategori produk
+Selanjutnya, data yang didapatkan harus dibersihkan agar bisa meng-ekstrak informasi yang dibutuhkan, seperti harga dalam bentuk integer, nama produk, perusahaan, dan kategori produk
 <div align="center">
   <img src="Data Scraping/screenshot/ss_data_preprocessing.png" width="600"/>
 </div>
