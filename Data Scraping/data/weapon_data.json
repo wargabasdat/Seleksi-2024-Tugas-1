@@ -1,0 +1,1386 @@
+[
+    {
+        "name": "Absolution",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "A Thousand Floating Dreams",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Akuoumaru",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Alley Hunter",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Amenoma Kageuchi",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Amos' Bow",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Aqua Simulacra",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Aquila Favonia",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Wish"
+    },
+    {
+        "name": "Ballad of the Boundless Blue",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Event"
+    },
+    {
+        "name": "Ballad of the Fjords",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Beacon of the Reed Sea",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Black Tassel",
+        "type": "polearm",
+        "rarity": "rarity-3",
+        "atk": 354,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Blackcliff Agate",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT DMG",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Blackcliff Longsword",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "CRIT DMG",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Blackcliff Pole",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT DMG",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Blackcliff Slasher",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT DMG",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Blackcliff Warbow",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "CRIT DMG",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Bloodtainted Greatsword",
+        "type": "claymore",
+        "rarity": "rarity-3",
+        "atk": 354,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Calamity Queller",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 741,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Cashflow Supervision",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Cloudforged",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Cinnabar Spindle",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "DEF",
+        "drop": "Event"
+    },
+    {
+        "name": "Compound Bow",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Cool Steel",
+        "type": "sword",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Crane's Echoing Call",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 741,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Crescent Pike",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Crimson Moon's Semblance",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Dark Iron Sword",
+        "type": "sword",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "Elemental Mastery",
+        "drop": "Vendor"
+    },
+    {
+        "name": "Deathmatch",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Debate Club",
+        "type": "claymore",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Dodoco Tales",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "ATK",
+        "drop": "Event"
+    },
+    {
+        "name": "Dragon's Bane",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Dragonspine Spear",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Elegy for the End",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Emerald Orb",
+        "type": "catalyst",
+        "rarity": "rarity-3",
+        "atk": 448,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "End of the Line",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Sumeru Fishing Association"
+    },
+    {
+        "name": "Engulfing Lightning",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Everlasting Moonglow",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Eye of Perception",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Fading Twilight",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Favonius Codex",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Favonius Greatsword",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Favonius Lance",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Favonius Sword",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Favonius Warbow",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Ferrous Shadow",
+        "type": "claymore",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Festering Desire",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Event"
+    },
+    {
+        "name": "Fillet Blade",
+        "type": "sword",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Finale of the Deep",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Fleuve Cendre Ferryman",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Sumeru Fishing Association"
+    },
+    {
+        "name": "Flowing Purity",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Forest Regalia",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Freedom-Sworn",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Frostbearer",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Fruit of Fulfillment",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Hakushin Ring",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Halberd",
+        "type": "polearm",
+        "rarity": "rarity-3",
+        "atk": 448,
+        "secondary": "ATK",
+        "drop": "Chest"
+    },
+    {
+        "name": "Hamayumi",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Haran Geppaku Futsu",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Harbinger of Dawn",
+        "type": "sword",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Hunter's Path",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT Rate",
+        "drop": "Chest"
+    },
+    {
+        "name": "Iron Sting",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Jadefall's Splendor",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Kagotsurube Isshin",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Quest Reward"
+    },
+    {
+        "name": "Kagura's Verity",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Katsuragikiri Nagamasa",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Key of Khaj-Nisut",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "King's Squire",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Kitain Cross Spear",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Elemental Mastery",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Light of Foliar Incision",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Lion's Roar",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Lithic Blade",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Lithic Spear",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Lost Prayer to the Sacred Winds",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Luxurious Sea-Lord",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "ATK",
+        "drop": "Event"
+    },
+    {
+        "name": "Magic Guide",
+        "type": "catalyst",
+        "rarity": "rarity-3",
+        "atk": 354,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Mailed Flower",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Makhaira Aquamarine",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Mappa Mare",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Elemental Mastery",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Memory of Dust",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Messenger",
+        "type": "bow",
+        "rarity": "rarity-3",
+        "atk": 448,
+        "secondary": "CRIT DMG",
+        "drop": "Chest"
+    },
+    {
+        "name": "Missive Windspear",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Event"
+    },
+    {
+        "name": "Mistsplitter Reforged",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Mitternachts Waltz",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Wish"
+    },
+    {
+        "name": "Moonpiercer",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Elemental Mastery",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Mouun's Moon",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Oathsworn Eye",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Event"
+    },
+    {
+        "name": "Otherworldly Story",
+        "type": "catalyst",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Polar Star",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Portable Power Saw",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Base HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Predator",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Event"
+    },
+    {
+        "name": "Primordial Jade Cutter",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Primordial Jade Winged-Spear",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Prospector's Drill",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Base ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Prototype Amber",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "HP",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Prototype Archaic",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Prototype Crescent",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Prototype Rancour",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Prototype Starglitter",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Rainslasher",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Range Gauge",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Base ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Raven Bow",
+        "type": "bow",
+        "rarity": "rarity-3",
+        "atk": 448,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Recurve Bow",
+        "type": "bow",
+        "rarity": "rarity-3",
+        "atk": 354,
+        "secondary": "HP",
+        "drop": "Chest"
+    },
+    {
+        "name": "Redhorn Stonethresher",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Rightful Reward",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "HP",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Royal Bow",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Royal Greatsword",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Royal Grimoire",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Royal Longsword",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Royal Spear",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "ATK",
+        "drop": "Starglitter Exchange"
+    },
+    {
+        "name": "Rust",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sacrificial Bow",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sacrificial Fragments",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sacrificial Greatsword",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sacrificial Jade",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Sacrificial Sword",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 454,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sapwood Blade",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Scion of the Blazing Sun",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Serpent Spine",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Sharpshooter's Oath",
+        "type": "bow",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Silvershower Heartstrings",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "Base HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyrider Greatsword",
+        "type": "claymore",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyrider Sword",
+        "type": "sword",
+        "rarity": "rarity-3",
+        "atk": 354,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyward Atlas",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyward Blade",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyward Harp",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyward Pride",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Skyward Spine",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Slingshot",
+        "type": "bow",
+        "rarity": "rarity-3",
+        "atk": 354,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Snow-Tombed Starsilver",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Solar Pearl",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Song of Broken Pines",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 741,
+        "secondary": "Physical DMG Bonus",
+        "drop": "Wish"
+    },
+    {
+        "name": "Song of Stillness",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Splendor of Tranquil Waters",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Staff of Homa",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Staff of the Scarlet Sands",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Summit Shaper",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sword of Descension",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 440,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Sword of Narzissenkreuz",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Base ATK",
+        "drop": "Quest Reward"
+    },
+    {
+        "name": "Talking Stick",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "The Alley Flash",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 620,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "The Bell",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "The Black Sword",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "The Catch",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Energy Recharge",
+        "drop": "Vendor"
+    },
+    {
+        "name": "The Dockhand's Assistant",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Base HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "The First Great Magic",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "The Flute",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "The Stringless",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "The Unforged",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "The Viridescent Hunt",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "The Widsith",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Thrilling Tales of Dragon Slayers",
+        "type": "catalyst",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "HP",
+        "drop": "Wish"
+    },
+    {
+        "name": "Thundering Pulse",
+        "type": "bow",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Tidal Shadow",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "ATK",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Tome of the Eternal Flow",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Toukabou Shigure",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Event"
+    },
+    {
+        "name": "Traveler's Handy Sword",
+        "type": "sword",
+        "rarity": "rarity-3",
+        "atk": 448,
+        "secondary": "DEF",
+        "drop": "Chest"
+    },
+    {
+        "name": "Tulaytullah's Remembrance",
+        "type": "catalyst",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Twin Nephrite",
+        "type": "catalyst",
+        "rarity": "rarity-3",
+        "atk": 448,
+        "secondary": "CRIT Rate",
+        "drop": "Chest"
+    },
+    {
+        "name": "Ultimate Overlord's Mega Magic Sword",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Event"
+    },
+    {
+        "name": "Uraku Misugiri",
+        "type": "sword",
+        "rarity": "rarity-5",
+        "atk": 542,
+        "secondary": "CRIT DMG",
+        "drop": "Wish"
+    },
+    {
+        "name": "Verdict",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 674,
+        "secondary": "CRIT Rate",
+        "drop": "Wish"
+    },
+    {
+        "name": "Vortex Vanquisher",
+        "type": "polearm",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Wandering Evenstar",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    },
+    {
+        "name": "Wavebreaker's Fin",
+        "type": "polearm",
+        "rarity": "rarity-4",
+        "atk": 620,
+        "secondary": "Base ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "White Iron Greatsword",
+        "type": "claymore",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "DEF",
+        "drop": "Wish"
+    },
+    {
+        "name": "White Tassel",
+        "type": "polearm",
+        "rarity": "rarity-3",
+        "atk": 401,
+        "secondary": "CRIT Rate",
+        "drop": "Chest"
+    },
+    {
+        "name": "Whiteblind",
+        "type": "claymore",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "DEF",
+        "drop": "Crafting"
+    },
+    {
+        "name": "Windblume Ode",
+        "type": "bow",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Invitation of Windblume Event"
+    },
+    {
+        "name": "Wine and Song",
+        "type": "catalyst",
+        "rarity": "rarity-4",
+        "atk": 565,
+        "secondary": "Energy Recharge",
+        "drop": "Wish"
+    },
+    {
+        "name": "Wolf-Fang",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "CRIT Rate",
+        "drop": "BP Bounty"
+    },
+    {
+        "name": "Wolf's Gravestone",
+        "type": "claymore",
+        "rarity": "rarity-5",
+        "atk": 608,
+        "secondary": "ATK",
+        "drop": "Wish"
+    },
+    {
+        "name": "Xiphos' Moonlight",
+        "type": "sword",
+        "rarity": "rarity-4",
+        "atk": 510,
+        "secondary": "Elemental Mastery",
+        "drop": "Wish"
+    }
+]
