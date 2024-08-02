@@ -1,0 +1,2755 @@
+[
+    {
+        "name": "Aegis of the Immortal",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/aegis-of-the-immortal-e12ea841d061f90d5fc433eeece9935b0e317a29fff06ccd2fb7e3011693ccaa.jpg",
+        "lore": "The Immortal was said to own a shield that protected him from death itself.",
+        "build": []
+    },
+    {
+        "name": "Divine Rapier",
+        "price": "5600",
+        "item_image": "https://www.dotabuff.com/assets/items/divine-rapier-2e5ba838c5a8ee96648a83498e319f6e973aa288e0687d64f9411907fe9772a1.jpg",
+        "lore": "So powerful, it cannot have a single owner.",
+        "build": [
+            "Demon Edge",
+            "Sacred Relic",
+            "Recipe: Divine Rapier"
+        ]
+    },
+    {
+        "name": "Swift Blink",
+        "price": "6800",
+        "item_image": "https://www.dotabuff.com/assets/items/swift-blink-e5ff0e37dc77aafce301bf5539e2d84488371c2091a2c5004048dcc1948f75dd.jpg",
+        "lore": "A cunning blade able to anticipate and enable its bearer's movements.",
+        "build": [
+            "Blink Dagger",
+            "Eaglesong",
+            "Recipe: Swift Blink"
+        ]
+    },
+    {
+        "name": "Arcane Blink",
+        "price": "6800",
+        "item_image": "https://www.dotabuff.com/assets/items/arcane-blink-3779abcce2b58e779485950c07edfa1e6704adc3e2920d1cb968b3cb6c3d0bd2.jpg",
+        "lore": "A revitalizing tool to help bear the weight of arcane expenditure.",
+        "build": [
+            "Blink Dagger",
+            "Mystic Staff",
+            "Recipe: Arcane Blink"
+        ]
+    },
+    {
+        "name": "Disperser",
+        "price": "6100",
+        "item_image": "https://www.dotabuff.com/assets/items/disperser-4a2abaa688b1a35639d7a27e527f0c950c42975c66d1b67479e7cf7bf3379ffb.jpg",
+        "build": [
+            "Eaglesong",
+            "Diffusal Blade",
+            "Recipe: Disperser"
+        ]
+    },
+    {
+        "name": "Parasma",
+        "price": "5975",
+        "item_image": "https://www.dotabuff.com/assets/items/parasma-6298b2dda9b86d63fac7b3f1c042775ac7fc9ed3ec0edced629c871f61dd8569.jpg",
+        "lore": "Devastating.",
+        "build": [
+            "Mystic Staff",
+            "Witch Blade",
+            "Recipe: Parasma"
+        ]
+    },
+    {
+        "name": "Boots of Travel 2",
+        "price": "4500",
+        "item_image": "https://www.dotabuff.com/assets/items/boots-of-travel-2-a46b7b524f36eadf383fd8836d9b54c7e037495c0b33f7bc750268a9e8ff1ae4.jpg",
+        "lore": "Winged boots that grant omnipresence.",
+        "build": [
+            "Recipe: Boots of Travel",
+            "Boots of Travel",
+            "Recipe: Boots of Travel 2"
+        ]
+    },
+    {
+        "name": "Eye of Skadi",
+        "price": "5300",
+        "item_image": "https://www.dotabuff.com/assets/items/eye-of-skadi-9f369fcf7724b74340da24c6102ff9b2ad1880793e0a472c97ae0628f89509c4.jpg",
+        "lore": "Extremely rare artifact, guarded by the azure dragons.",
+        "build": [
+            "Ultimate Orb",
+            "Point Booster",
+            "Recipe: Eye of Skadi"
+        ]
+    },
+    {
+        "name": "Abyssal Blade",
+        "price": "6250",
+        "item_image": "https://www.dotabuff.com/assets/items/abyssal-blade-a178940651b7b2c3c8a5cf2602d3fef8cd95d7d45f816e11f925d7b8affb0dd9.jpg",
+        "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
+        "build": [
+            "Vanguard",
+            "Skull Basher",
+            "Recipe: Abyssal Blade"
+        ]
+    },
+    {
+        "name": "Gem of True Sight",
+        "price": "900",
+        "item_image": "https://www.dotabuff.com/assets/items/gem-of-true-sight-5ca53b6b2160904679f9e1bacc7c7f2e5b33d472ed8d1668ea58cf98a5f88f11.jpg",
+        "lore": "Not one thrall creature of the depths,<br>Nor spirit bound in drowning's keep,<br>Nor Maelrawn the Tentacular,<br>Shall rest till seas, gem comes to sleep.",
+        "build": []
+    },
+    {
+        "name": "Overwhelming Blink",
+        "price": "6800",
+        "item_image": "https://www.dotabuff.com/assets/items/overwhelming-blink-ae094bc03f5bd922ff031de4aa17407414224e1aa8ddb0cc8f9340765bc0672b.jpg",
+        "lore": "A horrifying dagger forged in the chaos maw and nigh untouchable by mortal hands.",
+        "build": [
+            "Blink Dagger",
+            "Reaver",
+            "Recipe: Overwhelming Blink"
+        ]
+    },
+    {
+        "name": "Wind Waker",
+        "price": "6825",
+        "item_image": "https://www.dotabuff.com/assets/items/wind-waker-90ae3aa27185636184201feb1aec8d175d63b42679242627e6b74b7044fbcd69.jpg",
+        "lore": "Proof enough to some that unseen forces manipulate the happenings of the material plane.",
+        "build": [
+            "Mystic Staff",
+            "Eul's Scepter of Divinity",
+            "Recipe: Wind Waker"
+        ]
+    },
+    {
+        "name": "Recipe: Swift Blink",
+        "price": "1750",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Nullifier",
+        "price": "4375",
+        "item_image": "https://www.dotabuff.com/assets/items/nullifier-a1f54e91d6e5e85fc8b04efcf812c8a568ca283bc210c14059d6e16b20949800.jpg",
+        "lore": "A dangerous weapon pilfered from an inverse dimension.",
+        "build": [
+            "Helm of Iron Will",
+            "Sacred Relic",
+            "Recipe: Nullifier"
+        ]
+    },
+    {
+        "name": "Butterfly",
+        "price": "5450",
+        "item_image": "https://www.dotabuff.com/assets/items/butterfly-d44afeca98307ed57a95710d41d2317203f4b9ec35fad316c8b40d20587287f7.jpg",
+        "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
+        "build": [
+            "Claymore",
+            "Talisman of Evasion",
+            "Eaglesong",
+            "Recipe: Butterfly"
+        ]
+    },
+    {
+        "name": "Octarine Core",
+        "price": "4800",
+        "item_image": "https://www.dotabuff.com/assets/items/octarine-core-182cfda3ed8b44fed778b89cb12f8c4bb7afc08d81e2bf8454c29e3b3de5fa8d.jpg",
+        "lore": "At the core of spellcraft are spectrums only the very gifted can sense.",
+        "build": [
+            "Soul Booster",
+            "Recipe: Octarine Core",
+            "Tiara of Selemene"
+        ]
+    },
+    {
+        "name": "Satanic",
+        "price": "5050",
+        "item_image": "https://www.dotabuff.com/assets/items/satanic-13f885747c7b3f92633561f0fa948ce0f76cd222f6d4a59576af328a35dde005.jpg",
+        "lore": "Immense power at the cost of your soul.",
+        "build": [
+            "Claymore",
+            "Morbid Mask",
+            "Reaver",
+            "Recipe: Satanic"
+        ]
+    },
+    {
+        "name": "Refresher Orb",
+        "price": "5000",
+        "item_image": "https://www.dotabuff.com/assets/items/refresher-orb-12783adb4b9ef70c2930ca502b9e59347d9bd8886e7e2542c397e1d4b8f750e4.jpg",
+        "lore": "A powerful artifact created for wizards.",
+        "build": [
+            "Recipe: Refresher Orb",
+            "Ring of Tarrasque",
+            "Cornucopia",
+            "Tiara of Selemene"
+        ]
+    },
+    {
+        "name": "Town Portal Scroll",
+        "price": "100",
+        "item_image": "https://www.dotabuff.com/assets/items/town-portal-scroll-2d2582148dee6c9f143ed6b6d7b21d736633dae1a3e5b57525cff42310c0fff3.jpg",
+        "lore": "What a hero truly needs.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Aghanim's Blessing",
+        "price": "1600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Assault Cuirass",
+        "price": "5125",
+        "item_image": "https://www.dotabuff.com/assets/items/assault-cuirass-68541fef62c34d7a63f86fc68051599732105603adc4d4d134597b5765923092.jpg",
+        "lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed.",
+        "build": [
+            "Platemail",
+            "Hyperstone",
+            "Buckler",
+            "Recipe: Assault Cuirass"
+        ]
+    },
+    {
+        "name": "Khanda",
+        "price": "5200",
+        "item_image": "https://www.dotabuff.com/assets/items/khanda-f5a39923be48259b230ca589a3e3758225dc52b2bbfc0cf1652797673524cc3a.jpg",
+        "build": [
+            "Crystalys",
+            "Phylactery",
+            "Recipe: Khanda"
+        ]
+    },
+    {
+        "name": "Linken's Sphere",
+        "price": "4800",
+        "item_image": "https://www.dotabuff.com/assets/items/linkens-sphere-30c56af718b84eb3540ea0d21ad8788ecfc3d3a6faef841a08e02cb469e7bc84.jpg",
+        "lore": "This magical sphere once protected one of the most famous heroes in history.",
+        "build": [
+            "Ultimate Orb",
+            "Perseverance",
+            "Recipe: Linken's Sphere"
+        ]
+    },
+    {
+        "name": "Daedalus",
+        "price": "5100",
+        "item_image": "https://www.dotabuff.com/assets/items/daedalus-828ea7472c4b25a41d53d1935f99b9da5d6ccf214eec4769952cc0b891c66316.jpg",
+        "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
+        "build": [
+            "Demon Edge",
+            "Recipe: Daedalus",
+            "Crystalys"
+        ]
+    },
+    {
+        "name": "Kaya and Sange",
+        "price": "4200",
+        "item_image": "https://www.dotabuff.com/assets/items/kaya-and-sange-6ee1804937b79b23fb88c106a8343fd63ee52f480bcb8351322215971985bdf9.jpg",
+        "lore": "Two of three known items of unimaginable power that many believe were crafted at the same enchanter's forge.",
+        "build": [
+            "Sange",
+            "Kaya",
+            "Recipe: Kaya and Sange"
+        ]
+    },
+    {
+        "name": "Yasha and Kaya",
+        "price": "4200",
+        "item_image": "https://www.dotabuff.com/assets/items/yasha-and-kaya-ed3131c1efae9fbe8a3209084ced2aa2def51090b8e08418c76bbee3fce79064.jpg",
+        "lore": "Yasha and Kaya when paired together share a natural resonance.",
+        "build": [
+            "Yasha",
+            "Kaya",
+            "Recipe: Yasha and Kaya"
+        ]
+    },
+    {
+        "name": "Recipe: Arcane Blink",
+        "price": "1750",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Bloodthorn",
+        "price": "6625",
+        "item_image": "https://www.dotabuff.com/assets/items/bloodthorn-b779885b832852d96f00aef0234b38caa2aca93290e645da4d4c91002c0cacf7.jpg",
+        "lore": "A reviled blade that bites deeper with each wriggle of its victim's final throes.",
+        "build": [
+            "Javelin",
+            "Hyperstone",
+            "Orchid Malevolence",
+            "Recipe: Bloodthorn"
+        ]
+    },
+    {
+        "name": "Shiva's Guard",
+        "price": "5175",
+        "item_image": "https://www.dotabuff.com/assets/items/shivas-guard-03bf68f6c8b10c0e21021f63ea50e88e4abb252a2d9af21eba02b4b2838ee8ec.jpg",
+        "lore": "Said to have belonged to a goddess, today it retains much of its former power.",
+        "build": [
+            "Platemail",
+            "Recipe: Shiva's Guard",
+            "Veil of Discord"
+        ]
+    },
+    {
+        "name": "Radiance",
+        "price": "4700",
+        "item_image": "https://www.dotabuff.com/assets/items/radiance-5980bca3437019c5a18f9080e6fc88f91fb9bef43049a9a61c314cdf8ac33a35.jpg",
+        "lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies.",
+        "build": [
+            "Talisman of Evasion",
+            "Sacred Relic",
+            "Recipe: Radiance"
+        ]
+    },
+    {
+        "name": "Revenant's Brooch",
+        "price": "4900",
+        "item_image": "https://www.dotabuff.com/assets/items/revenants-brooch-358aa04a419e7595bf02aa1b3c2531245e66634bd1cbe500a59ba0264d7b391f.jpg",
+        "lore": "The cursed brooch of a fallen guardian who stalks forever between the veil of life and death.",
+        "build": [
+            "Sacred Relic",
+            "Voodoo Mask",
+            "Recipe: Revenant's Brooch"
+        ]
+    },
+    {
+        "name": "Cheese",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/cheese-88678c5a78d1df56391fe341035631eae5f6ff84256ed4d397a621fb06465b59.jpg",
+        "lore": "Made from the milk of a long lost Furbolg vendor, it restores the vitality of those who taste it.",
+        "build": []
+    },
+    {
+        "name": "Heart of Tarrasque",
+        "price": "5200",
+        "item_image": "https://www.dotabuff.com/assets/items/heart-of-tarrasque-4133179abe5a35843fd99399a15002fd1ae2ba837e81cb9e34cab9177784ca9f.jpg",
+        "lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude.",
+        "build": [
+            "Reaver",
+            "Recipe: Heart of Tarrasque",
+            "Ring of Tarrasque"
+        ]
+    },
+    {
+        "name": "Scythe of Vyse",
+        "price": "5200",
+        "item_image": "https://www.dotabuff.com/assets/items/scythe-of-vyse-29e7b6d30eeba6040c438abfdab0948992c54fb0396e166167ecb4d1e0460336.jpg",
+        "lore": "The most guarded relic among the cult of Vyse, it is the most coveted weapon among magi.",
+        "build": [
+            "Mystic Staff",
+            "Recipe: Scythe of Vyse",
+            "Tiara of Selemene"
+        ]
+    },
+    {
+        "name": "Monkey King Bar",
+        "price": "4700",
+        "item_image": "https://www.dotabuff.com/assets/items/monkey-king-bar-ee22b3861fd4dbf8eec2941eb5f550d416d8f072134a75bdef5a2fa8cee0e469.jpg",
+        "lore": "A powerful staff used by a master warrior.",
+        "build": [
+            "Javelin",
+            "Demon Edge",
+            "Recipe: Monkey King Bar",
+            "Blitz Knuckles"
+        ]
+    },
+    {
+        "name": "Harpoon",
+        "price": "4700",
+        "item_image": "https://www.dotabuff.com/assets/items/harpoon-e300e20ca673abccd7a0f91f32852cc3b7af0e529a415d8933c9a88e0505ee8a.jpg",
+        "build": [
+            "Echo Sabre",
+            "Recipe: Harpoon",
+            "Diadem"
+        ]
+    },
+    {
+        "name": "Sange and Yasha",
+        "price": "4200",
+        "item_image": "https://www.dotabuff.com/assets/items/sange-and-yasha-d6211e1847a001cb4a7efc3643a2b686f8dfc9d3ee95b619dcc8bcd4797574b3.jpg",
+        "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
+        "build": [
+            "Recipe: Sange and Yasha",
+            "Sange",
+            "Yasha"
+        ]
+    },
+    {
+        "name": "Recipe: Overwhelming Blink",
+        "price": "1750",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Mjollnir",
+        "price": "5500",
+        "item_image": "https://www.dotabuff.com/assets/items/mjollnir-001e9b97f26c32c250b29e5bae20bd8377c5638bd242a0bc67446670aff060db.jpg",
+        "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
+        "build": [
+            "Hyperstone",
+            "Recipe: Mjollnir",
+            "Maelstrom"
+        ]
+    },
+    {
+        "name": "Gleipnir",
+        "price": "5450",
+        "item_image": "https://www.dotabuff.com/assets/items/gleipnir-e4347d3176e92676fcce6ff2f9c8bb916c985a375f8ef16765c9ea0396780e02.jpg",
+        "lore": "Bindings forged by impossible means to leash an ancient evil.",
+        "build": [
+            "Maelstrom",
+            "Rod of Atos",
+            "Recipe: Gleipnir"
+        ]
+    },
+    {
+        "name": "Moon Shard",
+        "price": "4000",
+        "item_image": "https://www.dotabuff.com/assets/items/moon-shard-c8c75b0ea7bd60211ac207cc45b15b1b588a31e6537298d367e4e316d17c7825.jpg",
+        "lore": "Said to be a tear from the lunar goddess Selemene.",
+        "build": [
+            "Hyperstone",
+            "Recipe: Moon Shard"
+        ]
+    },
+    {
+        "name": "Aghanim's Blessing",
+        "price": "5800",
+        "item_image": "https://www.dotabuff.com/assets/items/aghanims-blessing-d304fe07769b81d0c2624d78b12ed3a97194470b18d1999f8d5ed5654d8b1691.jpg",
+        "lore": "The scepter of a wizard with demigod-like powers.",
+        "build": [
+            "Aghanim's Scepter",
+            "Recipe: Aghanim's Blessing"
+        ]
+    },
+    {
+        "name": "Boots of Travel",
+        "price": "2500",
+        "item_image": "https://www.dotabuff.com/assets/items/boots-of-travel-c22900baf87e70de2d300520deaf10569f216f126063565fd5416312ba722108.jpg",
+        "lore": "Winged boots that grant omnipresence.",
+        "build": [
+            "Boots of Speed",
+            "Recipe: Boots of Travel"
+        ]
+    },
+    {
+        "name": "Manta Style",
+        "price": "4650",
+        "item_image": "https://www.dotabuff.com/assets/items/manta-style-6ac9dcbc12891e614a6b0b4dd4ca658ae34f31c4ac7bd6c8737b0d75062e4873.jpg",
+        "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
+        "build": [
+            "Recipe: Manta Style",
+            "Yasha",
+            "Diadem"
+        ]
+    },
+    {
+        "name": "Dagon (level 5)",
+        "price": "7450",
+        "item_image": "https://www.dotabuff.com/assets/items/dagon-level-5-310d0eb3b15ec41edd0054c2c25ff6e80f856b1977b0c7d67076bd8b6059b857.jpg",
+        "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+        "build": [
+            "Recipe: Dagon",
+            "Recipe: Dagon (level 5)",
+            "Dagon (level 4)"
+        ]
+    },
+    {
+        "name": "Bloodstone",
+        "price": "4400",
+        "item_image": "https://www.dotabuff.com/assets/items/bloodstone-a5ff019bd1b9d91daad61d1f8118f007027c9139e87f479981105d7d14699fde.jpg",
+        "lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit.",
+        "build": [
+            "Void Stone",
+            "Recipe: Bloodstone",
+            "Soul Booster",
+            "Voodoo Mask"
+        ]
+    },
+    {
+        "name": "Hurricane Pike",
+        "price": "4450",
+        "item_image": "https://www.dotabuff.com/assets/items/hurricane-pike-c677c912f7adeee700f463062bed06cb6169b89f76361aa72de14a032955df61.jpg",
+        "lore": "A legendary pike once held as royal sigil of the ancient wyvern riders.",
+        "build": [
+            "Force Staff",
+            "Dragon Lance",
+            "Recipe: Hurricane Pike"
+        ]
+    },
+    {
+        "name": "Silver Edge",
+        "price": "5450",
+        "item_image": "https://www.dotabuff.com/assets/items/silver-edge-0e3f2029586f10fceb590b1b16a5e606db6166fa286213a70b9c45e4061455e4.jpg",
+        "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
+        "build": [
+            "Demon Edge",
+            "Shadow Blade",
+            "Recipe: Silver Edge"
+        ]
+    },
+    {
+        "name": "Recipe: Wind Waker",
+        "price": "1400",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Abyssal Blade",
+        "price": "1675",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Disperser",
+        "price": "800",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Ethereal Blade",
+        "price": "5375",
+        "item_image": "https://www.dotabuff.com/assets/items/ethereal-blade-f325535e1eafc4f08aa77ace48773ee8976a1d22f240578557437ae17eeff66a.jpg",
+        "lore": "A flickering blade of a ghastly nature, it is capable of dealing damage in both magical and physical planes.",
+        "build": [
+            "Ghost Scepter",
+            "Recipe: Ethereal Blade",
+            "Aether Lens"
+        ]
+    },
+    {
+        "name": "Aghanim's Scepter",
+        "price": "4200",
+        "item_image": "https://www.dotabuff.com/assets/items/aghanims-scepter-d304fe07769b81d0c2624d78b12ed3a97194470b18d1999f8d5ed5654d8b1691.jpg",
+        "lore": "The scepter of a wizard with demigod-like powers.",
+        "build": [
+            "Ogre Axe",
+            "Blade of Alacrity",
+            "Staff of Wizardry",
+            "Point Booster",
+            "Recipe: Aghanim's Scepter"
+        ]
+    },
+    {
+        "name": "Helm of the Overlord",
+        "price": "5725",
+        "item_image": "https://www.dotabuff.com/assets/items/helm-of-the-overlord-285a2459e91008602edd8181b7effe302e5a337badc88dd80b2ad84800cfbe52.jpg",
+        "lore": "The powerful headpiece of a dead necromancer.",
+        "build": [
+            "Ultimate Orb",
+            "Helm of the Dominator",
+            "Recipe: Helm of the Overlord"
+        ]
+    },
+    {
+        "name": "Mage Slayer",
+        "price": "2825",
+        "item_image": "https://www.dotabuff.com/assets/items/mage-slayer-560b20b9411e3d1d785616ed92484655f306d9afc17eb434878cafad52acd8f0.jpg",
+        "lore": "Forged by a secret order in The Third Age of Praxa'cia to fell the False King.",
+        "build": [
+            "Cloak",
+            "Oblivion Staff",
+            "Recipe: Mage Slayer"
+        ]
+    },
+    {
+        "name": "Refresher Shard",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/refresher-shard-fd64450b657c29e57ea927a7fd5e01d394c4d5f0d1746e487a699909a9b96ac8.jpg",
+        "lore": "Across an epoch of endless battle, the Immortal's will to triumph never faltered.",
+        "build": []
+    },
+    {
+        "name": "Guardian Greaves",
+        "price": "4950",
+        "item_image": "https://www.dotabuff.com/assets/items/guardian-greaves-3483ed249f0790216a16fc963a4b054124b78c476d79bc79ded4dc2ea9595de3.jpg",
+        "lore": "One of many holy instruments constructed to honor the Omniscience.",
+        "build": [
+            "Mekansm",
+            "Buckler",
+            "Arcane Boots",
+            "Recipe: Guardian Greaves"
+        ]
+    },
+    {
+        "name": "Boots of Bearing",
+        "price": "4275",
+        "item_image": "https://www.dotabuff.com/assets/items/boots-of-bearing-6a846b85671d18735a2f392608aa324402250a4fff303045d4a83186e885d6aa.jpg",
+        "lore": "Resplendent footwear fashioned for the ancient herald that first dared spread the glory of Stonehall beyond the original borders of its nascent claim.",
+        "build": [
+            "Drum of Endurance",
+            "Tranquil Boots",
+            "Recipe: Boots of Bearing"
+        ]
+    },
+    {
+        "name": "Block of Cheese",
+        "price": "2",
+        "item_image": "https://www.dotabuff.com/assets/items/block-of-cheese-54c171a7e032b6d7095d6b4b7f28a24b5f8ced2898e356e57422472bf7400d6d.jpg",
+        "lore": "First there was the Belt of Strength. Then there were the Boots of Travel. Now, at long last, the Block of Cheese.",
+        "build": []
+    },
+    {
+        "name": "Eternal Shroud",
+        "price": "3700",
+        "item_image": "https://www.dotabuff.com/assets/items/eternal-shroud-9e1446d575cfa240b74b5de81f8913a4f1022e1ea1ae652e77e3a933272ae969.jpg",
+        "lore": "A pristine hood that feeds upon strife to empower its owner.",
+        "build": [
+            "Ogre Axe",
+            "Cloak",
+            "Vitality Booster",
+            "Recipe: Eternal Shroud"
+        ]
+    },
+    {
+        "name": "Force Boots",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/force-boots-821c55f643a2fc5a2b71f72dfdf113c6dd8b6e60455748a4d7f9fbe965197955.jpg",
+        "lore": "Elusive marvels never successfully studied for proper classification in the archives.",
+        "build": []
+    },
+    {
+        "name": "Black King Bar",
+        "price": "4050",
+        "item_image": "https://www.dotabuff.com/assets/items/black-king-bar-8cd19b9e780334dfb49999208c4d5a4550c5e337ab2f55aa14e7c38cd2cd56f9.jpg",
+        "lore": "A powerful staff imbued with the strength of giants.",
+        "build": [
+            "Mithril Hammer",
+            "Ogre Axe",
+            "Recipe: Black King Bar"
+        ]
+    },
+    {
+        "name": "Bottle",
+        "price": "675",
+        "item_image": "https://www.dotabuff.com/assets/items/bottle-2302fc9050e4ca3a2bc1198799862f7f2b259fbea129ebb19809f8ddbcd50130.jpg",
+        "lore": "An old bottle that survived the ages, the contents placed inside become enchanted.",
+        "build": []
+    },
+    {
+        "name": "Desolator",
+        "price": "3500",
+        "item_image": "https://www.dotabuff.com/assets/items/desolator-b76a55dc1d973db80eac0f4526a2283cdf6927f3887f368c9c26816b7d28f087.jpg",
+        "lore": "A wicked weapon, used in torturing political criminals.",
+        "build": [
+            "Mithril Hammer",
+            "Recipe: Desolator",
+            "Blight Stone"
+        ]
+    },
+    {
+        "name": "Mirror Shield",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/mirror-shield-b99c388b42789838ce8235c78a3fef2ec9e0792d6a1f61317e0ba8c63d93d828.jpg",
+        "lore": "The shield that long ago robbed the old one of his first memories.",
+        "build": []
+    },
+    {
+        "name": "Skull Basher",
+        "price": "2875",
+        "item_image": "https://www.dotabuff.com/assets/items/skull-basher-96d7a88078fcec14e28dd798e0de6f46fcbec576cb724b3d113723d11a628082.jpg",
+        "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
+        "build": [
+            "Mithril Hammer",
+            "Belt of Strength",
+            "Recipe: Skull Basher"
+        ]
+    },
+    {
+        "name": "Pipe of Insight",
+        "price": "3725",
+        "item_image": "https://www.dotabuff.com/assets/items/pipe-of-insight-6c009e37b3688c33b7c35a13e6426cdc0025f7a49d9266e2b6fe8d9cafb407ee.jpg",
+        "lore": "A powerful artifact of mysterious origin, it creates barriers against magical forces.",
+        "build": [
+            "Cloak",
+            "Recipe: Pipe of Insight",
+            "Headdress",
+            "Ring of Tarrasque"
+        ]
+    },
+    {
+        "name": "Stygian Desolator",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/stygian-desolator-1a6532cb9fc3e1122e17ad2329522265b5354baaefe446fbd443273ff61886f0.jpg",
+        "lore": "The original demonic favorite that served as basis for the beloved mortal design.",
+        "build": []
+    },
+    {
+        "name": "Holy Locket",
+        "price": "2250",
+        "item_image": "https://www.dotabuff.com/assets/items/holy-locket-6fadafd2fd79eee793a2c589857432dfcd2569e46566c5558373f82e20a2bffd.jpg",
+        "lore": "A prized relic long thought lost forever in a failed crusade.",
+        "build": [
+            "Magic Wand",
+            "Recipe: Holy Locket",
+            "Diadem"
+        ]
+    },
+    {
+        "name": "Phylactery",
+        "price": "2600",
+        "item_image": "https://www.dotabuff.com/assets/items/phylactery-6976e7e0cfb3111c66c6b06cdde40198d2b5388fdae896ed0a3862d426ff1873.jpg",
+        "build": [
+            "Point Booster",
+            "Recipe: Phylactery",
+            "Diadem"
+        ]
+    },
+    {
+        "name": "Crimson Guard",
+        "price": "3725",
+        "item_image": "https://www.dotabuff.com/assets/items/crimson-guard-f88f3fe37a9509c840bcd49efcfbf18eec0ee180d825428cc8ca7d1449f89c9a.jpg",
+        "lore": "A cuirass originally built to protect against the dreaded Year Beast.",
+        "build": [
+            "Helm of Iron Will",
+            "Vanguard",
+            "Recipe: Crimson Guard"
+        ]
+    },
+    {
+        "name": "Ninja Gear",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/ninja-gear-e7cf80fcb89c365ace960e6136035afb4479b5a3fc97783f05f103a2bfcb4d26.jpg",
+        "lore": "Valuable equipment recovered by a young explorer sifting through the flotsam and detritus drifting in the void.",
+        "build": []
+    },
+    {
+        "name": "Stormcrafter",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/stormcrafter-6c963457d70aac8e3eb62353d07dbacf9841ba2b8f6ae21421cd21344820d625.jpg",
+        "lore": "The accidental byproduct of a spell conjured to entrap a lesser god.",
+        "build": []
+    },
+    {
+        "name": "Mind Breaker",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/mind-breaker-c5f7fa8cda3558634d4580b56916de6a1aa91981586c982b775414b6b6f4bf83.jpg",
+        "lore": "A bewitching blade of indeterminate form capable of piercing the psyche of even the most willful foe.",
+        "build": []
+    },
+    {
+        "name": "Aghanim's Shard",
+        "price": "1400",
+        "item_image": "https://www.dotabuff.com/assets/items/aghanims-shard-4e79e040a49fe45c7aa7aeb2b0776c06488564bc5cd33e742960153363910526.jpg",
+        "lore": "With origins known only to a single wizard, fragments of this impossible crystal are nearly as coveted as the renowned scepter itself.",
+        "build": []
+    },
+    {
+        "name": "Apex",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/apex-ef44cd491769468983ed2cf198e7ee8feb28ac4522ddbfba19fd0d57df7f7cac.jpg",
+        "lore": "Three orbs of remarkable power bound within a single scepter.",
+        "build": []
+    },
+    {
+        "name": "Lotus Orb",
+        "price": "3850",
+        "item_image": "https://www.dotabuff.com/assets/items/lotus-orb-e3fac9e42905a9e36ccffddaf991c534c6f27ca42a68c62d3b71ffe7a07fa938.jpg",
+        "lore": "The jewel at its center still reflects a pale image of its creator.",
+        "build": [
+            "Platemail",
+            "Energy Booster",
+            "Perseverance",
+            "Recipe: Lotus Orb"
+        ]
+    },
+    {
+        "name": "Pirate Hat",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/pirate-hat-3c327df4ce699ee731a4f2171b29b4737f76e90fcc2075689c6b315d5caeefeb.jpg",
+        "lore": "A salty skulltopper cursed with endless good fortune.",
+        "build": []
+    },
+    {
+        "name": "Aghanim's Blessing - Roshan",
+        "price": "5800",
+        "item_image": "https://www.dotabuff.com/assets/items/aghanims-blessing-roshan-a2f6d33cc196d72706f6a7f306379104205bfd36ced17047096b84ad7e2f6790.jpg",
+        "lore": "The scepter of a wizard with demigod-like powers.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Boots of Travel",
+        "price": "2000",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Aviana's Feather",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/avianas-feather-ad37f23872b730b22c55341783e63fa15af2e5b99b097ed79e189c4ce0667e64.jpg",
+        "build": []
+    },
+    {
+        "name": "Greater Healing Lotus",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/greater-healing-lotus-1d44f95aa726c5bbe7370274df8a2dbfbd81d9f523c9ba91b7e947687a42838e.jpg",
+        "build": [
+            "Great Healing Lotus",
+            "Recipe: Greater Healing Lotus"
+        ]
+    },
+    {
+        "name": "Recipe: Buckler",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Eye of Skadi",
+        "price": "1300",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Soul Booster",
+        "price": "3000",
+        "item_image": "https://www.dotabuff.com/assets/items/soul-booster-d01f336a38ffce5267c72ebc3ced36480e71b72b4e867b9561de2a5f1fd63d11.jpg",
+        "lore": "Regain lost courage.",
+        "build": [
+            "Energy Booster",
+            "Point Booster",
+            "Vitality Booster",
+            "Recipe: Soul Booster"
+        ]
+    },
+    {
+        "name": "Ancient Guardian",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/ancient-guardian-456b837b5dc668c4958dfbe5f76c6fd012b665ca6359c9823014e0f532f96726.jpg",
+        "build": []
+    },
+    {
+        "name": "Arcanist's Armor",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/arcanists-armor-dbe4094152ed690bcf91f4abc4acf7d32070088ad5d08c009578e1414cc1a9d5.jpg",
+        "lore": "An exquisite piece commissioned by a paranoid monarch who choked on a piece of fruit long before the item saw its intended use.",
+        "build": []
+    },
+    {
+        "name": "Roshan's Banner",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/roshans-banner-6939c29a793c2f14b231fd0f70e1ba8b3278fb7ea2e2623852177876992f7034.jpg",
+        "build": []
+    },
+    {
+        "name": "Battle Fury",
+        "price": "4100",
+        "item_image": "https://www.dotabuff.com/assets/items/battle-fury-3e6ddf5268ad1d402f6acacb70e5033bae6890b2c8b833f26cc75e2921c199d4.jpg",
+        "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
+        "build": [
+            "Broadsword",
+            "Claymore",
+            "Quelling Blade",
+            "Recipe: Battle Fury",
+            "Cornucopia"
+        ]
+    },
+    {
+        "name": "Giant's Ring",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/giants-ring-cbe2968c922e3a836273c0c8b66c01218ad8412c29d484e7f3aa91a2ab43cccf.jpg",
+        "lore": "Prized procurement of an otherwise unremarkable ruler of Elze who abdicated his position and vanished.",
+        "build": []
+    },
+    {
+        "name": "Magic Lamp",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/magic-lamp-b6c75a399be1ed0efd6c8f7c39c864ce455622a9f155172a5393dbecbfd2a40e.jpg",
+        "build": []
+    },
+    {
+        "name": "Paladin Sword",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/paladin-sword-87dec371ab317eaae4e5e9459077868a7bd847f358c506ed67e765b6c6910a73.jpg",
+        "lore": "The sigil blade of the legendary Brother Yhols of Gausra, stripped from its scabbard on the day of his controversial excommunication.",
+        "build": []
+    },
+    {
+        "name": "Vladmir's Offering",
+        "price": "2200",
+        "item_image": "https://www.dotabuff.com/assets/items/vladmirs-offering-582795a78d6a2d17f876bf76b7b5952c207ff82682d66ae50457bf5186d1ec5b.jpg",
+        "lore": "An eerie mask that is haunted with the malice of a fallen vampire.",
+        "build": [
+            "Blades of Attack",
+            "Morbid Mask",
+            "Recipe: Vladmir's Offering",
+            "Buckler",
+            "Ring of Basilius"
+        ]
+    },
+    {
+        "name": "Recipe: Parasma",
+        "price": "400",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Tiara of Selemene",
+        "price": "1800",
+        "item_image": "https://www.dotabuff.com/assets/items/tiara-of-selemene-a97e54f42984bca5c0b6214e6452aafcd25f4d031265d922d7c141b4dcd982a3.jpg",
+        "lore": "Tiara!",
+        "build": []
+    },
+    {
+        "name": "Seer Stone",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/seer-stone-1c25ba742b2b30f6af736cdfa2f644836fe13902a70afb05818ae1b972ce9b43.jpg",
+        "lore": "The curious creation of a wizard who professed to hail from another time.",
+        "build": []
+    },
+    {
+        "name": "Timeless Relic",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/timeless-relic-1e253dc8a3836b1e7f9c020e20735fa09242663323fdad70d27721e6354d6846.jpg",
+        "lore": "An unmarred discovery from the excavated ruins of an ancient wizard's academy.",
+        "build": []
+    },
+    {
+        "name": "Enchanted Quiver",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/enchanted-quiver-ed8d9f9a4e1eac32bc8ad3264a3f0df55716015e3dd94f8f3c665b6dd4a2bd08.jpg",
+        "lore": "A graceful gift blessed by the goddess of the hunt.",
+        "build": []
+    },
+    {
+        "name": "Elven Tunic",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/elven-tunic-cb9fbb8cbf05b5bb2db27c9ab67a2220dadecfdcadec7ebc99d853e72e85e886.jpg",
+        "lore": "Even simple items of elven make seem imbued with inexplicable efficacy.",
+        "build": []
+    },
+    {
+        "name": "Phase Boots",
+        "price": "1500",
+        "item_image": "https://www.dotabuff.com/assets/items/phase-boots-1e1484aa86fdef3822ee6e7f6c36e4b0c857763757d8596ae0880c31e7ee7fe3.jpg",
+        "lore": "Boots that allow the wearer to travel between the ether.",
+        "build": [
+            "Blades of Attack",
+            "Chainmail",
+            "Boots of Speed",
+            "Recipe: Phase Boots"
+        ]
+    },
+    {
+        "name": "Recipe: Daedalus",
+        "price": "900",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Ascetic's Cap",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/ascetics-cap-7cd1fd63751f2e884cfd1d57ca0c407e0af42289f99aebebe04913f790052518.jpg",
+        "lore": "An austere hat thought to be of Turstarkuri origin.",
+        "build": []
+    },
+    {
+        "name": "Book of Shadows",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/book-of-shadows-bbf0607d55de048839265b3c101fff2bc954baef1eab4716783046399bfe65ef.jpg",
+        "lore": "An impossible tome filled with unreadable prose of unknowable thoughts.",
+        "build": []
+    },
+    {
+        "name": "Defiant Shell",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/defiant-shell-51d11d6cd9ef6eb2ee0089eb7aee27898a16bad242e7c3ecf1c22d6dcee22a3b.jpg",
+        "build": []
+    },
+    {
+        "name": "Trickster Cloak",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/trickster-cloak-fe31a8a0009980093a474bd97e70242fe5411eb94373fb549d8c0891a72ec6ed.jpg",
+        "lore": "A fantastic garment immediately misplaced by its creator upon completion.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Refresher Orb",
+        "price": "200",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Solar Crest",
+        "price": "2600",
+        "item_image": "https://www.dotabuff.com/assets/items/solar-crest-1a5ced7292b602796367524c8d236f98bb837b646996dba2780e984ea1424d5b.jpg",
+        "lore": "A talisman forged to honor the daytime sky.",
+        "build": [
+            "Recipe: Solar Crest",
+            "Wind Lace",
+            "Crown",
+            "Pavise"
+        ]
+    },
+    {
+        "name": "Rattlecage",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/rattlecage-1abed0701ff5f91e2fb972ecf24b66e63d758b627718ea54eb4a35ee2bcc5def.jpg",
+        "build": []
+    },
+    {
+        "name": "Havoc Hammer",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/havoc-hammer-4b3fc1ecea9c45387096101002e70e0ae5c40885ab7aa5740ecfbde6e696ac8f.jpg",
+        "build": []
+    },
+    {
+        "name": "Vindicator's Axe",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/vindicators-axe-519725b1c5af4b9c7edcc62ffa82f59fc90b8ca9bc7555a46c0d24f675cd3f8a.jpg",
+        "build": []
+    },
+    {
+        "name": "Power Treads",
+        "price": "1400",
+        "item_image": "https://www.dotabuff.com/assets/items/power-treads-980cb4e9fc74127f29942cbfe149be2b414eec7e1614b860a4a6d312bc07f4a9.jpg",
+        "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
+        "build": [
+            "Belt of Strength",
+            "Band of Elvenskin",
+            "Robe of the Magi",
+            "Gloves of Haste",
+            "Boots of Speed",
+            "Recipe: Power Treads"
+        ]
+    },
+    {
+        "name": "Mystic Staff",
+        "price": "2800",
+        "item_image": "https://www.dotabuff.com/assets/items/mystic-staff-b843f0c7bf1ac978037498d96ef497cd791a8116b1aa43c79101d36794eece83.jpg",
+        "lore": "Enigmatic staff made of only the most expensive crystals.",
+        "build": []
+    },
+    {
+        "name": "Tango (Shared)",
+        "price": "30",
+        "item_image": "https://www.dotabuff.com/assets/items/tango-shared-d9ad0d9217167b01f7e95b305c3c2899fa9e79842478a8f134cc0aba9acb75a7.jpg",
+        "lore": "Om nom nom.",
+        "build": []
+    },
+    {
+        "name": "Nemesis Curse",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/nemesis-curse-29ba50cba6c3c2408b4b8ff22246ba355985dad75561f503887a959ad0d37f68.jpg",
+        "build": []
+    },
+    {
+        "name": "Blink Dagger",
+        "price": "2250",
+        "item_image": "https://www.dotabuff.com/assets/items/blink-dagger-baaa3b7c2ac85481cfd574b8f305bcae4c8f4117e8f4050d100aa1da213a863d.jpg",
+        "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Headdress",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Aeon Disk",
+        "price": "3000",
+        "item_image": "https://www.dotabuff.com/assets/items/aeon-disk-8aae2bca25f3e4d9642c864c2aee84cd919d7e9ccc59b0c0006077a8a17a33d3.jpg",
+        "lore": "A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so many believe.",
+        "build": [
+            "Energy Booster",
+            "Vitality Booster",
+            "Recipe: Aeon Disk"
+        ]
+    },
+    {
+        "name": "Spirit Vessel",
+        "price": "2780",
+        "item_image": "https://www.dotabuff.com/assets/items/spirit-vessel-f897e0a9f8a27f6bf8f0cab2a37cdc9355d7bae95d3f876ea5d03bf41e99b379.jpg",
+        "lore": "Forged by a god to entrap the soul of another.",
+        "build": [
+            "Vitality Booster",
+            "Urn of Shadows",
+            "Recipe: Spirit Vessel"
+        ]
+    },
+    {
+        "name": "Ceremonial Robe",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/ceremonial-robe-a458bfe107bb225e256edf69cfc866c229bc69b0847e963e86fea98262528560.jpg",
+        "lore": "One of many items lost in the looting of Zelenwyr's sacred reliquary.",
+        "build": []
+    },
+    {
+        "name": "Book of the Dead",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/book-of-the-dead-19b293b752862b0ef67ec2874875c1c3a1624aae083008c3c9b50430fbb27c2c.jpg",
+        "lore": "A record of the final reckoning. With one page torn out.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Assault Cuirass",
+        "price": "1300",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Cloak of Flames",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/cloak-of-flames-e5506fe1c74122f6b84e5eef6d4366173c093105f793ed6dd0486632142f3bb9.jpg",
+        "lore": "A very fine cloak that plays host to an overly-protective living flame.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Shiva's Guard",
+        "price": "2050",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Tier 4 Token",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/tier-4-token-8789c68683d830cc4021bdc31f078db011beaf1e0641dce3d97e7e6bb165e61b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Ethereal Blade",
+        "price": "1600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Scythe of Vyse",
+        "price": "600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Boots of Bearing",
+        "price": "1700",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Tier 5 Token",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/tier-5-token-24de71f3ff5ae262e48f0bd91f0d5d7bd3c53f3f21647c63100786a5b46286d6.jpg",
+        "build": []
+    },
+    {
+        "name": "Diffusal Blade",
+        "price": "2500",
+        "item_image": "https://www.dotabuff.com/assets/items/diffusal-blade-21a27fea46f32bd63b834fed74df2c029bde647398e9c7750ce5e57ff1ed0d10.jpg",
+        "lore": "An enchanted blade that allows the user to cut straight into the enemy's soul.",
+        "build": [
+            "Robe of the Magi",
+            "Blade of Alacrity",
+            "Recipe: Diffusal Blade"
+        ]
+    },
+    {
+        "name": "Eaglesong",
+        "price": "2800",
+        "item_image": "https://www.dotabuff.com/assets/items/eaglesong-7bf50659209222f1878c0e2d24535ea8a4acee5096b625f1ac337f1acb88fb27.jpg",
+        "lore": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it.",
+        "build": []
+    },
+    {
+        "name": "Heaven's Halberd",
+        "price": "3500",
+        "item_image": "https://www.dotabuff.com/assets/items/heavens-halberd-51009539648e1581c74d7f1c5623b2f2a107eeec5380d6612f29e550c66536cf.jpg",
+        "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
+        "build": [
+            "Talisman of Evasion",
+            "Sange",
+            "Recipe: Heaven's Halberd"
+        ]
+    },
+    {
+        "name": "Great Healing Lotus",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/great-healing-lotus-516dec07a238a7844a5be282d36b4f9135151952b1596e9cab89770905981594.jpg",
+        "build": [
+            "Healing Lotus",
+            "Recipe: Great Healing Lotus"
+        ]
+    },
+    {
+        "name": "Martyr's Plate",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/martyrs-plate-49dec3ca03b9d96f978bf62e6ba3a6eda0cf6461f32b983704478fb8fa900171.jpg",
+        "build": []
+    },
+    {
+        "name": "Soul Ring",
+        "price": "805",
+        "item_image": "https://www.dotabuff.com/assets/items/soul-ring-89487b703542e95ae4eac47b84dbeffd0fdcef96cbb85546f5b788199cc2d3a7.jpg",
+        "lore": "A ring that feeds on the souls of those who wear it.",
+        "build": [
+            "Ring of Protection",
+            "Gauntlets of Strength",
+            "Recipe: Soul Ring"
+        ]
+    },
+    {
+        "name": "Eul's Scepter of Divinity",
+        "price": "2625",
+        "item_image": "https://www.dotabuff.com/assets/items/euls-scepter-of-divinity-4485ba2033945c942f163e85f456af29741379ce4f91158babe185552ad7cae2.jpg",
+        "lore": "A mysterious scepter passed down through the ages, its disruptive winds can be used for good or evil.",
+        "build": [
+            "Staff of Wizardry",
+            "Void Stone",
+            "Recipe: Eul's Scepter of Divinity",
+            "Wind Lace"
+        ]
+    },
+    {
+        "name": "Meteor Hammer",
+        "price": "2850",
+        "item_image": "https://www.dotabuff.com/assets/items/meteor-hammer-1f5636fa67033573121f3053fa2cdd5f9e823fb3e771e64c973758e329571b5c.jpg",
+        "lore": "An enchanted hammer forged of metals discovered in the ruins of a village destroyed by a great star storm.",
+        "build": [
+            "Recipe: Meteor Hammer",
+            "Kaya",
+            "Crown"
+        ]
+    },
+    {
+        "name": "Hyperstone",
+        "price": "2000",
+        "item_image": "https://www.dotabuff.com/assets/items/hyperstone-b33db02cc48b3b1f55884647e713c22880afaab90b8eb428582dc11e9f85dca8.jpg",
+        "lore": "A mystical, carved stone that boosts the fervor of the holder.",
+        "build": []
+    },
+    {
+        "name": "Light Collector",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/light-collector-e535c9768b5c688ddd10ed0819b8138d172a14ff384ccdb2103564461f8c92f3.jpg",
+        "build": []
+    },
+    {
+        "name": "Telescope",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/telescope-71086be0ddc1e591c462ec7fd27f33db9d518747d9be85d35c9f005777ba895a.jpg",
+        "lore": "A handy tool that manages to make close what once was far.",
+        "build": []
+    },
+    {
+        "name": "Orb of Destruction",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/orb-of-destruction-9e591d83eeeaaa4e48ed34bf7a77a4a9ea28bb175df53532a3a3fe06c5cedd56.jpg",
+        "lore": "An ingot of chaos suspended in wizard's ether, housed within an arcanist's orb.",
+        "build": []
+    },
+    {
+        "name": "Dagon (level 4)",
+        "price": "6300",
+        "item_image": "https://www.dotabuff.com/assets/items/dagon-level-4-ea1a94fb67af20b7abc9611198bd630d68a1389cde6e35b213744ea24a776347.jpg",
+        "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+        "build": [
+            "Recipe: Dagon",
+            "Recipe: Dagon (level 4)",
+            "Dagon (level 3)"
+        ]
+    },
+    {
+        "name": "Doubloon",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/doubloon-244e59294851c9bade5c38f19942be8f69aff578c8737a26b50135b6b09b0aa2.jpg",
+        "build": []
+    },
+    {
+        "name": "Falcon Blade",
+        "price": "1125",
+        "item_image": "https://www.dotabuff.com/assets/items/falcon-blade-fee0db0381721c81a9ace5ebe7e72c256e68f4426f50300c32d8c63000254b8c.jpg",
+        "lore": "An enchanted blade that long ago raised a hopeless urchin from pauper to king.",
+        "build": [
+            "Blades of Attack",
+            "Sage's Mask",
+            "Fluffy Hat",
+            "Recipe: Falcon Blade"
+        ]
+    },
+    {
+        "name": "Reaver",
+        "price": "2800",
+        "item_image": "https://www.dotabuff.com/assets/items/reaver-52697008ad361f7a6e82827b633c04f9c30884776e991c0f18ffac8d10f02b11.jpg",
+        "lore": "A massive axe capable of tearing whole mountains down.",
+        "build": []
+    },
+    {
+        "name": "Ogre Seal Totem",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/ogre-seal-totem-77ff4df8c26b18d841f40610df4fb3716c1207cb953b785f56ceb6b82c7d6ecc.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Revenant's Brooch",
+        "price": "800",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Kaya",
+        "price": "2100",
+        "item_image": "https://www.dotabuff.com/assets/items/kaya-a74e4bc6efbc344481b0d4d2634a5ca59a5f965c0cd0cd9708e0c928064c9905.jpg",
+        "lore": "The staff of a renowned sorceress, lost for countless millennia.",
+        "build": [
+            "Robe of the Magi",
+            "Staff of Wizardry",
+            "Recipe: Kaya"
+        ]
+    },
+    {
+        "name": "Dandelion Amulet",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/dandelion-amulet-a2d7000cd7b48b79d57e2aae814f30d044a23adb91c79739be80a0143e6dd540.jpg",
+        "build": []
+    },
+    {
+        "name": "Rod of Atos",
+        "price": "2250",
+        "item_image": "https://www.dotabuff.com/assets/items/rod-of-atos-4122b40d56576a2bde61adecc35980a960751fbc1e0853432b1d211c12df4bc1.jpg",
+        "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
+        "build": [
+            "Staff of Wizardry",
+            "Vitality Booster",
+            "Recipe: Rod of Atos"
+        ]
+    },
+    {
+        "name": "Whisper of the Dread",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/whisper-of-the-dread-7315f0fcba953b2fa38449ba642dcfa783ca99ddb9a00f0bd95cfb4efac44a58.jpg",
+        "build": []
+    },
+    {
+        "name": "Dagon",
+        "price": "2850",
+        "item_image": "https://www.dotabuff.com/assets/items/dagon-d4fb9440265e697ae66096afd8f6c18d20f7c0b4de49b96bab25ab1830483a02.jpg",
+        "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+        "build": [
+            "Recipe: Dagon",
+            "Voodoo Mask",
+            "Diadem"
+        ]
+    },
+    {
+        "name": "Ultimate Orb",
+        "price": "2800",
+        "item_image": "https://www.dotabuff.com/assets/items/ultimate-orb-0603c5537f57a1bef0c145ec5807242120089a70540fec84728220ee56f017bf.jpg",
+        "lore": "A mystical orb containing the essence of life.",
+        "build": []
+    },
+    {
+        "name": "Orchid Malevolence",
+        "price": "3275",
+        "item_image": "https://www.dotabuff.com/assets/items/orchid-malevolence-3b1fe424394f2e0cb549ccace5745da08aa0af22c4ac9110e17845a8bfa6ea4c.jpg",
+        "lore": "A garnet rod constructed from the essence of a fire demon.",
+        "build": [
+            "Oblivion Staff",
+            "Recipe: Orchid Malevolence",
+            "Cornucopia"
+        ]
+    },
+    {
+        "name": "Bullwhip",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/bullwhip-434484589d3223ba1b53548e31ad91fa85519b419cc3160885d94a018eb280f4.jpg",
+        "lore": "Once the favored lash of an infamous broker of pit fighters and other live trade.",
+        "build": []
+    },
+    {
+        "name": "Royal Jelly",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/royal-jelly-8a120ba625e979702a466ab37c852602c14e25f28ec36d6ed7a0c0f87e75b07a.jpg",
+        "lore": "To those who harvest olgru jelly, success serves more than mere profit-it's often the means to survival-for only the jelly itself can cure the ravages that follow a sting from the vigilant denizens of the giant hives.",
+        "build": []
+    },
+    {
+        "name": "Echo Sabre",
+        "price": "2700",
+        "item_image": "https://www.dotabuff.com/assets/items/echo-sabre-3c6912647dd2037677047936a3bdaa2fc87b7a85a31f3bb4cd9502269c8e4629.jpg",
+        "lore": "A deceptively swift blade imbued with resonant magic.",
+        "build": [
+            "Broadsword",
+            "Ogre Axe",
+            "Void Stone",
+            "Recipe: Echo Sabre"
+        ]
+    },
+    {
+        "name": "Pupil's Gift",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/pupils-gift-ed5de30a4d86bfc9f635bd5e81c3427e5795465fdebe17b370f4ae45184112cd.jpg",
+        "lore": "An astounding plate of ever-replenishing, fortifying fruit.",
+        "build": []
+    },
+    {
+        "name": "Witch Blade",
+        "price": "2775",
+        "item_image": "https://www.dotabuff.com/assets/items/witch-blade-943daaebbf328dce11630b0fd13581994b588029d678e668b2b5937e96d2649d.jpg",
+        "lore": "A spiteful blade inadvertently possessed by the soul of its incautious creator.",
+        "build": [
+            "Chainmail",
+            "Oblivion Staff",
+            "Recipe: Witch Blade"
+        ]
+    },
+    {
+        "name": "Armlet of Mordiggian",
+        "price": "2500",
+        "item_image": "https://www.dotabuff.com/assets/items/armlet-of-mordiggian-affe66f48b5655c675eccfec5a9cc21c8d8700eca3b06e93ee56d4af04047ff2.jpg",
+        "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
+        "build": [
+            "Blades of Attack",
+            "Helm of Iron Will",
+            "Gloves of Haste",
+            "Recipe: Armlet of Mordiggian"
+        ]
+    },
+    {
+        "name": "Aether Lens",
+        "price": "2275",
+        "item_image": "https://www.dotabuff.com/assets/items/aether-lens-e3adccde028dc57a6be5145dfb0a2eceb4c2a5979f2d7a4b58d5b62708ce4461.jpg",
+        "lore": "Polished with the incantation of his final breath, the gift of a dying mage to his sickly son.",
+        "build": [
+            "Void Stone",
+            "Energy Booster",
+            "Recipe: Aether Lens"
+        ]
+    },
+    {
+        "name": "Ring of Tarrasque",
+        "price": "1800",
+        "item_image": "https://www.dotabuff.com/assets/items/ring-of-tarrasque-2a7c4362cd755d10e004651a225cc0978f55dc6f9236a7a32ee186b6fa49b7eb.jpg",
+        "lore": "An ageless ring forged with an otherwise simple blood magic amplified by the presumed source of its key component.",
+        "build": []
+    },
+    {
+        "name": "Psychic Headband",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/psychic-headband-06099bdeff54ab189cd2116a569d1af3d3a0b4c99ad89de21c6c0b57805b6eae.jpg",
+        "lore": "A failed experiment in finer telekinetic control, still fit for other ends.",
+        "build": []
+    },
+    {
+        "name": "Healing Lotus",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/healing-lotus-0e55062f08899a6e4573ff3b6570927780e81ec19100fa672890326b9202a8da.jpg",
+        "build": []
+    },
+    {
+        "name": "Grove Bow",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/grove-bow-7630860c2d62e6a11cdf50c2a9f50169083390f8c0939d0c8b4d638f08226965.jpg",
+        "lore": "A gift from the moon goddess to one of her prized disciples many memories ago.",
+        "build": []
+    },
+    {
+        "name": "Cornucopia",
+        "price": "1200",
+        "item_image": "https://www.dotabuff.com/assets/items/cornucopia-36bc939d16db9e33ba76695af2fcba55701b05c6bf4c1aec289b32f9f50ef29e.jpg",
+        "build": []
+    },
+    {
+        "name": "Unwavering Condition",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/unwavering-condition-e0a914007c97d8e3049039295cfe42bc9e74afc7e7f18708152e94af77051a66.jpg",
+        "build": []
+    },
+    {
+        "name": "Dragon Scale",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/dragon-scale-37ed12a3b23bfce44666842f81969c5a73acf32b9900845f8d0a5d84dd9ba844.jpg",
+        "lore": "The remains of a dragon always outvalue the wealth of even the most prodigious hoard.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Heart of Tarrasque",
+        "price": "600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Specialist's Array",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/specialists-array-aad7cdc2b6aa867c82b4f04327ab7061e990a7d252600e1f425b3600b55e463c.jpg",
+        "lore": "An impressive kit of trigger enhancements born in an aging assassin's idle mind.",
+        "build": []
+    },
+    {
+        "name": "Crystalys",
+        "price": "2000",
+        "item_image": "https://www.dotabuff.com/assets/items/crystalys-0756c44cec35a55641139b63f307e676d69810ebe94ef06a48db7231ebd4ca77.jpg",
+        "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
+        "build": [
+            "Blades of Attack",
+            "Claymore",
+            "Recipe: Crystalys"
+        ]
+    },
+    {
+        "name": "Vampire Fangs",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/vampire-fangs-1dc782a10bc801dd2f59ee22cdd3680517848f6addc93cd1a00a5d4c0ba650ca.jpg",
+        "build": []
+    },
+    {
+        "name": "Smoke of Deceit",
+        "price": "50",
+        "item_image": "https://www.dotabuff.com/assets/items/smoke-of-deceit-4942315ad2248fb6edb078378a5cfdfdb352f3dbbfed5f44a811ee6813d6b956.jpg",
+        "lore": "The charlatan wizard Myrddin's only true contribution to the arcane arts.",
+        "build": []
+    },
+    {
+        "name": "Vambrace",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/vambrace-756b8a75cfb032ddc5ca25e57d0fbdbbd806183e3123dae61cfc0233ea895aaa.jpg",
+        "lore": "The coveted treasure that divided the heirs of Queen Raiya upon her death, resulting in the eventual downfall of her kingdom.",
+        "build": []
+    },
+    {
+        "name": "Blade Mail",
+        "price": "2300",
+        "item_image": "https://www.dotabuff.com/assets/items/blade-mail-3d678cf7bad08b315fb34563d8dec35d3df4387f6d68fcbce9a50d27792262e0.jpg",
+        "lore": "A razor-sharp coat of mail, it is the choice of selfless martyrs in combat.",
+        "build": [
+            "Broadsword",
+            "Chainmail",
+            "Recipe: Blade Mail"
+        ]
+    },
+    {
+        "name": "Arcane Boots",
+        "price": "1300",
+        "item_image": "https://www.dotabuff.com/assets/items/arcane-boots-a3780516ff09b554f3aff61b4a97cf56eb0b901f12cec9e15956dfefd2e1e620.jpg",
+        "lore": "Magi equipped with these boots are valued in battle.",
+        "build": [
+            "Boots of Speed",
+            "Ring of Basilius",
+            "Recipe: Arcane Boots"
+        ]
+    },
+    {
+        "name": "Gossamer Cape",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/gossamer-cape-9047f0280dc458efd8b2c4ef06bcb86eadcda7e7664101c73127f5f73400b2eb.jpg",
+        "build": []
+    },
+    {
+        "name": "Dagon (level 3)",
+        "price": "5150",
+        "item_image": "https://www.dotabuff.com/assets/items/dagon-level-3-050c09eb07daad349a3cbc4c094df7e197ceb8006fa3a550c97b45dfec9134a9.jpg",
+        "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+        "build": [
+            "Recipe: Dagon",
+            "Recipe: Dagon (level 3)",
+            "Dagon (level 2)"
+        ]
+    },
+    {
+        "name": "Recipe: Harpoon",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Craggy Coat",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/craggy-coat-e243112ada3126f5d09114f53f0dfc34e4f373bc512c112a6a93fc5bca3f5d9d.jpg",
+        "build": []
+    },
+    {
+        "name": "Clarity",
+        "price": "50",
+        "item_image": "https://www.dotabuff.com/assets/items/clarity-cd44b4ec19aa7d3eb357c6f043945ea34eb81540fb419f88ed069369844e50d4.jpg",
+        "lore": "Clear water that enhances the ability to meditate.",
+        "build": []
+    },
+    {
+        "name": "Glimmer Cape",
+        "price": "2150",
+        "item_image": "https://www.dotabuff.com/assets/items/glimmer-cape-6f2d6a4a6d2b34573d2b9e1713c2333a76933a2b57ea2f95d55a407f12ed8b70.jpg",
+        "lore": "The stolen cape of a master illusionist.",
+        "build": [
+            "Cloak",
+            "Shadow Amulet",
+            "Recipe: Glimmer Cape"
+        ]
+    },
+    {
+        "name": "Recipe: Dagon",
+        "price": "1150",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Force Staff",
+        "price": "2200",
+        "item_image": "https://www.dotabuff.com/assets/items/force-staff-117877d5e7097ce5c723ecb67b275da9c3122f5b778b9d92e08284e6292e2f11.jpg",
+        "lore": "Allows you to manipulate others, for good or evil.",
+        "build": [
+            "Staff of Wizardry",
+            "Recipe: Force Staff",
+            "Fluffy Hat"
+        ]
+    },
+    {
+        "name": "Hand of Midas",
+        "price": "2200",
+        "item_image": "https://www.dotabuff.com/assets/items/hand-of-midas-149820e5a96de541d977101589a00e5402866e76eee103696b4654659234f839.jpg",
+        "lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets.",
+        "build": [
+            "Gloves of Haste",
+            "Recipe: Hand of Midas"
+        ]
+    },
+    {
+        "name": "Ghost Scepter",
+        "price": "1500",
+        "item_image": "https://www.dotabuff.com/assets/items/ghost-scepter-f83a60b6a05a514ca8d102bfa0ff16fb6927f8b00a90b85d99ed476cde754295.jpg",
+        "lore": "Imbues the wielder with a ghostly presence, allowing them to evade physical damage.",
+        "build": []
+    },
+    {
+        "name": "Demon Edge",
+        "price": "2200",
+        "item_image": "https://www.dotabuff.com/assets/items/demon-edge-a233feaf6fd144adee016fdc930e311bda21a0b7c3938eeac2be60d967198b61.jpg",
+        "lore": "One of the oldest weapons forged by the Demon-Smith Abzidian, it killed its maker when he tested its edge.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Bloodthorn",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Eye of the Vizier",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/eye-of-the-vizier-46a502ee3f4aa83747f68cddbad0ebef083174459199cc79eda2367ac742571b.jpg",
+        "lore": "The ring of a cunning court mage who imprisoned a cadre of enemies to serve as his personal mana reserve.",
+        "build": []
+    },
+    {
+        "name": "Bracer",
+        "price": "505",
+        "item_image": "https://www.dotabuff.com/assets/items/bracer-6f90a395012ff706c86b8623eb58ee162eb4671f50f8f5b5b85528a4fc162004.jpg",
+        "lore": "The bracer is a common choice to toughen up defenses and increase longevity.",
+        "build": [
+            "Gauntlets of Strength",
+            "Circlet",
+            "Recipe: Bracer"
+        ]
+    },
+    {
+        "name": "Arcane Ring",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/arcane-ring-2af44ea76abbcdd72a1aa6dc4a7de5912b72f5264abe9107e2d7267c724ffe6c.jpg",
+        "lore": "Once a prized heirloom of a minor lord's house.",
+        "build": []
+    },
+    {
+        "name": "Magic Wand",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/magic-wand-8705c4305218afde38f755a6bdb2bb54da60a4b3ce6d8163950015c5f2bad52e.jpg",
+        "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+        "build": [
+            "Iron Branch",
+            "Magic Stick",
+            "Recipe: Magic Wand"
+        ]
+    },
+    {
+        "name": "Orb of Corrosion",
+        "price": "875",
+        "item_image": "https://www.dotabuff.com/assets/items/orb-of-corrosion-2bf60bec41b07138f75052e3a2e4ad0b58acda8a4dab4c95ce2f7d51250609e8.jpg",
+        "lore": "Seepage from the wounds of a warrior deity, sealed in an arcanist's orb following a campaign of vicious slaughter.",
+        "build": [
+            "Ring of Protection",
+            "Gloves of Haste",
+            "Orb of Venom",
+            "Recipe: Orb of Corrosion"
+        ]
+    },
+    {
+        "name": "Mask of Madness",
+        "price": "1900",
+        "item_image": "https://www.dotabuff.com/assets/items/mask-of-madness-0e63d9a627f81612f499ecca27a9503ac3ebf08b053eae0b4d762fb64aa2493c.jpg",
+        "lore": "Once this mask is worn, its bearer becomes an uncontrollable aggressive force.",
+        "build": [
+            "Broadsword",
+            "Morbid Mask",
+            "Recipe: Mask of Madness"
+        ]
+    },
+    {
+        "name": "Null Talisman",
+        "price": "505",
+        "item_image": "https://www.dotabuff.com/assets/items/null-talisman-997fd29f6837f936654e61e1dbfed9eb5331b3198f9062e88df1d760d33e6d92.jpg",
+        "lore": "A small gemstone attached to several chains.",
+        "build": [
+            "Mantle of Intelligence",
+            "Circlet",
+            "Recipe: Null Talisman"
+        ]
+    },
+    {
+        "name": "Recipe: Guardian Greaves",
+        "price": "1450",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Wraith Band",
+        "price": "505",
+        "item_image": "https://www.dotabuff.com/assets/items/wraith-band-9eaacdbaab915ccd7783356c43ea7a3183c34ac94298b83ce3931530fbf026c5.jpg",
+        "lore": "A circlet with faint whispers echoing about it.",
+        "build": [
+            "Slippers of Agility",
+            "Circlet",
+            "Recipe: Wraith Band"
+        ]
+    },
+    {
+        "name": "Shadow Blade",
+        "price": "3000",
+        "item_image": "https://www.dotabuff.com/assets/items/shadow-blade-f351f4c8348228aa652474b58f0c378e3356d0cd3c4fa94b057894bcd0bea449.jpg",
+        "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
+        "build": [
+            "Broadsword",
+            "Recipe: Shadow Blade",
+            "Shadow Amulet",
+            "Blitz Knuckles"
+        ]
+    },
+    {
+        "name": "Infused Raindrops",
+        "price": "225",
+        "item_image": "https://www.dotabuff.com/assets/items/infused-raindrops-f9bf098ef26522cb7eb54e8e23b978cf7ffad295cd8f6497a6700ca206dcce65.jpg",
+        "lore": "Elemental protection from magical assaults.",
+        "build": []
+    },
+    {
+        "name": "Morbid Mask",
+        "price": "900",
+        "item_image": "https://www.dotabuff.com/assets/items/morbid-mask-e44de839fb4410e97597aad2afe830e0996ec7152149bfed8426c59c708117c7.jpg",
+        "lore": "A mask that drains the energy of those caught in its gaze.",
+        "build": []
+    },
+    {
+        "name": "Dust of Appearance",
+        "price": "80",
+        "item_image": "https://www.dotabuff.com/assets/items/dust-of-appearance-1a084e6a1a5468dbbf1044a1fb57fceed791b07ffad1b791da2bff8218823c51.jpg",
+        "lore": "One may hide visage, but never volume.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Drum of Endurance",
+        "price": "500",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Seeds of Serenity",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/seeds-of-serenity-99d54495058ad7f3c5bd244fa65635536bb1bdd5ba1123c111167d1fd05dd6d1.jpg",
+        "lore": "An evergreen sprout treasured by the woodkin and highly coveted by interlopers and their like.",
+        "build": []
+    },
+    {
+        "name": "Dragon Lance",
+        "price": "1900",
+        "item_image": "https://www.dotabuff.com/assets/items/dragon-lance-45113f6ba3b0cb8c4914e10782ffaaf9abee98ecdfac86ba846b13ce42c64234.jpg",
+        "lore": "The forward charge of the wyvern host grants no quarter.",
+        "build": [
+            "Belt of Strength",
+            "Blade of Alacrity",
+            "Recipe: Dragon Lance"
+        ]
+    },
+    {
+        "name": "Fairy's Trinket",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/fairys-trinket-051b6c6c7a00b306596d6522d0d85cd04c8bea2622128b7c9868536a1f176a8f.jpg",
+        "lore": "A small token imbued with the fortune of the fae in recognition of an intriguing display of mortal kindness.",
+        "build": []
+    },
+    {
+        "name": "Sacred Relic",
+        "price": "3400",
+        "item_image": "https://www.dotabuff.com/assets/items/sacred-relic-8f6cabb2312914532c1f7c3bd1bac842357f98ce7df34e3c3ed9ed32a301b4c2.jpg",
+        "lore": "An ancient weapon that often turns the tides of war.",
+        "build": []
+    },
+    {
+        "name": "Occult Bracelet",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/occult-bracelet-a86a1466d15690fb84552b100f10109534b3b183057942fea3a62184317baaa4.jpg",
+        "lore": "A band that bears effigy of the dark goddess Eloshar's unsleeping eye.",
+        "build": []
+    },
+    {
+        "name": "Sentry Ward",
+        "price": "50",
+        "item_image": "https://www.dotabuff.com/assets/items/sentry-ward-dd2b908c62ca6fb0d865041f80415eb8cf6e3e57c60b45e8c76c4c7ccac22884.jpg",
+        "lore": "A form of plant originally grown in the garden of a fearful king.",
+        "build": []
+    },
+    {
+        "name": "Drum of Endurance",
+        "price": "1650",
+        "item_image": "https://www.dotabuff.com/assets/items/drum-of-endurance-f30997916aa772124c01111960de374c5bd25d11986378d98c9f023b2ebe55f2.jpg",
+        "lore": "A relic that enchants the bodies of those around it for swifter movement in times of crisis.",
+        "build": [
+            "Belt of Strength",
+            "Robe of the Magi",
+            "Recipe: Drum of Endurance",
+            "Wind Lace"
+        ]
+    },
+    {
+        "name": "Dagon (level 2)",
+        "price": "4000",
+        "item_image": "https://www.dotabuff.com/assets/items/dagon-level-2-cffc9519718bdff2ba941bfcaf28d1c00cf9d186e483723064f9c329886b4d4c.jpg",
+        "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
+        "build": [
+            "Recipe: Dagon",
+            "Dagon",
+            "Recipe: Dagon (level 2)"
+        ]
+    },
+    {
+        "name": "Trusty Shovel",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/trusty-shovel-1ddd690c0bed292bd7afaf00a447342772668e6aadc7d571accdee2c37479e9a.jpg",
+        "lore": "Former plaything of a young deity, received as a gift from his uncle.",
+        "build": []
+    },
+    {
+        "name": "Faded Broach",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/faded-broach-6f136f7a3f24c489aaa696a044bd0267fb3e40e908453e34664bc204004ed13b.jpg",
+        "lore": "A life-saving jewel bestowed upon a young queen by a kindly vizier. ",
+        "build": []
+    },
+    {
+        "name": "Broom Handle",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/broom-handle-cd0d89c11cdd1f0d8136d61ef4d05e22dfea8cc5d13ab265f2b833b1721ef8ac.jpg",
+        "lore": "The surprisingly dangerous creation of an apprentice sorcerer with a strange fondness for brooms.",
+        "build": []
+    },
+    {
+        "name": "Tier 3 Token",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/tier-3-token-f107ba43d7213f59625864dc7440dd21012d6eef7b4afa464fe947162cf07e64.jpg",
+        "build": []
+    },
+    {
+        "name": "Platemail",
+        "price": "1400",
+        "item_image": "https://www.dotabuff.com/assets/items/platemail-21c88b480882cc8357bd05ff78d73c5351e5c949688ee4164512055f4ecc816d.jpg",
+        "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Monkey King Bar",
+        "price": "600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Ironwood Tree",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/ironwood-tree-515c1b769c09b3a8a571656022f54e6cdd1f6f8c1ba50575fdd659e61ed2999a.jpg",
+        "lore": "Precious. And hearty as a weed.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Silver Edge",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Mekansm",
+        "price": "800",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Safety Bubble",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/safety-bubble-c814f35a09c6cc2625b982d2c8300b5c349551ee020f48cc57506a8c3210d311.jpg",
+        "build": []
+    },
+    {
+        "name": "Lance of Pursuit",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/lance-of-pursuit-eb14322f6d2e61769fcd4da32375d91650e914420c6323bf1cc4bec2906e8254.jpg",
+        "lore": "The gleaming weapon of a tarnished knight haunted by his duties to an unworthy king.",
+        "build": []
+    },
+    {
+        "name": "Veil of Discord",
+        "price": "1725",
+        "item_image": "https://www.dotabuff.com/assets/items/veil-of-discord-6e11c70b19551593a7072312d5f3c47eab909b6dd1bcf43cf7ca1ae43e05dadb.jpg",
+        "lore": "The headwear of corrupt magi.",
+        "build": [
+            "Helm of Iron Will",
+            "Recipe: Veil of Discord",
+            "Crown"
+        ]
+    },
+    {
+        "name": "Philosopher's Stone",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/philosophers-stone-59c06bf72309da81a100a2aa79f15fb339fe4514bc07da0b6ff28d3c5169d04d.jpg",
+        "lore": "A weightless charm created by an enchanter with a powerful scorn for brute force.",
+        "build": []
+    },
+    {
+        "name": "Wind Lace",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/wind-lace-276f9c761833190008cec65092ab9f34b3fbfea82f0c9b3de3e61ce892e2693e.jpg",
+        "lore": "Hasten to battle on wind-touched heels.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Khanda",
+        "price": "600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Linken's Sphere",
+        "price": "600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Mekansm",
+        "price": "1775",
+        "item_image": "https://www.dotabuff.com/assets/items/mekansm-f743cd7724576ab062aeb7eebf3e5895fd5d37c192ecae238646224632ed128d.jpg",
+        "lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly.",
+        "build": [
+            "Chainmail",
+            "Recipe: Mekansm",
+            "Headdress"
+        ]
+    },
+    {
+        "name": "Pig Pole",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/pig-pole-8a49190f0b7402203b46bf558dc12bf6849cd67847e7e17ff339afe02cb31ef7.jpg",
+        "lore": "A makeshift charm misplaced by a peace-loving, addlebrained enchanter.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Crimson Guard",
+        "price": "1050",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Aeon Disk",
+        "price": "1200",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Iron Talon",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/iron-talon-3b533c9e2f7f255768e1e714f992d8a5ea25fa049977acc8cbf86be326019dbf.jpg",
+        "lore": "A simple but effective weapon devised to quell a great Hellbear uprising.",
+        "build": []
+    },
+    {
+        "name": "Magic Stick",
+        "price": "200",
+        "item_image": "https://www.dotabuff.com/assets/items/magic-stick-59421ac3d355f46017b18b81a484a75fdc89d75d1e00f288c8ef8b8c9b88f4a7.jpg",
+        "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
+        "build": []
+    },
+    {
+        "name": "Claymore",
+        "price": "1350",
+        "item_image": "https://www.dotabuff.com/assets/items/claymore-0491cc90ea39d774baf745315cc233f54add794d2b9c5d84c0dfa2af1cc6a0c9.jpg",
+        "lore": "A sword that can cut through armor, it's a commonly chosen first weapon for budding swordsmen.",
+        "build": []
+    },
+    {
+        "name": "Talisman of Evasion",
+        "price": "1300",
+        "item_image": "https://www.dotabuff.com/assets/items/talisman-of-evasion-7a65843d709b8a65aa885aa2a6d70bb8b3ac04073dcec861f4e5223dfff55c51.jpg",
+        "lore": "A necklace that allows you to anticipate enemy attacks.",
+        "build": []
+    },
+    {
+        "name": "Quelling Blade",
+        "price": "100",
+        "item_image": "https://www.dotabuff.com/assets/items/quelling-blade-61748be16bc85c8ea46f56fcff8dbebd63d2ef529935c1001fa11fdb158cc652.jpg",
+        "lore": "The axe of a fallen gnome, it allows you to effectively maneuver the forest.",
+        "build": []
+    },
+    {
+        "name": "Spark of Courage",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/spark-of-courage-1af2b3b0a32126ee267edb34f90b19f13c589c8b93a4af9d4c1c1976834020c7.jpg",
+        "build": []
+    },
+    {
+        "name": "Iron Branch",
+        "price": "50",
+        "item_image": "https://www.dotabuff.com/assets/items/iron-branch-f1d1d51c3dc95b6960bb078b8f55a771010903ad530508bdc961bc49524664d7.jpg",
+        "lore": "A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer.",
+        "build": []
+    },
+    {
+        "name": "Tranquil Boots",
+        "price": "925",
+        "item_image": "https://www.dotabuff.com/assets/items/tranquil-boots-310f925a7b2605cafe7dde0d8ea9e9c08f96f779550afaf9d1a9915bdb6b2c16.jpg",
+        "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
+        "build": [
+            "Ring of Regen",
+            "Boots of Speed",
+            "Recipe: Tranquil Boots",
+            "Wind Lace"
+        ]
+    },
+    {
+        "name": "Faerie Fire",
+        "price": "65",
+        "item_image": "https://www.dotabuff.com/assets/items/faerie-fire-ac7da328e07d0d27fe932a12549c2422e3d02bbefd7810289e6ff9136cfd50e2.jpg",
+        "lore": "The ethereal flames from the ever-burning ruins of Kindertree ignite across realities.",
+        "build": []
+    },
+    {
+        "name": "Circlet",
+        "price": "155",
+        "item_image": "https://www.dotabuff.com/assets/items/circlet-70ffa411f7a331581bd9d3a8d58685009afdd72852d184cb45b33ed9c48609a3.jpg",
+        "lore": "An elegant circlet designed for human princesses.",
+        "build": []
+    },
+    {
+        "name": "Blight Stone",
+        "price": "300",
+        "item_image": "https://www.dotabuff.com/assets/items/blight-stone-831b2df42953bd8067422a759a32389bf75458d3a78d66213281f5123a55a5b8.jpg",
+        "lore": "An unnerving stone unearthed beneath the Fields of Endless Carnage.",
+        "build": []
+    },
+    {
+        "name": "Gris-Gris",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/gris-gris-6232e5d4f95f05f5881bb4e29aad54a1b7bd13a4d353174ea8193de5c2cedad0.jpg",
+        "build": []
+    },
+    {
+        "name": "Observer Ward",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/observer-ward-b9ad4819effd0a48fe094e0cfe660984cccc178caab63b0365a8ed9951edf3a3.jpg",
+        "lore": "A form of half-sentient plant, often cultivated by apprentice wizards.",
+        "build": []
+    },
+    {
+        "name": "Vanguard",
+        "price": "1700",
+        "item_image": "https://www.dotabuff.com/assets/items/vanguard-111800d1fb7e0f948cacec26d7cf420a83a60720796efe823431a42cac721608.jpg",
+        "lore": "A powerful shield that defends its wielder from even the most vicious of attacks.",
+        "build": [
+            "Ring of Health",
+            "Vitality Booster",
+            "Recipe: Vanguard"
+        ]
+    },
+    {
+        "name": "Helm of the Dominator",
+        "price": "2625",
+        "item_image": "https://www.dotabuff.com/assets/items/helm-of-the-dominator-69cbd897607c10832065cd0397e91a0c178a63e1ef9c6de15a9e9d2c96eb7ac9.jpg",
+        "lore": "The powerful headpiece of a dead necromancer.",
+        "build": [
+            "Helm of Iron Will",
+            "Recipe: Helm of the Dominator",
+            "Diadem"
+        ]
+    },
+    {
+        "name": "Observer and Sentry Wards",
+        "price": "50",
+        "item_image": "https://www.dotabuff.com/assets/items/observer-and-sentry-wards-70da79758aa544fe01a40798bb13c860eb37f724096a4d41e745ec43c9603840.jpg",
+        "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
+        "build": [
+            "Observer Ward",
+            "Sentry Ward",
+            "Recipe: Observer and Sentry Wards"
+        ]
+    },
+    {
+        "name": "Recipe: Ring of Basilius",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Duelist Gloves",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/duelist-gloves-2b72f0a492a5882445bb0ee359c2f3556d1caa46ab9b0cd9cf1d45e16a5f9718.jpg",
+        "build": []
+    },
+    {
+        "name": "Buckler",
+        "price": "425",
+        "item_image": "https://www.dotabuff.com/assets/items/buckler-dd0c149ee72ed8bc5f6187cd3e49b05da0ecf59872da19dcb3bbaf3dd5e9dec9.jpg",
+        "lore": "A powerful shield that imbues the bearer with the strength of heroes past, it is capable of protecting entire armies in battle.",
+        "build": [
+            "Ring of Protection",
+            "Recipe: Buckler"
+        ]
+    },
+    {
+        "name": "Gauntlets of Strength",
+        "price": "140",
+        "item_image": "https://www.dotabuff.com/assets/items/gauntlets-of-strength-d2ef574bc1e0f827f9df0494649af02705c6e86351b38227731aead8eb9e040f.jpg",
+        "lore": "Studded leather gloves that add brute strength.",
+        "build": []
+    },
+    {
+        "name": "Perseverance",
+        "price": "1400",
+        "item_image": "https://www.dotabuff.com/assets/items/perseverance-727728a3a299ebba9dc83ceb9db0cc86efba72efbe403ecd92c614ccee1b03dd.jpg",
+        "lore": "A gem that grants heart to the bearer.",
+        "build": [
+            "Ring of Health",
+            "Void Stone",
+            "Recipe: Perseverance"
+        ]
+    },
+    {
+        "name": "Recipe: Lotus Orb",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Vitality Booster",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/vitality-booster-46c2726db2913cc654ba4d2b2c56d7bf1c4b2ad476eb470745f5f8daa591e7f3.jpg",
+        "lore": "A ruby gemstone that has been passed down through generations of warrior kin.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Mjollnir",
+        "price": "550",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Urn of Shadows",
+        "price": "880",
+        "item_image": "https://www.dotabuff.com/assets/items/urn-of-shadows-b4042dc48bde27d6c5b0ce8fc1e56c6311f01634d182be5c870262065d9495d5.jpg",
+        "lore": "Contains the ashes of powerful demons.",
+        "build": [
+            "Ring of Protection",
+            "Sage's Mask",
+            "Recipe: Urn of Shadows",
+            "Fluffy Hat"
+        ]
+    },
+    {
+        "name": "Point Booster",
+        "price": "1200",
+        "item_image": "https://www.dotabuff.com/assets/items/point-booster-e63725c58a4cdafa7a15b78ab72857d847e81bd4daa3f4dffce8ed8ca432e81f.jpg",
+        "lore": "A perfectly formed amethyst that nourishes body and mind when held.",
+        "build": []
+    },
+    {
+        "name": "Orb of Venom",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/orb-of-venom-cf9a185cb1f346d1ed434a718c44e1df0b78e31e88b0fb6b722579bf737fda2e.jpg",
+        "lore": "Envenoms your veapon with the venom of a venomous viper.",
+        "build": []
+    },
+    {
+        "name": "Maelstrom",
+        "price": "2950",
+        "item_image": "https://www.dotabuff.com/assets/items/maelstrom-1c48e5146ca6d3e2d1d193b5a85d6e62887788a975ffe783950fb9d5e0135f95.jpg",
+        "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
+        "build": [
+            "Javelin",
+            "Mithril Hammer",
+            "Gloves of Haste",
+            "Recipe: Maelstrom"
+        ]
+    },
+    {
+        "name": "Ring of Health",
+        "price": "700",
+        "item_image": "https://www.dotabuff.com/assets/items/ring-of-health-a69b3fe7e06fd53d16b960b3cc3929ab87f480e7fc12c7c9ef0d5655d9afe4f0.jpg",
+        "lore": "A shiny ring found beneath a fat halfling's corpse.",
+        "build": []
+    },
+    {
+        "name": "Pavise",
+        "price": "1400",
+        "item_image": "https://www.dotabuff.com/assets/items/pavise-16edb3ba0dd8b5cb61bccf65094a1753b4e32427430aa4848d28f91f85c209f7.jpg",
+        "build": [
+            "Ring of Protection",
+            "Energy Booster",
+            "Fluffy Hat",
+            "Recipe: Pavise"
+        ]
+    },
+    {
+        "name": "Helm of Iron Will",
+        "price": "975",
+        "item_image": "https://www.dotabuff.com/assets/items/helm-of-iron-will-f0bbc4bc392ded75cbdff3cea751baf715b70767ad00bfd2d3b741828e48f78b.jpg",
+        "lore": "The helmet of a legendary warrior who fell in battle.",
+        "build": []
+    },
+    {
+        "name": "Boots of Speed",
+        "price": "500",
+        "item_image": "https://www.dotabuff.com/assets/items/boots-of-speed-d49de423408e3e3e65939e5662fa89bd07b75af9e0ae390bb404c4a871839603.jpg",
+        "lore": "Fleet footwear, increasing movement.",
+        "build": []
+    },
+    {
+        "name": "Voodoo Mask",
+        "price": "700",
+        "item_image": "https://www.dotabuff.com/assets/items/voodoo-mask-44029d9c64fc4cd40b5da438f9491294e071dc1885818009cea7639c459c40e4.jpg",
+        "lore": "A mask tuned to sip the arcane bindings that pass between caster and foe.",
+        "build": []
+    },
+    {
+        "name": "Sange",
+        "price": "2100",
+        "item_image": "https://www.dotabuff.com/assets/items/sange-3243bcf56777f63a6bd93abb6fe4adcc6d81f444fb4c5b223d863fff9639b58e.jpg",
+        "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
+        "build": [
+            "Belt of Strength",
+            "Ogre Axe",
+            "Recipe: Sange"
+        ]
+    },
+    {
+        "name": "Blood Grenade",
+        "price": "50",
+        "item_image": "https://www.dotabuff.com/assets/items/blood-grenade-00e222a41f962ccfb7c1619311790988ddc47776e308631f02596b27663ea5f6.jpg",
+        "build": []
+    },
+    {
+        "name": "Energy Booster",
+        "price": "800",
+        "item_image": "https://www.dotabuff.com/assets/items/energy-booster-34f7afb60aa701a2470e67e6816a25bfffc05f2d42274452126ee04a897be175.jpg",
+        "lore": "This lapis gemstone is commonly added to the collection of wizards seeking to improve their presence in combat.",
+        "build": []
+    },
+    {
+        "name": "Healing Salve",
+        "price": "100",
+        "item_image": "https://www.dotabuff.com/assets/items/healing-salve-e60621a540717a79107c35b166cf9ab155e2ede329c84f608e7a2f7e6c0ecddd.jpg",
+        "lore": "A magical salve that can quickly mend even the deepest of wounds.",
+        "build": []
+    },
+    {
+        "name": "Black Grimoire",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/black-grimoire-3654b4262868ac385c911200e603746eb086f7dd1a93e61fa6ccb708c3a95621.jpg",
+        "build": []
+    },
+    {
+        "name": "Mantle of Intelligence",
+        "price": "140",
+        "item_image": "https://www.dotabuff.com/assets/items/mantle-of-intelligence-1305d502ae30942c77d00212f0770996d30974e8f07a82308a068d48e6e6d16d.jpg",
+        "lore": "A beautiful sapphire mantle worn by generations of queens.",
+        "build": []
+    },
+    {
+        "name": "Ring of Basilius",
+        "price": "425",
+        "item_image": "https://www.dotabuff.com/assets/items/ring-of-basilius-85660b98ee26494ff60edc3d442dd94e5569708f8ff65197626c760f074bf781.jpg",
+        "lore": "Ring given as a reward to the greatest mages.",
+        "build": [
+            "Sage's Mask",
+            "Recipe: Ring of Basilius"
+        ]
+    },
+    {
+        "name": "Enchanted Mango",
+        "price": "65",
+        "item_image": "https://www.dotabuff.com/assets/items/enchanted-mango-0c9ecc082cbbe6925aab1b72969c40166528d6119ba7d8bf49b5b8fdb1cd9622.jpg",
+        "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
+        "build": []
+    },
+    {
+        "name": "Javelin",
+        "price": "900",
+        "item_image": "https://www.dotabuff.com/assets/items/javelin-438e635099c674cf57b2a5d59c0e6e3df0b0be071619074d537d571baef0f768.jpg",
+        "lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Veil of Discord",
+        "price": "300",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Ring of Protection",
+        "price": "175",
+        "item_image": "https://www.dotabuff.com/assets/items/ring-of-protection-c5cb65c8eb1af4a0d59330d9d8ecc34c7b216d0473fce27e9cd3b48a3b437e4d.jpg",
+        "lore": "A glimmering ring that defends its bearer.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Helm of the Overlord",
+        "price": "300",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Ring of Regen",
+        "price": "175",
+        "item_image": "https://www.dotabuff.com/assets/items/ring-of-regen-d8607f64307591973629bbedc6f203a4ccafea212e51bb2890c14a6d71205c7d.jpg",
+        "lore": "This ring is considered a good luck charm among the Gnomes.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Pipe of Insight",
+        "price": "700",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Shadow Amulet",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/shadow-amulet-6122938315f67213a0aa8786588ca803482e92f47fb1d733a2209e3695703743.jpg",
+        "lore": "A small talisman that clouds the senses of one's enemies when held perfectly still.",
+        "build": []
+    },
+    {
+        "name": "Slippers of Agility",
+        "price": "140",
+        "item_image": "https://www.dotabuff.com/assets/items/slippers-of-agility-cfdbcd68a8616a6399f68d2e050b1ab9dcc42376d15c7a5d06a469db729de84e.jpg",
+        "lore": "Light boots made from spider skin that tingles your senses.",
+        "build": []
+    },
+    {
+        "name": "Sage's Mask",
+        "price": "175",
+        "item_image": "https://www.dotabuff.com/assets/items/sages-mask-0c8d5714aafad6b67cb5badd4737e35aa49890f7192ad13114275a1b575f4189.jpg",
+        "lore": "A mask commonly used by mages and warlocks for various rituals.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Heaven's Halberd",
+        "price": "100",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Crystalys",
+        "price": "200",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Solar Crest",
+        "price": "500",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Blitz Knuckles",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/blitz-knuckles-c589334881eb42f7b338dad7e458dc3c6a467006d338fe4ea4b11f72c3c99a1b.jpg",
+        "lore": "An underground arcanist's update of a back-alley classic.",
+        "build": []
+    },
+    {
+        "name": "Headdress",
+        "price": "425",
+        "item_image": "https://www.dotabuff.com/assets/items/headdress-7b78c703a939e1cc8f456638d91a15d242501fcb83bf88d0a1cbdf2b5de6b7fe.jpg",
+        "lore": "Creates a soothing aura that restores allies in battle.",
+        "build": [
+            "Ring of Regen",
+            "Recipe: Headdress"
+        ]
+    },
+    {
+        "name": "Recipe: Phylactery",
+        "price": "400",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Blades of Attack",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/blades-of-attack-1bb7bc4909ff7ed23015c812f7699aa074f06abd9a07b6bea0984507842716e3.jpg",
+        "lore": "The damage of these small, concealable blades should not be underestimated.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Kaya",
+        "price": "650",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Staff of Wizardry",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/staff-of-wizardry-cdf143a9906573203eca7706af521b44f60168cf8ac03f1bb1263df9d44eadf1.jpg",
+        "lore": "A staff of magical powers passed down from the eldest mages.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Eternal Shroud",
+        "price": "900",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Yasha",
+        "price": "2100",
+        "item_image": "https://www.dotabuff.com/assets/items/yasha-0f9fc1c913eb198e735014bad758a2da1d788efff6b422d6d1afac36dd19d084.jpg",
+        "lore": "Yasha is regarded as the swiftest weapon ever created.",
+        "build": [
+            "Band of Elvenskin",
+            "Blade of Alacrity",
+            "Recipe: Yasha"
+        ]
+    },
+    {
+        "name": "Recipe: Orchid Malevolence",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Gleipnir",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Holy Locket",
+        "price": "800",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Tier 2 Token",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/tier-2-token-910aac2695df8491c4bf117be55596eac00a3458063a41f9db912ea5a3289ab9.jpg",
+        "build": []
+    },
+    {
+        "name": "Blade of Alacrity",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/blade-of-alacrity-4d2621c5fcecf417728132a307a0307bda8953b004c12b2b3673a7bab00ebddc.jpg",
+        "lore": "A long blade imbued with time magic.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Aether Lens",
+        "price": "775",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Black King Bar",
+        "price": "1450",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Cloak",
+        "price": "800",
+        "item_image": "https://www.dotabuff.com/assets/items/cloak-41489c974dfb204372642e9b353c2c7b0f10834ff4a7b44a45667a0d485000d8.jpg",
+        "lore": "A cloak made of a magical material that works to dispel any magic cast on it.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Hurricane Pike",
+        "price": "350",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Urn of Shadows",
+        "price": "280",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Ogre Axe",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/ogre-axe-823b5646dfc05bec4794cdf5876d5360538145c7e31ee6ac985735198752ab88.jpg",
+        "lore": "You grow stronger just by holding it.",
+        "build": []
+    },
+    {
+        "name": "Void Stone",
+        "price": "700",
+        "item_image": "https://www.dotabuff.com/assets/items/void-stone-97d0681277b58b9d07174ccfcb8220d202f4079eb86a5fb9c95abc9d9432e94f.jpg",
+        "lore": "Jewelry that was once used to channel nether realm magic, this ring pulses with energy.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Falcon Blade",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Oblivion Staff",
+        "price": "1625",
+        "item_image": "https://www.dotabuff.com/assets/items/oblivion-staff-678c08fdbf88220940933aab52c02a3a48a6ce56e86d714b035643ae3ce5f543.jpg",
+        "lore": "Deceptively hidden as an ordinary staff, it is actually very powerful, much like the Eldritch who originally possessed it.",
+        "build": [
+            "Robe of the Magi",
+            "Sage's Mask",
+            "Recipe: Oblivion Staff",
+            "Blitz Knuckles"
+        ]
+    },
+    {
+        "name": "Chainmail",
+        "price": "550",
+        "item_image": "https://www.dotabuff.com/assets/items/chainmail-01e3c1fd32cff3d072dd448a76b3478b31bf60185e6d4723ef44edeaac062e1b.jpg",
+        "lore": "A medium weave of metal chains.",
+        "build": []
+    },
+    {
+        "name": "Mithril Hammer",
+        "price": "1600",
+        "item_image": "https://www.dotabuff.com/assets/items/mithril-hammer-f80ad045e0803bc7cff65841085d2d5a4232dd052cf1beaf3b8c60d9d287ca26.jpg",
+        "lore": "A hammer forged of pure mithril.",
+        "build": []
+    },
+    {
+        "name": "Crown",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/crown-d527c5e4a4909ea704064ac20db43e347498be986574f9fc2cdce0883a884f04.jpg",
+        "lore": "A stately crown created to ensure a well-meaning but ungifted heir could fend off usurpers and govern with a strong hand.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Eul's Scepter of Divinity",
+        "price": "675",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Manta Style",
+        "price": "1550",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Pavise",
+        "price": "175",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Sange",
+        "price": "650",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Arcane Boots",
+        "price": "375",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Robe of the Magi",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/robe-of-the-magi-8be3ce9f3489b05d8d13c3af0b99a0bc3a8faec4bcacaec315739d6fbd40edf6.jpg",
+        "lore": "This robe corrupts the soul of the user, but provides wisdom in return.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Null Talisman",
+        "price": "210",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Broadsword",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/broadsword-8c84cca72f88e7f891edcdf808886ab01d33bc6afcc93c58ecdc4256b7ab79eb.jpg",
+        "lore": "The classic weapon of choice for knights, this blade is sturdy and reliable for slaying enemies.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Spirit Vessel",
+        "price": "900",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Skull Basher",
+        "price": "825",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Gloves of Haste",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/gloves-of-haste-9aa0c0baabaa904e7eaa25054e95b24314797550257abcf86c67924c756d86ef.jpg",
+        "lore": "A pair of magical gloves that seems to render weapons weightless.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Force Staff",
+        "price": "950",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Helm of the Dominator",
+        "price": "650",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Rod of Atos",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Belt of Strength",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/belt-of-strength-b71a72c411f0999a808b2426b0cb86e6d343e0f7e770200dfd025d001bd2a2cb.jpg",
+        "lore": "A valued accessory for improving vitality.",
+        "build": []
+    },
+    {
+        "name": "Diadem",
+        "price": "1000",
+        "item_image": "https://www.dotabuff.com/assets/items/diadem-db5d7d1118270e78cc17e3dd18e62297bba52ca27e362a3651efb4ba4c182689.jpg",
+        "build": []
+    },
+    {
+        "name": "Tango",
+        "price": "90",
+        "item_image": "https://www.dotabuff.com/assets/items/tango-36bac234c3fced81e15d5637fa894a966e18d8daaa28bf22dcefb6ef2697ffd3.jpg",
+        "lore": "Forage to survive on the battlefield.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Magic Wand",
+        "price": "150",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Diffusal Blade",
+        "price": "1050",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Yasha",
+        "price": "650",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Bracer",
+        "price": "210",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Fluffy Hat",
+        "price": "250",
+        "item_image": "https://www.dotabuff.com/assets/items/fluffy-hat-0e8279d2c8c584963f9fc7b445286e3ae4f524b32a8f58927ea170330c69415b.jpg",
+        "lore": "Fine and functional foppery for the fashion-forward fighter.",
+        "build": []
+    },
+    {
+        "name": "Tier 1 Token",
+        "price": "0",
+        "item_image": "https://www.dotabuff.com/assets/items/tier-1-token-83c256f4d060f46c575c59db1d3af7554151126e1e5c30a71139353f62965c04.jpg",
+        "build": []
+    },
+    {
+        "name": "Band of Elvenskin",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/band-of-elvenskin-622c212ee9f2a9cd71e239a3c63c27c8bcfa55731ad83b585039c52644a0a705.jpg",
+        "lore": "A tensile fabric often used for its light weight and ease of movement.",
+        "build": []
+    },
+    {
+        "name": "Recipe: Dragon Lance",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Witch Blade",
+        "price": "600",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Glimmer Cape",
+        "price": "350",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Mage Slayer",
+        "price": "400",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Meteor Hammer",
+        "price": "300",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Blade Mail",
+        "price": "750",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Wraith Band",
+        "price": "210",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Soul Ring",
+        "price": "350",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Hand of Midas",
+        "price": "1750",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Battle Fury",
+        "price": "450",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    },
+    {
+        "name": "Recipe: Armlet of Mordiggian",
+        "price": "625",
+        "item_image": "https://www.dotabuff.com/assets/items/recipe-fb964c384fafc47ac31d9eb59f2a8c91e43d63f791be76cbfeda90b8d3e7b72b.jpg",
+        "build": []
+    }
+]
