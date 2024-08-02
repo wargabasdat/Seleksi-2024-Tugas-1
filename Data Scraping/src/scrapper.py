@@ -16,6 +16,7 @@ def scrape_recipe_links():
     with open('Data Scraping/data/root_link.txt', 'r') as file:
         links = file.readlines()
 
+    # initiate the array needed
     coll_of_url = []
 
     for link in links:
@@ -24,20 +25,24 @@ def scrape_recipe_links():
 
         wait = WebDriverWait(driver, 10)
         try:
-            elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".smart-card.container-sm.recipe")))
+            # find all link elements
+            elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".smart-card.container-sm.recipe"))) 
 
-            for elem in elements:
+            # append link to coll_of_url
+            for elem in elements: 
                 url = elem.get_attribute("data-url")
                 if url:
                     coll_of_url.append(url)
         except Exception as e:
             print(f"Error: {e}")
 
+    # save coll_of_url in txt file 
     with open('Data Scraping/data/recipe_link.txt', 'w') as txtfile: 
         for url in coll_of_url:
             txtfile.write(url + '\n')
 
 def scrape_recipes(): 
+    # clean all of txt files needed
     with open('Data Scraping/data/user_link.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
     with open('Data Scraping/data/ingredient_link.txt', 'w+') as txtfile: 
@@ -45,6 +50,7 @@ def scrape_recipes():
     with open('Data Scraping/data/recipe_link.txt', 'r') as file:
         recipe_links = file.readlines()
 
+    # initiate array
     recipes = []
     made_of = []
     post_list = []
@@ -54,14 +60,17 @@ def scrape_recipes():
 
     for link in recipe_links:
         driver.get(link)
+        # get the food id
         id = re.findall(r'\d+', link)[0]
         try:
             # Before button clicked
+            # scrape food name 
             food_name_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//h1[@class='svelte-1muv3s8']"))
             )
             food_name = food_name_element.text if food_name_element else ""
 
+            # scrape creator 
             creator_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//div[@class='byline svelte-176rmbi']/a"))
             )
@@ -69,7 +78,7 @@ def scrape_recipes():
             creator_id = re.findall(r'\d+', creator_link)[0]
             user_links.add(creator_link)
 
-            # Ingredients
+            # scrape ingredients link and made of array
             ingredients = driver.find_elements(By.CSS_SELECTOR, ".ingredient-text a")
             for ingredient_element in ingredients:
                 ingredient_link = ingredient_element.get_attribute('href')
@@ -82,6 +91,7 @@ def scrape_recipes():
                     made_of.append(made_of_singular)
                     ingredient_links.add(ingredient_link)
 
+            # scrape post and review 
             post_id = 1
             posts = driver.find_elements(By.CLASS_NAME, 'conversation__post')
             time.sleep(10)                
@@ -155,73 +165,64 @@ def scrape_recipes():
             nutrition_button.click()
 
             # After button clicked  
+            #scrape serving size
             serving_size_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//p[@class='svelte-epeb0m']"))
             )
             serving_size_text = serving_size_element.text if serving_size_element else ""
             serving_size_match = re.search(r'\((\d+)\)', serving_size_text)
             serving_size = serving_size_match.group(1) if serving_size_match else ""
-
+            # scrape calories
             calories_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//p[contains(@class, 'recipe-nutrition__item bold') and contains(text(), 'Calories')]"))
             )
             calories = calories_element.text.split(" ")[-1] if calories_element else ""
-
+            # scrape total fat
             total_fat_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'Total Fat')]"))
             )
             total_fat = total_fat_element.text.split(" ")[-2] if total_fat_element else ""
-
+            # scrape saturated fat
             saturated_fat_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'Saturated Fat')]"))
             )
             saturated_fat = saturated_fat_element.text.split(" ")[-2] if saturated_fat_element else ""
-
-            total_fat_element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'Total Fat')]"))
-            )
-            total_fat = total_fat_element.text.split(" ")[-2] if total_fat_element else ""
-
+            # scrape cholesterol
             cholesterol_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[@class='bold svelte-epeb0m' and text()='Cholesterol']"))
             )
             parent_span = cholesterol_element.find_element(By.XPATH, "./..")
             cholesterol = parent_span.text.split(" ")[-2] if parent_span else ""
-
-            cholesterol_element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//span[@class='bold svelte-epeb0m' and text()='Cholesterol']"))
-            )
-            parent_span = cholesterol_element.find_element(By.XPATH, "./..")
-            cholesterol = parent_span.text.split(" ")[-2] if parent_span else ""
-
+            # scrape sodium
             sodium_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[@class='bold svelte-epeb0m' and text()='Sodium']"))
             )
             parent_span = sodium_element.find_element(By.XPATH, "./..")
             sodium = parent_span.text.split(" ")[-2] if parent_span else ""
-
+            # scrape carbohydrate
             carbohydrate_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[@class='bold svelte-epeb0m' and text()='Total Carbohydrate']"))
             )
             parent_span = carbohydrate_element.find_element(By.XPATH, "./..")
             carbohydrate = parent_span.text.split(" ")[-2] if parent_span else ""
-
+            # scrape fiber
             fiber_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'Dietary Fiber')]"))
             )
             fiber = fiber_element.text.split(" ")[-2] if fiber_element else ""
-
+            # scrape sugar
             sugar_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[contains(text(), 'Sugars')]"))
             )
             sugar = sugar_element.text.split(" ")[-2] if sugar_element else ""
-
+            # scrape protein
             protein_element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, "//span[@class='bold svelte-epeb0m' and text()='Protein']"))
             )
             parent_span = protein_element.find_element(By.XPATH, "./..")
             protein = parent_span.text.split(" ")[-2] if parent_span else ""
 
+            # store the result
             recipe = {
                 "food_id": id,
                 "food_name": food_name,
@@ -243,6 +244,7 @@ def scrape_recipes():
             logger.error(f"Error scraping {link}: {e}")
             logger.debug(f"Page source: {driver.page_source}")
 
+    #store all of the arrays in json and txt 
     try:
         with open('Data Scraping/data/recipes_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(recipes, jsonfile, indent=4)
@@ -273,17 +275,21 @@ def scrape_ingredients():
     with open('Data Scraping/data/ingredient_link.txt', 'r') as file:
         links = file.readlines()
     
+    # initiate the array needed
     ingredients = []
 
     for link in links:
         driver.get(link)
+        # get the ingredient id 
         id = re.findall(r'\d+', link)[0]
         button_id = "#" + id + "_nutrition"
         try:
             # Before button clicked
+            # scrape ingredient name 
             name_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".ingredient-detail")))
             name = name_element.text.split('\n')[0]
 
+            # scrape season start and end (Januari - December if available all year round)
             try:
                 season_element = wait.until(EC.presence_of_element_located((By.XPATH, "//h6[text()='Season']/following-sibling::p")))
                 season = season_element.text
@@ -307,6 +313,7 @@ def scrape_ingredients():
                 print(f"Error:{e}")
 
             # After button clicked
+            # scrape nutrition facts 
             try:
                 modal_content = wait.until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, "div.modal-body"))
@@ -315,6 +322,7 @@ def scrape_ingredients():
             except Exception as e:
                 print(f"Error:{e}")
 
+            # parsing nutrition facts
             try : calories = float(re.search(r'Calories (\d+)', nutrition_info).group(1))
             except : calories = ""
             try : total_fat = float(re.search(r'Total Fat ([\d.]+) g', nutrition_info).group(1))
@@ -334,6 +342,7 @@ def scrape_ingredients():
             try : protein = float(re.search(r'Protein ([\d.]+) g', nutrition_info).group(1))
             except :protein = ""
 
+            # store the result into arr of dict
             ingredient = {
                 "ingredient_id": id,
                 "ingredient_name": name,
@@ -352,6 +361,8 @@ def scrape_ingredients():
             ingredients.append(ingredient)
         except Exception as e:
             logger.error(f"Error: {e}")
+
+    # store the result into json
     try:
         with open('Data Scraping/data/ingredients_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(ingredients, jsonfile, indent=4)
@@ -362,19 +373,25 @@ def scrape_users():
     with open('Data Scraping/data/user_link.txt', 'r') as file:
         links = file.readlines()
 
+    # initiate the array needed
     users = []
 
     for link in links:
         driver.get(link)
+        # get the user id 
         id = re.findall(r'\d+', link)[0]
+
+        # scrape name 
         try:
             name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.name-bio-message h3"))).text.strip()
         except: name = None
 
+        # scrape username
         try:
             user_name = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.profileusername"))).text.strip()
         except: user_name = ""
 
+        # scrape city and state 
         try:
             user_fact = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.user-facts"))).text.strip()
             user_fact_list = user_fact.split("\n")
@@ -391,10 +408,12 @@ def scrape_users():
             city = ""
             state = ""
 
+        # scrape rating
         try:
             user_rating_avg = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.gk-rating span.rating-text"))).text.split(' ')[0]
         except: user_rating_avg = ""
 
+        # scrape joined month and year
         try:
             joined_date_str = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(text(),'Joined')]"))).text.strip()
             joined_date = datetime.datetime.strptime(joined_date_str.replace("Joined", "").strip(), '%m/%Y').strftime('%Y-%m').split("-")
@@ -404,15 +423,18 @@ def scrape_users():
             year = ""
             month = ""
 
+        # scrape follower count 
         try:
             followers = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-followers span.count"))).text.strip()
         except: followers = "0"
 
+        # scrape following count
         try: 
             following = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.user-following span.count"))).text.strip()
         except: 
             following = "0"
 
+        # store the result into arr of dict
         user = {
             "user_id": id,
             "name": name,
@@ -427,18 +449,19 @@ def scrape_users():
         }
         users.append(user)
 
+    # store the result into json 
     with open('Data Scraping/data/users_' + generate_timestamp() + '.json', 'w') as json_file:
         json.dump(users, json_file, indent=4)\
         
-def generate_timestamp():
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%Hh%Mm%Ss") 
+def generate_timestamp(): 
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%Hh%Mm%Ss") # generate timestamp (now) for file naming
     return timestamp
         
-def scrape_all():
+def scrape_all(): # run all scraping code 
     scrape_recipe_links()
     scrape_recipes()
-    # scrape_ingredients()
-    # scrape_users()
+    scrape_ingredients()
+    scrape_users()
 
 if __name__ == "__main__":
     start = time.time()
@@ -456,7 +479,7 @@ if __name__ == "__main__":
     driver = webdriver.Chrome(options=options)
     wait = WebDriverWait(driver, 20)
 
-    scrape_all()
+    scrape_all() # run all code here 
 
     # Quit driver
     driver.quit()
