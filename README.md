@@ -12,7 +12,7 @@ Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 
 
 ## Topic and DBMS
-In this database laboratory assistant selection task, I chose a topic about the food recipe community taken from the food.com web. The data taken is data about food recipes, users, ingredients, and posts (questions, reviews, and tweaks). The database management system is used to manage the community website. <br>
+Food is one of the most crucial things in daily life. For this reason, food is also one of the businesses that many people are involved in. Along with the times, many people are turning to healthier foods, one of which is Mediterranean diet foods. This field will be a pretty good prospect in the FNB field. So, in this database laboratory assistant selection task, I chose a topic about “Mediterranean Food Recipe” taken from the food.com web.  The data taken is data about food recipes, users, ingredients, and posts (questions, reviews, and tweaks). The database management system is used to manage the community website. <br>
 
 
 ## How to Run the Scrapper
