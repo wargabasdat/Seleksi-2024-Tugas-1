@@ -97,15 +97,22 @@ Gambar lebih lengkap bisa dilihat di bagian masing-masing folder.
 ![Scraping4](Data%20Scraping/screenshot/Sc4.png)
 
 2. Storing
-
+Dilakukan dengan mendefinisikan masing-masing tabel dengan dependenciesnya.
+![Data1](Data%20Storing/screenshot/CreateTable1png.png)
+![Data2](Data%20Storing/screenshot/CreateTable2png.png)
+Tampilan semua data seperti yang ada di website.
 ![AllData](Data%20Storing/screenshot/All%20Data.png)
+Tampilan tabel city
 ![TabelCity](Data%20Storing/screenshot/Tabel%20City.png)
+Tampilan tabel company
 ![TabelCompany](Data%20Storing/screenshot/Tabel%20Company.png)
+Tampilan tabel industry
 ![Industry](Data%20Storing/screenshot/Tabel%20Industry.png)
+Tampilan tabel state
 ![State](Data%20Storing/screenshot/Tabel%20State.png)
 
 
-3. Visualisasi
+4. Visualisasi
 
 ![Dashboard](Data%20Visualization/Screenshot/Dashboard.png)
 ![Geography](Data%20Visualization/Screenshot/Data%20Geography.png)
