@@ -113,14 +113,19 @@ async def scrape_general_info(session, company, code, url):
 
         description = soup.select_one('div.company-description')
 
+
         if description is None:
             description = "No description available"
         else:
             description = description.select_one('p')
             if description is None:
-                description = soup.select_one('div.company-description').text
+                description = soup.select_one('div.company-description')
+                if description is None:
+                    description = "No description available"
+                else:
+                    description = description.text
             else:
-                description = "No description available"
+                description = description.text
 
         
         categorie_list = soup.select('div.line1')[6].select('a')
