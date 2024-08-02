@@ -30,7 +30,7 @@ Pada proyek ini, data-data yang diperoleh dari hasil scraping akan diolah dan di
 
 
 #### Data Storing
-Proses data _storing_ dilakukan pada project ini dengan memasukkan data hasil _scraping_ ke dalam RDBMS sesuai hasil desain ERD dan juga diagram relasional. RDBMS yang dihasilkan terdiri dari 8 relasi, yaitu `team`, `team_standings`, `venue`, `player_stats`, ` dan juga `info`. Pada relasi Country, University, dan Rank, data hasil _scraping_ telah dimasukkan. Relasi University_website dan juga info merupakan hasil dari pengembangan ERD sehingga belum terdapat data didalamnya, namun telah diatur mengenai _constraint_ yang sesuai.
+Proses penyimpanan data dilakukan pada proyek ini dengan memasukkan data hasil _scraping_ ke dalam RDBMS sesuai dengan desain ERD dan diagram relasional yang telah dibuat. RDBMS yang dihasilkan terdiri dari delapan relasi, yaitu `team`, `team_standings`, `venue`, `player_stats`, dan `info`. Relasi `player`, `player_stats`, `team`, `team_standings`, `venue`, `match_stats`, dan `official` yang diambil dari hasil _scraping_ telah dimasukkan ke dalam sistem. Sementara itu, relasi `official_phone`, yang merupakan pengembangan dari ERD, belum memiliki data di dalamnya, tetapi telah diatur dengan _constraint_ yang sesuai..
 
 ## How to use
 
@@ -124,7 +124,7 @@ Dari gambar tersebut dapat dilihat terdapat 6 *entity* dan terdapat 2 *entity* s
 
 #### Diagram Relasional
 <div align="center">
-<img src="Data Storing/design/Relational IBL.png" alt="Relasional Diagram IBL" width="500">
+<img src="Data Storing/design/Diagram Relasional IBL.png" alt="Relasional Diagram IBL" width="500">
 </div>
 
 Dari hasil perancangan ERD yang telah dibuat maka dilakukan transformasi ke diagram relasional, dapat dilihat hasil transformasi tersebut menghasilkan 8 relasi dengan *foreign key* dan *primary key* yang dapat dilihat pada gambar.
@@ -245,22 +245,66 @@ Setelah itu, data yang sudah diambil dibuat ke dalam database postgreSQL, beriku
 <div align="center">
   <img src="Data Storing/screenshot/venue_screenshot.jpg" width="375"/>
 </div>
+<div align="center">
+  <img src="Data Storing/screenshot/official_screenshot.jpg" width="375"/>
+</div>
 
 
 
 ## Data Visualization
 ### Hasil visualisasi
 
+Dilakukan beberapa visualisasi data hasil analisis untuk mengambil *insight* dari **Regular Season IBL 2023/2024** yang dapat berguna untuk bahan evaluasi bagi pihak tim, manajemen, maupun IBL itu sendiri untuk meningkatkan mutu kompetisi kedepannya.
+
+### 1. Rata-rata *point per game* dari setiap posisi
+<div align="center">
+  <img src="Data Visualization/Visualization 6.jpg" width="475"/>
+</div>
+
+Insight dari visualisasi tersebut menunjukkan bahwa posisi **Forward / Guard** memiliki PPG (points per game) tertinggi. Posisi ini diikuti oleh **Small Forward** dan **Guard** yang berada di peringkat kedua dan ketiga. Temuan ini memberikan pembelajaran penting bagi tim, yaitu bahwa posisi `Guard` sangat berbahaya dan efektif dalam mencetak poin. Memahami tren ini dapat membantu tim dalam menyusun strategi defensif yang lebih baik dan mengidentifikasi pemain kunci yang perlu diwaspadai selama pertandingan. Insight ini juga bisa menjadi dasar untuk pengembangan pemain di posisi tersebut agar dapat memaksimalkan potensi mereka dalam mencetak poin.
+
+### 2. Distribusi *player* dari setiap posisi
+<div align="center">
+  <img src="Data Visualization/Visualization 5.jpg" width="475"/>
+</div>
+
+Insight : Dari hasil analisis tersebut, kita dapat ketahui bahwa pada IBL Season 2023/2024 posisi **Guard** menjadi posisi dengan player terbanyak pada season ini. Dilain hal, posisi **Small Forward** sangat sedikit pada season ini dengan hanya 9% dari total pemain IBL. Hal ini bisa menjadi evaluasi bagi IBL maupun team untuk melakukan penyetaraan bagi pemain dari setiap posisi
+
+### 3. Distribusi Persentasi 3 Point 
+<div align="center">
+  <img src="Data Visualization/Visualization 4.jpg" width="475"/>
+</div>
+
+Insight : Dari hasil analisis tersebut, kita dapat ketahui bahwa pada IBL Season 2023/2024 persentase 3 point para pemain berkisar pada `30%`. Hal ini dapat menjadi bahan pembelajaran bagi tim dan pemain untuk meningkatkan hal tersebut.
+
+### 4. Rata-rata score dari waktu ke waktu (per bulan) 
+<div align="center">
+  <img src="Data Visualization/Visualization 3.jpg" width="475"/>
+</div>
+
+Insight : Pada visualisasi line chart tersebut, terlihat bahwa pada bulan `April 2024`, tim-tim di IBL mencatat skor tertinggi dibandingkan dengan bulan-bulan lainnya. Sebaliknya, pada bulan `Februari 2024`, tim-tim di IBL mencatat skor terendah sepanjang IBL Season 2023/2024. Perbedaan signifikan dalam skor ini menunjukkan adanya fluktuasi performa yang mungkin dipengaruhi oleh berbagai faktor, seperti kondisi fisik tim, strategi pelatihan, atau perubahan dalam komposisi tim selama musim tersebut. Analisis lebih mendalam terhadap faktor-faktor ini dapat memberikan wawasan tambahan mengenai tren performa tim sepanjang musim.
+
+### 5. Jumlah kemenangan antara *home* dan *away*
+<div align="center">
+  <img src="Data Visualization/Visualization 2.jpg" width="475"/>
+</div>
+
+Insight : Dari hasil analisis tersebut, dapat disimpulkan bahwa pada Regular Season IBL 2023/2024, tim yang bermain sebagai tamu lebih sering meraih kemenangan dibandingkan dengan tim tuan rumah. Temuan ini cukup menarik dan tidak sesuai dengan pola umum yang sering terjadi dalam olahraga, di mana biasanya tim yang bermain di kandang (home game) memiliki keuntungan dan lebih sering keluar sebagai pemenang. Faktor-faktor seperti dukungan suporter, familiaritas dengan lapangan, dan pengaruh lingkungan biasanya memberikan keunggulan bagi tim tuan rumah. Namun, data menunjukkan bahwa pada musim ini, tim tamu justru lebih unggul dalam pertandingan, yang mungkin mengindikasikan adanya faktor-faktor baru atau perubahan dinamika dalam kompetisi yang perlu diteliti lebih lanjut.
+
+### 6. Jumlah kemenangan *home* dan *away* game dari setiap tim
+<div align="center">
+  <img src="Data Visualization/Visualization 1.jpg" width="475"/>
+</div>
+
+Insight dari visualisasi tersebut menunjukkan total skor yang dicetak oleh setiap tim, baik saat bermain di kandang (home) maupun saat bertandang (away). Analisis ini memberikan evaluasi penting bagi setiap tim. Sebagai contoh, Dewa United tampaknya mencetak lebih banyak skor ketika bermain di kandang, menunjukkan kekuatan mereka saat memiliki dukungan suporter dan familiaritas dengan lapangan. Sebaliknya, Pacific Caesar menunjukkan performa yang lebih baik saat bertandang, mengindikasikan kemampuan mereka untuk tampil optimal dalam situasi away. Insight ini bisa membantu tim dalam merencanakan strategi dan penyesuaian untuk meningkatkan performa di masa mendatang.
 
 ## Reference 
 1. [Website IBL](https://iblindonesia.com/)
 2. [Website Wikipedia](https://en.wikipedia.org/wiki/2024_IBL_Indonesia)
-3. [Dokumentasi Psycopg](https://www.psycopg.org/docs/)
-4. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
-5. [Dokumentasi Selenium](https://selenium-python.readthedocs.io/)
+3. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
+4. [Dokumentasi Selenium](https://selenium-python.readthedocs.io/)
 
 ## Author
-Ricky Wijaya 
-18222043  
+Ricky Wijaya - 18222043  
 Sistem dan Teknologi Informasi  
 Institut Teknologi Bandung  
