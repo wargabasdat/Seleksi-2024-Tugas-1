@@ -1,75 +1,159 @@
-<h1 align="center">
+<h2 align="center">
   <br>
   Seleksi Warga Basdat 2024 <br>
-  ETL Project
+  ETL Project : Data Scraping, Database Modeling, and Data Storing <br>
+  from Top 100 Baseball Prospects | MLB.com
   <br>
-  <br>
-</h1>
-
-<h2 align="left">
-  <br>
-  Singkatnya?
   <br>
 </h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
+## Author
+Yovanka Sandrina Maharaja
+<br>
+18222094
+<br>
+Sistem dan Teknologi Informasi
+<br>
+Institut Teknologi Bandung
+
+## Table of Contents
+- [Table of Contents](https://github.com/yovankas/draft-seleksi-basdat#table-of-contents)
+- [Description](https://github.com/yovankas/draft-seleksi-basdat#description)
+- [How to Use the Scraper](https://github.com/yovankas/draft-seleksi-basdat#how-to-use-the-scraper)
+- [JSON File Structure](https://github.com/yovankas/draft-seleksi-basdat#json-file-structure)
+- [Entity-Relationship Diagram (ERD)](https://github.com/yovankas/draft-seleksi-basdat#entity-relationship-diagram-erd)
+- [Translating Entity-Relationship Diagram (ERD) to Relational Diagram](https://github.com/yovankas/draft-seleksi-basdat#translating-entity-relationship-diagram-erd-to-relational-diagram)
+- [Relational Diagram](https://github.com/yovankas/draft-seleksi-basdat#relational-diagram)
+- [Screenshots](https://github.com/yovankas/draft-seleksi-basdat#screenshots)
+- [Reference](https://github.com/yovankas/draft-seleksi-basdat#reference)
   
+## Description
+Data _scraping_ dilakukan pada halaman MLB Prospects, yang mencantumkan [100 Prospek Terbaik Major League Baseball (MLB) 2024](https://www.mlb.com/prospects). Prospek adalah pemain muda yang diharapkan menjadi atlet profesional sukses. Data mencakup informasi seperti nama pemain, peringkat, posisi, tim, level, _ETA_ (tahun perkiraan masuk liga utama), usia, _bats_ (cara memukul), _throws_ (cara melempar), tinggi, dan berat pemain.
+<br> <br>
+Topik "100 Prospek Terbaik MLB 2024" dipilih sebagai bahan _web scraping_ karena daftar ini selalu menarik perhatian penggemar yang ingin mengikuti perkembangan pemain muda berbakat yang berpotensi di masa depan. Mengumpulkan dan menganalisis data prospek ini membantu memetakan tren baru dalam rekrutmen dan pengembangan bakat, serta memberikan wawasan berharga bagi komunitas _baseball_.
+<br> <br>
+DBMS yang digunakan untuk menyimpan hasil _web scraping_ adalah MariaDB berbasis SQL. Pemilihan MariaDB didasarkan pada kinerja yang cepat, fleksibilitas, dan keandalannya. MariaDB merupakan sistem basis data relasional _open-source_ yang kompatibel dengan MySQL, memungkinkan penyimpanan data yang terstruktur dengan baik dan mendukung berbagai operasi _query_. Selain itu, MariaDB juga menyediakan berbagai fitur keamanan dan skalabilitas yang memadai.
+<br> <br>
+Skema basis data mencakup tabel-tabel utama seperti _Division_League_ (informasi tentang divisi dan liga baseball), _Team_ (informasi tentang tim MLB), _Coach_ (informasi tentang pelatih tim), _Coach_Per_Type_ (jenis pelatih dan asosiasi mereka dengan tim), _Player_ (informasi rinci tentang setiap pemain), _Stadium_ (informasi tentang stadion MLB), _Season_ (informasi tentang musim MLB), _Regular_Season_ (statistik musim reguler), _Playoff_ (statistik _playoff_), _Game_ (informasi tentang pertandingan), dan _Player_Stats_ (data statistik pemain). Basis data juga memiliki suatu tabel _view_ yaitu _Win_Percentage_ yang berisi informasi tentang persentase kemenangan setiap tim MLB.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## How to Use the Scraper
+1. _Clone repository_ ini ke _directory_ lokal Anda melalui Github atau dengan menjalankan perintah berikut di terminal:
+```
+git clone https://github.com/yovankas/draft-seleksi-basdat
+```
+2. _Install_ semua _library_ yang digunakan dalam menjalankan program ini dengan menjalankan perintah berikut di _Command Prompt (as Administrator)_:
+```
+pip install selenium pandas beautifulsoup4 mariadb
+```
+3. _Install Chrome Webdriver_ dengan mengikuti langkah-langkah pada tautan berikut [Tutorial _Install Chrome Webdriver_](https://katekuehl.medium.com/installation-guide-for-google-chrome-chromedriver-and-selenium-in-a-python-virtual-environment-e1875220be2f).
+4. Buka _file_ data_scraping_src.py pada folder [_Data Scraping Source Code_](https://github.com/yovankas/draft-seleksi-basdat/tree/main/data) di aplikasi _editor_ pilihan Anda seperti Visual Studio Code, PyCharm, atau _editor_ teks lainnya.
+5. Ganti variabel _chrome_driver_path_ pada _file source_ menjadi _path_ dari aplikasi _Chrome Webdriver_ yang sudah diunduh sebelumnya.
+6. _Set up_ basis data di MariaDB dan ganti variabel _host, user,_ dan _password_ pada _file source_ sesuai dengan milik Anda.
+7. Jalankan fungsi scrape_and_store_prospects() dalam _file_ data_scraping_src.py pada aplikasi _editor_ yang Anda pilih.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+## JSON File Structure
+Berikut merupakan struktur dari file JSON yang dihasilkan dari _Data Scraping_ yaitu  `top100mlbprospects.json`:
+```
+{
+    "0": {
+        "Player": Nama Pemain (Primary Key),
+        "Rank": Ranking Pemain pada Prospek,
+        "Position": Posisi Pemain dalam Tim,
+        "Team": Tim Pemain,
+        "Level": Level Pemain,
+        "eta": Tahun Perkiraan Pemain memasuki Liga Utama,
+        "Age": Usia Pemain,
+        "Bats": Cara Memukul oleh Pemain,
+        "Throws": Cara Melempar oleh Pemain,
+        "Height (cm)": Tinggi Pemain dalam cm,
+        "Weight (kg)": Berat Badan Pemain dalam kg
+    }
+}
+```
+Berikut merupakan contoh salah satu _tuple_ pada data hasil.
+```
+{
+    "0": {
+        "Player": "Jackson Holliday",
+        "Rank": 1,
+        "Position": "2B/SS",
+        "Team": "Baltimore Orioles",
+        "Level": "AAA",
+        "eta": "2024",
+        "Age": 20,
+        "Bats": "L",
+        "Throws": "R",
+        "Height (cm)": 182.88,
+        "Weight (kg)": 83.91452
+    }
+}
+```
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+## Entity-Relationship Diagram (ERD)
+Berikut merupakan Entity-Relationship Diagram (ERD) dari basis data yang telah dirancang beserta dengan asumsi dan penjelasannya.
+![ERD](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
 
+## Translating Entity-Relationship Diagram (ERD) to Relational Diagram
+Berikut merupakan langkah-langkah translasi ERD ke Relational Diagram.
+### Pemetaan _entity_ menjadi relasi 
+1. _Strong Entity_ <br>
+Untuk setiap _strong entity_ dilakukan pemetaan dengan membuat tabel (relasi) berisi seluruh atribut, dengan salah satu atribut menjadi _primary key_. <br>
+  - Player = (_player_name_, rank, position, level, eta, age, bats, throws, height (cm), weight (cm))
+  - Team = (_team_name_, contact_number, address, wins, loses, official_website)
+  - Division_League = (league_id, division_id, league_name, division_type)
+  - Coach = (_coach_id_, coach_name)
+  - Game = (_game_id_, date, start_time, end_time, home_team_name, away_team_name, home_score, away_score)
+  - Season = (_season_id_, season_year)
+  - Stadium = (_stadium_id_, stadium_name, capacity, area)
+2. _Weak Entity_ <br>
+Untuk setiap _weak entity_, dilakukan pemetaan dengan membuat tabel (relasi) berisi seluruh atribut, dengan dua atribut _primary key_, yaitu _primary key_ dari _weak entity_ tersebut, dan _primary key_ dari _strong entity_ yang berelasi dengannya. <br>
+  - Player_Stats = (_player_stats_id, game_id, player_name_, hits, strikeouts, at_bats)
+### Pemetaan _multivalued attributes_ 
+Pemetaan _multivalued attributes_ dilakukan dengan membuat tabel (relasi) baru berisi dua _primary key_, yaitu _primary key_ dari _entity_ yang berisi _multivalued attribute_ tersebut, serta _multivalued attribute_ itu sendiri.
+  - Coach_Per_Type = (_coach_id, coach_type_) <br>
+### Pemetaan _derived attributes_ menjadi _view_
+Pemetaan _derived attributes_ tidak dilakukan saat pembuatan relasi, sehingga atribut-atribut tersebut tidak dimasukkan ke dalam relasi. Pemetaan _derived attributes_ selanjutnya akan diimplementasikan sebagai tabel _view_.
+  - Win_Percentage = (_team_name_, wins, loses, win_percentage)<br>
+### Pemetaan _composite attributes_
+Pemetaan _composite attributes_ dilakukan dengan membuat komponen _composite
+attribute_, yaitu _simple attributes_, menjadi atribut tersendiri. 
+  - Stadium = (_stadium_id_, stadium_name, capacity, city, states, zip_code)<br>
+### Pemetaan _relationship_ menjadi relasi
+1. _One-to-many relationship and many-to-one relationship_ <br>
+Untuk setiap _relationship one-to-many_ dan _many-to-one_, akan ditambahkan atribut _primary key_ dari sisi "one" ke sisi "many". <br>
+  - Player = (_player_name_, team_name, rank, position, level, eta, age, bats, throws, height (cm), weight (cm))
+  - Team = (_team_name_, contact_number, address, wins, loses, official_website, league_id, division_id)
+  - Coach = (_coach_id_, coach_name, team_name)
+  - Game = (_game_id_, stadium_id, season_id, date, start_time, end_time, home_team_name, away_team_name, home_score, away_score)
 
+### Pemetaan _specialization_ menjadi relasi
+Untuk _specialization_, pemetaan dilakukan dengan membentuk 3 relasi, yaitu _higher-level entity set_, dan dua _lower-level entity set_. _Primary key_ dari _higher-level entity set_ akan ditambahkan sebagai _primary key_ ke relasi yang terbentuk dari _lower-level entity set_. 
+  - Regular_Season = (_season_id_)
+  - Playoff = (_season_id_, round_series)
 
+## Relational Diagram
+Berikut merupakan Relational Diagram yang diperoleh dari hasil translasi ERD basis data yang telah dirancang.
+![rel](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+
+## Screenshots
+- _Website_ yang di-_scrape_ ![website](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+- _Source code scraping data_ ![src1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+  ![src2](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+- _Source code preprocessing data_ ![pre1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+  ![pre2](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+- _Query Show Tables_ pada _database_ ![show1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+- _Describe database_ hasil _data storing_ ![des1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+- _Query Select From Where_ pada _database_ ![quer1](https://github.com/yovankas/draft-seleksi-basdat/blob/main/data/data_storing(2).jpg)
+
+## Reference
+1. _Library_ yang digunakan :
+   - Pandas
+   - JSON
+   - Selenium
+   - BS4
+   - RE
+   - OS
+   - MariaDB
+   - Time
+2. Halaman _web_ yang di-_scrape_ : [100 Prospek Terbaik Major League Baseball (MLB) 2024](https://www.mlb.com/prospects)
+3. Referensi lainnya : [Major League Baseball from Wikipedia](https://en.wikipedia.org/wiki/Major_League_Baseball)
