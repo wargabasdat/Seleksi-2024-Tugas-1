@@ -1,0 +1,802 @@
+[
+    {
+        "rank": "1",
+        "movie_name": "toy story 2",
+        "year": "1999",
+        "score": "100",
+        "artist": "tom hanks",
+        "director": "ash brannon"
+    },
+    {
+        "rank": "2",
+        "movie_name": "toy story",
+        "year": "1995",
+        "score": "100",
+        "artist": "tom hanks",
+        "director": "john lasseter"
+    },
+    {
+        "rank": "3",
+        "movie_name": "pinocchio",
+        "year": "1940",
+        "score": "100",
+        "artist": "don brodie",
+        "director": "ben sharpsteen"
+    },
+    {
+        "rank": "4",
+        "movie_name": "finding nemo",
+        "year": "2003",
+        "score": "99",
+        "artist": "albert brooks",
+        "director": "andrew stanton"
+    },
+    {
+        "rank": "5",
+        "movie_name": "inside out",
+        "year": "2015",
+        "score": "98",
+        "artist": "amy poehler",
+        "director": "pete docter"
+    },
+    {
+        "rank": "6",
+        "movie_name": "toy story 3",
+        "year": "2010",
+        "score": "98",
+        "artist": "tom hanks",
+        "director": "lee unkrich"
+    },
+    {
+        "rank": "7",
+        "movie_name": "zootopia",
+        "year": "2016",
+        "score": "98",
+        "artist": "ginnifer goodwin",
+        "director": "byron howard"
+    },
+    {
+        "rank": "8",
+        "movie_name": "hamilton",
+        "year": "2020",
+        "score": "98",
+        "artist": "lin-manuel miranda",
+        "director": "thomas kail"
+    },
+    {
+        "rank": "9",
+        "movie_name": "big",
+        "year": "1988",
+        "score": "98",
+        "artist": "tom hanks",
+        "director": "penny marshall"
+    },
+    {
+        "rank": "10",
+        "movie_name": "one hundred and one dalmatians",
+        "year": "1961",
+        "score": "98",
+        "artist": "rod taylor",
+        "director": "wolfgang reitherman"
+    },
+    {
+        "rank": "11",
+        "movie_name": "toy story 4",
+        "year": "2019",
+        "score": "97",
+        "artist": "tom hanks",
+        "director": "josh cooley"
+    },
+    {
+        "rank": "12",
+        "movie_name": "coco",
+        "year": "2017",
+        "score": "97",
+        "artist": "anthony gonzalez",
+        "director": "lee unkrich"
+    },
+    {
+        "rank": "13",
+        "movie_name": "the incredibles",
+        "year": "2004",
+        "score": "97",
+        "artist": "craig t. nelson",
+        "director": "brad bird"
+    },
+    {
+        "rank": "14",
+        "movie_name": "snow white and the seven dwarfs",
+        "year": "1937",
+        "score": "97",
+        "artist": "adriana caselotti",
+        "director": "david hand"
+    },
+    {
+        "rank": "15",
+        "movie_name": "mary poppins",
+        "year": "1964",
+        "score": "97",
+        "artist": "julie andrews",
+        "director": "robert stevenson"
+    },
+    {
+        "rank": "16",
+        "movie_name": "black panther",
+        "year": "2018",
+        "score": "96",
+        "artist": "chadwick boseman",
+        "director": "ryan coogler"
+    },
+    {
+        "rank": "17",
+        "movie_name": "ratatouille",
+        "year": "2007",
+        "score": "96",
+        "artist": "patton oswalt",
+        "director": "brad bird"
+    },
+    {
+        "rank": "18",
+        "movie_name": "monsters, inc.",
+        "year": "2001",
+        "score": "96",
+        "artist": "john goodman",
+        "director": "pete docter"
+    },
+    {
+        "rank": "19",
+        "movie_name": "the princess bride",
+        "year": "1987",
+        "score": "96",
+        "artist": "cary elwes",
+        "director": "rob reiner"
+    },
+    {
+        "rank": "20",
+        "movie_name": "who framed roger rabbit",
+        "year": "1988",
+        "score": "96",
+        "artist": "bob hoskins",
+        "director": "robert zemeckis"
+    },
+    {
+        "rank": "21",
+        "movie_name": "miracle on 34th street",
+        "year": "1947",
+        "score": "96",
+        "artist": "maureen o'hara",
+        "director": "george seaton"
+    },
+    {
+        "rank": "22",
+        "movie_name": "soul",
+        "year": "2020",
+        "score": "95",
+        "artist": "jamie foxx",
+        "director": "pete docter"
+    },
+    {
+        "rank": "23",
+        "movie_name": "turning red",
+        "year": "2022",
+        "score": "95",
+        "artist": "rosalie chiang",
+        "director": "domee shi"
+    },
+    {
+        "rank": "24",
+        "movie_name": "moana",
+        "year": "2016",
+        "score": "95",
+        "artist": "dwayne johnson",
+        "director": "john musker"
+    },
+    {
+        "rank": "25",
+        "movie_name": "wall-e",
+        "year": "2008",
+        "score": "95",
+        "artist": "ben burtt",
+        "director": "andrew stanton"
+    },
+    {
+        "rank": "26",
+        "movie_name": "the muppets",
+        "year": "2011",
+        "score": "95",
+        "artist": "jason segel",
+        "director": "james bobin"
+    },
+    {
+        "rank": "27",
+        "movie_name": "star wars: episode v - the empire strikes back",
+        "year": "1980",
+        "score": "95",
+        "artist": "mark hamill",
+        "director": "irvin kershner"
+    },
+    {
+        "rank": "28",
+        "movie_name": "the straight story",
+        "year": "1999",
+        "score": "95",
+        "artist": "richard farnsworth",
+        "director": "david lynch"
+    },
+    {
+        "rank": "29",
+        "movie_name": "the nightmare before christmas",
+        "year": "1993",
+        "score": "95",
+        "artist": "danny elfman",
+        "director": "henry selick"
+    },
+    {
+        "rank": "30",
+        "movie_name": "aladdin",
+        "year": "1992",
+        "score": "95",
+        "artist": "scott weinger",
+        "director": "ron clements"
+    },
+    {
+        "rank": "31",
+        "movie_name": "fantasia",
+        "year": "1940",
+        "score": "95",
+        "artist": "deems taylor",
+        "director": "james algar"
+    },
+    {
+        "rank": "32",
+        "movie_name": "dumbo",
+        "year": "1941",
+        "score": "95",
+        "artist": "herman bing",
+        "director": "ben sharpsteen"
+    },
+    {
+        "rank": "33",
+        "movie_name": "avengers: endgame",
+        "year": "2019",
+        "score": "94",
+        "artist": "robert downey jr.",
+        "director": "anthony russo"
+    },
+    {
+        "rank": "34",
+        "movie_name": "finding dory",
+        "year": "2016",
+        "score": "94",
+        "artist": "ellen degeneres",
+        "director": "andrew stanton"
+    },
+    {
+        "rank": "35",
+        "movie_name": "iron man",
+        "year": "2008",
+        "score": "94",
+        "artist": "robert downey jr.",
+        "director": "jon favreau"
+    },
+    {
+        "rank": "36",
+        "movie_name": "queen of katwe",
+        "year": "2016",
+        "score": "94",
+        "artist": "madina nalwanga",
+        "director": "mira nair"
+    },
+    {
+        "rank": "37",
+        "movie_name": "the guardians of the galaxy holiday special",
+        "year": "2022",
+        "score": "94",
+        "artist": "chris pratt",
+        "director": "james gunn"
+    },
+    {
+        "rank": "38",
+        "movie_name": "star wars: the force awakens",
+        "year": "2015",
+        "score": "93",
+        "artist": "harrison ford",
+        "director": "j.j. abrams"
+    },
+    {
+        "rank": "39",
+        "movie_name": "thor: ragnarok",
+        "year": "2017",
+        "score": "93",
+        "artist": "chris hemsworth",
+        "director": "taika waititi"
+    },
+    {
+        "rank": "40",
+        "movie_name": "hidden figures",
+        "year": "2016",
+        "score": "93",
+        "artist": "taraji p. henson",
+        "director": "theodore melfi"
+    },
+    {
+        "rank": "41",
+        "movie_name": "raya and the last dragon",
+        "year": "2021",
+        "score": "93",
+        "artist": "kelly marie tran",
+        "director": "don hall"
+    },
+    {
+        "rank": "42",
+        "movie_name": "fantastic mr. fox",
+        "year": "2009",
+        "score": "93",
+        "artist": "george clooney",
+        "director": "wes anderson"
+    },
+    {
+        "rank": "43",
+        "movie_name": "star wars: episode iv - a new hope",
+        "year": "1977",
+        "score": "93",
+        "artist": "mark hamill",
+        "director": "george lucas"
+    },
+    {
+        "rank": "44",
+        "movie_name": "beauty and the beast",
+        "year": "1991",
+        "score": "93",
+        "artist": "paige o'hara",
+        "director": "gary trousdale"
+    },
+    {
+        "rank": "45",
+        "movie_name": "lady and the tramp",
+        "year": "1955",
+        "score": "93",
+        "artist": "peggy lee",
+        "director": "clyde geronimi"
+    },
+    {
+        "rank": "46",
+        "movie_name": "spider-man: homecoming",
+        "year": "2017",
+        "score": "92",
+        "artist": "tom holland",
+        "director": "jon watts"
+    },
+    {
+        "rank": "47",
+        "movie_name": "west side story",
+        "year": "2021",
+        "score": "92",
+        "artist": "ansel elgort",
+        "director": "steven spielberg"
+    },
+    {
+        "rank": "48",
+        "movie_name": "guardians of the galaxy",
+        "year": "2014",
+        "score": "92",
+        "artist": "chris pratt",
+        "director": "james gunn"
+    },
+    {
+        "rank": "49",
+        "movie_name": "the lion king",
+        "year": "1994",
+        "score": "92",
+        "artist": "matthew broderick",
+        "director": "roger allers"
+    },
+    {
+        "rank": "50",
+        "movie_name": "a bug's life",
+        "year": "1998",
+        "score": "92",
+        "artist": "dave foley",
+        "director": "john lasseter"
+    },
+    {
+        "rank": "51",
+        "movie_name": "star wars: the last jedi",
+        "year": "2017",
+        "score": "91",
+        "artist": "mark hamill",
+        "director": "rian johnson"
+    },
+    {
+        "rank": "52",
+        "movie_name": "marvel's the avengers",
+        "year": "2012",
+        "score": "91",
+        "artist": "robert downey jr.",
+        "director": "joss whedon"
+    },
+    {
+        "rank": "53",
+        "movie_name": "encanto",
+        "year": "2021",
+        "score": "91",
+        "artist": "stephanie beatriz",
+        "director": "jared bush"
+    },
+    {
+        "rank": "54",
+        "movie_name": "the little mermaid",
+        "year": "1989",
+        "score": "91",
+        "artist": "jodi benson",
+        "director": "ron clements"
+    },
+    {
+        "rank": "55",
+        "movie_name": "james and the giant peach",
+        "year": "1996",
+        "score": "91",
+        "artist": "paul terry",
+        "director": "henry selick"
+    },
+    {
+        "rank": "56",
+        "movie_name": "ever after: a cinderella story",
+        "year": "1998",
+        "score": "91",
+        "artist": "drew barrymore",
+        "director": "andy tennant"
+    },
+    {
+        "rank": "57",
+        "movie_name": "bambi",
+        "year": "1942",
+        "score": "91",
+        "artist": "hardie albright",
+        "director": "david hand"
+    },
+    {
+        "rank": "58",
+        "movie_name": "captain america: civil war",
+        "year": "2016",
+        "score": "90",
+        "artist": "chris evans",
+        "director": "anthony russo"
+    },
+    {
+        "rank": "59",
+        "movie_name": "isle of dogs",
+        "year": "2018",
+        "score": "90",
+        "artist": "bryan cranston",
+        "director": "wes anderson"
+    },
+    {
+        "rank": "60",
+        "movie_name": "x-men: days of future past",
+        "year": "2014",
+        "score": "90",
+        "artist": "hugh jackman",
+        "director": "bryan singer"
+    },
+    {
+        "rank": "61",
+        "movie_name": "captain america: the winter soldier",
+        "year": "2014",
+        "score": "90",
+        "artist": "chris evans",
+        "director": "anthony russo"
+    },
+    {
+        "rank": "62",
+        "movie_name": "frozen",
+        "year": "2013",
+        "score": "90",
+        "artist": "kristen bell",
+        "director": "chris buck"
+    },
+    {
+        "rank": "63",
+        "movie_name": "big hero 6",
+        "year": "2014",
+        "score": "90",
+        "artist": "ryan potter",
+        "director": "don hall"
+    },
+    {
+        "rank": "64",
+        "movie_name": "bolt",
+        "year": "2008",
+        "score": "90",
+        "artist": "john travolta",
+        "director": "chris williams"
+    },
+    {
+        "rank": "65",
+        "movie_name": "winnie the pooh",
+        "year": "2011",
+        "score": "90",
+        "artist": "jim cummings",
+        "director": "stephen j. anderson"
+    },
+    {
+        "rank": "66",
+        "movie_name": "sleeping beauty",
+        "year": "1959",
+        "score": "90",
+        "artist": "mary costa",
+        "director": "clyde geronimi"
+    },
+    {
+        "rank": "67",
+        "movie_name": "doctor strange",
+        "year": "2016",
+        "score": "89",
+        "artist": "benedict cumberbatch",
+        "director": "scott derrickson"
+    },
+    {
+        "rank": "68",
+        "movie_name": "tangled",
+        "year": "2010",
+        "score": "89",
+        "artist": "mandy moore",
+        "director": "nathan greno"
+    },
+    {
+        "rank": "69",
+        "movie_name": "werewolf by night",
+        "year": "2022",
+        "score": "89",
+        "artist": "gael garc\u00eda bernal",
+        "director": "michael giacchino"
+    },
+    {
+        "rank": "70",
+        "movie_name": "tarzan",
+        "year": "1999",
+        "score": "89",
+        "artist": "tony goldwyn",
+        "director": "chris buck"
+    },
+    {
+        "rank": "71",
+        "movie_name": "the muppet movie",
+        "year": "1979",
+        "score": "89",
+        "artist": "charles durning",
+        "director": "james frawley"
+    },
+    {
+        "rank": "72",
+        "movie_name": "onward",
+        "year": "2020",
+        "score": "88",
+        "artist": "tom holland",
+        "director": "dan scanlon"
+    },
+    {
+        "rank": "73",
+        "movie_name": "pete's dragon",
+        "year": "2016",
+        "score": "88",
+        "artist": "bryce dallas howard",
+        "director": "david lowery"
+    },
+    {
+        "rank": "74",
+        "movie_name": "millions",
+        "year": "2004",
+        "score": "88",
+        "artist": "alex etel",
+        "director": "danny boyle"
+    },
+    {
+        "rank": "75",
+        "movie_name": "freaky friday",
+        "year": "2003",
+        "score": "88",
+        "artist": "jamie lee curtis",
+        "director": "mark waters"
+    },
+    {
+        "rank": "76",
+        "movie_name": "young woman and the sea",
+        "year": "2024",
+        "score": "88",
+        "artist": "daisy ridley",
+        "director": "joachim r\u00f8nning"
+    },
+    {
+        "rank": "77",
+        "movie_name": "the jungle book",
+        "year": "1967",
+        "score": "88",
+        "artist": "phil harris",
+        "director": "wolfgang reitherman"
+    },
+    {
+        "rank": "78",
+        "movie_name": "the peanuts movie",
+        "year": "2015",
+        "score": "87",
+        "artist": "noah schnapp",
+        "director": "steve martino"
+    },
+    {
+        "rank": "79",
+        "movie_name": "lilo & stitch",
+        "year": "2002",
+        "score": "87",
+        "artist": "daveigh chase",
+        "director": "dean deblois"
+    },
+    {
+        "rank": "80",
+        "movie_name": "x-men: first class",
+        "year": "2011",
+        "score": "86",
+        "artist": "james mcavoy",
+        "director": "matthew vaughn"
+    },
+    {
+        "rank": "81",
+        "movie_name": "the emperor's new groove",
+        "year": "2000",
+        "score": "86",
+        "artist": "david spade",
+        "director": "mark dindal"
+    },
+    {
+        "rank": "82",
+        "movie_name": "mulan",
+        "year": "1998",
+        "score": "86",
+        "artist": "ming-na wen",
+        "director": "barry cook"
+    },
+    {
+        "rank": "83",
+        "movie_name": "guardians of the galaxy vol. 2",
+        "year": "2017",
+        "score": "85",
+        "artist": "chris pratt",
+        "director": "james gunn"
+    },
+    {
+        "rank": "84",
+        "movie_name": "deadpool",
+        "year": "2016",
+        "score": "85",
+        "artist": "ryan reynolds",
+        "director": "tim miller"
+    },
+    {
+        "rank": "85",
+        "movie_name": "x2",
+        "year": "2003",
+        "score": "85",
+        "artist": "patrick stewart",
+        "director": "bryan singer"
+    },
+    {
+        "rank": "86",
+        "movie_name": "the princess and the frog",
+        "year": "2009",
+        "score": "85",
+        "artist": "anika noni rose",
+        "director": "ron clements"
+    },
+    {
+        "rank": "87",
+        "movie_name": "rogue one: a star wars story",
+        "year": "2016",
+        "score": "84",
+        "artist": "felicity jones",
+        "director": "gareth edwards"
+    },
+    {
+        "rank": "88",
+        "movie_name": "deadpool 2",
+        "year": "2018",
+        "score": "84",
+        "artist": "ryan reynolds",
+        "director": "david leitch"
+    },
+    {
+        "rank": "89",
+        "movie_name": "the rookie",
+        "year": "2002",
+        "score": "84",
+        "artist": "dennis quaid",
+        "director": "john lee hancock"
+    },
+    {
+        "rank": "90",
+        "movie_name": "indiana jones and the last crusade",
+        "year": "1989",
+        "score": "84",
+        "artist": "harrison ford",
+        "director": "steven spielberg"
+    },
+    {
+        "rank": "91",
+        "movie_name": "ant-man",
+        "year": "2015",
+        "score": "83",
+        "artist": "paul rudd",
+        "director": "peyton reed"
+    },
+    {
+        "rank": "92",
+        "movie_name": "star wars: episode vi - return of the jedi",
+        "year": "1983",
+        "score": "82",
+        "artist": "mark hamill",
+        "director": "richard marquand"
+    },
+    {
+        "rank": "93",
+        "movie_name": "drumline",
+        "year": "2002",
+        "score": "82",
+        "artist": "nick cannon",
+        "director": "charles stone iii"
+    },
+    {
+        "rank": "94",
+        "movie_name": "hercules",
+        "year": "1997",
+        "score": "82",
+        "artist": "tate donovan",
+        "director": "ron clements"
+    },
+    {
+        "rank": "95",
+        "movie_name": "avatar",
+        "year": "2009",
+        "score": "81",
+        "artist": "sam worthington",
+        "director": "james cameron"
+    },
+    {
+        "rank": "96",
+        "movie_name": "miracle",
+        "year": "2004",
+        "score": "81",
+        "artist": "kurt russell",
+        "director": "gavin o'connor"
+    },
+    {
+        "rank": "97",
+        "movie_name": "ron's gone wrong",
+        "year": "2021",
+        "score": "81",
+        "artist": "zach galifianakis",
+        "director": "sarah smith"
+    },
+    {
+        "rank": "98",
+        "movie_name": "while you were sleeping",
+        "year": "1995",
+        "score": "81",
+        "artist": "sandra bullock",
+        "director": "jon turteltaub"
+    },
+    {
+        "rank": "99",
+        "movie_name": "free guy",
+        "year": "2021",
+        "score": "80",
+        "artist": "ryan reynolds",
+        "director": "shawn levy"
+    },
+    {
+        "rank": "100",
+        "movie_name": "pirates of the caribbean: the curse of the black pearl",
+        "year": "2003",
+        "score": "80",
+        "artist": "johnny depp",
+        "director": "gore verbinski"
+    }
+]
