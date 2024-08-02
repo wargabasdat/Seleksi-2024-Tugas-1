@@ -1,4 +1,4 @@
-# Seleksi Asisten Basis Data - 2024 - Tugas 1
+comm# Seleksi Asisten Basis Data - 2024 - Tugas 1
 | NIM | Nama Anggota |
 | --- | --- |
 | 18222096 | Farah Aulia |
