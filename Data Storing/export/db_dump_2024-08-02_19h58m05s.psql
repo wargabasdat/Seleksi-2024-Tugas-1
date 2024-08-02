@@ -1,0 +1,1466 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 16.2
+-- Dumped by pg_dump version 16.2
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_table_access_method = heap;
+
+--
+-- Name: animes; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.animes (
+    title character varying(255) NOT NULL,
+    year integer NOT NULL,
+    type character varying(25),
+    episode_count integer,
+    studio character varying(255)
+);
+
+
+ALTER TABLE public.animes OWNER TO postgres;
+
+--
+-- Name: animes_in_lists; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.animes_in_lists (
+    creator character varying(255) NOT NULL,
+    list_title character varying(255) NOT NULL,
+    anime_title character varying(255) NOT NULL,
+    anime_year integer NOT NULL
+);
+
+
+ALTER TABLE public.animes_in_lists OWNER TO postgres;
+
+--
+-- Name: appears_in; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.appears_in (
+    anime_title character varying(255) NOT NULL,
+    anime_year integer NOT NULL,
+    char_name character varying(255) NOT NULL
+);
+
+
+ALTER TABLE public.appears_in OWNER TO postgres;
+
+--
+-- Name: characters; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.characters (
+    name character varying(255) NOT NULL,
+    char_url character varying(255),
+    rank character varying(3),
+    avatar_url character varying(255),
+    char_hates integer,
+    char_comments integer
+);
+
+
+ALTER TABLE public.characters OWNER TO postgres;
+
+--
+-- Name: characters_tags; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.characters_tags (
+    name character varying(255) NOT NULL,
+    tag character varying(255) NOT NULL
+);
+
+
+ALTER TABLE public.characters_tags OWNER TO postgres;
+
+--
+-- Name: characters_traits; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.characters_traits (
+    name character varying(255) NOT NULL,
+    trait character varying(255) NOT NULL
+);
+
+
+ALTER TABLE public.characters_traits OWNER TO postgres;
+
+--
+-- Name: custom_lists; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.custom_lists (
+    creator character varying(255) NOT NULL,
+    list_title character varying(255) NOT NULL,
+    list_comments integer,
+    list_likes integer
+);
+
+
+ALTER TABLE public.custom_lists OWNER TO postgres;
+
+--
+-- Name: reviews; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.reviews (
+    reviewer character varying(255) NOT NULL,
+    date date NOT NULL,
+    anime_title character varying(255) NOT NULL,
+    anime_year integer NOT NULL,
+    score double precision,
+    first_sentence text
+);
+
+
+ALTER TABLE public.reviews OWNER TO postgres;
+
+--
+-- Name: studios; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.studios (
+    romanized_name character varying(255) NOT NULL,
+    founder character varying(255) NOT NULL,
+    founding_date date,
+    company_type character varying(255),
+    headquarters character varying(255)
+);
+
+
+ALTER TABLE public.studios OWNER TO postgres;
+
+--
+-- Name: users; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.users (
+    username character varying(255) NOT NULL,
+    join_date date NOT NULL,
+    age integer,
+    gender character(1),
+    CONSTRAINT gender_check CHECK ((gender = ANY (ARRAY['f'::bpchar, 'm'::bpchar])))
+);
+
+
+ALTER TABLE public.users OWNER TO postgres;
+
+--
+-- Data for Name: animes; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.animes (title, year, type, episode_count, studio) FROM stdin;
+fullmetal alchemist	2003	tv	51	bones
+fullmetal alchemist: brotherhood	2009	tv	64	bones
+fullmetal alchemist: brotherhood: 4-koma theater	2009	dvd special	16	bones
+boruto: naruto next generations	2017	tv	293	pierrot
+boruto: naruto the movie	2015	movie	1	pierrot
+boruto: naruto the movie - the day naruto became hokage	2016	dvd special	1	pierrot
+death note	2006	tv	37	madhouse
+death note rewrite 1: visions of a god	2007	tv special	1	madhouse
+death note rewrite 2: l's successors	2008	tv special	1	madhouse
+naruto	2002	tv	220	pierrot
+naruto shippuden	2007	tv	500	pierrot
+naruto spin-off: rock lee & his ninja pals	2012	tv	51	pierrot
+road of naruto	2022	web	1	pierrot
+boruto: jump festa 2016 special	2016	other	1	pierrot
+my hero academia	2016	tv	13	bones
+my hero academia 2	2017	tv	25	bones
+my hero academia 3	2018	tv	25	bones
+code geass: dakkan no rozé	2024	other	25	sunrise
+code geass: lelouch of the rebellion	2006	tv	25	sunrise
+code geass: lelouch of the rebellion iii - glorification	2018	movie	1	sunrise
+naruto: hidden leaf village grand sports festival!	2004	tv special	1	pierrot
+sword art online	2012	tv	25	a-1 pictures
+sword art online: alicization - war of underworld	2019	tv	12	a-1 pictures
+sword art online: alicization - war of underworld: part ii	2020	tv	11	a-1 pictures
+20-pun de oitsukeru: attack on titan	2021	web	1	wit studio
+attack on skytree	2017	other	1	wit studio
+attack on titan	2013	tv	25	wit studio
+soul eater	2008	tv	51	bones
+soul eater: late night show	2008	other	51	bones
+school days	2007	tv	12	tnk
+school days: magical heart kokoro-chan	2008	ova	1	tnk
+school days ona	2005	web	1	animation planet
+eromanga sensei	2017	tv	12	a-1 pictures
+he wei dao x sword art online: alicization	2019	other	1	a-1 pictures
+sword art online: extra edition	2013	tv special	1	a-1 pictures
+highschool of the dead	2010	tv	12	madhouse
+bleach	2004	tv	366	pierrot
+bleach: memories in the rain	2004	ova	1	pierrot
+bleach movie 1: memories of nobody	2006	movie	1	pierrot
+the rising of the shield hero	2019	tv	25	kinema citrus
+the rising of the shield hero 2nd season	2022	tv	13	dr movie
+the rising of the shield hero 3rd season	2023	tv	12	kinema citrus
+hungry days x one piece	2019	web	4	shaft
+one piece	1999	tv	4	toei animation
+one piece 3d2y: overcoming ace's death! luffy's pledge to his friends!	2014	tv special	1	toei animation
+future diary	2011	tv	26	asread
+future diary ova	2010	ova	1	asread
+future diary: redial	2013	ova	1	asread
+code geass: akito the exiled	2012	ova	5	sunrise
+hungry days x bump of chicken: kinen satsuei	2019	music video	1	sunrise
+bleach: the sealed sword frenzy	2005	ova	1	pierrot
+bleach: thousand-year blood war	2022	tv	13	pierrot
+tokyo ghoul	2014	tv	12	pierrot
+tokyo ghoul: jack	2015	ova	1	pierrot
+tokyo ghoul:re 2nd season	2018	tv	12	pierrot
+attack on titan 2nd season	2017	tv	12	wit studio
+arceus, the one called god	2022	web	4	olm
+a ripple in time	2022	web	1	olm
+planetarium pokémon: aurora kara no message	2020	movie	1	olm
+claris: luminous	2012	music video	1	olm
+magia record: puella magi madoka magica side story	2020	tv	13	shaft
+magia record: puella magi madoka magica side story season 2 - the eve of awakening	2021	tv	8	shaft
+kyuutai panic adventure!	2003	other	2	shaft
+sword art online: alicization	2018	tv	24	a-1 pictures
+sword art online: alicization - reflection	2019	tv special	1	a-1 pictures
+one piece: episode of merry - mou hitori no nakama no monogatari	2013	tv special	1	toei animation
+one piece film: gold	2016	movie	1	toei animation
+a silent voice	2016	movie	1	kyoto animation
+ai higuchi: akuma no ko	2022	music video	1	contrail
+tokyo ghoul √a	2015	tv	12	pierrot
+akame ga kill!	2014	tv	24	white fox
+akame ga kill! theater	2014	web	24	white fox
+fruits basket	2001	tv	26	studio deen
+fruits basket 1st season	2019	tv	25	8 pan
+fruits basket 2nd season	2020	tv	25	tms entertainment
+ouran high school host club	2006	tv	26	bones
+\.
+
+
+--
+-- Data for Name: animes_in_lists; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.animes_in_lists (creator, list_title, anime_title, anime_year) FROM stdin;
+Halex	animes with a watching guide	fullmetal alchemist	2003
+Aerythrin	tearjerking anime	fullmetal alchemist	2003
+Aerythrin	tearjerking anime	fullmetal alchemist: brotherhood	2009
+sothis	anime with overpowered op characters	fullmetal alchemist: brotherhood	2009
+Bacon41	tear inducing anime	fullmetal alchemist: brotherhood: 4-koma theater	2009
+GeminiRabbit	anime with a completed manga	boruto: naruto next generations	2017
+Halex	naruto  watching guide	boruto: naruto next generations	2017
+WolfAngelus	nostalgic themed anime  nostalgicpopular	boruto: naruto the movie	2015
+Halex	naruto  watching guide	boruto: naruto the movie	2015
+Halex	naruto  watching guide	boruto: naruto the movie - the day naruto became hokage	2016
+VongolaUndici1196	when you want something serious to watch	death note	2006
+EnjuAiharaFan	must watch anime  the greatest plots	death note	2006
+alala	alternate retellingcompilation movies of	death note rewrite 1: visions of a god	2007
+sothis	anime with overpowered op characters	death note rewrite 1: visions of a god	2007
+Ryuubus	anime that aired in romania  animeuri di	death note rewrite 2: l's successors	2008
+sothis	anime with overpowered op characters	death note rewrite 2: l's successors	2008
+Halex	animes with a watching guide	naruto	2002
+sothis	anime with overpowered op characters	naruto	2002
+Halex	naruto  watching guide	naruto shippuden	2007
+sothis	anime with overpowered op characters	naruto shippuden	2007
+AnnaSartin	halloween episodes in anime	naruto spin-off: rock lee & his ninja pals	2012
+Mayank	all anime on netflix india	naruto spin-off: rock lee & his ninja pals	2012
+AnnaSartin	halloween episodes in anime	road of naruto	2022
+Mayank	all anime on netflix india	road of naruto	2022
+AnnaSartin	halloween episodes in anime	boruto: jump festa 2016 special	2016
+Mayank	all anime on netflix india	boruto: jump festa 2016 special	2016
+Silvernotebook	my emotions though gun shots	my hero academia	2016
+InnocentSmile	anime seriesmovies with no ecchi scenes 	my hero academia	2016
+Silvernotebook	my emotions though gun shots	my hero academia 2	2017
+InnocentSmile	anime seriesmovies with no ecchi scenes 	my hero academia 2	2017
+Silvernotebook	my emotions though gun shots	my hero academia 3	2018
+InnocentSmile	anime seriesmovies with no ecchi scenes 	my hero academia 3	2018
+Halex	code geass  watching guide	code geass: dakkan no rozé	2024
+VongolaUndici1196	when you want something serious to watch	code geass: lelouch of the rebellion	2006
+EnjuAiharaFan	must watch anime  the greatest plots	code geass: lelouch of the rebellion	2006
+Halex	code geass  watching guide	code geass: lelouch of the rebellion iii - glorification	2018
+Mayank	all anime on netflix india	code geass: lelouch of the rebellion iii - glorification	2018
+NorthPole	sports festival scenes in anime	naruto: hidden leaf village grand sports festival!	2004
+Epimondas	most adult oriented rated r level or abo	sword art online	2012
+EnjuAiharaFan	must watch anime  the greatest plots	sword art online	2012
+NorthPole	video games anime	sword art online: alicization - war of underworld	2019
+GeminiRabbit	sword art online watching guide	sword art online: alicization - war of underworld: part ii	2020
+GeminiRabbit	sword art online watching guide	20-pun de oitsukeru: attack on titan	2021
+Halex	attack on titan  watching guide	attack on skytree	2017
+InnocentSmile	anime seriesmovies with no ecchi scenes 	attack on titan	2013
+EnjuAiharaFan	must watch anime  the greatest plots	attack on titan	2013
+Morikochan	you cant call yourself an otaku if you d	soul eater	2008
+Thanh2003	female protagonist animes	soul eater: late night show	2008
+VongolaUndici1196	when you want something serious to watch	school days	2007
+alala	romantic school dramascomedies	school days	2007
+YariMari	anime badges	school days: magical heart kokoro-chan	2008
+Burkirk	hate sink protagonist anime	school days ona	2005
+captivus	best romance anime	eromanga sensei	2017
+Raikenzom	modern or futuristic context 2d donghuas	he wei dao x sword art online: alicization	2019
+NorthPole	video games anime	sword art online: extra edition	2013
+GeminiRabbit	sword art online watching guide	sword art online: extra edition	2013
+Epimondas	most adult oriented rated r level or abo	highschool of the dead	2010
+HH223	top anime for getting started	highschool of the dead	2010
+Halex	animes with incredible art	bleach	2004
+sothis	anime with overpowered op characters	bleach	2004
+NorthPole	wafu fantasy anime	bleach: memories in the rain	2004
+NorthPole	wafu fantasy anime	bleach movie 1: memories of nobody	2006
+Epimondas	most adult oriented rated r level or abo	the rising of the shield hero	2019
+EnjuAiharaFan	must watch anime  the greatest plots	the rising of the shield hero	2019
+Re1nhard	anime available on disney hotstar	the rising of the shield hero 2nd season	2022
+Re1nhard	anime available on disney hotstar	the rising of the shield hero 3rd season	2023
+AnnaSartin	food and product commercials starring an	hungry days x one piece	2019
+Halex	animes with a watching guide	one piece	1999
+sothis	anime with overpowered op characters	one piece	1999
+Halex	best animes from 2014	one piece 3d2y: overcoming ace's death! luffy's pledge to his friends!	2014
+VongolaUndici1196	when you want something serious to watch	future diary	2011
+EnjuAiharaFan	must watch anime  the greatest plots	future diary	2011
+halochan	top 15  gruesome animes to watch	future diary ova	2010
+Mayank	all anime on netflix india	future diary: redial	2013
+Halex	code geass  watching guide	code geass: akito the exiled	2012
+Halex	code geass  watching guide	hungry days x bump of chicken: kinen satsuei	2019
+NorthPole	wafu fantasy anime	bleach: the sealed sword frenzy	2005
+NorthPole	wafu fantasy anime	bleach: thousand-year blood war	2022
+InnocentSmile	anime seriesmovies with no ecchi scenes 	tokyo ghoul	2014
+EnjuAiharaFan	must watch anime  the greatest plots	tokyo ghoul	2014
+Feinraf	anime on netflix uk	tokyo ghoul: jack	2015
+sothis	anime with overpowered op characters	tokyo ghoul: jack	2015
+Aerythrin	best anime music	tokyo ghoul:re 2nd season	2018
+NightTonight	must watch seinen dark fantasy anime  20	tokyo ghoul:re 2nd season	2018
+InnocentSmile	anime seriesmovies with no ecchi scenes 	attack on titan 2nd season	2017
+NightTonight	must watch seinen dark fantasy anime  20	attack on titan 2nd season	2017
+InnocentSmile	anime seriesmovies with no ecchi scenes 	arceus, the one called god	2022
+NightTonight	must watch seinen dark fantasy anime  20	arceus, the one called god	2022
+InnocentSmile	anime seriesmovies with no ecchi scenes 	a ripple in time	2022
+NightTonight	must watch seinen dark fantasy anime  20	a ripple in time	2022
+InnocentSmile	anime seriesmovies with no ecchi scenes 	planetarium pokémon: aurora kara no message	2020
+NightTonight	must watch seinen dark fantasy anime  20	planetarium pokémon: aurora kara no message	2020
+InnocentSmile	anime seriesmovies with no ecchi scenes 	claris: luminous	2012
+NightTonight	must watch seinen dark fantasy anime  20	claris: luminous	2012
+AnnaSartin	cute girls whose lives suck	magia record: puella magi madoka magica side story	2020
+AnnaSartin	cute girls whose lives suck	magia record: puella magi madoka magica side story season 2 - the eve of awakening	2021
+AnnaSartin	cute girls whose lives suck	kyuutai panic adventure!	2003
+Mayank	all anime on netflix india	sword art online: alicization	2018
+GeminiRabbit	sword art online watching guide	sword art online: alicization - reflection	2019
+KrisDFC	animes rebootsremakes	one piece: episode of merry - mou hitori no nakama no monogatari	2013
+knoxyal	anime with official animated music video	one piece film: gold	2016
+InnocentSmile	anime seriesmovies with no ecchi scenes 	a silent voice	2016
+EnjuAiharaFan	must watch anime  the greatest plots	a silent voice	2016
+knoxyal	official anime music videos amvs featuri	ai higuchi: akuma no ko	2022
+InnocentSmile	anime seriesmovies with no ecchi scenes 	tokyo ghoul √a	2015
+sothis	anime with overpowered op characters	tokyo ghoul √a	2015
+Epimondas	most adult oriented rated r level or abo	akame ga kill!	2014
+sothis	anime with overpowered op characters	akame ga kill!	2014
+ClawfootQueen	clawfoot bathtubs in anime	akame ga kill! theater	2014
+alala	romantic school dramascomedies	fruits basket	2001
+Shirokuma	animes with reverse harem	fruits basket	2001
+Silvernotebook	my emotions though gun shots	fruits basket 1st season	2019
+InnocentSmile	anime seriesmovies with no ecchi scenes 	fruits basket 1st season	2019
+Silvernotebook	my emotions though gun shots	fruits basket 2nd season	2020
+knoxyal	the ultimate shows for stress relief	fruits basket 2nd season	2020
+InnocentSmile	anime seriesmovies with no ecchi scenes 	ouran high school host club	2006
+Shirokuma	animes with reverse harem	ouran high school host club	2006
+\.
+
+
+--
+-- Data for Name: appears_in; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.appears_in (anime_title, anime_year, char_name) FROM stdin;
+fullmetal alchemist	2003	shou tucker
+fullmetal alchemist: brotherhood	2009	shou tucker
+fullmetal alchemist: brotherhood: 4-koma theater	2009	shou tucker
+boruto: naruto next generations	2017	sakura haruno
+boruto: naruto the movie	2015	sakura haruno
+boruto: naruto the movie - the day naruto became hokage	2016	sakura haruno
+death note	2006	light yagami
+death note rewrite 1: visions of a god	2007	light yagami
+death note rewrite 2: l's successors	2008	light yagami
+boruto: naruto next generations	2017	sasuke uchiha
+boruto: naruto the movie	2015	sasuke uchiha
+naruto	2002	sasuke uchiha
+naruto shippuden	2007	danzo shimura
+naruto spin-off: rock lee & his ninja pals	2012	danzo shimura
+road of naruto	2022	danzo shimura
+boruto: naruto next generations	2017	naruto uzumaki
+boruto: naruto the movie	2015	naruto uzumaki
+boruto: jump festa 2016 special	2016	naruto uzumaki
+death note	2006	misa amane
+death note rewrite 1: visions of a god	2007	misa amane
+death note rewrite 2: l's successors	2008	misa amane
+death note	2006	near
+death note rewrite 2: l's successors	2008	near
+my hero academia	2016	minoru mineta
+my hero academia 2	2017	minoru mineta
+my hero academia 3	2018	minoru mineta
+death note	2006	l
+death note rewrite 1: visions of a god	2007	l
+death note rewrite 2: l's successors	2008	l
+code geass: dakkan no rozé	2024	nina einstein
+code geass: lelouch of the rebellion	2006	nina einstein
+code geass: lelouch of the rebellion iii - glorification	2018	nina einstein
+boruto: naruto next generations	2017	kabuto yakushi
+naruto	2002	kabuto yakushi
+naruto: hidden leaf village grand sports festival!	2004	kabuto yakushi
+sword art online	2012	nobuyuki sugou
+sword art online: alicization - war of underworld	2019	nobuyuki sugou
+sword art online: alicization - war of underworld: part ii	2020	nobuyuki sugou
+death note	2006	mello
+death note rewrite 2: l's successors	2008	mello
+boruto: naruto next generations	2017	orochimaru
+naruto	2002	orochimaru
+naruto: hidden leaf village grand sports festival!	2004	orochimaru
+fullmetal alchemist	2003	edward elric
+fullmetal alchemist: brotherhood	2009	edward elric
+fullmetal alchemist: brotherhood: 4-koma theater	2009	edward elric
+20-pun de oitsukeru: attack on titan	2021	levi
+attack on skytree	2017	levi
+attack on titan	2013	levi
+soul eater	2008	excalibur
+soul eater: late night show	2008	excalibur
+school days	2007	makoto itou
+school days: magical heart kokoro-chan	2008	makoto itou
+school days ona	2005	makoto itou
+sword art online	2012	kirito
+eromanga sensei	2017	kirito
+he wei dao x sword art online: alicization	2019	kirito
+sword art online	2012	kuradeel
+sword art online: alicization - war of underworld: part ii	2020	kuradeel
+sword art online: extra edition	2013	kuradeel
+highschool of the dead	2010	kouichi shido
+bleach	2004	orihime inoue
+bleach: memories in the rain	2004	orihime inoue
+bleach movie 1: memories of nobody	2006	orihime inoue
+the rising of the shield hero	2019	malty s melromarc
+the rising of the shield hero 2nd season	2022	malty s melromarc
+the rising of the shield hero 3rd season	2023	malty s melromarc
+hungry days x one piece	2019	akainu
+one piece	1999	akainu
+one piece 3d2y: overcoming ace's death! luffy's pledge to his friends!	2014	akainu
+future diary	2011	yukiteru amano
+future diary ova	2010	yukiteru amano
+future diary: redial	2013	yukiteru amano
+code geass: lelouch of the rebellion	2006	charles zi britannia
+code geass: lelouch of the rebellion iii - glorification	2018	charles zi britannia
+code geass: akito the exiled	2012	charles zi britannia
+hungry days x one piece	2019	blackbeard
+one piece	1999	blackbeard
+hungry days x bump of chicken: kinen satsuei	2019	blackbeard
+bleach	2004	sousuke aizen
+bleach: the sealed sword frenzy	2005	sousuke aizen
+bleach: thousand-year blood war	2022	sousuke aizen
+tokyo ghoul	2014	yamori
+tokyo ghoul: jack	2015	yamori
+tokyo ghoul:re 2nd season	2018	yamori
+fullmetal alchemist	2003	gluttony
+fullmetal alchemist: brotherhood	2009	gluttony
+fullmetal alchemist: brotherhood: 4-koma theater	2009	gluttony
+code geass: lelouch of the rebellion	2006	suzaku kururugi
+code geass: lelouch of the rebellion iii - glorification	2018	suzaku kururugi
+code geass: akito the exiled	2012	suzaku kururugi
+boruto: naruto next generations	2017	kakashi hatake
+boruto: naruto the movie	2015	kakashi hatake
+boruto: naruto the movie - the day naruto became hokage	2016	kakashi hatake
+20-pun de oitsukeru: attack on titan	2021	kitz woermann
+attack on titan	2013	kitz woermann
+attack on titan 2nd season	2017	kitz woermann
+fullmetal alchemist	2003	envy
+fullmetal alchemist: brotherhood	2009	envy
+fullmetal alchemist: brotherhood: 4-koma theater	2009	envy
+fullmetal alchemist	2003	king bradley
+fullmetal alchemist: brotherhood	2009	king bradley
+fullmetal alchemist: brotherhood: 4-koma theater	2009	king bradley
+arceus, the one called god	2022	ash ketchum
+a ripple in time	2022	ash ketchum
+planetarium pokémon: aurora kara no message	2020	ash ketchum
+claris: luminous	2012	kyubey
+magia record: puella magi madoka magica side story	2020	kyubey
+magia record: puella magi madoka magica side story season 2 - the eve of awakening	2021	kyubey
+hungry days x one piece	2019	arlong
+hungry days x bump of chicken: kinen satsuei	2019	arlong
+kyuutai panic adventure!	2003	arlong
+sword art online	2012	asuna yuuki
+sword art online: alicization	2018	asuna yuuki
+sword art online: alicization - reflection	2019	asuna yuuki
+one piece	1999	spandam
+one piece: episode of merry - mou hitori no nakama no monogatari	2013	spandam
+one piece film: gold	2016	spandam
+a silent voice	2016	naoka ueno
+20-pun de oitsukeru: attack on titan	2021	eren jaeger
+attack on skytree	2017	eren jaeger
+ai higuchi: akuma no ko	2022	eren jaeger
+tokyo ghoul	2014	kureo mado
+tokyo ghoul:re 2nd season	2018	kureo mado
+tokyo ghoul √a	2015	kureo mado
+boruto: naruto next generations	2017	karin
+naruto shippuden	2007	karin
+naruto spin-off: rock lee & his ninja pals	2012	karin
+future diary	2011	yuno gasai
+future diary ova	2010	yuno gasai
+future diary: redial	2013	yuno gasai
+20-pun de oitsukeru: attack on titan	2021	annie leonhart
+attack on titan	2013	annie leonhart
+ai higuchi: akuma no ko	2022	annie leonhart
+akame ga kill!	2014	seryu ubiquitous
+akame ga kill! theater	2014	seryu ubiquitous
+boruto: naruto next generations	2017	ino yamanaka
+boruto: naruto the movie	2015	ino yamanaka
+boruto: naruto the movie - the day naruto became hokage	2016	ino yamanaka
+fruits basket	2001	akito sohma
+fruits basket 1st season	2019	akito sohma
+fruits basket 2nd season	2020	akito sohma
+ouran high school host club	2006	eclair tonerre
+\.
+
+
+--
+-- Data for Name: characters; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.characters (name, char_url, rank, avatar_url, char_hates, char_comments) FROM stdin;
+shou tucker	https://www.anime-planet.com/characters/shou-tucker	1	https://cdn.anime-planet.com/characters/primary/shou-tucker-1-190x266.jpg?t=1625966014	21135	328
+sakura haruno	https://www.anime-planet.com/characters/sakura-haruno	2	https://cdn.anime-planet.com/characters/primary/sakura-haruno-1-285x400.webp?t=1648651812	19360	626
+light yagami	https://www.anime-planet.com/characters/light-yagami	3	https://cdn.anime-planet.com/characters/primary/light-yagami-1-190x266.jpg?t=1625965725	17875	310
+sasuke uchiha	https://www.anime-planet.com/characters/sasuke-uchiha	4	https://cdn.anime-planet.com/characters/primary/sasuke-uchiha-1-190x291.jpg?t=1625965402	13467	366
+danzo shimura	https://www.anime-planet.com/characters/danzo-shimura	5	https://cdn.anime-planet.com/characters/primary/danzo-shimura-1-130x185.jpg?t=1628017328	12910	74
+naruto uzumaki	https://www.anime-planet.com/characters/naruto-uzumaki	6	https://cdn.anime-planet.com/characters/primary/naruto-uzumaki-1-285x399.webp?t=1648651726	12703	234
+misa amane	https://www.anime-planet.com/characters/misa-amane	7	https://cdn.anime-planet.com/characters/primary/misa-amane-1-190x266.jpg?t=1625965725	12211	184
+near	https://www.anime-planet.com/characters/near	8	https://cdn.anime-planet.com/characters/primary/near-1-190x266.jpg?t=1625965726	11462	203
+minoru mineta	https://www.anime-planet.com/characters/minoru-mineta	9	https://cdn.anime-planet.com/characters/primary/minoru-mineta-1-190x265.jpg?t=1625993023	10534	288
+l	https://www.anime-planet.com/characters/l-death-note	10	https://cdn.anime-planet.com/characters/primary/l-death-note-1-190x266.jpg?t=1625965725	10477	369
+nina einstein	https://www.anime-planet.com/characters/nina-einstein	11	https://cdn.anime-planet.com/characters/primary/nina-einstein-1-285x399.webp?t=1641590976	10244	173
+kabuto yakushi	https://www.anime-planet.com/characters/kabuto-yakushi	12	https://cdn.anime-planet.com/characters/primary/kabuto-yakushi-1-190x266.jpg?t=1625965464	9824	62
+nobuyuki sugou	https://www.anime-planet.com/characters/nobuyuki-sugou	13	https://cdn.anime-planet.com/characters/primary/nobuyuki-sugou-1-190x266.jpg?t=1625978539	9702	97
+mello	https://www.anime-planet.com/characters/mello	14	https://cdn.anime-planet.com/characters/primary/mello-1-190x266.jpg?t=1625965726	8715	91
+orochimaru	https://www.anime-planet.com/characters/orochimaru	15	https://cdn.anime-planet.com/characters/primary/orochimaru-1-190x267.jpg?t=1625965404	8388	91
+edward elric	https://www.anime-planet.com/characters/edward-elric	16	https://cdn.anime-planet.com/characters/primary/edward-elric-1-190x266.jpg?t=1625965583	8021	112
+levi	https://www.anime-planet.com/characters/levi	17	https://cdn.anime-planet.com/characters/primary/levi-1-190x266.jpg?t=1625973324	7935	270
+excalibur	https://www.anime-planet.com/characters/excalibur	18	https://cdn.anime-planet.com/characters/primary/excalibur-1-130x200.jpg?t=1625965241	7924	170
+makoto itou	https://www.anime-planet.com/characters/makoto-itou	19	https://cdn.anime-planet.com/characters/primary/makoto-itou-1-190x266.jpg?t=1625967111	7750	264
+kirito	https://www.anime-planet.com/characters/kirito	20	https://cdn.anime-planet.com/characters/primary/kirito-1-190x266.jpg?t=1625974517	7699	311
+kuradeel	https://www.anime-planet.com/characters/kuradeel	21	https://cdn.anime-planet.com/characters/primary/kuradeel-1-190x266.jpg?t=1625974517	6964	13
+kouichi shido	https://www.anime-planet.com/characters/kouichi-shido	22	https://cdn.anime-planet.com/characters/primary/kouichi-shido-1-190x266.jpg?t=1625969511	6949	48
+orihime inoue	https://www.anime-planet.com/characters/orihime-inoue	23	https://cdn.anime-planet.com/characters/primary/orihime-inoue-1-190x266.jpg?t=1625965225	6864	248
+malty s melromarc	https://www.anime-planet.com/characters/malty-s-melromarc	24	https://cdn.anime-planet.com/characters/primary/malty-s-melromarc-1-190x266.jpg?t=1625992953	6807	233
+akainu	https://www.anime-planet.com/characters/akainu	25	https://cdn.anime-planet.com/characters/primary/akainu-1-190x267.jpg?t=1625969053	6238	65
+yukiteru amano	https://www.anime-planet.com/characters/yukiteru-amano	26	https://cdn.anime-planet.com/characters/primary/yukiteru-amano-1-190x266.jpg?t=1625968558	5874	177
+charles zi britannia	https://www.anime-planet.com/characters/charles-zi-britannia	27	https://cdn.anime-planet.com/characters/primary/charles-zi-britannia-1-285x399.webp?t=1672860121	5865	26
+blackbeard	https://www.anime-planet.com/characters/blackbeard	28	https://cdn.anime-planet.com/characters/primary/blackbeard-1-190x267.jpg?t=1625965594	5656	19
+sousuke aizen	https://www.anime-planet.com/characters/sousuke-aizen	29	https://cdn.anime-planet.com/characters/primary/sousuke-aizen-1-190x266.jpg?t=1625965488	5490	62
+yamori	https://www.anime-planet.com/characters/yamori-tokyo-ghoul	30	https://cdn.anime-planet.com/characters/primary/yamori-tokyo-ghoul-1-190x297.jpg?t=1625991719	5298	37
+gluttony	https://www.anime-planet.com/characters/gluttony	31	https://cdn.anime-planet.com/characters/primary/gluttony-1-190x266.jpg?t=1625965991	5233	18
+suzaku kururugi	https://www.anime-planet.com/characters/suzaku-kururugi	32	https://cdn.anime-planet.com/characters/primary/suzaku-kururugi-1-190x266.jpg?t=1625965655	4989	115
+kakashi hatake	https://www.anime-planet.com/characters/kakashi-hatake	33	https://cdn.anime-planet.com/characters/primary/kakashi-hatake-1-285x399.webp?t=1651413657	4931	195
+kitz woermann	https://www.anime-planet.com/characters/kitz-woermann	34	https://cdn.anime-planet.com/characters/primary/kitz-woermann-1-190x266.jpg?t=1625981190	4786	24
+envy	https://www.anime-planet.com/characters/envy	35	https://cdn.anime-planet.com/characters/primary/envy-1-190x267.jpg?t=1625965990	4770	66
+king bradley	https://www.anime-planet.com/characters/king-bradley	36	https://cdn.anime-planet.com/characters/primary/king-bradley-1-190x266.jpg?t=1625965984	4765	37
+ash ketchum	https://www.anime-planet.com/characters/ash-ketchum	37	https://cdn.anime-planet.com/characters/primary/ash-ketchum-1-190x266.jpg?t=1625966304	4701	121
+kyubey	https://www.anime-planet.com/characters/kyubey	38	https://cdn.anime-planet.com/characters/primary/kyubey-1-190x266.jpg?t=1625971672	4695	146
+arlong	https://www.anime-planet.com/characters/arlong	39	https://cdn.anime-planet.com/characters/primary/arlong-1-190x266.jpg?t=1625965331	4693	6
+asuna yuuki	https://www.anime-planet.com/characters/asuna-yuuki	40	https://cdn.anime-planet.com/characters/primary/asuna-yuuki-1-190x266.jpg?t=1625974518	4646	188
+spandam	https://www.anime-planet.com/characters/spandam	41	https://cdn.anime-planet.com/characters/primary/spandam-1-190x266.jpg?t=1625965578	4644	25
+naoka ueno	https://www.anime-planet.com/characters/naoka-ueno	42	https://cdn.anime-planet.com/characters/primary/naoka-ueno-1-190x266.jpg?t=1625992821	4501	156
+eren jaeger	https://www.anime-planet.com/characters/eren-jaeger	43	https://cdn.anime-planet.com/characters/primary/eren-jaeger-1-190x266.jpg?t=1625972790	4460	270
+kureo mado	https://www.anime-planet.com/characters/kureo-mado	44	https://cdn.anime-planet.com/characters/primary/kureo-mado-1-188x300.jpg?t=1625989960	4352	32
+karin	https://www.anime-planet.com/characters/karin-naruto-shippuuden	45	https://cdn.anime-planet.com/characters/primary/karin-naruto-shippuuden-1-130x185.jpg?t=1625970981	4317	41
+yuno gasai	https://www.anime-planet.com/characters/yuno-gasai	46	https://cdn.anime-planet.com/characters/primary/yuno-gasai-1-190x266.jpg?t=1625968559	4295	270
+annie leonhart	https://www.anime-planet.com/characters/annie-leonhart	47	https://cdn.anime-planet.com/characters/primary/annie-leonhart-1-190x266.jpg?t=1625972799	4223	115
+seryu ubiquitous	https://www.anime-planet.com/characters/seryu-ubiquitous	48	https://cdn.anime-planet.com/characters/primary/seryu-ubiquitous-1-190x285.jpg?t=1625991927	4215	85
+ino yamanaka	https://www.anime-planet.com/characters/ino-yamanaka	49	https://cdn.anime-planet.com/characters/primary/ino-yamanaka-1-285x399.webp?t=1648650018	4144	55
+akito sohma	https://www.anime-planet.com/characters/akito-sohma	50	https://cdn.anime-planet.com/characters/primary/akito-sohma-1-190x266.jpg?t=1625966019	4048	111
+eclair tonerre	https://www.anime-planet.com/characters/eclair-tonerre	51	https://cdn.anime-planet.com/characters/primary/eclair-tonerre-1-190x266.jpg?t=1625970722	4041	35
+\.
+
+
+--
+-- Data for Name: characters_tags; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.characters_tags (name, tag) FROM stdin;
+shou tucker	adult
+shou tucker	alchemist
+shou tucker	glasses
+shou tucker	scientist
+shou tucker	single parent
+sakura haruno	headband
+sakura haruno	ninja
+sakura haruno	verbal tic
+light yagami	analytical
+light yagami	big ego
+light yagami	charismatic
+light yagami	god complex
+light yagami	manipulative
+light yagami	ruthless
+light yagami	secret identity
+sasuke uchiha	elemental powers
+sasuke uchiha	exotic eyes
+sasuke uchiha	fire powers
+sasuke uchiha	lightning powers
+sasuke uchiha	ninja
+sasuke uchiha	orphan
+sasuke uchiha	teleportation powers
+sasuke uchiha	vengeful
+danzo shimura	bandages
+danzo shimura	beastmaster
+danzo shimura	elderly
+danzo shimura	ninja
+danzo shimura	scar
+naruto uzumaki	beastmaster
+naruto uzumaki	birthmark / mole
+naruto uzumaki	face markings
+naruto uzumaki	headband
+naruto uzumaki	hot-headed
+naruto uzumaki	ninja
+naruto uzumaki	orphan
+naruto uzumaki	verbal tic
+misa amane	hyperactive
+misa amane	idol
+misa amane	pigtails
+near	analytical
+near	detective
+near	teenager
+minoru mineta	cowardly
+minoru mineta	crybaby
+minoru mineta	high school student
+minoru mineta	pervert
+minoru mineta	small stature
+minoru mineta	superpowers
+minoru mineta	teenager
+l	analytical
+l	barefoot
+l	detective
+l	eye bags
+l	sweet tooth
+nina einstein	braids
+nina einstein	glasses
+nina einstein	high school student
+nina einstein	pigtails
+nina einstein	shy
+nina einstein	student council
+nina einstein	teenager
+kabuto yakushi	analytical
+kabuto yakushi	glasses
+kabuto yakushi	headband
+kabuto yakushi	healing powers
+kabuto yakushi	ninja
+kabuto yakushi	ponytail
+nobuyuki sugou	adult
+nobuyuki sugou	glasses
+nobuyuki sugou	god complex
+nobuyuki sugou	sadistic
+mello	analytical
+mello	sweet tooth
+mello	teenager
+orochimaru	adult
+orochimaru	beastmaster
+orochimaru	manipulative
+orochimaru	necromancer
+orochimaru	ninja
+orochimaru	overly long tongue
+orochimaru	piercings
+orochimaru	ruthless
+edward elric	alchemist
+edward elric	arm blades
+edward elric	artificial limb
+edward elric	braids
+edward elric	gloves
+edward elric	hair antenna
+edward elric	hot-headed
+edward elric	military
+edward elric	ponytail
+edward elric	teenager
+levi	adult
+levi	military
+levi	ruthless
+levi	stoic
+levi	sword fighter
+excalibur	big ego
+excalibur	comic relief
+excalibur	hat
+excalibur	shapeshifter
+makoto itou	hair antenna
+makoto itou	high school student
+makoto itou	teenager
+kirito	person in a strange world
+kirito	sword fighter
+kirito	teenager
+kirito	video gamer
+kirito	warrior
+kuradeel	armor
+kuradeel	bodyguard
+kuradeel	cape
+kuradeel	person in a strange world
+kuradeel	ponytail
+kuradeel	sword fighter
+kuradeel	video gamer
+kouichi shido	adult
+kouichi shido	big ego
+kouichi shido	glasses
+kouichi shido	manipulative
+kouichi shido	ruthless
+kouichi shido	teacher
+orihime inoue	broken record
+orihime inoue	clumsy
+orihime inoue	force field powers
+orihime inoue	healing powers
+orihime inoue	high school student
+orihime inoue	superpowers
+orihime inoue	teenager
+malty s melromarc	magic user
+malty s melromarc	manipulative
+malty s melromarc	royalty
+malty s melromarc	ruthless
+akainu	abnormally tall
+akainu	adult
+akainu	hat
+akainu	manipulative
+akainu	military
+akainu	muscular
+akainu	ruthless
+akainu	sailor
+akainu	superpowers
+akainu	tattoo
+yukiteru amano	hat
+yukiteru amano	middle school student
+yukiteru amano	superpowers
+yukiteru amano	teenager
+charles zi britannia	adult
+charles zi britannia	cape
+charles zi britannia	facial hair
+charles zi britannia	royalty
+charles zi britannia	ruthless
+charles zi britannia	scarf
+charles zi britannia	tyrant
+blackbeard	adult
+blackbeard	cruel
+blackbeard	darkness powers
+blackbeard	elemental powers
+blackbeard	eternal optimist
+blackbeard	facial hair
+blackbeard	gravity manipulator
+blackbeard	hat
+blackbeard	manipulative
+blackbeard	missing teeth
+blackbeard	pirate
+blackbeard	ruthless
+blackbeard	sailor
+blackbeard	superpowers
+sousuke aizen	agent of the afterlife
+sousuke aizen	analytical
+sousuke aizen	combat illusionist
+sousuke aizen	glasses
+sousuke aizen	invisibility powers
+sousuke aizen	shinigami
+sousuke aizen	sword fighter
+yamori	abnormally tall
+yamori	adult
+yamori	big ego
+yamori	big nose
+yamori	bloodthirsty
+yamori	exotic eyes
+yamori	monster
+yamori	muscular
+yamori	no eyebrows
+yamori	sadistic
+yamori	unconventional weapon
+gluttony	bald
+gluttony	big eater
+gluttony	big nose
+gluttony	immortal
+gluttony	overly long tongue
+gluttony	overweight
+gluttony	superpowers
+suzaku kururugi	high school student
+suzaku kururugi	martial artist
+suzaku kururugi	mecha pilot
+suzaku kururugi	military
+suzaku kururugi	student council
+suzaku kururugi	teenager
+kakashi hatake	adult
+kakashi hatake	anti-gravity hair
+kakashi hatake	beastmaster
+kakashi hatake	exotic eyes
+kakashi hatake	gloves
+kakashi hatake	headband
+kakashi hatake	masks
+kakashi hatake	ninja
+kakashi hatake	scar
+kitz woermann	adult
+kitz woermann	cowardly
+kitz woermann	facial hair
+kitz woermann	military
+envy	cruel
+envy	gloves
+envy	headband
+envy	hot-headed
+envy	human guise
+envy	immortal
+envy	sadistic
+envy	shapeshifter
+envy	superpowers
+king bradley	dual wielder
+king bradley	eye patch
+king bradley	facial hair
+king bradley	military
+king bradley	sword fighter
+ash ketchum	big ego
+ash ketchum	child
+ash ketchum	face markings
+ash ketchum	gloves
+ash ketchum	hat
+ash ketchum	hot-headed
+ash ketchum	hyperactive
+ash ketchum	monster tamer
+ash ketchum	traveler
+kyubey	alien
+kyubey	psychic powers
+kyubey	stoic
+kyubey	tail
+arlong	adult
+arlong	big ego
+arlong	big nose
+arlong	hat
+arlong	muscular
+arlong	piercings
+arlong	pirate
+arlong	racial purist
+arlong	sailor
+arlong	sharp teeth
+arlong	tattoo
+asuna yuuki	braids
+asuna yuuki	cook
+asuna yuuki	person in a strange world
+asuna yuuki	sword fighter
+asuna yuuki	teenager
+asuna yuuki	video gamer
+asuna yuuki	warrior
+spandam	adult
+spandam	cowardly
+spandam	cruel
+spandam	gloves
+spandam	masks
+spandam	military
+spandam	ruthless
+spandam	sword fighter
+naoka ueno	bully
+eren jaeger	hot-headed
+eren jaeger	military
+eren jaeger	sword fighter
+eren jaeger	vengeful
+kureo mado	detective
+kureo mado	police
+kureo mado	sadistic
+kureo mado	unconventional weapon
+karin	glasses
+karin	ninja
+yuno gasai	analytical
+yuno gasai	broken record
+yuno gasai	hair ribbons
+yuno gasai	middle school student
+yuno gasai	pigtails
+yuno gasai	ruthless
+yuno gasai	stalker
+yuno gasai	superpowers
+yuno gasai	teenager
+annie leonhart	martial artist
+annie leonhart	military
+annie leonhart	stoic
+annie leonhart	sword fighter
+seryu ubiquitous	monster tamer
+seryu ubiquitous	police
+seryu ubiquitous	ponytail
+ino yamanaka	florist
+ino yamanaka	ninja
+ino yamanaka	ponytail
+ino yamanaka	psychic powers
+akito sohma	adult
+akito sohma	cursebearer
+akito sohma	manipulative
+akito sohma	sadistic
+akito sohma	sickly
+eclair tonerre	foreigner
+eclair tonerre	teenager
+eclair tonerre	wealthy
+\.
+
+
+--
+-- Data for Name: characters_traits; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.characters_traits (name, trait) FROM stdin;
+shou tucker	male
+shou tucker	brown hair
+sakura haruno	female
+sakura haruno	pink hair
+light yagami	male
+light yagami	brown hair
+sasuke uchiha	male
+sasuke uchiha	black hair
+danzo shimura	male
+danzo shimura	black hair
+naruto uzumaki	male
+naruto uzumaki	blonde hair
+misa amane	female
+misa amane	blonde hair
+near	male
+near	white hair
+minoru mineta	male
+minoru mineta	purple hair
+l	male
+l	black hair
+nina einstein	female
+nina einstein	black hair
+kabuto yakushi	male
+kabuto yakushi	grey hair
+nobuyuki sugou	male
+nobuyuki sugou	brown hair
+mello	male
+mello	blonde hair
+orochimaru	male
+orochimaru	black hair
+edward elric	male
+edward elric	blonde hair
+levi	male
+levi	black hair
+excalibur	male
+makoto itou	male
+makoto itou	black hair
+kirito	male
+kirito	black hair
+kuradeel	male
+kuradeel	black hair
+kouichi shido	male
+kouichi shido	black hair
+orihime inoue	female
+orihime inoue	orange hair
+malty s melromarc	female
+malty s melromarc	red hair
+akainu	male
+akainu	black hair
+yukiteru amano	male
+yukiteru amano	black hair
+charles zi britannia	male
+charles zi britannia	white hair
+blackbeard	male
+blackbeard	black hair
+sousuke aizen	male
+sousuke aizen	brown hair
+yamori	male
+yamori	blonde hair
+gluttony	male
+suzaku kururugi	male
+suzaku kururugi	brown hair
+kakashi hatake	male
+kakashi hatake	grey hair
+kitz woermann	male
+kitz woermann	brown hair
+envy	green hair
+king bradley	male
+king bradley	black hair
+ash ketchum	male
+ash ketchum	black hair
+kyubey	white hair
+arlong	male
+arlong	black hair
+asuna yuuki	female
+asuna yuuki	brown hair
+spandam	male
+spandam	purple hair
+naoka ueno	female
+naoka ueno	black hair
+eren jaeger	male
+eren jaeger	brown hair
+kureo mado	male
+kureo mado	white hair
+karin	female
+karin	magenta hair
+yuno gasai	female
+yuno gasai	pink hair
+annie leonhart	female
+annie leonhart	blonde hair
+seryu ubiquitous	female
+seryu ubiquitous	orange hair
+ino yamanaka	female
+ino yamanaka	blonde hair
+akito sohma	black hair
+eclair tonerre	female
+eclair tonerre	brown hair
+\.
+
+
+--
+-- Data for Name: custom_lists; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.custom_lists (creator, list_title, list_comments, list_likes) FROM stdin;
+Halex	animes with a watching guide	18	318
+Aerythrin	tearjerking anime	32	523
+Bacon41	tear inducing anime	0	18
+GeminiRabbit	anime with a completed manga	2	58
+WolfAngelus	nostalgic themed anime  nostalgicpopular	0	58
+Halex	naruto  watching guide	19	268
+VongolaUndici1196	when you want something serious to watch	33	934
+alala	alternate retellingcompilation movies of	3	20
+Ryuubus	anime that aired in romania  animeuri di	2	15
+AnnaSartin	halloween episodes in anime	1	21
+Silvernotebook	my emotions though gun shots	17	465
+Halex	code geass  watching guide	1	62
+Mayank	all anime on netflix india	10	47
+NorthPole	sports festival scenes in anime	1	3
+Epimondas	most adult oriented rated r level or abo	61	635
+NorthPole	video games anime	0	23
+GeminiRabbit	sword art online watching guide	2	13
+Halex	attack on titan  watching guide	4	163
+InnocentSmile	anime seriesmovies with no ecchi scenes 	18	809
+Morikochan	you cant call yourself an otaku if you d	9	207
+Thanh2003	female protagonist animes	0	23
+alala	romantic school dramascomedies	5	530
+YariMari	anime badges	15	301
+Burkirk	hate sink protagonist anime	0	2
+captivus	best romance anime	19	353
+Raikenzom	modern or futuristic context 2d donghuas	1	2
+HH223	top anime for getting started	17	300
+Halex	animes with incredible art	6	349
+NorthPole	wafu fantasy anime	1	81
+Re1nhard	anime available on disney hotstar	0	7
+AnnaSartin	food and product commercials starring an	0	5
+Halex	best animes from 2014	1	11
+halochan	top 15  gruesome animes to watch	0	70
+Feinraf	anime on netflix uk	2	27
+Aerythrin	best anime music	13	105
+NightTonight	must watch seinen dark fantasy anime  20	7	270
+AnnaSartin	cute girls whose lives suck	5	113
+KrisDFC	animes rebootsremakes	6	31
+knoxyal	anime with official animated music video	2	23
+EnjuAiharaFan	must watch anime  the greatest plots	8	959
+knoxyal	official anime music videos amvs featuri	1	29
+sothis	anime with overpowered op characters	21	579
+ClawfootQueen	clawfoot bathtubs in anime	0	0
+knoxyal	the ultimate shows for stress relief	3	96
+Shirokuma	animes with reverse harem	27	756
+\.
+
+
+--
+-- Data for Name: reviews; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.reviews (reviewer, date, anime_title, anime_year, score, first_sentence) FROM stdin;
+ladieburd	2009-10-26	fullmetal alchemist	2003	8	full metal alchemist is an up and coming anime that is causing a lot of buzz
+mahius	2015-12-22	fullmetal alchemist: brotherhood	2009	10	fullmetal alchemist brotherhood is a 64 episode adventure action anime, a remake of a very popular anime, featuring some very interesting sci-fi-esque themes of alchemy
+trashcan007	2023-12-11	fullmetal alchemist: brotherhood: 4-koma theater	2009	1	i never really got into this silly 2d art style of anime
+obitouzumaki	2019-01-14	boruto: naruto next generations	2017	1	all they did was copy a bit of naruto like for example team seven's first c ranked mission in naruto turned into a b rank the did the same thing with boruto his first c rank mission turned into a b ranked one then at the chunnin exam there's an invasion in naruto the sound and sand villages invade in boruto two members of the ōtsutsuki clan invade my other problem is that they made naruto weak i'm sure everyone can agree the naruto is god tier since he has six paths chakra the whole nine tails and some of the chakra from the other tailed beast he's a toad sage and he's the reincarnation of asura so how is it that he gets captured so easily by the ōtsutsuki why did he get stabbed so easily by shin my third problem is boruto himself he just annoys me he's bratty and for some reason he's chunnin level we didn't we that growth no training honestly i would have preferred they continued naruto or just stopped there no sequel 
+bigdumbohface	2015-10-10	boruto: naruto the movie	2015	10	today, on october 10, 2015, was day two of new york city comic con (nycc) but is also naruto's birthday
+beth0410	2020-09-06	boruto: naruto the movie - the day naruto became hokage	2016	10	this was a funny and heartwarming short movie to watch when naruto finally became the hokage
+vivisqueen	2010-01-08	death note	2006	8.5	enter the mind of a sociopath, light yagami
+nushinigami	2016-01-11	death note rewrite 1: visions of a god	2007	4	the plot of this compared to the series is a steaming pile of shit
+flamespeedy	2012-10-24	death note rewrite 2: l's successors	2008	9	death note relight 2 is a recap of the orginal series episodes but with extended/remade scenes which should have been in the original but taken out or made later on
+lordstar2	2020-04-27	naruto	2002	10	i watched naruto series overall 3 times
+igugh0s7	2015-08-06	naruto shippuden	2007	7	i agree with most of the reviews stating way to may fillers and that they are poorly placed i do recomends skipping most of them but if you skip them all you will miss out on some good back story
+devillmaycry	2016-08-02	naruto spin-off: rock lee & his ninja pals	2012	1	thats one of the mos boring and stupid shows that i have watched
+bloom19	2023-01-18	road of naruto	2022	10	this is super awesome if you are a naruto fan like myself! >w< the animation was amazing! >///< (warning) but do not watch if you don't want spoilers because it shows the biggest events both happy and sad! <3 
+eiraza	2017-12-12	my hero academia	2016	8	so i read reviews about this anime before posting one and i saw lots of other people's comparsion's to one punch man and i honestly don't get that vibe at all
+mayobe	2017-08-01	my hero academia 2	2017	9	stan lee should be taking notes on this instead of trying to compete with it
+woziu	2018-08-07	my hero academia 3	2018	10	everything in this anime is just perfect
+kliu15	2024-07-05	code geass: dakkan no rozé	2024	8	this is a rather pleasing continuation of code geass, depicting the skirmishes of battle and war even after the "peace" lelouch had established in the original code geass storyline
+lagore	2009-12-10	code geass: lelouch of the rebellion	2006	1	wanna hear a joke?  what do you get when you combine all of the currently existing anime fandoms with bipolar characters, frenetic pacing, and a pizza hut commercial?  that's right!  you get code geass, the most evil show ever created by man
+codeblazefate	2018-10-05	code geass: lelouch of the rebellion iii - glorification	2018	7.3	the stage light shines once again
+littlechomp	2010-05-16	naruto: hidden leaf village grand sports festival!	2004	1	anime in 200 words: naruto: konoha sports festival premise: poop humor
+mykejinx89	2015-08-01	sword art online	2012	0.1	sword art online
+ivanlacee	2021-01-05	sword art online: alicization - war of underworld	2019	4	in short, if you're looking for sao's "redemption arc" like me, don't waste your time here 
+kaeonice	2020-09-14	sword art online: alicization - war of underworld: part ii	2020	9	as someone who watched the original sword art online and loved it, i was super excited to see the new alicization series, season one disappointed me so much a wasn't planning on watching season 2
+vicktus	2014-01-21	attack on titan	2013	4	i feel almost obligated to begin my review with this simple statement:  attack on titan is absurdly overrated
+spectrum229	2019-12-14	soul eater	2008	10	this is an absolutely phenomenal anime! it has a nice balance of characters with each making their way through their own personal conflicts which, in effect, help overcome the bigger overall conflict
+mahius	2014-10-05	school days	2007	6	school days is an ecchi harem* anime that is very different
+gzerble	2015-02-16	school days: magical heart kokoro-chan	2008	6	i love shameless fan service and zombies
+interregnum	2017-06-25	eromanga sensei	2017	6.9	if you're a 13-year-old who wants a watered-down do-over on oreimo, search no further! this is everything you're looking for
+frykigamer	2021-03-04	he wei dao x sword art online: alicization	2019	8	a nice comertial for cup noodles whitch takes place in the first season of alizisation
+rbastid	2022-12-31	sword art online: extra edition	2013	4	a recap, an ova bonus quest, and a typically worthless “beach type” episode all rolled in to one extra long film, and for once i didn’t completely hate it
+hamletsmage	2011-10-29	highschool of the dead	2010	8	ever seen a zombie movie? yes? good, this will be similar to those
+badxluck	2011-08-25	bleach	2004	10	story: awseome story line
+nasreen10	2010-02-11	bleach: memories in the rain	2004	8	for bleach fans, this ova definitely made up for the episodes in the anime
+thatanimesnob	2012-04-15	bleach movie 1: memories of nobody	2006	5	this is the first bleach movie and i must say it ended up being better than i expected
+thelittleprince	2019-03-23	the rising of the shield hero	2019	6	when i started watching rising of the shield hero i was kinda hyped and couldnt wait for new episodes because of the interesting plot of a "hated" main character and the 4 heroes that got summoned with each of their weapons, i really liked the first episodes and the way he got betrayed by almost everyone near him, but then in the newer episodes they have almost completely skipped the main plot and is just following around the mc with his wagon raccoon girl and bird loli helping random people
+asahihamadaxx	2022-05-21	the rising of the shield hero 2nd season	2022	6	this anime got me pretty excited when it was announced because i really liked the first season
+jalmaries	2024-01-13	the rising of the shield hero 3rd season	2023	4	they got some nerves to come up with that filler season, story never progress' and even some worthless fights goes for 2 episodes
+elad1	2023-03-18	hungry days x one piece	2019	9	i thought it was a real anime but if it also was damn it will be really good of an anime
+thatanimesnob	2012-04-21	one piece	1999	7	this anime is over a decade old and is still half-way through
+itachi16785	2024-04-27	one piece 3d2y: overcoming ace's death! luffy's pledge to his friends!	2014	9	one piece 3d2y is a non canon one piece movie set during the time skip
+charvisioku	2014-06-18	future diary	2011	9	story the basic gist of mirai nikki is that god (or deus) is dying and he needs to choose a successor; to do this he chooses a group of people and gives them 'future diaries' which hold various different properties (e
+flip2012	2013-07-06	future diary ova	2010	7	a perfect horror/romance anime very unique and i havent seen an anime like this so i really liked it <3
+zarakiuchiha	2017-09-02	future diary: redial	2013	10	this is exactly what i needed
+itarusaki	2020-03-21	code geass: akito the exiled	2012	0.5	i absolutely loathe this 5-episode anime
+nasreen10	2010-06-17	bleach: the sealed sword frenzy	2005	5	story: this was very reminiscent of the bount arc in bleach to me
+lvand	2023-03-14	bleach: thousand-year blood war	2022	8.5	welcome back old friend! that's what this felt like when watching the first part of this final arc of bleach - it was like reuniting with an old friend and seeing them finally get their moment to shine and tell their story, that's what it felt like
+apoc9	2014-09-27	tokyo ghoul	2014	2	if you really think about it the premise of story it is not original at all
+susanna	2015-12-12	tokyo ghoul: jack	2015	10	the ova was just so amazing! i loved every second of it tbh
+inu12	2018-12-20	tokyo ghoul:re 2nd season	2018	4	so with 1 episode left, i am going to write a quick review
+umbrellas123	2017-04-24	attack on titan 2nd season	2017	5.5	***new update in the second half
+jstenneg	2022-12-05	a ripple in time	2022	6	as pokemon short specials go this one was ok but a bit odd
+inu230	2019-12-24	claris: luminous	2012	8	love
+noanimenolife21	2021-07-31	magia record: puella magi madoka magica side story	2020	7	first of all keep in mind that if u will compare magia record with the original madoka magica u will never enjoy this anime
+theroguenob	2021-11-01	magia record: puella magi madoka magica side story season 2 - the eve of awakening	2021	7	i'll be short since i didn't realize the show was over after 8 episodes which felt super fast
+victoireblanc	2019-03-16	sword art online: alicization	2018	4.5	to put things frankly, sword art online: alicization as an anime is a huge letdown compared to its light novels (volume 9 - 18)
+rosecandle16	2018-07-29	one piece film: gold	2016	10	i loved this movie
+muonsei	2017-05-10	a silent voice	2016	9.8	this review is very late because of one big reason: the release of koe no katachi in philippine cinemas was delayed
+infantmite44654	2022-08-15	ai higuchi: akuma no ko	2022	9	literally one of my favourite endings, such a good song and holds lots of meaning too
+mockingentropy	2015-07-22	tokyo ghoul √a	2015	7	tokyo ghoul root a is maybe not the aoty 2015, but because i see it collects here only criticisms at best not very fair, i must restore the balance of the opinions
+theedgelordannasui	2016-11-07	akame ga kill!	2014	2	fuck this anime
+rbastid	2018-02-08	akame ga kill! theater	2014	8	as dvd extras have become worse and worse, the team tasked with taking care of them for akame ga kill really put together something worth watching
+gunarmdyne	2010-01-14	fruits basket	2001	9	over the years people have told me that there are two series that are "must see" that involve people transforming into animals via some unusual means: ranma 1/2 and fruits basket
+zoologykam	2019-07-09	fruits basket 1st season	2019	10	this is a faithful to manga remake, and whether you've seen the orignal anime or read read the manga, or have no experience with the series at all, this is worth the watch
+itsauntycandy	2020-09-01	fruits basket 2nd season	2020	10	season 2 so far has me wanting more
+thatanimesnob	2012-08-14	ouran high school host club	2006	8	- animated by studio bones, which means the production values will be great but the story will be messy… what? it doesn’t have much of a story? well, in that case it is a great show! - directed by igarashi takuya, who also took up sailor moon stars, soul eater, and star driver
+\.
+
+
+--
+-- Data for Name: studios; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.studios (romanized_name, founder, founding_date, company_type, headquarters) FROM stdin;
+\.
+
+
+--
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.users (username, join_date, age, gender) FROM stdin;
+sothis	2002-05-22	\N	f
+mahius	2014-06-10	\N	m
+ladieburd	2009-03-02	\N	f
+Aerythrin	2015-01-19	31	\N
+Halex	2013-08-18	\N	m
+cassiesheepgirl	2007-06-29	38	f
+vivafruit	2004-11-27	39	m
+fullmetaldragon	2015-12-21	24	f
+trashcan007	2023-10-07	100	m
+Bacon41	2012-08-04	32	m
+schiagus	2016-07-02	28	m
+felice	2011-01-23	29	f
+obitouzumaki	2019-01-03	20	m
+GeminiRabbit	2019-11-14	\N	f
+thatanimesnob	2011-12-22	42	m
+saitama125	2016-01-13	31	\N
+bigdumbohface	2014-09-22	\N	\N
+WolfAngelus	2015-11-14	\N	m
+starworth	2021-11-15	34	\N
+caseyjewels	2011-03-29	33	f
+beth0410	2014-12-20	25	f
+sheex	2007-07-11	35	m
+vivisqueen	2006-01-19	\N	\N
+EnjuAiharaFan	2016-04-22	\N	f
+VongolaUndici1196	2013-03-05	27	m
+murryspeer	2017-02-03	25	f
+nushinigami	2016-01-11	31	\N
+alala	2010-06-26	35	f
+klitch	2009-07-21	35	m
+noel312	2012-07-22	\N	f
+flamespeedy	2011-09-19	28	m
+Ryuubus	2017-03-19	27	f
+yanagi13	2010-12-11	29	f
+lordstar2	2020-04-28	\N	\N
+virdelet	2010-01-15	31	m
+hellzblade	2011-06-10	34	\N
+igugh0s7	2015-07-30	32	m
+yessensei	2016-02-12	27	\N
+duchessliz	2012-01-05	\N	f
+devillmaycry	2016-01-10	\N	m
+Mayank	2019-03-14	27	m
+AnnaSartin	2014-08-31	\N	f
+thywqqnqq	2021-02-06	27	\N
+bloom19	2021-05-23	24	f
+jehowi	2013-01-05	33	m
+yuiyui	2013-02-25	24	f
+eiraza	2015-03-24	28	f
+InnocentSmile	2013-07-19	\N	\N
+Silvernotebook	2015-10-09	24	f
+aryancoconut	2017-04-16	25	f
+mayobe	2013-02-03	\N	\N
+kevlarthian	2018-07-31	34	\N
+ragingfury	2009-10-13	30	m
+woziu	2018-03-21	24	m
+kliu15	2021-12-21	38	\N
+knoxyal	2018-06-06	27	f
+lagore	2008-04-09	\N	m
+codeblazefate	2017-04-27	23	\N
+lou6972	2015-02-18	32	m
+littlechomp	2009-10-21	\N	f
+NorthPole	2011-12-01	\N	\N
+lindltailor	2010-01-17	32	m
+royaloss	2014-06-01	34	m
+mykejinx89	2014-03-31	35	m
+Epimondas	2015-03-23	\N	\N
+imbeast	2019-10-14	33	\N
+parsafakhar	2017-12-22	27	m
+ivanlacee	2015-12-30	28	m
+tatsukishi	2013-10-23	33	m
+kaeonice	2019-12-16	\N	f
+pikachu203	2013-04-11	27	f
+vicktus	2011-11-23	36	m
+thepatches	2009-06-11	41	m
+spectrum229	2019-12-02	24	\N
+Morikochan	2018-09-06	23	\N
+Thanh2003	2022-06-22	21	\N
+mariprosa	2007-11-15	40	f
+gzerble	2015-01-05	\N	\N
+YariMari	2015-08-23	28	f
+Burkirk	2022-04-18	25	\N
+starletka	2009-08-07	31	f
+jvanimereviews	2014-10-16	30	m
+interregnum	2016-08-23	\N	m
+Diddiken	2015-10-29	\N	m
+captivus	2017-09-15	37	\N
+simanbotond	2021-05-28	35	m
+frykigamer	2021-02-26	\N	m
+Raikenzom	2021-07-12	24	\N
+wyr3d	2010-05-14	\N	m
+billclinton69	2018-05-31	21	m
+rbastid	2010-03-13	39	m
+kirarin	2008-04-02	42	f
+hamletsmage	2011-04-17	\N	f
+HH223	2015-08-18	29	m
+badxluck	2011-08-25	26	f
+nasreen10	2009-06-03	\N	f
+killermouze	2009-12-22	36	m
+crua9	2019-03-02	36	m
+thelittleprince	2019-02-17	19	m
+blurredexistence	2012-10-20	41	m
+asahihamadaxx	2022-05-22	24	\N
+FoodLife	2020-04-17	\N	\N
+Re1nhard	2022-01-10	\N	m
+silliussodus	2017-12-27	\N	m
+jalmaries	2016-06-20	24	m
+hazeltopaz	2021-02-08	25	f
+elad1	2022-01-26	25	\N
+itachi16785	2024-04-23	\N	\N
+porramal	2018-05-30	30	m
+charvisioku	2012-11-12	31	f
+wolfangelus	2015-11-14	\N	m
+farcide	2015-08-08	\N	\N
+flip2012	2013-06-10	26	m
+halochan	2016-11-14	22	f
+hazzardoblivion	2012-10-14	30	m
+minehero	2014-07-21	34	\N
+zarakiuchiha	2017-06-30	26	m
+InvalidCookie	2013-12-23	27	m
+tsukivalo	2014-04-18	\N	f
+itarusaki	2020-03-20	20	f
+SeprithLiCastia	2015-08-10	31	m
+varagauzer	2012-04-12	\N	m
+lvand	2015-06-13	\N	m
+kidkonseptual	2010-02-20	\N	m
+apoc9	2011-11-22	39	m
+chinesewick	2020-02-09	25	m
+akkandukuri	2016-01-21	\N	m
+susanna	2015-12-12	24	\N
+Feinraf	2012-06-13	\N	m
+alfie02	2018-07-05	22	m
+anakgrigore	2018-06-02	28	f
+inu12	2017-12-13	31	m
+NightTonight	2016-01-04	26	\N
+sw00ty	2016-07-06	28	\N
+umbrellas123	2017-04-03	\N	f
+jstenneg	2020-05-31	43	\N
+inu230	2016-01-29	\N	\N
+lullabi	2019-05-12	22	\N
+kelvinchan9786	2020-02-28	43	\N
+noanimenolife21	2021-07-31	31	\N
+rodlego10	2019-12-24	25	\N
+theroguenob	2019-04-08	27	m
+bravo0723	2017-01-25	54	m
+victoireblanc	2018-01-06	23	\N
+KrisDFC	2011-08-26	28	m
+uhhhpmz	2020-11-18	23	\N
+llamaliciousarts	2014-12-23	33	f
+rosecandle16	2018-05-15	\N	f
+rrrnier	2016-12-24	23	\N
+muonsei	2015-07-21	26	f
+infantmite44654	2021-02-18	24	\N
+cthulhumythulhu	2015-01-11	33	f
+captainpancakes	2013-06-19	25	\N
+mockingentropy	2015-01-17	29	m
+staceylee07	2014-07-04	\N	f
+theedgelordannasui	2016-11-06	24	f
+sianeka	2013-05-02	\N	f
+Backlogsolong	2023-03-10	\N	f
+ClawfootQueen	2019-11-07	38	\N
+gunarmdyne	2009-03-10	54	\N
+Shirokuma	2014-11-12	27	f
+sailnir	2019-01-08	27	\N
+stressedjunior	2020-06-20	24	m
+zoologykam	2013-12-18	33	\N
+thesocialite	2016-09-22	48	m
+ryuusakuya	2020-05-16	\N	f
+itsauntycandy	2020-01-21	41	\N
+nerdatlas	2015-03-31	28	f
+\.
+
+
+--
+-- Name: animes_in_lists animes_in_lists_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.animes_in_lists
+    ADD CONSTRAINT animes_in_lists_pkey PRIMARY KEY (creator, list_title, anime_title, anime_year);
+
+
+--
+-- Name: animes animes_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.animes
+    ADD CONSTRAINT animes_pkey PRIMARY KEY (title, year);
+
+
+--
+-- Name: appears_in appears_in_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.appears_in
+    ADD CONSTRAINT appears_in_pkey PRIMARY KEY (anime_title, anime_year, char_name);
+
+
+--
+-- Name: characters characters_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.characters
+    ADD CONSTRAINT characters_pkey PRIMARY KEY (name);
+
+
+--
+-- Name: characters_tags characters_tags_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.characters_tags
+    ADD CONSTRAINT characters_tags_pkey PRIMARY KEY (name, tag);
+
+
+--
+-- Name: characters_traits characters_traits_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.characters_traits
+    ADD CONSTRAINT characters_traits_pkey PRIMARY KEY (name, trait);
+
+
+--
+-- Name: custom_lists custom_lists_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.custom_lists
+    ADD CONSTRAINT custom_lists_pkey PRIMARY KEY (creator, list_title);
+
+
+--
+-- Name: reviews reviews_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.reviews
+    ADD CONSTRAINT reviews_pkey PRIMARY KEY (reviewer, date, anime_title, anime_year);
+
+
+--
+-- Name: studios studios_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.studios
+    ADD CONSTRAINT studios_pkey PRIMARY KEY (romanized_name, founder);
+
+
+--
+-- Name: users users_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.users
+    ADD CONSTRAINT users_pkey PRIMARY KEY (username);
+
+
+--
+-- Name: animes_in_lists fk_animesinlist_animes; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.animes_in_lists
+    ADD CONSTRAINT fk_animesinlist_animes FOREIGN KEY (anime_title, anime_year) REFERENCES public.animes(title, year) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: animes_in_lists fk_animesinlist_characters; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.animes_in_lists
+    ADD CONSTRAINT fk_animesinlist_characters FOREIGN KEY (creator, list_title) REFERENCES public.custom_lists(creator, list_title) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: appears_in fk_appearsin_animes; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.appears_in
+    ADD CONSTRAINT fk_appearsin_animes FOREIGN KEY (anime_title, anime_year) REFERENCES public.animes(title, year) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: appears_in fk_appearsin_characters; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.appears_in
+    ADD CONSTRAINT fk_appearsin_characters FOREIGN KEY (char_name) REFERENCES public.characters(name) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: characters_tags fk_chracterTags_characters; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.characters_tags
+    ADD CONSTRAINT "fk_chracterTags_characters" FOREIGN KEY (name) REFERENCES public.characters(name) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: characters_traits fk_chractertraits_characters; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.characters_traits
+    ADD CONSTRAINT fk_chractertraits_characters FOREIGN KEY (name) REFERENCES public.characters(name) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: custom_lists fk_customlists_users; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.custom_lists
+    ADD CONSTRAINT fk_customlists_users FOREIGN KEY (creator) REFERENCES public.users(username) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: reviews fk_reviews_animes; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.reviews
+    ADD CONSTRAINT fk_reviews_animes FOREIGN KEY (anime_title, anime_year) REFERENCES public.animes(title, year) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- Name: reviews fk_reviews_users; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.reviews
+    ADD CONSTRAINT fk_reviews_users FOREIGN KEY (reviewer) REFERENCES public.users(username) ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+--
+-- PostgreSQL database dump complete
+--
+

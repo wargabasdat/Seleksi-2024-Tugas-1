@@ -1,0 +1,1260 @@
+[
+    {
+        "name": "shou tucker",
+        "char_url": "https://www.anime-planet.com/characters/shou-tucker",
+        "rank": "1",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/shou-tucker-1-190x266.jpg?t=1625966014",
+        "char_hates": 21135,
+        "char_comments": 328,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "adult",
+            "alchemist",
+            "glasses",
+            "scientist",
+            "single parent"
+        ],
+        "appears_in": [
+            "fullmetal alchemist",
+            "fullmetal alchemist: brotherhood",
+            "fullmetal alchemist: brotherhood: 4-koma theater"
+        ]
+    },
+    {
+        "name": "sakura haruno",
+        "char_url": "https://www.anime-planet.com/characters/sakura-haruno",
+        "rank": "2",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/sakura-haruno-1-285x400.webp?t=1648651812",
+        "char_hates": 19360,
+        "char_comments": 626,
+        "traits": [
+            "female",
+            "pink hair"
+        ],
+        "tags": [
+            "headband",
+            "ninja",
+            "verbal tic"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "boruto: naruto the movie",
+            "boruto: naruto the movie - the day naruto became hokage"
+        ]
+    },
+    {
+        "name": "light yagami",
+        "char_url": "https://www.anime-planet.com/characters/light-yagami",
+        "rank": "3",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/light-yagami-1-190x266.jpg?t=1625965725",
+        "char_hates": 17875,
+        "char_comments": 310,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "analytical",
+            "big ego",
+            "charismatic",
+            "god complex",
+            "manipulative",
+            "ruthless",
+            "secret identity"
+        ],
+        "appears_in": [
+            "death note",
+            "death note rewrite 1: visions of a god",
+            "death note rewrite 2: l's successors"
+        ]
+    },
+    {
+        "name": "sasuke uchiha",
+        "char_url": "https://www.anime-planet.com/characters/sasuke-uchiha",
+        "rank": "4",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/sasuke-uchiha-1-190x291.jpg?t=1625965402",
+        "char_hates": 13467,
+        "char_comments": 366,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "elemental powers",
+            "exotic eyes",
+            "fire powers",
+            "lightning powers",
+            "ninja",
+            "orphan",
+            "teleportation powers",
+            "vengeful"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "boruto: naruto the movie",
+            "naruto"
+        ]
+    },
+    {
+        "name": "danzo shimura",
+        "char_url": "https://www.anime-planet.com/characters/danzo-shimura",
+        "rank": "5",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/danzo-shimura-1-130x185.jpg?t=1628017328",
+        "char_hates": 12910,
+        "char_comments": 74,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "bandages",
+            "beastmaster",
+            "elderly",
+            "ninja",
+            "scar"
+        ],
+        "appears_in": [
+            "naruto shippuden",
+            "naruto spin-off: rock lee & his ninja pals",
+            "road of naruto"
+        ]
+    },
+    {
+        "name": "naruto uzumaki",
+        "char_url": "https://www.anime-planet.com/characters/naruto-uzumaki",
+        "rank": "6",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/naruto-uzumaki-1-285x399.webp?t=1648651726",
+        "char_hates": 12703,
+        "char_comments": 234,
+        "traits": [
+            "male",
+            "blonde hair"
+        ],
+        "tags": [
+            "beastmaster",
+            "birthmark / mole",
+            "face markings",
+            "headband",
+            "hot-headed",
+            "ninja",
+            "orphan",
+            "verbal tic"
+        ],
+        "appears_in": [
+            "boruto: jump festa 2016 special",
+            "boruto: naruto next generations",
+            "boruto: naruto the movie"
+        ]
+    },
+    {
+        "name": "misa amane",
+        "char_url": "https://www.anime-planet.com/characters/misa-amane",
+        "rank": "7",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/misa-amane-1-190x266.jpg?t=1625965725",
+        "char_hates": 12211,
+        "char_comments": 184,
+        "traits": [
+            "female",
+            "blonde hair"
+        ],
+        "tags": [
+            "hyperactive",
+            "idol",
+            "pigtails"
+        ],
+        "appears_in": [
+            "death note",
+            "death note rewrite 1: visions of a god",
+            "death note rewrite 2: l's successors"
+        ]
+    },
+    {
+        "name": "near",
+        "char_url": "https://www.anime-planet.com/characters/near",
+        "rank": "8",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/near-1-190x266.jpg?t=1625965726",
+        "char_hates": 11462,
+        "char_comments": 203,
+        "traits": [
+            "male",
+            "white hair"
+        ],
+        "tags": [
+            "analytical",
+            "detective",
+            "teenager"
+        ],
+        "appears_in": [
+            "death note",
+            "death note rewrite 2: l's successors"
+        ]
+    },
+    {
+        "name": "minoru mineta",
+        "char_url": "https://www.anime-planet.com/characters/minoru-mineta",
+        "rank": "9",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/minoru-mineta-1-190x265.jpg?t=1625993023",
+        "char_hates": 10534,
+        "char_comments": 288,
+        "traits": [
+            "male",
+            "purple hair"
+        ],
+        "tags": [
+            "cowardly",
+            "crybaby",
+            "high school student",
+            "pervert",
+            "small stature",
+            "superpowers",
+            "teenager"
+        ],
+        "appears_in": [
+            "my hero academia",
+            "my hero academia 2",
+            "my hero academia 3"
+        ]
+    },
+    {
+        "name": "l",
+        "char_url": "https://www.anime-planet.com/characters/l-death-note",
+        "rank": "10",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/l-death-note-1-190x266.jpg?t=1625965725",
+        "char_hates": 10477,
+        "char_comments": 369,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "analytical",
+            "barefoot",
+            "detective",
+            "eye bags",
+            "sweet tooth"
+        ],
+        "appears_in": [
+            "death note",
+            "death note rewrite 1: visions of a god",
+            "death note rewrite 2: l's successors"
+        ]
+    },
+    {
+        "name": "nina einstein",
+        "char_url": "https://www.anime-planet.com/characters/nina-einstein",
+        "rank": "11",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/nina-einstein-1-285x399.webp?t=1641590976",
+        "char_hates": 10244,
+        "char_comments": 173,
+        "traits": [
+            "female",
+            "black hair"
+        ],
+        "tags": [
+            "braids",
+            "glasses",
+            "high school student",
+            "pigtails",
+            "shy",
+            "student council",
+            "teenager"
+        ],
+        "appears_in": [
+            "code geass: dakkan no roz\u00e9",
+            "code geass: lelouch of the rebellion",
+            "code geass: lelouch of the rebellion iii - glorification"
+        ]
+    },
+    {
+        "name": "kabuto yakushi",
+        "char_url": "https://www.anime-planet.com/characters/kabuto-yakushi",
+        "rank": "12",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kabuto-yakushi-1-190x266.jpg?t=1625965464",
+        "char_hates": 9824,
+        "char_comments": 62,
+        "traits": [
+            "male",
+            "grey hair"
+        ],
+        "tags": [
+            "analytical",
+            "glasses",
+            "headband",
+            "healing powers",
+            "ninja",
+            "ponytail"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "naruto",
+            "naruto: hidden leaf village grand sports festival!"
+        ]
+    },
+    {
+        "name": "nobuyuki sugou",
+        "char_url": "https://www.anime-planet.com/characters/nobuyuki-sugou",
+        "rank": "13",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/nobuyuki-sugou-1-190x266.jpg?t=1625978539",
+        "char_hates": 9702,
+        "char_comments": 97,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "adult",
+            "glasses",
+            "god complex",
+            "sadistic"
+        ],
+        "appears_in": [
+            "sword art online",
+            "sword art online: alicization - war of underworld",
+            "sword art online: alicization - war of underworld: part ii"
+        ]
+    },
+    {
+        "name": "mello",
+        "char_url": "https://www.anime-planet.com/characters/mello",
+        "rank": "14",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/mello-1-190x266.jpg?t=1625965726",
+        "char_hates": 8715,
+        "char_comments": 91,
+        "traits": [
+            "male",
+            "blonde hair"
+        ],
+        "tags": [
+            "analytical",
+            "sweet tooth",
+            "teenager"
+        ],
+        "appears_in": [
+            "death note",
+            "death note rewrite 2: l's successors"
+        ]
+    },
+    {
+        "name": "orochimaru",
+        "char_url": "https://www.anime-planet.com/characters/orochimaru",
+        "rank": "15",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/orochimaru-1-190x267.jpg?t=1625965404",
+        "char_hates": 8388,
+        "char_comments": 91,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "adult",
+            "beastmaster",
+            "manipulative",
+            "necromancer",
+            "ninja",
+            "overly long tongue",
+            "piercings",
+            "ruthless"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "naruto",
+            "naruto: hidden leaf village grand sports festival!"
+        ]
+    },
+    {
+        "name": "edward elric",
+        "char_url": "https://www.anime-planet.com/characters/edward-elric",
+        "rank": "16",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/edward-elric-1-190x266.jpg?t=1625965583",
+        "char_hates": 8021,
+        "char_comments": 112,
+        "traits": [
+            "male",
+            "blonde hair"
+        ],
+        "tags": [
+            "alchemist",
+            "arm blades",
+            "artificial limb",
+            "braids",
+            "gloves",
+            "hair antenna",
+            "hot-headed",
+            "military",
+            "ponytail",
+            "teenager"
+        ],
+        "appears_in": [
+            "fullmetal alchemist",
+            "fullmetal alchemist: brotherhood",
+            "fullmetal alchemist: brotherhood: 4-koma theater"
+        ]
+    },
+    {
+        "name": "levi",
+        "char_url": "https://www.anime-planet.com/characters/levi",
+        "rank": "17",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/levi-1-190x266.jpg?t=1625973324",
+        "char_hates": 7935,
+        "char_comments": 270,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "adult",
+            "military",
+            "ruthless",
+            "stoic",
+            "sword fighter"
+        ],
+        "appears_in": [
+            "20-pun de oitsukeru: attack on titan",
+            "attack on skytree",
+            "attack on titan"
+        ]
+    },
+    {
+        "name": "excalibur",
+        "char_url": "https://www.anime-planet.com/characters/excalibur",
+        "rank": "18",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/excalibur-1-130x200.jpg?t=1625965241",
+        "char_hates": 7924,
+        "char_comments": 170,
+        "traits": [
+            "male"
+        ],
+        "tags": [
+            "big ego",
+            "comic relief",
+            "hat",
+            "shapeshifter"
+        ],
+        "appears_in": [
+            "soul eater",
+            "soul eater: late night show"
+        ]
+    },
+    {
+        "name": "makoto itou",
+        "char_url": "https://www.anime-planet.com/characters/makoto-itou",
+        "rank": "19",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/makoto-itou-1-190x266.jpg?t=1625967111",
+        "char_hates": 7750,
+        "char_comments": 264,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "hair antenna",
+            "high school student",
+            "teenager"
+        ],
+        "appears_in": [
+            "school days",
+            "school days: magical heart kokoro-chan",
+            "school days ona"
+        ]
+    },
+    {
+        "name": "kirito",
+        "char_url": "https://www.anime-planet.com/characters/kirito",
+        "rank": "20",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kirito-1-190x266.jpg?t=1625974517",
+        "char_hates": 7699,
+        "char_comments": 311,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "person in a strange world",
+            "sword fighter",
+            "teenager",
+            "video gamer",
+            "warrior"
+        ],
+        "appears_in": [
+            "eromanga sensei",
+            "he wei dao x sword art online: alicization",
+            "sword art online"
+        ]
+    },
+    {
+        "name": "kuradeel",
+        "char_url": "https://www.anime-planet.com/characters/kuradeel",
+        "rank": "21",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kuradeel-1-190x266.jpg?t=1625974517",
+        "char_hates": 6964,
+        "char_comments": 13,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "armor",
+            "bodyguard",
+            "cape",
+            "person in a strange world",
+            "ponytail",
+            "sword fighter",
+            "video gamer"
+        ],
+        "appears_in": [
+            "sword art online",
+            "sword art online: alicization - war of underworld: part ii",
+            "sword art online: extra edition"
+        ]
+    },
+    {
+        "name": "kouichi shido",
+        "char_url": "https://www.anime-planet.com/characters/kouichi-shido",
+        "rank": "22",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kouichi-shido-1-190x266.jpg?t=1625969511",
+        "char_hates": 6949,
+        "char_comments": 48,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "adult",
+            "big ego",
+            "glasses",
+            "manipulative",
+            "ruthless",
+            "teacher"
+        ],
+        "appears_in": [
+            "highschool of the dead"
+        ]
+    },
+    {
+        "name": "orihime inoue",
+        "char_url": "https://www.anime-planet.com/characters/orihime-inoue",
+        "rank": "23",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/orihime-inoue-1-190x266.jpg?t=1625965225",
+        "char_hates": 6864,
+        "char_comments": 248,
+        "traits": [
+            "female",
+            "orange hair"
+        ],
+        "tags": [
+            "broken record",
+            "clumsy",
+            "force field powers",
+            "healing powers",
+            "high school student",
+            "superpowers",
+            "teenager"
+        ],
+        "appears_in": [
+            "bleach",
+            "bleach: memories in the rain",
+            "bleach movie 1: memories of nobody"
+        ]
+    },
+    {
+        "name": "malty s melromarc",
+        "char_url": "https://www.anime-planet.com/characters/malty-s-melromarc",
+        "rank": "24",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/malty-s-melromarc-1-190x266.jpg?t=1625992953",
+        "char_hates": 6807,
+        "char_comments": 233,
+        "traits": [
+            "female",
+            "red hair"
+        ],
+        "tags": [
+            "magic user",
+            "manipulative",
+            "royalty",
+            "ruthless"
+        ],
+        "appears_in": [
+            "the rising of the shield hero",
+            "the rising of the shield hero 2nd season",
+            "the rising of the shield hero 3rd season"
+        ]
+    },
+    {
+        "name": "akainu",
+        "char_url": "https://www.anime-planet.com/characters/akainu",
+        "rank": "25",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/akainu-1-190x267.jpg?t=1625969053",
+        "char_hates": 6238,
+        "char_comments": 65,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "abnormally tall",
+            "adult",
+            "hat",
+            "manipulative",
+            "military",
+            "muscular",
+            "ruthless",
+            "sailor",
+            "superpowers",
+            "tattoo"
+        ],
+        "appears_in": [
+            "hungry days x one piece",
+            "one piece",
+            "one piece 3d2y: overcoming ace's death! luffy's pledge to his friends!"
+        ]
+    },
+    {
+        "name": "yukiteru amano",
+        "char_url": "https://www.anime-planet.com/characters/yukiteru-amano",
+        "rank": "26",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/yukiteru-amano-1-190x266.jpg?t=1625968558",
+        "char_hates": 5874,
+        "char_comments": 177,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "hat",
+            "middle school student",
+            "superpowers",
+            "teenager"
+        ],
+        "appears_in": [
+            "future diary",
+            "future diary ova",
+            "future diary: redial"
+        ]
+    },
+    {
+        "name": "charles zi britannia",
+        "char_url": "https://www.anime-planet.com/characters/charles-zi-britannia",
+        "rank": "27",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/charles-zi-britannia-1-285x399.webp?t=1672860121",
+        "char_hates": 5865,
+        "char_comments": 26,
+        "traits": [
+            "male",
+            "white hair"
+        ],
+        "tags": [
+            "adult",
+            "cape",
+            "facial hair",
+            "royalty",
+            "ruthless",
+            "scarf",
+            "tyrant"
+        ],
+        "appears_in": [
+            "code geass: akito the exiled",
+            "code geass: lelouch of the rebellion",
+            "code geass: lelouch of the rebellion iii - glorification"
+        ]
+    },
+    {
+        "name": "blackbeard",
+        "char_url": "https://www.anime-planet.com/characters/blackbeard",
+        "rank": "28",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/blackbeard-1-190x267.jpg?t=1625965594",
+        "char_hates": 5656,
+        "char_comments": 19,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "adult",
+            "cruel",
+            "darkness powers",
+            "elemental powers",
+            "eternal optimist",
+            "facial hair",
+            "gravity manipulator",
+            "hat",
+            "manipulative",
+            "missing teeth",
+            "pirate",
+            "ruthless",
+            "sailor",
+            "superpowers"
+        ],
+        "appears_in": [
+            "hungry days x bump of chicken: kinen satsuei",
+            "hungry days x one piece",
+            "one piece"
+        ]
+    },
+    {
+        "name": "sousuke aizen",
+        "char_url": "https://www.anime-planet.com/characters/sousuke-aizen",
+        "rank": "29",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/sousuke-aizen-1-190x266.jpg?t=1625965488",
+        "char_hates": 5490,
+        "char_comments": 62,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "agent of the afterlife",
+            "analytical",
+            "combat illusionist",
+            "glasses",
+            "invisibility powers",
+            "shinigami",
+            "sword fighter"
+        ],
+        "appears_in": [
+            "bleach",
+            "bleach: the sealed sword frenzy",
+            "bleach: thousand-year blood war"
+        ]
+    },
+    {
+        "name": "yamori",
+        "char_url": "https://www.anime-planet.com/characters/yamori-tokyo-ghoul",
+        "rank": "30",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/yamori-tokyo-ghoul-1-190x297.jpg?t=1625991719",
+        "char_hates": 5298,
+        "char_comments": 37,
+        "traits": [
+            "male",
+            "blonde hair"
+        ],
+        "tags": [
+            "abnormally tall",
+            "adult",
+            "big ego",
+            "big nose",
+            "bloodthirsty",
+            "exotic eyes",
+            "monster",
+            "muscular",
+            "no eyebrows",
+            "sadistic",
+            "unconventional weapon"
+        ],
+        "appears_in": [
+            "tokyo ghoul",
+            "tokyo ghoul: jack",
+            "tokyo ghoul:re 2nd season"
+        ]
+    },
+    {
+        "name": "gluttony",
+        "char_url": "https://www.anime-planet.com/characters/gluttony",
+        "rank": "31",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/gluttony-1-190x266.jpg?t=1625965991",
+        "char_hates": 5233,
+        "char_comments": 18,
+        "traits": [
+            "male"
+        ],
+        "tags": [
+            "bald",
+            "big eater",
+            "big nose",
+            "immortal",
+            "overly long tongue",
+            "overweight",
+            "superpowers"
+        ],
+        "appears_in": [
+            "fullmetal alchemist",
+            "fullmetal alchemist: brotherhood",
+            "fullmetal alchemist: brotherhood: 4-koma theater"
+        ]
+    },
+    {
+        "name": "suzaku kururugi",
+        "char_url": "https://www.anime-planet.com/characters/suzaku-kururugi",
+        "rank": "32",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/suzaku-kururugi-1-190x266.jpg?t=1625965655",
+        "char_hates": 4989,
+        "char_comments": 115,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "high school student",
+            "martial artist",
+            "mecha pilot",
+            "military",
+            "student council",
+            "teenager"
+        ],
+        "appears_in": [
+            "code geass: akito the exiled",
+            "code geass: lelouch of the rebellion",
+            "code geass: lelouch of the rebellion iii - glorification"
+        ]
+    },
+    {
+        "name": "kakashi hatake",
+        "char_url": "https://www.anime-planet.com/characters/kakashi-hatake",
+        "rank": "33",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kakashi-hatake-1-285x399.webp?t=1651413657",
+        "char_hates": 4931,
+        "char_comments": 195,
+        "traits": [
+            "male",
+            "grey hair"
+        ],
+        "tags": [
+            "adult",
+            "anti-gravity hair",
+            "beastmaster",
+            "exotic eyes",
+            "gloves",
+            "headband",
+            "masks",
+            "ninja",
+            "scar"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "boruto: naruto the movie",
+            "boruto: naruto the movie - the day naruto became hokage"
+        ]
+    },
+    {
+        "name": "kitz woermann",
+        "char_url": "https://www.anime-planet.com/characters/kitz-woermann",
+        "rank": "34",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kitz-woermann-1-190x266.jpg?t=1625981190",
+        "char_hates": 4786,
+        "char_comments": 24,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "adult",
+            "cowardly",
+            "facial hair",
+            "military"
+        ],
+        "appears_in": [
+            "20-pun de oitsukeru: attack on titan",
+            "attack on titan",
+            "attack on titan 2nd season"
+        ]
+    },
+    {
+        "name": "envy",
+        "char_url": "https://www.anime-planet.com/characters/envy",
+        "rank": "35",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/envy-1-190x267.jpg?t=1625965990",
+        "char_hates": 4770,
+        "char_comments": 66,
+        "traits": [
+            "green hair"
+        ],
+        "tags": [
+            "cruel",
+            "gloves",
+            "headband",
+            "hot-headed",
+            "human guise",
+            "immortal",
+            "sadistic",
+            "shapeshifter",
+            "superpowers"
+        ],
+        "appears_in": [
+            "fullmetal alchemist",
+            "fullmetal alchemist: brotherhood",
+            "fullmetal alchemist: brotherhood: 4-koma theater"
+        ]
+    },
+    {
+        "name": "king bradley",
+        "char_url": "https://www.anime-planet.com/characters/king-bradley",
+        "rank": "36",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/king-bradley-1-190x266.jpg?t=1625965984",
+        "char_hates": 4765,
+        "char_comments": 37,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "dual wielder",
+            "eye patch",
+            "facial hair",
+            "military",
+            "sword fighter"
+        ],
+        "appears_in": [
+            "fullmetal alchemist",
+            "fullmetal alchemist: brotherhood",
+            "fullmetal alchemist: brotherhood: 4-koma theater"
+        ]
+    },
+    {
+        "name": "ash ketchum",
+        "char_url": "https://www.anime-planet.com/characters/ash-ketchum",
+        "rank": "37",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/ash-ketchum-1-190x266.jpg?t=1625966304",
+        "char_hates": 4701,
+        "char_comments": 121,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "big ego",
+            "child",
+            "face markings",
+            "gloves",
+            "hat",
+            "hot-headed",
+            "hyperactive",
+            "monster tamer",
+            "traveler"
+        ],
+        "appears_in": [
+            "arceus, the one called god",
+            "a ripple in time",
+            "planetarium pok\u00e9mon: aurora kara no message"
+        ]
+    },
+    {
+        "name": "kyubey",
+        "char_url": "https://www.anime-planet.com/characters/kyubey",
+        "rank": "38",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kyubey-1-190x266.jpg?t=1625971672",
+        "char_hates": 4695,
+        "char_comments": 146,
+        "traits": [
+            "white hair"
+        ],
+        "tags": [
+            "alien",
+            "psychic powers",
+            "stoic",
+            "tail"
+        ],
+        "appears_in": [
+            "claris: luminous",
+            "magia record: puella magi madoka magica side story",
+            "magia record: puella magi madoka magica side story season 2 - the eve of awakening"
+        ]
+    },
+    {
+        "name": "arlong",
+        "char_url": "https://www.anime-planet.com/characters/arlong",
+        "rank": "39",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/arlong-1-190x266.jpg?t=1625965331",
+        "char_hates": 4693,
+        "char_comments": 6,
+        "traits": [
+            "male",
+            "black hair"
+        ],
+        "tags": [
+            "adult",
+            "big ego",
+            "big nose",
+            "hat",
+            "muscular",
+            "piercings",
+            "pirate",
+            "racial purist",
+            "sailor",
+            "sharp teeth",
+            "tattoo"
+        ],
+        "appears_in": [
+            "hungry days x bump of chicken: kinen satsuei",
+            "hungry days x one piece",
+            "kyuutai panic adventure!"
+        ]
+    },
+    {
+        "name": "asuna yuuki",
+        "char_url": "https://www.anime-planet.com/characters/asuna-yuuki",
+        "rank": "40",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/asuna-yuuki-1-190x266.jpg?t=1625974518",
+        "char_hates": 4646,
+        "char_comments": 188,
+        "traits": [
+            "female",
+            "brown hair"
+        ],
+        "tags": [
+            "braids",
+            "cook",
+            "person in a strange world",
+            "sword fighter",
+            "teenager",
+            "video gamer",
+            "warrior"
+        ],
+        "appears_in": [
+            "sword art online",
+            "sword art online: alicization",
+            "sword art online: alicization - reflection"
+        ]
+    },
+    {
+        "name": "spandam",
+        "char_url": "https://www.anime-planet.com/characters/spandam",
+        "rank": "41",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/spandam-1-190x266.jpg?t=1625965578",
+        "char_hates": 4644,
+        "char_comments": 25,
+        "traits": [
+            "male",
+            "purple hair"
+        ],
+        "tags": [
+            "adult",
+            "cowardly",
+            "cruel",
+            "gloves",
+            "masks",
+            "military",
+            "ruthless",
+            "sword fighter"
+        ],
+        "appears_in": [
+            "one piece",
+            "one piece: episode of merry - mou hitori no nakama no monogatari",
+            "one piece film: gold"
+        ]
+    },
+    {
+        "name": "naoka ueno",
+        "char_url": "https://www.anime-planet.com/characters/naoka-ueno",
+        "rank": "42",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/naoka-ueno-1-190x266.jpg?t=1625992821",
+        "char_hates": 4501,
+        "char_comments": 156,
+        "traits": [
+            "female",
+            "black hair"
+        ],
+        "tags": [
+            "bully"
+        ],
+        "appears_in": [
+            "a silent voice"
+        ]
+    },
+    {
+        "name": "eren jaeger",
+        "char_url": "https://www.anime-planet.com/characters/eren-jaeger",
+        "rank": "43",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/eren-jaeger-1-190x266.jpg?t=1625972790",
+        "char_hates": 4460,
+        "char_comments": 270,
+        "traits": [
+            "male",
+            "brown hair"
+        ],
+        "tags": [
+            "hot-headed",
+            "military",
+            "sword fighter",
+            "vengeful"
+        ],
+        "appears_in": [
+            "20-pun de oitsukeru: attack on titan",
+            "ai higuchi: akuma no ko",
+            "attack on skytree"
+        ]
+    },
+    {
+        "name": "kureo mado",
+        "char_url": "https://www.anime-planet.com/characters/kureo-mado",
+        "rank": "44",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/kureo-mado-1-188x300.jpg?t=1625989960",
+        "char_hates": 4352,
+        "char_comments": 32,
+        "traits": [
+            "male",
+            "white hair"
+        ],
+        "tags": [
+            "detective",
+            "police",
+            "sadistic",
+            "unconventional weapon"
+        ],
+        "appears_in": [
+            "tokyo ghoul",
+            "tokyo ghoul \u221aa",
+            "tokyo ghoul:re 2nd season"
+        ]
+    },
+    {
+        "name": "karin",
+        "char_url": "https://www.anime-planet.com/characters/karin-naruto-shippuuden",
+        "rank": "45",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/karin-naruto-shippuuden-1-130x185.jpg?t=1625970981",
+        "char_hates": 4317,
+        "char_comments": 41,
+        "traits": [
+            "female",
+            "magenta hair"
+        ],
+        "tags": [
+            "glasses",
+            "ninja"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "naruto shippuden",
+            "naruto spin-off: rock lee & his ninja pals"
+        ]
+    },
+    {
+        "name": "yuno gasai",
+        "char_url": "https://www.anime-planet.com/characters/yuno-gasai",
+        "rank": "46",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/yuno-gasai-1-190x266.jpg?t=1625968559",
+        "char_hates": 4295,
+        "char_comments": 270,
+        "traits": [
+            "female",
+            "pink hair"
+        ],
+        "tags": [
+            "analytical",
+            "broken record",
+            "hair ribbons",
+            "middle school student",
+            "pigtails",
+            "ruthless",
+            "stalker",
+            "superpowers",
+            "teenager"
+        ],
+        "appears_in": [
+            "future diary",
+            "future diary ova",
+            "future diary: redial"
+        ]
+    },
+    {
+        "name": "annie leonhart",
+        "char_url": "https://www.anime-planet.com/characters/annie-leonhart",
+        "rank": "47",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/annie-leonhart-1-190x266.jpg?t=1625972799",
+        "char_hates": 4223,
+        "char_comments": 115,
+        "traits": [
+            "female",
+            "blonde hair"
+        ],
+        "tags": [
+            "martial artist",
+            "military",
+            "stoic",
+            "sword fighter"
+        ],
+        "appears_in": [
+            "20-pun de oitsukeru: attack on titan",
+            "ai higuchi: akuma no ko",
+            "attack on titan"
+        ]
+    },
+    {
+        "name": "seryu ubiquitous",
+        "char_url": "https://www.anime-planet.com/characters/seryu-ubiquitous",
+        "rank": "48",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/seryu-ubiquitous-1-190x285.jpg?t=1625991927",
+        "char_hates": 4215,
+        "char_comments": 85,
+        "traits": [
+            "female",
+            "orange hair"
+        ],
+        "tags": [
+            "monster tamer",
+            "police",
+            "ponytail"
+        ],
+        "appears_in": [
+            "akame ga kill!",
+            "akame ga kill! theater"
+        ]
+    },
+    {
+        "name": "ino yamanaka",
+        "char_url": "https://www.anime-planet.com/characters/ino-yamanaka",
+        "rank": "49",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/ino-yamanaka-1-285x399.webp?t=1648650018",
+        "char_hates": 4144,
+        "char_comments": 55,
+        "traits": [
+            "female",
+            "blonde hair"
+        ],
+        "tags": [
+            "florist",
+            "ninja",
+            "ponytail",
+            "psychic powers"
+        ],
+        "appears_in": [
+            "boruto: naruto next generations",
+            "boruto: naruto the movie",
+            "boruto: naruto the movie - the day naruto became hokage"
+        ]
+    },
+    {
+        "name": "akito sohma",
+        "char_url": "https://www.anime-planet.com/characters/akito-sohma",
+        "rank": "50",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/akito-sohma-1-190x266.jpg?t=1625966019",
+        "char_hates": 4048,
+        "char_comments": 111,
+        "traits": [
+            "black hair"
+        ],
+        "tags": [
+            "adult",
+            "cursebearer",
+            "manipulative",
+            "sadistic",
+            "sickly"
+        ],
+        "appears_in": [
+            "fruits basket",
+            "fruits basket 1st season",
+            "fruits basket 2nd season"
+        ]
+    },
+    {
+        "name": "eclair tonerre",
+        "char_url": "https://www.anime-planet.com/characters/eclair-tonerre",
+        "rank": "51",
+        "avatar_url": "https://cdn.anime-planet.com/characters/primary/eclair-tonerre-1-190x266.jpg?t=1625970722",
+        "char_hates": 4041,
+        "char_comments": 35,
+        "traits": [
+            "female",
+            "brown hair"
+        ],
+        "tags": [
+            "foreigner",
+            "teenager",
+            "wealthy"
+        ],
+        "appears_in": [
+            "ouran high school host club"
+        ]
+    }
+]
