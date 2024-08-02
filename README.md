@@ -119,7 +119,7 @@ Diagram relasional tersebut sudah disesuaikan agar dapat diimplementasikan dalam
 ## Hasil Program
 ### 1. Hasil Scraping (Output)
 <div align="center">
-  <img src="Data Scraping/screenshots/(9)Contoh_Output.png" alt="Output" />
+  <img src="Data Scraping/screenshot/(9)Contoh_Output.png" alt="Output" />
 </div>
 ### 2. Menampilkan Data Seluruh Dokter
 <div align="center">
