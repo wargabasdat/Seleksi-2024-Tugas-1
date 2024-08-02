@@ -304,3 +304,9 @@ Cara mengubah ERD menjadi relational diagram adalah dengan mengubah seluruh enti
   - https://darksouls.fandom.com/wiki/Boss_Soul_Items_(Dark_Souls_III)
   - https://darksouls.fandom.com/wiki/Weapons_(Dark_Souls_III)
   - Setiap page Bosses, Weapons, Shields.
+
+## Author
+
+| Nama                        | NIM      |
+| --------------------------- | -------- |
+| Daniel Mulia Putra Manurung | 13522043 |
