@@ -56,12 +56,13 @@ Pada project ini, saya akan melakukan *scraping* pada website [novelbin.me](http
 8. Masuk ke setiap folder yang mengandung go.mod dan jalankan `go mod tidy` dan `go mod download` (Data Scraping/src/main | Data Scraping/src/scraper | Data Storing/export)
 
 ## Usage
-Pada docker-compose.yml, anda bisa meng-*uncomment* `./Data Storing/export/basdat.sql:/docker-entrypoint-initdb.d/basdat.sql` jika ingin langsung menggunakan file sql yang sudah tersedia dan memasukkannya ke dalam database pada *docker* (karena scrapingnya lama 30 menit)
+Pada docker-compose.yml, anda bisa meng-*uncomment* `./Data Storing/export/basdat.sql:/docker-entrypoint-initdb.d/basdat.sql` jika ingin langsung menggunakan file sql yang sudah tersedia dan memasukkannya ke dalam database pada *docker* (karena *scraping*-nya lama 30 menit)
 ![docker comment](docker.png)
 
 Aktifkan docker dan eksekusi `docker compose up` pada root directory repository ini, kemudian:<br>
 1. Masuk ke folder Data Scraping/src/main `cd "Data Scraping/src/main"`
-2. Jalankan program `go run scraper.go` untuk menjalankan proses *scraping* (jumlah pages yang di *scrape* dapat diubah pada `scraper.go`) dan tunggu hingga program selesai. Program akan menghasilkan file JSON yang dimasukkan ke dalam folder dengan format YYYY-MM-DD yang merupakan tanggal *scraping* dilakukan dan terletak pada `Data Scraping/data` 
+2. Jalankan program `go run scraper.go` untuk menjalankan proses *scraping* (jumlah pages yang di *scrape* dapat diubah pada `scraper.go` untuk mengurangi waktu *scraping*) ![scraper.go](Data%20Scraping/screenshot/scraper.go.png) 
+dan tunggu hingga program selesai. Program akan menghasilkan file JSON yang dimasukkan ke dalam folder dengan format YYYY-MM-DD yang merupakan tanggal *scraping* dilakukan dan terletak pada `Data Scraping/data` 
 3. Pindah ke folder Data Storing/export `"cd ../../../Data Storing/export"` (relative to Data Scraping/src/main)
 4. Jalankan program `go run dbms.go` untuk memasukkan data pada file JSON yang terletak pada folder `Data Scraping/data` ke database.
 5. Pindah ke folder Data Visualization `cd "../../Data Visualization"` (relative to Data Storing/export)
