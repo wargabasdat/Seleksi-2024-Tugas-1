@@ -1,4 +1,3 @@
-```markdown
 # Seleksi Tahap 2 Asisten Basis Data 2024
 
 ## ETL Project
@@ -185,4 +184,3 @@ Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-
 #### credentials.env:
 - Menyimpan kredensial database dan informasi sensitif lainnya.
 - Dimuat menggunakan library dotenv.
-```
