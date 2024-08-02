@@ -152,6 +152,15 @@ There are 6 relations (tables):
 - apscheduler
 - sys
 
+## Documentation
+- ![Running Scrapper](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/running.png)
+- ![Scrapper Code](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/scrapper.png)
+- ![ERD](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/ERD.png)
+- ![Relational Diagram](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/relational_diagram.png)
+- ![Querying 1](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/Screenshot%202024-08-02%20191125.png)
+- ![Querying 2](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/Screenshot%202024-08-02%20191235.png)
+- ![Querying 3](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/Screenshot%202024-08-02%20191251.png)
+
 
 ## References
 - [The Scrapped Web](food.com).
