@@ -1,0 +1,1178 @@
+[
+    {
+        "ID_prod": "089686010015",
+        "nama_prod": "Indomie Ayam Bawang",
+        "harga_prod": "3000",
+        "terjual_prod": "500",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "089686010947",
+        "nama_prod": "Indomie Goreng Special",
+        "harga_prod": "3100",
+        "terjual_prod": "500",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMKUR TBK"
+    },
+    {
+        "ID_prod": "8886013300601",
+        "nama_prod": "Mie Gemez Enaak",
+        "harga_prod": "1700",
+        "terjual_prod": "200",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. SIANTAR TOP TBK"
+    },
+    {
+        "ID_prod": "8993296201119",
+        "nama_prod": "Tepung Terigu Segitiga Biru",
+        "harga_prod": "13100",
+        "terjual_prod": "200",
+        "kat_prod": "Tepung Terigu",
+        "nama_sup": "PT. INDOFOOD SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8999898973249",
+        "nama_prod": "Diamond Uht Full Cream",
+        "harga_prod": "2800",
+        "terjual_prod": "200",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT. DIAMOND COLD STORAGE"
+    },
+    {
+        "ID_prod": "8992759170580",
+        "nama_prod": "Jolly Soft Pack",
+        "harga_prod": "8000",
+        "terjual_prod": "200",
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "PT. THE UNIVENUS"
+    },
+    {
+        "ID_prod": "089686590197",
+        "nama_prod": "Chiki Balls Chicken",
+        "harga_prod": "1900",
+        "terjual_prod": "200",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT.  INDOFOOD FORTUNA MAKMUR"
+    },
+    {
+        "ID_prod": "089686041705",
+        "nama_prod": "Indomie Jumbo Goreng",
+        "harga_prod": "3900",
+        "terjual_prod": "200",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8991002105423",
+        "nama_prod": "Kapal Api Special Merah",
+        "harga_prod": "18900",
+        "terjual_prod": "200",
+        "kat_prod": "Kopi Kemasan Pack",
+        "nama_sup": "PT. SANTOS JAYA ABADI"
+    },
+    {
+        "ID_prod": "8998009040023",
+        "nama_prod": "Teh Kotak Jasmine",
+        "harga_prod": "3800",
+        "terjual_prod": "200",
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "8993093665497",
+        "nama_prod": "Rose Brand Gula Kuning",
+        "harga_prod": "17500",
+        "terjual_prod": "200",
+        "kat_prod": "Gula Pasir",
+        "nama_sup": "PT. ADI KARYA GEMILANG"
+    },
+    {
+        "ID_prod": "8994075230399",
+        "nama_prod": "Momogi Stick Jagung Bakar",
+        "harga_prod": "700",
+        "terjual_prod": "200",
+        "kat_prod": "Wafer",
+        "nama_sup": "PT SARI MURNI ABADI"
+    },
+    {
+        "ID_prod": "8888166989634",
+        "nama_prod": "Monde Snack Gold",
+        "harga_prod": "4200",
+        "terjual_prod": "200",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. NISSIN BISCUITS INDONESIA"
+    },
+    {
+        "ID_prod": "089686010527",
+        "nama_prod": "Indomie Kari Ayam",
+        "harga_prod": "3100",
+        "terjual_prod": "200",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8886013281481",
+        "nama_prod": "French Fries Premium",
+        "harga_prod": "3000",
+        "terjual_prod": "200",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. SIANTAR TOP TBK"
+    },
+    {
+        "ID_prod": "8886013338604",
+        "nama_prod": "Soba Mie Ayam Bakar",
+        "harga_prod": "1700",
+        "terjual_prod": "200",
+        "kat_prod": "Makanan Kecil",
+        "nama_sup": "PT. SIANTAR TOP TBK"
+    },
+    {
+        "ID_prod": "8992388101054",
+        "nama_prod": "Nu Green Tea Less Sugar",
+        "harga_prod": "6100",
+        "terjual_prod": "100",
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT ABC PRESIDENT INDONESIA"
+    },
+    {
+        "ID_prod": "8997225840080",
+        "nama_prod": "Roti Gulung Aoka Cokelat",
+        "harga_prod": "2700",
+        "terjual_prod": "100",
+        "kat_prod": "Roti",
+        "nama_sup": "PT INDONESIA BAKERY FAMILY"
+    },
+    {
+        "ID_prod": "8998009011696",
+        "nama_prod": "Ultra Uht Mimi Kids Full Cream",
+        "harga_prod": "3400",
+        "terjual_prod": "100",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK."
+    },
+    {
+        "ID_prod": "8994144100042",
+        "nama_prod": "Teh Gopek Hk",
+        "harga_prod": "4300",
+        "terjual_prod": "100",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. GOPEK CIPTA UTAMA"
+    },
+    {
+        "ID_prod": "726165321056",
+        "nama_prod": "Apollo Roka Peanut Bar",
+        "harga_prod": "1600",
+        "terjual_prod": "100",
+        "kat_prod": "Wafer",
+        "nama_sup": "APOLLO FOOD INDUSTRIES (M) SDN.BHD"
+    },
+    {
+        "ID_prod": "8997225840097",
+        "nama_prod": "Roti Gulung Aoka Keju",
+        "harga_prod": "2700",
+        "terjual_prod": "100",
+        "kat_prod": "Roti",
+        "nama_sup": "PT INDONESIA BAKERY FAMILY"
+    },
+    {
+        "ID_prod": "8994286110015",
+        "nama_prod": "Teh Dandang Tabur Biru",
+        "harga_prod": "4000",
+        "terjual_prod": "100",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. KARTINI TEH NASIONAL"
+    },
+    {
+        "ID_prod": "8991102022224",
+        "nama_prod": "Crystalin Cup",
+        "harga_prod": "600",
+        "terjual_prod": "100",
+        "kat_prod": "Air Mineral Kemasan Gelas",
+        "nama_sup": "PT CS2 POLA SEHAT"
+    },
+    {
+        "ID_prod": "8995177102058",
+        "nama_prod": "Gulaku Kuning",
+        "harga_prod": "17500",
+        "terjual_prod": "100",
+        "kat_prod": "Gula Pasir",
+        "nama_sup": "PT. GULA PUTIH MATARAM"
+    },
+    {
+        "ID_prod": "089686010107",
+        "nama_prod": "Indomie Kaldu Ayam",
+        "harga_prod": "2700",
+        "terjual_prod": "100",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8998009010569",
+        "nama_prod": "Ultra Milk Uht Cokelat",
+        "harga_prod": "5200",
+        "terjual_prod": "100",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "089686605037",
+        "nama_prod": "Jetz Choco Fiesta 18 Gr New",
+        "harga_prod": "1900",
+        "terjual_prod": "100",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT INDOFOOD FORTUNA MAKMUR"
+    },
+    {
+        "ID_prod": "8992717781025",
+        "nama_prod": "Santan Kelapa Kara Sun",
+        "harga_prod": "3200",
+        "terjual_prod": "100",
+        "kat_prod": "Santan",
+        "nama_sup": "PT. RIAU SAKTI UNITED PLANTATIONS"
+    },
+    {
+        "ID_prod": "8992752011057",
+        "nama_prod": "Vit",
+        "harga_prod": "3700",
+        "terjual_prod": "100",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT GRAHAMAS INTITIRTA"
+    },
+    {
+        "ID_prod": "8991102794619",
+        "nama_prod": "Waffle Choco Hazelnut",
+        "harga_prod": "1900",
+        "terjual_prod": "100",
+        "kat_prod": "Wafer",
+        "nama_sup": "PT ULTRA PRIMA ABADI"
+    },
+    {
+        "ID_prod": "8998009010910",
+        "nama_prod": "Ultra Uht Mimi Kids Cokelat",
+        "harga_prod": "3400",
+        "terjual_prod": "100",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK."
+    },
+    {
+        "ID_prod": "8996001600399",
+        "nama_prod": "Le Minerale",
+        "harga_prod": "5000",
+        "terjual_prod": "100",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT TIRTA FRESSINDO JAYA"
+    },
+    {
+        "ID_prod": "8998009010552",
+        "nama_prod": "Ultra Milk Uht Full Cream",
+        "harga_prod": "5200",
+        "terjual_prod": "100",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "089686010343",
+        "nama_prod": "Indomie Soto",
+        "harga_prod": "3000",
+        "terjual_prod": "100",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8995177101112",
+        "nama_prod": "Gulaku Putih",
+        "harga_prod": "17500",
+        "terjual_prod": "100",
+        "kat_prod": "Gula Pasir",
+        "nama_sup": "PT. SWEET INDOLAMPUNG"
+    },
+    {
+        "ID_prod": "8993163411108",
+        "nama_prod": "Montiss Facial Tissue",
+        "harga_prod": "11800",
+        "terjual_prod": "100",
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "19.4 cm"
+    },
+    {
+        "ID_prod": "8998009010590",
+        "nama_prod": "Ultra Milk Uht Cokelat",
+        "harga_prod": "3300",
+        "terjual_prod": "100",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "089686010046",
+        "nama_prod": "Indomie Ayam Special",
+        "harga_prod": "3000",
+        "terjual_prod": "100",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8996196005252",
+        "nama_prod": "Piattos Bbq",
+        "harga_prod": "2100",
+        "terjual_prod": "100",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT URC INDONESIA"
+    },
+    {
+        "ID_prod": "8996001600146",
+        "nama_prod": "Teh Pucuk Harum Jasmine",
+        "harga_prod": "3500",
+        "terjual_prod": "100",
+        "kat_prod": "Teh Kemasan Botol",
+        "nama_sup": "PT TIRTA PRESINDO JAYA"
+    },
+    {
+        "ID_prod": "8992994110112",
+        "nama_prod": "Yakult Isi 5 @",
+        "harga_prod": "10500",
+        "terjual_prod": "100",
+        "kat_prod": "Minuman Kesehatan",
+        "nama_sup": "PT YAKULT INDONESIA PERSADA"
+    },
+    {
+        "ID_prod": "8998866200301",
+        "nama_prod": "Mie Sedaap Goreng",
+        "harga_prod": "3100",
+        "terjual_prod": "100",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. PRAKARSA ALAM SEGAR"
+    },
+    {
+        "ID_prod": "089686017199",
+        "nama_prod": "Sarimi Kaldu Ayam",
+        "harga_prod": "1700",
+        "terjual_prod": "100",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8992759174113",
+        "nama_prod": "Jolly Tisu",
+        "harga_prod": "17500",
+        "terjual_prod": "100",
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "PT. THE UNIVENUS"
+    },
+    {
+        "ID_prod": "8994075240725",
+        "nama_prod": "Momogi Stick Jagung Bakar",
+        "harga_prod": "1200",
+        "terjual_prod": "100",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "PT SARI MURNI ABADI"
+    },
+    {
+        "ID_prod": "8719200170995",
+        "nama_prod": "Margarin Blue Band Serbaguna",
+        "harga_prod": "9400",
+        "terjual_prod": "100",
+        "kat_prod": "Margarin",
+        "nama_sup": "PT. UPFIELD MANUFACTURING INDONESIA"
+    },
+    {
+        "ID_prod": "7622210777768",
+        "nama_prod": "Cadbury Dairy Milk Neaps Doybag Isi",
+        "harga_prod": "23000",
+        "terjual_prod": "100",
+        "kat_prod": "Coklat Makanan Kecil",
+        "nama_sup": "CADBURY CONFECTIONERY MALAYSIA SDN.BHD"
+    },
+    {
+        "ID_prod": "8886007821044",
+        "nama_prod": "Poci Teh Kuning",
+        "harga_prod": "3700",
+        "terjual_prod": "100",
+        "kat_prod": "Teh Celup",
+        "nama_sup": "PT. GUNUNG SLAMAT"
+    },
+    {
+        "ID_prod": "8992804900643",
+        "nama_prod": "Kornet Sapi Kornetku",
+        "harga_prod": "17800",
+        "terjual_prod": "100",
+        "kat_prod": "Kornet",
+        "nama_sup": "PT. CANNING INDONESIAN PRODUCTS"
+    },
+    {
+        "ID_prod": "8991102789011",
+        "nama_prod": "Oops Baked Chicken Tomato",
+        "harga_prod": "1200",
+        "terjual_prod": "100",
+        "kat_prod": "Crackers",
+        "nama_sup": "PT. ULTRA PRIMA ABADI"
+    },
+    {
+        "ID_prod": "8997033730191",
+        "nama_prod": "Meriko Mikako Ayam Bawang",
+        "harga_prod": "1000",
+        "terjual_prod": "100",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. RUBBER DUCK SNACK INDUSTRY"
+    },
+    {
+        "ID_prod": "8998898101409",
+        "nama_prod": "Tolak Angin Cair",
+        "harga_prod": "4700",
+        "terjual_prod": "100",
+        "kat_prod": "Obat Minum Lainnya",
+        "nama_sup": "PT. INDUSTRI JAMU DAN FARMASI SIDO MUNCUL TBK"
+    },
+    {
+        "ID_prod": "8993093664704",
+        "nama_prod": "Minyak Goreng Rose Brand",
+        "harga_prod": "17200",
+        "terjual_prod": "100",
+        "kat_prod": "Minyak Goreng",
+        "nama_sup": "PT. TUNAS BARU LAMPUNG TBK"
+    },
+    {
+        "ID_prod": "8998866200318",
+        "nama_prod": "Mie Sedaap Ayam Bawang",
+        "harga_prod": "2900",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. PRAKARSA ALAM SEGAR"
+    },
+    {
+        "ID_prod": "8993190912463",
+        "nama_prod": "Amidis",
+        "harga_prod": "2100",
+        "terjual_prod": "50",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT AMIDIS TIRTA MULIA"
+    },
+    {
+        "ID_prod": "8992933442113",
+        "nama_prod": "Nutrijell Pudding Belgian Chocolate",
+        "harga_prod": "11200",
+        "terjual_prod": "50",
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT. FORIS NUSAPERSADA"
+    },
+    {
+        "ID_prod": "8998009050053",
+        "nama_prod": "Ultra Sari Kacang Ijo",
+        "harga_prod": "4600",
+        "terjual_prod": "100",
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "8998009010613",
+        "nama_prod": "Ultra Milk Uht Full Cream",
+        "harga_prod": "19600",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "8992933622119",
+        "nama_prod": "Nutrijell My Vla Vanila",
+        "harga_prod": "5900",
+        "terjual_prod": "50",
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT. FORISA NUSAPERSADA"
+    },
+    {
+        "ID_prod": "8999999556327",
+        "nama_prod": "Sariwangi Teh Asli Bag Isi 30 @1.",
+        "harga_prod": "7900",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Celup",
+        "nama_sup": "PT. UNILEVER INDONESIA TBK"
+    },
+    {
+        "ID_prod": "8992752011408",
+        "nama_prod": "Vit",
+        "harga_prod": "1900",
+        "terjual_prod": "50",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT GRAHAMAS INTITIRTA"
+    },
+    {
+        "ID_prod": "8996001600849",
+        "nama_prod": "Nipis Madu Lime Soda",
+        "harga_prod": "3800",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT. TIRTA FRESINDO JAYA."
+    },
+    {
+        "ID_prod": "8999909000377",
+        "nama_prod": "Avolution Kretek",
+        "harga_prod": "43600",
+        "terjual_prod": "50",
+        "kat_prod": "Rokok",
+        "nama_sup": "PT HM SAMPOERNA TBK"
+    },
+    {
+        "ID_prod": "8992761111687",
+        "nama_prod": "A&w Rasa Sarsaparila Can",
+        "harga_prod": "5600",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Ringan (Soda)",
+        "nama_sup": "PT COCA-COLA BOTTLING INDONESIA"
+    },
+    {
+        "ID_prod": "089686910704",
+        "nama_prod": "Indomie Goreng Rendang",
+        "harga_prod": "3100",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8998866612258",
+        "nama_prod": "Rapika Soft Sakura Refill",
+        "harga_prod": "5400",
+        "terjual_prod": "50",
+        "kat_prod": "Pelicin Pakaian Kemasan Refill (Pouch)",
+        "nama_sup": "PT. WINGS SURYA"
+    },
+    {
+        "ID_prod": "8997009510055",
+        "nama_prod": "You-c 1000 Orange",
+        "harga_prod": "6700",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Energi",
+        "nama_sup": "PT DJOJONEGORO C-1000"
+    },
+    {
+        "ID_prod": "089686060744",
+        "nama_prod": "Pop Mie Goreng Special",
+        "harga_prod": "5000",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Dalam Kemasan Cup",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8998898101416",
+        "nama_prod": "Tolak Angin Cair + Madu Isi 5 @",
+        "harga_prod": "23200",
+        "terjual_prod": "50",
+        "kat_prod": "Obat Minum Lainnya",
+        "nama_sup": "PT. INDUSTRI JAMU DAN FARMASI SIDO MUNCUL TBK"
+    },
+    {
+        "ID_prod": "8996001355046",
+        "nama_prod": "Roma Wafer Coklat Superman",
+        "harga_prod": "1200",
+        "terjual_prod": "50",
+        "kat_prod": "Wafer",
+        "nama_sup": "PT MAYORA INDAH TBK"
+    },
+    {
+        "ID_prod": "8997001990077",
+        "nama_prod": "Sierra Premium",
+        "harga_prod": "2100",
+        "terjual_prod": "50",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT JAYAMAS DWI PERKASA"
+    },
+    {
+        "ID_prod": "8996006855886",
+        "nama_prod": "Sosro Fruit Tea Apple Pouch",
+        "harga_prod": "2300",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Kemasan Pack",
+        "nama_sup": "PT. SINAR SOSRO"
+    },
+    {
+        "ID_prod": "8992936115021",
+        "nama_prod": "Tong Tji Jasmine Non Envlope Isi 25 @",
+        "harga_prod": "10400",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Celup",
+        "nama_sup": "PT. TONG TJI TEA INDONESIA"
+    },
+    {
+        "ID_prod": "8888166989603",
+        "nama_prod": "Monde Serena Snack Red Pak",
+        "harga_prod": "2100",
+        "terjual_prod": "50",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. NISSIN BISCUITS INDONESIA"
+    },
+    {
+        "ID_prod": "089686060126",
+        "nama_prod": "Pop Mie Rasa Baso",
+        "harga_prod": "4800",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8993093664711",
+        "nama_prod": "Minyak Goreng Rose Brand Pouch",
+        "harga_prod": "34100",
+        "terjual_prod": "50",
+        "kat_prod": "Minyak Goreng",
+        "nama_sup": "PT. TUNAS BARU LAMPUNG TBK."
+    },
+    {
+        "ID_prod": "8994075230412",
+        "nama_prod": "Momogi Stick Keju",
+        "harga_prod": "700",
+        "terjual_prod": "50",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "PT SARI MURNI ABADI"
+    },
+    {
+        "ID_prod": "8993379500238",
+        "nama_prod": "Minyak Goreng Sunco Pouch",
+        "harga_prod": "35000",
+        "terjual_prod": "50",
+        "kat_prod": "Minyak Goreng",
+        "nama_sup": "PT. MKIE OLEO NABATI INDUSTRI"
+    },
+    {
+        "ID_prod": "8993093665480",
+        "nama_prod": "Gula Kristal Rose Brand",
+        "harga_prod": "17500",
+        "terjual_prod": "50",
+        "kat_prod": "Gula Pasir",
+        "nama_sup": "PT. ADI KARYA GEMILANG"
+    },
+    {
+        "ID_prod": "8998009010606",
+        "nama_prod": "Ultra Milk Uht Stroberi",
+        "harga_prod": "3300",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK."
+    },
+    {
+        "ID_prod": "8997225200013",
+        "nama_prod": "Green Sand Grape Lemon",
+        "harga_prod": "5500",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Ringan (Soda)",
+        "nama_sup": "PT TIRTA PRIMA INDONESIA"
+    },
+    {
+        "ID_prod": "8992759612530",
+        "nama_prod": "Nice Tisu",
+        "harga_prod": "41900",
+        "terjual_prod": "50",
+        "kat_prod": "Tisu Facial (Halus)",
+        "nama_sup": "31.7 cm"
+    },
+    {
+        "ID_prod": "8996001600207",
+        "nama_prod": "Teh Pucuk Harum Jasmine",
+        "harga_prod": "6000",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Kemasan Botol",
+        "nama_sup": "PT TIRTA PRESINDO JAYA"
+    },
+    {
+        "ID_prod": "8992936115014",
+        "nama_prod": "Tong Tji Teh Celup Jasmine Isi 25 @",
+        "harga_prod": "13300",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Celup",
+        "nama_sup": "PT. TONG TJI TEA INDONESIA"
+    },
+    {
+        "ID_prod": "8992736925158",
+        "nama_prod": "Tepung Bumbu Sasa Serbaguna Hot & Spicy",
+        "harga_prod": "6400",
+        "terjual_prod": "50",
+        "kat_prod": "Bumbu Masak Instan",
+        "nama_sup": "PT. SASA INTI"
+    },
+    {
+        "ID_prod": "8994755030936",
+        "nama_prod": "Good Time Mini Double Choc",
+        "harga_prod": "2000",
+        "terjual_prod": "50",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "PT. ARNOTT'S INDONESIA"
+    },
+    {
+        "ID_prod": "8996006855879",
+        "nama_prod": "Sosro Fruit Tea Blackcurrant Pouch",
+        "harga_prod": "2300",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Kemasan Pack",
+        "nama_sup": "PT. SINAR SOSRO"
+    },
+    {
+        "ID_prod": "8998866623810",
+        "nama_prod": "Soklin Lantai Clean & Protect  Eucalyptus Mint Pouch",
+        "harga_prod": "9900",
+        "terjual_prod": "50",
+        "kat_prod": "Cairan Pembersih Lantai Kemasan Refill (Pouch)",
+        "nama_sup": "PT.WINGS SURYA"
+    },
+    {
+        "ID_prod": "8997220180099",
+        "nama_prod": "Agar Swallow Globe Putih",
+        "harga_prod": "5300",
+        "terjual_prod": "50",
+        "kat_prod": "Bubuk Pudding/jelly/agar-agar Dan Vla",
+        "nama_sup": "PT. AGARINDO BOGATAMA"
+    },
+    {
+        "ID_prod": "8995177108883",
+        "nama_prod": "Gulaku Kuning",
+        "harga_prod": "10200",
+        "terjual_prod": "50",
+        "kat_prod": "Gula Pasir",
+        "nama_sup": "PT. GULA PUTIH MATARAM"
+    },
+    {
+        "ID_prod": "8991001790071",
+        "nama_prod": "Selamat Twister Thin Vanilla",
+        "harga_prod": "2000",
+        "terjual_prod": "50",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "PT PERUSAHAAN INDUSTRI CERES"
+    },
+    {
+        "ID_prod": "8994075230436",
+        "nama_prod": "Momogi Stick Coklat",
+        "harga_prod": "700",
+        "terjual_prod": "50",
+        "kat_prod": "Wafer",
+        "nama_sup": "PT SARI MURNI ABADI"
+    },
+    {
+        "ID_prod": "9830100020223",
+        "nama_prod": "Telur Ayam Kampung Arab Isi",
+        "harga_prod": "42100",
+        "terjual_prod": "50",
+        "kat_prod": "Telur Ayam Kampung Pack",
+        "nama_sup": "SAHABAT ALAM"
+    },
+    {
+        "ID_prod": "8992702000018",
+        "nama_prod": "Indomilk Susu Kental Manis Putih",
+        "harga_prod": "12100",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Kental Manis",
+        "nama_sup": "PT INDOLAKTO"
+    },
+    {
+        "ID_prod": "8998989100120",
+        "nama_prod": "G.g Filter",
+        "harga_prod": "27100",
+        "terjual_prod": "50",
+        "kat_prod": "Rokok",
+        "nama_sup": "PT GUDANG GARAM TBK"
+    },
+    {
+        "ID_prod": "8992696420373",
+        "nama_prod": "Nestle Koko Krunch Sachet",
+        "harga_prod": "2000",
+        "terjual_prod": "50",
+        "kat_prod": "Sereal",
+        "nama_sup": "PT NESTLE INDONESIA"
+    },
+    {
+        "ID_prod": "8994251000334",
+        "nama_prod": "Ovaltine Cookies Chocolate Malt Cookies",
+        "harga_prod": "2300",
+        "terjual_prod": "50",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "PT MONDE MAHKOTA BISCUIT"
+    },
+    {
+        "ID_prod": "8993496110075",
+        "nama_prod": "Tepung Terigu Tulip",
+        "harga_prod": "9500",
+        "terjual_prod": "50",
+        "kat_prod": "Tepung Terigu",
+        "nama_sup": "PT. PUNDI KENCANA"
+    },
+    {
+        "ID_prod": "8992775311608",
+        "nama_prod": "Gery Chocolatos",
+        "harga_prod": "600",
+        "terjual_prod": "50",
+        "kat_prod": "Wafer",
+        "nama_sup": "PT GARUDA FOOD PUTRA PUTRI INDONESIA"
+    },
+    {
+        "ID_prod": "8998866808699",
+        "nama_prod": "Soklin Royale Purple Dawn Sachet Isi 7 @",
+        "harga_prod": "2600",
+        "terjual_prod": "50",
+        "kat_prod": "Pelembut & Pewangi Pakaian (Softener) Kemasan Sachet",
+        "nama_sup": "PT. WINGS SURYA"
+    },
+    {
+        "ID_prod": "8886007811489",
+        "nama_prod": "Poci Teh Seduh Vanila",
+        "harga_prod": "3600",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. GUNUNG SLAMAT"
+    },
+    {
+        "ID_prod": "7622300405588",
+        "nama_prod": "Kraft Keju Cake",
+        "harga_prod": "2400",
+        "terjual_prod": "50",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "NORTH KINH DO ONE MEMBER"
+    },
+    {
+        "ID_prod": "8998866106122",
+        "nama_prod": "Mama Lemon Stain Remover Refill",
+        "harga_prod": "9500",
+        "terjual_prod": "50",
+        "kat_prod": "Pembersih Multifungsi Cair",
+        "nama_sup": "PT. LION WINGS"
+    },
+    {
+        "ID_prod": "8998866202770",
+        "nama_prod": "Mie Sedaap Goreng Salero Padang",
+        "harga_prod": "3100",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. PRAKARSA ALAM SEGAR"
+    },
+    {
+        "ID_prod": "8997240600010",
+        "nama_prod": "Oatside Oat Milk Barista Blend",
+        "harga_prod": "36000",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ABC KOGEN DAIRY"
+    },
+    {
+        "ID_prod": "8997213380505",
+        "nama_prod": "Minyak Goreng Vipco Pouch",
+        "harga_prod": "17400",
+        "terjual_prod": "50",
+        "kat_prod": "Minyak Goreng",
+        "nama_sup": "PT. KURNIA TUNGGAL NUGRAHA"
+    },
+    {
+        "ID_prod": "8992936125013",
+        "nama_prod": "Tong Tji Teh Seduh Jasmine Tea Premium",
+        "harga_prod": "5100",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. TONG TJI TEA INDONESIA"
+    },
+    {
+        "ID_prod": "8992936661931",
+        "nama_prod": "Tong Tji Premium Serbuk Jasmine Tea",
+        "harga_prod": "4800",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. TONG TJI TEA INDONESIA"
+    },
+    {
+        "ID_prod": "8992745550532",
+        "nama_prod": "Mitu Baby Antiseptic Wipes Isi 2 Pack @",
+        "harga_prod": "14000",
+        "terjual_prod": "50",
+        "kat_prod": "Tisu Basah (Baby Wipes)",
+        "nama_sup": "PT. MEGASARI MAKMUR"
+    },
+    {
+        "ID_prod": "8998866610414",
+        "nama_prod": "Cling Pembersih Kaca Lavender Fresh Refill",
+        "harga_prod": "3500",
+        "terjual_prod": "50",
+        "kat_prod": "Cairan Pembersih Kaca Kemasan Refill (Pouch)",
+        "nama_sup": "PT MULTI INDOMANDIRI"
+    },
+    {
+        "ID_prod": "8886001038011",
+        "nama_prod": "Beng-beng Regular Isi 3 @",
+        "harga_prod": "7600",
+        "terjual_prod": "50",
+        "kat_prod": "Wafer",
+        "nama_sup": "14.0 cm"
+    },
+    {
+        "ID_prod": "8998866182218",
+        "nama_prod": "Mama Lemon Refill",
+        "harga_prod": "7500",
+        "terjual_prod": "50",
+        "kat_prod": "Cairan Pencuci Piring Kemasan Refill (Pouch)",
+        "nama_sup": "PT. LION WINGS"
+    },
+    {
+        "ID_prod": "8992982206001",
+        "nama_prod": "Nestle Pure Life Botol",
+        "harga_prod": "2300",
+        "terjual_prod": "50",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT AKASHA WIRA INTERNATIONAL TBK"
+    },
+    {
+        "ID_prod": "8992696404441",
+        "nama_prod": "Bear Brand Lokal",
+        "harga_prod": "10200",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT NESTLE INDONESIA"
+    },
+    {
+        "ID_prod": "089686014280",
+        "nama_prod": "Supermi Ayam Bawang",
+        "harga_prod": "2900",
+        "terjual_prod": "50",
+        "kat_prod": "Mie, Bihun, Kwetiau Instan",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8886007000036",
+        "nama_prod": "Teh Poci Biru",
+        "harga_prod": "3400",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. GUNUNG SLAMAT"
+    },
+    {
+        "ID_prod": "8998866203388",
+        "nama_prod": "Potabee Selections Black Truffle",
+        "harga_prod": "9100",
+        "terjual_prod": "50",
+        "kat_prod": "Keripik Kentang",
+        "nama_sup": "PT CALBEE-WINGS FOOD"
+    },
+    {
+        "ID_prod": "089686010718",
+        "nama_prod": "Indomie Goreng Cabe Ijo",
+        "harga_prod": "3100",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8997225871794",
+        "nama_prod": "Potato Q Chips Rumput Laut",
+        "harga_prod": "2300",
+        "terjual_prod": "50",
+        "kat_prod": "Keripik",
+        "nama_sup": "ENVOY FOOD INTERNATIONAL"
+    },
+    {
+        "ID_prod": "8992936214014",
+        "nama_prod": "Tong Tji Teh Seduh Super",
+        "harga_prod": "3800",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Bubuk",
+        "nama_sup": "PT. TONG TJI TEA INDONESIA"
+    },
+    {
+        "ID_prod": "8999999008475",
+        "nama_prod": "Sunlight Jeruk Nipis 100 Refill 1.",
+        "harga_prod": "24600",
+        "terjual_prod": "50",
+        "kat_prod": "Cairan Pencuci Piring Kemasan Refill (Pouch)",
+        "nama_sup": "PT. UNILEVER INDONESIA TBK"
+    },
+    {
+        "ID_prod": "8992761136208",
+        "nama_prod": "Pulpy Orange",
+        "harga_prod": "13600",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Rasa Buah",
+        "nama_sup": "PT COCA-COLA BOTTLING INDONESIA"
+    },
+    {
+        "ID_prod": "8998694310500",
+        "nama_prod": "Diasweet Litebite Fiber Sugar Free Wafer Vanilla",
+        "harga_prod": "2800",
+        "terjual_prod": "50",
+        "kat_prod": "Wafer",
+        "nama_sup": "PT KONIMEX"
+    },
+    {
+        "ID_prod": "8999510785465",
+        "nama_prod": "Pristine",
+        "harga_prod": "4900",
+        "terjual_prod": "50",
+        "kat_prod": "Air Mineral Kemasan Botol",
+        "nama_sup": "PT KREASI MAS INDAH"
+    },
+    {
+        "ID_prod": "8992736225463",
+        "nama_prod": "Bumbu Ayam Kuning Sasa",
+        "harga_prod": "1900",
+        "terjual_prod": "50",
+        "kat_prod": "Bumbu Masak Instan",
+        "nama_sup": "PT. SASA INTI"
+    },
+    {
+        "ID_prod": "089686023770",
+        "nama_prod": "Sakura Mi Goreng",
+        "harga_prod": "1700",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8991899204070",
+        "nama_prod": "Bagus Serap Air Refill",
+        "harga_prod": "12400",
+        "terjual_prod": "50",
+        "kat_prod": "Serap Air & Penyerap Bau Kemasan Refill (Pouch)",
+        "nama_sup": "PT. SURYAMAS MENTARI"
+    },
+    {
+        "ID_prod": "8998009010231",
+        "nama_prod": "Ultra Milk Uht Cokelat",
+        "harga_prod": "6600",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK"
+    },
+    {
+        "ID_prod": "8996001600382",
+        "nama_prod": "Teh Pucuk Harum Jasmine",
+        "harga_prod": "11800",
+        "terjual_prod": "50",
+        "kat_prod": "Teh Kemasan Botol",
+        "nama_sup": "PT TIRTA PRESINDO JAYA"
+    },
+    {
+        "ID_prod": "8998866601566",
+        "nama_prod": "Soklin Pemutih Reguler Botol",
+        "harga_prod": "10500",
+        "terjual_prod": "50",
+        "kat_prod": "Pemutih Dan Penghilang Noda Kemasan Botol",
+        "nama_sup": "PT. MULTI INDOMANDIRI"
+    },
+    {
+        "ID_prod": "089686910384",
+        "nama_prod": "Indomie Soto Special",
+        "harga_prod": "3000",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Bungkus",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8993207181035",
+        "nama_prod": "Fiesta Original Sausage",
+        "harga_prod": "29500",
+        "terjual_prod": "50",
+        "kat_prod": "Sosis Beku",
+        "nama_sup": "PT CHAROEN POKPHAND INDONESIA TBK"
+    },
+    {
+        "ID_prod": "8888166330306",
+        "nama_prod": "Nissin Lemonia Cookies",
+        "harga_prod": "7900",
+        "terjual_prod": "50",
+        "kat_prod": "Cookies & Biskuit",
+        "nama_sup": "PT SERENA INDOPANGAN INDUSTRI"
+    },
+    {
+        "ID_prod": "089686060027",
+        "nama_prod": "Pop Mie Rasa Ayam",
+        "harga_prod": "4800",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Dalam Kemasan Cup",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "089686606010",
+        "nama_prod": "Jetz Hollow Paprika",
+        "harga_prod": "4000",
+        "terjual_prod": "50",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. INDOFOOD FRITOLAY MAKMUR"
+    },
+    {
+        "ID_prod": "8998866202923",
+        "nama_prod": "Floridina Coco",
+        "harga_prod": "3000",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Dalam Kemasan",
+        "nama_sup": "PT. TIRTA ALAM SEGAR"
+    },
+    {
+        "ID_prod": "8993560027537",
+        "nama_prod": "Dettol Wet Wipes Original Isi",
+        "harga_prod": "13000",
+        "terjual_prod": "50",
+        "kat_prod": "Tisu Basah Non Baby",
+        "nama_sup": "NOX BELLCOW COSMETICS CO., LTD"
+    },
+    {
+        "ID_prod": "8993007000680",
+        "nama_prod": "Indomilk Uht Plain",
+        "harga_prod": "17600",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT INDOLAKTO"
+    },
+    {
+        "ID_prod": "8997230990022",
+        "nama_prod": "Happy Egg Daily Fresh Premium",
+        "harga_prod": "26300",
+        "terjual_prod": "50",
+        "kat_prod": "Telur Ayam Pack",
+        "nama_sup": "GEMILANG FARM"
+    },
+    {
+        "ID_prod": "8998866200813",
+        "nama_prod": "Mie Sedaap Goreng Cup",
+        "harga_prod": "4700",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Dalam Kemasan Cup",
+        "nama_sup": "PT. PRAKARSA ALAM SEGAR"
+    },
+    {
+        "ID_prod": "089686729047",
+        "nama_prod": "Maxicorn Nacho Cheese",
+        "harga_prod": "9500",
+        "terjual_prod": "50",
+        "kat_prod": "Snack Lainnya",
+        "nama_sup": "PT. INDOFOOD FORTUNA MAKMUR"
+    },
+    {
+        "ID_prod": "8998009010248",
+        "nama_prod": "Ultra Milk Uht Stroberi",
+        "harga_prod": "6600",
+        "terjual_prod": "50",
+        "kat_prod": "Susu Cair & Uht",
+        "nama_sup": "PT ULTRAJAYA MILK INDUSTRY TBK."
+    },
+    {
+        "ID_prod": "089686060003",
+        "nama_prod": "Pop Mie Ayam Bawang",
+        "harga_prod": "4800",
+        "terjual_prod": "50",
+        "kat_prod": "Mie Instan Dalam Kemasan Cup",
+        "nama_sup": "PT. INDOFOOD CBP SUKSES MAKMUR TBK"
+    },
+    {
+        "ID_prod": "8998866202657",
+        "nama_prod": "Choco Drink Pouch",
+        "harga_prod": "6600",
+        "terjual_prod": "50",
+        "kat_prod": "Minuman Serbuk Rasa Coklat",
+        "nama_sup": "PT KARUNIA ALAM SEGAR"
+    },
+    {
+        "ID_prod": "8993993960593",
+        "nama_prod": "Telur Omega 3 Vegetarian Isi",
+        "harga_prod": "51300",
+        "terjual_prod": "50",
+        "kat_prod": "Telur Ayam Pack",
+        "nama_sup": "SUMBER INTI HARAPAN GRUP"
+    },
+    {
+        "ID_prod": "8888327121019",
+        "nama_prod": "Sarden Gaga Saus Cabai & Tomat",
+        "harga_prod": "10800",
+        "terjual_prod": "50",
+        "kat_prod": "Ikan Dalam Kemasan Kaleng",
+        "nama_sup": "CV. PACIFIC HARVEST"
+    }
+]

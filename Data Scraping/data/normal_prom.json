@@ -1,0 +1,20 @@
+[
+    {
+        "nama_prom": "Free Ongkir (Min. 300,000)",
+        "sisa_prom": "253",
+        "jumlah_prom": "10000",
+        "kode_prom": "FREESHIPPING2024"
+    },
+    {
+        "nama_prom": "Promo Pengguna Baru",
+        "sisa_prom": "1",
+        "jumlah_prom": "20000",
+        "kode_prom": "PENGGUNABARU"
+    },
+    {
+        "nama_prom": "Promo Cashback 2024",
+        "sisa_prom": "624",
+        "jumlah_prom": "20000",
+        "kode_prom": "CASHBACK2024"
+    }
+]
