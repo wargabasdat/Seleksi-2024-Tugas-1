@@ -290,9 +290,9 @@ python db.py "SELECT * FROM item"
 
 ## Translasi ERD Menjadi diagram relasional
 <!-- - Penjelasan mengenai proses translasi ERD menjadi diagram relasional -->
-<!-- Cek draw.io ada di tabel ada typenya ga ? trus ada kaya enum gitu typenya ga ? -->
-Proses translasi ERD menjadi diagram relasional dilakukan dengan cara:
-  
+Proses translasi ERD menjadi diagram relasional dilakukan dengan cara mengubah setiap entitas dan relasi yang ada pada ERD menjadi tabel-tabel pada database. Setiap atribut cpada entitas akan menjadi kolom pada tabel. Setiap relasi akan menjadi foreign key pada tabel yang berelasi. Entity character memiliki relasi ISA dengan cardinality one to one dengan entity pc, npc, dan enemy. Ini diubah menjadi tabel character, pc, npc, dan enemy. Setiap tabel turunannya memiliki id primary key yang sekalian foreign key yang sama dengan character. Untuk entity pc memiliki hubungan many to many dengan entity power_up dan memiliki relasi form yang memiliki atribut relasi yang atribut relasi itu juga berelasi dengan image. Setelah ditransformasi maka menjadi tabel pc, form, dan power_up yang dihubungkan melalui primary key dan foreign key. Untuk tabel form terdapat atribut tambahan sesuai dengan relasi form. Terdapat sebuah entity level yang berelasi dengan entity item, object, enemy, dan power_up dengan cardinality one to many. Maka level akan menjadi tabel, yang akan dihubungkan ke tabel item, object, enemy, dan power_up melalui tabel level_item, level_object, level_enemy, dan level_power_up dengan primary key dan foreign keynya dan memiliki tambahan atribut count. Reference dan version tidak memiliki relasi dengan entity lain sehingga langsung diubah menjadi tabel. Kemudian untuk masing-masing entity yang memiliki relasi dengan image akan memiliki atribut image_id untuk dihubungkan ke tabel image. Untuk setting level yang berelasi dengan entity level akan diubah menjadi tabel setting_level yang berelasi dengan level yang dihubungkan melalui primary key dan foreign key.
+
+
 ## Automated Scheduling Update
 Proses web scraping dapat diupdate dalam jangka waktu tertentu. Dalam program ini, proses web scraping akan dijalankan setiap 2 menit. Konfigurasi ini bisa diubah dari main.py pada variabel wait_time. Nilainya dalam detik. File json hasil scraping akan disimpan di [Data Scraping/src/json/data.json](Data%20Scraping/src/json/data.json).
 
@@ -326,7 +326,7 @@ Yang bawah merupakan setelah ditunggu sekitar 2 menit.
 ## Referensi
 - Bahasa Pemrograman: Python
 - Library:
-    - asyncio: web request secara konkuren
+    - asyncio: web request secara konkuren sekalian untuk scheduling
     - BeautifulSoup: scrapping html website
     - psycopg2: driver database
 - DBMS: PostgreSQL 
