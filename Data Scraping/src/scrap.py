@@ -113,11 +113,9 @@ for item in soup.findAll('li', class_='_1DNjI'):
         ket_penjual = 'Dikelola oleh OLX Mobbi'
         jumlah_iklan = '0'
     
-
-    # produk.append((newlink, judul, waktu, nama_mobil,  keterangan, bahan_bakar, km, transmisi, tahun, kapasitas_mesin, lokasi_detail, harga, dp, cicilan, jenis_penjual))
     produk.append((newlink, judul, nama_mobil,  keterangan, bahan_bakar, km, transmisi, tahun, kapasitas_mesin, kota, provinsi, harga, dp, cicilan, jenis_penjual, nama_penjual, ket_penjual, jumlah_iklan))
-# Cbuat data frame
-# df = pd.DataFrame(produk, columns=['link', 'nama', 'waktu_post', 'judul',  'keterangan', 'bahan_bakar', 'km', 'transmisi', 'tahun', 'kapasitas_mesin', 'lokasi_detail', 'harga', 'dp', 'cicilan', 'jenis_penjual'])
+
+# buat data frame
 df = pd.DataFrame(produk, columns=['link', 'judul', 'nama_mobil',  'keterangan', 'bahan_bakar', 'km', 'transmisi', 'tahun', 'kapasitas_mesin', 'kota', 'provinsi', 'harga', 'dp', 'cicilan', 'jenis_penjual', 'nama_penjual', 'ket_penjual', 'jumlah_iklan'])
 
 # proses cleansing
