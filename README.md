@@ -388,13 +388,13 @@ Setelah berhasil mengumpulkan data melalui web scraping, langkah selanjutnya ada
 
 Berikut adalah hasil visualisasi yang didapatkan untuk memenuhi tujuan awal *scraping* website ini yaitu untuk membandingkan hubungan antara promo yang ditawarkan dengan jumlah penjualan produk.
 <div align="center">
-  <img src="Data Visualization/Visualization/1.png" width="600"/>
+  <img src="Data Visualization/Visualization/1.png" width="800"/>
 </div>
 
 Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak memberikan diskon, produk paling variatif, dan penjualan produk yang paling tinggi.
 
 <div align="center">
-  <img src="Data Visualization/Visualization/2.png" width="600"/>
+  <img src="Data Visualization/Visualization/2.png" width="800"/>
 </div>
 
 
