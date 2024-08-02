@@ -1,0 +1,80 @@
+[
+  {
+    "Nama_Produk": "AHM Oil SPX2 – 0.8 L",
+    "Harga_Sebelumnya": 69500,
+    "Harga_Sekarang": 66025,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "Oli Gardan Transmission Gear Oil (Fully Synthetic)",
+    "Harga_Sebelumnya": 19500,
+    "Harga_Sekarang": 18525,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "Oli Gardan – Transmission Gear Oil",
+    "Harga_Sebelumnya": 16500,
+    "Harga_Sekarang": 15675,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX2 – 0.8 L 10W-30",
+    "Harga_Sebelumnya": 58500,
+    "Harga_Sekarang": 55575,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil SPX2 – 0.65 L 10W-30",
+    "Harga_Sebelumnya": 60500,
+    "Harga_Sekarang": 57475,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX2 – 0.65 L 10W-30",
+    "Harga_Sebelumnya": 49500,
+    "Harga_Sekarang": 47025,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX1 – 0.8 L 10W-30",
+    "Harga_Sebelumnya": 56500,
+    "Harga_Sekarang": 53675,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil SPX1 – 0.8 L 10W-30",
+    "Harga_Sebelumnya": 68500,
+    "Harga_Sekarang": 65075,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil SPX1 – 1 L 10W-30",
+    "Harga_Sebelumnya": 76500,
+    "Harga_Sekarang": 72675,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX3 – 0.8 L NIP",
+    "Harga_Sebelumnya": 50000,
+    "Harga_Sekarang": 47500,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX1 – 1 L 10W-30 IDE",
+    "Harga_Sebelumnya": 65000,
+    "Harga_Sekarang": 61750,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX3 – 1 L",
+    "Harga_Sebelumnya": 55000,
+    "Harga_Sekarang": 52250,
+    "Kategori": "Oli"
+  },
+  {
+    "Nama_Produk": "AHM Oil MPX1 – 1.2 L 10W-30",
+    "Harga_Sebelumnya": 73000,
+    "Harga_Sekarang": 69350,
+    "Kategori": "Oli"
+  }
+]
