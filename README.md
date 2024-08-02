@@ -1,7 +1,7 @@
 # Seleksi Asisten Basis Data
 
 ## Author:
-* Keanu Amadius Gonza Wrahatno		(13522082)
+Keanu Amadius Gonza Wrahatno		(13522082)
 
 
 ## Table of Contents
@@ -16,7 +16,7 @@
 
 
 ## Deskripsi
-Data ini dibuat pada MySQL berisikan data mobil bekas di marketplace OLX. Topik ini diambil karena ingin mengetahui data apa saja yang disampaikan kepada pembelidi web olx. Selain itu saya juga ingin mengetahui apakah data yang didapat dari web olx dapat diaplikasikan
+Data ini dibuat pada MySQL berisikan data mobil bekas di marketplace OLX. Topik ini diambil karena ingin mengetahui data apa saja yang disampaikan kepada pembeli di web olx. Saya ingin mengetahui mobil mana yang paling worth it untuk dibeli melihat dari harga, spesifikasi yang ditawarkan, dan penjual. Selain itu saya juga ingin mengetahui apakah data yang didapat dari web olx dapat diaplikasikan pada RDBMS. Saya menggunakan MySQL untuk mengimplementasikan tugas ini.
 
 
 ## Scraper
