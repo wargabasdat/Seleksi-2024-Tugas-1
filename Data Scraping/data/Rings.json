@@ -1,0 +1,620 @@
+[
+    {
+        "name": "Life Ring",
+        "effect": "Raises maximum HP",
+        "weight": 0.3,
+        "locations": [
+            "Burial Gift",
+            "Shrine Handmaid",
+            "Undead Settlement",
+            "Lothric Castle",
+            "Untended Graves"
+        ]
+    },
+    {
+        "name": "Sun Princess Ring",
+        "effect": "Gradually restores HP",
+        "weight": 0.6,
+        "locations": [
+            "Anor Londo"
+        ]
+    },
+    {
+        "name": "Estus Ring",
+        "effect": "Increases HP restored with Estus Flask",
+        "weight": 0.8,
+        "locations": [
+            "Firelink Shrine"
+        ]
+    },
+    {
+        "name": "Ashen Estus Ring",
+        "effect": "Increases FP restored with Ashen Estus Flask",
+        "weight": 0.8,
+        "locations": [
+            "Untended Graves"
+        ]
+    },
+    {
+        "name": "Chloranthy Ring",
+        "effect": "Raises stamina recovery speed",
+        "weight": 0.7,
+        "locations": [
+            "Undead Settlement",
+            "Irithyll of the Boreal Valley",
+            "Road of Sacrifices",
+            "The Ringed City"
+        ]
+    },
+    {
+        "name": "Havel's Ring",
+        "effect": "Increases maximum load",
+        "weight": 1.5,
+        "locations": [
+            "Soul of a Stray Demon",
+            "Archdragon Peak",
+            "Anor Londo",
+            "The Ringed City"
+        ]
+    },
+    {
+        "name": "Ring of Favor",
+        "effect": "Increases HP, stamina, and maximum equip load",
+        "weight": 1.5,
+        "locations": [
+            "Irithyll of the Boreal Valley",
+            "Irithyll of the Boreal Valley",
+            "Cathedral of the Deep",
+            "The Dreg Heap"
+        ]
+    },
+    {
+        "name": "Prisoner's Chain",
+        "effect": "Increases VGR, END and VIT, but take more damage",
+        "weight": 0.8,
+        "locations": [
+            "Soul of Champion Gundyr"
+        ]
+    },
+    {
+        "name": "Ring of Steel Protection",
+        "effect": "Increases physical damage absorption",
+        "weight": 0.8,
+        "locations": [
+            "Archdragon Peak",
+            "Untended Graves",
+            "Catacombs of Carthus",
+            "The Dreg Heap"
+        ]
+    },
+    {
+        "name": "Magic Stoneplate Ring",
+        "effect": "Increases magic damage absorption",
+        "weight": 0.6,
+        "locations": [
+            "Consumed King's Knight",
+            "Consumed King's Garden",
+            "Farron Keep",
+            "Profaned Capital"
+        ]
+    },
+    {
+        "name": "Flame Stoneplate Ring",
+        "effect": "Increases Fire damage absorption",
+        "weight": 0.6,
+        "locations": [
+            "Undead Settlement",
+            "Profaned Capital",
+            "Smouldering Lake"
+        ]
+    },
+    {
+        "name": "Thunder Stoneplate Ring",
+        "effect": "Increases lightning damage absorption",
+        "weight": 0.6,
+        "locations": [
+            "Archdragon Peak",
+            "Catacombs of Carthus",
+            "Lothric Castle"
+        ]
+    },
+    {
+        "name": "Dark Stoneplate Ring",
+        "effect": "Increases dark damage absorption",
+        "weight": 0.6,
+        "locations": [
+            "Anor Londo",
+            "Lothric Castle",
+            "Farron Keep"
+        ]
+    },
+    {
+        "name": "Speckled Stoneplate Ring",
+        "effect": "Slightly increases magic, lightning, fire and dark damage absorption",
+        "weight": 0.9,
+        "locations": [
+            "Smouldering Lake",
+            "Cemetery of Ash"
+        ]
+    },
+    {
+        "name": "Bloodbite Ring",
+        "effect": "Increases bleed resistance",
+        "weight": 0.6,
+        "locations": [
+            "Undead Settlement",
+            "Smouldering Lake"
+        ]
+    },
+    {
+        "name": "Poisonbite Ring",
+        "effect": "Increases poison resistance",
+        "weight": 0.6,
+        "locations": [
+            "Cathedral of the Deep",
+            "Undead Settlement"
+        ]
+    },
+    {
+        "name": "Chillbite Ring",
+        "effect": "Increases frost resistance",
+        "weight": 0.6,
+        "locations": [
+            "Painted World of Ariandel"
+        ]
+    },
+    {
+        "name": "Cursebite Ring",
+        "effect": "Increases curse resistance",
+        "weight": 0.6,
+        "locations": [
+            "Profaned Capital"
+        ]
+    },
+    {
+        "name": "Fleshbite Ring",
+        "effect": "Raises poison, bleed, curse and frost resist",
+        "weight": 0.9,
+        "locations": [
+            "Grand Archives",
+            "High Wall of Lothric"
+        ]
+    },
+    {
+        "name": "Knight's Ring",
+        "effect": "Increases strength",
+        "weight": 0.8,
+        "locations": [
+            "Lothric Castle"
+        ]
+    },
+    {
+        "name": "Hunter's Ring",
+        "effect": "Increases dexterity",
+        "weight": 0.8,
+        "locations": [
+            "Grand Archives"
+        ]
+    },
+    {
+        "name": "Scholar Ring",
+        "effect": "Increases intelligence",
+        "weight": 0.6,
+        "locations": [
+            "Grand Archives"
+        ]
+    },
+    {
+        "name": "Priestess Ring",
+        "effect": "Increases faith",
+        "weight": 0.6,
+        "locations": [
+            "Shrine Handmaid"
+        ]
+    },
+    {
+        "name": "Covetous Gold Serpent Ring",
+        "effect": "Fallen foes are more likely to drop items",
+        "weight": 1.2,
+        "locations": [
+            "Irithyll Dungeon",
+            "Irithyll of the Boreal Valley",
+            "Archdragon Peak",
+            "The Ringed City"
+        ]
+    },
+    {
+        "name": "Covetous Silver Serpent Ring",
+        "effect": "Fallen foes yield more souls",
+        "weight": 1.2,
+        "locations": [
+            "Firelink Shrine",
+            "Irithyll Dungeon",
+            "Undead Settlement",
+            "The Dreg Heap"
+        ]
+    },
+    {
+        "name": "Saint's Ring",
+        "effect": "Allows attunement of additional spells",
+        "weight": 0.5,
+        "locations": [
+            "Irina of Carim"
+        ]
+    },
+    {
+        "name": "Deep Ring",
+        "effect": "Allows attunement of additional spells",
+        "weight": 0.5,
+        "locations": [
+            "Cathedral of the Deep"
+        ]
+    },
+    {
+        "name": "Darkmoon Ring",
+        "effect": "Adds many slots for attunement",
+        "weight": 0.8,
+        "locations": [
+            "Blade of the Darkmoon"
+        ]
+    },
+    {
+        "name": "Young Dragon Ring",
+        "effect": "Boosts sorceries",
+        "weight": 0.7,
+        "locations": [
+            "Starting equipment",
+            "Orbeck of Vinheim"
+        ]
+    },
+    {
+        "name": "Bellowing Dragoncrest Ring",
+        "effect": "Greatly boosts sorceries",
+        "weight": 1.0,
+        "locations": [
+            "Irithyll Dungeon"
+        ]
+    },
+    {
+        "name": "Great Swamp Ring",
+        "effect": "Boosts pyromancies",
+        "weight": 0.7,
+        "locations": [
+            "Road of Sacrifices"
+        ]
+    },
+    {
+        "name": "Witch's Ring",
+        "effect": "Greatly boosts pyromancies",
+        "weight": 1.0,
+        "locations": [
+            "Catacombs of Carthus"
+        ]
+    },
+    {
+        "name": "Morne's Ring",
+        "effect": "Boosts miracles",
+        "weight": 0.7,
+        "locations": [
+            "Road of Sacrifices"
+        ]
+    },
+    {
+        "name": "Ring of the Sun's First Born",
+        "effect": "Greatly boosts miracles",
+        "weight": 1.0,
+        "locations": [
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "name": "Lingering Dragoncrest Ring",
+        "effect": "Extends length of spell effect",
+        "weight": 0.5,
+        "locations": [
+            "Farron Keep",
+            "Road of Sacrifices",
+            "Grand Archives"
+        ]
+    },
+    {
+        "name": "Sage Ring",
+        "effect": "Shortens spell casting time",
+        "weight": 0.7,
+        "locations": [
+            "Road of Sacrifices",
+            "Grand Archives",
+            "Consumed King's Garden"
+        ]
+    },
+    {
+        "name": "Dusk Crown Ring",
+        "effect": "Reduces spell FP consumption, but also lowers HP",
+        "weight": 0.6,
+        "locations": [
+            "Irithyll Dungeon"
+        ]
+    },
+    {
+        "name": "Leo Ring",
+        "effect": "Strengthens thrust weapon counter attacks",
+        "weight": 0.5,
+        "locations": [
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "name": "Wolf Ring",
+        "effect": "Increases poise",
+        "weight": 0.5,
+        "locations": [
+            "Watchdogs of Farron",
+            "Farron Keep",
+            "Cemetery of Ash",
+            "The Ringed City"
+        ]
+    },
+    {
+        "name": "Hawk Ring",
+        "effect": "Extends the range of bows",
+        "weight": 0.7,
+        "locations": [
+            "Undead Settlement"
+        ]
+    },
+    {
+        "name": "Hornet Ring",
+        "effect": "Boosts critical attacks",
+        "weight": 1.1,
+        "locations": [
+            "Untended Graves"
+        ]
+    },
+    {
+        "name": "Knight Slayer's Ring",
+        "effect": "Enemies lose more stamina when guarding attacks",
+        "weight": 0.9,
+        "locations": [
+            "Catacombs of Carthus"
+        ]
+    },
+    {
+        "name": "Ring of the Evil Eye",
+        "effect": "Absorb HP from each defeated foe",
+        "weight": 1.0,
+        "locations": [
+            "Anri of Astora",
+            "Cathedral of the Deep",
+            "High Wall of Lothric",
+            "The Ringed City"
+        ]
+    },
+    {
+        "name": "Farron Ring",
+        "effect": "Reduces Skill FP consumption",
+        "weight": 0.8,
+        "locations": [
+            "Hawkwood the Deserter"
+        ]
+    },
+    {
+        "name": "Dragonscale Ring",
+        "effect": "Reduces damage from backstabs",
+        "weight": 1.1,
+        "locations": [
+            "Consumed King's Garden"
+        ]
+    },
+    {
+        "name": "Horsehoof Ring",
+        "effect": "Boosts kick effect",
+        "weight": 0.6,
+        "locations": [
+            "Unbreakable Patches"
+        ]
+    },
+    {
+        "name": "Wood Grain Ring",
+        "effect": "Slows equipment degradation",
+        "weight": 0.5,
+        "locations": [
+            "Shrine Handmaid",
+            "Consumed King's Garden",
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "name": "Flynn's Ring",
+        "effect": "Lowering equip load increases attack",
+        "weight": 0.9,
+        "locations": [
+            "Undead Settlement"
+        ]
+    },
+    {
+        "name": "Magic Clutch Ring",
+        "effect": "Increases magic attack but compromises damage absorption",
+        "weight": 0.8,
+        "locations": [
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "name": "Lightning Clutch Ring",
+        "effect": "Increases lightning attack but compromises damage absorption",
+        "weight": 0.8,
+        "locations": [
+            "Archdragon Peak"
+        ]
+    },
+    {
+        "name": "Fire Clutch Ring",
+        "effect": "Increases Fire attack but compromises damage absorption",
+        "weight": 0.8,
+        "locations": [
+            "Undead Settlement"
+        ]
+    },
+    {
+        "name": "Dark Clutch Ring",
+        "effect": "Increases dark attack but compromises damage absorption",
+        "weight": 0.8,
+        "locations": [
+            "Profaned Capital"
+        ]
+    },
+    {
+        "name": "Red Tearstone Ring",
+        "effect": "Boosts attack when HP is low",
+        "weight": 1.4,
+        "locations": [
+            "Lothric Castle"
+        ]
+    },
+    {
+        "name": "Blue Tearstone Ring",
+        "effect": "Increases damage absorption when HP is low",
+        "weight": 1.1,
+        "locations": [
+            "Greirat of the Undead Settlement"
+        ]
+    },
+    {
+        "name": "Lloyd's Sword Ring",
+        "effect": "Boosts attacks when HP is full",
+        "weight": 0.9,
+        "locations": [
+            "Cathedral of the Deep"
+        ]
+    },
+    {
+        "name": "Lloyd's Shield Ring",
+        "effect": "Boosts damage absorption when HP is full",
+        "weight": 0.9,
+        "locations": [
+            "Shrine Handmaid"
+        ]
+    },
+    {
+        "name": "Carthus Milkring",
+        "effect": "Slightly boosts dexterity and obscures rolling",
+        "weight": 0.8,
+        "locations": [
+            "Catacombs of Carthus"
+        ]
+    },
+    {
+        "name": "Carthus Bloodring",
+        "effect": "Boosts rolling invincibility, at the cost of defense",
+        "weight": 0.8,
+        "locations": [
+            "Catacombs of Carthus"
+        ]
+    },
+    {
+        "name": "Pontiff's Right Eye",
+        "effect": "Boosts attacks, as long attacking persists",
+        "weight": 1.4,
+        "locations": [
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "name": "Pontiff's Left Eye",
+        "effect": "Recovers HP with successive attacks",
+        "weight": 0.9,
+        "locations": [
+            "Soul of Boreal Valley Vordt"
+        ]
+    },
+    {
+        "name": "Aldrich's Ruby",
+        "effect": "Recovers HP from critical attacks",
+        "weight": 0.8,
+        "locations": [
+            "Anor Londo"
+        ]
+    },
+    {
+        "name": "Aldrich's Sapphire",
+        "effect": "Recovers FP from critical attacks",
+        "weight": 0.8,
+        "locations": [
+            "Cathedral of the Deep"
+        ]
+    },
+    {
+        "name": "Silvercat Ring",
+        "effect": "Prevents damage from falling",
+        "weight": 0.6,
+        "locations": [
+            "Sirris of the Sunless Realms"
+        ]
+    },
+    {
+        "name": "Slumbering Dragoncrest Ring",
+        "effect": "Masks the sounds of its wearer",
+        "weight": 0.7,
+        "locations": [
+            "Orbeck of Vinheim"
+        ]
+    },
+    {
+        "name": "Obscuring Ring",
+        "effect": "Obscures wearer while far away",
+        "weight": 0.9,
+        "locations": [
+            "Rosaria's Fingers"
+        ]
+    },
+    {
+        "name": "Untrue Dark Ring",
+        "effect": "Retain human appearance while hollow",
+        "weight": 0.7,
+        "locations": [
+            "Yuria of Londor"
+        ]
+    },
+    {
+        "name": "Untrue White Ring",
+        "effect": "Take the appearance of a phantom",
+        "weight": 0.7,
+        "locations": [
+            "Yuria of Londor"
+        ]
+    },
+    {
+        "name": "Reversal Ring",
+        "effect": "Males can perform female actions and vice versa",
+        "weight": 0.5,
+        "locations": [
+            "Anor Londo"
+        ]
+    },
+    {
+        "name": "Skull Ring",
+        "effect": "Easier to be detected by enemies",
+        "weight": 0.6,
+        "locations": [
+            "Ludleth of Courland"
+        ]
+    },
+    {
+        "name": "Calamity Ring",
+        "effect": "Receive double damage",
+        "weight": 0.8,
+        "locations": [
+            "Archdragon Peak"
+        ]
+    },
+    {
+        "name": "Ring of Sacrifice",
+        "effect": "Lose nothing upon death, but ring breaks",
+        "weight": 1.0,
+        "locations": [
+            "High Wall of Lothric",
+            "Cathedral of the Deep",
+            "Yuria of Londor"
+        ]
+    }
+]

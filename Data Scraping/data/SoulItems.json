@@ -1,0 +1,351 @@
+[
+    {
+        "item": {
+            "name": "Soul of Boreal Valley Vordt"
+        },
+        "transpositions": [
+            {
+                "name": "Vordt's Great Hammer",
+                "cost": 0
+            },
+            {
+                "name": "Pontiff's Left Eye",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Rotted Greatwood"
+        },
+        "transpositions": [
+            {
+                "name": "Hollowslayer Greatsword",
+                "cost": 1000
+            },
+            {
+                "name": "Arstor's Spear",
+                "cost": 1000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of a Crystal Sage"
+        },
+        "transpositions": [
+            {
+                "name": "Crystal Hail",
+                "cost": 1500
+            },
+            {
+                "name": "Crystal Sage's Rapier",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Deacons of the Deep"
+        },
+        "transpositions": [
+            {
+                "name": "Deep Soul",
+                "cost": 0
+            },
+            {
+                "name": "Cleric's Candlestick",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of a Stray Demon"
+        },
+        "transpositions": [
+            {
+                "name": "Boulder Heave",
+                "cost": 0
+            },
+            {
+                "name": "Havel's Ring",
+                "cost": 5000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Blood of the Wolf"
+        },
+        "transpositions": [
+            {
+                "name": "Wolf Knight's Greatsword",
+                "cost": 10000
+            },
+            {
+                "name": "Farron Greatsword",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of High Lord Wolnir"
+        },
+        "transpositions": [
+            {
+                "name": "Black Serpent",
+                "cost": 0
+            },
+            {
+                "name": "Wolnir's Holy Sword",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of a Demon"
+        },
+        "transpositions": [
+            {
+                "name": "Demon's Greataxe",
+                "cost": 0
+            },
+            {
+                "name": "Demon's Fist",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Old Demon King"
+        },
+        "transpositions": [
+            {
+                "name": "Chaos Bed Vestiges",
+                "cost": 5000
+            },
+            {
+                "name": "Old King's Great Hammer",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Pontiff Sulyvahn"
+        },
+        "transpositions": [
+            {
+                "name": "Greatsword of Judgment",
+                "cost": 3000
+            },
+            {
+                "name": "Profaned Greatsword",
+                "cost": 3000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Yhorm the Giant"
+        },
+        "transpositions": [
+            {
+                "name": "Yhorm's Great Machete",
+                "cost": 0
+            },
+            {
+                "name": "Yhorm's Greatshield",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Aldrich"
+        },
+        "transpositions": [
+            {
+                "name": "Lifehunt Scythe",
+                "cost": 5000
+            },
+            {
+                "name": "Darkmoon Longbow",
+                "cost": 5000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Dancer"
+        },
+        "transpositions": [
+            {
+                "name": "Soothing Sunlight",
+                "cost": 5000
+            },
+            {
+                "name": "Dancer's Enchanted Swords",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Consumed Oceiros"
+        },
+        "transpositions": [
+            {
+                "name": "White Dragon Breath",
+                "cost": 10000
+            },
+            {
+                "name": "Moonlight Greatsword",
+                "cost": 10000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Champion Gundyr"
+        },
+        "transpositions": [
+            {
+                "name": "Gundyr's Halberd",
+                "cost": 0
+            },
+            {
+                "name": "Prisoner's Chain",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Dragonslayer Armour"
+        },
+        "transpositions": [
+            {
+                "name": "Dragonslayer Greataxe",
+                "cost": 0
+            },
+            {
+                "name": "Dragonslayer Greatshield",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Twin Princes"
+        },
+        "transpositions": [
+            {
+                "name": "Lothric's Holy Sword",
+                "cost": 5000
+            },
+            {
+                "name": "Lorian's Greatsword",
+                "cost": 0
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Nameless King"
+        },
+        "transpositions": [
+            {
+                "name": "Lightning Storm",
+                "cost": 5000
+            },
+            {
+                "name": "Storm Curved Sword",
+                "cost": 5000
+            },
+            {
+                "name": "Dragonslayer Swordspear",
+                "cost": 10000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Lords"
+        },
+        "transpositions": [
+            {
+                "name": "Sunlight Spear",
+                "cost": 10000
+            },
+            {
+                "name": "Firelink Greatsword",
+                "cost": 15000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Sister Friede"
+        },
+        "transpositions": [
+            {
+                "name": "Friede's Great Scythe",
+                "cost": 10000
+            },
+            {
+                "name": "Rose of Ariandel",
+                "cost": 3000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of the Demon Prince"
+        },
+        "transpositions": [
+            {
+                "name": "Seething Chaos",
+                "cost": 10000
+            },
+            {
+                "name": "Demon's Scar",
+                "cost": 10000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Darkeater Midir"
+        },
+        "transpositions": [
+            {
+                "name": "Old Moonlight",
+                "cost": 15000
+            },
+            {
+                "name": "Frayed Blade",
+                "cost": 5000
+            }
+        ]
+    },
+    {
+        "item": {
+            "name": "Soul of Slave Knight Gael"
+        },
+        "transpositions": [
+            {
+                "name": "Gael's Greatsword",
+                "cost": 20000
+            },
+            {
+                "name": "Repeating Crossbow",
+                "cost": 5000
+            }
+        ]
+    }
+]
