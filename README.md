@@ -6,22 +6,22 @@ This project was created by (Author): Dama Dhananjaya Daliman (18222047)
 
 # Requirements
 Python: v12 or newer, with libraries:
-    - os
-    - shutil
-    - selenium
-    - undetected_chromedriver (for bypassing cloudflare)
-    - datetime
-    - time
-    - json
-    - pandas
-    - psycopg2 (for python to interact with PostgreSQL)
+- os
+- shutil
+- selenium
+- undetected_chromedriver (for bypassing cloudflare)
+- datetime
+- time
+- json
+- pandas
+- psycopg2 (for python to interact with PostgreSQL)
 PostgreSQL: v15 or newer
 
 # How to Use Scraper
 Clone this repository and open the root directory from your preferred IDE.
 
 Run scraper.py in Data Scraping/src. You should see something like this when you run it:
-![scraper](Data Scraping\screenshot\running (1).png "scraper")
+![Data Scraping\screenshot\running (1).png](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/running%20(1).png)
 
 and then voila! The results should be saved into Data Scraping/data
 
@@ -199,12 +199,12 @@ These relations or tables were a direct result of decomposing the ERD. The steps
 # Documentation
 
 ## Scraping
-![scrapersource](Data Scraping\screenshot\sourcecode.png "scrapersource")
-![scraper](Data Scraping\screenshot\running (1).png "scraper")
+![scrapersource](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/sourcecode.png)
+![scraping](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/running%20(1).png)
 
 ## Querying
-![Query1](Data Storing\screenshot\querying (1).png "query1")
-![Query2](Data Storing\screenshot\querying (2).png "query2")
+![Query1](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/querying%20(1).png)
+![Query2](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/querying%20(2).png)
 
 # References
 Libraries used:
