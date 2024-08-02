@@ -40,65 +40,65 @@ The output of the scrapper run is six json files that will be stored in the "Dat
 ## JSON Structure
 
 The ingredients_[timestamp].json file contains a list of dictionaries with attributes: <br>
-> - ingredient_id: the unique code of the ingredient taken from the link on the web; <br>
-> ingredient_name: the name of the ingredient in English; <br>
-> season_start: harvest start month; <br>
-> season_end: month of harvest end; <br>
-> calories: total calories in kcal; <br>
-> total_fat: total fat in grams; <br>
-> saturated_fat: total saturated fat in grams; <br>
-> cholesterol: total cholesterol in milligrams; <br>
-> protein: total protein in grams; <br>
-> carbohydrate: total carbohydrate in grams; <br>
-> fiber: total fiber in grams; <br>
-> sugar: total sugar in grams; <br>
-> sodium: sodium level in milligrams. <br><br>
+- ingredient_id: the unique code of the ingredient taken from the link on the web; <br>
+- ingredient_name: the name of the ingredient in English; <br>
+- season_start: harvest start month; <br>
+- season_end: month of harvest end; <br>
+- calories: total calories in kcal; <br>
+- total_fat: total fat in grams; <br>
+- saturated_fat: total saturated fat in grams; <br>
+- cholesterol: total cholesterol in milligrams; <br>
+- protein: total protein in grams; <br>
+- carbohydrate: total carbohydrate in grams; <br>
+- fiber: total fiber in grams; <br>
+- sugar: total sugar in grams; <br>
+- sodium: sodium level in milligrams. <br><br>
 
 The file madeof_[timestamp].json contains a list of dictionaries with attributes:
-> food_id: the unique code of the recipe retrieved from the link on the web; <br>
-> ingredient_id: the unique code of an ingredient retrieved from a link on the web. <br><br>
+- food_id: the unique code of the recipe retrieved from the link on the web; <br>
+- ingredient_id: the unique code of an ingredient retrieved from a link on the web. <br><br>
 
 The recipes_[timestamp].json file contains a list of dictionaries with attributes:
-> food_id: the unique code of the recipe retrieved from the link on the web; <br>
-> creator_id: unique code of the recipe author user retrieved from a link on the web; <br>
-> food_name: the name of the food in English; <br>
-> serving_size: the serving size of one serving in grams; <br>
-> calories: total calories in kcal; <br>
-> total_fat: total fat in grams; <br>
-> saturated_fat: total saturated fat in grams; <br>
-> cholesterol: total cholesterol in milligrams; <br>
-> protein: total protein in grams; <br>
-> carbohydrate: total carbohydrate in grams; <br>
-> fiber: total fiber in grams; <br>
-> sugar: total sugar in grams; <br>
-> sodium: sodium level in milligrams. <br><br>
+- food_id: the unique code of the recipe retrieved from the link on the web; <br>
+- creator_id: unique code of the recipe author user retrieved from a link on the web; <br>
+- food_name: the name of the food in English; <br>
+- serving_size: the serving size of one serving in grams; <br>
+- calories: total calories in kcal; <br>
+- total_fat: total fat in grams; <br>
+- saturated_fat: total saturated fat in grams; <br>
+- cholesterol: total cholesterol in milligrams; <br>
+- protein: total protein in grams; <br>
+- carbohydrate: total carbohydrate in grams; <br>
+- fiber: total fiber in grams; <br>
+- sugar: total sugar in grams; <br>
+- sodium: sodium level in milligrams. <br><br>
 
 The file reviews_[timestamp].json contains a list of dictionaries with attributes:
-> review_id: a unique code generated with the format review_[food_id]_[increment integer]; <br>
-> food_id: the unique code of the recipe being reviewed; <br>
-> user_id: the unique code of the user who posted the review; <br>
-> content: the review posted by the user; <br>
-> rating: the user's rating of the reviewed recipe; <br>
-> likes: total accounts that have liked the review. <br><br>
+- review_id: a unique code generated with the format review_[food_id]_[increment integer]; <br>
+- food_id: the unique code of the recipe being reviewed; <br>
+- user_id: the unique code of the user who posted the review; <br>
+- content: the review posted by the user; <br>
+- rating: the user's rating of the reviewed recipe; <br>
+- likes: total accounts that have liked the review. <br><br>
 
 The file tweaks_and_questions_[timestamp].json contains a list of dictionaries with attributes:
-> tweak_and_question_id unique code generated with the format [tweak/question]_[food_id]_[increment integer]; <br>
-> food_id: the unique code of the recipe being tweaked/questioned; <br>
-> user_id: the unique code of the user who provided the tweak/question; <br>
-> Content: the tweak/question posted by the user; <br>
-> Likes: total accounts that liked the tweak/question; <br><br>
+- tweak_and_question_id unique code generated with the format [tweak/question]_[food_id]_[increment integer]; <br>
+- food_id: the unique code of the recipe being tweaked/questioned; <br>
+- user_id: the unique code of the user who provided the tweak/question; <br>
+- Content: the tweak/question posted by the user; <br>
+- Likes: total accounts that liked the tweak/question; <br><br>
 
 The users_[timestamp].json file contains a list of dictionaries with attributes:
-> user_id: unique code of the user taken from a link on the web; <br>
-> name: the name of the user; <br>
-> username: the unique name used by the user; <br>
-> user_rating_avg: the user's rating based on the accumulation of recipes written on a scale of 0 to 5 (in this code, the user_rating_avg data is taken directly from the web display); <br>
-> city: the city where the user lives; <br>
-> state: the user's country of residence; <br>
-> joined_month: the month the user joined; <br>
-> joined_year: the year the user joined; <br>
-> followers: the total followers of the user (in this code, the followers data is taken directly from the web interface); <br>
-> followers: total accounts followed by the user (in this code, the following data is taken directly from the web interface). <br><br>
+- user_id: unique code of the user taken from a link on the web; <br>
+- name: the name of the user; <br>
+- username: the unique name used by the user; <br>
+- user_rating_avg: the user's rating based on the accumulation of recipes written on a scale of 0 to 5 (in this code, the user_rating_avg data is taken directly from the web display); <br>
+- city: the city where the user lives; <br>
+- state: the user's country of residence; <br>
+- joined_month: the month the user joined; <br>
+- joined_year: the year the user joined; <br>
+- followers: the total followers of the user (in this code, the followers data is taken directly from the web interface); <br>
+- followers: total accounts followed by the user (in this code, the following data is taken directly from the web interface). <br><br>
 
 
 ## Acknowledgements
