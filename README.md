@@ -185,11 +185,17 @@ Saat ini, fitur automated scraping yang saya rancang baru bisa <strong> bekerja 
 <p align="justify">
 Fitur ini dirancang untuk melakukan scraping setiap 24 jam guna mengambil data perubahan harga harian. Kode yang digunakan pada fitur ini dapat ditemukan pada <code>Data Scraping/src/app</code></p>
 
-**Data <m> batch </m> pertama**
+**Data <m> Batch </m> Pertama**
 ![Batch 1](Data%20Storing/screenshot/automated1.png)
 
-**Data <m> batch </m> kedua**
+**Data <m> Batch </m> Kedua**
 ![Batch 2](Data%20Storing/screenshot/automated2.png)
+
+**Data Companies Sebelum Automated Scraping**
+![Companies1](Data%20Storing/screenshot/count_companies.png)
+
+**Data Companies Setelah Automated Scraping**
+![Companies2](Data%20Storing/screenshot/count_companies2.png)
 
 ## Referensi
   - [selenium](https://selenium-python.readthedocs.io/)
