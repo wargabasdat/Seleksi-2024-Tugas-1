@@ -23,7 +23,7 @@ Run the scrapper with the command
 python3 Scrap.py
 ```
 
-Output dari scraper ini adalah json file yang berisi data rank, nama film, tahun, rating, artis yang memainkan film tersebut, serta sutradara dari film tersebut. Untuk memudahkan pencarian, saya hanya menggunakan 1 nama orang saja di tabel artis dan sutradara. Saya juga menggunakan converter dari JSON ke NDJSON agar format json dapat dimasukkan ke dalam PostgreSQL.
+Output dari scraper ini adalah json file yang berisi data rank, nama film, tahun, rating, artis yang memainkan film tersebut, serta sutradara dari film tersebut. Untuk memudahkan pencarian, saya hanya menggunakan 1 nama orang saja di tabel artis dan sutradara. Saya juga menggunakan converter dari JSON ke NDJSON agar format json dapat dimasukkan ke dalam PostgreSQL. Hasil dari data scraping yang dibuat akan ditampilkan di dalam tabel Disney_Dashboard_Rating. 
 
 ## STRUKTUR ERD DAN DIAGRAM RELASIONAL DBMS
 Pada ERD, terdiri atas 9 entitas yang menggambarkan data tersebut: <br>
@@ -42,6 +42,8 @@ ERD tersebut dibuat dengan asumsi : <br>
 - User yang terdapat di dalam RottenTomatoes, dibagi menjadi 2, yakni criticus dan audience. Criticus merupakan orang yang sudah lebih profesional dalam melakukan review, dan dapat menentukan nilai Tomatometer. Audience merupakan orang biasa yang dapat memberikan review berupa nilai antara 1 sampai 5. Setiap kali melakukan review dan memberikan score, review dan score akan terdapat suatu rating_id yang unik. Tabel rating bisa terdiri atas rating audience maupun criticus (sama seperti di Rottentomatoes). <br>
 - Data yang dihasilkan dari proses scraping ditaruh pada tabel Disney_Dashboard_Rating, yang sudah berisi gabungan dari ranking film tersebut, nama film, score Tomatometer, tahun rilis film tersebut, sutradara, dan aktor yang memainkan film tersebut. Untuk director dan artist yang memainkan hanya terdapat 1 nama untuk memudahkan pencarian. <br>
 - Setiap criticus dapat menentukan apakah film tersebut fresh / rotten, yang merupakan isi dari tomato_score. Penentuan nilai tomatometer untuk setiap film ditentukan berdasarkan total kritik, dan sebagainya. <br>
+- Disebabkan dashboard tersebut cukup sering diakses, maka saya membuat relasi sendiri (seperti materialized view) yang datanya diambil dari hasil proses scraping yang dilakukan. Hal tersebut disebabkan karena untuk melakukan proses query satu per satu tidaklah efisien dan mahal, sehingga ada baiknya untuk menambahkan relasi sendiri yang dapat memuat data dashboard yang dihasilkan dari proses scraping. <br>
+
 
 Pemetaan dari ERD ke diagram relasional menghasilkan 16 tabel / relasi, yakni: <br>
 - Movies_Disneyplus : moviedp_id, moviedp_name, age_rating, release_year, season, synopsis, duration, moviert_id <br>
