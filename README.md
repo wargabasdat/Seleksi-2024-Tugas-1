@@ -175,6 +175,9 @@ Berikut adalah *6 instance* data JSON yang dihasilkan:
 </div>
 
 ### Relational Diagram
+<div align="center">
+  <img src="Data Storing/design/Diagram Relational.png" width="400"/>
+</div>
 
 ### Convertion Explanation
 #### __1. Pemetaan *entity* menjadi relasi__
@@ -193,7 +196,7 @@ a) *Strong Entity*
 
 Cara translasi nya adalah dengan membawa PK dari salah satu sisi sebagai FK di sisi lain yang paling sesuai (bebas)
 <div align="center">
-  <img src="Data Storing/Design/One-To-One.png" width="400"/>
+  <img src="Data Storing/Design/one-to-one.png" width="400"/>
 </div>
 
 - *Transaksi* = (__id_tran__, jenis_tran, id_ker)
