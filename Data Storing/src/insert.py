@@ -11,7 +11,7 @@ connection = pymysql.connect(
     host='localhost',
     user='root',
     password='',
-    database='seleksi2'
+    database='dota2'
 )
 
 with connection.cursor() as cursor:
