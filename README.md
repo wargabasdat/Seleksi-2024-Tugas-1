@@ -170,7 +170,9 @@ Berikut adalah *6 instance* data JSON yang dihasilkan:
 
 ## Database Structure
 ### Entity Relationship Diagram
-
+<div align="center">
+  <img src="Data Storing/Design/One-To-One.png" width="400"/>
+</div>
 
 ### Relational Diagram
 
@@ -191,7 +193,7 @@ a) *Strong Entity*
 
 Cara translasi nya adalah dengan membawa PK dari salah satu sisi sebagai FK di sisi lain yang paling sesuai (bebas)
 <div align="center">
-  <img src="Data Storing/Design/One-To-One.jpg" width="400"/>
+  <img src="Data Storing/Design/One-To-One.png" width="400"/>
 </div>
 
 - *Transaksi* = (__id_tran__, jenis_tran, id_ker)
@@ -203,7 +205,7 @@ b) *Weak Entity*
 
 *Weak Entity* adalah entitas yang tidak bisa berdiri sendiri dan bergantung pada entitas lain, serta memiliki __*diskriminator*__ (contohnya adalah atribut "Urutan" pada tabel "Orders").
 <div align="center">
-  <img src="Data Storing/Design/Weak-Entity.jpg" width="400"/>
+  <img src="Data Storing/Design/Weak-Entity.png" width="400"/>
 </div>
 
 
@@ -221,7 +223,7 @@ a) Pemetaan `many-to-many relationship` menjadi relasi
 
 Cara translasi nya adalah dengan membuat relationship antara kedua tabel menjadi entitas baru yang mengandung PK dari kedua belah sisi
 <div align="center">
-  <img src="Data Storing/Design/many-to-many.jpg" width="400"/>
+  <img src="Data Storing/Design/many-to-many.png" width="400"/>
 </div>
 
 - *Digunakan* = (__id_prod__, __nama_prom__)
@@ -235,7 +237,7 @@ b) Pemetaan *ternary relationship* menjadi relasi
 Relasi ternary melibatkan tiga entitas dan direpresentasikan dengan tabel yang mencakup ketiga entitas tersebut. Hubungan antara ketiga entitas tersebut akan dibuat menjadi entitas baru yang memiliki PK dari entitas denngan sisi many dan FK dari ketiga entitas.
 
 <div align="center">
-  <img src="Data Storing/Design/ternary.jpg" width="400"/>
+  <img src="Data Storing/Design/ternary.png" width="400"/>
 </div>
 
 - *Pesanan* = (__id_prod__, __id_ker__, id_pel)
@@ -250,7 +252,7 @@ FK:
 Specialization/generalization adalah konsep di mana entitas dapat dibagi menjadi sub-entitas yang lebih spesifik atau digabungkan menjadi entitas yang lebih umum.
 
 <div align="center">
-  <img src="Data Storing/Design/specialization.jpg" width="400"/>
+  <img src="Data Storing/Design/specialization.png" width="400"/>
 </div>
 
 - *Diskon_prod* = (__id_prod__, nama_prom, harga_disc)
@@ -261,7 +263,7 @@ Specialization/generalization adalah konsep di mana entitas dapat dibagi menjadi
 Cara translasi nya adalah dengan membawa PK dari sisi One sebagai FK di sisi Many
 
 <div align="center">
-  <img src="Data Storing/Design/one-to-many.jpg" width="400"/>
+  <img src="Data Storing/Design/one-to-many.png" width="400"/>
 </div>
 
 - *Normal_prod* = (__id_prod__)
@@ -279,7 +281,7 @@ __4. Pemetaan *composit attributes* menjadi relasi__
 Atribut multivalued adalah atribut yang dapat memiliki lebih dari satu nilai untuk satu entitas. Dalam database relasional, atribut ini biasanya dipecah menjadi tabel terpisah.
 
 <div align="center">
-  <img src="Data Storing/Design/composit.jpg" width="400"/>
+  <img src="Data Storing/Design/composit.png" width="400"/>
 </div>
 
 - *Alamat_pel* = (__id_pel__, __al_jalan__, __al_NoR__)
@@ -294,29 +296,29 @@ FK:
 
 Program akan dijalankan dengan menggunakan parameter link website, jumlah *click* yang menentukan banyaknya halaman website yang ingin diambil datanya, dan nama file output yang diinginkan.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_running.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_running.png" width="400"/>
 </div>
 
 Data id dan nama produk bisa didapatkan pada halaman pertama website. untuk mendapatkan informasi tambahan seperti perusahaan dan kategori produk maka kita harus melakukan *click* pada *card* produk yang ingin di lihat (__2 kali *click*__).
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_scraping_produk.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_scraping_produk.png" width="400"/>
 </div>
 
 Selanjutnya, untuk mengakses lebih banyak produk, kita harus menggunakan *button* '__berikutnya__'.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_process_produk.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_process_produk.png" width="400"/>
 </div>
 
 untuk data promo, setelah kita *click* promo tersebut, maka harus melakukan langkah yang sama dengan *scrapping* data produk __(3 kali *click*)__.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_scraping_potongan_info.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_scraping_potongan_info.png" width="400"/>
 </div>
 
 `Preprocessing Data`
 
 Selanjutnya, data yang didapatkan harus diberihkan agar bisa meng-ekstrak informasi yang dibutuhkan, seperti harga dalam bentuk integer, nama produk, perusahaan, dan kategori produk
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_data_preprocessing.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_data_preprocessing.png" width="400"/>
 </div>
 
 `Schema Tuning - Vertical Splitting`
@@ -325,7 +327,7 @@ Di *website* Borma terdapat produk yang memiliki diskon dan yang tidak memiliki 
 
 Selain itu, di *website* Borma juga terdapat 2 jenis diskon, yaitu normal diskon yang bisa digunakan pada seluruh pembelian dan potongan diskon yang hanya bisa digunakan untuk produk tertentu. Karena normal diskon memiliki lebih banyak atribut daripada potonagn diskon, maka dengan alasan yang sama dengan sebelumnya kedua jenis diskon ini dipisah pada 2 tabel yang berbeda yaitu __potongan_prom__ dan __normal_prom__.
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_scraping_promo_normal.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_scraping_promo_normal.png" width="400"/>
 </div>
 
 `Cleaning Redundancy Tuple`
@@ -333,24 +335,24 @@ Selain itu, di *website* Borma juga terdapat 2 jenis diskon, yaitu normal diskon
 Ada beberapa produk yang berulang pada data yang saya *scrapping* oleh karena itu saya membersihkannya dengan 2 cara,
 1. membersihkan *redudancy* di tabel yang sama
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_data_cleaning_1.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_data_cleaning_1.png" width="400"/>
 </div>
 
 2. Memastikan foreign key constraint antara __diskon_prod__ dengan __prod__
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_data_cleaning_2.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_data_cleaning_2.png" width="400"/>
 </div>
 
 ### Data Storing
 
 Pada database borma_dago, saya melakukan *create table* dengan menggunakan psycopg2 sebagai berikut
 <div align="center">
-  <img src="Data Scraping/screenshot/SS_create_table.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/SS_create_table.png" width="400"/>
 </div>
 
 informasi produk diskon didapatkan melalui halaman promo. Ketika proses *scrapping*, informasi produk tersebut justru terdapat di file __potongan_promo.json__ padahal seharusnya ada di __produk.json__. Cara saya menyiasatinya adalah ketika melalukan *eksport* ke __SQL__ sayang memasukkan beberapa atribut pada dari __potongan_promo.json__ ke __produk.json__
 <div align="center">
-  <img src="Data Scraping/screenshot/ss_storing.jpg" width="400"/>
+  <img src="Data Scraping/screenshot/ss_storing.png" width="400"/>
 </div>
 
 ## Data Visualization (BONUS)
@@ -359,13 +361,13 @@ Setelah berhasil mengumpulkan data melalui web scraping, langkah selanjutnya ada
 
 Berikut adalah hasil visualisasi yang didapatkan untuk memenuhi tujuan awal *scraping* website ini yaitu untuk membandingkan hubungan antara promo yang ditawarkan dengan jumlah penjualan produk.
 <div align="center">
-  <img src="Data Visualization/Visualisasi/1.jpg" width="400"/>
+  <img src="Data Visualization/Visualisasi/1.png" width="400"/>
 </div>
 
 Data yang ada juga memberikan kesimpulan perusahaan mana saja yang paling banyak memberikan diskon, produk paling variatif, dan penjualan produk yang paling tinggi.
 
 <div align="center">
-  <img src="Data Visualization/Visualisasi/2.jpg" width="400"/>
+  <img src="Data Visualization/Visualisasi/2.png" width="400"/>
 </div>
 
 
