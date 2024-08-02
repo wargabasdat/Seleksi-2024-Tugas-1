@@ -1,0 +1,9 @@
+*.txt
+insert_data_*.sql
+food_2*.sql
+__pycache__
+template_init.sql
+sql_to_csv.py
+convert_json_to_sql.py
+auto_scheduler.py
+*.bat

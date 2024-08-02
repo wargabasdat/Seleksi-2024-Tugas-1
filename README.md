@@ -1,75 +1,173 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2024 <br>
-  ETL Project
-  <br>
-  <br>
-</h1>
+# Stage 2 Selection of 2024 Database Assistant
+### ETL Project: Data Scraping, Database Modeling, and Data Storing
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
+## Table of Contents
+* [Topic and DBMS](#topic-and-dbms)
+* [How to Run the Scrapper](#how-to-run-the-scrapper)
+* [JSON Structure](#json-structure)
+* [Explanation of ERD and Relational Diagram in RDBMS](#explanation-of-erd-and-relational-diagram-in-rdbms)
+* [How to Convert ERD into Relational Diagram](#how-to-convert-erd-into-relational-diagram)
+* [References](#references)
+* [Libraries Used](#libraries-used)
+* [Acknowledgements](#acknowledgements)
+
+
+## Topic and DBMS
+Food is one of the most crucial things in daily life. For this reason, food is also one of the businesses that many people are involved in. Along with the times, many people are turning to healthier foods, one of which is Mediterranean diet foods. This field will be a pretty good prospect in the FNB field. So, in this database laboratory assistant selection task, I chose a topic about “Mediterranean Food Recipe” taken from the food.com web.  The data taken is data about food recipes, users, ingredients, and posts (questions, reviews, and tweaks). The database management system is used to manage the community website. <br>
+
+
+## How to Run the Scrapper
+
+Clone this repository with the command 
+```shell
+Git clone https://github.com/evelynnn04/Seleksi-2024-Tugas-1.git
+```
+Enter the src folder with the command 
+```shell
+cd Data Scraping/src
+```
+Run the scrapper with the command 
+```shell
+scrapper.py 
+```
+The output of the scrapper run is six json files that will be stored in the "Data Scraping/data" folder: <br>
+- Ingredients_[timestamp].json <br>
+- Madeof_[timestamp].json <br>
+- Recipes_[timestamp].json <br>
+- Reviews_[timestamp].json <br>
+- Tweaksandquestions_[timestamp].json <br>
+- Users_[timestamp].json <br>
+
+To generate sql files, json files can be processed with the pandas library. The result of querying "insert into" is then merged with the "create table" template to generate a useful sql file. For template and converter code, feel free to contact me!
+
+
+## JSON Structure
+
+The ingredients_[timestamp].json file contains a list of dictionaries with attributes: <br>
+- ingredient_id: the unique code of the ingredient taken from the link on the web; <br>
+- ingredient_name: the name of the ingredient in English; <br>
+- season_start: harvest start month; <br>
+- season_end: month of harvest end; <br>
+- calories: total calories in kcal; <br>
+- total_fat: total fat in grams; <br>
+- saturated_fat: total saturated fat in grams; <br>
+- cholesterol: total cholesterol in milligrams; <br>
+- protein: total protein in grams; <br>
+- carbohydrate: total carbohydrate in grams; <br>
+- fiber: total fiber in grams; <br>
+- sugar: total sugar in grams; <br>
+- sodium: sodium level in milligrams. <br><br>
+
+The file madeof_[timestamp].json contains a list of dictionaries with attributes:
+- food_id: the unique code of the recipe retrieved from the link on the web; <br>
+- ingredient_id: the unique code of an ingredient retrieved from a link on the web. <br><br>
+
+The recipes_[timestamp].json file contains a list of dictionaries with attributes:
+- food_id: the unique code of the recipe retrieved from the link on the web; <br>
+- creator_id: unique code of the recipe author user retrieved from a link on the web; <br>
+- food_name: the name of the food in English; <br>
+- serving_size: the serving size of one serving in grams; <br>
+- calories: total calories in kcal; <br>
+- total_fat: total fat in grams; <br>
+- saturated_fat: total saturated fat in grams; <br>
+- cholesterol: total cholesterol in milligrams; <br>
+- protein: total protein in grams; <br>
+- carbohydrate: total carbohydrate in grams; <br>
+- fiber: total fiber in grams; <br>
+- sugar: total sugar in grams; <br>
+- sodium: sodium level in milligrams. <br><br>
+
+The file reviews_[timestamp].json contains a list of dictionaries with attributes:
+- review_id: a unique code generated with the format review_[food_id]_[increment integer]; <br>
+- food_id: the unique code of the recipe being reviewed; <br>
+- user_id: the unique code of the user who posted the review; <br>
+- content: the review posted by the user; <br>
+- rating: the user's rating of the reviewed recipe; <br>
+- likes: total accounts that have liked the review. <br><br>
+
+The file tweaks_and_questions_[timestamp].json contains a list of dictionaries with attributes:
+- tweak_and_question_id unique code generated with the format [tweak/question]_[food_id]_[increment integer]; <br>
+- food_id: the unique code of the recipe being tweaked/questioned; <br>
+- user_id: the unique code of the user who provided the tweak/question; <br>
+- Content: the tweak/question posted by the user; <br>
+- Likes: total accounts that liked the tweak/question; <br><br>
+
+The users_[timestamp].json file contains a list of dictionaries with attributes:
+- user_id: unique code of the user taken from a link on the web; <br>
+- name: the name of the user; <br>
+- username: the unique name used by the user; <br>
+- user_rating_avg: the user's rating based on the accumulation of recipes written on a scale of 0 to 5 (in this code, the user_rating_avg data is taken directly from the web display); <br>
+- city: the city where the user lives; <br>
+- state: the user's country of residence; <br>
+- joined_month: the month the user joined; <br>
+- joined_year: the year the user joined; <br>
+- followers: the total followers of the user (in this code, the followers data is taken directly from the web interface); <br>
+- followers: total accounts followed by the user (in this code, the following data is taken directly from the web interface). <br><br>
+
+
+## Explanation of ERD and Relational Diagram in RDBMS 
+
+### ERD
+There are 5 entities:
+- users: user_id, name, username, user_rating_avg, city, state, joined_year, joined_month, followers, following. <br>
+- ingredients: ingredient_id, ingredient_name, season_start, season_end, calories, total_fat, saturated_fat, cholesterol, protein, carbohydrate, fiber, sugar, sodium. <br>
+- recipes: food_id, food_name, serving_size, calories, total_fat, saturated_fat, cholesterol, protein, carbohydrate, fiber, sugar, sodium. <br>
+- posts: post_id, content, likes, type. <br>
+- reviews: rating. <br> <br>
+
+Additional notes:
+- The “reviews” entity is a disjoint result of the “posts” entity. <br>
+- The “posts” entity is a weak entity of the “recipes” entity. <br> <br>
+
+There are 4 relations:
+- write: a relation between “users” and “recipes” entities where one user can write more than one recipe but each recipe only has one author (one to many). <br>
+- posting: a relationship between the “posts” entity and “users” where one user can write more than one post but each post only has one author (one to many). <br>
+- posted: a relationship between “recipes” and “posts” entities where each post can be uniquely identified by its recipe and there will be no post if there is no recipe. <br>
+- madeof: a relationship between “recipes” and “ingredients” where each recipe can have more than one ingredient and each ingredient can be used in more than one recipe (many to many). <br> <br>
+
+### Relational Diagram
+There are 6 relations (tables):
+- users: user_id (varchar 255), name (varchar 255), username (varchar 255), user_rating_avg (float), city (varchar 255), state (varchar 255), joined_year (integer), joined_month (integer), followers (integer), following (integer); with the primary key "user_id" and does not have foreign keys. <br>
+- ingredient: ingredient_id (varchar 255), ingredient_name (varchar 255), beginning_season (varchar 255), end_season (varchar 255), calories (float), total_fat (float), saturated_fat (float), cholesterol (float), protein (float), carbohydrate (float), fiber (float), sugar (float), sodium (float); with primary key "ingredient_id" and no foreign keys. <br>
+- recipe: food_id (varchar 255), maker id (varchar 255), food_name (varchar 255), portion size (float), calories (float), total_fat (float), saturated_fat (float), cholesterol (float), protein (float), carbohydrate (float), fiber (float), sugar (float), sodium (float); with primary key "food_id" and foreign key "maker id" referring to "users. user_id". <br>
+- madeof: food_id (varchar 255), ingredient_id (varchar 255); with primary keys ("food_id", "ingredient_id") and foreign keys "food_id" referring to "recipes.food_id" and "ingredient_id" referring to "ingredients.ingredient_id". <br>
+- posts: post_id (varchar 255), food_id (varchar 255), user_id (varchar 255), content (text), likes (float), type (varchar 255); with primary keys ("post_id", "food_id") and foreign keys "food_id" referring to "recipes.food_id" and "user_id" referring to "users.user_id". <br>
+- reviews: post_id (varchar 255), food_id (varchar 255), rating (float); with primary key ("post_id", "food_id") and foreign keys "post_id", "food_id" referring to "posts.post_id" and "posts.food_id". <br> <br>
+
+
+## How to Convert ERD into Relational Diagram
+1. Transform a many to many relations into a new table which contain the primary keys of the two initial tables (for example in a “madeof” relation). <br>
+2. For one to many relations, insert the primary key from table “one” into table “many” (for example in the write relation, the primary key of the users table is inserted into the attribute in the recipes table). <br><br>
+
+
+## Libraries Used
+- selenium
+- requets
+- logging
+- datetime
+- json
+- re
+- pandas
+- os
+- apscheduler
+- sys
+
+## Documentation
+- ![Running Scrapper](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/running.png)
+- ![Scrapper Code](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/scrapper.png)
+- ![ERD](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/ERD.png)
+- ![Relational Diagram](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/relational_diagram.png)
+- ![Querying 1](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/Screenshot%202024-08-02%20191125.png)
+- ![Querying 2](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/Screenshot%202024-08-02%20191235.png)
+- ![Querying 3](https://github.com/evelynnn04/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/Screenshot%202024-08-02%20191251.png)
+
+
+## References
+- [The Scrapped Web](food.com).
+- [Selenium Documentation](https://selenium-python.readthedocs.io).
   
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
-
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
-
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
-
-
-
+## Acknowledgements
+- This project was based on [Seleksi Tahap 2 Asisten Basis Data 2024](https://docs.google.com/document/d/1Mi0OJNlCIp6ky1uDF-xzhgE-yos3b0ThI24Gvde70gM/edit).

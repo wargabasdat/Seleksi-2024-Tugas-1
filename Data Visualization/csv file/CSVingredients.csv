@@ -1,0 +1,116 @@
+ingredient_id,ingredient_name,season_start,season_end,calories,total_fat,saturated_fat,cholesterol,protein,carbohydrate,fiber,sugar,sodium
+151,TOMATO,January,December,79,2.7,0.5,0,2,13.2,1.7,0,459
+315,YOGURT,January,December,0,0,,0,0,0,0,0,
+349,TURMERIC,January,December,0,0,0,0,0,0,0,0,0
+983,CORIANDER,January,December,14,0.9,0,0,0.6,2.7,2.1,0,1
+324,CINNAMON,January,December,19,0.1,0,0,0.3,6.3,4.1,0.2,0
+512,CREMINI MUSHROOM,January,December,3,0.1,0,0,0.6,0.6,0.2,0.4,0
+332,"MUSTARD, PREPARED",January,December,0,0,,0,0,0,0,0,
+26,FETA CHEESE,January,December,396,31.9,22.4,133.5,21.3,6.1,0,6.1,1674
+49,TAHINI,January,December,85,7.2,1,0,2.7,3.9,1.4,0,11
+467,PARMESAN CHEESE,January,December,431,28.6,17.3,88,38.5,4.1,0,0.9,1529
+224,CHOCOLATE,January,December,145,15.2,9.4,0,3.7,8.7,4.8,0.3,6
+746,MOZZARELLA,January,December,159,0,0,20.3,35.8,4,2,1.7,839
+657,TORTILLA,January,December,52,0.7,0.1,0,1.4,10.7,1.5,0.2,10
+220,CHICKPEA,January,December,285,2.7,0.3,0,11.9,54.3,10.6,0,717
+112,MANZANILLA OLIVE,January,December,3,0.4,0.1,0,0,0.1,0.1,0,42
+363,GREEN ONION,January,December,32,0.2,0,0,1.8,7.3,2.6,2.3,16
+359,SALT,January,December,0,0,0,0,0,0,0,0,6976
+125,LEMON,January,December,0,0,,0,0,0,0,0,
+350,VANILLA,January,December,599,0.1,0,0,0.1,26.3,0,26.3,18
+106,POTATO,January,December,118,0.1,0,0,2.5,27.4,2.4,1.2,5
+525,CIDER VINEGAR,January,December,50,0,0,0,0,2.2,0,1,11
+292,ROMAINE LETTUCE,January,December,7,0.1,0,0,0.6,1.5,1,0.6,3
+680,VINEGAR,January,December,42,0,0,0,0,0.1,0,0.1,4
+498,BLACK OLIVE,January,December,5,0.5,0.1,0,0,0.3,0.1,0,32
+297,SHRIMP,January,December,60,0.9,0.1,107.1,11.6,0.8,0,0,481
+213,CARROT,January,December,25,0.1,0,0,0.6,5.8,1.7,2.9,42
+493,WINE VINEGAR,January,December,0,0,,0,0,0,0,0,
+110,MUSHROOM,January,December,2,0,0,0,0.3,0.3,0.1,0.2,0
+203,LAMB,January,December,230,15.3,6.3,81.6,21.7,0,0,0,61
+127,SHALLOT,January,December,7,0,0,0,0.2,1.7,0,0,1
+217,CHARD,January,December,9,0.1,0,0,0.9,1.8,0.8,0.5,102
+567,ZA'ATAR,January,December,0,0,,0,0,0,0,0,
+209,BULGUR WHEAT,January,December,478,1.9,0.3,0,17.2,106.2,25.6,0.6,23
+155,HONEY,January,December,1030,0,0,0,1,279.3,0.7,278.4,13
+352,BACON,January,December,0,0,0,0,0,0,0,0,0
+364,ZEST,January,December,5,0,0,0,0.1,1.5,0.6,0,0
+502,ONION POWDER,January,December,23,0.1,0,0,0.7,5.5,1,0.5,5
+310,TURKEY,January,December,0,0,0,0,0,0,0,0,0
+259,LETTUCE,January,December,1,0,0,0,0.2,0.3,0.2,0.1,0
+158,MACARONI,January,December,368,2.9,0.4,93.4,14.5,70.1,0,0,33
+317,BASIL,January,December,1,0,0,0,0.2,0.1,0.1,0,0
+307,SWEET POTATO,January,December,111,0.1,0,0,2,26.2,3.9,5.4,71
+301,SPINACH,January,December,78,1.3,0.2,0,9.7,12.3,7.5,1.4,268
+197,WHITE BEAN,January,December,672,1.7,0.4,0,47.2,121.7,30.7,4.3,32
+78,SALMON,January,December,107,3.7,0.7,39.1,17.4,0,0,0,63
+348,THYME,January,December,11,0.3,0.1,0,0.4,2.7,1.6,0.1,2
+334,OREGANO,January,December,2,0,0,0,0.1,0.7,0.4,0,0
+330,MINT,January,December,0,0,0,0,0,0,0,0,0
+515,BROWN RICE,January,December,684,5.4,1.1,0,14.7,142.9,6.5,1.6,12
+229,CORN,January,December,241,3,0.5,0,7.8,55.4,6,7.2,962
+507,RED PEPPER FLAKES,January,December,0,0,0,0,0,0,0,0,0
+338,PISTACHIO,January,December,3,0.3,0,0,0.1,0.2,0.1,0.1,0
+495,OLIVE OIL,January,December,1909,216,29.8,0,0,0,0,0,4
+171,PARSLEY,January,December,1,0,0,0,0.1,0.3,0.1,0,2
+139,SUGAR,January,December,774,0,0,0,0,200,0,199.6,2
+459,WATER,January,December,0,0,0,0,0,0,0,0,7
+142,EGG,January,December,71,4.8,1.6,186,6.3,0.4,0,0.2,71
+387,CANOLA OIL,January,December,1927,218,16.1,0,0,0,0,0,0
+148,ONION,January,December,44,0.1,0,0,1.2,10.3,1.9,4.7,4
+473,SOY SAUCE,January,December,10,0,0,0,1.9,1,0.1,0.3,1005
+258,LENTIL,January,December,271,0.8,0.1,0,19.9,46.3,23.5,1.6,4
+153,TOMATO SAUCE,January,December,58,0.4,0.1,0,3.2,13.2,3.7,10.4,1283
+314,WALNUT,January,December,772,73.8,4.2,0,30.1,12.4,8.5,1.4,2
+227,COD,January,December,82,0.7,0.1,43.2,17.8,0,0,0,1995
+448,CANNELLINI BEAN,January,December,215,1.5,0.4,0,13.4,37.1,13.6,4.7,757
+20,CUMIN,January,December,22,1.3,0.1,0,1.1,2.7,0.6,0.1,10
+38,BARLEY,January,December,704,2.3,0.5,0,19.8,155.4,31.2,1.6,18
+154,BROTH,January,December,30,1,0.5,0,5,0.2,0,0,1618
+216,CELERY,January,December,6,0.1,0,0,0.3,1.2,0.6,0.7,32
+163,BAY LEAF,January,December,1,0.1,0,0,0,0.4,0.2,0,0
+340,ROSEMARY,January,December,10,0.5,0.2,0,0.2,2.1,1.4,0,1
+39,PINE NUTS,January,December,0,0,0,0,0,0,0,0,0
+165,GARLIC,January,December,4,0,0,0,0.2,0.9,0.1,0,0
+164,DILL,January,December,0,0,0,0,0,0.1,0,0,0
+190,AVOCADO,January,December,321,29.5,4.3,0,4,17.1,13.5,1.3,14
+455,OLIVE,January,December,0,0,,0,0,0,0,0,
+188,ARTICHOKE,January,December,63,0.4,0.1,0,3.5,14.3,10.3,1.2,72
+6,BAKING POWDER,January,December,2,0,0,0,0,1.1,0,0,363
+185,ANCHOVY,January,December,8,0.4,0.1,3.4,1.2,0,0,0,146
+401,KIDNEY BEAN,January,December,215,1.5,0.4,0,13.4,37.1,13.6,4.7,757
+55,LEMON JUICE,January,December,53,0.6,0.1,0,0.9,16.8,0.7,6.1,2
+13,CAPER,January,December,1,0.1,0,0,0.2,0.4,0.3,0,254
+395,TUNA,January,December,0,0,0,0,0,0,0,0,0
+57,RAISIN,January,December,433,0.7,0.1,0,4.5,114.8,5.4,85.8,15
+128,EGGPLANT,January,December,109,0.9,0.2,0,4.6,26.1,15.6,10.8,9
+119,PLUM TOMATO,January,December,0,0,0,0,0,0,0,0,0
+335,PAPRIKA,January,December,19,0.9,0.1,0,1,3.7,2.4,0.7,4
+731,TOMATO PUREE,January,December,312,1.7,0.2,0,13.6,73.8,15.6,39.7,230
+286,RADISH,January,December,0,0,0,0,0,0.2,0.1,0.1,1
+283,PROSCIUTTO,January,December,0,0,,0,0,0,0,0,
+7,BAKING SODA,January,December,0,0,0,0,0,0,0,0,1258
+304,STRAWBERRY,January,December,3,0,0,0,0.1,0.9,0.2,0.6,0
+425,GHEE,January,December,112,12.7,7.9,32.8,0,0,0,0,0
+673,EDAMAME,January,December,376,17.4,2,0,33.2,28.3,10.8,0,38
+150,SWEET PEPPER,January,December,23,0.2,0.1,0,1,5.5,2,2.9,3
+320,CAYENNE PEPPER,January,December,16,0.9,0.2,0,0.6,3,1.4,0.5,1
+236,CURRANT,January,December,407,0.4,0,0,5.9,106.7,9.8,96.9,11
+337,PEPPER,January,December,5,0.1,0,0,0.2,1.5,0.6,0,0
+64,FLOUR,January,December,455,1.2,0.2,0,12.9,95.4,3.4,0.3,2
+16,CILANTRO,January,December,4,0.1,0,0,0.4,0.7,0.6,0.2,9
+347,TARRAGON,January,December,14,0.3,0.1,0,1.1,2.4,0.4,0,2
+52,CHIVES,January,December,0,0,0,0,0,0,0,0,0
+375,BROWN SUGAR,January,December,836,0,0,0,0.3,215.8,0,213.4,61
+291,RICOTTA CHEESE,January,December,0,0,,0,0,0,0,0,
+193,FAVA BEAN,January,December,181,0.6,0.1,0,14,31.8,9.5,0,1159
+235,CUCUMBER,January,December,45,0.3,0.1,0,2,10.9,1.5,5,6
+221,CHICKEN,January,December,0,0,0,0,0,0,0,0,0
+32,KALAMATA OLIVE,January,December,5,0.5,0.1,0,0,0.3,0.1,0,32
+147,SOUR CREAM,January,December,0,0,0,0,0,0,0,0,0
+273,PASTA,January,December,311,1.3,0.2,0,11,62.7,2.7,2.2,5
+214,CAULIFLOWER,January,December,147,1.6,0.4,0,11.3,29.2,11.8,11.2,176
+316,ZUCCHINI,January,December,33,0.6,0.2,0,2.4,6.1,2,4.9,15
+166,GINGER,January,December,19,0.2,0,0,0.4,4.3,0.5,0.4,3
+141,BUTTER,January,December,1627,184.1,116.6,488.1,1.9,0.1,0,0.1,1620
+19,COUSCOUS,January,December,650,1.1,0.2,0,22.1,134,8.7,0,17
