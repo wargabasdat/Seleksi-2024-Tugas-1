@@ -73,6 +73,12 @@ Setiap senjata memiliki atribut seperti:
 - Setiap weapon memiliki level dan setiap level dapat meningkatkan atribut weapon seperti atk dan substat%. Level tersebut berbeda dengan s_level yang merupakan superimpose level, dimana s_level dapat ditingkatkan dengan menggabungkan weapon yang identik.
 - Entitas Weapon_Level memiliki atribut s_level yang tersirat.
 
+#### Entity-Relationship Diagram (ERD)
+![ERD Diagram](Data Storing/design/ERD.png)
+
+#### Relational Diagram
+![Relational Diagram](Data Storing/design/Relational_Diagram.png)
+
 ### Penjelasan Proses Translasi ERD Menjadi Diagram Relasional
 1. **Pemetaan Entity menjadi Relasi:**
     - **Strong Entity:**
@@ -138,6 +144,12 @@ Hasil Pemetaan:**
 
 ### Screenshot Program yang Dijalankan
 Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan).
+
+![Screenshot 1](Data Scraping/data/screenshot/1.png)
+![Screenshot 2](Data Scraping/data/screenshot/2.png)
+![Screenshot 3](Data Scraping/data/screenshot/3.png)
+![Screenshot 4](Data Scraping/data/screenshot/4.png)
+![Screenshot 5](Data Scraping/data/screenshot/5.png) 
 
 ### Referensi
 #### Library yang Digunakan:
