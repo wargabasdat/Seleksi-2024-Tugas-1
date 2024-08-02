@@ -171,7 +171,7 @@ Berikut adalah *6 instance* data JSON yang dihasilkan:
 ## Database Structure
 ### Entity Relationship Diagram
 <div align="center">
-  <img src="Data Storing/Design/One-To-One.png" width="400"/>
+  <img src="Data Storing/design/ERD.png" width="400"/>
 </div>
 
 ### Relational Diagram
