@@ -113,7 +113,7 @@ This JSON contains the list of user details that  made a review or made a custom
 The ERD made from the scraped data can be seen in the following diagram:
 
 
-![ERD](Data Storing\design\ERD_Seleksi Basdat_18222047.png "ERD")
+![ERD](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/ERD_Seleksi%20Basdat_18222047.png)
 
 
 The ERD consists of 4 entities:
@@ -148,7 +148,7 @@ A few assumptions were made when creating this ERD, those are:
 The RDBMS made from the ERD can be seen in the following diagram:
 
 
-![RDBMS](Relational Diagram_Seleksi Basdat_18222047 "RDBMS")
+![RDBMS](https://github.com/RunningPie/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/Relational%20Diagram_Seleksi%20Basdat_18222047.png)
 
 
 The final RDBMS design contains 9 relations (tables), namely:
