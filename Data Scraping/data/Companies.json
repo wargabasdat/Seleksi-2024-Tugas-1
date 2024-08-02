@@ -1,0 +1,1002 @@
+[
+    {
+        "Rank":"1",
+        "Name":"Walmart",
+        "Industry":"Retail",
+        "Revenue (USD millions)":611289.0,
+        "Revenue growth":6.7,
+        "Employees":2100000,
+        "City":"Bentonville",
+        "State":"Arkansas"
+    },
+    {
+        "Rank":"2",
+        "Name":"Amazon",
+        "Industry":"Retail and cloud computing",
+        "Revenue (USD millions)":513983.0,
+        "Revenue growth":9.4,
+        "Employees":1540000,
+        "City":"Seattle",
+        "State":"Washington"
+    },
+    {
+        "Rank":"3",
+        "Name":"ExxonMobil",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":413680.0,
+        "Revenue growth":44.8,
+        "Employees":62000,
+        "City":"Spring",
+        "State":"Texas"
+    },
+    {
+        "Rank":"4",
+        "Name":"Apple",
+        "Industry":"Electronics industry",
+        "Revenue (USD millions)":394328.0,
+        "Revenue growth":7.8,
+        "Employees":164000,
+        "City":"Cupertino",
+        "State":"California"
+    },
+    {
+        "Rank":"5",
+        "Name":"UnitedHealth Group",
+        "Industry":"Healthcare",
+        "Revenue (USD millions)":324162.0,
+        "Revenue growth":12.7,
+        "Employees":400000,
+        "City":"Minnetonka",
+        "State":"Minnesota"
+    },
+    {
+        "Rank":"6",
+        "Name":"CVS Health",
+        "Industry":"Healthcare",
+        "Revenue (USD millions)":322467.0,
+        "Revenue growth":10.4,
+        "Employees":259500,
+        "City":"Woonsocket",
+        "State":"Rhode Island"
+    },
+    {
+        "Rank":"7",
+        "Name":"Berkshire Hathaway",
+        "Industry":"Conglomerate",
+        "Revenue (USD millions)":302089.0,
+        "Revenue growth":9.4,
+        "Employees":383000,
+        "City":"Omaha",
+        "State":"Nebraska"
+    },
+    {
+        "Rank":"8",
+        "Name":"Alphabet",
+        "Industry":"Technology and cloud computing",
+        "Revenue (USD millions)":282836.0,
+        "Revenue growth":9.8,
+        "Employees":156000,
+        "City":"Mountain View",
+        "State":"California"
+    },
+    {
+        "Rank":"9",
+        "Name":"McKesson Corporation",
+        "Industry":"Health",
+        "Revenue (USD millions)":276711.0,
+        "Revenue growth":4.8,
+        "Employees":48500,
+        "City":"Irving",
+        "State":"Texas"
+    },
+    {
+        "Rank":"10",
+        "Name":"Chevron Corporation",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":246252.0,
+        "Revenue growth":51.6,
+        "Employees":43846,
+        "City":"San Ramon",
+        "State":"California"
+    },
+    {
+        "Rank":"11",
+        "Name":"Cencora",
+        "Industry":"Pharmacy wholesale",
+        "Revenue (USD millions)":238587.0,
+        "Revenue growth":11.5,
+        "Employees":41500,
+        "City":"Chesterbrook",
+        "State":"Pennsylvania"
+    },
+    {
+        "Rank":"12",
+        "Name":"Costco",
+        "Industry":"Retail",
+        "Revenue (USD millions)":226954.0,
+        "Revenue growth":15.8,
+        "Employees":304000,
+        "City":"Issaquah",
+        "State":"Washington"
+    },
+    {
+        "Rank":"13",
+        "Name":"Microsoft",
+        "Industry":"Technology and cloud computing",
+        "Revenue (USD millions)":198270.0,
+        "Revenue growth":18.0,
+        "Employees":221000,
+        "City":"Redmond",
+        "State":"Washington"
+    },
+    {
+        "Rank":"14",
+        "Name":"Cardinal Health",
+        "Industry":"Healthcare",
+        "Revenue (USD millions)":181364.0,
+        "Revenue growth":11.6,
+        "Employees":46035,
+        "City":"Dublin",
+        "State":"Ohio"
+    },
+    {
+        "Rank":"15",
+        "Name":"Cigna",
+        "Industry":"Health insurance",
+        "Revenue (USD millions)":180516.0,
+        "Revenue growth":3.7,
+        "Employees":70231,
+        "City":"Bloomfield",
+        "State":"Connecticut"
+    },
+    {
+        "Rank":"16",
+        "Name":"Marathon Petroleum",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":180012.0,
+        "Revenue growth":27.6,
+        "Employees":17800,
+        "City":"Findlay",
+        "State":"Ohio"
+    },
+    {
+        "Rank":"17",
+        "Name":"Phillips 66",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":175702.0,
+        "Revenue growth":53.0,
+        "Employees":13000,
+        "City":"Houston",
+        "State":"Texas"
+    },
+    {
+        "Rank":"18",
+        "Name":"Valero Energy",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":171189.0,
+        "Revenue growth":58.0,
+        "Employees":9743,
+        "City":"San Antonio",
+        "State":"Texas"
+    },
+    {
+        "Rank":"19",
+        "Name":"Ford Motor Company",
+        "Industry":"Automotive industry",
+        "Revenue (USD millions)":158057.0,
+        "Revenue growth":15.9,
+        "Employees":173000,
+        "City":"Dearborn",
+        "State":"Michigan"
+    },
+    {
+        "Rank":"20",
+        "Name":"The Home Depot",
+        "Industry":"Retail",
+        "Revenue (USD millions)":157403.0,
+        "Revenue growth":4.1,
+        "Employees":471600,
+        "City":"Atlanta",
+        "State":"Georgia"
+    },
+    {
+        "Rank":"21",
+        "Name":"General Motors",
+        "Industry":"Automotive industry",
+        "Revenue (USD millions)":156735.0,
+        "Revenue growth":23.4,
+        "Employees":167000,
+        "City":"Detroit",
+        "State":"Michigan"
+    },
+    {
+        "Rank":"22",
+        "Name":"Elevance Health",
+        "Industry":"Healthcare",
+        "Revenue (USD millions)":156595.0,
+        "Revenue growth":13.0,
+        "Employees":102200,
+        "City":"Indianapolis",
+        "State":"Indiana"
+    },
+    {
+        "Rank":"23",
+        "Name":"JPMorgan Chase",
+        "Industry":"Financial services",
+        "Revenue (USD millions)":154792.0,
+        "Revenue growth":21.7,
+        "Employees":293723,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"24",
+        "Name":"Kroger",
+        "Industry":"Retail",
+        "Revenue (USD millions)":148258.0,
+        "Revenue growth":7.5,
+        "Employees":430000,
+        "City":"Cincinnati",
+        "State":"Ohio"
+    },
+    {
+        "Rank":"25",
+        "Name":"Centene",
+        "Industry":"Healthcare",
+        "Revenue (USD millions)":144547.0,
+        "Revenue growth":14.7,
+        "Employees":74300,
+        "City":"St. Louis",
+        "State":"Missouri"
+    },
+    {
+        "Rank":"26",
+        "Name":"Verizon Communications",
+        "Industry":"Telecommunications",
+        "Revenue (USD millions)":136835.0,
+        "Revenue growth":2.4,
+        "Employees":117100,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"27",
+        "Name":"Walgreens Boots Alliance",
+        "Industry":"Pharmaceutical industry",
+        "Revenue (USD millions)":132703.0,
+        "Revenue growth":10.7,
+        "Employees":262500,
+        "City":"Deerfield",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"28",
+        "Name":"Fannie Mae",
+        "Industry":"Financials",
+        "Revenue (USD millions)":121596.0,
+        "Revenue growth":19.7,
+        "Employees":8000,
+        "City":"Washington",
+        "State":"D.C."
+    },
+    {
+        "Rank":"29",
+        "Name":"Comcast",
+        "Industry":"Telecommunications",
+        "Revenue (USD millions)":121427.0,
+        "Revenue growth":4.3,
+        "Employees":186000,
+        "City":"Philadelphia",
+        "State":"Pennsylvania"
+    },
+    {
+        "Rank":"30",
+        "Name":"AT&T",
+        "Industry":"Conglomerate and telecommunications",
+        "Revenue (USD millions)":120741.0,
+        "Revenue growth":28.5,
+        "Employees":160700,
+        "City":"Dallas",
+        "State":"Texas"
+    },
+    {
+        "Rank":"31",
+        "Name":"Meta Platforms",
+        "Industry":"Technology",
+        "Revenue (USD millions)":116609.0,
+        "Revenue growth":1.1,
+        "Employees":86482,
+        "City":"Menlo Park",
+        "State":"California"
+    },
+    {
+        "Rank":"32",
+        "Name":"Bank of America",
+        "Industry":"Financials",
+        "Revenue (USD millions)":115053.0,
+        "Revenue growth":22.6,
+        "Employees":216823,
+        "City":"Charlotte",
+        "State":"North Carolina"
+    },
+    {
+        "Rank":"33",
+        "Name":"Target Corporation",
+        "Industry":"Retail",
+        "Revenue (USD millions)":109120.0,
+        "Revenue growth":2.9,
+        "Employees":440000,
+        "City":"Minneapolis",
+        "State":"Minnesota"
+    },
+    {
+        "Rank":"34",
+        "Name":"Dell Technologies",
+        "Industry":"Technology",
+        "Revenue (USD millions)":102301.0,
+        "Revenue growth":4.4,
+        "Employees":133000,
+        "City":"Round Rock",
+        "State":"Texas"
+    },
+    {
+        "Rank":"35",
+        "Name":"Archer Daniels Midland",
+        "Industry":"Food industry",
+        "Revenue (USD millions)":101556.0,
+        "Revenue growth":19.1,
+        "Employees":41181,
+        "City":"Chicago",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"36",
+        "Name":"Citigroup",
+        "Industry":"Financials",
+        "Revenue (USD millions)":101078.0,
+        "Revenue growth":26.6,
+        "Employees":238104,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"37",
+        "Name":"United Parcel Service",
+        "Industry":"Transportation",
+        "Revenue (USD millions)":100338.0,
+        "Revenue growth":3.1,
+        "Employees":404700,
+        "City":"Atlanta",
+        "State":"Georgia"
+    },
+    {
+        "Rank":"38",
+        "Name":"Pfizer",
+        "Industry":"Pharmaceutical industry",
+        "Revenue (USD millions)":100330.0,
+        "Revenue growth":23.4,
+        "Employees":83000,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"39",
+        "Name":"Lowe's",
+        "Industry":"Retail",
+        "Revenue (USD millions)":97059.0,
+        "Revenue growth":0.8,
+        "Employees":244500,
+        "City":"Mooresville",
+        "State":"North Carolina"
+    },
+    {
+        "Rank":"40",
+        "Name":"Johnson & Johnson",
+        "Industry":"Pharmaceutical industry",
+        "Revenue (USD millions)":94943.0,
+        "Revenue growth":1.2,
+        "Employees":152700,
+        "City":"New Brunswick",
+        "State":"New Jersey"
+    },
+    {
+        "Rank":"41",
+        "Name":"FedEx",
+        "Industry":"Transportation",
+        "Revenue (USD millions)":93512.0,
+        "Revenue growth":11.4,
+        "Employees":518249,
+        "City":"Memphis",
+        "State":"Tennessee"
+    },
+    {
+        "Rank":"42",
+        "Name":"Humana",
+        "Industry":"Health insurance",
+        "Revenue (USD millions)":92870.0,
+        "Revenue growth":11.8,
+        "Employees":67100,
+        "City":"Louisville",
+        "State":"Kentucky"
+    },
+    {
+        "Rank":"43",
+        "Name":"Energy Transfer Partners",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":89876.0,
+        "Revenue growth":33.3,
+        "Employees":12565,
+        "City":"Dallas",
+        "State":"Texas"
+    },
+    {
+        "Rank":"44",
+        "Name":"State Farm",
+        "Industry":"Financials",
+        "Revenue (USD millions)":89328.0,
+        "Revenue growth":8.6,
+        "Employees":60519,
+        "City":"Bloomington",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"45",
+        "Name":"Freddie Mac",
+        "Industry":"Financials",
+        "Revenue (USD millions)":86717.0,
+        "Revenue growth":31.6,
+        "Employees":7819,
+        "City":"McLean",
+        "State":"Virginia"
+    },
+    {
+        "Rank":"46",
+        "Name":"PepsiCo",
+        "Industry":"Beverage",
+        "Revenue (USD millions)":86859.0,
+        "Revenue growth":8.7,
+        "Employees":315000,
+        "City":"Purchase",
+        "State":"New York"
+    },
+    {
+        "Rank":"47",
+        "Name":"Wells Fargo",
+        "Industry":"Financials",
+        "Revenue (USD millions)":82859.0,
+        "Revenue growth":0.5,
+        "Employees":238000,
+        "City":"San Francisco",
+        "State":"California"
+    },
+    {
+        "Rank":"48",
+        "Name":"The Walt Disney Company",
+        "Industry":"Media",
+        "Revenue (USD millions)":82722.0,
+        "Revenue growth":22.7,
+        "Employees":195800,
+        "City":"Burbank",
+        "State":"California"
+    },
+    {
+        "Rank":"49",
+        "Name":"ConocoPhillips",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":82156.0,
+        "Revenue growth":69.9,
+        "Employees":9500,
+        "City":"Houston",
+        "State":"Texas"
+    },
+    {
+        "Rank":"50",
+        "Name":"Tesla",
+        "Industry":"Automotive and energy",
+        "Revenue (USD millions)":81462.0,
+        "Revenue growth":51.4,
+        "Employees":127855,
+        "City":"Austin",
+        "State":"Texas"
+    },
+    {
+        "Rank":"51",
+        "Name":"Procter & Gamble",
+        "Industry":"Consumer products manufacturing",
+        "Revenue (USD millions)":80187.0,
+        "Revenue growth":5.3,
+        "Employees":106000,
+        "City":"Cincinnati",
+        "State":"Ohio"
+    },
+    {
+        "Rank":"52",
+        "Name":"United States Postal Service",
+        "Industry":"Logistics",
+        "Revenue (USD millions)":78620.0,
+        "Revenue growth":2.0,
+        "Employees":576000,
+        "City":"Washington",
+        "State":"D.C."
+    },
+    {
+        "Rank":"53",
+        "Name":"Albertsons",
+        "Industry":"Retail",
+        "Revenue (USD millions)":77650.0,
+        "Revenue growth":8.0,
+        "Employees":198650,
+        "City":"Boise",
+        "State":"Idaho"
+    },
+    {
+        "Rank":"54",
+        "Name":"General Electric",
+        "Industry":"Conglomerate",
+        "Revenue (USD millions)":76555.0,
+        "Revenue growth":3.2,
+        "Employees":172000,
+        "City":"Boston",
+        "State":"Massachusetts"
+    },
+    {
+        "Rank":"55",
+        "Name":"MetLife",
+        "Industry":"Financials",
+        "Revenue (USD millions)":69898.0,
+        "Revenue growth":1.7,
+        "Employees":45000,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"56",
+        "Name":"Goldman Sachs",
+        "Industry":"Financials",
+        "Revenue (USD millions)":68711.0,
+        "Revenue growth":5.7,
+        "Employees":48500,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"57",
+        "Name":"Sysco",
+        "Industry":"Food service",
+        "Revenue (USD millions)":68636.0,
+        "Revenue growth":33.8,
+        "Employees":70510,
+        "City":"Houston",
+        "State":"Texas"
+    },
+    {
+        "Rank":"58",
+        "Name":"Bunge Limited",
+        "Industry":"Food industry",
+        "Revenue (USD millions)":67232.0,
+        "Revenue growth":13.7,
+        "Employees":23000,
+        "City":"White Plains",
+        "State":"New York"
+    },
+    {
+        "Rank":"59",
+        "Name":"RTX Corporation",
+        "Industry":"Conglomerate",
+        "Revenue (USD millions)":67074.0,
+        "Revenue growth":4.2,
+        "Employees":182000,
+        "City":"Arlington County",
+        "State":"Virginia"
+    },
+    {
+        "Rank":"60",
+        "Name":"Boeing",
+        "Industry":"Aerospace and defense",
+        "Revenue (USD millions)":66608.0,
+        "Revenue growth":6.9,
+        "Employees":156000,
+        "City":"Arlington County",
+        "State":"Virginia"
+    },
+    {
+        "Rank":"61",
+        "Name":"StoneX Group",
+        "Industry":"Financials",
+        "Revenue (USD millions)":66036.0,
+        "Revenue growth":55.3,
+        "Employees":4000,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"62",
+        "Name":"Lockheed Martin",
+        "Industry":"Aerospace and defense",
+        "Revenue (USD millions)":65984.0,
+        "Revenue growth":1.6,
+        "Employees":116000,
+        "City":"Bethesda",
+        "State":"Maryland"
+    },
+    {
+        "Rank":"63",
+        "Name":"Morgan Stanley",
+        "Industry":"Financials",
+        "Revenue (USD millions)":65936.0,
+        "Revenue growth":7.9,
+        "Employees":82427,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"64",
+        "Name":"Intel",
+        "Industry":"Technology",
+        "Revenue (USD millions)":63054.0,
+        "Revenue growth":20.1,
+        "Employees":131900,
+        "City":"Santa Clara",
+        "State":"California"
+    },
+    {
+        "Rank":"65",
+        "Name":"HP",
+        "Industry":"Technology",
+        "Revenue (USD millions)":62983.0,
+        "Revenue growth":0.8,
+        "Employees":58000,
+        "City":"Palo Alto",
+        "State":"California"
+    },
+    {
+        "Rank":"66",
+        "Name":"TD Synnex",
+        "Industry":"Infotech",
+        "Revenue (USD millions)":62344.0,
+        "Revenue growth":97.2,
+        "Employees":28500,
+        "City":"Clearwater",
+        "State":"Florida"
+    },
+    {
+        "Rank":"67",
+        "Name":"IBM",
+        "Industry":"Technology and cloud computing",
+        "Revenue (USD millions)":60530.0,
+        "Revenue growth":16.3,
+        "Employees":303100,
+        "City":"Armonk",
+        "State":"New York"
+    },
+    {
+        "Rank":"68",
+        "Name":"HCA Healthcare",
+        "Industry":"Healthcare",
+        "Revenue (USD millions)":60233.0,
+        "Revenue growth":2.5,
+        "Employees":250500,
+        "City":"Nashville",
+        "State":"Tennessee"
+    },
+    {
+        "Rank":"69",
+        "Name":"Prudential Financial",
+        "Industry":"Financials",
+        "Revenue (USD millions)":60050.0,
+        "Revenue growth":15.3,
+        "Employees":39583,
+        "City":"Newark",
+        "State":"New Jersey"
+    },
+    {
+        "Rank":"70",
+        "Name":"Caterpillar",
+        "Industry":"Machinery",
+        "Revenue (USD millions)":59427.0,
+        "Revenue growth":16.6,
+        "Employees":109100,
+        "City":"Deerfield",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"71",
+        "Name":"Merck & Co.",
+        "Industry":"Pharmaceutical industry",
+        "Revenue (USD millions)":59283.0,
+        "Revenue growth":15.8,
+        "Employees":68000,
+        "City":"Kenilworth",
+        "State":"New Jersey"
+    },
+    {
+        "Rank":"72",
+        "Name":"World Fuel Services",
+        "Industry":"Petroleum industry and logistics",
+        "Revenue (USD millions)":59043.0,
+        "Revenue growth":88.4,
+        "Employees":5214,
+        "City":"Miami",
+        "State":"Florida"
+    },
+    {
+        "Rank":"73",
+        "Name":"New York Life Insurance Company",
+        "Industry":"Insurance",
+        "Revenue (USD millions)":58445.0,
+        "Revenue growth":14.2,
+        "Employees":15050,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"74",
+        "Name":"Enterprise Products",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":58186.0,
+        "Revenue growth":42.6,
+        "Employees":7300,
+        "City":"Houston",
+        "State":"Texas"
+    },
+    {
+        "Rank":"75",
+        "Name":"AbbVie",
+        "Industry":"Pharmaceutical industry",
+        "Revenue (USD millions)":58054.0,
+        "Revenue growth":3.3,
+        "Employees":50000,
+        "City":"Lake Bluff",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"76",
+        "Name":"Plains All American Pipeline",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":57342.0,
+        "Revenue growth":36.3,
+        "Employees":4100,
+        "City":"Houston",
+        "State":"Texas"
+    },
+    {
+        "Rank":"77",
+        "Name":"Dow Chemical Company",
+        "Industry":"Chemical industry",
+        "Revenue (USD millions)":56902.0,
+        "Revenue growth":3.5,
+        "Employees":37800,
+        "City":"Midland",
+        "State":"Michigan"
+    },
+    {
+        "Rank":"78",
+        "Name":"AIG",
+        "Industry":"Insurance",
+        "Revenue (USD millions)":56437.0,
+        "Revenue growth":8.4,
+        "Employees":26200,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"79",
+        "Name":"American Express",
+        "Industry":"Financial",
+        "Revenue (USD millions)":55625.0,
+        "Revenue growth":27.3,
+        "Employees":77300,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"80",
+        "Name":"Publix",
+        "Industry":"Retail",
+        "Revenue (USD millions)":54942.0,
+        "Revenue growth":13.5,
+        "Employees":242000,
+        "City":"Lakeland",
+        "State":"Florida"
+    },
+    {
+        "Rank":"81",
+        "Name":"Charter Communications",
+        "Industry":"Telecommunications",
+        "Revenue (USD millions)":54022.0,
+        "Revenue growth":4.5,
+        "Employees":101700,
+        "City":"Stamford",
+        "State":"Connecticut"
+    },
+    {
+        "Rank":"82",
+        "Name":"Tyson Foods",
+        "Industry":"Food processing",
+        "Revenue (USD millions)":53282.0,
+        "Revenue growth":13.2,
+        "Employees":142000,
+        "City":"Springdale",
+        "State":"Arkansas"
+    },
+    {
+        "Rank":"83",
+        "Name":"John Deere",
+        "Industry":"Agriculture manufacturing",
+        "Revenue (USD millions)":52577.0,
+        "Revenue growth":19.4,
+        "Employees":82239,
+        "City":"Moline",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"84",
+        "Name":"Cisco",
+        "Industry":"Telecom hardware manufacturing",
+        "Revenue (USD millions)":51557.0,
+        "Revenue growth":3.5,
+        "Employees":83300,
+        "City":"San Jose",
+        "State":"California"
+    },
+    {
+        "Rank":"85",
+        "Name":"Nationwide Mutual Insurance Company",
+        "Industry":"Financial",
+        "Revenue (USD millions)":51450.0,
+        "Revenue growth":8.6,
+        "Employees":24791,
+        "City":"Columbus",
+        "State":"Ohio"
+    },
+    {
+        "Rank":"86",
+        "Name":"Allstate",
+        "Industry":"Insurance",
+        "Revenue (USD millions)":51412.0,
+        "Revenue growth":3.4,
+        "Employees":54250,
+        "City":"Northfield Township",
+        "State":"Cook County, Illinois"
+    },
+    {
+        "Rank":"87",
+        "Name":"Delta Air Lines",
+        "Industry":"Airline",
+        "Revenue (USD millions)":50582.0,
+        "Revenue growth":69.2,
+        "Employees":95000,
+        "City":"Atlanta",
+        "State":"Georgia"
+    },
+    {
+        "Rank":"88",
+        "Name":"Liberty Mutual",
+        "Industry":"Insurance",
+        "Revenue (USD millions)":49956.0,
+        "Revenue growth":3.6,
+        "Employees":50000,
+        "City":"Boston",
+        "State":"Massachusetts"
+    },
+    {
+        "Rank":"89",
+        "Name":"TJX",
+        "Industry":"Retail",
+        "Revenue (USD millions)":49936.0,
+        "Revenue growth":2.9,
+        "Employees":329000,
+        "City":"Framingham",
+        "State":"Massachusetts"
+    },
+    {
+        "Rank":"90",
+        "Name":"Progressive Corporation",
+        "Industry":"Insurance",
+        "Revenue (USD millions)":49611.0,
+        "Revenue growth":4.0,
+        "Employees":55063,
+        "City":"Mayfield Village",
+        "State":"Ohio"
+    },
+    {
+        "Rank":"91",
+        "Name":"American Airlines",
+        "Industry":"Airline",
+        "Revenue (USD millions)":48971.0,
+        "Revenue growth":63.9,
+        "Employees":129700,
+        "City":"Fort Worth",
+        "State":"Texas"
+    },
+    {
+        "Rank":"92",
+        "Name":"CHS",
+        "Industry":"Agriculture cooperative",
+        "Revenue (USD millions)":47194.0,
+        "Revenue growth":24.3,
+        "Employees":10014,
+        "City":"Inver Grove Heights",
+        "State":"Minnesota"
+    },
+    {
+        "Rank":"93",
+        "Name":"Performance Food Group",
+        "Industry":"Food processing",
+        "Revenue (USD millions)":47194.0,
+        "Revenue growth":61.6,
+        "Employees":34825,
+        "City":"Richmond",
+        "State":"Virginia"
+    },
+    {
+        "Rank":"94",
+        "Name":"PBF Energy",
+        "Industry":"Petroleum industry",
+        "Revenue (USD millions)":46830.0,
+        "Revenue growth":71.8,
+        "Employees":3616,
+        "City":"Parsippany\u2013Troy Hills",
+        "State":"New Jersey"
+    },
+    {
+        "Rank":"95",
+        "Name":"Nike",
+        "Industry":"Apparel",
+        "Revenue (USD millions)":46710.0,
+        "Revenue growth":4.9,
+        "Employees":79100,
+        "City":"Beaverton",
+        "State":"Oregon"
+    },
+    {
+        "Rank":"96",
+        "Name":"Best Buy",
+        "Industry":"Retail",
+        "Revenue (USD millions)":46298.0,
+        "Revenue growth":10.6,
+        "Employees":71100,
+        "City":"Richfield",
+        "State":"Minnesota"
+    },
+    {
+        "Rank":"97",
+        "Name":"Bristol-Myers Squibb",
+        "Industry":"Pharmaceutical industry",
+        "Revenue (USD millions)":46159.0,
+        "Revenue growth":0.5,
+        "Employees":34300,
+        "City":"New York City",
+        "State":"New York"
+    },
+    {
+        "Rank":"98",
+        "Name":"United Airlines",
+        "Industry":"Airline",
+        "Revenue (USD millions)":44955.0,
+        "Revenue growth":82.5,
+        "Employees":92795,
+        "City":"Chicago",
+        "State":"Illinois"
+    },
+    {
+        "Rank":"99",
+        "Name":"Thermo Fisher Scientific",
+        "Industry":"Laboratory instruments",
+        "Revenue (USD millions)":44915.0,
+        "Revenue growth":14.5,
+        "Employees":130000,
+        "City":"Waltham",
+        "State":"Massachusetts"
+    },
+    {
+        "Rank":"100",
+        "Name":"Qualcomm",
+        "Industry":"Technology",
+        "Revenue (USD millions)":44200.0,
+        "Revenue growth":31.7,
+        "Employees":51000,
+        "City":"San Diego",
+        "State":"California"
+    }
+]
