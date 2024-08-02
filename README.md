@@ -57,23 +57,208 @@ Jika hanya ingin memasukkan ke database saja maka jalankan
 python db.py
 ```
 
-Contoh jika ingin menjalankan sebuah query dari code adalah sebagai berikut.
+Contoh jika ingin menjalankan sebuah sql query dari code adalah sebagai berikut.
 ```
 python db.py "SELECT * FROM item"
 ```
 
 
 ## Struktur File Hasil Scrapping
-- Penjelasan struktur dari file JSON yang dihasilkan scraper
+<!-- - Penjelasan struktur dari file JSON yang dihasilkan scraper -->
+
+```
+{
+  character: {
+
+    // array of playable characters, keunikannya punya relasi dengan form (misal mario menjadi fiery mario)
+    pc: {
+      name: string,
+      description: string,
+      image: {
+        name: string,
+        url: string,
+        width: number,
+        height: number
+      },
+      detail_url: string
+    }[],
+
+
+    // array of non playable characters
+    npc: {
+      name: string,
+      description: string,
+      image: {
+        name: string,
+        url: string,
+        width: number,
+        height: number
+      },
+      detail_url: string,
+    }[],
+
+
+    // array of enemies, keunikannya punya points
+    enemy: {
+      name: string,
+      description: string,
+      image: {
+        name: string,
+        url: string,
+        width: number,
+        height: number
+      },
+      detail_url: string,
+      points: number,
+    }[]
+  },
+
+  // array of obstacles yang ada di game
+  obstacle: {
+    name: string,
+    description: string,
+    image: {
+      name: string,
+      url: string,
+      width: number,
+      height: number
+    },
+    detail_url: string,
+  }[],
+
+  // array of item yang ada di game
+  item: {
+    name: string,
+    description: string,
+    image: {
+      name: string,
+      url: string,
+      width: number,
+      height: number
+    },
+    detail_url: string,
+  }[],
+
+  // array of power up yang ada di game, dapat membuat playable character berubah form
+  power_up: {
+
+    // ada yang N/A karena state saat playable character sedang tidak menggunakan power up
+    name: null || string,
+    description: string,
+
+    // ada yang N/A karena state saat playable character sedang tidak menggunakan power up
+    image: null || {
+      name: string,
+      url: string,
+      width: number,
+      height: number
+    },
+
+    // ada yang N/A karena state saat playable character sedang tidak menggunakan power up
+    detail_url: null || string,
+
+    // khusus untuk playable character bernama 'mario'
+    mario_form: {
+      name: string,
+      image: {
+        name: string,
+        url: string,
+        width: number,
+        height: number
+      },
+      detail_url: string
+    },
+
+    // khusus untuk playable character bernama 'luigi'
+    luigi_form: {
+      name: string,
+      image: {
+        name: string,
+        url: string,
+        width: number,
+        height: number
+      },
+      detail_url: string
+    },
+  }[],
+
+  // array of object yang ada di game. tiap object memiliki typenya masing-masing, namun tidak ada keunikan dari tiap type, hanya sebagai penamaan saja. Lalu tiap 4 level memiliki image yang sama.
+  object: {
+    name: string,
+    description: string,
+    image: Image,
+    detail_url: string,
+    type: string
+  }[],
+
+  // array of reference yang ada pada game
+  reference: {
+    name: string,
+    description: string,
+    detail_url: string,
+    type: string
+  }[],
+
+  // array of version yang ada pada game
+  version: {
+    year: string,
+    description: string,
+  }[],
+
+  // array of level yang ada pada game. Tiap level memiliki item, power_up, enemies, dan obstacle dengan jumlah tertentu. Namun website sering tidak konsisten. Misal dalam item ada power_up. Kadang enemies dicampur dengan obstacle.
+  level: {
+    name: string,
+    image: {
+      name: string,
+      url: string,
+      width: number,
+      height: number
+    },
+    detail_url: string,
+    setting: string,
+    course_map_image: {
+      name: string,
+      url: string,
+      width: number,
+      height: number
+    },
+
+    // Website sering tidak konsisten. Di dalam ini bisa ada power_up
+    item: { 
+      name: string;
+      count: number;
+      detail_url: string;
+      description: string;
+    }[],
+
+    // Website sering tidak konsisten. Kadang enemies, kadang campuran enemies dan obstacle, kadang tidak ada sama sekali
+    enemies: null || {
+      name: string,
+      count: number,
+      detail_url: string
+    }[],
+    enemies_and_obstacle: null || {
+      name: string,
+      count: number,
+      detail_url: string
+    }[],
+  }[]
+}
+```
 
 ## Struktur ERD dan diagram relasional RDBMS 
-- Struktur ERD dan diagram relasional RDBMS
+<!-- - Struktur ERD dan diagram relasional RDBMS -->
+### Entity Relationship Diagram
+<img src="Data Storing/design/Mario-DB-ER.drawio.png"/>
+
+### Relational Diagram
+<img src="Data Storing/design/Mario-DB-R.drawio.png"/>
 
 ## Translasi ERD Menjadi diagram relasional
-- Penjelasan mengenai proses translasi ERD menjadi diagram relasional
+<!-- - Penjelasan mengenai proses translasi ERD menjadi diagram relasional -->
 
 ## Screenshot
-- Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
+<!-- - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan) -->
 
 
 ## Referensi
