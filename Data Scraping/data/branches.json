@@ -1,0 +1,437 @@
+[
+    {
+        "branch_name": "FIT HUB BendunganHilir",
+        "address": "Jl. Bendungan Hilir No.10, RT.1/RW.4, Jakarta Pusat, Daerah KhususIbukota Jakarta 10210",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB MenaraDuta",
+        "address": "Jalan H. R. Rasuna Said No.Kav B/09, RT.5/RW.1, Kuningan, Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12910",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB SunterAltira",
+        "address": "Altira Business Park Blok A01-A03 Lantai 2, Jakarta, DKI Jakarta 14350",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Tebet",
+        "address": "Jl. Prof. DR. Soepomo No.30, RT.13/RW.2, Tebet Bar., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12810",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB DurenSawit",
+        "address": "Jl. Kolonel Sugiono No.3, RT.1/RW.3, Duren Sawit, Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB ElangLautPik",
+        "address": "Jl. Pantai Indah Selatan No.10, RT.3/RW.3, Kamal Muara, Kec. Penjaringan, Jkt Utara, Daerah Khusus Ibukota Jakarta 14470",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Fatmawati",
+        "address": "Jl. RS. Fatmawati Raya No.9, Gandaria Sel., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12140",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB GajahMada",
+        "address": "Jl. Gajah Mada No.220, Glodok, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11120",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Greenville",
+        "address": "Jl. Green Ville Blk. BJ-BK No.5, RT.8/RW.14, Duri Kepa, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11510",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Grogol",
+        "address": "Jl. Makaliwe Raya No.42, RW.5, Grogol, Kec. Grogol petamburan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11450",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Mampang",
+        "address": "Jl. Mampang Prpt. Raya No.81, RT.7/RW.1, Tegal Parang, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12790",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB ItcKuningan",
+        "address": "ITC Kuningan Lantai 5 Jembatan 1, Jl. Prof. DR. Satrio, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Jgc",
+        "address": "Ruko New East, Jl. Jkt Garden City Boulevard, Cakung Tim., Kec. Cakung, Daerah Khusus Ibukota Jakarta 13910",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB MeruyaJameson",
+        "address": "Komp. Ruko Taman Kb. Jeruk, Jl. Meruya Ilir Raya No.12, RT.4/RW.7, Meruya Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640 (Lantai 3)",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB ItcPermataHijau",
+        "address": "Jl. Arteri Permata Hijau No.11, RT.11/RW.10, Grogol Utara, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12210 (Grand ITC Permata Hijau Lantai Lower Ground)",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Pluit",
+        "address": "Jl. Pluit Indah No.34, Pluit, Kec. Penjaringan, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14450",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB PuriIndah",
+        "address": "Sentra Niaga Puri Indah Blok T1 No. 9-10, Jl. Puri Lkr. Dalam No.Raya, RT.1/RW.2, South Kembangan, Kembangan, West Jakarta City, Jakarta 11610",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Rawamangun",
+        "address": "Jl. Sunan Drajad No.39, RW.8, Jati, Pulo Gadung, East Jakarta City, Jakarta 13220",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Salemba",
+        "address": "Jl. Salemba Raya No.57 - 59, Paseban, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10430",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB SedayuCityKelapaGading",
+        "address": "Jl. Boulevard Raya Sedayu City Blok SCBRA NO. 3, 5 dan 6, Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13910",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB TaminiSquare",
+        "address": "Jl. Taman Mini Raya Garuda, Pinang Ranti, Makasar,Jakarta Timur 13560,DKI Jakarta (Tamini Square Lantai 2)",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Kalimalang",
+        "address": "Jl. KH. Noer Ali No.45, RT.2/RW.3, Pd. Klp., Kec. Duren Sawit, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13450",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Kemanggisan",
+        "address": "Jalan Kebon Jeruk Raya Gg. Abc No.15, RT.007/RW.005, Sukabumi Sel., Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11530",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB MallMetroKebayoran",
+        "address": "Mall Metro Kebayoran, Jl. Ciledug Raya No.1, RW.5, Ulujami, Kec. Pesanggrahan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12250",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB BintaroSektor1",
+        "address": "Jalan Bintaro Raya Blok FII Persil no. 1, RT 016/RW08, Kecamatan. Pesanggrahan Kota Jakarta Selatan, Jakarta, Daerah Khusus Ibukota Jakarta 12330",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB BlokM",
+        "address": "Jalan Panglima Polim Raya Blok M.3 No. 1 dan 2, RT.1/RW.2, Melawai, Kec. Kby. Baru, Daerah Khusus Ibukota Jakarta 12130, Indonesia",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB Wisma46",
+        "address": "Jl. Jenderal Sudirman No.Kav. 1, RT.1/RW.8, Karet Tengsin, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10220",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB CempakaPutih",
+        "address": "Jl. Cempaka Putih Raya B No.44, RT.7/RW.8, Cemp. Putih Tim., Kec. Cemp. Putih, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10510, Indonesia",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB PlazaOleos",
+        "address": "Jl. TB Simatupang, RT.2/RW.1, Kebagusan, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12520",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB PasarMinggu",
+        "address": "Jl. Raya Pasar Minggu No.05, RT.2/RW.7, Duren Tiga, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12760",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB MaspionPlaza",
+        "address": "Jl. Gn. Sahari No.Kav.18, Pademangan Bar., Kec. Pademangan, Jkt Utara, Daerah Khusus Ibukota Jakarta 14420",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB TamanPalemLestari",
+        "address": "Perumahan Taman Palem Lestari Blok A-11/5-A 11730, RT.8/RW.13, Cengkareng Bar., Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11730",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB OtistaRay",
+        "address": "Jalan Otista Raya 99, Kelurahan Bidaracina, Kecamatan Jatinegara, Jakarta Timur 13330",
+        "region": "Jakarta"
+    },
+    {
+        "branch_name": "FIT HUB GadingSerpong",
+        "address": "Jl. Gading Serpong Boulevard No.10-11, Pakulonan Bar., Kec. Klp. Dua, Kabupaten Tangerang, Banten 15810",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB Tangcity",
+        "address": "Ruko TangCity Business Park, Jl. Jenderal Sudirman E23, E25, E26 Babakan, Kec. Tangerang, Kota Tangerang, Banten 15117",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB KarangMulya",
+        "address": "Samping Apartemen, The NEST@Puri, Jl. Raden Saleh, RT.001/RW.012, Karang Mulya, Kec. Karang Tengah, Kota Tangerang, Banten 15157",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB Karawaci",
+        "address": "Maxxboxx Lippo Village UG Unit No. UG-09 s.d. UG-13, Lippo VIllage 1200, Jl. Jend. Sudirman No.1110, Bencongan, Kec. Klp. Dua, Kabupaten Tangerang, Banten 15810",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB Ciledug",
+        "address": "Jl. HOS Cokroaminoto No.8, RT.001/RW.005, Sudimara Utara, Kec. Ciledug, Kota Tangerang, Banten 15151, Indonesia",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB CitraRayaCikupa",
+        "address": "Jl. EcoPolis Ave, Mekar Bakti, Kec. Panongan, Kabupaten Tangerang, Banten 15710, Indonesia",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB BsdGoldfinch",
+        "address": "Jalan Goldfinch Selatan SGD, Jl. Springs Boulevard No.29, Cihuni, Kec. Pagedangan, Kabupaten Tangerang, Banten 15332",
+        "region": "Tangerang"
+    },
+    {
+        "branch_name": "FIT HUB AlamSutera",
+        "address": "Jl Jalur Sutra Ruko Imperial Walk Kavling 29 B Nomor : 30 \u2013 31, Kota Tangerang Selatan Banten 15320",
+        "region": "Tangerang Selatan"
+    },
+    {
+        "branch_name": "FIT HUB BintaroSektor9(jombang)",
+        "address": "Jalan Jombang Raya No.89 Jombang, Ciputat, Parigi, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15414, Indonesia",
+        "region": "Tangerang Selatan"
+    },
+    {
+        "branch_name": "FIT HUB BintaroSektor7",
+        "address": "Kompleks Bintaro Jaya Sektor 7 Blok FG 14 nomor 42A, Pd. Jaya, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15222",
+        "region": "Tangerang Selatan"
+    },
+    {
+        "branch_name": "FIT HUB BsdGoldenBoulevard",
+        "address": "Jl. Pahlawan Seribu, Lengkong Karya, BSD City, Kota Tangerang Selatan, Banten 15301, Indonesia",
+        "region": "Tangerang Selatan"
+    },
+    {
+        "branch_name": "FIT HUB CiputatLot",
+        "address": "Jl. Dewi Sartika No.22, Cipayung, Kec. Ciputat, Kota Tangerang Selatan, Banten 15411, Indonesia",
+        "region": "Tangerang Selatan"
+    },
+    {
+        "branch_name": "FIT HUB Pamulang",
+        "address": "Superindo, Jalan Pamulang Raya Blok SH/14 Kompleks, Jl. Pamulang Permai, Pamulang Bar., Kec. Ciputat, Tangerang Selatan, Banten 15417",
+        "region": "Tangerang Selatan"
+    },
+    {
+        "branch_name": "FIT HUB DarmoPuncakPermai",
+        "address": "Jl. Raya Darmo Permai III No.80, Pradahkalikendal, Kec. Dukuhpakis, Surabaya, Jawa Timur 60226",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB Adityawarman",
+        "address": "Jl. Adityawarman No.39, Sawunggaling, Kec. Wonokromo, Surabaya, Jawa Timur 60242",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB GrahaPena",
+        "address": "Gedung Graha Pena Lantai 1 Ruang 112, Jl. Ahmad Yani No.88, Ketintang, Kecamatan, Jawa Timur 60231",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB Gubeng",
+        "address": "Jl. Sumatera No.20-B, RT.010/RW.07, Ketabang, Kec. Genteng, Surabaya, Jawa Timur 60272",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB ManyarKertoarjo",
+        "address": "Jl. Manyar Kertoarjo No.12, Manyar Sabrangan, Kec. Mulyorejo, Kota SBY, Jawa Timur 60116",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB Merr",
+        "address": "Jl. Dr. Ir. H. Soekarno 47-364, Kedung Baruk, Kec. Rungkut, Kota SBY, Jawa Timur 60298",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB Wiyung",
+        "address": "Jl. Raya Menganti Babatan No.9, Babatan, Kec. Wiyung, Kota Surabaya",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB CitralandBarat",
+        "address": "Telaga Utama Road No.D1 No.31-32, Jeruk, Lakarsantri, Surabaya, East Java 60123",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB Kenjeran",
+        "address": "Pertokoan Kenjeran Indah, Jl. Kenjeran No.564 - 572, Dukuh Sutorejo, Kec. Mulyorejo, Surabaya, Jawa Timur 60113",
+        "region": "Surabaya"
+    },
+    {
+        "branch_name": "FIT HUB SuryaSumantri",
+        "address": "Jl. Surya Sumantri Kel No.53, RT.05/RW.04, Sukawarna, Kec. Sukajadi, Kota Bandung, Jawa Barat 40164",
+        "region": "Bandung dan Cimahi"
+    },
+    {
+        "branch_name": "FIT HUB Kopo",
+        "address": "Ruko Kavling, Jl. Raya Kopo No.472, Margahayu Utara, Kec. Babakan Ciparay, Kota Bandung, Jawa Barat 40224",
+        "region": "Bandung dan Cimahi"
+    },
+    {
+        "branch_name": "FIT HUB Lengkong",
+        "address": "Jl. Lengkong Kecil No.52, Paledang, Kec. Lengkong, Kota Bandung, Jawa Barat 40261",
+        "region": "Bandung dan Cimahi"
+    },
+    {
+        "branch_name": "FIT HUB Buahbatu",
+        "address": "Jl. Buah Batu No.258, Turangga, Kec. Lengkong, Kota Bandung, Jawa Barat 40286",
+        "region": "Bandung dan Cimahi"
+    },
+    {
+        "branch_name": "FIT HUB CibabatCimah",
+        "address": "Jl. Raya Cilember No.325, Cigugur Tengah, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40522",
+        "region": "Bandung dan Cimahi"
+    },
+    {
+        "branch_name": "FIT HUB NipahMall",
+        "address": "Jl. Urip Sumoharjo No.23C, Panaikang, Kec. Panakkukang, Kota Makassar, Sulawesi Selatan 90231",
+        "region": "Makassar"
+    },
+    {
+        "branch_name": "FIT HUB DepokTownSquare(detos)",
+        "address": "Depok Town Square, Jl. Margonda No.1, Kemiri Muka, Kecamatan Beji, Kota Depok, Jawa Barat 16424, Indonesia",
+        "region": "Depok"
+    },
+    {
+        "branch_name": "FIT HUB DepokTownCenter(dtc)",
+        "address": "DTC, Jl. Raya Sawangan No.1, Rangkapan Jaya, Kec. Pancoran Mas, Kota Depok, Jawa Barat 16435, Indonesia",
+        "region": "Depok"
+    },
+    {
+        "branch_name": "FIT HUB CinereRaya",
+        "address": "Jl. Cinere Raya No.105, Cinere, Kec. Cinere, Kota Depok, Jawa Barat 16514",
+        "region": "Depok"
+    },
+    {
+        "branch_name": "FIT HUB Renon",
+        "address": "Jl. Raya Puputan No.148, Sumerta Kelod, Denpasar Selatan, Kota Denpasar, Bali 80234, Indonesia",
+        "region": "Bali"
+    },
+    {
+        "branch_name": "FIT HUB TeukuUmarBarat",
+        "address": "Jl. Teuku Umar Barat No.12, Pemecutan Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80119, Indonesia",
+        "region": "Bali"
+    },
+    {
+        "branch_name": "FIT HUB SunsetRoad",
+        "address": "Jl. Sunset Road Kecamatan No.388, Kuta, Kec. Kuta, Kabupaten Badung, Bali 80361",
+        "region": "Bali"
+    },
+    {
+        "branch_name": "FIT HUB GatsuTimur",
+        "address": "Jl. Gatot Subroto Tim. No.250, Tonja, Kec. Denpasar Utara, Kota Denpasar, Bali 80234",
+        "region": "Bali"
+    },
+    {
+        "branch_name": "FIT HUB Uluwatu",
+        "address": "Jl. Uluwatu No.35, Ungasan, South Kuta, Badung Regency, Bali 80361",
+        "region": "Bali"
+    },
+    {
+        "branch_name": "FIT HUB HarapanIndah",
+        "address": "Ruko Mega Boulevard RV-1, Kota Harapan Indah No.3A, Pusaka Rakyat, Kecamatan Medan Satria, Kabupaten Bekasi, Jawa Barat 17132, Indonesia",
+        "region": "Bekasi"
+    },
+    {
+        "branch_name": "FIT HUB LivingPlazaJababeka",
+        "address": "Living Plaza Jababeka, Jl. Jababeka Raya, Mekarmukti, Kec. Cikarang Utara, Kabupaten Bekasi, Jawa Barat 17530",
+        "region": "Bekasi"
+    },
+    {
+        "branch_name": "FIT HUB SummareconBekasi",
+        "address": "Ruko Summarecon Bekasi No. 74B, RT.003/RW.005, Marga Mulya, Bekasi Utara, Bekasi, West Java 17142",
+        "region": "Bekasi"
+    },
+    {
+        "branch_name": "FIT HUB PasarkotaPondokGede",
+        "address": "Jl. Raya Pd. Gede No.1, Jatirahayu, Kec. Pd. Melati, Kota Bks, Jawa Barat 17415",
+        "region": "Bekasi"
+    },
+    {
+        "branch_name": "FIT HUB Jatiasi",
+        "address": "Jl. Wibawa Mukti II, RT.003/RW.005, Jatiasih, Kec. Jatiasih, Kota Bks, Jawa Barat 17423",
+        "region": "Bekasi"
+    },
+    {
+        "branch_name": "FIT HUB CibinongMayorOking",
+        "address": "Jl. Raya Mayor Oking Jaya Atmaja No.67, Ciriung, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16918",
+        "region": "Bogor"
+    },
+    {
+        "branch_name": "FIT HUB SiliwangiBogor",
+        "address": "Jl. Siliwangi No.66, RT.5/RW.04, Lawanggintung, Kota Bogor, Jawa Barat 16134, Indonesia",
+        "region": "Bogor"
+    },
+    {
+        "branch_name": "FIT HUB TransyogiCibubur",
+        "address": "Jl. Alternatif Cibubur No.117, Nagrak, Kec. Gn. Putri, Kabupaten Bogor, Jawa Barat 16967",
+        "region": "Bogor"
+    },
+    {
+        "branch_name": "FIT HUB YasminBogo",
+        "address": "Jl. Brigjen Saptaji Hadipawira RT. 023 RW. 008, Kelurahan Cilendek Barat, Kecamatan Bogor Barat, Kota Bogor, Jawa Barat",
+        "region": "Bogor"
+    },
+    {
+        "branch_name": "FIT HUB JogjaCityMall",
+        "address": "Magelang St Lantai 1 No.6 No.18, Kutu Patran, Sinduadi, Mlati, Sleman Regency, Special Region of Yogyakarta 55284",
+        "region": "Yogyakarta"
+    },
+    {
+        "branch_name": "FIT HUB D.i.Panjaitan",
+        "address": "Jl. Mayor Jend. D.I. Panjaitan No.14, Brumbungan, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50135",
+        "region": "Semarang"
+    },
+    {
+        "branch_name": "FIT HUB SetiabudiSemarang",
+        "address": "Jl. Setia Budi No.39, Srondol Wetan, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50263",
+        "region": "Semarang"
+    },
+    {
+        "branch_name": "FIT HUB BsbSemarang",
+        "address": "CBD BSB CITY BLOK G9, Kedungpane, Kec. Mijen, Kota Semarang, Jawa Tengah 50246",
+        "region": "Semarang"
+    },
+    {
+        "branch_name": "FIT HUB MajapahitSemaran",
+        "address": "Jl. Brigjen Sudiarto No.218B, Gayamsari, Kec. Gayamsari, Kota Semarang, Jawa Tengah 50248",
+        "region": "Semarang"
+    },
+    {
+        "branch_name": "FIT HUB Gressmall",
+        "address": "LG Floor, Jl. Sumatra No.1-5, RT.07/RW.08, Gn. Malang, Randuagung, Kec. Kebomas, Kabupaten Gresik, Jawa Timur 61121",
+        "region": "Gresik"
+    },
+    {
+        "branch_name": "FIT HUB PahlawanSidoarjo",
+        "address": "JL Pahlawan, Perumahan Pondok Mutiara Blok BD, No. 1, RT 23 RW 10, Rw6, Sidokumpul, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61212",
+        "region": "Sidoarjo"
+    },
+    {
+        "branch_name": "FIT HUB BaloiPerseroBatam",
+        "address": "Jl. Bunga Raya No.99 Kec. Lubuk Baja, Kota Batam, Kepulauan Riau, Kota Batam, Riau 29444",
+        "region": "Batam"
+    },
+    {
+        "branch_name": "FIT HUB DiengMalan",
+        "address": "Jl. Dieng No.32, Gading Kasri, Kec. Klojen, Kota Malang, Jawa Timur 65146",
+        "region": "Malang"
+    }
+]

@@ -1,0 +1,128 @@
+[
+    {
+        "category": "STRENGTH",
+        "class_name": "Hiit",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "STRENGTH",
+        "class_name": "Core",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "STRENGTH",
+        "class_name": "Circuit",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "STRENGTH",
+        "class_name": "BootyShaping",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "Bodycombat",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "FitCycle",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "StrongNation",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "PoundFit",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "MatPilates",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "FitRush",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "DANCE",
+        "class_name": "HipHopDance",
+        "difficulty": null,
+        "duration": 60
+    },
+    {
+        "category": "MIND & BODY",
+        "class_name": "VinyasaYoga",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "MIND & BODY",
+        "class_name": "KaphaYoga",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "MIND & BODY",
+        "class_name": "LadiesStyleBachata",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "MIND & BODY",
+        "class_name": "ThaiBoxing",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "MIND & BODY",
+        "class_name": "Zumba",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "DANCE",
+        "class_name": "FreestyleDance",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "DANCE",
+        "class_name": "CardioDance",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "STRENGTH",
+        "class_name": "Bootcamp",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "DANCE",
+        "class_name": "BellyDance",
+        "difficulty": "MODERATE",
+        "duration": 60
+    },
+    {
+        "category": "CARDIO",
+        "class_name": "Piloxing",
+        "difficulty": "EASY",
+        "duration": null
+    }
+]

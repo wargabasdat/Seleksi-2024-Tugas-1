@@ -1,0 +1,952 @@
+{
+    "Monday": [
+        {
+            "class_time": "08:00",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Gina",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:15",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Citra",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Rifqi",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "MuayThai",
+            "category": "Strength",
+            "instructor": "BLC",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Mochammad",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "Hadi",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Indris",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "MuayThai",
+            "category": "Strength",
+            "instructor": "BLC",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Restiany",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "PoundUnplugged",
+            "category": "Mind & Body",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "19:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Dimas",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Diva",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Iwan",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "VinyasaYoga",
+            "category": "Mind & Body",
+            "instructor": "Yebi",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "AsthanggaYoga",
+            "category": "Mind & Body",
+            "instructor": "Roni",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "CardioDance",
+            "category": "Mind & Body",
+            "instructor": "Yuki",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        }
+    ],
+    "Tuesday": [
+        {
+            "class_time": "08:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Lia",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Restiany",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "MuayThai",
+            "category": "Strength",
+            "instructor": "BLC",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "BootyShaping",
+            "category": "Strength",
+            "instructor": "Yufiany",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "16:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Chellsea",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "Ricky",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Hiit",
+            "category": "Strength",
+            "instructor": "Ayu",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Hiit",
+            "category": "Strength",
+            "instructor": "Dadi",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Gina",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "PoundUnplugged",
+            "category": "Mind & Body",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "LineDance",
+            "category": "Dance",
+            "instructor": "Luky",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "KPopDance",
+            "category": "Mind & Body",
+            "instructor": "Ixa",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Alexander",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Restiany",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "20:00",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Yebi",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "GentleYoga",
+            "category": "Mind & Body",
+            "instructor": "Mouza",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        }
+    ],
+    "Wednesday": [
+        {
+            "class_time": "07:30",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Erta",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Sisi",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:15",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Dimas",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "09:10",
+            "class_name": "LineDance",
+            "category": "Dance",
+            "instructor": "Luky",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Sahil",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Hiit",
+            "category": "Strength",
+            "instructor": "Ratna",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "MatPilates",
+            "category": "Cardio",
+            "instructor": "Sanny",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "KPopDance",
+            "category": "Mind & Body",
+            "instructor": "William",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Salsation",
+            "category": "Dance",
+            "instructor": "Dina",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Gun",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "MuayThai",
+            "category": "Strength",
+            "instructor": "BLC",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "StrongNation",
+            "category": "Cardio",
+            "instructor": "Yulianna",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "PoundUnplugged",
+            "category": "Mind & Body",
+            "instructor": "Gina",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Citra",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "Deasy",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "GentleYoga",
+            "category": "Mind & Body",
+            "instructor": "Yebi",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Erta",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        }
+    ],
+    "Thursday": [
+        {
+            "class_time": "07:30",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Andy",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Uki",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Ilham",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "BootyShaping",
+            "category": "Strength",
+            "instructor": "Ardha",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "16:00",
+            "class_name": "Hiit",
+            "category": "Strength",
+            "instructor": "Teuku",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "M.",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Liana",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "Azmi",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Salsation",
+            "category": "Dance",
+            "instructor": "Dina",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "LineDance",
+            "category": "Dance",
+            "instructor": "Luky",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "MuayThai",
+            "category": "Strength",
+            "instructor": "BLC",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "CardioDance",
+            "category": "Mind & Body",
+            "instructor": "Yuki",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Lia",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "20:00",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Erta",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "GentleYoga",
+            "category": "Mind & Body",
+            "instructor": "Mouza",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Iwan",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "HARD",
+            "duration": 60
+        }
+    ],
+    "Friday": [
+        {
+            "class_time": "08:00",
+            "class_name": "Hiit",
+            "category": "Strength",
+            "instructor": "Nurul",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:15",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Albert",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "MatPilates",
+            "category": "Cardio",
+            "instructor": "Sanny",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Anantha",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "10:10",
+            "class_name": "BasicYoga",
+            "category": "Mind & Body",
+            "instructor": "Alexander",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Vincentius",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "BootyShaping",
+            "category": "Strength",
+            "instructor": "Medi",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "17:00",
+            "class_name": "CardioDance",
+            "category": "Mind & Body",
+            "instructor": "Dimas",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Stevan",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "KPopDance",
+            "category": "Mind & Body",
+            "instructor": "William",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "18:00",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Gun",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Salsation",
+            "category": "Dance",
+            "instructor": "Dina",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Liana",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "19:05",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Yuki",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "20:00",
+            "class_name": "KPopDance",
+            "category": "Mind & Body",
+            "instructor": "William",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "Poundfit",
+            "category": "Cardio",
+            "instructor": "Feby",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "20:10",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Erta",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        }
+    ],
+    "Saturday": [
+        {
+            "class_time": "08:00",
+            "class_name": "VinyasaYoga",
+            "category": "Mind & Body",
+            "instructor": "Yebi",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Core",
+            "category": "Strength",
+            "instructor": "Deasy",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:15",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "Erik",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "08:00",
+            "class_name": "Circuit",
+            "category": "Strength",
+            "instructor": "Dadi",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:10",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Yuki",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "MatPilates",
+            "category": "Cardio",
+            "instructor": "Sanny",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "BootyShaping",
+            "category": "Strength",
+            "instructor": "Ilham",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "10:00",
+            "class_name": "MuayThai",
+            "category": "Strength",
+            "instructor": "BLC",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "10:30",
+            "class_name": "HathaYoga",
+            "category": "Mind & Body",
+            "instructor": "Yebi",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "10:00",
+            "class_name": "Bodycombat",
+            "category": "Cardio",
+            "instructor": "Gun",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "HARD",
+            "duration": 60
+        }
+    ],
+    "Sunday": [
+        {
+            "class_time": "08:00",
+            "class_name": "Tabata",
+            "category": "Strength",
+            "instructor": "Rahmawati",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "09:10",
+            "class_name": "StrongNation",
+            "category": "Cardio",
+            "instructor": "Yulianna",
+            "branch_name": "FIT HUB BuahBatu",
+            "difficulty": "HARD",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "BootyShaping",
+            "category": "Strength",
+            "instructor": "M.",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Yuki",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "09:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Dimas",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "10:00",
+            "class_name": "Zumba",
+            "category": "Mind & Body",
+            "instructor": "Diva",
+            "branch_name": "FIT HUB SuryaSumantri",
+            "difficulty": "EASY",
+            "duration": 60
+        },
+        {
+            "class_time": "10:00",
+            "class_name": "BootyShaping",
+            "category": "Strength",
+            "instructor": "Ridki",
+            "branch_name": "FIT HUB Kopo",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        },
+        {
+            "class_time": "10:00",
+            "class_name": "VinyasaYoga",
+            "category": "Mind & Body",
+            "instructor": "Mouza",
+            "branch_name": "FIT HUB Lengkong",
+            "difficulty": "MEDIUM",
+            "duration": 60
+        }
+    ]
+}
