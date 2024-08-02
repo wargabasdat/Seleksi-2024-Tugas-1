@@ -22,12 +22,14 @@
   Deskripsi Data
   <br>
 </h2>
+
 Pada tahap kedua Seleksi Warga Basdat 2024, saya memilih topik mengenai dokter spesialis gizi klinik di platform kesehatan online Halodoc. Topik ini berfokus pada para ahli gizi yang dapat melakukan konsultasi secara online melalui Halodoc. Data yang dikumpulkan mencakup informasi penting seperti nama dan gelar, pengalaman kerja (dalam hitungan tahun), lokasi praktik offline, riwayat pendidikan, nomor STR sebagai bukti legalitas, angka rating konsultasi, serta harga konsultasi selama 30 menit. 
-  <br>
+
+
 Proses pengumpulan data dilakukan dengan metode web scraping, yang memungkinkan saya mendapatkan data yang akurat dan terkini. Saya memilih topik ini karena memiliki ketertarikan dalam bidang kesehatan, khususnya gizi, yang semakin relevan dan penting dalam beberapa tahun terakhir. Saya ingin mengetahui lebih dalam tentang para profesional yang menyediakan layanan konsultasi gizi, mengingat meningkatnya kesadaran masyarakat akan pentingnya pola makan yang sehat. 
-  <br>
+
 Selain itu, pengalaman positif saya berkonsultasi tentang gizi di Halodoc mendorong saya untuk mengeksplorasi lebih lanjut dan menganalisis data ini secara sistematis. Dengan membuat basis data (DBMS) untuk topik ini, akan memudahkan untuk melihat detail informasi mengenai masing-masing dokter tanpa harus mencari dan memeriksa halaman web satu per satu secara manual. Ini tidak hanya memudahkan akses informasi, tetapi juga meningkatkan efisiensi dalam mencari layanan konsultasi gizi yang tepat.
-  <br>
+
 
 ## Step 1: Data Scraping
 ### A. Technologies Used
@@ -60,7 +62,7 @@ Selain itu, pengalaman positif saya berkonsultasi tentang gizi di Halodoc mendor
 5. Output
     Setelah menjalankan program, akan dihasilkan output berupa data-data dokter spesialis gizi klinik dari platform Halodoc yang akan ditampilkan pada terminal. Data ini secara otomatis akan disimpan dalam format JSON pada folder data.
 
-### B. Penjelasan struktur file JSON
+### C. Penjelasan struktur file JSON
 Struktur file JSON dari hasil scraping terdiri dari array objek, di mana setiap objek mewakili seorang dokter spesialis gizi klinik. Berikut adalah penjelasan detail mengenai setiap elemen dalam objek:
 
 - **Name**: Nama lengkap dokter beserta gelar akademisnya.
@@ -117,26 +119,32 @@ Hubungan `practice` antara `Doctor` dan `City` dalam ERD merupakan hubungan many
 Diagram relasional tersebut sudah disesuaikan agar dapat diimplementasikan dalam MariaDB dan terdapat beberapa tambahan tabel lain yang relevam berupa `Patient`, `Contact`, dan `Checkup`. Relasi `Patient` menyimpan informasi tentang data Pasien. Relasi `Contact` menyimpan informasi tentang kontak dokter dan pasien. Terakhir, relasi `Checkup` menyimpan informasi tentang pencatatan dokter memeriksa pasien.
 
 ## Hasil Program
+
 ### 1. Hasil Scraping (Output)
 <div align="center">
   <img src="Data Scraping/screenshot/(9)Contoh_Output.png" alt="Output" />
 </div>
+
 ### 2. Menampilkan Data Seluruh Dokter
 <div align="center">
   <img src="Data Storing/screenshot/1.png" alt="1" />
 </div>
+
 ### 3. Menampilkan Data Seluruh Eduacation
 <div align="center">
   <img src="Data Storing/screenshot/11.png" alt="11" />
 </div>
+
 ### 4. Menampilkan Data Seluruh City
 <div align="center">
   <img src="Data Storing/screenshot/13.png" alt="13" />
 </div>
+
 ### 5. Menampilkan Data Seluruh Province
 <div align="center">
   <img src="Data Storing/screenshot/14.png" alt="14" />
 </div>
+
 ### 6. Menampilkan Data Pendidikan yang ditempuh oleh Dr. Fitri Tyas Sp.GK, AIFO-K
 <div align="center">
   <img src="Data Storing/screenshot/10.png" alt="10" />
