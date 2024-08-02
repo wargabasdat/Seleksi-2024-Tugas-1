@@ -40,6 +40,8 @@ The output of the scrapper run is six json files that will be stored in the "Dat
 - Tweaksandquestions_[timestamp].json <br>
 - Users_[timestamp].json <br>
 
+To generate sql files, json files can be processed with the pandas library. The result of querying "insert into" is then merged with the "create table" template to generate a useful sql file. For template and converter code, feel free to contact me!
+
 
 ## JSON Structure
 
