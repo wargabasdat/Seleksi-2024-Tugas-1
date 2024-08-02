@@ -8,68 +8,201 @@
 
 <h2 align="left">
   <br>
-  Singkatnya?
+  Data and the DBMS
   <br>
 </h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
+The database I set up covers basic information about the top 100 stocks in the world at the moment. I took this subject because I'm interested in the stock market and because I believe it's important to know a company's past performance and how it relates to price. Consequently, this database was created. There are things like historical revenue and earnings performance, stock descriptions, stock categories, and other general data.
   <br>
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## How to scrape
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+To scrape the data, I used the BeautifulSoup library in Python. The data was scraped from https://companiesmarketcap.com/. To scrape the 100 companies, i search for the div related to that data. I then, visit related links to extract extra data such as the company's description,category and past performance. The data is then stored in a dictionary and array, to be exported into JSON file.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+By using Beautiful soup and some html knowledge, I was able to locate the exact thing I needed to scrape. I then used the requests library to get the data from the website. After that, I used the json library to store the data in a JSON file.
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+To run the scraper, you can run the following command in the terminal:
 
+```bash
+python 'Data Scraping/src/scrape.py'
+```
 
+To insert the data into the database, you can run the following command in the terminal:
 
+```bash
+python 'Data Scraping/src/insert.py'
+```
+
+Make sure you install all the nessecary dependencies before running the scrape code. In the reference section, I have listed all the dependencies used in this project.
+
+To insert to database, you need to have a MySQL server running. You can change the database configuration in the .env file, based on the .env.example file.
+
+If you encounter some sort of coallition error, you can run the following command, please make sure the version of the mysql-connector-python is 8.0.17.
+
+## JSON Structure
+
+After doing some transformation at the scraping process, here is the data that is stored in the final JSON file:
+
+1. Categories.json
+
+```
+
+{
+"category_name": string,
+"category_description": string
+}
+
+```
+
+2. Companies.json
+
+```
+
+{
+"company_name": string,
+"company_description": string,
+"company_country": string
+}
+
+```
+
+3. Stocks.json
+
+```
+
+{
+"stock_code": string,
+"current_price": number,
+"current_marketcap": number,
+"company_name": string
+}
+
+```
+
+4. Performances.json
+
+```
+
+{
+"stock_code": string,
+"revenue": number,
+"earnings": number
+}
+
+```
+
+5. Countries.json
+
+```
+
+{
+"country_name": string
+}
+
+```
+
+6. Company_Category.json
+
+```
+
+{
+"company_name": string,
+"category_name": string
+}
+
+```
+
+## ERD and Relational Model
+
+### 1. ERD
+
+![Alt text](/Data%20Storing/design/ERD.png)
+
+There are 4 strong entities and 1 weak entitiy in this ERD. The strong entities are Company, Stock, Category, and Country. The weak entity is Performance. In short, this is the description for each entity:
+
+1. Company: Contains the company's name and description. Basically the company's general information.
+2. Stock: Contains the company's stock information such as the stock's name, price, and market cap.
+3. Category: The category that is availabe in this scope
+4. Performance: Contains the company's historical performance such as revenue and earnings.
+5. Country : Contains the country where the company is located.
+
+The relationship between the entities can be seen in the picture.
+
+### 2. Relational Model
+
+![Alt text](/Data%20Storing/design/Relational%20Model.png)
+
+The relational model is derived from the ERD. The tables are as follows:
+
+1. Company : Contains the company's name, description, and FK reference to Country as the country where the company is located.
+2. Stock : Contains the stock's name, price, market cap, and FK reference to Company as the company that the stock belongs to.
+3. Category : Contains the category's name and description.
+4. Performance : Contains the year revenue, earnings, and FK reference to company table as the company that the performance belongs to.
+5. Country : Contains the country's name.
+6. Company_Category : Contains the company's name and category's name as the company's category.
+
+## Translation process
+
+The steps to translate from ERD to Relational Model are as follows:
+
+1. Change all strong entities into tables.
+2. Change all weak entities into tables with the composition of primary key of the strong entity and the discriminator of the weak entity as PK.
+3. Make the many to many relationship into a new table with the primary key of the two entities as the primary key of the new table.
+
+In detail, change the Category, Company, Stock, and Country entities into tables with the PK from ERD as their PK. Then, change the Stock Category relationship into a new table called Stock_category. After that, change the Performance entity into a table with the PK from Company and the year as the PK.
+
+## Screenshots
+
+### Scraping Process
+
+![Alt text](/Data%20Scraping/screenshot/scrape_1.png)
+![Alt text](/Data%20Scraping/screenshot/scrape_2.png)
+
+### Database Results
+
+#### Category table
+
+![Alt text](/Data%20Storing/screenshot/category_1.png)
+![Alt text](/Data%20Storing/screenshot/category_2.png)
+
+#### Stock table
+
+![Alt text](/Data%20Storing/screenshot/stock_1.png)
+![Alt text](/Data%20Storing/screenshot/stock_2.png)
+
+#### Company table
+
+![Alt text](/Data%20Storing/screenshot/company_1.png)
+![Alt text](/Data%20Storing/screenshot/company_2.png)
+
+#### Country table
+
+![Alt text](/Data%20Storing/screenshot/country.png)
+
+#### Stock_Category table
+
+![Alt text](/Data%20Storing/screenshot/stock_category_1.png)
+![Alt text](/Data%20Storing/screenshot/stock_category_2.png)
+
+#### Performance table
+
+![Alt text](/Data%20Storing/screenshot/comp_performance_1.png)
+![Alt text](/Data%20Storing/screenshot/comp_performance_2.png)
+
+## Reference
+
+Some libraries used in this project:
+
+1. BeautifulSoup V4.12.2
+2. aiohttp V3.10.0
+3. mysql-connector-python V8.0.17
+4. python-dotenv V1.0.1
+5. pandas V1.5.1
+6. asyncio V3.4.3
+
+The data is scraped from https://companiesmarketcap.com/
+
+## Author
+
+| Name                      | NIM      | Email                     |
+| ------------------------- | -------- | ------------------------- |
+| Imanuel Sebastian Girsang | 13522058 | imanuelgirsang1@gmail.com |

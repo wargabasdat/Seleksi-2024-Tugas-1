@@ -1,0 +1,463 @@
+[
+  {
+    "stock_code": "AAPL",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "AAPL",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "AAPL",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "AAPL", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "AAPL", "category_name": "\ud83d\udd0c Electronics" },
+  { "stock_code": "AAPL", "category_name": "\ud83e\uddbe AI" },
+  {
+    "stock_code": "0941.HK",
+    "category_name": "\ud83d\udce1 Telecommunication"
+  },
+  { "stock_code": "PM", "category_name": "\ud83d\udeac Tobacco" },
+  { "stock_code": "SPGI", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "MA", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "KO", "category_name": "\ud83e\udd64 Beverages" },
+  { "stock_code": "KO", "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones" },
+  {
+    "stock_code": "NOW",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  { "stock_code": "NOW", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  {
+    "stock_code": "NOW",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "AXP", "category_name": "\ud83d\udcb3 Financial services" },
+  {
+    "stock_code": "AXP",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "MSFT",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "MSFT",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "MSFT",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "MSFT", "category_name": "\ud83c\udfae Video games" },
+  { "stock_code": "MSFT", "category_name": "\ud83e\uddbe AI" },
+  {
+    "stock_code": "ACN",
+    "category_name": "\ud83d\udcbc Professional services"
+  },
+  { "stock_code": "TMUS", "category_name": "\ud83d\udce1 Telecommunication" },
+  { "stock_code": "MCD", "category_name": "\ud83c\udf54 Restaurant chains" },
+  {
+    "stock_code": "MCD",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "MCD", "category_name": "\ud83c\udf74 Food" },
+  { "stock_code": "PG", "category_name": "\ud83d\udecd Consumer goods" },
+  { "stock_code": "PG", "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones" },
+  { "stock_code": "MS", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "MS", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "MS", "category_name": "\ud83d\udcb0 Investment" },
+  { "stock_code": "WFC", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "WFC", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "PRX.AS", "category_name": "\ud83d\udcb0 Investment" },
+  { "stock_code": "GE", "category_name": "\ud83d\ude80 Aerospace" },
+  { "stock_code": "GE", "category_name": "\ud83c\udfd9 Conglomerate" },
+  { "stock_code": "CMCSA", "category_name": "\ud83d\udce1 Telecommunication" },
+  { "stock_code": "CMCSA", "category_name": "\ud83d\udcf0 Media/Press" },
+  { "stock_code": "CMCSA", "category_name": " Entertainment" },
+  {
+    "stock_code": "CAT",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "CAT",
+    "category_name": "\u2699\ufe0f Machinery manufacturing"
+  },
+  { "stock_code": "CAT", "category_name": " \ud83c\udfed Manufacturing" },
+  { "stock_code": "ROG.SW", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "ROG.SW", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "HSBC", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "HSBC", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "NFLX", "category_name": " Entertainment" },
+  { "stock_code": "NFLX", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  {
+    "stock_code": "NFLX",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "CRM",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "CRM",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "CRM",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "DHR", "category_name": "\ud83c\udfd9 Conglomerate" },
+  { "stock_code": "2222.SR", "category_name": "\ud83d\udee2 Oil&Gas" },
+  { "stock_code": "2222.SR", "category_name": " \u26a1 Energy" },
+  { "stock_code": "1398.HK", "category_name": "\ud83c\udfe6 Banks" },
+  {
+    "stock_code": "1398.HK",
+    "category_name": "\ud83d\udcb3 Financial services"
+  },
+  { "stock_code": "VZ", "category_name": "\ud83d\udce1 Telecommunication" },
+  { "stock_code": "VZ", "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones" },
+  { "stock_code": "UNH", "category_name": "\u2695\ufe0f Healthcare" },
+  { "stock_code": "UNH", "category_name": "\ud83c\udfe6 Insurance" },
+  {
+    "stock_code": "UNH",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "TCS.NS",
+    "category_name": "\ud83d\udcbc Professional services"
+  },
+  { "stock_code": "TCS.NS", "category_name": "\ud83d\udda5\ufe0f IT services" },
+  { "stock_code": "UL", "category_name": "\ud83c\udf74 Food" },
+  { "stock_code": "UL", "category_name": "\ud83d\udecd Consumer goods" },
+  { "stock_code": "AMZN", "category_name": "\ud83d\uded2 E-Commerce" },
+  { "stock_code": "AMZN", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  {
+    "stock_code": "AMZN",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "AMZN", "category_name": "\ud83d\udecd\ufe0f Retail" },
+  {
+    "stock_code": "AMZN",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "600519.SS",
+    "category_name": "\ud83c\udf77 Alcoholic beverages"
+  },
+  { "stock_code": "600519.SS", "category_name": "\ud83e\udd64 Beverages" },
+  { "stock_code": "MRK", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  {
+    "stock_code": "MRK",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "MRK", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "WMT", "category_name": "\ud83d\udecd\ufe0f Retail" },
+  {
+    "stock_code": "WMT",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "WMT", "category_name": " \ud83d\uded2 Supermarket Chains" },
+  { "stock_code": "601288.SS", "category_name": "\ud83c\udfe6 Banks" },
+  {
+    "stock_code": "601288.SS",
+    "category_name": "\ud83d\udcb3 Financial services"
+  },
+  { "stock_code": "AZN", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "AZN", "category_name": "\ud83e\uddec Biotech" },
+  {
+    "stock_code": "TCEHY",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "TCEHY", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  { "stock_code": "TCEHY", "category_name": "\ud83c\udfae Video games" },
+  { "stock_code": "TCEHY", "category_name": "\ud83d\udd79\ufe0f Esports" },
+  { "stock_code": "IHC.AE", "category_name": "\ud83d\udcb0 Investment" },
+  { "stock_code": "IHC.AE", "category_name": "\ud83c\udfd9 Conglomerate" },
+  { "stock_code": "BRK-B", "category_name": "\ud83d\udcb0 Investment" },
+  { "stock_code": "PEP", "category_name": "\ud83e\udd64 Beverages" },
+  { "stock_code": "JPM", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "JPM", "category_name": "\ud83d\udcb3 Financial services" },
+  {
+    "stock_code": "JPM",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "AMD",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "AMD", "category_name": "\ud83d\udcdf Semiconductors" },
+  { "stock_code": "AMD", "category_name": "\ud83d\udd0c Electronics" },
+  { "stock_code": "AMD", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "PDD", "category_name": "\ud83d\uded2 E-Commerce" },
+  { "stock_code": "PDD", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  {
+    "stock_code": "PDD",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "DIS", "category_name": " Entertainment" },
+  {
+    "stock_code": "DIS",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "HD", "category_name": "\ud83d\udecd\ufe0f Retail" },
+  { "stock_code": "HD", "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones" },
+  { "stock_code": "RMS.PA", "category_name": "\u231a Luxury goods" },
+  {
+    "stock_code": "RMS.PA",
+    "category_name": "\ud83c\uddeb\ud83c\uddf7 CAC 40"
+  },
+  { "stock_code": "RMS.PA", "category_name": "\ud83d\udc5a Clothing" },
+  { "stock_code": "ABT", "category_name": " Medical devices" },
+  { "stock_code": "BAC", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "BAC", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "ISRG", "category_name": " Medical devices" },
+  { "stock_code": "601857.SS", "category_name": "\ud83d\udee2 Oil&Gas" },
+  { "stock_code": "601857.SS", "category_name": " \u26a1 Energy" },
+  { "stock_code": "CBA.AX", "category_name": "\ud83c\udfe6 Banks" },
+  {
+    "stock_code": "CBA.AX",
+    "category_name": "\ud83d\udcb3 Financial services"
+  },
+  { "stock_code": "TSM", "category_name": "\ud83d\udcdf Semiconductors" },
+  {
+    "stock_code": "TSM",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "TSM", "category_name": " \ud83c\udfed Manufacturing" },
+  { "stock_code": "TSM", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "CVX", "category_name": "\ud83d\udee2 Oil&Gas" },
+  {
+    "stock_code": "CVX",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "CVX", "category_name": " \u26a1 Energy" },
+  {
+    "stock_code": "CSCO",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "CSCO", "category_name": "\ud83d\udd0c Electronics" },
+  { "stock_code": "CSCO", "category_name": "\ud83d\udcde Networking hardware" },
+  {
+    "stock_code": "CSCO",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  {
+    "stock_code": "CSCO",
+    "category_name": " \ud83d\udce1 Telecommunications equipment"
+  },
+  { "stock_code": "CSCO", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "AMGN", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  {
+    "stock_code": "AMGN",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "AMGN", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "RELIANCE.NS", "category_name": "\ud83c\udfd9 Conglomerate" },
+  { "stock_code": "COST", "category_name": "\ud83d\udecd\ufe0f Retail" },
+  { "stock_code": "COST", "category_name": " \ud83d\uded2 Supermarket Chains" },
+  { "stock_code": "NVO", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "NVO", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "RY", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "RY", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "TXN", "category_name": "\ud83d\udcdf Semiconductors" },
+  {
+    "stock_code": "TXN",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "TXN", "category_name": "\ud83d\udcbb Tech Hardware" },
+  {
+    "stock_code": "META",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "META", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  { "stock_code": "META", "category_name": "\ud83e\uddbe AI" },
+  { "stock_code": "NEE", "category_name": " \u26a1 Energy" },
+  { "stock_code": "NEE", "category_name": "\ud83d\udd0b Electricity" },
+  { "stock_code": "NEE", "category_name": "\ud83d\udeb0 Utility companies" },
+  { "stock_code": "NEE", "category_name": "\ud83c\udf1e Renewable energy" },
+  { "stock_code": "LLY", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "LLY", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "SHEL", "category_name": "\ud83d\udee2 Oil&Gas" },
+  { "stock_code": "SHEL", "category_name": " \u26a1 Energy" },
+  { "stock_code": "601939.SS", "category_name": "\ud83c\udfe6 Banks" },
+  {
+    "stock_code": "601939.SS",
+    "category_name": "\ud83d\udcb3 Financial services"
+  },
+  { "stock_code": "GS", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "GS", "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones" },
+  { "stock_code": "GS", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "JNJ", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  {
+    "stock_code": "JNJ",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "JNJ", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "ABBV", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "ABBV", "category_name": "\ud83e\uddec Biotech" },
+  {
+    "stock_code": "SAP",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "SAP",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  { "stock_code": "SAP", "category_name": "\ud83c\udde9\ud83c\uddea DAX" },
+  { "stock_code": "UNP", "category_name": "\ud83d\ude82 Railways" },
+  { "stock_code": "UNP", "category_name": "\ud83d\ude9a Transportation" },
+  { "stock_code": "UNP", "category_name": "\ud83d\udee3\ufe0f Infrastructure" },
+  {
+    "stock_code": "NVDA",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "NVDA", "category_name": "\ud83d\udcdf Semiconductors" },
+  { "stock_code": "NVDA", "category_name": "\ud83d\udd0c Electronics" },
+  { "stock_code": "NVDA", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "NVDA", "category_name": "\ud83e\udd16 Autonomous driving" },
+  { "stock_code": "NVDA", "category_name": "\ud83e\uddbe AI" },
+  { "stock_code": "FMX", "category_name": "\ud83e\udd64 Beverages" },
+  { "stock_code": "LIN", "category_name": "\ud83e\uddea Chemicals" },
+  {
+    "stock_code": "TMO",
+    "category_name": "\ud83d\udd2c Scientific & Technical Instruments"
+  },
+  {
+    "stock_code": "TMO",
+    "category_name": "\u2695\ufe0f Diagnostics and Testing"
+  },
+  { "stock_code": "TMO", "category_name": "\ud83e\uddec Biotech" },
+  { "stock_code": "T", "category_name": "\ud83d\udce1 Telecommunication" },
+  { "stock_code": "GOOG", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  {
+    "stock_code": "GOOG",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "GOOG",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  { "stock_code": "GOOG", "category_name": "\ud83e\udd16 Autonomous driving" },
+  { "stock_code": "GOOG", "category_name": "\ud83e\uddbe AI" },
+  { "stock_code": "OR.PA", "category_name": "\ud83d\udecd Consumer goods" },
+  { "stock_code": "OR.PA", "category_name": "\ud83c\uddeb\ud83c\uddf7 CAC 40" },
+  {
+    "stock_code": "OR.PA",
+    "category_name": "\ud83d\udc84 Cosmetics and Beauty"
+  },
+  { "stock_code": "HDB", "category_name": "\ud83c\udfe6 Banks" },
+  { "stock_code": "HDB", "category_name": "\ud83d\udcb3 Financial services" },
+  {
+    "stock_code": "IBM",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "IBM",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "IBM",
+    "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones"
+  },
+  { "stock_code": "IBM", "category_name": "\ud83e\uddbe AI" },
+  { "stock_code": "V", "category_name": "\ud83d\udcb3 Financial services" },
+  { "stock_code": "V", "category_name": "\ud83c\uddfa\ud83c\uddf8 Dow jones" },
+  { "stock_code": "XOM", "category_name": "\ud83d\udee2 Oil&Gas" },
+  { "stock_code": "XOM", "category_name": " \u26a1 Energy" },
+  { "stock_code": "AVGO", "category_name": "\ud83d\udcdf Semiconductors" },
+  {
+    "stock_code": "AVGO",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  {
+    "stock_code": "ORCL",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "ORCL",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "ASML", "category_name": "\ud83d\udcdf Semiconductors" },
+  {
+    "stock_code": "ASML",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "ASML", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "TM", "category_name": "\ud83d\ude97 Automakers" },
+  { "stock_code": "TM", "category_name": " \ud83c\udfed Manufacturing" },
+  { "stock_code": "AMAT", "category_name": "\ud83d\udcdf Semiconductors" },
+  {
+    "stock_code": "AMAT",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "AMAT", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "NVS", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "NVS", "category_name": "\ud83e\uddec Biotech" },
+  {
+    "stock_code": "005930.KS",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "005930.KS", "category_name": "\ud83d\udd0c Electronics" },
+  { "stock_code": "005930.KS", "category_name": "\ud83d\udcbb Tech Hardware" },
+  { "stock_code": "005930.KS", "category_name": " \ud83c\udfed Manufacturing" },
+  { "stock_code": "005930.KS", "category_name": "\ud83d\udcdf Semiconductors" },
+  { "stock_code": "601988.SS", "category_name": "\ud83c\udfe6 Banks" },
+  {
+    "stock_code": "601988.SS",
+    "category_name": "\ud83d\udcb3 Financial services"
+  },
+  { "stock_code": "TSLA", "category_name": "\ud83d\ude97 Automakers" },
+  {
+    "stock_code": "TSLA",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "TSLA", "category_name": "\ud83d\udd0b Electric Vehicles" },
+  { "stock_code": "TSLA", "category_name": " \u20bf Bitcoin" },
+  { "stock_code": "TSLA", "category_name": " \ud83c\udfed Manufacturing" },
+  { "stock_code": "TSLA", "category_name": "\ud83d\udd0c\u200b EV charging" },
+  { "stock_code": "TSLA", "category_name": "\ud83e\udd16 Autonomous driving" },
+  { "stock_code": "TSLA", "category_name": "\ud83e\uddbe AI" },
+  { "stock_code": "MC.PA", "category_name": "\u231a Luxury goods" },
+  { "stock_code": "MC.PA", "category_name": "\ud83c\uddeb\ud83c\uddf7 CAC 40" },
+  { "stock_code": "MC.PA", "category_name": "\ud83d\udc5a Clothing" },
+  {
+    "stock_code": "INTU",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "INTU",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "BABA", "category_name": "\ud83d\uded2 E-Commerce" },
+  {
+    "stock_code": "BABA",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "BABA", "category_name": "\ud83d\udda5\ufe0f Internet" },
+  { "stock_code": "BABA", "category_name": "\ud83d\udecd\ufe0f Retail" },
+  { "stock_code": "NESN.SW", "category_name": "\ud83c\udf74 Food" },
+  {
+    "stock_code": "ADBE",
+    "category_name": "\n\ud83d\udc68\u200d\ud83d\udcbb Software"
+  },
+  {
+    "stock_code": "ADBE",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "ADBE", "category_name": "\ud83e\uddbe AI" },
+  { "stock_code": "RTX", "category_name": "\ud83d\ude80 Aerospace" },
+  { "stock_code": "RTX", "category_name": "\ud83d\udd2b Defense contractors" },
+  { "stock_code": "TTE", "category_name": "\ud83d\udee2 Oil&Gas" },
+  { "stock_code": "TTE", "category_name": " \u26a1 Energy" },
+  { "stock_code": "TTE", "category_name": "\ud83c\uddeb\ud83c\uddf7 CAC 40" },
+  { "stock_code": "IDEXY", "category_name": "\ud83d\udc5a Clothing" },
+  { "stock_code": "IDEXY", "category_name": "\ud83d\udecd\ufe0f Retail" },
+  { "stock_code": "PFE", "category_name": "\ud83d\udc8a Pharmaceuticals" },
+  { "stock_code": "PFE", "category_name": "\ud83e\uddec Biotech" },
+  {
+    "stock_code": "QCOM",
+    "category_name": "\ud83d\udc69\u200d\ud83d\udcbb Tech"
+  },
+  { "stock_code": "QCOM", "category_name": "\ud83d\udcdf Semiconductors" },
+  { "stock_code": "QCOM", "category_name": "\ud83d\udcbb Tech Hardware" }
+]
