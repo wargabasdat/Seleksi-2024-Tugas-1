@@ -532,10 +532,6 @@
         "ingredient_id": "359"
     },
     {
-        "food_id": "537247",
-        "ingredient_id": "537246"
-    },
-    {
         "food_id": "428004",
         "ingredient_id": "106"
     },
@@ -1478,14 +1474,6 @@
     {
         "food_id": "455488",
         "ingredient_id": "335"
-    },
-    {
-        "food_id": "455488",
-        "ingredient_id": "521408"
-    },
-    {
-        "food_id": "455488",
-        "ingredient_id": "526380"
     },
     {
         "food_id": "82509",

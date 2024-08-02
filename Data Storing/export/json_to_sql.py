@@ -51,7 +51,7 @@ def json_to_sql(json_folder_path):
     return sqls
 
 def merge_table_and_data(filename):
-    create_table_file = 'Data Storing/export/template_create_table.sql'
+    create_table_file = 'Data Storing/export/template_init.sql'
     insert_data_file = 'Data Storing/export/' + filename
     merged_file = f'Data Storing/export/food_{generate_timestamp()}.sql'
 

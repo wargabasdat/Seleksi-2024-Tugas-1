@@ -1,4 +1,4 @@
 *.txt
 insert_data_*.sql
 __pycache__
-template_create_table.sql
+template_init.sql

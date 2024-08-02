@@ -13,7 +13,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 def scrape_recipe_links():
-    with open('Data Scraping/data/source_link.txt', 'r') as file:
+    with open('Data Scraping/data/root_link.txt', 'r') as file:
         links = file.readlines()
 
     coll_of_url = []
@@ -33,16 +33,16 @@ def scrape_recipe_links():
         except Exception as e:
             print(f"Error: {e}")
 
-    with open('Data Scraping/data/recipe_links.txt', 'w') as txtfile: 
+    with open('Data Scraping/data/recipe_link.txt', 'w') as txtfile: 
         for url in coll_of_url:
             txtfile.write(url + '\n')
 
 def scrape_recipes(): 
-    with open(r'Data Scraping\data\user_links.txt', 'w+') as txtfile: 
+    with open('Data Scraping/data/user_link.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
-    with open(r'Data Scraping\data\ingredient_links.txt', 'w+') as txtfile: 
+    with open('Data Scraping/data/ingredient_link.txt', 'w+') as txtfile: 
         txtfile.truncate(0) 
-    with open('Data Scraping/data/recipe_links.txt', 'r') as file:
+    with open('Data Scraping/data/recipe_link.txt', 'r') as file:
         recipe_links = file.readlines()
 
     recipes = []
@@ -256,11 +256,11 @@ def scrape_recipes():
         with open('Data Scraping/data/reviews_' + generate_timestamp() + '.json', 'w') as jsonfile:
             json.dump(reviews, jsonfile, indent=4)
 
-        with open('Data Scraping/data/user_links.txt', 'a') as txtfile:
+        with open('Data Scraping/data/user_link.txt', 'a') as txtfile:
             for user_link in user_links:
                 txtfile.write(user_link + '\n')
 
-        with open('Data Scraping/data/ingredient_links.txt', 'a') as txtfile:
+        with open('Data Scraping/data/ingredient_link.txt', 'a') as txtfile:
             for ingredient_link in ingredient_links:
                 txtfile.write(ingredient_link + '\n')
 
@@ -270,7 +270,7 @@ def scrape_recipes():
         logger.error(f"Error: {e}")
 
 def scrape_ingredients():
-    with open('Data Scraping/data/ingredient_links.txt', 'r') as file:
+    with open('Data Scraping/data/ingredient_link.txt', 'r') as file:
         links = file.readlines()
     
     ingredients = []
@@ -359,7 +359,7 @@ def scrape_ingredients():
         logger.error(f"Error: {e}")
 
 def scrape_users():
-    with open('Data Scraping/data/user_links.txt', 'r') as file:
+    with open('Data Scraping/data/user_link.txt', 'r') as file:
         links = file.readlines()
 
     users = []
@@ -435,7 +435,7 @@ def generate_timestamp():
     return timestamp
         
 def scrape_all():
-    # scrape_recipe_links()
+    scrape_recipe_links()
     scrape_recipes()
     # scrape_ingredients()
     # scrape_users()
