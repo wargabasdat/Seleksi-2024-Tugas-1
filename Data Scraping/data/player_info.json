@@ -1,0 +1,1370 @@
+[
+    {
+        "Name": "Amaluddin Ragol",
+        "Height": "194",
+        "Shirt Number": "19",
+        "Position": "C"
+    },
+    {
+        "Name": "Anthony Denell January Jr.",
+        "Height": "202",
+        "Shirt Number": "44",
+        "Position": "C"
+    },
+    {
+        "Name": "Dandung O'neal Pamungkas",
+        "Height": "185",
+        "Shirt Number": "6",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Diftha Pratama",
+        "Height": "183",
+        "Shirt Number": "1",
+        "Position": "SG"
+    },
+    {
+        "Name": "Fisyaiful Amir",
+        "Height": "183",
+        "Shirt Number": "17",
+        "Position": "SG"
+    },
+    {
+        "Name": "Govinda Julian Saputra",
+        "Height": "194",
+        "Shirt Number": "20",
+        "Position": "SF"
+    },
+    {
+        "Name": "Gunawan Gunawan",
+        "Height": "190",
+        "Shirt Number": "13",
+        "Position": "SG"
+    },
+    {
+        "Name": "Kelly Purwanto",
+        "Height": "178",
+        "Shirt Number": "3",
+        "Position": "PG"
+    },
+    {
+        "Name": "Michael Ayodele Kolawole",
+        "Height": "195",
+        "Shirt Number": "5",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Muhammed Aofar Hedyan",
+        "Height": "180",
+        "Shirt Number": "0",
+        "Position": "PG"
+    },
+    {
+        "Name": "Rizky Agung Pranata",
+        "Height": "190",
+        "Shirt Number": "34",
+        "Position": "SF"
+    },
+    {
+        "Name": "Stevan Wilfredo Neno",
+        "Height": "180",
+        "Shirt Number": "11",
+        "Position": "SG"
+    },
+    {
+        "Name": "Thomas Hugo R De Thaey",
+        "Height": "198",
+        "Shirt Number": "31",
+        "Position": "C"
+    },
+    {
+        "Name": "Tri Hartanto",
+        "Height": "197",
+        "Shirt Number": "33",
+        "Position": "C"
+    },
+    {
+        "Name": "Yogi Saputra Chan",
+        "Height": "188",
+        "Shirt Number": "12",
+        "Position": "SF"
+    },
+    {
+        "Name": "Yosua Otto Sunarko Judaprajitna",
+        "Height": "195",
+        "Shirt Number": "21",
+        "Position": "PF"
+    },
+    {
+        "Name": "Abraham R. Wenas",
+        "Height": "174",
+        "Shirt Number": "6",
+        "Position": "PG"
+    },
+    {
+        "Name": "Anak Agung Gede Agung Bagus",
+        "Height": "0",
+        "Shirt Number": "18",
+        "Position": "PF"
+    },
+    {
+        "Name": "Bima Riski Ardiansyah",
+        "Height": "182",
+        "Shirt Number": "27",
+        "Position": "SF"
+    },
+    {
+        "Name": "Galank Gunawan",
+        "Height": "198",
+        "Shirt Number": "66",
+        "Position": "C"
+    },
+    {
+        "Name": "Gede Elgi Wimbardi",
+        "Height": "178",
+        "Shirt Number": "7",
+        "Position": "PG"
+    },
+    {
+        "Name": "Irvine Kurniawan",
+        "Height": "173",
+        "Shirt Number": "10",
+        "Position": "PG"
+    },
+    {
+        "Name": "Kierell Ardarius Green",
+        "Height": "197",
+        "Shirt Number": "12",
+        "Position": "C"
+    },
+    {
+        "Name": "Lutfi Alfian Eka Koswara",
+        "Height": "184",
+        "Shirt Number": "5",
+        "Position": "SG"
+    },
+    {
+        "Name": "Ponsianus Nyoman Indrawan",
+        "Height": "193",
+        "Shirt Number": "13",
+        "Position": "C"
+    },
+    {
+        "Name": "Putu J. Satria Pande",
+        "Height": "196",
+        "Shirt Number": "24",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Rico Aditya Putra",
+        "Height": "196",
+        "Shirt Number": "8",
+        "Position": "PF"
+    },
+    {
+        "Name": "Rivaldo Tomatala",
+        "Height": "194",
+        "Shirt Number": "28",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Ryan Taylor Batte",
+        "Height": "192",
+        "Shirt Number": "44",
+        "Position": "F"
+    },
+    {
+        "Name": "Surliyadin Surliyadin",
+        "Height": "188",
+        "Shirt Number": "52",
+        "Position": "SF"
+    },
+    {
+        "Name": "Xavier Charles Cannefax",
+        "Height": "184",
+        "Shirt Number": "1",
+        "Position": "F"
+    },
+    {
+        "Name": "Ali Mustofa",
+        "Height": "187",
+        "Shirt Number": "12",
+        "Position": "F"
+    },
+    {
+        "Name": "Andre Rizqiano",
+        "Height": "183",
+        "Shirt Number": "13",
+        "Position": "G"
+    },
+    {
+        "Name": "Avin Kurniawan",
+        "Height": "178",
+        "Shirt Number": "8",
+        "Position": "G"
+    },
+    {
+        "Name": "Bayu Bima Prasetya",
+        "Height": "180",
+        "Shirt Number": "7",
+        "Position": "G"
+    },
+    {
+        "Name": "Brandis Raley Ross",
+        "Height": "187",
+        "Shirt Number": "5",
+        "Position": "G"
+    },
+    {
+        "Name": "Feliciano Perez Neto",
+        "Height": "209",
+        "Shirt Number": "94",
+        "Position": "C/F"
+    },
+    {
+        "Name": "Garrius De Marquise Holloman",
+        "Height": "198",
+        "Shirt Number": "23",
+        "Position": "F"
+    },
+    {
+        "Name": "Habib Ahmeda Annur",
+        "Height": "189",
+        "Shirt Number": "18",
+        "Position": "F"
+    },
+    {
+        "Name": "Handri Satrya Santosa",
+        "Height": "182",
+        "Shirt Number": "9",
+        "Position": "G"
+    },
+    {
+        "Name": "Jonathan Komagum",
+        "Height": "0",
+        "Shirt Number": "21",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Joseph Paian De Smet",
+        "Height": "176",
+        "Shirt Number": "11",
+        "Position": "G"
+    },
+    {
+        "Name": "Moh Saroni",
+        "Height": "199",
+        "Shirt Number": "24",
+        "Position": "C"
+    },
+    {
+        "Name": "Muhammad Mukhlisin",
+        "Height": "179",
+        "Shirt Number": "1",
+        "Position": "G"
+    },
+    {
+        "Name": "Muhammad Rifqi Lubis",
+        "Height": "178",
+        "Shirt Number": "2",
+        "Position": "G"
+    },
+    {
+        "Name": "Restu Dwi Purnomo",
+        "Height": "192",
+        "Shirt Number": "32",
+        "Position": "F"
+    },
+    {
+        "Name": "A. A Ngurah Wisnu Budidharma",
+        "Height": "180",
+        "Shirt Number": "8",
+        "Position": "G"
+    },
+    {
+        "Name": "Agam Subastian",
+        "Height": "165",
+        "Shirt Number": "4",
+        "Position": "G"
+    },
+    {
+        "Name": "Akeem Scott",
+        "Height": "180",
+        "Shirt Number": "1",
+        "Position": "G"
+    },
+    {
+        "Name": "Baltazar Noerisqun Wasi",
+        "Height": "188",
+        "Shirt Number": "12",
+        "Position": "F"
+    },
+    {
+        "Name": "Calvin Chrissler",
+        "Height": "175",
+        "Shirt Number": "11",
+        "Position": "G"
+    },
+    {
+        "Name": "Daniel Timothy Wenas",
+        "Height": "190",
+        "Shirt Number": "5",
+        "Position": "SF"
+    },
+    {
+        "Name": "Jamarr Andre Johnson",
+        "Height": "198",
+        "Shirt Number": "71",
+        "Position": "G"
+    },
+    {
+        "Name": "Michael Rashad Qualls",
+        "Height": "196",
+        "Shirt Number": "24",
+        "Position": "G"
+    },
+    {
+        "Name": "Muhammad Rizky Ari Daffa",
+        "Height": "194",
+        "Shirt Number": "13",
+        "Position": "C"
+    },
+    {
+        "Name": "Pondra Purnawan Anjas",
+        "Height": "177",
+        "Shirt Number": "10",
+        "Position": "F"
+    },
+    {
+        "Name": "Raymond Shariputra",
+        "Height": "181",
+        "Shirt Number": "22",
+        "Position": "F"
+    },
+    {
+        "Name": "Sevly Victory A. Rondonuwu",
+        "Height": "173",
+        "Shirt Number": "9",
+        "Position": "G"
+    },
+    {
+        "Name": "Steve Taylor Jr",
+        "Height": "203",
+        "Shirt Number": "25",
+        "Position": "F"
+    },
+    {
+        "Name": "Steven Orlando",
+        "Height": "183",
+        "Shirt Number": "7",
+        "Position": "G"
+    },
+    {
+        "Name": "Sultan Prawira",
+        "Height": "179",
+        "Shirt Number": "3",
+        "Position": "F"
+    },
+    {
+        "Name": "Valentino Wuwungan",
+        "Height": "192",
+        "Shirt Number": "23",
+        "Position": "C"
+    },
+    {
+        "Name": "Bryan Fernando Korisano",
+        "Height": "183",
+        "Shirt Number": "3",
+        "Position": "PG"
+    },
+    {
+        "Name": "Darryl Winata",
+        "Height": "176",
+        "Shirt Number": "10",
+        "Position": "SG"
+    },
+    {
+        "Name": "Dio Tirta Saputra",
+        "Height": "190",
+        "Shirt Number": "25",
+        "Position": "F"
+    },
+    {
+        "Name": "Febrianus Khiandio",
+        "Height": "181",
+        "Shirt Number": "23",
+        "Position": "SG"
+    },
+    {
+        "Name": "Firman Dwi Nugroho",
+        "Height": "202",
+        "Shirt Number": "16",
+        "Position": "C"
+    },
+    {
+        "Name": "Gelvis Andres Solano Paulino",
+        "Height": "185",
+        "Shirt Number": "4",
+        "Position": "PG"
+    },
+    {
+        "Name": "Hardianus Hardianus",
+        "Height": "0",
+        "Shirt Number": "2",
+        "Position": "PG"
+    },
+    {
+        "Name": "Jordan Oei",
+        "Height": "183",
+        "Shirt Number": "24",
+        "Position": "SG"
+    },
+    {
+        "Name": "Jordan Lavell Adams",
+        "Height": "194",
+        "Shirt Number": "5",
+        "Position": "F"
+    },
+    {
+        "Name": "Kaleb Ramot Gemilang",
+        "Height": "184",
+        "Shirt Number": "13",
+        "Position": "F"
+    },
+    {
+        "Name": "Kristian Liem",
+        "Height": "201",
+        "Shirt Number": "99",
+        "Position": "C"
+    },
+    {
+        "Name": "Lester Prosper",
+        "Height": "209",
+        "Shirt Number": "32",
+        "Position": "C"
+    },
+    {
+        "Name": "Lucky Abdi Pasondok",
+        "Height": "180",
+        "Shirt Number": "7",
+        "Position": "PG"
+    },
+    {
+        "Name": "Patrick Nikolas",
+        "Height": "187",
+        "Shirt Number": "8",
+        "Position": "PF"
+    },
+    {
+        "Name": "Radithyo Wibowo",
+        "Height": "177",
+        "Shirt Number": "55",
+        "Position": "PG"
+    },
+    {
+        "Name": "Rio Disi",
+        "Height": "185",
+        "Shirt Number": "9",
+        "Position": "SG"
+    },
+    {
+        "Name": "Tavario Earnest Ptristian Miller",
+        "Height": "0",
+        "Shirt Number": "11",
+        "Position": "C"
+    },
+    {
+        "Name": "Andre Rorimpandey",
+        "Height": "177",
+        "Shirt Number": "11",
+        "Position": "G"
+    },
+    {
+        "Name": "Andre Adrianno",
+        "Height": "178",
+        "Shirt Number": "7",
+        "Position": "SG"
+    },
+    {
+        "Name": "Bagus Dwi Cahyono",
+        "Height": "175",
+        "Shirt Number": "6",
+        "Position": "SG"
+    },
+    {
+        "Name": "Bryan Adha Elang Praditya",
+        "Height": "196",
+        "Shirt Number": "18",
+        "Position": "C"
+    },
+    {
+        "Name": "Chanceler James Gettys",
+        "Height": "213",
+        "Shirt Number": "34",
+        "Position": "C"
+    },
+    {
+        "Name": "Esha Lapian",
+        "Height": "189",
+        "Shirt Number": "12",
+        "Position": "F"
+    },
+    {
+        "Name": "Ferdian Dwi Purwoko",
+        "Height": "188",
+        "Shirt Number": "2",
+        "Position": "PF"
+    },
+    {
+        "Name": "Hengki Infandi",
+        "Height": "180",
+        "Shirt Number": "29",
+        "Position": "SF"
+    },
+    {
+        "Name": "Katon Adjie Baskoro",
+        "Height": "184",
+        "Shirt Number": "17",
+        "Position": "SG"
+    },
+    {
+        "Name": "Kentrell Debarus Barkley",
+        "Height": "194",
+        "Shirt Number": "24",
+        "Position": "SF"
+    },
+    {
+        "Name": "Kevin Moses Eliazer Poetiray",
+        "Height": "184",
+        "Shirt Number": "22",
+        "Position": "SG/"
+    },
+    {
+        "Name": "Nuke Tri Saputra",
+        "Height": "177",
+        "Shirt Number": "3",
+        "Position": "G"
+    },
+    {
+        "Name": "Ruslan Ruslan",
+        "Height": "197",
+        "Shirt Number": "23",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Samuel Devin Susanto",
+        "Height": "178",
+        "Shirt Number": "1",
+        "Position": "PG"
+    },
+    {
+        "Name": "Tifan Eka Pradita",
+        "Height": "178",
+        "Shirt Number": "5",
+        "Position": "PG"
+    },
+    {
+        "Name": "Travin Marquell Thibodeaux",
+        "Height": "197",
+        "Shirt Number": "25",
+        "Position": "F"
+    },
+    {
+        "Name": "Aditya Bagaskara",
+        "Height": "185",
+        "Shirt Number": "10",
+        "Position": "SG"
+    },
+    {
+        "Name": "Aven Ryan Pratama",
+        "Height": "0",
+        "Shirt Number": "14",
+        "Position": "PF"
+    },
+    {
+        "Name": "Boby Gillian Wibisono",
+        "Height": "195",
+        "Shirt Number": "31",
+        "Position": "PF"
+    },
+    {
+        "Name": "Christian Yudha",
+        "Height": "185",
+        "Shirt Number": "0",
+        "Position": "PF"
+    },
+    {
+        "Name": "Daffa Dhoifullah",
+        "Height": "185",
+        "Shirt Number": "9",
+        "Position": "PG"
+    },
+    {
+        "Name": "Dio Freedo Putra",
+        "Height": "175",
+        "Shirt Number": "1",
+        "Position": "PG"
+    },
+    {
+        "Name": "Faishal Luqmanul Hakim",
+        "Height": "183",
+        "Shirt Number": "24",
+        "Position": "SF"
+    },
+    {
+        "Name": "Firdan Maulana Kusnadi",
+        "Height": "183",
+        "Shirt Number": "29",
+        "Position": "SF"
+    },
+    {
+        "Name": "Frederico Nathaniel Darmawan",
+        "Height": "173",
+        "Shirt Number": "3",
+        "Position": "SG"
+    },
+    {
+        "Name": "Gregorio Claudie Wibowo",
+        "Height": "182",
+        "Shirt Number": "7",
+        "Position": "SF"
+    },
+    {
+        "Name": "Jaylyn Maurice Richardson",
+        "Height": "189",
+        "Shirt Number": "2",
+        "Position": "PG"
+    },
+    {
+        "Name": "Keljin Deshawn Blevins",
+        "Height": "198",
+        "Shirt Number": "21",
+        "Position": "PF"
+    },
+    {
+        "Name": "Muhammad Aulaz Ariezky",
+        "Height": "185",
+        "Shirt Number": "8",
+        "Position": "SG"
+    },
+    {
+        "Name": "Muhammad Iqbal Hardianto",
+        "Height": "180",
+        "Shirt Number": "22",
+        "Position": "PF"
+    },
+    {
+        "Name": "Senakusuma Aryo Ibrahim",
+        "Height": "190",
+        "Shirt Number": "15",
+        "Position": "PF"
+    },
+    {
+        "Name": "Stephen Lane Hurt",
+        "Height": "208",
+        "Shirt Number": "4",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Yonatan Yonatan",
+        "Height": "189",
+        "Shirt Number": "12",
+        "Position": "C/F"
+    },
+    {
+        "Name": "Abiyyu Ramadhan",
+        "Height": "196",
+        "Shirt Number": "4",
+        "Position": "F"
+    },
+    {
+        "Name": "Agassi Yeshe Goantara",
+        "Height": "187",
+        "Shirt Number": "9",
+        "Position": "G"
+    },
+    {
+        "Name": "Aldy Izzatur Rachman",
+        "Height": "192",
+        "Shirt Number": "11",
+        "Position": "F"
+    },
+    {
+        "Name": "Andakara Prastawa Dhyaksa",
+        "Height": "173",
+        "Shirt Number": "7",
+        "Position": "G"
+    },
+    {
+        "Name": "Anto Febryanto Boyratan",
+        "Height": "196",
+        "Shirt Number": "22",
+        "Position": "C"
+    },
+    {
+        "Name": "Brandon Van Dorn Jawato",
+        "Height": "193",
+        "Shirt Number": "13",
+        "Position": "F"
+    },
+    {
+        "Name": "Greans Chandra Bartes Tangkulung",
+        "Height": "178",
+        "Shirt Number": "17",
+        "Position": "G"
+    },
+    {
+        "Name": "Hendrick Xavi Yonga",
+        "Height": "183",
+        "Shirt Number": "21",
+        "Position": "F"
+    },
+    {
+        "Name": "James L Dickey III",
+        "Height": "208",
+        "Shirt Number": "2",
+        "Position": "C"
+    },
+    {
+        "Name": "Jerome Anthony Beane JR",
+        "Height": "180",
+        "Shirt Number": "8",
+        "Position": "G"
+    },
+    {
+        "Name": "Justin Donta Brownlee",
+        "Height": "197",
+        "Shirt Number": "24",
+        "Position": "G"
+    },
+    {
+        "Name": "Kevin Ornell Chapman MC Daniels",
+        "Height": "197",
+        "Shirt Number": "32",
+        "Position": "F"
+    },
+    {
+        "Name": "M. Reza Fahdani Guntara",
+        "Height": "193",
+        "Shirt Number": "19",
+        "Position": "F"
+    },
+    {
+        "Name": "Malachi Lewis Richardson",
+        "Height": "197",
+        "Shirt Number": "5",
+        "Position": "G"
+    },
+    {
+        "Name": "Muhamad Arighi",
+        "Height": "182",
+        "Shirt Number": "1",
+        "Position": "G"
+    },
+    {
+        "Name": "Nickson Damara Gosal",
+        "Height": "194",
+        "Shirt Number": "26",
+        "Position": "F"
+    },
+    {
+        "Name": "Vincent Rivaldi Kosasih",
+        "Height": "203",
+        "Shirt Number": "15",
+        "Position": "C"
+    },
+    {
+        "Name": "Yesaya Alessandro Saudale",
+        "Height": "178",
+        "Shirt Number": "3",
+        "Position": "G"
+    },
+    {
+        "Name": "Antonio Kurtis Hester",
+        "Height": "198",
+        "Shirt Number": "5",
+        "Position": "PF"
+    },
+    {
+        "Name": "Brandone Francis",
+        "Height": "194",
+        "Shirt Number": "11",
+        "Position": "SG"
+    },
+    {
+        "Name": "Fernando Fransco Manansang",
+        "Height": "185",
+        "Shirt Number": "22",
+        "Position": "SG"
+    },
+    {
+        "Name": "Hans Abraham",
+        "Height": "180",
+        "Shirt Number": "13",
+        "Position": "SG"
+    },
+    {
+        "Name": "Indra Muhamad",
+        "Height": "189",
+        "Shirt Number": "24",
+        "Position": "SF"
+    },
+    {
+        "Name": "James Clough Gist III",
+        "Height": "206",
+        "Shirt Number": "15",
+        "Position": "C"
+    },
+    {
+        "Name": "Kelvin Sanjaya",
+        "Height": "199",
+        "Shirt Number": "27",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Manuel Alejandro Suarez",
+        "Height": "208",
+        "Shirt Number": "44",
+        "Position": "C"
+    },
+    {
+        "Name": "Muhammad Fhirdan Guntara",
+        "Height": "184",
+        "Shirt Number": "77",
+        "Position": "SF"
+    },
+    {
+        "Name": "Muhammad Rizal Falconi",
+        "Height": "197",
+        "Shirt Number": "12",
+        "Position": "SF"
+    },
+    {
+        "Name": "Pandu Wiguna",
+        "Height": "194",
+        "Shirt Number": "34",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Refka Djalu Pangestu",
+        "Height": "184",
+        "Shirt Number": "6",
+        "Position": "SF"
+    },
+    {
+        "Name": "Sandy Febiansyakh Kurniawan",
+        "Height": "189",
+        "Shirt Number": "9",
+        "Position": "SF"
+    },
+    {
+        "Name": "Sulthan Fauzan",
+        "Height": "187",
+        "Shirt Number": "2",
+        "Position": "SG"
+    },
+    {
+        "Name": "Teemo Teemo",
+        "Height": "178",
+        "Shirt Number": "3",
+        "Position": "PG"
+    },
+    {
+        "Name": "Victory Jacob Emilio Lobbu",
+        "Height": "175",
+        "Shirt Number": "1",
+        "Position": "PG"
+    },
+    {
+        "Name": "Yudha Saputera",
+        "Height": "176",
+        "Shirt Number": "8",
+        "Position": "PG"
+    },
+    {
+        "Name": "Andrian Danny Christianto",
+        "Height": "181",
+        "Shirt Number": "12",
+        "Position": "SG"
+    },
+    {
+        "Name": "Anggi Alfiandi",
+        "Height": "191",
+        "Shirt Number": "44",
+        "Position": "PF"
+    },
+    {
+        "Name": "Cassiopeia Thomas Manuputty",
+        "Height": "179",
+        "Shirt Number": "3",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Christopher Jason Winata",
+        "Height": "185",
+        "Shirt Number": "14",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Hendra Thio",
+        "Height": "174",
+        "Shirt Number": "9",
+        "Position": "PG"
+    },
+    {
+        "Name": "Jabari Carl Bird",
+        "Height": "0",
+        "Shirt Number": "92",
+        "Position": "G"
+    },
+    {
+        "Name": "Jonas Zohore Bergstedt",
+        "Height": "210",
+        "Shirt Number": "6",
+        "Position": "C"
+    },
+    {
+        "Name": "Juan Alexius Anggara",
+        "Height": "180",
+        "Shirt Number": "7",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Julius Caesar Wongso",
+        "Height": "189",
+        "Shirt Number": "45",
+        "Position": "C/P"
+    },
+    {
+        "Name": "M.Arief Setiawan",
+        "Height": "178",
+        "Shirt Number": "13",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Muhammad Yassier Rahmat",
+        "Height": "184",
+        "Shirt Number": "11",
+        "Position": "SF/"
+    },
+    {
+        "Name": "Padre Taranngiar Hosbach",
+        "Height": "193",
+        "Shirt Number": "91",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Patrick James McGlynn IV",
+        "Height": "189",
+        "Shirt Number": "22",
+        "Position": "G"
+    },
+    {
+        "Name": "Respati Ragil Pamungkas",
+        "Height": "179",
+        "Shirt Number": "0",
+        "Position": "G"
+    },
+    {
+        "Name": "Rheza Saputra Butarbutar",
+        "Height": "193",
+        "Shirt Number": "33",
+        "Position": "PF"
+    },
+    {
+        "Name": "Ryan Mauliza",
+        "Height": "179",
+        "Shirt Number": "8",
+        "Position": "SG"
+    },
+    {
+        "Name": "William Rivaldi Kosasih",
+        "Height": "198",
+        "Shirt Number": "15",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Agus Salim",
+        "Height": "197",
+        "Shirt Number": "97",
+        "Position": "C"
+    },
+    {
+        "Name": "Alexander Franklyn",
+        "Height": "180",
+        "Shirt Number": "3",
+        "Position": "PG"
+    },
+    {
+        "Name": "Althof Dwira Satrio",
+        "Height": "184",
+        "Shirt Number": "11",
+        "Position": "SG"
+    },
+    {
+        "Name": "Argus Sanyudy",
+        "Height": "192",
+        "Shirt Number": "10",
+        "Position": "C"
+    },
+    {
+        "Name": "Bailey John Fields III",
+        "Height": "0",
+        "Shirt Number": "12",
+        "Position": "C"
+    },
+    {
+        "Name": "Daniel William Tunasey Salamena",
+        "Height": "188",
+        "Shirt Number": "24",
+        "Position": "SG"
+    },
+    {
+        "Name": "Darren Vai Celosse",
+        "Height": "195",
+        "Shirt Number": "18",
+        "Position": "SF"
+    },
+    {
+        "Name": "David Liberty Nuban",
+        "Height": "186",
+        "Shirt Number": "1",
+        "Position": "SF"
+    },
+    {
+        "Name": "Devon Doekele Van Oostrum",
+        "Height": "189",
+        "Shirt Number": "7",
+        "Position": "PG"
+    },
+    {
+        "Name": "Fatur Dzikri Shihab",
+        "Height": "183",
+        "Shirt Number": "5",
+        "Position": "SF"
+    },
+    {
+        "Name": "Ida Bagus Ananta Wisnu Putra",
+        "Height": "183",
+        "Shirt Number": "8",
+        "Position": "PG"
+    },
+    {
+        "Name": "Januar Kuntara",
+        "Height": "171",
+        "Shirt Number": "9",
+        "Position": "PG"
+    },
+    {
+        "Name": "Kenneth Dermont Funderburk Jr",
+        "Height": "193",
+        "Shirt Number": "55",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Le'Bryan Keithdrick Nash",
+        "Height": "198",
+        "Shirt Number": "23",
+        "Position": "SF/"
+    },
+    {
+        "Name": "Mohammed Aymane Garudi Arip",
+        "Height": "194",
+        "Shirt Number": "6",
+        "Position": "PF"
+    },
+    {
+        "Name": "Oki Wira Sanjaya",
+        "Height": "190",
+        "Shirt Number": "2",
+        "Position": "SG"
+    },
+    {
+        "Name": "Abraham Damar Grahita",
+        "Height": "180",
+        "Shirt Number": "4",
+        "Position": "G"
+    },
+    {
+        "Name": "Adrien Maxime Alain Chalias",
+        "Height": "199",
+        "Shirt Number": "1",
+        "Position": "G"
+    },
+    {
+        "Name": "Ali Bagir Alhadar",
+        "Height": "193",
+        "Shirt Number": "13",
+        "Position": "F"
+    },
+    {
+        "Name": "Antoni Erga",
+        "Height": "179",
+        "Shirt Number": "3",
+        "Position": "G"
+    },
+    {
+        "Name": "Arki Dikania Wisnu",
+        "Height": "187",
+        "Shirt Number": "33",
+        "Position": "SF"
+    },
+    {
+        "Name": "Armando Fredik Yegiwar Kaize",
+        "Height": "199",
+        "Shirt Number": "27",
+        "Position": "C"
+    },
+    {
+        "Name": "Artem Pustovyi",
+        "Height": "218",
+        "Shirt Number": "31",
+        "Position": "C"
+    },
+    {
+        "Name": "Dame Diagne",
+        "Height": "197",
+        "Shirt Number": "2",
+        "Position": "G"
+    },
+    {
+        "Name": "Elgin Rashad Cook",
+        "Height": "196",
+        "Shirt Number": "28",
+        "Position": "F"
+    },
+    {
+        "Name": "Juan Laurent Kokodiputra",
+        "Height": "193",
+        "Shirt Number": "0",
+        "Position": "F"
+    },
+    {
+        "Name": "Julian Alexandre Chalias",
+        "Height": "188",
+        "Shirt Number": "14",
+        "Position": "PF"
+    },
+    {
+        "Name": "Karl Patrick Utiarahman",
+        "Height": "188",
+        "Shirt Number": "11",
+        "Position": "SG"
+    },
+    {
+        "Name": "M. Sandy Ibrahim Aziz",
+        "Height": "188",
+        "Shirt Number": "8",
+        "Position": "SG"
+    },
+    {
+        "Name": "Reynaldo Garcia Zamora",
+        "Height": "187",
+        "Shirt Number": "24",
+        "Position": "PG"
+    },
+    {
+        "Name": "Widyanta Putra Teja",
+        "Height": "180",
+        "Shirt Number": "71",
+        "Position": "PG"
+    },
+    {
+        "Name": "Calvin Yeremias Biyantaka",
+        "Height": "177",
+        "Shirt Number": "6",
+        "Position": "PG"
+    },
+    {
+        "Name": "Henry Cornelis Lakay",
+        "Height": "196",
+        "Shirt Number": "12",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Imanuel Mailensun",
+        "Height": "188",
+        "Shirt Number": "18",
+        "Position": "PF"
+    },
+    {
+        "Name": "Isaac Pito Asrat",
+        "Height": "182",
+        "Shirt Number": "1",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Kevin Immanuel Mendita Sihombing",
+        "Height": "192",
+        "Shirt Number": "8",
+        "Position": "SG/"
+    },
+    {
+        "Name": "Maikel Andreas Cores Baliba",
+        "Height": "188",
+        "Shirt Number": "7",
+        "Position": "SG"
+    },
+    {
+        "Name": "Mas Kahono Alif Bintang",
+        "Height": "192",
+        "Shirt Number": "77",
+        "Position": "C/P"
+    },
+    {
+        "Name": "Michael David Henn",
+        "Height": "202",
+        "Shirt Number": "24",
+        "Position": "C"
+    },
+    {
+        "Name": "Naufal Narendra Ranggajaya",
+        "Height": "196",
+        "Shirt Number": "28",
+        "Position": "SF"
+    },
+    {
+        "Name": "Putra Wijaya",
+        "Height": "180",
+        "Shirt Number": "21",
+        "Position": "SG"
+    },
+    {
+        "Name": "Randy Ady Prasetya",
+        "Height": "202",
+        "Shirt Number": "14",
+        "Position": "C"
+    },
+    {
+        "Name": "Rexy Fernando",
+        "Height": "191",
+        "Shirt Number": "29",
+        "Position": "SG"
+    },
+    {
+        "Name": "Topo Adi Saputro",
+        "Height": "182",
+        "Shirt Number": "9",
+        "Position": "SG"
+    },
+    {
+        "Name": "Tyree Jamal Robinson",
+        "Height": "196",
+        "Shirt Number": "0",
+        "Position": "PF"
+    },
+    {
+        "Name": "Yehezkiel Mahesvara Rahadiyanto",
+        "Height": "180",
+        "Shirt Number": "13",
+        "Position": "PG/"
+    },
+    {
+        "Name": "Andreas Kristian Vieri",
+        "Height": "190",
+        "Shirt Number": "32",
+        "Position": "SF"
+    },
+    {
+        "Name": "Andrew William Lensun",
+        "Height": "191",
+        "Shirt Number": "13",
+        "Position": "SG"
+    },
+    {
+        "Name": "Ardian Ariadi",
+        "Height": "180",
+        "Shirt Number": "4",
+        "Position": "F"
+    },
+    {
+        "Name": "Augustus Lewis Stone Jr.",
+        "Height": "191",
+        "Shirt Number": "0",
+        "Position": "G"
+    },
+    {
+        "Name": "Danny Ray",
+        "Height": "181",
+        "Shirt Number": "1",
+        "Position": "SG"
+    },
+    {
+        "Name": "Fabio Matheus Mailangkay",
+        "Height": "194",
+        "Shirt Number": "15",
+        "Position": "C"
+    },
+    {
+        "Name": "Gabriel Batistuta Risky",
+        "Height": "188",
+        "Shirt Number": "3",
+        "Position": "SF"
+    },
+    {
+        "Name": "Habib Tito Aji",
+        "Height": "188",
+        "Shirt Number": "44",
+        "Position": "PF"
+    },
+    {
+        "Name": "Justin Jaya Wiyanto",
+        "Height": "188",
+        "Shirt Number": "12",
+        "Position": "PG"
+    },
+    {
+        "Name": "Keefe Fitrano Yoshe",
+        "Height": "190",
+        "Shirt Number": "27",
+        "Position": "F"
+    },
+    {
+        "Name": "Leonardo Effendy",
+        "Height": "195",
+        "Shirt Number": "17",
+        "Position": "C"
+    },
+    {
+        "Name": "Morakinyo Michael Williams",
+        "Height": "209",
+        "Shirt Number": "5",
+        "Position": "C"
+    },
+    {
+        "Name": "Nicholas Craig Stover",
+        "Height": "198",
+        "Shirt Number": "24",
+        "Position": "F"
+    },
+    {
+        "Name": "Nikholas Mahesa R",
+        "Height": "169",
+        "Shirt Number": "9",
+        "Position": "PG"
+    },
+    {
+        "Name": "Randika Aprilian",
+        "Height": "192",
+        "Shirt Number": "19",
+        "Position": "PF"
+    },
+    {
+        "Name": "Steven Bernard Lenard Green",
+        "Height": "196",
+        "Shirt Number": "10",
+        "Position": "F/G"
+    },
+    {
+        "Name": "Teddy Apriyana Romadonsyah",
+        "Height": "190",
+        "Shirt Number": "11",
+        "Position": "F"
+    },
+    {
+        "Name": "Winston Swenjaya",
+        "Height": "175",
+        "Shirt Number": "7",
+        "Position": "PG"
+    }
+]
