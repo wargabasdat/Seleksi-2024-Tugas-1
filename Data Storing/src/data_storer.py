@@ -1,9 +1,13 @@
 import json
+import logging
 import mysql.connector
 from dotenv import load_dotenv
 import os
 from datetime import datetime, timedelta
 import calendar
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load db environment variables from .env file and connect to db
 load_dotenv()
@@ -79,6 +83,7 @@ for branch in branches:
     """, (branch["branch_name"], branch["address"], branch["region"]))
 
 conn.commit()
+logging.info("Successfully saved branch data")
 
 # Insert classes
 for cls in classes:
@@ -88,6 +93,7 @@ for cls in classes:
     """, (cls["class_name"], cls["category"], cls["difficulty"], cls["duration"]))
 
 conn.commit()
+logging.info("Successfully saved class data")
 
 # Get the current date and day of the week
 current_date = datetime.now()
@@ -128,6 +134,7 @@ for day, day_schedule in schedule.items():
 
 # Commit all changes to db
 conn.commit()
+logging.info("Successfully saved schedule and instructor data")
 
 # Close db connection
 cursor.close()
