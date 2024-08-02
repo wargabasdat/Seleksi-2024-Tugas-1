@@ -124,7 +124,7 @@ There are 4 relations:
 - madeof: a relationship between “recipes” and “ingredients” where each recipe can have more than one ingredient and each ingredient can be used in more than one recipe (many to many). <br> <br>
 
 ### Relational Diagram
-There are 6 entities:
+There are 6 relations (tables):
 - users: user_id (varchar 255), name (varchar 255), username (varchar 255), user_rating_avg (float), city (varchar 255), state (varchar 255), joined_year (integer), joined_month (integer), followers (integer), following (integer); with the primary key "user_id" and does not have foreign keys. <br>
 - ingredient: ingredient_id (varchar 255), ingredient_name (varchar 255), beginning_season (varchar 255), end_season (varchar 255), calories (float), total_fat (float), saturated_fat (float), cholesterol (float), protein (float), carbohydrate (float), fiber (float), sugar (float), sodium (float); with primary key "ingredient_id" and no foreign keys. <br>
 - recipe: food_id (varchar 255), maker id (varchar 255), food_name (varchar 255), portion size (float), calories (float), total_fat (float), saturated_fat (float), cholesterol (float), protein (float), carbohydrate (float), fiber (float), sugar (float), sodium (float); with primary key "food_id" and foreign key "maker id" referring to "users. user_id". <br>
