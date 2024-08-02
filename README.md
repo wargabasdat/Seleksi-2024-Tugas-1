@@ -82,6 +82,22 @@ Above is the result of the translation of the ERD into a relational database.
 - The 'art_constituent' relationship becomes a table because it is many-to-many. It has the primary keys id (referencing an artwork id) and name (referencing a constituent name). It also has the 'role' attribute.
 - The classifications previously in the 'artwork' entity becomes it's own table called 'art_classification'. It's primary keys are id (referencing an artwork id) and classification.
 ## Screenshots
+### Scraping
+![artwork data](Data%20Scraping/screenshot/artworkData.png)
+![constituent data](Data%20Scraping/screenshot/constituentData.png)
+![credit data](Data%20Scraping/screenshot/creditData.png)
+![page request](Data%20Scraping/screenshot/pageRequest.png)
+![main1](Data%20Scraping/screenshot/main1.png)
+![main2](Data%20Scraping/screenshot/main2.png)
+![scraping](Data%20Scraping/screenshot/scraping.png)
+### Storing
+![tables](Data%20Storing/screenshot/tables.png)
+![artwork](Data%20Storing/screenshot/artwork.png)
+![art classification](Data%20Storing/screenshot/art_classification.png)
+![art constituent](Data%20Storing/screenshot/art_constituent.png)
+![constituent](Data%20Storing/screenshot/constituent.png)
+![gallery](Data%20Storing/screenshot/gallery.png)
+![department](Data%20Storing/screenshot/department.png)
 
 ## Reference
 1. json
