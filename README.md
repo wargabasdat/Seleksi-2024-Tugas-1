@@ -252,7 +252,7 @@ Relasi *perfume* memiliki *multivalue* berupa *main_accords*. *Multivalue* terse
 - json
 - re (regular expression)
 - time, random, Counter (from collections)
-- 
+  
 #### b. Link
 1. https://www.parfumo.com/Perfumes/Tops/Women
 2. https://www.britannica.com/art/perfume
