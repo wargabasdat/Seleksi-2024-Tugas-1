@@ -12,7 +12,15 @@
 ## Overview
 The airline industry is a vital part of global transportation, impacting millions of travelers worldwide. Understanding passenger satisfaction is crucial for airlines to improve their services and remain competitive.Understanding passengers feedback and where improvements are needed is critical for maintaining a competitive edge in the airline industry.
 
-This ETL project focuses on analyzing passenger reviews for two major Indonesian airlines: Garuda Indonesia and Batik Air. By scraping data from airlinequality.com, this project aims to provide insights into passenger experiences, helping these airlines enhance their services and customer satisfaction. 
+This ETL project focuses on analyzing passenger reviews for two major Indonesian airlines: Garuda Indonesia and Batik Air. By scraping data, this project aims to provide insights into passenger experiences, helping these airlines enhance their services and customer satisfaction. 
+
+The primary objective of this project is to extract detailed review data from [airlinequality.com](https://www.airlinequality.com/), clean it, transform it into a JSON format, and load it into a MySQL database. Additionally, this project provide an analysis into various aspects of passenger experience by data visualization.
+
+## Program Specification
+- **Python3**: Forweb scraping, data cleaning.
+  - Libraries: BeautifulSoup, Requests
+- **MySQL**: For RDBMS
+- **Tableau**: For data visualization and dashboard creation.
 
 ## Usage
 1. Clone this repository
@@ -23,52 +31,56 @@ This ETL project focuses on analyzing passenger reviews for two major Indonesian
 >
     cd Data\ Scraping/src
 4. Modify the db config in ```sql_loader.py``` with your own user and password
-5. Run python3 main.py
-6. Additionally, the sql can be dumped by using ```mysqldump -u {your_user_name} -p {your_db_name} > airline.sql```
+5. Run main program
+>
+    python3 main.py
+7. Additionally, the sql can be dumped by using command
+>
+    mysqldump -u {your_user_name} -p {your_db_name} > airline.sql
 
 ## Data Scraping
-The primary objective of this project is to extract detailed review data from airlinequality.com, transform it into a JSON structured format, and load it into a MySQL database for comprehensive analysis. This analysis will provide a deep dive into various aspects of passenger experiences, such as service quality, comfort, and overall satisfaction.
-#### 1. JSON Structure
-The json file in ```Data Scraping/data/airline_reviews.json``` contains the pure data extracted from the scraping process.
+#### 1. Scraping process
+#### 2. Data Cleaning
+#### 3. JSON Structure
+The json file in ```Data Scraping/data/airline_reviews.json``` contains the pure data extracted and cleaned from the scraping process.
 >
     {
         "Reviewer": {
-            "Name": "Jonathan Rodden",
-            "Country": "United Kingdom",
-            "Type": "elite"
+            "Name": The name of the reviewer
+            "Country": The country of the reviewer
+            "Type": The membership type of the reviewer
         },
         "Flight": {
-            "Route": "Amsterdam to Jakarta",
-            "Aircraft": "Boeing 777-300-ER",
-            "Date Flown": "July 2024"
+            "Route": The flight route, e.g., "Amsterdam to Jakarta"
+            "Aircraft": The type of aircraft used for the flight, e.g., "Boeing 777-300-ER"
+            "Date Flown": The month and year when the flight took place, e.g., "July 2024"
         },
         "Airline": {
-            "Name": "Garuda Indonesia",
-            "Star": 5
+            "Name": The name of the airline being reviewed (Garuda Indonesia or Batik Air).
+            "Star": The star rating of the airline, e.g., 5
         },
         "Review Details": {
-            "Review Text": "an outstanding experience",
-            "Review Date": "2024-07-03",
-            "Overall Rating": 10,
-            "Type Of Traveller": "Family Leisure",
-            "Seat Type": "First Class",
-            "Seat Comfort": 5,
-            "Cabin Staff Service": 5,
-            "Food & Beverages": 5,
-            "Inflight Entertainment": 4,
-            "Ground Service": 5,
-            "Wifi & Connectivity": 5,
-            "Value For Money": 5,
-            "Recommended": true
+            "Review Text": The content of the review, e.g., "An outstanding experience"
+            "Review Date": The date when the review was posted
+            "Overall Rating": The overall rating given by the reviewer, on a scale from 1 to 10
+            "Type Of Traveller": "The type of traveler, e.g., "Family Leisure"
+            "Seat Type": The type of seat used, e.g., "First Class"
+            "Seat Comfort": The rating for seat comfort, on a scale from 1 to 5
+            "Cabin Staff Service": The rating for cabin staff service, on a scale from 1 to 5
+            "Food & Beverages": The rating for Food & Beverages, on a scale from 1 to 5
+            "Inflight Entertainment": 
+            "Ground Service": The rating for ground service, on a scale from 1 to 5
+            "Wifi & Connectivity": The rating for wifi and connectivity, on a scale from 1 to 5.
+            "Value For Money": The rating for value for money, on a scale from 1 to 5
+            "Recommended": A boolean indicating whether the reviewer recommends the airline
         }
     }
 
 
 ## Data Modelling and Storing
 #### 1. Design
-The data is loaded to Mysql. The reason of choosing Mysql as the RDBMS is because 
-
-Some assumptions regarding the db design is as stated in the diagram.
+The scraped data is stored in a MySQL database. The choice of MySQL was based on its efficiency, ease of use, and strong performance in handling read-heavy operations. The schema consists of 6 tables, but the the data from scraping will only be stored in 4 tables. 
+There are some assumptions regarding the db design:
 
 ![ERD](./Data%20Storing/design/ERD.png)
 ![Relational](./Data%20Storing/design/relational.png)
@@ -118,30 +130,33 @@ The walkthrough of the dashboard's usage can be seen from
 
 ## Screenshots
 1. Data scraping script
-[text](<Data Scraping/screenshot/scraper1.png>)
-[text](<Data Scraping/screenshot/scraper1.png>)
+![Scraping](<Data Scraping/screenshot/scraper1.png>)
+![Scraping](<Data Scraping/screenshot/scraper2.png>)
 2. Data scraping process log
-[text](<Data Scraping/screenshot/scrape_process.png>)
+![Scraping](<Data Scraping/screenshot/scrape_process.png>)
 3. JSON loading script
-4. Tables in database
-[text](<Data Storing/screenshot/show_table.png>)
+![Scraping](<Data Scraping/screenshot/scraper3.png>)
 4. Description of tables
-[text](<Data Storing/screenshot/all_airline.png>)
-[text](<Data Storing/screenshot/all_flight.png>)
-[text](<Data Storing/screenshot/all_review.png>)
-[text](<Data Storing/screenshot/all_reviewer.png>)
-[text](<Data Storing/screenshot/desc 1.png>)
-[text](<Data Storing/screenshot/desc 2.png>)
+![Tables](<Data Storing/screenshot/show_table.png>)
+![Tables](<Data Storing/screenshot/desc_1.png>)
+![Tables](<Data Storing/screenshot/desc_2.png>)
+![Tables](<Data Storing/screenshot/all_airline.png>)
+![Tables](<Data Storing/screenshot/all_flight.png>)
+![Tables](<Data Storing/screenshot/all_review.png>)
+![Tables](<Data Storing/screenshot/all_reviewer.png>)
 5. Trigger and function
-[text](<Data Storing/screenshot/trigger.png>)
-[text](<Data Storing/screenshot/function.png>)
-[text](<Data Storing/screenshot/function_demo.png>)
+![trigger](<Data Storing/screenshot/trigger.png>)
+![function](<Data Storing/screenshot/function.png>)
+![function](<Data Storing/screenshot/function_demo.png>)
 
 ## Reference
 1. BeautifulSoup
-2. JSON
-3. mysql.connector
-4. mariadb
+2. requests
+3. JSON
+4. mysql.connector
+5. mariadb
+6. tableau
+7. https://www.airlinequality.com/airline-reviews/garuda-indonesia/ and https://www.airlinequality.com/airline-reviews/batik-air/
 
 ## Author
 
