@@ -150,6 +150,10 @@ Berikut merupakan Relational Diagram yang diperoleh dari hasil translasi ERD bas
   ![quer2](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select(2).jpg)
   ![quer3](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select_where.jpg)
   ![quer4](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/query_select_where(2).jpg)
+- _Data Visualization_ ![vis1](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/visualization(1).jpg)
+  ![vis2](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/visualization(2).jpg)
+  ![vis3](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/visualization(3).jpg)
+  ![vis4](https://github.com/yovankas/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/visualization(4).jpg)
 
 ## Reference
 1. _Library_ yang digunakan :
