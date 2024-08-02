@@ -152,6 +152,42 @@ In detail, change the Category, Company, Stock, and Country entities into tables
 
 ## Screenshots
 
+### Scraping Process
+
+![Alt text](/Data%20Scraping/screenshot/scrape_1.png)
+![Alt text](/Data%20Scraping/screenshot/scrape_2.png)
+
+### Database Results
+
+#### Category table
+
+![Alt text](/Data%20Storing/screenshot/category_1.png)
+![Alt text](/Data%20Storing/screenshot/category_2.png)
+
+#### Stock table
+
+![Alt text](/Data%20Storing/screenshot/stock_1.png)
+![Alt text](/Data%20Storing/screenshot/stock_2.png)
+
+#### Company table
+
+![Alt text](/Data%20Storing/screenshot/company_1.png)
+![Alt text](/Data%20Storing/screenshot/company_2.png)
+
+#### Country table
+
+![Alt text](/Data%20Storing/screenshot/country.png)
+
+#### Stock_Category table
+
+![Alt text](/Data%20Storing/screenshot/stock_category_1.png)
+![Alt text](/Data%20Storing/screenshot/stock_category_2.png)
+
+#### Performance table
+
+![Alt text](/Data%20Storing/screenshot/comp_performance_1.png)
+![Alt text](/Data%20Storing/screenshot/comp_performance_2.png)
+
 ## Reference
 
 Some libraries used in this project:
