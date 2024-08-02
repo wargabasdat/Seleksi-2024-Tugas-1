@@ -23,7 +23,7 @@ Pada DBMS yang telah dibuat, terdapat 6 tabel, yaitu:
 - member: Berisi informasi tentang daftar member yang memiliki membership di FIT HUB (tabel tambahan, tidak diisi)
 - schedule_attendants: Berisi informasi tentang daftar member yang hadir dalam suatu jadwal kelas
 
-Alasan saya memilih topik tersebut adalah agar dapat mengetahui variasi kelas yang diadakan di tiap cabang, kategori kelas yang sering diadakan di setiap cabang, lokasi dan jumlah cabang di setiap wilayah, waktu yang populer untuk mengadakan kelas, dan insight mengenai jadwal kelas lainnya. Dengan informasi tersebut, seseorang dapat lebih mudah menentukan lokasi cabang dan waktu yang tepat untuk mengikuti kelas tertentu. Selain itu, topik tersebut merupakan topik yang saya minati karena tempat ini merupakan tempat saya berolahraga. Informasi tentang jadwal kelas juga mudah didapatkan di situs resmi FIT HUB.
+Alasan saya memilih topik tersebut adalah agar dapat mengetahui variasi kelas yang diadakan di tiap cabang, kategori kelas yang sering diadakan di setiap cabang, lokasi dan jumlah cabang di setiap wilayah, waktu yang populer untuk mengadakan kelas, dan insight mengenai jadwal kelas lainnya. Dengan informasi tersebut, seseorang dapat lebih mudah menentukan lokasi cabang dan waktu yang tepat untuk mengikuti kelas tertentu. Selain itu, topik tersebut merupakan topik yang saya minati karena tempat ini merupakan tempat saya berolahraga. Informasi tentang jadwal kelas juga mudah didapatkan di situs resmi FIT HUB. Situs tersebut juga boleh ditelusuri oleh bot berdasarkan robots.txt situs.
 
 ## Program Requirements
 1. Python 3.11.9
@@ -190,7 +190,7 @@ Dapat terlihat bahwa scraping informasi kelas dilakukan dua kali, yaitu pada cla
 ### Diagram Relasional
 | Diagram Relasional                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------------------|
-| ![ERD](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/design/relational_diagram.png) |
+| ![Relational Diagram](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/design/relational_diagram.png) |
 
 ## Proses Translasi ERD Menjadi Diagram Relasional
 Pertama-tama, semua entitas dikonversi menjadi suatu tabel yang memiliki atribut yang sama dengan atribut pada entitas. Untuk entitas schedule yang merupakan weak entity, ditambahkan atribut branch_id dari identifying entity set-nya (entitas branch) primary key dari tabel schedule menjadi (branch_id, class_datetime).
@@ -209,9 +209,9 @@ Setelah itu, masing-masing relationship akan dikonversi menjadi bentuk relasiona
 
 | Schedule Scraper Output Log                                                                                                                          |
 | -----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![branch-output-log](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Scraping/screenshot/schedule_scraper/output-log.png) |
+| ![schedule-output-log](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Scraping/screenshot/schedule_scraper/output-log.png) |
 
-## Schedule Table
+### Schedule Table
 | Schedule Table                                                                                                                  |
 | --------------------------------------------------------------------------------------------------------------------------------|
 | ![schedule-table-1](https://raw.githubusercontent.com/neokoda/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/schedule-1.png) |
