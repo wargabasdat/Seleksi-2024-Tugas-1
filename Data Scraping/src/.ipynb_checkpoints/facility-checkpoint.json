@@ -1,0 +1,6146 @@
+[
+    {
+        "id": "0",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "1",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "2",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "3",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "4",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "5",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "6",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "7",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "8",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "9",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "10",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "11",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "12",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "13",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "14",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "15",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "16",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "17",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "18",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "19",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "20",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "21",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "22",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "23",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "24",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "25",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "26",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "27",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "28",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "29",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "30",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "31",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "32",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "33",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "34",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "35",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "36",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "37",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "38",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "39",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "40",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "41",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "42",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "43",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "44",
+        "parking_area": "No",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "45",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "46",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "47",
+        "parking_area": "No",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "48",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "49",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "50",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "51",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "52",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "53",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "54",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "55",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "56",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "57",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "58",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "59",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "60",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "61",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "62",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "63",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "64",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "65",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "66",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "67",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "68",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "69",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "70",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "71",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "72",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "73",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "No"
+    },
+    {
+        "id": "74",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    },
+    {
+        "id": "75",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "76",
+        "parking_area": "Yes",
+        "kitchen": "Yes",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "Yes"
+    },
+    {
+        "id": "77",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "78",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "79",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "80",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "81",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "82",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "83",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "84",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "85",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "86",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "87",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "88",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "89",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "90",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "91",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "92",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "93",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "94",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "95",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "96",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "97",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "98",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "99",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "100",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "101",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "102",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "103",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "104",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "105",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "106",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "107",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "108",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "109",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "110",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "111",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "112",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "113",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "114",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "115",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "116",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "117",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "118",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "119",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "120",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "121",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "122",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "123",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "124",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "125",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "126",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "127",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "128",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "129",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "130",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "131",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "132",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "133",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "134",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "135",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "136",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "137",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "138",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "139",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "140",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "141",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "142",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "143",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "144",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "145",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "146",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "147",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "148",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "149",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "150",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "151",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "152",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "153",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "154",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "155",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "156",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "157",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "158",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "159",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "160",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "161",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "162",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "163",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "164",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "165",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "166",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "167",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "168",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "169",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "170",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "171",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "172",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "173",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "174",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "175",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "176",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "177",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "178",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "179",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "180",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "181",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "182",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "183",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "184",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "185",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "186",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "187",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "188",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "189",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "190",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "191",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "192",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "193",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "194",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "195",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "196",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "197",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "198",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "199",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "200",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "201",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "202",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "203",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "204",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "205",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "206",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "207",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "208",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "209",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "210",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "211",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "212",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "213",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "214",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "215",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "216",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "217",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "218",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "219",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "220",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "221",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "222",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "223",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "224",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "225",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "226",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "227",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "228",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "229",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "230",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "231",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "232",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "233",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "234",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "235",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "236",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "237",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "238",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "239",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "240",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "241",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "242",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "243",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "244",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "245",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "246",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "247",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "248",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "249",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "250",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "251",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "252",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "253",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "254",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "255",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "256",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "257",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "258",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "259",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "260",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "261",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "262",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "263",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "264",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "265",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "266",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "267",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "268",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "269",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "270",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "271",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "272",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "273",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "274",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "275",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "276",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "277",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "278",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "279",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "280",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "281",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "282",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "283",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "284",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "285",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "286",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "287",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "288",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "289",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "290",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "291",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "292",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "293",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "294",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "295",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "296",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "297",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "298",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "299",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "300",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "301",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "302",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "303",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "304",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "305",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "306",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "307",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "308",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "309",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "310",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "311",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "312",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "313",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "314",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "315",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "316",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "317",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "318",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "319",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "320",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "321",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "322",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "323",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "324",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "325",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "326",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "327",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "328",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "329",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "330",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "331",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "332",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "333",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "334",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "335",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "336",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "337",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "338",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "339",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "340",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "341",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "342",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "343",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "344",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "345",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "346",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "347",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "348",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "349",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "350",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "351",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "352",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "353",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "354",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "355",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "356",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "357",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "358",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "359",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "360",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "361",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "362",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "363",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "364",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "365",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "366",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "367",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "368",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "369",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "370",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "371",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "372",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "373",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "374",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "375",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "376",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "377",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "378",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "379",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "380",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "381",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "382",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "383",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "384",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "385",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "386",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "387",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "388",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "389",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "390",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "391",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "392",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "393",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "394",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "395",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "396",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "397",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "398",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "399",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "400",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "401",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "402",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "403",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "404",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "405",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "406",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "407",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "408",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "409",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "410",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "411",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "412",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "413",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "414",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "415",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "416",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "417",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "418",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "419",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "420",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "421",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "422",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "423",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "424",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "425",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "426",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "427",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "428",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "429",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "430",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "431",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "432",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "433",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "434",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "435",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "436",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "437",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "438",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "439",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "440",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "441",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "442",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "443",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "444",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "445",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "446",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "447",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "448",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "449",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "450",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "451",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "452",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "453",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "454",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "455",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "456",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "457",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "458",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "459",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "460",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "461",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "462",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "463",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "464",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "465",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "466",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "467",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "468",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "469",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "470",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "471",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "472",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "473",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "474",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "475",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "476",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "477",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "478",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "479",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "480",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "481",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "482",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "483",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "484",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "485",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "486",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "487",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "488",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "489",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "490",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "491",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "492",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "493",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "494",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "495",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "496",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "497",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "498",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "499",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "500",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "501",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "502",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "503",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "504",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "505",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "506",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "507",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "508",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "509",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "510",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "511",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "512",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "513",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "514",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "515",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "516",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "517",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "518",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "519",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "520",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "521",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "522",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "523",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "524",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "525",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "526",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "527",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "528",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "529",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "530",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "531",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "532",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "533",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "534",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "535",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "536",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "537",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "538",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "539",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "540",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "541",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "542",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "543",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "544",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "545",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "546",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "547",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "548",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "549",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "550",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "551",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "552",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "553",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "554",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "555",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "556",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "557",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "558",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "559",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "560",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "561",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "562",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "563",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "564",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "565",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "566",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "567",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "568",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "569",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "570",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "571",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "572",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "573",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "574",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "575",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "576",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "577",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "578",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "579",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "580",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "581",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "582",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "583",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "584",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "585",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "586",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "587",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "588",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "589",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "590",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "591",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "592",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "593",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "594",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "595",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "596",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "597",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "598",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "599",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "600",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "601",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "602",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "603",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "604",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "605",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "606",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "607",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "608",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "609",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "610",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "611",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "612",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "613",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "614",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "615",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "616",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "617",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "618",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "619",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "620",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "621",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "622",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "623",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "624",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "625",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "626",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "627",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "628",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "629",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "630",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "631",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "632",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "633",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "634",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "635",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "636",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "637",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "638",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "639",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "640",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "641",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "642",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "643",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "644",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "645",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "646",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "647",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "648",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "649",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "650",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "651",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "652",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "653",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "654",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "655",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "656",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "657",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "658",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "659",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "660",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "661",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "662",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "663",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "664",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "665",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "666",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "667",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "668",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "669",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "670",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "671",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "672",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "673",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "674",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "675",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "676",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "677",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "678",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "679",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "680",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "681",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "682",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "683",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "684",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "685",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "686",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "687",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "688",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "689",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "690",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "691",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "692",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "693",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "694",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "695",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "696",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "697",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "698",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "699",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "700",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "701",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "702",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "703",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "704",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "705",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "706",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "707",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "708",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "709",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "710",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "711",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "712",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "713",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "714",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "715",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "716",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "717",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "718",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "719",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "720",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "721",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "722",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "723",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "724",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "725",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "726",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "727",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "728",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "729",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "730",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "731",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "732",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "733",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "734",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "735",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "736",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "737",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "738",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "739",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "740",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "741",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "742",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "743",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "744",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "745",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "746",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "747",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "748",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "749",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "750",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "751",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "752",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "753",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "754",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "755",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "756",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "757",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "758",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "759",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "760",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "761",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "762",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "763",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "764",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "765",
+        "parking_area": "No",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "766",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "No",
+        "guest_room": "No",
+        "laundry": "No"
+    },
+    {
+        "id": "767",
+        "parking_area": "Yes",
+        "kitchen": "No",
+        "wifi": "Yes",
+        "guest_room": "Yes",
+        "laundry": "Yes"
+    }
+]
