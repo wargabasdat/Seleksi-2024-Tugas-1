@@ -10,7 +10,6 @@ class version(Table):
         for li in ul:
             try:
                 full_text = li.text.strip()
-                print(full_text)
 
                 year = full_text[:4]
                 description = full_text[7:]

@@ -384,12 +384,15 @@ WHERE name = 'Luigi'
         self.conn.commit()
 
     def apply_settings(self):
+        print("Applying settings...")
+        self.conn.autocommit = True
         cursor = self.conn.cursor()
         cursor.execute("ALTER SYSTEM SET track_commit_timestamp = on;")
-        self.conn.commit()
+        self.conn.autocommit = False
 
 def create_db(json: Dict):
     db = DB()
+    db.apply_settings()
     db.drop_tables()
     db.create_tables()
     db.insert_tables(json)

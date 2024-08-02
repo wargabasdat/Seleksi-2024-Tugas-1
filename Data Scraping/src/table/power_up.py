@@ -25,7 +25,6 @@ class power_up(Table):
             detail_url = Table.URL+name_a["href"]
             image = Table.extract_image(td[0].find("img"))
             description = ""
-        print(name)
 
         mario_form_name, luigi_form_name = "", ""
         mario_form_detail_url, luigi_form_detail_url = "", ""
