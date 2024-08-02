@@ -1,0 +1,30 @@
+version: '3.9'  # Use the latest version available
+
+services:
+  scraper:
+    build: .
+    volumes:
+      - .:/app
+    env_file:
+      - credentials.env
+    depends_on:
+      - db
+    networks:
+      - my_network
+    environment:
+      - BROWSER_CHOICE=chrome  # Change to 'edge' to use Edge browser
+
+  db:
+    image: postgres:13
+    env_file:
+      - credentials.env
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - my_network
+
+networks:
+  my_network:
+
+volumes:
+  db_data:
