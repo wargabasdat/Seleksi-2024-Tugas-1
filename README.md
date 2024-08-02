@@ -32,6 +32,11 @@
 * [Requirements](#requirements)
 * [Usage](#usage)
 * [Automated Scheduling](#automated-scheduling)
+* [JSON File](#json-file)
+* [Entity Relationship Diagram](#entity-relationship-diagram)
+* [Relational Diagram](#relational-diagram)
+* [Translasi ERD to Relational Diagram](#translasi-erd-to-relational-diagram)
+* [Screenshot](#screenshot)
 * [Acknowledgements](#acknowledgements)
 * [Links](#links)
 
@@ -41,7 +46,7 @@ Pada project ini, saya akan melakukan *scraping* pada website [novelbin.me](http
 
 
 ## Features
-- Web Scraper untuk [novelbin.me](https://novelbin.me/sort/novelbin-popular) (page 1-60) (takes about 30 minutes to scraped)
+- Web Scraper untuk [novelbin.me](https://novelbin.me/sort/novelbin-popular) (page 1-60) (takes about 30 minutes to scrape)
 - Dashboard dengan [*Streamlit library*](https://docs.streamlit.io/)
 - Automated Scheduling dengan `run.bat` dan *Task Scheduler*
 
@@ -85,7 +90,7 @@ Program dapat dijalankan secara otomatis dengan menggunakan *Task Scheduler* (Wi
 7. Lalu klik Ok
 8. Program akan berjalan secara otomatis pada waktu yang ditentukan setiap hari. Jika PC mati pada waktu untuk melakukan *task*, maka *task* akan dimulai saat PC menyala. (not always worked)
 
-Setelah selesai melakukan *set up*, proses *scraping* akan dijalankan setiap harinya pada jam yang telah ditentukan. File JSON hasil *scraping* akan berada di `Data Scraping/data/YYYY-MM-DD`. YYYY-MM-DD akan sesuai dengan tanggal dilakukannya *scraping*. Proses *scheduling* ini juga otomatis akan memasukkan file JSON ke dalam database dan meng-*export* database ke file sql. Proses ini dapat diubah dengan mengedit file `run.bat`.  
+Setelah selesai melakukan *set up*, proses *scraping* akan dijalankan setiap harinya pada jam yang telah ditentukan (PC harus menyala pada saat itu). File JSON hasil *scraping* akan berada di `Data Scraping/data/YYYY-MM-DD`. YYYY-MM-DD akan sesuai dengan tanggal dilakukannya *scraping*. Proses *scheduling* ini juga otomatis akan memasukkan file JSON ke dalam database dan meng-*export* database ke file sql. Proses ini dapat diubah dengan mengedit file `run.bat`.  
 
 ## JSON File
 File file JSON hasil *scraping* akan disimpan pada sebuah folder yang diberi nama tanggal dilakukannya *scraping* dengan format YYYY-MM-DD. Folder tersebut akan diletakkan pada `Data Scraping/data`
