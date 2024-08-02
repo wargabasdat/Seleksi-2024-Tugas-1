@@ -74,7 +74,7 @@ Setiap senjata memiliki atribut seperti:
 - Entitas Weapon_Level memiliki atribut s_level yang tersirat.
 
 #### Entity-Relationship Diagram (ERD)
-![ERD Diagram](Data Storing/design/ERD.png)
+![ERD Diagram](Data%20Storing/design/ERD.png)
 
 #### Relational Diagram
 ![Relational Diagram](Data Storing/design/Relational_Diagram.png)
