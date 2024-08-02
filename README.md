@@ -155,6 +155,7 @@ Diagram relasional tersebut sudah disesuaikan agar dapat diimplementasikan dalam
 - [goquery](https://pkg.go.dev/github.com/PuerkitoBio/goquery)
 - [MariaDB Documentations](https://mariadb.com/kb/en/documentation/)
 - [PPT Mata Kuliah Basis Data 2024](https://drive.google.com/drive/u/0/folders/1i-abemxg0DqXBvhx6oIScHGqFraqo47E)
+- [Source Data](https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik)
 
 
 
