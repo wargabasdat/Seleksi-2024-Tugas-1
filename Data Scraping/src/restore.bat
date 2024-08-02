@@ -1,0 +1,1 @@
+docker exec -i mariodb psql -U user -d mariodb < dump/dump.sql
