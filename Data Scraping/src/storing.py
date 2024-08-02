@@ -5,7 +5,7 @@ import mariadb
 conn = mariadb.connect(
     host="localhost",
     user="root",
-    password="overunderunderover",
+    password="1234",
     database="artworkdb"
 )
 cur = conn.cursor()
@@ -32,7 +32,7 @@ cur.execute("""  CREATE TABLE IF NOT EXISTS artwork (
             culture VARCHAR(255),
             medium VARCHAR(255),
             accnum VARCHAR(255),
-            credit VARCHAR(255),
+            credit TEXT,
             year INT,
             FOREIGN KEY (gallery) REFERENCES gallery(id)
         );

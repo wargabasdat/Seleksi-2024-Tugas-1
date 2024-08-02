@@ -62,11 +62,14 @@ def constituentData(label: str, value: str):
         data.update(name="Unknown")
     else:
         # delete the trailing info on the constituent
+        if value[0] == "(":
+            idx = value.find(")") + 2
+            value = value[idx:]
         if "(" in value:
             idx = value.find("(") - 1
             value = value[:idx]
         # delete the prefix in the string
-        for prefix in ['by', 'probably', 'attributed to']:
+        for prefix in ['by', 'possibly', 'probably', 'attributed to']:
             idx = value.lower().find(prefix)
             if idx != -1:
                 idx += len(prefix) + 1
