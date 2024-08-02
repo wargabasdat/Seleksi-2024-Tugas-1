@@ -2,7 +2,15 @@
 This is a repository for the phase 2 database lab assistant selection 2024 project. This project aims to perform Extract, Transform, and Load (ETL) on the [anime-planet](www.anime-planet.com) website with a focus on the 50 most hated anime characters according to the website's users. The final database will include a total of 9 tables, that you can import from `Data Storing/export`. Why choose this topic? Well... Japanese Animations (anime) are pretty trending since COVID-19 era, so the business is quite booming. Creating a "good" hate-able character or avoiding to make "bad" characters that become hated by the fans is definitely something anime producers have to look out for. So this project is really just so that Japanese animation studios can learn the traits and characteristics of the most hated characters. This can either lead them to make better villains (or characters that play the "hated" role) or maybe avoid these characteristics so that they make enjoyable characters.
 
 
-This project was created by (Author): Dama Dhananjaya Daliman (18222047)
+This project was created by (Author): Dama Dhananjaya Daliman - 18222047 (18222047@std.stei.itb.ac.id)
+
+# Table of Contents
+- [Requirements](#requirements)
+- [How to Use Scraper](#how-to-use-scraper)
+- [JSON Structure](#json-structure)
+- [ERD and RDBMS Structure](#erd-and-relational-dbms-structure)
+- [Documentation](#documentation)
+- [References](#references)
 
 # Requirements
 Python: v12 or newer, with libraries:
@@ -25,6 +33,7 @@ Run scraper.py in Data Scraping/src. You should see something like this when you
 
 and then voila! The results should be saved into Data Scraping/data
 
+You can then use pandas to make dataframes from the JSONs and manipulate each row to create SQL Insert statements. Then these insert statements can be used to populate your anime_planet database 👍. ( I actually already have a python script for this contact me for more info on that )
 
 # JSON Structure
 So, in this project the data is scraped from the website using Python Selenium and then stored in JSON files located at:
@@ -189,7 +198,7 @@ The final RDBMS design contains 9 relations (tables), namely:
     - name (varchar): foreign key to Characters, indicating the character
     - tag (varchar): keyword or category associated with the character
 
-
+## How did I get the Relational Design?
 These relations or tables were a direct result of decomposing the ERD. The steps taken (roughly) are:
 1. Every entity becomes a single relation
 2. Any many-to-many relationships become a single relation
@@ -219,6 +228,6 @@ Libraries used:
 9. psycopg2 (for python to interact with PostgreSQL)
 
 
-Website scraped: www.anime-planet.com
+Website scraped: [www.anime-planet.com](http://www.anime-planet.com)
 
-Honorable mentions: StackOverflow, PostgreSQL Docs, and Draw.io
+Honorable mentions: [StackOverflow](www.stackoverflow.com), [PostgreSQL Docs](https://www.postgresql.org/docs/), and [Draw.io](www.draw.io)
