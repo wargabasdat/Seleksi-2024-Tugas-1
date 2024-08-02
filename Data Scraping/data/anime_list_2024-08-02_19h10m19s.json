@@ -1,0 +1,825 @@
+[
+    {
+        "title": "fullmetal alchemist",
+        "type": "tv",
+        "episode_count": 51,
+        "studio": "bones",
+        "year": 2003,
+        "contained_in": [
+            "tearjerking anime",
+            "animes with a watching guide"
+        ]
+    },
+    {
+        "title": "fullmetal alchemist: brotherhood",
+        "type": "tv",
+        "episode_count": 64,
+        "studio": "bones",
+        "year": 2009,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "tearjerking anime"
+        ]
+    },
+    {
+        "title": "fullmetal alchemist: brotherhood: 4-koma theater",
+        "type": "dvd special",
+        "episode_count": 16,
+        "studio": "bones",
+        "year": 2009,
+        "contained_in": [
+            "fullmetal alchemist  watching guide",
+            "tear inducing anime"
+        ]
+    },
+    {
+        "title": "boruto: naruto next generations",
+        "type": "tv",
+        "episode_count": 293,
+        "studio": "pierrot",
+        "year": 2017,
+        "contained_in": [
+            "naruto  watching guide",
+            "anime with a completed manga"
+        ]
+    },
+    {
+        "title": "boruto: naruto the movie",
+        "type": "movie",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2015,
+        "contained_in": [
+            "naruto  watching guide",
+            "nostalgic themed anime  nostalgicpopular"
+        ]
+    },
+    {
+        "title": "boruto: naruto the movie - the day naruto became hokage",
+        "type": "dvd special",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2016,
+        "contained_in": [
+            "naruto  watching guide"
+        ]
+    },
+    {
+        "title": "death note",
+        "type": "tv",
+        "episode_count": 37,
+        "studio": "madhouse",
+        "year": 2006,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "when you want something serious to watch"
+        ]
+    },
+    {
+        "title": "death note rewrite 1: visions of a god",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "madhouse",
+        "year": 2007,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "alternate retellingcompilation movies of"
+        ]
+    },
+    {
+        "title": "death note rewrite 2: l's successors",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "madhouse",
+        "year": 2008,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "anime that aired in romania  animeuri di"
+        ]
+    },
+    {
+        "title": "naruto",
+        "type": "tv",
+        "episode_count": 220,
+        "studio": "pierrot",
+        "year": 2002,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "animes with a watching guide"
+        ]
+    },
+    {
+        "title": "naruto shippuden",
+        "type": "tv",
+        "episode_count": 500,
+        "studio": "pierrot",
+        "year": 2007,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "naruto  watching guide"
+        ]
+    },
+    {
+        "title": "naruto spin-off: rock lee & his ninja pals",
+        "type": "tv",
+        "episode_count": 51,
+        "studio": "pierrot",
+        "year": 2012,
+        "contained_in": [
+            "all anime on netflix india",
+            "halloween episodes in anime"
+        ]
+    },
+    {
+        "title": "road of naruto",
+        "type": "web",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2022,
+        "contained_in": [
+            "all anime on netflix india",
+            "halloween episodes in anime"
+        ]
+    },
+    {
+        "title": "boruto: jump festa 2016 special",
+        "type": "other",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2016,
+        "contained_in": [
+            "all anime on netflix india",
+            "halloween episodes in anime"
+        ]
+    },
+    {
+        "title": "my hero academia",
+        "type": "tv",
+        "episode_count": 13,
+        "studio": "bones",
+        "year": 2016,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "my emotions though gun shots"
+        ]
+    },
+    {
+        "title": "my hero academia 2",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "bones",
+        "year": 2017,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "my emotions though gun shots"
+        ]
+    },
+    {
+        "title": "my hero academia 3",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "bones",
+        "year": 2018,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "my emotions though gun shots"
+        ]
+    },
+    {
+        "title": "code geass: dakkan no roz\u00e9",
+        "type": "other",
+        "episode_count": 25,
+        "studio": "sunrise",
+        "year": 2024,
+        "contained_in": [
+            "anime openings  endings of the decade 20",
+            "code geass  watching guide"
+        ]
+    },
+    {
+        "title": "code geass: lelouch of the rebellion",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "sunrise",
+        "year": 2006,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "when you want something serious to watch"
+        ]
+    },
+    {
+        "title": "code geass: lelouch of the rebellion iii - glorification",
+        "type": "movie",
+        "episode_count": 1,
+        "studio": "sunrise",
+        "year": 2018,
+        "contained_in": [
+            "code geass  watching guide",
+            "all anime on netflix india"
+        ]
+    },
+    {
+        "title": "naruto: hidden leaf village grand sports festival!",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2004,
+        "contained_in": [
+            "sports festival scenes in anime"
+        ]
+    },
+    {
+        "title": "sword art online",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "a-1 pictures",
+        "year": 2012,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "most adult oriented rated r level or abo"
+        ]
+    },
+    {
+        "title": "sword art online: alicization - war of underworld",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "a-1 pictures",
+        "year": 2019,
+        "contained_in": [
+            "anime openings  endings of the decade 20",
+            "video games anime"
+        ]
+    },
+    {
+        "title": "sword art online: alicization - war of underworld: part ii",
+        "type": "tv",
+        "episode_count": 11,
+        "studio": "a-1 pictures",
+        "year": 2020,
+        "contained_in": [
+            "sword art online watching guide"
+        ]
+    },
+    {
+        "title": "20-pun de oitsukeru: attack on titan",
+        "type": "web",
+        "episode_count": 1,
+        "studio": "wit studio",
+        "year": 2021,
+        "contained_in": [
+            "sword art online watching guide"
+        ]
+    },
+    {
+        "title": "attack on skytree",
+        "type": "other",
+        "episode_count": 1,
+        "studio": "wit studio",
+        "year": 2017,
+        "contained_in": [
+            "attack on titan  watching guide"
+        ]
+    },
+    {
+        "title": "attack on titan",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "wit studio",
+        "year": 2013,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "anime seriesmovies with no ecchi scenes "
+        ]
+    },
+    {
+        "title": "soul eater",
+        "type": "tv",
+        "episode_count": 51,
+        "studio": "bones",
+        "year": 2008,
+        "contained_in": [
+            "supernatural anime",
+            "you cant call yourself an otaku if you d"
+        ]
+    },
+    {
+        "title": "soul eater: late night show",
+        "type": "other",
+        "episode_count": 51,
+        "studio": "bones",
+        "year": 2008,
+        "contained_in": [
+            "female protagonist animes"
+        ]
+    },
+    {
+        "title": "school days",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "tnk",
+        "year": 2007,
+        "contained_in": [
+            "when you want something serious to watch",
+            "romantic school dramascomedies"
+        ]
+    },
+    {
+        "title": "school days: magical heart kokoro-chan",
+        "type": "ova",
+        "episode_count": 1,
+        "studio": "tnk",
+        "year": 2008,
+        "contained_in": [
+            "anime badges"
+        ]
+    },
+    {
+        "title": "school days ona",
+        "type": "web",
+        "episode_count": 1,
+        "studio": "animation planet",
+        "year": 2005,
+        "contained_in": [
+            "hate sink protagonist anime"
+        ]
+    },
+    {
+        "title": "eromanga sensei",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "a-1 pictures",
+        "year": 2017,
+        "contained_in": [
+            "harem echi comedy here is the list for y",
+            "best romance anime"
+        ]
+    },
+    {
+        "title": "he wei dao x sword art online: alicization",
+        "type": "other",
+        "episode_count": 1,
+        "studio": "a-1 pictures",
+        "year": 2019,
+        "contained_in": [
+            "modern or futuristic context 2d donghuas"
+        ]
+    },
+    {
+        "title": "sword art online: extra edition",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "a-1 pictures",
+        "year": 2013,
+        "contained_in": [
+            "video games anime",
+            "sword art online watching guide"
+        ]
+    },
+    {
+        "title": "highschool of the dead",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "madhouse",
+        "year": 2010,
+        "contained_in": [
+            "most adult oriented rated r level or abo",
+            "top anime for getting started"
+        ]
+    },
+    {
+        "title": "bleach",
+        "type": "tv",
+        "episode_count": 366,
+        "studio": "pierrot",
+        "year": 2004,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "animes with incredible art"
+        ]
+    },
+    {
+        "title": "bleach: memories in the rain",
+        "type": "ova",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2004,
+        "contained_in": [
+            "bleach  watching guide",
+            "wafu fantasy anime"
+        ]
+    },
+    {
+        "title": "bleach movie 1: memories of nobody",
+        "type": "movie",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2006,
+        "contained_in": [
+            "bleach  watching guide",
+            "wafu fantasy anime"
+        ]
+    },
+    {
+        "title": "the rising of the shield hero",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "kinema citrus",
+        "year": 2019,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "most adult oriented rated r level or abo"
+        ]
+    },
+    {
+        "title": "the rising of the shield hero 2nd season",
+        "type": "tv",
+        "episode_count": 13,
+        "studio": "dr movie",
+        "year": 2022,
+        "contained_in": [
+            "anime available in netflix philippines",
+            "anime available on disney hotstar"
+        ]
+    },
+    {
+        "title": "the rising of the shield hero 3rd season",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "kinema citrus",
+        "year": 2023,
+        "contained_in": [
+            "anime available in netflix philippines",
+            "anime available on disney hotstar"
+        ]
+    },
+    {
+        "title": "hungry days x one piece",
+        "type": "web",
+        "episode_count": 4,
+        "studio": "shaft",
+        "year": 2019,
+        "contained_in": [
+            "food and product commercials starring an"
+        ]
+    },
+    {
+        "title": "one piece",
+        "type": "tv",
+        "episode_count": 4,
+        "studio": "toei animation",
+        "year": 1999,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "animes with a watching guide"
+        ]
+    },
+    {
+        "title": "one piece 3d2y: overcoming ace's death! luffy's pledge to his friends!",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "toei animation",
+        "year": 2014,
+        "contained_in": [
+            "one piece  watching guide",
+            "best animes from 2014"
+        ]
+    },
+    {
+        "title": "future diary",
+        "type": "tv",
+        "episode_count": 26,
+        "studio": "asread",
+        "year": 2011,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "when you want something serious to watch"
+        ]
+    },
+    {
+        "title": "future diary ova",
+        "type": "ova",
+        "episode_count": 1,
+        "studio": "asread",
+        "year": 2010,
+        "contained_in": [
+            "top 15  gruesome animes to watch"
+        ]
+    },
+    {
+        "title": "future diary: redial",
+        "type": "ova",
+        "episode_count": 1,
+        "studio": "asread",
+        "year": 2013,
+        "contained_in": [
+            "anime that brought feels",
+            "all anime on netflix india"
+        ]
+    },
+    {
+        "title": "code geass: akito the exiled",
+        "type": "ova",
+        "episode_count": 5,
+        "studio": "sunrise",
+        "year": 2012,
+        "contained_in": [
+            "every completed anime  thoughts",
+            "code geass  watching guide"
+        ]
+    },
+    {
+        "title": "hungry days x bump of chicken: kinen satsuei",
+        "type": "music video",
+        "episode_count": 1,
+        "studio": "sunrise",
+        "year": 2019,
+        "contained_in": [
+            "every completed anime  thoughts",
+            "code geass  watching guide"
+        ]
+    },
+    {
+        "title": "bleach: the sealed sword frenzy",
+        "type": "ova",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2005,
+        "contained_in": [
+            "bleach  watching guide",
+            "wafu fantasy anime"
+        ]
+    },
+    {
+        "title": "bleach: thousand-year blood war",
+        "type": "tv",
+        "episode_count": 13,
+        "studio": "pierrot",
+        "year": 2022,
+        "contained_in": [
+            "bleach  watching guide",
+            "wafu fantasy anime"
+        ]
+    },
+    {
+        "title": "tokyo ghoul",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "pierrot",
+        "year": 2014,
+        "contained_in": [
+            "must watch anime  the greatest plots",
+            "anime seriesmovies with no ecchi scenes "
+        ]
+    },
+    {
+        "title": "tokyo ghoul: jack",
+        "type": "ova",
+        "episode_count": 1,
+        "studio": "pierrot",
+        "year": 2015,
+        "contained_in": [
+            "anime with overpowered op characters",
+            "anime on netflix uk"
+        ]
+    },
+    {
+        "title": "tokyo ghoul:re 2nd season",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "pierrot",
+        "year": 2018,
+        "contained_in": [
+            "must watch seinen dark fantasy anime  20",
+            "best anime music"
+        ]
+    },
+    {
+        "title": "attack on titan 2nd season",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "wit studio",
+        "year": 2017,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "must watch seinen dark fantasy anime  20"
+        ]
+    },
+    {
+        "title": "arceus, the one called god",
+        "type": "web",
+        "episode_count": 4,
+        "studio": "olm",
+        "year": 2022,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "must watch seinen dark fantasy anime  20"
+        ]
+    },
+    {
+        "title": "a ripple in time",
+        "type": "web",
+        "episode_count": 1,
+        "studio": "olm",
+        "year": 2022,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "must watch seinen dark fantasy anime  20"
+        ]
+    },
+    {
+        "title": "planetarium pok\u00e9mon: aurora kara no message",
+        "type": "movie",
+        "episode_count": 1,
+        "studio": "olm",
+        "year": 2020,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "must watch seinen dark fantasy anime  20"
+        ]
+    },
+    {
+        "title": "claris: luminous",
+        "type": "music video",
+        "episode_count": 1,
+        "studio": "olm",
+        "year": 2012,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "must watch seinen dark fantasy anime  20"
+        ]
+    },
+    {
+        "title": "magia record: puella magi madoka magica side story",
+        "type": "tv",
+        "episode_count": 13,
+        "studio": "shaft",
+        "year": 2020,
+        "contained_in": [
+            "anime that pass the bechdel test",
+            "cute girls whose lives suck"
+        ]
+    },
+    {
+        "title": "magia record: puella magi madoka magica side story season 2 - the eve of awakening",
+        "type": "tv",
+        "episode_count": 8,
+        "studio": "shaft",
+        "year": 2021,
+        "contained_in": [
+            "anime that pass the bechdel test",
+            "cute girls whose lives suck"
+        ]
+    },
+    {
+        "title": "kyuutai panic adventure!",
+        "type": "other",
+        "episode_count": 2,
+        "studio": "shaft",
+        "year": 2003,
+        "contained_in": [
+            "anime that pass the bechdel test",
+            "cute girls whose lives suck"
+        ]
+    },
+    {
+        "title": "sword art online: alicization",
+        "type": "tv",
+        "episode_count": 24,
+        "studio": "a-1 pictures",
+        "year": 2018,
+        "contained_in": [
+            "anime that brought feels",
+            "all anime on netflix india"
+        ]
+    },
+    {
+        "title": "sword art online: alicization - reflection",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "a-1 pictures",
+        "year": 2019,
+        "contained_in": [
+            "sword art online watching guide"
+        ]
+    },
+    {
+        "title": "one piece: episode of merry - mou hitori no nakama no monogatari",
+        "type": "tv special",
+        "episode_count": 1,
+        "studio": "toei animation",
+        "year": 2013,
+        "contained_in": [
+            "one piece  watching guide",
+            "animes rebootsremakes"
+        ]
+    },
+    {
+        "title": "one piece film: gold",
+        "type": "movie",
+        "episode_count": 1,
+        "studio": "toei animation",
+        "year": 2016,
+        "contained_in": [
+            "one piece  watching guide",
+            "anime with official animated music video"
+        ]
+    },
+    {
+        "title": "a silent voice",
+        "type": "movie",
+        "episode_count": 1,
+        "studio": "kyoto animation",
+        "year": 2016,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "must watch anime  the greatest plots"
+        ]
+    },
+    {
+        "title": "ai higuchi: akuma no ko",
+        "type": "music video",
+        "episode_count": 1,
+        "studio": "contrail",
+        "year": 2022,
+        "contained_in": [
+            "official anime music videos amvs featuri"
+        ]
+    },
+    {
+        "title": "tokyo ghoul \u221aa",
+        "type": "tv",
+        "episode_count": 12,
+        "studio": "pierrot",
+        "year": 2015,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "anime with overpowered op characters"
+        ]
+    },
+    {
+        "title": "akame ga kill!",
+        "type": "tv",
+        "episode_count": 24,
+        "studio": "white fox",
+        "year": 2014,
+        "contained_in": [
+            "most adult oriented rated r level or abo",
+            "anime with overpowered op characters"
+        ]
+    },
+    {
+        "title": "akame ga kill! theater",
+        "type": "web",
+        "episode_count": 24,
+        "studio": "white fox",
+        "year": 2014,
+        "contained_in": [
+            "mini anime",
+            "clawfoot bathtubs in anime"
+        ]
+    },
+    {
+        "title": "fruits basket",
+        "type": "tv",
+        "episode_count": 26,
+        "studio": "studio deen",
+        "year": 2001,
+        "contained_in": [
+            "animes with reverse harem",
+            "romantic school dramascomedies"
+        ]
+    },
+    {
+        "title": "fruits basket 1st season",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "8 pan",
+        "year": 2019,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "my emotions though gun shots"
+        ]
+    },
+    {
+        "title": "fruits basket 2nd season",
+        "type": "tv",
+        "episode_count": 25,
+        "studio": "tms entertainment",
+        "year": 2020,
+        "contained_in": [
+            "my emotions though gun shots",
+            "the ultimate shows for stress relief"
+        ]
+    },
+    {
+        "title": "ouran high school host club",
+        "type": "tv",
+        "episode_count": 26,
+        "studio": "bones",
+        "year": 2006,
+        "contained_in": [
+            "anime seriesmovies with no ecchi scenes ",
+            "animes with reverse harem"
+        ]
+    }
+]

@@ -1,2 +1,8 @@
 *.drawio
-Data Storing/export/intermediate/
+*.bat
+Data Scraping/data/generated_JSON/*
+Data Storing/export/intermediate/*
+Data Storing/export/generated_sql_files/*
+Data Storing/export/db_dumps/*
+Data Storing/export/*.py
+Data Storing/export/*.sql
