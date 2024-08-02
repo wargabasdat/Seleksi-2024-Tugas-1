@@ -1,75 +1,380 @@
-<h1 align="center">
-  <br>
-  Seleksi Warga Basdat 2024 <br>
-  ETL Project
-  <br>
-  <br>
+<h1 align="center"><br>
+  Seleksi Laboratorium Basis Data (Tugas 1)<br>
+  ETL Project<br>
 </h1>
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Author
+|          Nama             |      NIM      |
+| ------------------------- | ------------- |
+| Dhafin Fawwaz Ikramullah  |    13522084   |
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+## Deskripsi
+<!-- - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut -->
+DBMS yang dibuat merupakan data dari game [Super Mario Bros](https://www.mariowiki.com/Super_Mario_Bros.) yang data-datanya merupakan hasil web scrapping. Topik ini dipilih karena akan cocok untuk dijadikan sebuah sistem basis data relasional dengan adanya hal-hal seperti character yang memiliki beberapa tipe, level yang berisikan item-item dengan jumlah tertentu, hubungan antara power up, playable character, dan form power up, dan sebagainya. Dengan adanya DBMS ini kita dapat dengan mudah memperoleh sebuah insight untuk game ini.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Cara Menggunakan
+<!-- - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya -->
+Pastikan untuk membuka folder `DataScraping/src` di terminal.
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
-
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+### Environtment Variables
+Buat file `.env` di dalam folder [Data Scraping/src](Data%20Scraping/src) dengan isi dapat mengikuti examplenya pada file [Data Scraping/src/.env.example.docker](Data%20Scraping/src/.env.example.docker) atau [Data Scraping/src/.env.example.localhost](Data%20Scraping/src/.env.example.localhost). Atau langsung saja rename yang [Data Scraping/src/.env.example.localhost](Data%20Scraping/src/.env.example.localhost) menjadi `Data Scraping/src/.env`.
 
 
+### Docker
+Jika ingin menggunakan docker, jalankan ini
+```
+docker-compose up
+```
+Program akan secara otomatis melakukan web scraping dan menyimpannya di [Data Scraping/src/json/data.json](Data%20Scraping/src/json/data.json) serta memasukkan data-data ke basis data.
 
+Jika hanya ingin menghidupkan database, jalankan ini
+```
+docker-compose up database
+```
+
+Jika hanya ingin menjalankan web scraping, jalankan ini
+```
+docker-compose up scrape
+```
+
+Jika ingin query sql ke database, buka terminal baru dan jalankan ini
+```
+docker exec -it <CONTAINER_NAME> psql -U <DB_USERNAME> <DB_NAME>
+<QUERY_SQL>;
+```
+Misalnya
+```
+docker exec -it mariodb psql -U user mariodb
+SELECT * FROM image;
+```
+
+### Cek Last Updated
+Jika ingin mengecek kapan terakhir kali data diupdate, bisa dengan query berikut
+```
+SELECT pg_xact_commit_timestamp(xmin) FROM <TABLE_NAME> LIMIT 1;
+```
+Misalnya
+```
+SELECT pg_xact_commit_timestamp(xmin) FROM obstacle LIMIT 1;
+```
+
+### Dump
+jalankan command berikut untuk melakukan dump database
+```
+docker exec -it mariodb pg_dump mariodb > dump/dump.sql
+```
+Hasil dump ada di [Data Scraping/src/dump/dump.sql](Data%20Scraping/src/dump/dump.sql)
+
+### Restore Dump
+jalankan command berikut untuk melakukan restore database
+```
+docker exec -i mariodb psql -U user -d mariodb < dump/dump.sql
+```
+
+
+### Manual
+Jika tidak menggunakan docker, anda bisa mengikuti ini. Pastikan Python dan PostgreSQL terinstall.
+Jalankan
+```
+python main.py
+```
+Dan akan otomatis web scraping dan memasukkan data ke basis data.
+
+Jika hanya ingin web scraping saja maka jalankan
+```
+python scrape.py
+```
+
+Jika hanya ingin memasukkan ke database saja maka jalankan
+```
+python db.py
+```
+
+Contoh jika ingin menjalankan sebuah sql query dari code adalah sebagai berikut.
+```
+python db.py "SELECT * FROM item"
+```
+
+### Frontend Visualization
+Pastikan node.js sudah diinstall. Pastikan database menyala. Buka folder [Data Visualization/src](Data/Visualization/src) di terminal. Copy paste file `.env` yang ada di saata Data Scraping ke folder tersebut. Jalankan
+```
+npm install
+npm run dev
+```
+Buka browser sesuai dengan url yang diberikan di terminal. Misalnya `http://localhost:3000/`.
+
+
+## Struktur File Hasil Scrapping
+<!-- - Penjelasan struktur dari file JSON yang dihasilkan scraper -->
+
+```
+{
+  "character": {
+
+    // array of playable characters, keunikannya punya relasi dengan form (misal mario menjadi fiery mario)
+    "pc": {
+      "name": string,
+      "description": string,
+      "image": {
+        "name": string,
+        "url": string,
+        "width": number,
+        "height": number
+      },
+      "detail_url": string
+    }[],
+
+
+    // array of non playable characters
+    "npc": {
+      "name": string,
+      "description": string,
+      "image": {
+        "name": string,
+        "url": string,
+        "width": number,
+        "height": number
+      },
+      "detail_url": string,
+    }[],
+
+
+    // array of enemies, keunikannya punya points
+    "enemy": {
+      "name": string,
+      "description": string,
+      "image": {
+        "name": string,
+        "url": string,
+        "width": number,
+        "height": number
+      },
+      "detail_url": string,
+      "points": number,
+    }[]
+  },
+
+  // array of obstacles yang ada di game
+  "obstacle": {
+    "name": string,
+    "description": string,
+    "image": {
+      "name": string,
+      "url": string,
+      "width": number,
+      "height": number
+    },
+    "detail_url": string,
+  }[],
+
+  // array of item yang ada di game
+  "item": {
+    "name": string,
+    "description": string,
+    "image": {
+      "name": string,
+      "url": string,
+      "width": number,
+      "height": number
+    },
+    "detail_url": string,
+  }[],
+
+  // array of power up yang ada di game, dapat membuat playable character berubah form
+  "power_up": {
+
+    // ada yang N/A karena state saat playable character sedang tidak menggunakan power up
+    "name": null || string,
+    "description": string,
+
+    // ada yang N/A karena state saat playable character sedang tidak menggunakan power up
+    "image": null || {
+      "name": string,
+      "url": string,
+      "width": number,
+      "height": number
+    },
+
+    // ada yang N/A karena state saat playable character sedang tidak menggunakan power up
+    "detail_url": null || string,
+
+    // khusus untuk playable character bernama 'mario'
+    "mario_form": {
+      "name": string,
+      "image": {
+        "name": string,
+        "url": string,
+        "width": number,
+        "height": number
+      },
+      "detail_url": string
+    },
+
+    // khusus untuk playable character bernama 'luigi'
+    "luigi_form": {
+      "name": string,
+      "image": {
+        "name": string,
+        "url": string,
+        "width": number,
+        "height": number
+      },
+      "detail_url": string
+    },
+  }[],
+
+  // array of object yang ada di game. tiap object memiliki typenya masing-masing, namun tidak ada keunikan dari tiap type, hanya sebagai penamaan saja. Lalu tiap 4 level memiliki image yang sama.
+  "object": {
+    "name": string,
+    "description": string,
+    "image": Image,
+    "detail_url": string,
+    "type": string
+  }[],
+
+  // array of reference yang ada pada game
+  "reference": {
+    "name": string,
+    "description": string,
+    "detail_url": string,
+    "type": string
+  }[],
+
+  // array of version yang ada pada game
+  "version": {
+    "year": string,
+    "description": string,
+  }[],
+
+  // array of level yang ada pada game. Tiap level memiliki item, power_up, enemies, dan obstacle dengan jumlah tertentu. Namun website sering tidak konsisten. Misal dalam item ada power_up. Kadang enemies dicampur dengan obstacle.
+  "level": {
+    "name": string,
+    "image": {
+      "name": string,
+      "url": string,
+      "width": number,
+      "height": number
+    },
+    "detail_url": string,
+    "setting": string,
+
+    // Saat scraping juga memiliki id html yang tidak konsisten. Bisa beda-beda antara Level_map, Level_maps, Course_map, Map
+    "course_map_image": {
+      "name": string,
+      "url": string,
+      "width": number,
+      "height": number
+    },
+
+    // Website sering tidak konsisten. Di dalam ini bisa ada power_up
+    "item": { 
+      "name": string;
+      "count": number;
+      "detail_url": string;
+      "description": string;
+    }[],
+
+    // Website sering tidak konsisten. Kadang enemies, kadang campuran enemies dan obstacle, kadang tidak ada sama sekali
+    "enemies": null || {
+      "name": string,
+      "count": number,
+      "detail_url": string
+    }[],
+    "enemies_and_obstacle": null || {
+      "name": string,
+      "count": number,
+      "detail_url": string
+    }[],
+  }[]
+}
+```
+
+## Struktur ERD dan diagram relasional RDBMS 
+<!-- - Struktur ERD dan diagram relasional RDBMS -->
+### Entity Relationship Diagram
+<img src="Data Storing/design/Mario-DB-ER.drawio.png"/>
+
+### Relational Diagram
+<img src="Data Storing/design/Mario-DB-R.drawio.png"/>
+
+## Translasi ERD Menjadi diagram relasional
+<!-- - Penjelasan mengenai proses translasi ERD menjadi diagram relasional -->
+Proses translasi ERD menjadi diagram relasional dilakukan dengan cara mengubah setiap entitas dan relasi yang ada pada ERD menjadi tabel-tabel pada database. Setiap atribut cpada entitas akan menjadi kolom pada tabel. Setiap relasi akan menjadi foreign key pada tabel yang berelasi. Entity character memiliki relasi ISA dengan cardinality one to one dengan entity pc, npc, dan enemy. Ini diubah menjadi tabel character, pc, npc, dan enemy. Setiap tabel turunannya memiliki id primary key yang sekalian foreign key yang sama dengan character. Untuk entity pc memiliki hubungan many to many dengan entity power_up dan memiliki relasi form yang memiliki atribut relasi yang atribut relasi itu juga berelasi dengan image. Setelah ditransformasi maka menjadi tabel pc, form, dan power_up yang dihubungkan melalui primary key dan foreign key. Untuk tabel form terdapat atribut tambahan sesuai dengan relasi form. Terdapat sebuah entity level yang berelasi dengan entity item, object, enemy, dan power_up dengan cardinality one to many. Maka level akan menjadi tabel, yang akan dihubungkan ke tabel item, object, enemy, dan power_up melalui tabel level_item, level_object, level_enemy, dan level_power_up dengan primary key dan foreign keynya dan memiliki tambahan atribut count. Reference dan version tidak memiliki relasi dengan entity lain sehingga langsung diubah menjadi tabel. Kemudian untuk masing-masing entity yang memiliki relasi dengan image akan memiliki atribut image_id untuk dihubungkan ke tabel image. Untuk setting level yang berelasi dengan entity level akan diubah menjadi tabel setting_level yang berelasi dengan level yang dihubungkan melalui primary key dan foreign key.
+
+
+## Automated Scheduling Update
+Proses web scraping dapat diupdate dalam jangka waktu tertentu. Dalam program ini, proses web scraping akan dijalankan setiap 2 menit. Konfigurasi ini bisa diubah dari main.py pada variabel wait_time. Nilainya dalam detik. File json hasil scraping akan disimpan di [Data Scraping/src/json/data.json](Data%20Scraping/src/json/data.json).
+
+## Data Visualization
+Total item, power up, obstacle, dan enemy yang ada di tiap level.
+<br>
+<img src="Data Visualization/screenshot/visualization.png"/>
+
+## Screenshot
+<!-- - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan) -->
+
+### Query SQL
+Contoh login dan query SELECT ke tabel obstacle.
+<img src="Data Storing/screenshot/query-sql.png"/>
+
+### Scheduling
+Contoh mengambil timestamp untuk mengetahui kapan terakhir kali obstacle diupdate.
+Yang bawah merupakan setelah ditunggu sekitar 2 menit.
+<br>
+<img src="Data Storing/screenshot/scheduling.png"/>
+
+### Web Scrapping
+<img src="Data Scraping/screenshot/main.py.png"/>
+<img src="Data Scraping/screenshot/table.py.png"/>
+<img src="Data Scraping/screenshot/character.py.png"/>
+<img src="Data Scraping/screenshot/item.py.png"/>
+<img src="Data Scraping/screenshot/level.py.png"/>
+<img src="Data Scraping/screenshot/object.py.png"/>
+<img src="Data Scraping/screenshot/obstacle.py.png"/>
+<img src="Data Scraping/screenshot/power_up.py.png"/>
+<img src="Data Scraping/screenshot/reference.py.png"/>
+<img src="Data Scraping/screenshot/table.py.png"/>
+<img src="Data Scraping/screenshot/version.py.png"/>
+
+
+## Referensi
+- Bahasa Pemrograman: Python
+- Library:
+    - asyncio: web request secara konkuren sekalian untuk scheduling
+    - BeautifulSoup: scrapping html website
+    - psycopg2: driver database
+- DBMS: PostgreSQL 
+- URL Website yang discrape: 
+    - https://www.mariowiki.com/Super_Mario_Bros
+    - https://www.mariowiki.com/World_1-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_1-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_1-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_1-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_2-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_2-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_2-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_2-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_3-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_3-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_3-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_3-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_4-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_4-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_4-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_4-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_5-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_5-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_5-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_5-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_6-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_6-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_6-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_6-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_7-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_7-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_7-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_7-4_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_8-1_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_8-2_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_8-3_(Super_Mario_Bros.)
+    - https://www.mariowiki.com/World_8-4_(Super_Mario_Bros.)
