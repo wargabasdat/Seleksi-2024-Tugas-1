@@ -1,6 +1,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
+- [Program Specification](#program-specification)
 - [Usage](#usage)
 - [Data Scraping](#data-scraping)
 - [Data Modelling and Storing](#data-modelling-and-storing)
@@ -30,13 +31,20 @@ Libraries: BeautifulSoup, Requests
 3. Navigate to src directory
 >
     cd Data\ Scraping/src
-4. Modify the db config in ```sql_loader.py``` with your own user and password
+4. Modify the db config in ```sql_loader.py``` with your own user, hostname, and password
+>
+    config = {
+      'user': {your_username},
+      'password': {your_password},
+      'host': {your_hostname},
+      'database': 'airline'
+    }
 5. Run main program
 >
     python3 main.py
-7. Additionally, the sql can be dumped by using command
+7. Create an sql dump by using command
 >
-    mysqldump -u {your_user_name} -p {your_db_name} > airline.sql
+    mysqldump -u {your_user_name} -p airline > airline.sql
 
 ## Data Scraping
 #### 1. Scraping process
@@ -45,7 +53,7 @@ The cleaning process includes:
 - Convert numerical value to int
 - Handle missing values and change 'N/A' values to None
 - Convert categorical values(yes/no) to boolean(true/false)
-- Strip weird characters
+- Strip irrelevant characters
 - Strip whitespace
 - Parse and format dates to datetime
 
@@ -71,14 +79,14 @@ The json file in ```Data Scraping/data/airline_reviews.json``` contains the pure
             "Review Text": The content of the review, e.g., "An outstanding experience"
             "Review Date": The date when the review was posted
             "Overall Rating": The overall rating given by the reviewer, on a scale from 1 to 10
-            "Type Of Traveller": "The type of traveler, e.g., "Family Leisure"
+            "Type Of Traveller": The type of traveler, e.g., "Family Leisure"
             "Seat Type": The type of seat used, e.g., "First Class"
             "Seat Comfort": The rating for seat comfort, on a scale from 1 to 5
             "Cabin Staff Service": The rating for cabin staff service, on a scale from 1 to 5
-            "Food & Beverages": The rating for Food & Beverages, on a scale from 1 to 5
-            "Inflight Entertainment": 
+            "Food & Beverages": The rating for flight's fnb, on a scale from 1 to 5
+            "Inflight Entertainment": The rating for inflight entertainment, on a scale from 1 to 5
             "Ground Service": The rating for ground service, on a scale from 1 to 5
-            "Wifi & Connectivity": The rating for wifi and connectivity, on a scale from 1 to 5.
+            "Wifi & Connectivity": The rating for wifi and connectivity, on a scale from 1 to 5
             "Value For Money": The rating for value for money, on a scale from 1 to 5
             "Recommended": A boolean indicating whether the reviewer recommends the airline
         }
@@ -94,6 +102,8 @@ There are some assumptions regarding the db design:
 - A reviewer can create many review
 - An airline can have many reviewed flight
 - A flight can be reviewed more than once
+- An airline staff only works for 1 airline, but an airline can have many staff
+- An airline_staff can respond to many review
 - A review corresponds to exactly one flight and one user
 - 'overall_rating' in the Review schema is user-defined in this context, not from average rating calculation
 - Some attributes are not informed, like the time of flight, reviewer's email and password
@@ -141,7 +151,6 @@ The dashboard are developed using Tableau. Viewers can use filter to switch betw
 
 For full dashboard view and interactivity, follow this link : [Airline Reviews Dashboard](https://public.tableau.com/views/AirlineReviews_17217096557510/OverviewDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-The walkthrough of the dashboard's usage can be seen from 
 ![Dashboard Overview Page](./Data%20Visualization/dashboard_overview.png)
 ![Dashboard Insight Page](./Data%20Visualization/dashboard_insight.png)
 
