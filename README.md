@@ -5,9 +5,8 @@ Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 
 ## Table of Contents
 * [General Info](#general-information)
-* [How to Run the Scrapper](#how-to-ru-the-scrapper)
+* [How to Run the Scrapper](#how-to-run-the-scrapper)
 * [JSON Structure](#json-structure)
-* [Usage](#usage)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -30,18 +29,18 @@ Run the scrapper with the command
 scrapper.py 
 ```
 The output of the scrapper run is six json files that will be stored in the "Data Scraping/data" folder: <br>
-> Ingredients_[timestamp].json <br>
-> Madeof_[timestamp].json <br>
-> Recipes_[timestamp].json <br>
-> Reviews_[timestamp].json <br>
-> Tweaksandquestions_[timestamp].json <br>
-> Users_[timestamp].json <br>
+- Ingredients_[timestamp].json <br>
+- Madeof_[timestamp].json <br>
+- Recipes_[timestamp].json <br>
+- Reviews_[timestamp].json <br>
+- Tweaksandquestions_[timestamp].json <br>
+- Users_[timestamp].json <br>
 
 
 ## JSON Structure
 
 The ingredients_[timestamp].json file contains a list of dictionaries with attributes: <br>
-> ingredient_id: the unique code of the ingredient taken from the link on the web; <br>
+> - ingredient_id: the unique code of the ingredient taken from the link on the web; <br>
 > ingredient_name: the name of the ingredient in English; <br>
 > season_start: harvest start month; <br>
 > season_end: month of harvest end; <br>
