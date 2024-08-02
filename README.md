@@ -105,6 +105,13 @@ Below is the proof that i had stored the scraped data into the dumped sql.
 | -------------------------------------------------------------------------------------------------------------------- |
 | ![Tag Table](https://raw.githubusercontent.com/ganadipa/Seleksi-2024-Tugas-1/main/Data%20Storing/screenshot/Tag.png) |
 
+## Data Visualization
+
+### How to run
+
+1. cd "Data Visualization"/src
+2. pnpm install && pnpm dev
+
 ## Special Thanks
 
 Special thanks to Codeforces for providing the information. [codeforces.com](https://codeforces.com)
