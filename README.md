@@ -56,7 +56,8 @@ Pada project ini, saya akan melakukan *scraping* pada website [novelbin.me](http
 8. Masuk ke setiap folder yang mengandung go.mod dan jalankan `go mod tidy` dan `go mod download` (Data Scraping/src/main | Data Scraping/src/scraper | Data Storing/export)
 
 ## Usage
-Pada docker-compose.yml, anda bisa meng-*uncomment* `./Data Storing/export/basdat.sql:/docker-entrypoint-initdb.d/basdat.sql` jika ingin langsung menggunakan file sql yang sudah tersedia dan memasukkannya ke dalam database pada *docker*
+Pada docker-compose.yml, anda bisa meng-*uncomment* `./Data Storing/export/basdat.sql:/docker-entrypoint-initdb.d/basdat.sql` jika ingin langsung menggunakan file sql yang sudah tersedia dan memasukkannya ke dalam database pada *docker* (karena scrapingnya lama 30 menit)
+![docker comment](docker.png)
 
 Aktifkan docker dan eksekusi `docker compose up` pada root directory repository ini, kemudian:<br>
 1. Masuk ke folder Data Scraping/src/main `cd "Data Scraping/src/main"`
