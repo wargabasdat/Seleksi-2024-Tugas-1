@@ -7,6 +7,7 @@ Hello! I'm Evelyn Yosiana with NIM 13522083. <br>
 * [Topic and DBMS](#topic-and-dbms)
 * [How to Run the Scrapper](#how-to-run-the-scrapper)
 * [JSON Structure](#json-structure)
+* [Explanation of ERD and Relational Diagram in RDBMS](#explanation-of-erd-and-relational-diagram-in-rdbms)
 * [How to Convert ERD into Relational Diagram](#how-to-convert-erd-into-relational-diagram)
 * [Acknowledgements](#acknowledgements)
 
@@ -100,6 +101,36 @@ The users_[timestamp].json file contains a list of dictionaries with attributes:
 - joined_year: the year the user joined; <br>
 - followers: the total followers of the user (in this code, the followers data is taken directly from the web interface); <br>
 - followers: total accounts followed by the user (in this code, the following data is taken directly from the web interface). <br><br>
+
+
+## Explanation of ERD and Relational Diagram in RDBMS 
+
+### ERD
+There are 5 entities:
+- users: user_id, name, username, user_rating_avg, city, state, joined_year, joined_month, followers, following. <br>
+- ingredients: ingredient_id, ingredient_name, season_start, season_end, calories, total_fat, saturated_fat, cholesterol, protein, carbohydrate, fiber, sugar, sodium. <br>
+- recipes: food_id, food_name, serving_size, calories, total_fat, saturated_fat, cholesterol, protein, carbohydrate, fiber, sugar, sodium. <br>
+- posts: post_id, content, likes, type. <br>
+- reviews: rating. <br> <br>
+
+Additional notes:
+- The “reviews” entity is a disjoint result of the “posts” entity. <br>
+- The “posts” entity is a weak entity of the “recipes” entity. <br> <br>
+
+There are 4 relations:
+- write: a relation between “users” and “recipes” entities where one user can write more than one recipe but each recipe only has one author (one to many). <br>
+- posting: a relationship between the “posts” entity and “users” where one user can write more than one post but each post only has one author (one to many). <br>
+- posted: a relationship between “recipes” and “posts” entities where each post can be uniquely identified by its recipe and there will be no post if there is no recipe. <br>
+- madeof: a relationship between “recipes” and “ingredients” where each recipe can have more than one ingredient and each ingredient can be used in more than one recipe (many to many). <br> <br>
+
+### Relational Diagram
+There are 6 relations (tables):
+- users: user_id (varchar 255), name (varchar 255), username (varchar 255), user_rating_avg (float), city (varchar 255), state (varchar 255), joined_year (integer), joined_month (integer), followers (integer), following (integer); with the primary key "user_id" and does not have foreign keys. <br>
+- ingredient: ingredient_id (varchar 255), ingredient_name (varchar 255), beginning_season (varchar 255), end_season (varchar 255), calories (float), total_fat (float), saturated_fat (float), cholesterol (float), protein (float), carbohydrate (float), fiber (float), sugar (float), sodium (float); with primary key "ingredient_id" and no foreign keys. <br>
+- recipe: food_id (varchar 255), maker id (varchar 255), food_name (varchar 255), portion size (float), calories (float), total_fat (float), saturated_fat (float), cholesterol (float), protein (float), carbohydrate (float), fiber (float), sugar (float), sodium (float); with primary key "food_id" and foreign key "maker id" referring to "users. user_id". <br>
+- madeof: food_id (varchar 255), ingredient_id (varchar 255); with primary keys ("food_id", "ingredient_id") and foreign keys "food_id" referring to "recipes.food_id" and "ingredient_id" referring to "ingredients.ingredient_id". <br>
+- posts: post_id (varchar 255), food_id (varchar 255), user_id (varchar 255), content (text), likes (float), type (varchar 255); with primary keys ("post_id", "food_id") and foreign keys "food_id" referring to "recipes.food_id" and "user_id" referring to "users.user_id". <br>
+- reviews: post_id (varchar 255), food_id (varchar 255), rating (float); with primary key ("post_id", "food_id") and foreign keys "post_id", "food_id" referring to "posts.post_id" and "posts.food_id". <br> <br>
 
 
 ## How to Convert ERD into Relational Diagram
