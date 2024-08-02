@@ -67,7 +67,7 @@ Pada docker-compose.yml, anda bisa meng-*uncomment* `./Data Storing/export/basda
 Aktifkan docker dan eksekusi `docker compose up` pada root directory repository ini, kemudian:<br>
 1. Masuk ke folder Data Scraping/src/main `cd "Data Scraping/src/main"`
 2. Jalankan program `go run scraper.go` untuk menjalankan proses *scraping* (jumlah pages yang di *scrape* dapat diubah pada `scraper.go` untuk mengurangi waktu *scraping*) ![scraper.go](Data%20Scraping/screenshot/scraper.go.png) 
-dan tunggu hingga program selesai. Program akan menghasilkan file JSON yang dimasukkan ke dalam folder dengan format YYYY-MM-DD yang merupakan tanggal *scraping* dilakukan dan terletak pada `Data Scraping/data` 
+dan tunggu hingga program selesai. Program akan menghasilkan file JSON yang dimasukkan ke dalam folder dengan format YYYY-MM-DD yang merupakan tanggal *scraping* dilakukan dan terletak pada `Data Scraping/data`
 3. Pindah ke folder Data Storing/export `"cd ../../../Data Storing/export"` (relative to Data Scraping/src/main)
 4. Jalankan program `go run dbms.go` untuk memasukkan data pada file JSON yang terletak pada folder `Data Scraping/data` ke database.
 5. Pindah ke folder Data Visualization `cd "../../Data Visualization"` (relative to Data Storing/export)
@@ -149,7 +149,7 @@ File file JSON hasil *scraping* akan disimpan pada sebuah folder yang diberi nam
 
 5. Relasi Series_Chap merupakan relasi dengan Weak Entity sehingga relasi tersebut tidak diubah menjadi tabel. 
 
-6. Relasi Group_Release merupakan relasi one-to-many, namun total participation berada pada sisi yang *one* sehingga relasi tersebut juga diubah menjadi tabel tersendiri pada Relational Diagram. Primary Key dari tabel tersebut merupakan gabungan dari Primary Key kedua tabel yang dihubungkannya.
+6. Relasi Group_Release merupakan relasi one-to-many, namun sisi yang *many* tidak total participation sehingga relasi tersebut juga diubah menjadi tabel tersendiri pada Relational Diagram. Primary Key dari tabel tersebut merupakan gabungan dari Primary Key kedua tabel yang dihubungkannya.
 
 ## Screenshot
 ![scraper running](Data%20Scraping/screenshot/running_scraper.png)
