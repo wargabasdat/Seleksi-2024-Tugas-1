@@ -214,6 +214,17 @@ CREATE TABLE public.temp (
 ALTER TABLE public.temp OWNER TO clementnathanael;
 
 --
+-- Name: temp2; Type: TABLE; Schema: public; Owner: clementnathanael
+--
+
+CREATE TABLE public.temp2 (
+    data jsonb
+);
+
+
+ALTER TABLE public.temp2 OWNER TO clementnathanael;
+
+--
 -- Name: user_audience; Type: TABLE; Schema: public; Owner: clementnathanael
 --
 
@@ -259,6 +270,8 @@ ALTER TABLE public.users OWNER TO clementnathanael;
 --
 
 COPY public.actor (actor_id, actor_name, actor_bod, highest_rating, movie_highest_rating, lowest_rating, movie_lowest_rating) FROM stdin;
+10101	tom hanks	1956-09-07	100.00	toy story	10.00	my life in ruins
+10102	ellen degeneres	1958-01-26	100.00	tig notaro: dawn	6.00	mr. wrong
 \.
 
 
@@ -267,6 +280,7 @@ COPY public.actor (actor_id, actor_name, actor_bod, highest_rating, movie_highes
 --
 
 COPY public.director (director_id, director_name, director_bod, highest_rating, movie_highest_rating, lowest_rating, movie_lowest_rating) FROM stdin;
+210101	ben sharpsteen	1895-11-04	100.00	pinochio	84.00	alice in wonderland
 \.
 
 
@@ -423,6 +437,11 @@ COPY public.movies_disneyplus (moviedp_id, moviedp_name, age_rating, release_yea
 --
 
 COPY public.movies_rottentomatoes (moviert_id, moviert_name, rating, release_year, duration, synopsis) FROM stdin;
+1	Toy Story 2	9	\N	92	\N
+2	Toy Story	8	\N	81	\N
+3	Pinocchio	10	\N	88	\N
+4	Finding Nemo	9	\N	100	\N
+5	Inside Out	9	\N	95	\N
 \.
 
 
@@ -563,6 +582,34 @@ COPY public.temp (data) FROM stdin;
 {"rank": "98", "year": "1995", "score": "81", "artist": "sandra bullock", "director": "jon turteltaub", "movie_name": "while you were sleeping"}
 {"rank": "99", "year": "2021", "score": "80", "artist": "ryan reynolds", "director": "shawn levy", "movie_name": "free guy"}
 {"rank": "100", "year": "2003", "score": "80", "artist": "johnny depp", "director": "gore verbinski", "movie_name": "pirates of the caribbean: the curse of the black pearl"}
+{"rating": 9, "duration": 92, "moviedp_id": 1, "moviedp_name": "Toy Story 2"}
+{"rating": 8, "duration": 81, "moviedp_id": 2, "moviedp_name": "Toy Story"}
+{"rating": 10, "duration": 88, "moviedp_id": 3, "moviedp_name": "Pinocchio"}
+{"rating": 9, "duration": 100, "moviedp_id": 4, "moviedp_name": "Finding Nemo"}
+{"rating": 9, "duration": 95, "moviedp_id": 5, "moviedp_name": "Inside Out"}
+\.
+
+
+--
+-- Data for Name: temp2; Type: TABLE DATA; Schema: public; Owner: clementnathanael
+--
+
+COPY public.temp2 (data) FROM stdin;
+{"rating": 9, "duration": 92, "moviert_id": 1, "moviert_name": "Toy Story 2"}
+{"rating": 8, "duration": 81, "moviert_id": 2, "moviert_name": "Toy Story"}
+{"rating": 10, "duration": 88, "moviert_id": 3, "moviert_name": "Pinocchio"}
+{"rating": 9, "duration": 100, "moviert_id": 4, "moviert_name": "Finding Nemo"}
+{"rating": 9, "duration": 95, "moviert_id": 5, "moviert_name": "Inside Out"}
+{"rating": 9, "duration": 92, "moviedp_id": 1, "moviedp_name": "Toy Story 2"}
+{"rating": 8, "duration": 81, "moviedp_id": 2, "moviedp_name": "Toy Story"}
+{"rating": 10, "duration": 88, "moviedp_id": 3, "moviedp_name": "Pinocchio"}
+{"rating": 9, "duration": 100, "moviedp_id": 4, "moviedp_name": "Finding Nemo"}
+{"rating": 9, "duration": 95, "moviedp_id": 5, "moviedp_name": "Inside Out"}
+{"rating": 9, "duration": 92, "moviedp_id": 1, "moviert_id": 1, "moviedp_name": "Toy Story 2"}
+{"rating": 8, "duration": 81, "moviedp_id": 2, "moviert_id": 2, "moviedp_name": "Toy Story"}
+{"rating": 10, "duration": 88, "moviedp_id": 3, "moviert_id": 3, "moviedp_name": "Pinocchio"}
+{"rating": 9, "duration": 100, "moviedp_id": 4, "moviert_id": 4, "moviedp_name": "Finding Nemo"}
+{"rating": 9, "duration": 95, "moviedp_id": 5, "moviert_id": 5, "moviedp_name": "Inside Out"}
 \.
 
 
