@@ -37,6 +37,22 @@ Restoran merupakan tempat dimana kita dapat menikmati makanan yang merupakan keb
     python inserter.py
     ```
 
+## Cara Menggunakan Visualization
+1. Masuk ke directory dashboard
+    ```
+    cd Data Visualization/src
+    ```
+2. Pastikan database (mysql) sudah dibuat
+
+3. Buka file dashboard.py
+
+4. Ubah host, user, password, database sesuai dengan host, user, password, dan nama database anda
+
+5. Jalankan perintah dan buka localhost yang tersedia pada terminal
+    ```
+    python dashboard.py
+    ```
+
 ## Struktur File JSON
 File JSON berjumlah 50 data restoran dan di setiap datanya memiliki 6 kolom yaitu nama, alamat, nomor telepon, website, instagram, dan facebook dari masing-masing restoran. Null pada file JSON menandakan bahwa restoran tidak memiliki data pada kolom tersebut. Untuk struktur lengkapnya dapat dilihat pada folder data yang terletak di dalam folder Data Storing
 
