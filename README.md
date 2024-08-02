@@ -73,7 +73,7 @@ dan tunggu hingga program selesai. Program akan menghasilkan file JSON yang dima
 5. Pindah ke folder Data Visualization `cd "../../Data Visualization"` (relative to Data Storing/export)
 6. Jalankan aplikasi *dashboard* dari data yang ada pada database `streamlit run streamlit_app.py`
 
-Cara lain untuk menjalankan program dengan menggunakan `run.bat`:
+Cara lain untuk menjalankan program dengan menggunakan `run.bat`: (ganti path di `run.bat` sesuai dengan path anda)
 1. Jalankan command `cmd /c run.bat` untuk menjalankan program *scraping* dan memasukkan data ke database
 2. Tunggu hingga program selesai
 3. Pindah ke folder Data Visualization `cd "Data Visualization"`
