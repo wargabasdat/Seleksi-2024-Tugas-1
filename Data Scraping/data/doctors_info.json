@@ -1,0 +1,482 @@
+[
+  {
+    "Name": "Dr. Iriany Sahali Sp.GK, AIFO-K",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-iriany-sahali-sp-gk-aifo-k",
+    "Experience": 20,
+    "Rating": 99,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Hasanuddin",
+        "Year": 2005
+      },
+      {
+        "University": "Universitas Hasanuddin",
+        "Year": 2020
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Makassar",
+        "Province": "Sulawesi Selatan"
+      }
+    ],
+    "StrNumber": "7321701420071583"
+  },
+  {
+    "Name": "Dr. Rosa Kristiansen Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-rosa-kristiansen-sp-gk",
+    "Experience": 10,
+    "Rating": 100,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "FK Universitas Sebelas Maret",
+        "Year": 2014
+      },
+      {
+        "University": "FK Universitas Diponegoro",
+        "Year": 2022
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Sukoharjo",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "3321701322158411"
+  },
+  {
+    "Name": "Dr. Fitri Tyas Sp.GK, AIFO-K",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-fitri-tyas-sp-gk-aifo-k",
+    "Experience": 16,
+    "Rating": 97,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Kristen Maranatha ",
+        "Year": 2008
+      },
+      {
+        "University": "Universitas Hasanuddin Makassar ",
+        "Year": 2022
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Jakarta Pusat",
+        "Province": "DKI Jakarta"
+      }
+    ],
+    "StrNumber": "7321701522095374"
+  },
+  {
+    "Name": "Dr. Dewi Susanti Widjajatanadi Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-dewi-susanti-widjajatanadi-sp-gk",
+    "Experience": 13,
+    "Rating": 96,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Undip",
+        "Year": 2022
+      },
+      {
+        "University": "UNS",
+        "Year": 2011
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Pati",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "33.2.1.701.4.22.126871"
+  },
+  {
+    "Name": "Dr. Linda Artanti Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-linda-artanti-sp-gk",
+    "Experience": 14,
+    "Rating": 98,
+    "Price": 199900,
+    "Education": [
+      {
+        "University": "Universitas Diponegoro",
+        "Year": 2018
+      },
+      {
+        "University": "Universitas Atma Jaya",
+        "Year": 2011
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Jambi",
+        "Province": "Jambi"
+      }
+    ],
+    "StrNumber": "3321701423120739"
+  },
+  {
+    "Name": "Dr. Dewa Ayu Liona Dewi M.Kes, Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-dewa-ayu-liona-dewi-m-kes-sp-gk",
+    "Experience": 27,
+    "Rating": 100,
+    "Price": 100000,
+    "Education": [
+      {
+        "University": "Universitas Hasanuddin",
+        "Year": 2017
+      },
+      {
+        "University": "Universitas Brawijaya",
+        "Year": 1998
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Surabaya",
+        "Province": "Jawa Timur"
+      }
+    ],
+    "StrNumber": "7321701422050265"
+  },
+  {
+    "Name": "Dr. Shiela Stefani M.Gizi, Sp.GK, AIFO-K",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-shiela-stefani-m-gizi-sp-gk-aifo-k",
+    "Experience": 11,
+    "Rating": 100,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Kristen Maranatha",
+        "Year": 2014
+      },
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2020
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Bandung",
+        "Province": "Jawa Barat"
+      },
+      {
+        "City": "Kab. Bandung",
+        "Province": "Jawa Barat"
+      }
+    ],
+    "StrNumber": "3121701320148941"
+  },
+  {
+    "Name": "Dr. Karina Marcella Widjaja Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-karina-marcella-widjaja-sp-gk",
+    "Experience": 7,
+    "Rating": 99,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2023
+      },
+      {
+        "University": "Universitas Kristen Krida Wacana (Ukrida)",
+        "Year": 2017
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Tangerang",
+        "Province": "Banten"
+      }
+    ],
+    "StrNumber": "GO00000101356545"
+  },
+  {
+    "Name": "Dr. Yulin Arditawati Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-yulin-arditawati-sp-gk",
+    "Experience": 10,
+    "Rating": 91,
+    "Price": 150000,
+    "Education": [
+      {
+        "University": "Universitas Diponegoro",
+        "Year": 2022
+      },
+      {
+        "University": "Universitas Diponegoro",
+        "Year": 2014
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Boyolali",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "3321100219147962"
+  },
+  {
+    "Name": "Dr. Josefina Junizar M.Gizi, Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-josefina-junizar-m-gizi-sp-gk",
+    "Experience": 23,
+    "Rating": 100,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas YARSI ",
+        "Year": 2001
+      },
+      {
+        "University": "Universitas Hasanuddin",
+        "Year": 2018
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Batam",
+        "Province": "Kep. Riau"
+      }
+    ],
+    "StrNumber": "GO00000415731121"
+  },
+  {
+    "Name": "Dr. Ade Erni M.Gizi, Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-ade-erni-m-gizi-sp-gk",
+    "Experience": 25,
+    "Rating": 88,
+    "Price": 90000,
+    "Education": [
+      {
+        "University": "Universitas Islam Sumatera Utara",
+        "Year": 2000
+      },
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2013
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Bandung",
+        "Province": "Jawa Barat"
+      }
+    ],
+    "StrNumber": "KV00000381156403"
+  },
+  {
+    "Name": "Dr. Yohannessa Wulandari M.Gizi, Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-yohannessa-wulandari-m-gizi-sp-gk",
+    "Experience": 14,
+    "Rating": 100,
+    "Price": 215000,
+    "Education": [
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2017
+      },
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2011
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Jakarta Pusat",
+        "Province": "DKI Jakarta"
+      }
+    ],
+    "StrNumber": "3121100110114466"
+  },
+  {
+    "Name": "Dr. Diani Adrina Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-diani-adrina-sp-gk",
+    "Experience": 24,
+    "Rating": 100,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2007
+      },
+      {
+        "University": "Universitas Trisakti",
+        "Year": 2001
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Jakarta Selatan",
+        "Province": "DKI Jakarta"
+      }
+    ],
+    "StrNumber": "9821701523029479"
+  },
+  {
+    "Name": "Dr. Amelya Augusthina Ayusari M.Gizi, Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-amelya-augusthina-ayusari-m-gizi-sp-gk",
+    "Experience": 13,
+    "Rating": 96,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Sebelas Maret",
+        "Year": 2011
+      },
+      {
+        "University": "Universitas Indonesia",
+        "Year": 2018
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Solo",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "FI00001131753088"
+  },
+  {
+    "Name": "Dr. Noviani . Sp.GK, AIFO-K",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-noviani-sp-gk-aifo-k",
+    "Experience": 23,
+    "Rating": 95,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Diponegoro",
+        "Year": 2016
+      },
+      {
+        "University": "Universitas Udayana",
+        "Year": 2002
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Yogyakarta",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "3321701421012376"
+  },
+  {
+    "Name": "Dr. Annisa Fauziah Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-annisa-fauziah-sp-gk",
+    "Experience": 10,
+    "Rating": 90,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Unniversitas Diponegoro",
+        "Year": 2015
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Tegal",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "3321701322172175"
+  },
+  {
+    "Name": "Dr. Franciska Rahardjo Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-franciska-rahardjo-sp-gk",
+    "Experience": 17,
+    "Rating": 83,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Hasanuddin",
+        "Year": 2020
+      },
+      {
+        "University": "Universitas Maranatha",
+        "Year": 2008
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Kudus",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "7321701420099638"
+  },
+  {
+    "Name": "Dr. Muhammad Nasir Ruki S.Si, M.Kes, Apt, Sp.GK",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-muhammad-nasir-ruki-s-si-m-kes-apt-sp-gk",
+    "Experience": 22,
+    "Rating": 98,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Hasanuddin",
+        "Year": 2014
+      },
+      {
+        "University": "Universitas Muslim Indonesia ",
+        "Year": 2002
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Papua",
+        "Province": "Papua"
+      }
+    ],
+    "StrNumber": "PD00000343074094"
+  },
+  {
+    "Name": "Dr. Ika Swasti Mahargyani Sp.GK, AIFO-K",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-ika-swasti-mahargyani-sp-gk-aifo-k",
+    "Experience": 15,
+    "Rating": 98,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "UNDIP Semarang",
+        "Year": 2022
+      },
+      {
+        "University": "UNISSULA Semarang",
+        "Year": 2010
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Semarang",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "3321701422115537"
+  },
+  {
+    "Name": "Dr. Dimas Widayu Sp.GK, FINEM",
+    "DoctorURL": "https://www.halodoc.com/tanya-dokter/dr-dimas-widayu-sp-gk-finem",
+    "Experience": 21,
+    "Rating": 96,
+    "Price": 55000,
+    "Education": [
+      {
+        "University": "Universitas Diponegoro",
+        "Year": 2019
+      },
+      {
+        "University": "Universitas Diponegoro",
+        "Year": 2004
+      }
+    ],
+    "PracticeLocation": [
+      {
+        "City": "Pekalongan",
+        "Province": "Jawa Tengah"
+      }
+    ],
+    "StrNumber": "3321701420014738"
+  }
+]
