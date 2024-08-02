@@ -1,0 +1,414 @@
+[
+  {
+    "name": "Soul Arrow",
+    "effect": "Fire soul arrow",
+    "fp_cost": 7,
+    "slots": 1,
+    "intelligence": 10,
+    "availability": [
+      "Sorcerer",
+      "Shrine Handmaid",
+      "Yoel of Londor",
+      "Yuria of Londor",
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Great Soul Arrow",
+    "effect": "Fire more powerful soul arrow",
+    "fp_cost": 10,
+    "slots": 1,
+    "intelligence": 15,
+    "availability": [
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Heavy Soul Arrow",
+    "effect": "Fire heavy soul arrow",
+    "fp_cost": 11,
+    "slots": 1,
+    "intelligence": 13,
+    "availability": [
+      "Sorcerer",
+      "Orbeck of Vinheim",
+      "Yuria of Londor",
+      "Yoel of Londor"
+    ]
+  },
+  {
+    "name": "Great Heavy Soul Arrow",
+    "effect": "Fire more powerful heavy soul arrow",
+    "fp_cost": 14,
+    "slots": 1,
+    "intelligence": 18,
+    "availability": [
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Farron Dart",
+    "effect": "Fire soul dart",
+    "fp_cost": 3,
+    "slots": 1,
+    "intelligence": 8,
+    "availability": [
+      "Shrine Handmaid",
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Great Farron Dart",
+    "effect": "Fire more powerful soul dart",
+    "fp_cost": 4,
+    "slots": 1,
+    "intelligence": 23,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Sage's Scroll"
+    ]
+  },
+  {
+    "name": "Farron Hail",
+    "effect": "Fire cascade of soul darts",
+    "fp_cost": 4,
+    "slots": 1,
+    "intelligence": 28,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Sage's Scroll"
+    ]
+  },
+  {
+    "name": "Homing Soulmass",
+    "effect": "Release homing soulmass",
+    "fp_cost": 20,
+    "slots": 1,
+    "intelligence": 20,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Logan's Scroll"
+    ]
+  },
+  {
+    "name": "Homing Crystal Soulmass",
+    "effect": "Release homing crystal soulmass",
+    "fp_cost": 43,
+    "slots": 1,
+    "intelligence": 30,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Crystal Scroll"
+    ]
+  },
+  {
+    "name": "Crystal Hail",
+    "effect": "Cast cascade of small crystal soulmasses from sky",
+    "fp_cost": 19,
+    "slots": 1,
+    "intelligence": 18,
+    "availability": [
+      "Transposed",
+      "Soul of a Crystal Sage"
+    ]
+  },
+  {
+    "name": "Soul Spear",
+    "effect": "Fire soul spear",
+    "fp_cost": 32,
+    "slots": 1,
+    "intelligence": 32,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Logan's Scroll"
+    ]
+  },
+  {
+    "name": "Crystal Soul Spear",
+    "effect": "Fire piercing crystal soul spear",
+    "fp_cost": 46,
+    "slots": 1,
+    "intelligence": 48,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Crystal Scroll"
+    ]
+  },
+  {
+    "name": "White Dragon Breath",
+    "effect": "Emit crystal breath of Seath the Scaleless",
+    "fp_cost": 25,
+    "slots": 1,
+    "intelligence": 50,
+    "availability": [
+      "Transposed",
+      "Soul of Consumed Oceiros"
+    ]
+  },
+  {
+    "name": "Soul Stream",
+    "effect": "Fire torrential volley of souls",
+    "fp_cost": 55,
+    "slots": 2,
+    "intelligence": 45,
+    "availability": [
+      "Grand Archives"
+    ]
+  },
+  {
+    "name": "Soul Greatsword",
+    "effect": "Attack with a greatsword formed from souls",
+    "fp_cost": 23,
+    "slots": 1,
+    "intelligence": 22,
+    "availability": [
+      "Yoel of Londor",
+      "Yuria of Londor",
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Farron Flashsword",
+    "effect": "Attack with a sword formed from souls",
+    "fp_cost": 4,
+    "slots": 1,
+    "intelligence": 23,
+    "availability": [
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Old Moonlight",
+    "effect": "Conceive old moonlight sword and attack",
+    "fp_cost": 23,
+    "slots": 1,
+    "intelligence": 25,
+    "availability": [
+      "Transposed",
+      "Soul of Darkeater Midir"
+    ]
+  },
+  {
+    "name": "Magic Weapon",
+    "effect": "Reinforce right weapon with magic",
+    "fp_cost": 25,
+    "slots": 1,
+    "intelligence": 10,
+    "availability": [
+      "Yoel of Londor",
+      "Yuria of Londor",
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Great Magic Weapon",
+    "effect": "Greatly reinforce right weapon with magic",
+    "fp_cost": 35,
+    "slots": 1,
+    "intelligence": 15,
+    "availability": [
+      "Farron Keep"
+    ]
+  },
+  {
+    "name": "Crystal Magic Weapon",
+    "effect": "Reinforce right weapon with crystal magic",
+    "fp_cost": 45,
+    "slots": 1,
+    "intelligence": 30,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Crystal Scroll"
+    ]
+  },
+  {
+    "name": "Frozen Weapon",
+    "effect": "Imbues right-hand weapon with frost",
+    "fp_cost": 30,
+    "slots": 1,
+    "intelligence": 15,
+    "availability": [
+      "Painted World of Ariandel"
+    ]
+  },
+  {
+    "name": "Magic Shield",
+    "effect": "Reinforce left shield with magic",
+    "fp_cost": 30,
+    "slots": 1,
+    "intelligence": 10,
+    "availability": [
+      "Yoel of Londor",
+      "Yuria of Londor",
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Great Magic Shield",
+    "effect": "Greatly reinforce left shield with magic",
+    "fp_cost": 60,
+    "slots": 1,
+    "intelligence": 18,
+    "availability": [
+      "Irithyll Dungeon"
+    ]
+  },
+  {
+    "name": "Spook",
+    "effect": "Mask noises of caster and prevent fall damage",
+    "fp_cost": 15,
+    "slots": 1,
+    "intelligence": 10,
+    "availability": [
+      "Assassin",
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Aural Decoy",
+    "effect": "Distract foes with a distant sound",
+    "fp_cost": 15,
+    "slots": 1,
+    "intelligence": 18,
+    "availability": [
+      "Orbeck of Vinheim"
+    ]
+  },
+  {
+    "name": "Pestilent Mist",
+    "effect": "Release a cloud of mist that eats away at HP",
+    "fp_cost": 13,
+    "slots": 1,
+    "intelligence": 30,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Sage's Scroll"
+    ]
+  },
+  {
+    "name": "Snap Freeze",
+    "effect": "Creates cloud of near-freezing mist",
+    "fp_cost": 16,
+    "slots": 1,
+    "intelligence": 18,
+    "availability": [
+      "Painted World of Ariandel"
+    ]
+  },
+  {
+    "name": "Cast Light",
+    "effect": "Cast light to illuminate surroundings",
+    "fp_cost": 20,
+    "slots": 1,
+    "intelligence": 15,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Golden Scroll"
+    ]
+  },
+  {
+    "name": "Repair",
+    "effect": "Repair equipped weapons and armor",
+    "fp_cost": 20,
+    "slots": 1,
+    "intelligence": 15,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Golden Scroll"
+    ]
+  },
+  {
+    "name": "Hidden Weapon",
+    "effect": "Turn right weapon invisible",
+    "fp_cost": 25,
+    "slots": 1,
+    "intelligence": 12,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Golden Scroll"
+    ]
+  },
+  {
+    "name": "Hidden Body",
+    "effect": "Turn body nearly invisible",
+    "fp_cost": 25,
+    "slots": 1,
+    "intelligence": 15,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Golden Scroll"
+    ]
+  },
+  {
+    "name": "Chameleon",
+    "effect": "Transform into something inconspicuous",
+    "fp_cost": 20,
+    "slots": 1,
+    "intelligence": 12,
+    "availability": [
+      "Old Woman of Londor"
+    ]
+  },
+  {
+    "name": "Twisted Wall of Light",
+    "effect": "Distort light in order to deflect magic",
+    "fp_cost": 10,
+    "slots": 1,
+    "intelligence": 27,
+    "availability": [
+      "Orbeck of Vinheim",
+      "Golden Scroll"
+    ]
+  },
+  {
+    "name": "Deep Soul",
+    "effect": "Fire darkened soul sediment",
+    "fp_cost": 6,
+    "slots": 1,
+    "intelligence": 12,
+    "availability": [
+      "Transposed",
+      "Soul of the Deacons of the Deep"
+    ]
+  },
+  {
+    "name": "Great Deep Soul",
+    "effect": "Fire powerful darkened soul sediment",
+    "fp_cost": 9,
+    "slots": 1,
+    "intelligence": 20,
+    "availability": [
+      "Aldrich Faithful"
+    ]
+  },
+  {
+    "name": "Great Soul Dregs",
+    "effect": "Fires great dark soul dregs",
+    "fp_cost": 30,
+    "slots": 1,
+    "intelligence": 40,
+    "availability": [
+      "The Dreg Heap"
+    ]
+  },
+  {
+    "name": "Affinity",
+    "effect": "Cast dark manifestation of humanity",
+    "fp_cost": 40,
+    "slots": 1,
+    "intelligence": 32,
+    "availability": [
+      "Karla"
+    ]
+  },
+  {
+    "name": "Dark Edge",
+    "effect": "Strike with blade formed of humanity's darkness",
+    "fp_cost": 26,
+    "slots": 1,
+    "intelligence": 30,
+    "availability": [
+      "Karla"
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "user": "root",
+    "password": "SealedVessel",
+    "port": 1234,
+    "database": "basdattesting"
+}

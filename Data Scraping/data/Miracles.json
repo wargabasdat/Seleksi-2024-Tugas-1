@@ -1,0 +1,384 @@
+[
+    {
+        "miracle": "Heal Aid",
+        "item_effect": "Slightly restore HP",
+        "fp_cost": 27,
+        "slots": 1,
+        "faith": 8,
+        "location": [
+            "Herald",
+            "Shrine Handmaid"
+        ]
+    },
+    {
+        "miracle": "Heal",
+        "item_effect": "Restore HP for self and vicinity",
+        "fp_cost": 45,
+        "slots": 1,
+        "faith": 12,
+        "location": [
+            "Cleric",
+            "Irina of Carim"
+        ]
+    },
+    {
+        "miracle": "Med Heal",
+        "item_effect": "Restore moderate HP for self and vicinity",
+        "fp_cost": 55,
+        "slots": 1,
+        "faith": 15,
+        "location": [
+            "Braille Divine Tome of Carim"
+        ]
+    },
+    {
+        "miracle": "Great Heal",
+        "item_effect": "Restore high HP for self and vicinity",
+        "fp_cost": 65,
+        "slots": 1,
+        "faith": 25,
+        "location": [
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "miracle": "Soothing Sunlight",
+        "item_effect": "Restore high HP for self and broad area",
+        "fp_cost": 80,
+        "slots": 1,
+        "faith": 45,
+        "location": [
+            "Soul of the Dancer"
+        ]
+    },
+    {
+        "miracle": "Replenishment",
+        "item_effect": "Gradually restore HP",
+        "fp_cost": 30,
+        "slots": 1,
+        "faith": 15,
+        "location": [
+            "Irina of Carim"
+        ]
+    },
+    {
+        "miracle": "Bountiful Light",
+        "item_effect": "Gradually restore high HP",
+        "fp_cost": 45,
+        "slots": 1,
+        "faith": 25,
+        "location": [
+            "Braille Divine Tome of Lothric"
+        ]
+    },
+    {
+        "miracle": "Bountiful Sunlight",
+        "item_effect": "Gradually restore high HP for self and broad area",
+        "fp_cost": 70,
+        "slots": 2,
+        "faith": 35,
+        "location": [
+            "Soul of Rosaria"
+        ]
+    },
+    {
+        "miracle": "Projected Heal",
+        "item_effect": "Toss a light that heals those nearby impact point",
+        "fp_cost": 55,
+        "slots": 1,
+        "faith": 28,
+        "location": [
+            "The Dreg Heap"
+        ]
+    },
+    {
+        "miracle": "Caressing Tears",
+        "item_effect": "Cures ailments for self and vicinity",
+        "fp_cost": 14,
+        "slots": 1,
+        "faith": 12,
+        "location": [
+            "Irina of Carim"
+        ]
+    },
+    {
+        "miracle": "Tears of Denial",
+        "item_effect": "Grant one chance to endure when HP reaches 0",
+        "fp_cost": 100,
+        "slots": 2,
+        "faith": 15,
+        "location": [
+            "Braille Divine Tome of Carim"
+        ]
+    },
+    {
+        "miracle": "Homeward",
+        "item_effect": "Return caster to last bonfire rested at, or to shrine",
+        "fp_cost": 30,
+        "slots": 1,
+        "faith": 18,
+        "location": [
+            "Irina of Carim"
+        ]
+    },
+    {
+        "miracle": "Seek Guidance",
+        "item_effect": "Reveal more help, and signs without using ember",
+        "fp_cost": 15,
+        "slots": 1,
+        "faith": 12,
+        "location": [
+            "Cathedral of the Deep"
+        ]
+    },
+    {
+        "miracle": "Sacred Oath",
+        "item_effect": "Boost ATK/DMG absorption for self and vicinity",
+        "fp_cost": 65,
+        "slots": 2,
+        "faith": 28,
+        "location": [
+            "Warrior of Sunlight"
+        ]
+    },
+    {
+        "miracle": "Force",
+        "item_effect": "Create shockwave",
+        "fp_cost": 26,
+        "slots": 1,
+        "faith": 12,
+        "location": [
+            "Braille Divine Tome of Carim"
+        ]
+    },
+    {
+        "miracle": "Emit Force",
+        "item_effect": "Release shockwave in front",
+        "fp_cost": 20,
+        "slots": 1,
+        "faith": 18,
+        "location": [
+            "Siegward of Catarina"
+        ]
+    },
+    {
+        "miracle": "Wrath of the Gods",
+        "item_effect": "Create powerful shockwave",
+        "fp_cost": 40,
+        "slots": 2,
+        "faith": 30,
+        "location": [
+            "Profaned Capital"
+        ]
+    },
+    {
+        "miracle": "Way of White Corona",
+        "item_effect": "White discus slices into foes and returns to conjurer",
+        "fp_cost": 15,
+        "slots": 1,
+        "faith": 18,
+        "location": [
+            "Painted World of Ariandel"
+        ]
+    },
+    {
+        "miracle": "Lightning Arrow",
+        "item_effect": "Fire lightning arrow",
+        "fp_cost": 19,
+        "slots": 1,
+        "faith": 35,
+        "location": [
+            "The Ringed City"
+        ]
+    },
+    {
+        "miracle": "Lightning Spear",
+        "item_effect": "Hurl lightning spear",
+        "fp_cost": 23,
+        "slots": 1,
+        "faith": 20,
+        "location": [
+            "Farron Keep"
+        ]
+    },
+    {
+        "miracle": "Great Lightning Spear",
+        "item_effect": "Hurl giant lightning spear",
+        "fp_cost": 32,
+        "slots": 1,
+        "faith": 30,
+        "location": [
+            "Warrior of Sunlight"
+        ]
+    },
+    {
+        "miracle": "Sunlight Spear",
+        "item_effect": "Hurls sunlight spear",
+        "fp_cost": 48,
+        "slots": 1,
+        "faith": 40,
+        "location": [
+            "Soul of the Lords"
+        ]
+    },
+    {
+        "miracle": "Lightning Stake",
+        "item_effect": "Strike with a stake of lightning",
+        "fp_cost": 34,
+        "slots": 1,
+        "faith": 35,
+        "location": [
+            "Smouldering Lake"
+        ]
+    },
+    {
+        "miracle": "Lightning Storm",
+        "item_effect": "Call forth furious bolts of lightning",
+        "fp_cost": 36,
+        "slots": 2,
+        "faith": 45,
+        "location": [
+            "Soul of the Nameless King"
+        ]
+    },
+    {
+        "miracle": "Divine Pillars of Light",
+        "item_effect": "Bring down multiple pillars of light in vicinity",
+        "fp_cost": 3,
+        "slots": 1,
+        "faith": 30,
+        "location": [
+            "Grand Archives"
+        ]
+    },
+    {
+        "miracle": "Blessed Weapon",
+        "item_effect": "Bless right weapon",
+        "fp_cost": 35,
+        "slots": 1,
+        "faith": 15,
+        "location": [
+            "Braille Divine Tome of Lothric"
+        ]
+    },
+    {
+        "miracle": "Lightning Blade",
+        "item_effect": "Reinforce right weapon with lightning",
+        "fp_cost": 50,
+        "slots": 1,
+        "faith": 30,
+        "location": [
+            "Irithyll Dungeon"
+        ]
+    },
+    {
+        "miracle": "Darkmoon Blade",
+        "item_effect": "Reinforce right weapon with Darkmoon light",
+        "fp_cost": 50,
+        "slots": 1,
+        "faith": 30,
+        "location": [
+            "Blade of the Darkmoon"
+        ]
+    },
+    {
+        "miracle": "Magic Barrier",
+        "item_effect": "Increases magic damage absorption with coating",
+        "fp_cost": 30,
+        "slots": 1,
+        "faith": 15,
+        "location": [
+            "Braille Divine Tome of Lothric"
+        ]
+    },
+    {
+        "miracle": "Great Magic Barrier",
+        "item_effect": "Greatly increase magic damage absorption with coating",
+        "fp_cost": 40,
+        "slots": 2,
+        "faith": 25,
+        "location": [
+            "Archdragon Peak"
+        ]
+    },
+    {
+        "miracle": "Dark Blade",
+        "item_effect": "Reinforce right weapon with dark",
+        "fp_cost": 35,
+        "slots": 1,
+        "faith": 25,
+        "location": [
+            "Londor Braille Divine Tome"
+        ]
+    },
+    {
+        "miracle": "Vow of Silence",
+        "item_effect": "Prevent spells in the vicinity, including one's own",
+        "fp_cost": 35,
+        "slots": 2,
+        "faith": 30,
+        "location": [
+            "Londor Braille Divine Tome"
+        ]
+    },
+    {
+        "miracle": "Dead Again",
+        "item_effect": "Bless corpses, transforming them into traps",
+        "fp_cost": 45,
+        "slots": 1,
+        "faith": 23,
+        "location": [
+            "Londor Braille Divine Tome"
+        ]
+    },
+    {
+        "miracle": "Atonement",
+        "item_effect": "Attract more attention from foes",
+        "fp_cost": 15,
+        "slots": 1,
+        "faith": 18,
+        "location": [
+            "Farron Keep"
+        ]
+    },
+    {
+        "miracle": "Deep Protection",
+        "item_effect": "Some extra ATK/absorption/resist/stamina recovery",
+        "fp_cost": 25,
+        "slots": 1,
+        "faith": 20,
+        "location": [
+            "Deep Braille Divine Tome"
+        ]
+    },
+    {
+        "miracle": "Gnaw",
+        "item_effect": "Summons insect swarm to feast on foes",
+        "fp_cost": 15,
+        "slots": 1,
+        "faith": 18,
+        "location": [
+            "Deep Braille Divine Tome"
+        ]
+    },
+    {
+        "miracle": "Dorhys' Gnawing",
+        "item_effect": "Summon great insect swarm to feast on foes",
+        "fp_cost": 20,
+        "slots": 1,
+        "faith": 25,
+        "location": [
+            "Irithyll of the Boreal Valley"
+        ]
+    },
+    {
+        "miracle": "Lifehunt Scythe",
+        "item_effect": "Steals HP of foes using an illusory scythe",
+        "fp_cost": 20,
+        "slots": 1,
+        "faith": 22,
+        "location": [
+            "Soul of Aldrich"
+        ]
+    }
+]

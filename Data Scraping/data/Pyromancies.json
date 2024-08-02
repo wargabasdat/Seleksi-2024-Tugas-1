@@ -1,0 +1,332 @@
+[
+    {
+        "pyromancy": "Fireball",
+        "item_effect": "Hurls fireball",
+        "fp_cost": 10,
+        "slots": 1,
+        "intelligence": 6,
+        "faith": 6,
+        "location": [
+            "Cornyx of the Great Swamp"
+        ]
+    },
+    {
+        "pyromancy": "Fire Orb",
+        "item_effect": "Hurls giant fire orb",
+        "fp_cost": 14,
+        "slots": 1,
+        "intelligence": 8,
+        "faith": 8,
+        "location": [
+            "Great Swamp Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Bursting Fireball",
+        "item_effect": "Hurl a bursting fireball",
+        "fp_cost": 14,
+        "slots": 1,
+        "intelligence": 18,
+        "faith": 12,
+        "location": [
+            "Great Swamp Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Great Chaos Fire Orb",
+        "item_effect": "Hurl a giant chaos fire orb",
+        "fp_cost": 32,
+        "slots": 2,
+        "intelligence": null,
+        "faith": null,
+        "location": [
+            "Izalith Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Chaos Bed Vestiges",
+        "item_effect": "Hurl chaos flame that scorches vicinity",
+        "fp_cost": 35,
+        "slots": 2,
+        "intelligence": 20,
+        "faith": 10,
+        "location": [
+            "Ludleth"
+        ]
+    },
+    {
+        "pyromancy": "Floating Chaos",
+        "item_effect": "Summons fire-spitting chaos orb",
+        "fp_cost": 20,
+        "slots": 1,
+        "intelligence": 16,
+        "faith": 16,
+        "location": [
+            "Painted World of Ariandel"
+        ]
+    },
+    {
+        "pyromancy": "Fire Surge",
+        "item_effect": "Emit a constant stream of fire",
+        "fp_cost": 2,
+        "slots": 1,
+        "intelligence": 6,
+        "faith": null,
+        "location": [
+            "Cornyx of the Great Swamp"
+        ]
+    },
+    {
+        "pyromancy": "Fire Whip",
+        "item_effect": "Sweep foes with fire whip",
+        "fp_cost": 2,
+        "slots": 1,
+        "intelligence": 13,
+        "faith": 8,
+        "location": [
+            "Quelana Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Firestorm",
+        "item_effect": "Erect multiple fire pillars in vicinity",
+        "fp_cost": 2,
+        "slots": 1,
+        "intelligence": 18,
+        "faith": null,
+        "location": [
+            "Quelana Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Chaos Storm",
+        "item_effect": "Erect multiple chaos fire pillars in vicinity",
+        "fp_cost": 3,
+        "slots": 2,
+        "intelligence": null,
+        "faith": null,
+        "location": [
+            "Izalith Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Great Combustion",
+        "item_effect": "Create powerful, giant flame in hand",
+        "fp_cost": 17,
+        "slots": 1,
+        "intelligence": 10,
+        "faith": 10,
+        "location": [
+            "Cornyx of the Great Swamp"
+        ]
+    },
+    {
+        "pyromancy": "Flame Fan",
+        "item_effect": "Make a large sweep with a fan of flame",
+        "fp_cost": 9,
+        "slots": 1,
+        "intelligence": 15,
+        "faith": 15,
+        "location": [
+            "The Dreg Heap"
+        ]
+    },
+    {
+        "pyromancy": "Sacred Flame",
+        "item_effect": "Flame burrows inside foes and ignites",
+        "fp_cost": 25,
+        "slots": 1,
+        "intelligence": 8,
+        "faith": 8,
+        "location": [
+            "Smouldering Lake"
+        ]
+    },
+    {
+        "pyromancy": "Profaned Flame",
+        "item_effect": "Engulf foes at range and burn them to ashes.",
+        "fp_cost": 30,
+        "slots": 1,
+        "intelligence": 25,
+        "faith": null,
+        "location": [
+            "Irithyll Dungeon"
+        ]
+    },
+    {
+        "pyromancy": "Seething Chaos",
+        "item_effect": "Hurl chaos clump that seethes and explodes",
+        "fp_cost": 28,
+        "slots": 1,
+        "intelligence": 18,
+        "faith": 18,
+        "location": [
+            "Ludleth of Courland"
+        ]
+    },
+    {
+        "pyromancy": "Poison Mist",
+        "item_effect": "Create poison mist",
+        "fp_cost": 18,
+        "slots": 1,
+        "intelligence": null,
+        "faith": 10,
+        "location": [
+            "Great Swamp Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Toxic Mist",
+        "item_effect": "Create intense poison mist",
+        "fp_cost": 24,
+        "slots": 1,
+        "intelligence": null,
+        "faith": 15,
+        "location": [
+            "Smouldering Lake"
+        ]
+    },
+    {
+        "pyromancy": "Acid Surge",
+        "item_effect": "Emit acid which corrodes weapons and armor",
+        "fp_cost": 24,
+        "slots": 1,
+        "intelligence": null,
+        "faith": 13,
+        "location": [
+            "Carthus Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Flash Sweat",
+        "item_effect": "Intense sweating increases fire damage absorption",
+        "fp_cost": 20,
+        "slots": 1,
+        "intelligence": 6,
+        "faith": 6,
+        "location": [
+            "Cornyx of the Great Swamp"
+        ]
+    },
+    {
+        "pyromancy": "Profuse Sweat",
+        "item_effect": "Profuse sweating temporarily boosts all resistances",
+        "fp_cost": 20,
+        "slots": 1,
+        "intelligence": 6,
+        "faith": 6,
+        "location": [
+            "Great Swamp Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Iron Flesh",
+        "item_effect": "Boost absorption/resistances, but increase weight",
+        "fp_cost": 40,
+        "slots": 1,
+        "intelligence": 8,
+        "faith": null,
+        "location": [
+            "Farron Keep"
+        ]
+    },
+    {
+        "pyromancy": "Power Within",
+        "item_effect": "Temporarily boost attack, but gradually lose HP",
+        "fp_cost": 30,
+        "slots": 1,
+        "intelligence": 10,
+        "faith": 10,
+        "location": [
+            "Grand Archives"
+        ]
+    },
+    {
+        "pyromancy": "Carthus Beacon",
+        "item_effect": "Damage increases with consecutive attacks",
+        "fp_cost": 35,
+        "slots": 2,
+        "intelligence": 12,
+        "faith": 12,
+        "location": [
+            "Carthus Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Carthus Flame Arc",
+        "item_effect": "Reinforce right weapon with flame",
+        "fp_cost": 30,
+        "slots": 1,
+        "intelligence": 10,
+        "faith": 10,
+        "location": [
+            "Carthus Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Warmth",
+        "item_effect": "Create a gentle flame that restores HP on touch",
+        "fp_cost": 50,
+        "slots": 2,
+        "intelligence": null,
+        "faith": 25,
+        "location": [
+            "Mound-makers"
+        ]
+    },
+    {
+        "pyromancy": "Rapport",
+        "item_effect": "Charm the enemy, making them a temporary ally",
+        "fp_cost": 30,
+        "slots": 1,
+        "intelligence": 15,
+        "faith": null,
+        "location": [
+            "Quelana Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Boulder Heave",
+        "item_effect": "Spews a boulder from one's mouth",
+        "fp_cost": 17,
+        "slots": 1,
+        "intelligence": 8,
+        "faith": 12,
+        "location": [
+            "Ludleth"
+        ]
+    },
+    {
+        "pyromancy": "Black Flame",
+        "item_effect": "Create giant, black flame in hand",
+        "fp_cost": 25,
+        "slots": 1,
+        "intelligence": 15,
+        "faith": 15,
+        "location": [
+            "Grave Warden Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Black Fire Orb",
+        "item_effect": "Hurl a black fireball",
+        "fp_cost": 22,
+        "slots": 1,
+        "intelligence": 20,
+        "faith": 20,
+        "location": [
+            "Grave Warden Pyromancy Tome"
+        ]
+    },
+    {
+        "pyromancy": "Black Serpent",
+        "item_effect": "Release undulating black flame that runs along the ground",
+        "fp_cost": 19,
+        "slots": 1,
+        "intelligence": 15,
+        "faith": 15,
+        "location": [
+            "Ludleth"
+        ]
+    }
+]

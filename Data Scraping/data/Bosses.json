@@ -1,0 +1,1205 @@
+[
+    {
+        "name": "Iudex Gundyr",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/8/85/Iudex_Gundyr_-_01.jpg/revision/latest/scale-to-width-down/350?cb=20170524133508",
+        "location": [
+            "Cemetery of Ash"
+        ],
+        "drops": [
+            "Coiled Sword"
+        ],
+        "health": {
+            "ng": [
+                "1,037"
+            ],
+            "ng+": [
+                "3,561"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "3,000"
+            ],
+            "ng+": [
+                "15,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": null,
+        "dark": "Resistance",
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Vordt of the Boreal Valley",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/a/ae/Vordt_of_the_Boreal_Valley.jpg/revision/latest/scale-to-width-down/350?cb=20160414211515",
+        "location": [
+            "High Wall of Lothric"
+        ],
+        "drops": [
+            "Soul of Boreal Valley Vordt"
+        ],
+        "health": {
+            "ng": [
+                "1,328"
+            ],
+            "ng+": [
+                "4,146"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "3,000"
+            ],
+            "ng+": [
+                "15,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": null,
+        "dark": "Weakness",
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Crystal Sage",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/4/48/Crystal_sage_boss_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160510174813",
+        "location": [
+            "Road of Sacrifices"
+        ],
+        "drops": [
+            "Soul of a Crystal Sage"
+        ],
+        "health": {
+            "ng": [
+                "2,723"
+            ],
+            "ng+": [
+                "6,413"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "8,000"
+            ],
+            "ng+": [
+                "40,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": null,
+        "poison": "Weakness",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Deacons of the Deep",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/3/30/AiQcX7p.jpg/revision/latest/scale-to-width-down/350?cb=20160804221029",
+        "location": [
+            "Cathedral of the Deep"
+        ],
+        "drops": [
+            "Soul of the Deacons of the Deep",
+            "Small Doll"
+        ],
+        "health": {
+            "ng": [
+                "4,099"
+            ],
+            "ng+": [
+                "8,796"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "13,000"
+            ],
+            "ng+": [
+                "52,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": null,
+        "lightning": null,
+        "dark": "Resistance",
+        "bleed": "Resistance",
+        "poison": "Resistance",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Abyss Watchers",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/7/75/Abyss_Watchers.jpg/revision/latest/scale-to-width-down/350?cb=20160414211515",
+        "location": [
+            "Farron Keep"
+        ],
+        "drops": [
+            "Cinders of a Lord",
+            "Soul of the Blood of the Wolf"
+        ],
+        "health": {
+            "ng": [
+                "1,548",
+                "367"
+            ],
+            "ng+": [
+                "3,250",
+                "771"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "18,000"
+            ],
+            "ng+": [
+                "72,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Resistance",
+        "lightning": "Weakness",
+        "dark": "Resistance",
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+    {
+        "name": "High Lord Wolnir",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/7/75/High_Lord_Wolnir_6.png/revision/latest/scale-to-width-down/350?cb=20160620200907",
+        "location": [
+            "Catacombs of Carthus"
+        ],
+        "drops": [
+            "Soul of High Lord Wolnir"
+        ],
+        "health": {
+            "ng": [
+                "15,041"
+            ],
+            "ng+": [
+                "27,752"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "22,000"
+            ],
+            "ng+": [
+                "88,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": null,
+        "dark": "Resistance",
+        "bleed": "Immunity",
+        "poison": "Resistance",
+        "frost": null
+    },
+    {
+        "name": "Pontiff Sulyvahn",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/5/51/Sulyvahn.png/revision/latest/scale-to-width-down/350?cb=20180211153506",
+        "location": [
+            "Irithyll of the Boreal Valley"
+        ],
+        "drops": [
+            "Soul of Pontiff Sulyvahn"
+        ],
+        "health": {
+            "ng": [
+                "5,106"
+            ],
+            "ng+": [
+                "7,777"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "28,000"
+            ],
+            "ng+": [
+                "63,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": "Resistance",
+        "poison": "Resistance",
+        "frost": "Resistance"
+    },
+    {
+        "name": "Aldrich, Devourer of Gods",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/a/aa/Aldrich_Devourer_of_Gods.png/revision/latest/scale-to-width-down/350?cb=20181105092040",
+        "location": [
+            "Anor Londo"
+        ],
+        "drops": [
+            "Cinders of a Lord",
+            "Soul of Aldrich"
+        ],
+        "health": {
+            "ng": [
+                "4,727"
+            ],
+            "ng+": [
+                "6,126"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "50,000"
+            ],
+            "ng+": [
+                "150,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": "Weakness",
+        "lightning": "Weakness",
+        "dark": "Resistance",
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Resistance"
+    },
+    {
+        "name": "Yhorm the Giant",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/5/5d/Yhorm_the_Giant.png/revision/latest/scale-to-width-down/350?cb=20160416230601",
+        "location": [
+            "Profaned Capital"
+        ],
+        "drops": [
+            "Soul of Yhorm the Giant",
+            "Cinders of a Lord"
+        ],
+        "health": {
+            "ng": [
+                "27,822"
+            ],
+            "ng+": [
+                "41,149"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "36,000"
+            ],
+            "ng+": [
+                "108,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Immunity",
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Dancer of the Boreal Valley",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/b/b5/Dancer_of_the_Boreal_Valley.jpg/revision/latest/scale-to-width-down/350?cb=20160414211516",
+        "location": [
+            "High Wall of Lothric"
+        ],
+        "drops": [
+            "Soul of the Dancer"
+        ],
+        "health": {
+            "ng": [
+                "5,111"
+            ],
+            "ng+": [
+                "6,625"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "60,000"
+            ],
+            "ng+": [
+                "180,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": "Weakness",
+        "bleed": null,
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Dragonslayer Armour",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/c/c1/Dragonslayer_Armour_-_01.png/revision/latest/scale-to-width-down/350?cb=20170325092431",
+        "location": [
+            "Lothric Castle"
+        ],
+        "drops": [
+            "Soul of Dragonslayer Armour"
+        ],
+        "health": {
+            "ng": [
+                "4,581"
+            ],
+            "ng+": [
+                "5,456"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "64,000"
+            ],
+            "ng+": [
+                "96,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Resistance",
+        "dark": "Resistance",
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Twin Princes",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/7/73/Twin_Princes.jpg/revision/latest/scale-to-width-down/350?cb=20160414020832",
+        "location": [
+            "Grand Archives"
+        ],
+        "drops": [
+            "Soul of the Twin Princes"
+        ],
+        "health": {
+            "ng": [
+                "4,294",
+                "3,436"
+            ],
+            "ng+": [
+                "4,328",
+                "3,463"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "None"
+            ],
+            "ng+": [
+                "None"
+            ]
+        },
+        "magic": "Weakness",
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": "Resistance",
+        "bleed": null,
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Soul of Cinder",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/1/1a/Soul_of_Cinder_-_02.png/revision/latest/scale-to-width-down/350?cb=20160726222623",
+        "location": [
+            "Kiln of the First Flame"
+        ],
+        "drops": [
+            "Soul of the Lords"
+        ],
+        "health": {
+            "ng": [
+                "6,557",
+                "4,209"
+            ],
+            "ng+": [
+                "6,655",
+                "4,272"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "100,000"
+            ],
+            "ng+": [
+                "200,000"
+            ]
+        },
+        "magic": "Weakness",
+        "fire": "Resistance",
+        "lightning": "Weakness",
+        "dark": "Weakness",
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Sister Friede",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/9/99/Sister_Friede_-_01.png/revision/latest/scale-to-width-down/331?cb=20170324234745",
+        "location": [
+            "Painted World of Ariandel"
+        ],
+        "drops": [
+            "Soul of Sister Friede",
+            "Titanite Slab"
+        ],
+        "health": {
+            "ng": [
+                "None (as NPC)",
+                "4,863 (1st phase)",
+                "6,864 (2nd phase)",
+                "6,864 (3rd phase)"
+            ],
+            "ng+": [
+                "None (as NPC)",
+                "4,868 (1st phase)",
+                "7,157 (2nd phase)",
+                "6,871 (3rd phase)"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "72,000"
+            ],
+            "ng+": [
+                "144,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": "Weakness",
+        "bleed": "Weakness",
+        "poison": "Resistance",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Demon in Pain",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/c/cf/Demon_in_Pain_-_01.png/revision/latest/scale-to-width-down/350?cb=20170512152450",
+        "location": [
+            "The Dreg Heap"
+        ],
+        "drops": [],
+        "health": {
+            "ng": [
+                "7,045"
+            ],
+            "ng+": [
+                "7,151"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "None"
+            ],
+            "ng+": [
+                "None"
+            ]
+        },
+        "magic": null,
+        "fire": "Resistance",
+        "lightning": null,
+        "dark": "Weakness",
+        "bleed": "Weakness",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Halflight, Spear of the Church",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/7/7f/Halflight_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20170331113343",
+        "location": [
+            "The Ringed City"
+        ],
+        "drops": [
+            "Filianore's Spear Ornament",
+            "Titanite Slab"
+        ],
+        "health": {
+            "ng": [
+                "3,379"
+            ],
+            "ng+": [
+                "3,430"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "80,000"
+            ],
+            "ng+": [
+                "160,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": null,
+        "dark": "Weakness",
+        "bleed": "Resistance",
+        "poison": "Resistance",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Slave Knight Gael",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/a/af/Dark_Souls_III_The_Fire_Fades_Edition_screenshot2.jpg/revision/latest/scale-to-width-down/350?cb=20240514113420",
+        "first location": [
+            "Cathedral"
+        ],
+        "location": [
+            "Painted World of Ariandel",
+            "The Dreg Heap"
+        ],
+        "drops": []
+    },
+    {
+        "name": "Curse-rotted Greatwood",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/2/28/Greatwood.jpg/revision/latest/scale-to-width-down/350?cb=20160423230044",
+        "location": [
+            "Undead Settlement"
+        ],
+        "drops": [
+            "Transposing Kiln",
+            "Soul of the Rotted Greatwood"
+        ],
+        "health": {
+            "ng": [
+                "5,405"
+            ],
+            "ng+": [
+                "15,320"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "7,000"
+            ],
+            "ng+": [
+                "35,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": null,
+        "dark": null,
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Old Demon King",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/c/cd/Old_demon_king_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160418174041",
+        "location": [
+            "Smouldering Lake"
+        ],
+        "drops": [
+            "Soul of the Old Demon King"
+        ],
+        "health": {
+            "ng": [
+                "5,301"
+            ],
+            "ng+": [
+                "7,745"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "25,000"
+            ],
+            "ng+": [
+                "56,250"
+            ]
+        },
+        "magic": null,
+        "fire": "Resistance",
+        "lightning": null,
+        "dark": "Weakness",
+        "bleed": "Immunity",
+        "poison": "Resistance",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Oceiros, the Consumed King",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/d/de/Oceiros_-_01.png/revision/latest/scale-to-width-down/350?cb=20170327063945",
+        "location": [
+            "Consumed King's Garden"
+        ],
+        "drops": [
+            "Soul of Consumed Oceiros"
+        ],
+        "health": {
+            "ng": [
+                "8,087"
+            ],
+            "ng+": [
+                "9,632"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "58,000"
+            ],
+            "ng+": [
+                "116,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Champion Gundyr",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/5/5d/Champion_Gundyr_-_01.png/revision/latest/scale-to-width-down/330?cb=20170325091751",
+        "location": [
+            "Untended Graves"
+        ],
+        "drops": [
+            "Soul of Champion Gundyr"
+        ],
+        "health": {
+            "ng": [
+                "4,956"
+            ],
+            "ng+": [
+                "6,265"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "60,000"
+            ],
+            "ng+": [
+                "120,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": "Resistance",
+        "bleed": "Resistance",
+        "poison": "Resistance",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Ancient Wyvern",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/8/81/Ancient_Wyvern_-_01.jpg/revision/latest/scale-to-width-down/350?cb=20170708194028",
+        "location": [
+            "Archdragon Peak"
+        ],
+        "drops": [
+            "Dragon Head Stone"
+        ],
+        "health": {
+            "ng": [
+                "7,873"
+            ],
+            "ng+": [
+                "7,881"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "70,000"
+            ],
+            "ng+": [
+                "140,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": "Resistance",
+        "poison": "Resistance",
+        "frost": "Weakness"
+    },
+    {
+        "name": "The Nameless King",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/f/f9/Nameless_King.jpg/revision/latest/scale-to-width-down/350?cb=20160527225341",
+        "location": [
+            "Archdragon Peak"
+        ],
+        "drops": [
+            "Soul of the Nameless King"
+        ],
+        "health": {
+            "ng": [
+                "4,577",
+                "7,100"
+            ],
+            "ng+": [
+                "4,582",
+                "7,108"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "80,000"
+            ],
+            "ng+": [
+                "160,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": "Resistance",
+        "dark": "Weakness",
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Resistance"
+    },
+    {
+        "name": "Champion's Gravetender",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/a/af/Gravetender.jpg/revision/latest/scale-to-width-down/350?cb=20161028144643",
+        "location": [
+            "Painted World of Ariandel"
+        ],
+        "drops": [
+            "Champion's Bones",
+            "Valorheart"
+        ],
+        "health": {
+            "ng": [
+                "2,791"
+            ],
+            "ng+": [
+                "2,794"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "60,000"
+            ],
+            "ng+": [
+                "120,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": "Weakness",
+        "poison": "Resistance",
+        "frost": "Resistance"
+    },
+    {
+        "name": "Darkeater Midir",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/7/71/Close_dragon_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20170406185604",
+        "location": [
+            "The Ringed City"
+        ],
+        "drops": [
+            "Soul of Darkeater Midir",
+            "Spears of the Church"
+        ],
+        "health": {
+            "ng": [
+                "15,860",
+                "5,709"
+            ],
+            "ng+": [
+                "16,098",
+                "5,795"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "150,000"
+            ],
+            "ng+": [
+                "300,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": "Resistance",
+        "lightning": "Weakness",
+        "dark": "Resistance",
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Ravenous Crystal Lizard",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/2/25/Angry_lizard.jpg/revision/latest/scale-to-width-down/350?cb=20160424203559",
+        "location": [
+            "Cemetery of Ash",
+            "Cathedral of the Deep",
+            "Farron Keep",
+            "Untended Graves"
+        ],
+        "drops": [
+            "Titanite Scale"
+        ],
+        "health": {
+            "ng": [
+                "1,200",
+                "1,231",
+                "1,231",
+                "2,019"
+            ],
+            "ng+": [
+                "1,200",
+                "1,231",
+                "1,231",
+                "2,019"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "4,000",
+                "5,000",
+                "5,000",
+                "10,000"
+            ],
+            "ng+": [
+                "4,000",
+                "5,000",
+                "5,000",
+                "10,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": "Resistance",
+        "lightning": null,
+        "dark": null,
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Demon",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/3/37/Demon_-_01.png/revision/latest/scale-to-width-down/350?cb=20160921175538",
+        "location": [
+            "Undead Settlement"
+        ],
+        "drops": [
+            "Fire Gem"
+        ],
+        "health": {
+            "ng": [
+                "1,390"
+            ],
+            "ng+": [
+                "1,390"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "5,000"
+            ],
+            "ng+": [
+                "5,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Resistance",
+        "lightning": null,
+        "dark": null,
+        "bleed": "Immunity",
+        "poison": "Resistance",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Boreal Outrider Knight",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/6/63/Boreal_outrider_knight_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160419202150",
+        "location": [
+            "Undead Settlement",
+            "Lothric Castle",
+            "Grand Archives"
+        ],
+        "drops": [
+            "Irithyll Straight Sword",
+            "Irithyll Rapier",
+            "Outrider Knight Set"
+        ],
+        "health": {
+            "ng": [
+                "654",
+                "1,971",
+                "2,330"
+            ],
+            "ng+": [
+                "654",
+                "1,971",
+                "2,330"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "1,600",
+                "3,000",
+                "15,000"
+            ],
+            "ng+": [
+                "1,600",
+                "3,000",
+                "15,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": "Resistance",
+        "lightning": null,
+        "dark": "Weakness",
+        "bleed": null,
+        "poison": null,
+        "frost": "Resistance"
+    },
+    {
+        "name": "Deep Accursed",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/b/bd/Deep_accursed_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160417154921",
+        "location": [
+            "Cathedral of the Deep",
+            "Anor Londo"
+        ],
+        "drops": [
+            "Aldrich's Sapphire",
+            "Aldrich's Ruby"
+        ],
+        "health": {
+            "ng": [
+                "800",
+                "2,200"
+            ],
+            "ng+": [
+                "1,716",
+                "2,851"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "1,500",
+                "2,500"
+            ],
+            "ng+": [
+                "6,000",
+                "7,500"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": null,
+        "dark": "Resistance",
+        "bleed": "Weakness",
+        "poison": null,
+        "frost": "Weakness"
+    },
+    {
+        "name": "Giant Slave",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/1/14/Awoken_giant.jpg/revision/latest/scale-to-width-down/290?cb=20170416203418",
+        "location": [
+            "Cathedral of the Deep",
+            "Irithyll of the Boreal Valley",
+            "Irithyll Dungeon"
+        ],
+        "drops": [
+            "Dung Pie",
+            "Stalk Dung Pie",
+            "Titanite Shard",
+            "Large Titanite Shard",
+            "Titanite Chunk"
+        ],
+        "health": {
+            "ng": [
+                "Varies"
+            ],
+            "ng+": [
+                "Varies"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "4,000"
+            ],
+            "ng+": [
+                "16,000"
+            ]
+        },
+        "magic": "Resistance",
+        "fire": "Resistance",
+        "lightning": "Resistance",
+        "dark": "Resistance",
+        "bleed": null,
+        "poison": "Immunity",
+        "frost": null
+    },
+    {
+        "name": "Stray Demon",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/4/4a/Stray_demon_3_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160422121620",
+        "location": [
+            "Farron Keep"
+        ],
+        "drops": [
+            "Soul of a Stray Demon"
+        ],
+        "health": {
+            "ng": [
+                "2,004"
+            ],
+            "ng+": [
+                "4,200"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "5,000"
+            ],
+            "ng+": [
+                "20,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Resistance",
+        "lightning": "Resistance",
+        "dark": "Weakness",
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Carthus Sand Worm",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/4/47/Worm_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160416192159",
+        "location": [
+            "Smouldering Lake"
+        ],
+        "drops": [
+            "Undead Bone Shard",
+            "Lightning Stake"
+        ],
+        "health": {
+            "ng": [
+                "3,180"
+            ],
+            "ng+": [
+                "4,646"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "6,000"
+            ],
+            "ng+": [
+                "18,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Resistance",
+        "dark": null,
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Immunity"
+    },
+    {
+        "name": "Sulyvahn's Beast",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/3/3c/Evil_beast_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20160417101520",
+        "location": [
+            "Irithyll of the Boreal Valley"
+        ],
+        "drops": [
+            "Pontiff's Right Eye",
+            "Ring of Favor"
+        ],
+        "health": {
+            "ng": [
+                "2,296",
+                "2,721"
+            ],
+            "ng+": [
+                "3,498",
+                "4,145"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "8,000",
+                "12,000"
+            ],
+            "ng+": [
+                "24,000",
+                "36,000"
+            ]
+        },
+        "magic": null,
+        "fire": "Weakness",
+        "lightning": null,
+        "dark": null,
+        "bleed": "Weakness",
+        "poison": "Weakness",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Ancient Wyvern",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/8/81/Ancient_Wyvern_-_01.jpg/revision/latest/scale-to-width-down/350?cb=20170708194028",
+        "location": [
+            "Archdragon Peak"
+        ],
+        "drops": [
+            "Dragon Head Stone"
+        ],
+        "health": {
+            "ng": [
+                "7,873"
+            ],
+            "ng+": [
+                "7,881"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "70,000"
+            ],
+            "ng+": [
+                "140,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Weakness",
+        "dark": null,
+        "bleed": "Resistance",
+        "poison": "Resistance",
+        "frost": "Weakness"
+    },
+    {
+        "name": "Iron Dragonslayer",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/5/54/The_2nd_meet_%282%29.jpg/revision/latest/scale-to-width-down/350?cb=20170331151842",
+        "location": [
+            "Ringed City Streets",
+            "The Ringed City"
+        ],
+        "drops": [
+            "Iron Dragonslayer Set"
+        ],
+        "health": {
+            "ng": [
+                "4,154"
+            ],
+            "ng+": [
+                "4,154"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "64,000"
+            ],
+            "ng+": [
+                "64,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": "Resistance",
+        "dark": null,
+        "bleed": "Immunity",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    }
+]

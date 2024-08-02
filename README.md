@@ -6,70 +6,301 @@
   <br>
 </h1>
 
-<h2 align="left">
-  <br>
-  Singkatnya?
-  <br>
-</h2>
-Pada tahap seleksi ini, peserta akan diminta untuk melakukan proses ETL yang meliputi data scraping, database modeling, dan data storing terkait sebuah topik yang dibebaskan kepada peserta. Peserta juga diminta untuk merancang sebuah model ERD dan model relasional yang akan diimplementasikan untuk menyimpan hasil proses data scraping sebelumnya. Tahap seleksi ini menguji kemampuan peserta untuk mengumpulkan data, merancang sebuah database, dan merealisasikan rancangan tersebut menjadi sebuah database relasional yang fungsional.
-  <br>
+## Deskripsi
 
-## Step 1: Data Scraping
-1. Pilih sebuah topik yang akan kalian jadikan sebagai tema pada seleksi _data scraping_ Anda. Daftarkan topik tersebut ke dalam spreadsheet berikut:
-[Daftar Topik Seleksi Asisten Lab Basis Data 2024](https://docs.google.com/spreadsheets/d/1awCLe9OF68mq1Nxa2y-RPDG-7UTHUmxA0iWCOyDi3CI/edit?usp=sharing)
-    - Usahakan agar tidak ada dua atau lebih peserta dengan topik yang sama
-    - First come, first served. Bila ada dua atau lebih peserta dengan topik yang sama, peserta dengan topik yang sudah terdaftar duluan (berada di atas) akan diprioritaskan.
-    - Akses edit ke _spreadsheet_ topik data scraping akan ditutup pada tanggal **25 Juli pukul 21:40 WIB**
-2. Lakukan _data scraping_ dari sebuah _web page_ untuk memperoleh data dan informasi sesuai dengan topik yang telah dipilih oleh masing-masing peserta. 
-    - Data dan informasi yang diperoleh akan digunakan di _step_ berikutnya sebagai data yang akan disimpan di dalam sebuah RDBMS
-    - Peserta **DILARANG** menggunakan API untuk melakukan proses data scraping
-3. Pada folder `Data Scraping`, peserta harus mengumpulkan file _script_ dan file JSON hasil _scraping_ yang telah dilakukan
-    - Folder `src` berisi _script_/_code_ yang telah digunakan untuk _scraping_. Pastikan bahwa _script_/_code_ yang kalian bua bersifat well documented dan clean. 
-    - Folder `data` berisi semua data dan informasi yang berhasil kalian scrape dalam bentu JSON. Peserta diperbolehkan untuk memisahkan hasil _scraping_ ke dalam file-file yang berbeda ataupun digabung dalam satu file yang besar. Yang penting sesuai dengan output dari _script_ _data scraping_ yang digunakan
-    - Folder `screenshot` berisi tangkapan layar dari _script/code_ yang kalian gunakan untuk _data scraping_. Pastikan tangkapan layar dapat dibaca dengan jelas
-4. Sebagai referensi untuk mempelajari dan mengenal _data scraping_, asisten telah menyiapkan dokumen panduan singkat pada link berikut: Panduan Singkat Data Scraping
-    - Dokumen tersebut hanya merupakan panduan bagi peserta. Metodologi _data scraping_ yang digunakan oleh peserta seleksi basdat dibebaskan (asal sesuai peraturan)
-    - Perhatikan dan peragakan etika _data scraping_ yang baik dalam pelaksanaan seleksi ini
-5. Syarat data yang diperoleh dari proses data scraping: Data yang diperoleh harus di-_preprocessing_ terlebih dahulu
-    - Beberapa contoh _preprocessing_:
-        - Cleaning
-        - Parsing
-        - Transformation
-        - Dll
-    - Preprocessing dilakukan untuk memastikan data yang diterima tidak sepenuh-penuhnya mentah dan tidak dapat dipahami dengan mudah
-  
+Data yang digunakan untuk membuat DBMS ini adalah hasil scrapping data - data dari web game [Dark Souls III](https://darksouls.fandom.com/wiki/Dark_Souls_III). Topik ini melibatkan banyak data - data yang cocok untuk dibuatkan sebuah model basis data relasional, seperti Bosses, yang dapat memiliki drop Souls, yang dapat ditukar menjadi Weapons, Pyromancies, dan banyak fitur lain yang masih dapat ditambahkan. Banyaknya fitur yang bervariasi dan cukup kompleks, sehingga dengan dibuatnya DBMS ini, dapat mempermudah user untuk mencari informasi tertentu dalam game Dark Souls III.
 
-## Step 2: Data Modeling + Data Storing
-1. Dari hasil proses _data scraping_ yang telah dilakukan, lakukan perancangan _database_ dalam bentuk **ERD**. Sertakan asumsi dan penjelasan di dalam desain ERD-nya bila diperlukan
-2. Translasikan hasil desain ERD tersebut ke dalam bentuk diagram relasional. Peserta dipersilahkan untuk menambahkan tabel lain yang sekiranya relevan atau berkaitan dengan tabel-tabel yang murni didapatkan dari proses _data scraping_.
-3. Implementasikan skema diagram relasional tersebut ke dalam RDBMS sesuai pilihan peserta (PostgreSQL, mariaDB, etc). Peserta **dilarang** untuk menggunakan DBMS no-SQL
-    - Jangan lupa untuk mengimplementasikan _constraints_ ke dalam _database_ (primary key, foreign key, trigger, dll)
-4. Setelah _database_-nya telah diimplementasikan, masukkan data yang didapatkan dari proses _scraping_ ke dalam RDBMS yang telah dibuat
-    - Tabel tambahan yang dibuat pada poin 2 tidak perlu diisi dengan data (baik data _dummy_ maupun data asli). Cukup dibiarkan kosong
-5. Tools yang digunakan dibebaskan kepada peserta
-6. Pada folder `Data Storing`, peserta harus mengumpulkan bukti penyimpanan data pada DBMS. Folder `Data Storing` terdiri dari folder `design`, `export`, dan `screenshots`.
-    - Folder `design` berisi gambar ERD dan gambar diagram relasional dari _database_ yang kalian rancang. Format file yang diterima adalah **.png**
-    - Folder `export` berisi file hasil _export_ dari DBMS dengan format **.sql**
-    - Folder `screenshots` berisi tangkapan layar bukti dari penyimpanan data ke dalam RDBMS (Query SELECT FROM WHERE pada RDBMS)
+## Cara Menggunakan
 
-## Bonus:
-Task-task berikut merupakan bonus yang **TIDAK WAJIB** dilakukan oleh peserta seleksi. Penyelesaian satu atau lebih dari task bonus akan membawa nilai tambahan bagi peserta yang menyelesaikannya. Peserta dibolehkan untuk mengerjakan sebagian atau seluruh dari task bonus yang tersedia
-1. Buatlah visualisasi data dalam bentuk _dashboard_ dari data yang didapatkan dari proses data scraping. Berikan penjelasan mengenai _insight_ yang didapatkan dari visualisasi data tersebut. Tools yang digunakan untuk membuat dashboard dibebaskan pada peserta.
+1. Pastikan Python dan MariaDB terinstall
+2. Masuk dalam directory file scraper, dan jalankan scraper
 
-# Pengumpulan
-1. Peserta diwajibkan untuk melakukan _fork_ terhadap project [GitHub Seleksi Lab Basdat 2024](https://github.com/wargabasdat/Seleksi-2024-Tugas-1). Peserta harus melakukan _pull request_ dengan nama **TUGAS_SELEKSI_2_[NIM]** sebelum tenggat waktu yang telah ditetapkan
-2. Tambahkan **.gitignore** pada _file_ atau _folder_ yang tidak perlu di-upload. NB: Binary tidak perlu di-upload
-3. Sertakan file **README** yang memuat:
-    - Author (Nama dan NIM)
-    - Deskripsi singkat mengenai data dan DBMS yang telah dibuat + mengapa kalian memilih topik tersebut
-    - Cara menggunakan scraper yang telah dibuat dan menggunakan hasil output-nya
-    - Penjelasan struktur dari file JSON yang dihasilkan scraper
-    - Struktur ERD dan diagram relasional RDBMS
-    - Penjelasan mengenai proses translasi ERD menjadi diagram relasional
-    - Beberapa screenshot dari program yang dijalankan (image di-upload sesuai folder-folder yang tersedia, di README tinggal ditampilkan)
-    - Referensi (library yang digunakan, link halaman web yang di-scrape, etc)
-  
-# DEADLINE PENGUMPULAN ADALAH TANGGAL 31 JULI 2024, PUKUL 22:40
+```cmd
+cd '.\Data Scraping\'
+cd src
+cd scraper
+python scraper.py
+```
 
+3. Setelah scraper selesai, pastikan terdapat database available
+4. Jika belum membuat sebuah database dapat mengikuti cara berikut
 
+### Log in dalam MariaDB server dan masukkan password
 
+```cmd
+cd ../../..
+mariadb -u <username> -p -P <port>
+```
+
+### Create database
+
+```cmd
+create database <database>
+```
+
+5. Masuk dalam directory file config
+
+```cmd
+cd '.\Data Scraping\'
+cd src
+cd dbms
+```
+
+6. Ubah file dbconfig.json sesuai dengan config database yang dimiliki.
+7. Jalankan file db.py
+
+```cmd
+python db.py
+```
+
+## Struktur File JSON
+
+### Bosses.json
+
+```
+{
+        "name": "Iudex Gundyr",
+        "image": "https://static.wikia.nocookie.net/darksouls/images/8/85/Iudex_Gundyr_-_01.jpg/revision/latest/scale-to-width-down/350?cb=20170524133508",
+        "location": [
+            "Cemetery of Ash"
+        ],
+        "drops": [
+            "Coiled Sword"
+        ],
+        "health": {
+            "ng": [
+                "1,037"
+            ],
+            "ng+": [
+                "3,561"
+            ]
+        },
+        "souls": {
+            "ng": [
+                "3,000"
+            ],
+            "ng+": [
+                "15,000"
+            ]
+        },
+        "magic": null,
+        "fire": null,
+        "lightning": null,
+        "dark": "Resistance",
+        "bleed": "Resistance",
+        "poison": "Immunity",
+        "frost": "Weakness"
+    },
+```
+
+- name : Nama boss
+- location : Array location letak boss dapat ditemukan
+- drops : Array drop dari sebuah boss
+- health : HP dari boss
+- souls : Souls drop dari sebuah boss
+- magic - frost : Atribut boss
+
+### Miracles.json
+
+```
+{
+        "miracle": "Heal Aid",
+        "item_effect": "Slightly restore HP",
+        "fp_cost": 27,
+        "slots": 1,
+        "faith": 8,
+        "location": [
+            "Herald",
+            "Shrine Handmaid"
+        ]
+    },
+```
+
+- miracle : Nama miracle
+- item_effect : Deskripsi effect miracle
+- fp_cost : Konsumsi fp miracle
+- slots : Slot yang digunakan
+- faith : Faith requirement miracle
+- location : Array di mana miracle dapat ditemukan
+
+### Pyromancies.json
+
+```
+{
+        "pyromancy": "Fireball",
+        "item_effect": "Hurls fireball",
+        "fp_cost": 10,
+        "slots": 1,
+        "intelligence": 6,
+        "faith": 6,
+        "location": [
+            "Cornyx of the Great Swamp"
+        ]
+    },
+```
+
+- pyromancy : Nama pyromancy
+- item_effect : Deskripsi effect pyromancy
+- fp_cost : Konsumsi fp pyromancy
+- slots : Slot yang digunakan
+- intelligence : Intelligence requirement pyromanct
+- faith : Faith requirement pyromancy
+- location : Array di mana pyromancy dapat ditemukan
+
+### Sorceries.json
+
+```
+{
+    "name": "Soul Arrow",
+    "effect": "Fire soul arrow",
+    "fp_cost": 7,
+    "slots": 1,
+    "intelligence": 10,
+    "availability": [
+      "Sorcerer",
+      "Shrine Handmaid",
+      "Yoel of Londor",
+      "Yuria of Londor",
+      "Orbeck of Vinheim"
+    ]
+  },
+```
+
+- name : Nama sorcery
+- effect : Deskripsi effect sorcery
+- fp_cost : Konsumsi fp sorcery
+- slots : Slot yang digunakan
+- intelligence : Intelligence requirement pyromanct
+- availability : Array di mana sorcery dapat ditemukan
+
+### Rings.json
+
+```
+{
+        "name": "Life Ring",
+        "effect": "Raises maximum HP",
+        "weight": 0.3,
+        "locations": [
+            "Burial Gift",
+            "Shrine Handmaid",
+            "Undead Settlement",
+            "Lothric Castle",
+            "Untended Graves"
+        ]
+    },
+```
+
+- name : Nama ring
+- effect : Deskripsi effect ring
+- weight : Berat ring
+- locations : Array di mana ring dapat ditemukuan
+
+### Shields.json dan Weapons.json
+
+```
+{
+        "name": "Claymore",
+        "image_url": "https://static.wikia.nocookie.net/darksouls/images/e/e9/Claymore_%28DSIII%29.png/revision/latest?cb=20160612044933",
+        "weapon-type": "Greatsword",
+        "atk-type": "Standard/Thrust",
+        "price": "100",
+        "spc-atk": "Stance",
+        "phys-atk": "138",
+        "magic-attack": "0",
+        "fire-attack": "0",
+        "lightning-attack": "0",
+        "dark-attack": "0",
+        "counter": "100",
+        "physical-defense": "50.0",
+        "magic-defense": "35.0",
+        "fire-defense": "30.0",
+        "lightning-defense": "30.0",
+        "dark-defense": "35.0",
+        "stability": "35",
+        "durability": "75",
+        "weight": "9.0",
+        "strength-bonus": "D",
+        "dexterity-bonus": "D",
+        "strength-requirement": "16",
+        "dexterity-requirement": "13",
+        "weapon_type": "Greatswords"
+    },
+```
+
+- name : Nama weapon
+- weapon_type : Tipe weapon
+- price : Harga weapon
+- spc-atk : Special attack
+- weight : Berat weapon
+- bonuses : Scaling stats weapon
+- requrements : Requirement stats weapon
+
+### SoulItems.json
+
+```
+{
+        "item": {
+            "name": "Soul of Boreal Valley Vordt"
+        },
+        "transpositions": [
+            {
+                "name": "Vordt's Great Hammer",
+                "cost": 0
+            },
+            {
+                "name": "Pontiff's Left Eye",
+                "cost": 0
+            }
+        ]
+    },
+```
+
+- item, name : Nama soul item
+- transposition, name : Nama item yang dapat ditranspose dari soul item
+
+## Struktur ERD dan Relational
+
+### ERD
+
+<img src="Data Storing/design/ERD-Final ERD.drawio.png"/>
+
+### Relational
+
+<img src="Data Storing/design/ERD-Final Relational.drawio.png"/>
+
+## Translasi ERD ke Relational
+
+Cara mengubah ERD menjadi relational diagram adalah dengan mengubah seluruh entity, dan relationship tertentu menjadi relasi atau tabel pada database. Entity seperti Rings dan Location yang memiliki relasi many to many akan dibuatkan relasi baru yang memiliki kedua primary key dari relasi tersebut, hal ini diterapkan juga pada seluruh entity lain yang berelasi many to many. Untuk entity yang berelasi many to one seperti Magic dan Location, maka Magic (entity many) akan ditambahkan atribut Foreign Key dari Location. Dapat dilihat terdapat relasi many to one dengan full participation dan tidak, kedua tipe ini akan ditranslasi dengan sama, hanya saja untuk relasi yang partial participation akan memiliki null value dalam atribut yang ditambahkan. Untuk Magic yang memiliki relasi ISA pada Pyromancies, Sorceries, Miracles akan memiliki tabel turunan yang memiliki Primary Key yang juga adalah Foreign Key dari Magic, beserta atribut tambahan yang membedakan mereka.
+
+## Screenshot
+
+### Query
+
+<img src="Data Storing/screenshot/Query.png"/>
+
+### Scraping
+
+<img src="Data Scraping/screenshot/Bosses.png"/>
+<img src="Data Scraping/screenshot/Miracles.png"/>
+<img src="Data Scraping/screenshot/Pyromancies.png"/>
+<img src="Data Scraping/screenshot/Rings.png"/>
+<img src="Data Scraping/screenshot/Shields.png"/>
+<img src="Data Scraping/screenshot/Sorceries.png"/>
+<img src="Data Scraping/screenshot/SoulItems.png"/>
+<img src="Data Scraping/screenshot/Weapons.png"/>
+
+## Referensi
+
+- Bahasa Pemrograman : Python
+- DBMS : MariaDB
+- Library : BeautifulSoup, pymysql
+- URL:
+  - https://darksouls.fandom.com/wiki/Boss_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Miracle_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Pyromancy_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Rings_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Shields_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Sorcery_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Boss_Soul_Items_(Dark_Souls_III)
+  - https://darksouls.fandom.com/wiki/Weapons_(Dark_Souls_III)
+  - Setiap page Bosses, Weapons, Shields.
