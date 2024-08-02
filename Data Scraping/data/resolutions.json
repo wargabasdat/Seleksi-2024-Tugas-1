@@ -1,0 +1,4687 @@
+[
+    {
+        "name": "alcatel 1B (2022)",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "alcatel 1L Pro (2021)",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "alcatel 1 (2021)",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "alcatel 3L (2021)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "alcatel 1S (2021)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "alcatel 1L (2021)",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "alcatel 1V (2021)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "alcatel 1SE (2020)",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "alcatel Go Flip 4",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "alcatel Go Flip 3",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "alcatel Go Flip V",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "alcatel 3T10 2020",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "alcatel 3X (2020)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "alcatel 3L (2020)",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "alcatel 1S (2020)",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "alcatel 1V (2020)",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "alcatel 1B (2020)",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "alcatel 3v (2019)",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "alcatel 3x (2019)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "alcatel 1v (2019)",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "Allview Soul X7 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Allview Soul X7 Style",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Allview Viva 803G",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "Allview V4 Viper Pro",
+        "width": 640,
+        "height": 1352
+    },
+    {
+        "name": "Allview Viva C703",
+        "width": 600,
+        "height": 1024
+    },
+    {
+        "name": "Allview Viva Home",
+        "width": 1080,
+        "height": 1920
+    },
+    {
+        "name": "Allview Viva 1003G",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "Allview Viva 1003G Lite",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "Allview V4 Viper",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Allview Soul X6 Mini",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Allview Soul X6 Xtreme",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Allview P10 Pro",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Allview P10 Max",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "Allview P10 Mini",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "Allview P10 Life",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "Apple iPhone 15 Pro Max",
+        "width": 1290,
+        "height": 2796
+    },
+    {
+        "name": "Apple iPhone 15 Pro",
+        "width": 1179,
+        "height": 2556
+    },
+    {
+        "name": "Apple iPhone 15 Plus",
+        "width": 1290,
+        "height": 2796
+    },
+    {
+        "name": "Apple iPhone 15",
+        "width": 1179,
+        "height": 2556
+    },
+    {
+        "name": "Apple iPhone 14 Pro Max",
+        "width": 1290,
+        "height": 2796
+    },
+    {
+        "name": "Apple iPhone 14 Pro",
+        "width": 1179,
+        "height": 2556
+    },
+    {
+        "name": "Apple iPhone 14 Plus",
+        "width": 1284,
+        "height": 2778
+    },
+    {
+        "name": "Apple iPhone 14",
+        "width": 1170,
+        "height": 2532
+    },
+    {
+        "name": "Apple iPhone SE (2022)",
+        "width": 750,
+        "height": 1334
+    },
+    {
+        "name": "Apple iPhone 13 Pro Max",
+        "width": 1284,
+        "height": 2778
+    },
+    {
+        "name": "Apple iPhone 13 Pro",
+        "width": 1170,
+        "height": 2532
+    },
+    {
+        "name": "Apple iPhone 13",
+        "width": 1170,
+        "height": 2532
+    },
+    {
+        "name": "Apple iPhone 13 mini",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Apple iPhone 12 Pro Max",
+        "width": 1284,
+        "height": 2778
+    },
+    {
+        "name": "Apple iPhone 12 Pro",
+        "width": 1170,
+        "height": 2532
+    },
+    {
+        "name": "Apple iPhone 12",
+        "width": 1170,
+        "height": 2532
+    },
+    {
+        "name": "Apple iPhone 12 mini",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Apple iPhone SE (2020)",
+        "width": 750,
+        "height": 1334
+    },
+    {
+        "name": "Apple iPhone 11 Pro Max",
+        "width": 1242,
+        "height": 2688
+    },
+    {
+        "name": "Apple iPhone 11 Pro",
+        "width": 1125,
+        "height": 2436
+    },
+    {
+        "name": "Apple iPhone 11",
+        "width": 828,
+        "height": 1792
+    },
+    {
+        "name": "Archos Oxygen 68XL",
+        "width": 640,
+        "height": 1352
+    },
+    {
+        "name": "Archos Oxygen 63",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Archos Oxygen 57",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Asus Zenfone 11 Ultra",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus ROG Phone 8 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus ROG Phone 8",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus Zenfone 10",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus ROG Phone 7 Ultimate",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 7",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 6D Ultimate",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 6D",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 6 Diablo Immortal Edition",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 6 Batman Edition",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus Zenfone 9",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus ROG Phone 6 Pro",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 6",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 5s Pro",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 5s",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus Smartphone for Snapdragon Insiders",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus Zenfone 8 Flip",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus Zenfone 8",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus ROG Phone 5 Ultimate",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 5 Pro",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus ROG Phone 5",
+        "width": 1080,
+        "height": 2448
+    },
+    {
+        "name": "Asus Zenfone 7 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus Zenfone 7",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Asus ROG Phone 3",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Asus ROG Phone 3 Strix",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Asus ROG Phone II ZS660KL",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Asus Zenfone 6 ZS630KL",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Asus ZenFone Live (L2)",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Asus Zenfone Max Plus (M2) ZB634KL",
+        "width": 1080,
+        "height": 2246
+    },
+    {
+        "name": "Asus Zenfone Max Shot ZB634KL",
+        "width": 1080,
+        "height": 2246
+    },
+    {
+        "name": "Blackview Hero 10",
+        "width": 1080,
+        "height": 2560
+    },
+    {
+        "name": "Blackview BV8100",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Blackview BL9000 Pro",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Blackview Color 8",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview Mega 1",
+        "width": 1200,
+        "height": 2000
+    },
+    {
+        "name": "Blackview BL9000",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Blackview BL8000",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Blackview Shark 8",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Blackview A96",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Blackview BV6200 Pro",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Blackview A200 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Blackview N6000",
+        "width": 540,
+        "height": 1200
+    },
+    {
+        "name": "Blackview Active 8 Pro",
+        "width": 1200,
+        "height": 2000
+    },
+    {
+        "name": "Blackview BV5300 Pro",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview BV8900",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Blackview BV9300",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Blackview A53 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview A53",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview BV9200",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Blackview BV5200 Pro",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview A85",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Blackview A52",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview BV7200",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview BV5200",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview BV7100",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Blackview BL8800 Pro",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Blackview BL8800",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Blackview A55 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview A50",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview A95",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview BV6600 Pro",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview BV6600E",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview BV4900s",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview A90",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview BV6600",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview A100",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Blackview BL5000",
+        "width": 1080,
+        "height": 2300
+    },
+    {
+        "name": "Blackview A70",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview A80s",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Blackview BV8800",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Blackview A70 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview A55",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Blackview BV9900E",
+        "width": 1080,
+        "height": 2280
+    },
+    {
+        "name": "Blackview BV4900 Pro",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview BL6000 Pro",
+        "width": 1080,
+        "height": 2300
+    },
+    {
+        "name": "Blackview BV5100",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview BV6300 Pro",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview A80 Plus",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Blackview BV4900",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Blackview BV9800 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Blackview BV5900",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU Bold N3",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "BLU G93",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "BLU G73",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G63",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G53",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G33",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU F92e",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G72 Max",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G52L",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU Studio X5 Max",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU Studio X5",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU G40",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU Bold N2",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "BLU Studio X10L 2022",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU S91 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU J6S",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "BLU C7X",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU S91",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G51",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU G61s",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G50 Mega 2022",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU F91",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "BLU G71L",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G91 Max",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "BLU G71+",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU M8L 2022",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "BLU G51S",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "BLU C5 Max",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU Studio X10 2022",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU C5L Max",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU G91s",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "BLU View 3",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU M8L Plus",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "BLU M8L",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "BLU Studio X10L",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU G91 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "BLU J9L",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU G51 Plus",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU C7",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU View 2",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G91",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G71",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU Studio X12",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU G61",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU Studio X10+",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU A5L",
+        "width": 480,
+        "height": 800
+    },
+    {
+        "name": "BLU M7L",
+        "width": 600,
+        "height": 1240
+    },
+    {
+        "name": "BLU View Mega",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G50 Mega",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU J7L",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU J5L",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "BLU J6 2020",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU C6L 2020",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU C5L 2020",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "BLU C6 2020",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G50 Plus",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU G50",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G90 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "BLU Studio X10",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU G90",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU G80",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "BLU Studio X9 HD",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "BLU J6",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU J4",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU J2",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU Tank Xtreme",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU G70",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "BLU G60",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU View 1",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "BLU C5 Plus",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU C5 2019",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU C6 2019",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU Advance L5",
+        "width": 480,
+        "height": 800
+    },
+    {
+        "name": "BLU Bold N1",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "BLU Studio Mini",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU Vivo XL5",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU Vivo X5",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G9 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "BLU Studio Mega 2019",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G8",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU G6",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G5 Plus",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G5",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "BLU G9",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "BLU C5L",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "BLU Studio X8 HD (2019)",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "BLU C6L",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "BLU Vivo One Plus (2019)",
+        "width": 720,
+        "height": 1500
+    },
+    {
+        "name": "Cat S75",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Cat S53",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Cat S22 Flip",
+        "width": 480,
+        "height": 640
+    },
+    {
+        "name": "Cat S62",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "Cat S42 H+",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Cat B40",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Cat S62 Pro",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "Cat S42",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Cat S52",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Coolpad Cool 30 Play",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Coolpad C15",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Coolpad Cool 30i",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad CP12s",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Coolpad CP12",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad Cool 20+",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad CP12p",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad Cool 20s",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Coolpad Cool 20",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad Cool 20 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Coolpad Cool 10A",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad Cool S",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Coolpad Cool 6",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Coolpad Cool 12A",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Coolpad Cool 10",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Coolpad Legacy",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "Coolpad Cool 5",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Coolpad Cool 3 Plus",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Cubot Max 5",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Cubot KingKong X",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Cubot KingKong Ace 3",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Cubot A10",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Cubot X90",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Cubot X1",
+        "width": 410,
+        "height": 502
+    },
+    {
+        "name": "Cubot Hafury V1",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Cubot Hafury Meet",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Cubot KingKong AX",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Cubot A1",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Cubot C21",
+        "width": 360,
+        "height": 360
+    },
+    {
+        "name": "Cubot C20 Pro",
+        "width": 240,
+        "height": 286
+    },
+    {
+        "name": "Cubot KingKong 8",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Cubot Note 40",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Cubot Note 21",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Cubot Note 50",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Cubot KingKong Star",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Doogee V20S",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee DK10",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Doogee Smini",
+        "width": 480,
+        "height": 1170
+    },
+    {
+        "name": "Doogee V30 Pro",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee V31GT",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Doogee S110",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Doogee V30T",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee S100 Pro",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee V20 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Doogee V Max",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee S100",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee V30",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Doogee D11",
+        "width": 360,
+        "height": 360
+    },
+    {
+        "name": "Doogee V11",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Doogee CS3",
+        "width": 240,
+        "height": 280
+    },
+    {
+        "name": "Doogee S35T",
+        "width": 720,
+        "height": 1280
+    },
+    {
+        "name": "Doogee V20",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Doogee X96",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Doogee DG Ares",
+        "width": 360,
+        "height": 360
+    },
+    {
+        "name": "Doogee V10",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Doogee X96 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Doogee CS2",
+        "width": 240,
+        "height": 240
+    },
+    {
+        "name": "Doogee CS1",
+        "width": 240,
+        "height": 240
+    },
+    {
+        "name": "Energizer Ultimate U652S",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Energizer E130S",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer U506S",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "Energizer U683S",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Energizer H67G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Energizer E242s+",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E244s",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E13",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer E20+",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E29",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E4",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer Ultimate U608s",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Energizer E242s",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E284S",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Ultimate U505s",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "Energizer E282SC",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Hard Case G5",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Energizer U680S",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Energizer E28",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E24",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer E3",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer E2",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer E280s",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Hardcase H621S",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Energizer Hardcase H620S",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Energizer Energy E12",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer Hardcase H10",
+        "width": 128,
+        "height": 160
+    },
+    {
+        "name": "Energizer Hardcase H570S",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Energizer Hardcase H501S",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "Energizer Hardcase H280S",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Hardcase H242",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Energy E241s",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Energy E241",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Energy E220s",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Energizer Energy E220",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "Fairphone 5",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Fairphone 4",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Fairphone 3+",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "Gionee G13 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee P15",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee M15",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Gionee M3",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee P15 Pro",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Gionee Max Pro",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Gionee K30 Pro",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Gionee P12",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee M12",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee S12 Lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee S12",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee M30",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Gionee Max",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Gionee K3 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Gionee K6",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Google Pixel 8a",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel 8 Pro",
+        "width": 1344,
+        "height": 2992
+    },
+    {
+        "name": "Google Pixel 8",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel Fold",
+        "width": 1840,
+        "height": 2208
+    },
+    {
+        "name": "Google Pixel 7a",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel 7 Pro",
+        "width": 1440,
+        "height": 3120
+    },
+    {
+        "name": "Google Pixel 7",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel 6a",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel 6 Pro",
+        "width": 1440,
+        "height": 3120
+    },
+    {
+        "name": "Google Pixel 6",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel 5a 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Google Pixel 5",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Google Pixel 4a 5G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Google Pixel 4a",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Google Pixel 4 XL",
+        "width": 1440,
+        "height": 3040
+    },
+    {
+        "name": "Google Pixel 4",
+        "width": 1080,
+        "height": 2280
+    },
+    {
+        "name": "Google Pixel 3a XL",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "Google Pixel 3a",
+        "width": 1080,
+        "height": 2220
+    },
+    {
+        "name": "HMD Skyline",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "HMD 110",
+        "width": 120,
+        "height": 160
+    },
+    {
+        "name": "HMD 105",
+        "width": 120,
+        "height": 160
+    },
+    {
+        "name": "HMD Aura",
+        "width": 900,
+        "height": 1600
+    },
+    {
+        "name": "HMD T21",
+        "width": 1200,
+        "height": 2000
+    },
+    {
+        "name": "HMD XR21",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "HMD Vibe",
+        "width": 720,
+        "height": 1480
+    },
+    {
+        "name": "HMD Pulse Pro",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "HMD Pulse+",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "HMD Pulse",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Honor Magic Vs3",
+        "width": 2156,
+        "height": 2344
+    },
+    {
+        "name": "Honor Magic V3",
+        "width": 2156,
+        "height": 2344
+    },
+    {
+        "name": "Honor Play 60 Plus",
+        "width": 720,
+        "height": 1610
+    },
+    {
+        "name": "Honor X7b 5G (50 MP)",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor Magic V Flip",
+        "width": 1080,
+        "height": 2520
+    },
+    {
+        "name": "Honor X6b",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Honor 200 Pro",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Honor 200",
+        "width": 1200,
+        "height": 2664
+    },
+    {
+        "name": "Honor 200 Lite",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor 90 Smart",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor X7b 5G",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor Magic6 RSR Porsche Design",
+        "width": 1280,
+        "height": 2800
+    },
+    {
+        "name": "Honor Magic6 Ultimate",
+        "width": 1280,
+        "height": 2800
+    },
+    {
+        "name": "Honor Magic V2 RSR Porsche Design",
+        "width": 2156,
+        "height": 2344
+    },
+    {
+        "name": "Honor Magic6 Pro",
+        "width": 1280,
+        "height": 2800
+    },
+    {
+        "name": "Honor Magic6",
+        "width": 1264,
+        "height": 2800
+    },
+    {
+        "name": "Honor X50 GT",
+        "width": 1220,
+        "height": 2652
+    },
+    {
+        "name": "Honor 90 GT",
+        "width": 1200,
+        "height": 2664
+    },
+    {
+        "name": "Honor X8b",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor Magic6 Lite",
+        "width": 1220,
+        "height": 2652
+    },
+    {
+        "name": "Honor X7b",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor 100 Pro",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Honor 100",
+        "width": 1200,
+        "height": 2664
+    },
+    {
+        "name": "Honor X50i+",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor X5 Plus",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Honor X9b",
+        "width": 1220,
+        "height": 2652
+    },
+    {
+        "name": "Honor Play 8T",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor Magic Vs2",
+        "width": 2156,
+        "height": 2344
+    },
+    {
+        "name": "Honor Play 50 Plus",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "Honor V Purse",
+        "width": 2016,
+        "height": 2348
+    },
+    {
+        "name": "Honor X40 GT Racing",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor X6a",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Honor Magic V2",
+        "width": 2156,
+        "height": 2344
+    },
+    {
+        "name": "Honor X50",
+        "width": 1220,
+        "height": 2652
+    },
+    {
+        "name": "Honor Play 40",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Honor X50i",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor 90 Lite",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor 90 Pro",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Honor 90",
+        "width": 1200,
+        "height": 2664
+    },
+    {
+        "name": "Honor Play7T Pro",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Play7T",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor 70 Lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor Magic5 Ultimate",
+        "width": 1312,
+        "height": 2848
+    },
+    {
+        "name": "Honor Magic5 Pro",
+        "width": 1312,
+        "height": 2848
+    },
+    {
+        "name": "Honor Magic5",
+        "width": 1224,
+        "height": 2688
+    },
+    {
+        "name": "Honor Magic5 Lite",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X8a",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor X5",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor X9a",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X7a",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor 80 Pro Flat",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 80 GT",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 80 Pro",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Honor 80",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 80 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Magic Vs Ultimate",
+        "width": 1984,
+        "height": 2272
+    },
+    {
+        "name": "Honor Magic Vs",
+        "width": 1984,
+        "height": 2272
+    },
+    {
+        "name": "Honor Play 40 Plus",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor X40 GT",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Play6C",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor X6",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor X40",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X8 5G",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor X40i",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor 70 Pro+",
+        "width": 1200,
+        "height": 2652
+    },
+    {
+        "name": "Honor 70 Pro",
+        "width": 1200,
+        "height": 2652
+    },
+    {
+        "name": "Honor 70",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Play 30",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor Play6T Pro",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Play6T",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor Magic4 Lite",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor X7",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor X9",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor X9 5G",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Magic4 Ultimate",
+        "width": 1312,
+        "height": 2848
+    },
+    {
+        "name": "Honor X8",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Magic4 Pro",
+        "width": 1312,
+        "height": 2848
+    },
+    {
+        "name": "Honor Magic4",
+        "width": 1224,
+        "height": 2664
+    },
+    {
+        "name": "Honor 60 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Magic V",
+        "width": 1984,
+        "height": 2272
+    },
+    {
+        "name": "Honor X30",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Play 30 Plus",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor 60 Pro",
+        "width": 1200,
+        "height": 2652
+    },
+    {
+        "name": "Honor 60",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X30 Max",
+        "width": 1080,
+        "height": 2280
+    },
+    {
+        "name": "Honor X30i",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor 50 Lite",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Honor Play5 Youth",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Honor X20",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Honor Magic3 Pro+",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Honor Magic3 Pro",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Honor Magic3",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Honor Play 5T Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X20 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 50 Pro",
+        "width": 1236,
+        "height": 2676
+    },
+    {
+        "name": "Honor 50",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 50 SE",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Honor Play5 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Play 20",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor Play 5T Youth",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor V40 Lite",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor V40 5G",
+        "width": 1236,
+        "height": 2676
+    },
+    {
+        "name": "Honor 10X Lite",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 30i",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X10 Max 5G",
+        "width": 1080,
+        "height": 2280
+    },
+    {
+        "name": "Honor 30 Youth",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 8S 2020",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Honor Play4",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Play4 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor X10 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor V6",
+        "width": 1200,
+        "height": 2000
+    },
+    {
+        "name": "Honor 9A",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor 9C",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Honor 9S",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Honor 9X Lite",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 30 Pro+",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 30 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 30",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 20e",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor Play 4T Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Play 4T",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Honor 8A 2020",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Honor 8A Prime",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Honor 30S",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Play 9A",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Honor View30 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor View30",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor V30 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor V30",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor 9X",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 20 lite (China)",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Honor Play 3e",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Honor Play 3",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Honor 20S",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 9X Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 9X (China)",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 8S",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Honor 20 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 20",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 20 lite",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 20i",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Honor 8A Pro",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "HTC U24 Pro",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "HTC A101 Plus",
+        "width": 1200,
+        "height": 1920
+    },
+    {
+        "name": "HTC A104",
+        "width": 1200,
+        "height": 2000
+    },
+    {
+        "name": "HTC Wildfire E star",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "HTC U23",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "HTC U23 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "HTC A103 Plus",
+        "width": 1200,
+        "height": 1920
+    },
+    {
+        "name": "HTC A103",
+        "width": 800,
+        "height": 1280
+    },
+    {
+        "name": "HTC A102",
+        "width": 1200,
+        "height": 2000
+    },
+    {
+        "name": "HTC A101",
+        "width": 1200,
+        "height": 1920
+    },
+    {
+        "name": "HTC Wildfire E2 Play",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "HTC Wildfire E3 lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "HTC Wildfire E plus",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "HTC Desire 22 Pro",
+        "width": 1080,
+        "height": 2412
+    },
+    {
+        "name": "HTC Wildfire E2 Plus",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "HTC Wildfire E3",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "HTC Desire 21 Pro 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "HTC Desire 20+",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "HTC Wildfire E1 lite",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "HTC Wildfire E2",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "HTC Wildfire E1 plus",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "HTC Wildfire E1",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "HTC Wildfire E",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "HTC U20 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "HTC Desire 20 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "HTC Desire 19s",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "HTC Exodus 1s",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "HTC Wildfire X",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "HTC U19e",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "HTC Desire 19+",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Huawei Pura 70 Ultra",
+        "width": 1260,
+        "height": 2844
+    },
+    {
+        "name": "Huawei Pura 70 Pro+",
+        "width": 1260,
+        "height": 2844
+    },
+    {
+        "name": "Huawei Pura 70 Pro",
+        "width": 1260,
+        "height": 2844
+    },
+    {
+        "name": "Huawei Pura 70",
+        "width": 1256,
+        "height": 2760
+    },
+    {
+        "name": "Huawei nova 12i",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Huawei nova 12 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 12s",
+        "width": 1084,
+        "height": 2412
+    },
+    {
+        "name": "Huawei Pocket 2",
+        "width": 1136,
+        "height": 2690
+    },
+    {
+        "name": "Huawei Enjoy 70z",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei nova Y72",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei nova 12 Ultra",
+        "width": 1224,
+        "height": 2776
+    },
+    {
+        "name": "Huawei nova 12 Pro",
+        "width": 1224,
+        "height": 2776
+    },
+    {
+        "name": "Huawei nova 12",
+        "width": 1084,
+        "height": 2412
+    },
+    {
+        "name": "Huawei nova 12 Lite",
+        "width": 1084,
+        "height": 2412
+    },
+    {
+        "name": "Huawei Enjoy 70",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei nova 11 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Mate 60 RS Ultimate",
+        "width": 1260,
+        "height": 2720
+    },
+    {
+        "name": "Huawei Mate 60 Pro+",
+        "width": 1260,
+        "height": 2720
+    },
+    {
+        "name": "Huawei Mate X5",
+        "width": 2224,
+        "height": 2496
+    },
+    {
+        "name": "Huawei Mate 60 Pro",
+        "width": 1260,
+        "height": 2720
+    },
+    {
+        "name": "Huawei Mate 60",
+        "width": 1216,
+        "height": 2688
+    },
+    {
+        "name": "Huawei nova Y91",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Huawei nova 11i",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Huawei nova Y71",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei Enjoy 60X",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Huawei nova 11 Ultra",
+        "width": 1200,
+        "height": 2652
+    },
+    {
+        "name": "Huawei nova 11 Pro",
+        "width": 1200,
+        "height": 2652
+    },
+    {
+        "name": "Huawei nova 11",
+        "width": 1084,
+        "height": 2412
+    },
+    {
+        "name": "Huawei Mate X3",
+        "width": 2224,
+        "height": 2496
+    },
+    {
+        "name": "Huawei P60 Pro",
+        "width": 1220,
+        "height": 2700
+    },
+    {
+        "name": "Huawei P60",
+        "width": 1220,
+        "height": 2700
+    },
+    {
+        "name": "Huawei P60 Art",
+        "width": 1220,
+        "height": 2700
+    },
+    {
+        "name": "Huawei Enjoy 60",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei nova 10 Youth",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Huawei Enjoy 50z",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei Pocket S",
+        "width": 1188,
+        "height": 2790
+    },
+    {
+        "name": "Huawei nova Y61",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei nova 10 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Mate 50 RS Porsche Design",
+        "width": 1212,
+        "height": 2616
+    },
+    {
+        "name": "Huawei Mate 50 Pro",
+        "width": 1212,
+        "height": 2616
+    },
+    {
+        "name": "Huawei Mate 50E",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Huawei Mate 50",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Huawei nova 10z",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 10 Pro",
+        "width": 1200,
+        "height": 2652
+    },
+    {
+        "name": "Huawei nova 10",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova Y90",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Huawei Mate Xs 2",
+        "width": 2200,
+        "height": 2480
+    },
+    {
+        "name": "Huawei nova 9 SE 5G",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Huawei nova Y70 Plus",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei P50E",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Huawei nova 9 SE",
+        "width": 1080,
+        "height": 2388
+    },
+    {
+        "name": "Huawei P50 Pocket",
+        "width": 1188,
+        "height": 2790
+    },
+    {
+        "name": "Huawei nova 8 SE 4G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova Y60",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei Enjoy 20e",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei nova 9 Pro",
+        "width": 1236,
+        "height": 2676
+    },
+    {
+        "name": "Huawei nova 9",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 8",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei P50 Pro",
+        "width": 1228,
+        "height": 2700
+    },
+    {
+        "name": "Huawei P50",
+        "width": 1224,
+        "height": 2700
+    },
+    {
+        "name": "Huawei nova 8 SE Youth",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 8i",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Huawei Mate 40 Pro 4G",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Huawei Mate 40E 4G",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Huawei Mate X2 4G",
+        "width": 2200,
+        "height": 2480
+    },
+    {
+        "name": "Huawei nova 8 Pro 4G",
+        "width": 1236,
+        "height": 2676
+    },
+    {
+        "name": "Huawei Mate 40E",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Huawei P40 4G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Mate X2",
+        "width": 2200,
+        "height": 2480
+    },
+    {
+        "name": "Huawei nova 8 Pro 5G",
+        "width": 1236,
+        "height": 2676
+    },
+    {
+        "name": "Huawei nova 8 5G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Enjoy 20 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 8 SE",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Mate 40 RS Porsche Design",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Huawei Mate 40 Pro+",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Huawei Mate 40 Pro",
+        "width": 1344,
+        "height": 2772
+    },
+    {
+        "name": "Huawei Mate 40",
+        "width": 1080,
+        "height": 2376
+    },
+    {
+        "name": "Huawei Mate 30E Pro 5G",
+        "width": 1176,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 7 SE 5G Youth",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Y7a",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei P smart 2021",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Y9a",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Enjoy 20 Plus 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Enjoy 20 5G",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei Enjoy 20 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Enjoy Z 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei P Smart S",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Y8p",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei P40 lite 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei P30 Pro New Edition",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Y8s",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Y6p",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei Y5p",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Huawei P smart 2020",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 7 Pro 5G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 7 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Enjoy 10e",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Huawei P40 Pro+",
+        "width": 1200,
+        "height": 2640
+    },
+    {
+        "name": "Huawei P40 Pro",
+        "width": 1200,
+        "height": 2640
+    },
+    {
+        "name": "Huawei P40",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei P40 lite E",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Huawei P40 lite",
+        "width": 1080,
+        "height": 2310
+    },
+    {
+        "name": "Huawei Mate Xs",
+        "width": 2200,
+        "height": 2480
+    },
+    {
+        "name": "Huawei P30 lite New Edition",
+        "width": 1080,
+        "height": 2312
+    },
+    {
+        "name": "Huawei Y7p",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Huawei nova 7i",
+        "width": 1080,
+        "height": 2310
+    },
+    {
+        "name": "Huawei Y6s (2019)",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Huawei P smart Pro 2019",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 6 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 6",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei nova 6 SE",
+        "width": 1080,
+        "height": 2310
+    },
+    {
+        "name": "Huawei Mate X",
+        "width": 2200,
+        "height": 2480
+    },
+    {
+        "name": "Huawei Y9s",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 5z",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Enjoy 10s",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Enjoy 10",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Huawei Mate 30 RS Porsche Design",
+        "width": 1176,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Mate 30 Pro 5G",
+        "width": 1176,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Mate 30 Pro",
+        "width": 1176,
+        "height": 2400
+    },
+    {
+        "name": "Huawei Mate 30 5G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Mate 30",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 5i Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Enjoy 10 Plus",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 5T",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 5 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 5",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei nova 5i",
+        "width": 1080,
+        "height": 2310
+    },
+    {
+        "name": "Huawei Y9 Prime (2019)",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei P20 lite (2019)",
+        "width": 1080,
+        "height": 2310
+    },
+    {
+        "name": "Huawei P Smart Z",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei Mate 20 X (5G)",
+        "width": 1080,
+        "height": 2244
+    },
+    {
+        "name": "Huawei P30 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei P30",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Huawei P30 lite",
+        "width": 1080,
+        "height": 2312
+    },
+    {
+        "name": "Huawei nova 4e",
+        "width": 1080,
+        "height": 2312
+    },
+    {
+        "name": "Huawei Y5 (2019)",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Huawei Enjoy 9e",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Huawei Enjoy 9s",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Infinix Note 40 5G",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "Infinix GT 20 Pro",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "Infinix Note 40 Pro+",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "Infinix Note 40 Pro",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "Infinix Note 40 Pro 4G",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "Infinix Note 40",
+        "width": 1080,
+        "height": 2436
+    },
+    {
+        "name": "Infinix Smart 8 Plus",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 8 Pro",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 8 (India)",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 8 HD",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Hot 40 Pro",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 40",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 40i",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 8",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Zero 30 4G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Zero 30",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix GT 10 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 30 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 30 VIP",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 30 Play NFC",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 30 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Note 30",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 30 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 30i",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Smart 7 HD",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Hot 30i",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Hot 30",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Smart 7 (India)",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 7",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Zero 5G 2023",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 20 Play",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Hot 20S",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 20",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 12 (2023)",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Zero Ultra",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 20 5G",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Infinix Hot 20i",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Zero 20",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Note 12i 2022",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 12 Pro",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 6 Plus (India)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Note 12 Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Note 12 Pro 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Note 12 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 11s NFC",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 12 Play",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Hot 12 Play NFC",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 12 VIP",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Note 12 G96",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Note 12i",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 12",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 12",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Smart 6 HD",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 11 2022",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Hot 12i",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "Infinix Zero 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Smart 5 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 11 Play",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 11i",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 11s",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 11",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Smart 6",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Note 11 Pro",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 11s",
+        "width": 1080,
+        "height": 2480
+    },
+    {
+        "name": "Infinix Hot 11",
+        "width": 1080,
+        "height": 2408
+    },
+    {
+        "name": "Infinix Zero X Pro",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Zero X",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Infinix Zero X Neo",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 10i",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Note 10 Pro NFC",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 10 Pro",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 10",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Hot 10T",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Hot 10s NFC",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Hot 10s",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Smart 5 (India)",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Hot 10 Play",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Smart HD 2021",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Infinix Zero 8i",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Note 8",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 8i",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Hot 10 Lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 10",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Zero 8",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Infinix Smart 5",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 9 Play",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 7",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Infinix Note 7 Lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 9 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 9",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix S5 Pro (16+32)",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Infinix S5 Pro (48+40)",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Infinix S5 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Infinix S5 lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Smart 4",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Smart 4c",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 8 Lite",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix S5",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Hot 8",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Infinix Note 6",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "Infinix Smart3 Plus",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Infinix S4",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Infinix Hot 7 Pro",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Infinix Hot 7",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Infinix Zero 6 Pro",
+        "width": 1080,
+        "height": 2246
+    },
+    {
+        "name": "Infinix Zero 6",
+        "width": 1080,
+        "height": 2246
+    },
+    {
+        "name": "itel A50",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel RS4",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel S24",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel P55+",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel P55",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel A70",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel P55 5G",
+        "width": 720,
+        "height": 1612
+    },
+    {
+        "name": "itel S23+",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Lava Blaze X",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Lava Yuva 5G",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava O2",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze Curve",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Lava Yuva 3",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Storm",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Lava Yuva 3 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze 2 5G",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze Pro 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Lava Blaze 2 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Yuva 2",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Agni 2",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Lava Blaze 1X",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze 2",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Yuva 2 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava X3",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze Nxt",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Yuva Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze 5G",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Blaze",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Z3 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Z3",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava X2",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Agni 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Lava Z2s",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Z2 Max",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Lava Z6",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Z4",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Z2",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lava Z1",
+        "width": 480,
+        "height": 854
+    },
+    {
+        "name": "Lava Z61 Pro",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "Lava Z71",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Lava Z40",
+        "width": 480,
+        "height": 800
+    },
+    {
+        "name": "Lava Z92",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Lenovo Legion Y700 (2023)",
+        "width": 1600,
+        "height": 2560
+    },
+    {
+        "name": "Lenovo Legion Y70",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Lenovo Legion Y700",
+        "width": 1600,
+        "height": 2560
+    },
+    {
+        "name": "Lenovo Legion Y90",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Lenovo K14 Plus",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lenovo K13 Pro",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lenovo K13",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lenovo K13 Note",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lenovo Legion 2 Pro",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Lenovo Legion Duel 2",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "Lenovo K12 Pro",
+        "width": 720,
+        "height": 1640
+    },
+    {
+        "name": "Lenovo K12 (China)",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Lenovo A8 2020",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Lenovo Legion Duel",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo Legion Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo A7",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Lenovo M10 Plus",
+        "width": 1200,
+        "height": 1920
+    },
+    {
+        "name": "Lenovo M10 FHD REL",
+        "width": 1200,
+        "height": 1920
+    },
+    {
+        "name": "Lenovo K10 Plus",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "Lenovo K10 Note",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo A6 Note",
+        "width": 720,
+        "height": 1560
+    },
+    {
+        "name": "Lenovo Z6",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo Z6 Pro 5G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo Z6 Youth",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo Z6 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Lenovo K6 Enjoy",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG W41 Pro",
+        "width": 900,
+        "height": 1600
+    },
+    {
+        "name": "LG W41+",
+        "width": 900,
+        "height": 1600
+    },
+    {
+        "name": "LG W41",
+        "width": 900,
+        "height": 1600
+    },
+    {
+        "name": "LG W31+",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG W31",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG K92 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "LG K62",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG Q52",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG K52",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG K42",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG K71",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG Wing 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG K22",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG Q92 5G",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "LG Q31",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG K31",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG Velvet 5G UW",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG Q61",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "LG Stylo 6",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG Velvet",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG Velvet 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG Folder 2",
+        "width": 240,
+        "height": 320
+    },
+    {
+        "name": "LG V60 ThinQ 5G UW",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG V60 ThinQ 5G",
+        "width": 1080,
+        "height": 2460
+    },
+    {
+        "name": "LG Q51",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG W10 Alpha",
+        "width": 720,
+        "height": 1512
+    },
+    {
+        "name": "LG K61",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "LG K51S",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG K41S",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "LG V50S ThinQ 5G",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "LG G8X ThinQ",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "LG Q70",
+        "width": 1080,
+        "height": 2310
+    },
+    {
+        "name": "LG K30 (2019)",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "LG K20 (2019)",
+        "width": 480,
+        "height": 960
+    },
+    {
+        "name": "LG K40S",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG K50S",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG W30 Pro",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG W30",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG W10",
+        "width": 720,
+        "height": 1512
+    },
+    {
+        "name": "LG Stylo 5",
+        "width": 1080,
+        "height": 2160
+    },
+    {
+        "name": "LG V50 ThinQ 5G",
+        "width": 1440,
+        "height": 3120
+    },
+    {
+        "name": "LG G8S ThinQ",
+        "width": 1080,
+        "height": 2248
+    },
+    {
+        "name": "LG G8 ThinQ",
+        "width": 1440,
+        "height": 3120
+    },
+    {
+        "name": "LG Q60",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG K50",
+        "width": 720,
+        "height": 1520
+    },
+    {
+        "name": "LG K40",
+        "width": 720,
+        "height": 1440
+    },
+    {
+        "name": "LG Q9",
+        "width": 1440,
+        "height": 3120
+    },
+    {
+        "name": "Meizu Blue 20",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Meizu 21 Note",
+        "width": 1264,
+        "height": 2780
+    },
+    {
+        "name": "Meizu 21 Pro",
+        "width": 1368,
+        "height": 3192
+    },
+    {
+        "name": "Meizu 21",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Meizu 20 Classic",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Meizu 20 Infinity",
+        "width": 1368,
+        "height": 3192
+    },
+    {
+        "name": "Meizu 20 Pro",
+        "width": 1440,
+        "height": 3200
+    },
+    {
+        "name": "Meizu 20",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Meizu 18s Pro",
+        "width": 1440,
+        "height": 3200
+    },
+    {
+        "name": "Meizu 18s",
+        "width": 1440,
+        "height": 3200
+    },
+    {
+        "name": "Meizu 18x",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Meizu 18 Pro",
+        "width": 1440,
+        "height": 3200
+    },
+    {
+        "name": "Meizu 18",
+        "width": 1440,
+        "height": 3200
+    },
+    {
+        "name": "Meizu 17 Pro",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Meizu 17",
+        "width": 1080,
+        "height": 2340
+    },
+    {
+        "name": "Meizu 16T",
+        "width": 1080,
+        "height": 2232
+    },
+    {
+        "name": "Meizu M10",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Meizu 16s Pro",
+        "width": 1080,
+        "height": 2232
+    },
+    {
+        "name": "Meizu 16Xs",
+        "width": 1080,
+        "height": 2232
+    },
+    {
+        "name": "Meizu 16s",
+        "width": 1080,
+        "height": 2232
+    },
+    {
+        "name": "Meizu Note 9",
+        "width": 1080,
+        "height": 2244
+    },
+    {
+        "name": "Micromax In 2c",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Micromax In note 2",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Micromax In 2b",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Micromax In 1",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Micromax In note 1",
+        "width": 1080,
+        "height": 2400
+    },
+    {
+        "name": "Micromax In 1b",
+        "width": 720,
+        "height": 1600
+    },
+    {
+        "name": "Microsoft Surface Duo 2",
+        "width": 1892,
+        "height": 2688
+    },
+    {
+        "name": "Microsoft Surface Duo",
+        "width": 1800,
+        "height": 2700
+    }
+]

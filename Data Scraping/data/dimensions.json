@@ -1,0 +1,5624 @@
+[
+    {
+        "name": "alcatel 1B (2022)",
+        "height": 146.7,
+        "width": 71.9,
+        "depth": 10.0
+    },
+    {
+        "name": "alcatel 1L Pro (2021)",
+        "height": 156.4,
+        "width": 74.8,
+        "depth": 9.7
+    },
+    {
+        "name": "alcatel 1 (2021)",
+        "height": 137.6,
+        "width": 65.7,
+        "depth": 9.8
+    },
+    {
+        "name": "alcatel 3L (2021)",
+        "height": 165.6,
+        "width": 75.6,
+        "depth": 8.7
+    },
+    {
+        "name": "alcatel 1S (2021)",
+        "height": 165.6,
+        "width": 75.6,
+        "depth": 8.8
+    },
+    {
+        "name": "alcatel 1L (2021)",
+        "height": 155.9,
+        "width": 74.5,
+        "depth": 9.9
+    },
+    {
+        "name": "alcatel 1V (2021)",
+        "height": 165.2,
+        "width": 75.5,
+        "depth": 8.9
+    },
+    {
+        "name": "alcatel 1SE (2020)",
+        "height": 159.2,
+        "width": 75.2,
+        "depth": 8.7
+    },
+    {
+        "name": "alcatel Go Flip 4",
+        "height": 107.3,
+        "width": 55.6,
+        "depth": 19.9
+    },
+    {
+        "name": "alcatel Go Flip 3",
+        "height": 104.9,
+        "width": 53.1,
+        "depth": 20.1
+    },
+    {
+        "name": "alcatel Go Flip V",
+        "height": 104.9,
+        "width": 52.8,
+        "depth": 18.7
+    },
+    {
+        "name": "alcatel 3T10 2020",
+        "height": 243.3,
+        "width": 161.2,
+        "depth": 9.4
+    },
+    {
+        "name": "alcatel 3X (2020)",
+        "height": 165.0,
+        "width": 75.0,
+        "depth": 9.1
+    },
+    {
+        "name": "alcatel 3L (2020)",
+        "height": 158.7,
+        "width": 74.6,
+        "depth": 8.5
+    },
+    {
+        "name": "alcatel 1S (2020)",
+        "height": 158.7,
+        "width": 74.6,
+        "depth": 8.5
+    },
+    {
+        "name": "alcatel 1V (2020)",
+        "height": 158.7,
+        "width": 74.8,
+        "depth": 8.9
+    },
+    {
+        "name": "alcatel 1B (2020)",
+        "height": 146.1,
+        "width": 71.6,
+        "depth": 9.9
+    },
+    {
+        "name": "alcatel 3v (2019)",
+        "height": 174.5,
+        "width": 83.3,
+        "depth": 8.4
+    },
+    {
+        "name": "alcatel 3x (2019)",
+        "height": 164.9,
+        "width": 75.8,
+        "depth": 8.4
+    },
+    {
+        "name": "alcatel 1v (2019)",
+        "height": 149.1,
+        "width": 72.2,
+        "depth": 8.9
+    },
+    {
+        "name": "Allview Soul X7 Pro",
+        "height": 161.9,
+        "width": 76.8,
+        "depth": 8.3
+    },
+    {
+        "name": "Allview Soul X7 Style",
+        "height": 157.6,
+        "width": 75.2,
+        "depth": 8.3
+    },
+    {
+        "name": "Allview Viva 803G",
+        "height": 208.0,
+        "width": 124.0,
+        "depth": 9.5
+    },
+    {
+        "name": "Allview V4 Viper Pro",
+        "height": 171.0,
+        "width": 82.0,
+        "depth": 8.8
+    },
+    {
+        "name": "Allview Viva C703",
+        "height": 188.5,
+        "width": 108.3,
+        "depth": 9.7
+    },
+    {
+        "name": "Allview Viva Home",
+        "height": 418.5,
+        "width": 266.3,
+        "depth": 19.5
+    },
+    {
+        "name": "Allview Viva 1003G",
+        "height": 246.2,
+        "width": 171.7,
+        "depth": 10.7
+    },
+    {
+        "name": "Allview Viva 1003G Lite",
+        "height": 246.2,
+        "width": 171.7,
+        "depth": 10.7
+    },
+    {
+        "name": "Allview V4 Viper",
+        "height": 145.8,
+        "width": 70.9,
+        "depth": 8.5
+    },
+    {
+        "name": "Allview Soul X6 Mini",
+        "height": 158.3,
+        "width": 76.4,
+        "depth": 8.3
+    },
+    {
+        "name": "Allview Soul X6 Xtreme",
+        "height": 157.0,
+        "width": 74.3,
+        "depth": 8.9
+    },
+    {
+        "name": "Allview P10 Pro",
+        "height": 161.5,
+        "width": 76.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Allview P10 Max",
+        "height": 160.7,
+        "width": 77.7,
+        "depth": 8.3
+    },
+    {
+        "name": "Allview P10 Mini",
+        "height": 144.2,
+        "width": 72.0,
+        "depth": 9.9
+    },
+    {
+        "name": "Allview P10 Life",
+        "height": 149.4,
+        "width": 71.9,
+        "depth": 9.4
+    },
+    {
+        "name": "Apple iPhone 15 Pro Max",
+        "height": 159.9,
+        "width": 76.7,
+        "depth": 8.3
+    },
+    {
+        "name": "Apple iPhone 15 Pro",
+        "height": 146.6,
+        "width": 70.6,
+        "depth": 8.3
+    },
+    {
+        "name": "Apple iPhone 15 Plus",
+        "height": 160.9,
+        "width": 77.8,
+        "depth": 7.8
+    },
+    {
+        "name": "Apple iPhone 15",
+        "height": 147.6,
+        "width": 71.6,
+        "depth": 7.8
+    },
+    {
+        "name": "Apple iPhone 14 Pro Max",
+        "height": 160.7,
+        "width": 77.6,
+        "depth": 7.9
+    },
+    {
+        "name": "Apple iPhone 14 Pro",
+        "height": 147.5,
+        "width": 71.5,
+        "depth": 7.9
+    },
+    {
+        "name": "Apple iPhone 14 Plus",
+        "height": 160.8,
+        "width": 78.1,
+        "depth": 7.8
+    },
+    {
+        "name": "Apple iPhone 14",
+        "height": 146.7,
+        "width": 71.5,
+        "depth": 7.8
+    },
+    {
+        "name": "Apple iPhone SE (2022)",
+        "height": 138.4,
+        "width": 67.3,
+        "depth": 7.3
+    },
+    {
+        "name": "Apple iPhone 13 Pro Max",
+        "height": 160.8,
+        "width": 78.1,
+        "depth": 7.7
+    },
+    {
+        "name": "Apple iPhone 13 Pro",
+        "height": 146.7,
+        "width": 71.5,
+        "depth": 7.7
+    },
+    {
+        "name": "Apple iPhone 13",
+        "height": 146.7,
+        "width": 71.5,
+        "depth": 7.7
+    },
+    {
+        "name": "Apple iPhone 13 mini",
+        "height": 131.5,
+        "width": 64.2,
+        "depth": 7.7
+    },
+    {
+        "name": "Apple iPhone 12 Pro Max",
+        "height": 160.8,
+        "width": 78.1,
+        "depth": 7.4
+    },
+    {
+        "name": "Apple iPhone 12 Pro",
+        "height": 146.7,
+        "width": 71.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Apple iPhone 12",
+        "height": 146.7,
+        "width": 71.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Apple iPhone 12 mini",
+        "height": 131.5,
+        "width": 64.2,
+        "depth": 7.4
+    },
+    {
+        "name": "Apple iPhone SE (2020)",
+        "height": 138.4,
+        "width": 67.3,
+        "depth": 7.3
+    },
+    {
+        "name": "Apple iPhone 11 Pro Max",
+        "height": 158.0,
+        "width": 77.8,
+        "depth": 8.1
+    },
+    {
+        "name": "Apple iPhone 11 Pro",
+        "height": 144.0,
+        "width": 71.4,
+        "depth": 8.1
+    },
+    {
+        "name": "Apple iPhone 11",
+        "height": 150.9,
+        "width": 75.7,
+        "depth": 8.3
+    },
+    {
+        "name": "Archos Oxygen 68XL",
+        "height": 173.5,
+        "width": 81.6,
+        "depth": 9.0
+    },
+    {
+        "name": "Archos Oxygen 63",
+        "height": 159.2,
+        "width": 75.8,
+        "depth": 9.3
+    },
+    {
+        "name": "Archos Oxygen 57",
+        "height": 147.8,
+        "width": 70.7,
+        "depth": 9.3
+    },
+    {
+        "name": "Asus Zenfone 11 Ultra",
+        "height": 163.8,
+        "width": 76.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Asus ROG Phone 8 Pro",
+        "height": 163.8,
+        "width": 76.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Asus ROG Phone 8",
+        "height": 163.8,
+        "width": 76.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Asus Zenfone 10",
+        "height": 146.5,
+        "width": 68.1,
+        "depth": 9.4
+    },
+    {
+        "name": "Asus ROG Phone 7 Ultimate",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus ROG Phone 7",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus ROG Phone 6D Ultimate",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.4
+    },
+    {
+        "name": "Asus ROG Phone 6D",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.4
+    },
+    {
+        "name": "Asus ROG Phone 6 Diablo Immortal Edition",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.4
+    },
+    {
+        "name": "Asus ROG Phone 6 Batman Edition",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.4
+    },
+    {
+        "name": "Asus Zenfone 9",
+        "height": 146.5,
+        "width": 68.1,
+        "depth": 9.1
+    },
+    {
+        "name": "Asus ROG Phone 6 Pro",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus ROG Phone 6",
+        "height": 173.0,
+        "width": 77.0,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus ROG Phone 5s Pro",
+        "height": 172.8,
+        "width": 77.3,
+        "depth": 9.9
+    },
+    {
+        "name": "Asus ROG Phone 5s",
+        "height": 172.8,
+        "width": 77.3,
+        "depth": 9.9
+    },
+    {
+        "name": "Asus Smartphone for Snapdragon Insiders",
+        "height": 173.2,
+        "width": 77.3,
+        "depth": 9.6
+    },
+    {
+        "name": "Asus Zenfone 8 Flip",
+        "height": 165.0,
+        "width": 77.3,
+        "depth": 9.6
+    },
+    {
+        "name": "Asus Zenfone 8",
+        "height": 148.0,
+        "width": 68.5,
+        "depth": 8.9
+    },
+    {
+        "name": "Asus ROG Phone 5 Ultimate",
+        "height": 172.8,
+        "width": 77.3,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus ROG Phone 5 Pro",
+        "height": 172.8,
+        "width": 77.3,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus ROG Phone 5",
+        "height": 172.8,
+        "width": 77.3,
+        "depth": 10.3
+    },
+    {
+        "name": "Asus Zenfone 7 Pro",
+        "height": 165.1,
+        "width": 77.3,
+        "depth": 9.6
+    },
+    {
+        "name": "Asus Zenfone 7",
+        "height": 165.1,
+        "width": 77.3,
+        "depth": 9.6
+    },
+    {
+        "name": "Asus ROG Phone 3",
+        "height": 171.0,
+        "width": 78.0,
+        "depth": 9.9
+    },
+    {
+        "name": "Asus ROG Phone 3 Strix",
+        "height": 171.0,
+        "width": 78.0,
+        "depth": 9.9
+    },
+    {
+        "name": "Asus ROG Phone II ZS660KL",
+        "height": 171.0,
+        "width": 77.6,
+        "depth": 9.5
+    },
+    {
+        "name": "Asus Zenfone 6 ZS630KL",
+        "height": 159.1,
+        "width": 75.4,
+        "depth": 9.2
+    },
+    {
+        "name": "Asus ZenFone Live (L2)",
+        "height": 147.3,
+        "width": 71.8,
+        "depth": 8.2
+    },
+    {
+        "name": "Asus Zenfone Max Plus (M2) ZB634KL",
+        "height": 159.2,
+        "width": 76.2,
+        "depth": 8.4
+    },
+    {
+        "name": "Asus Zenfone Max Shot ZB634KL",
+        "height": 159.2,
+        "width": 76.2,
+        "depth": 8.4
+    },
+    {
+        "name": "Blackview Hero 10",
+        "height": 87.0,
+        "width": 75.5,
+        "depth": 16.3
+    },
+    {
+        "name": "Blackview BV8100",
+        "height": 175.8,
+        "width": 81.2,
+        "depth": 18.1
+    },
+    {
+        "name": "Blackview BL9000 Pro",
+        "height": 179.5,
+        "width": 82.6,
+        "depth": 17.0
+    },
+    {
+        "name": "Blackview Color 8",
+        "height": 167.8,
+        "width": 77.4,
+        "depth": 9.1
+    },
+    {
+        "name": "Blackview Mega 1",
+        "height": 268.7,
+        "width": 169.0,
+        "depth": 7.6
+    },
+    {
+        "name": "Blackview BL9000",
+        "height": 179.5,
+        "width": 82.6,
+        "depth": 17.0
+    },
+    {
+        "name": "Blackview BL8000",
+        "height": 179.5,
+        "width": 82.6,
+        "depth": 17.0
+    },
+    {
+        "name": "Blackview Shark 8",
+        "height": 168.5,
+        "width": 76.6,
+        "depth": 8.4
+    },
+    {
+        "name": "Blackview A96",
+        "height": 161.8,
+        "width": 74.2,
+        "depth": 8.6
+    },
+    {
+        "name": "Blackview BV6200 Pro",
+        "height": 174.4,
+        "width": 82.0,
+        "depth": 19.2
+    },
+    {
+        "name": "Blackview A200 Pro",
+        "height": 162.2,
+        "width": 73.6,
+        "depth": 8.6
+    },
+    {
+        "name": "Blackview N6000",
+        "height": 133.0,
+        "width": 65.3,
+        "depth": 18.4
+    },
+    {
+        "name": "Blackview Active 8 Pro",
+        "height": 256.3,
+        "width": 165.8,
+        "depth": 16.8
+    },
+    {
+        "name": "Blackview BV5300 Pro",
+        "height": 161.5,
+        "width": 77.6,
+        "depth": 15.0
+    },
+    {
+        "name": "Blackview BV8900",
+        "height": 172.4,
+        "width": 82.2,
+        "depth": 19.8
+    },
+    {
+        "name": "Blackview BV9300",
+        "height": 184.6,
+        "width": 85.6,
+        "depth": 22.8
+    },
+    {
+        "name": "Blackview A53 Pro",
+        "height": 164.6,
+        "width": 76.9,
+        "depth": 9.4
+    },
+    {
+        "name": "Blackview A53",
+        "height": 164.6,
+        "width": 76.9,
+        "depth": 9.4
+    },
+    {
+        "name": "Blackview BV9200",
+        "height": 174.5,
+        "width": 81.8,
+        "depth": 13.6
+    },
+    {
+        "name": "Blackview BV5200 Pro",
+        "height": 161.6,
+        "width": 77.9,
+        "depth": 13.7
+    },
+    {
+        "name": "Blackview A85",
+        "height": 164.3,
+        "width": 76.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Blackview A52",
+        "height": 164.2,
+        "width": 62.0,
+        "depth": 9.1
+    },
+    {
+        "name": "Blackview BV7200",
+        "height": 165.3,
+        "width": 81.6,
+        "depth": 16.0
+    },
+    {
+        "name": "Blackview BV5200",
+        "height": 161.6,
+        "width": 77.9,
+        "depth": 13.7
+    },
+    {
+        "name": "Blackview BV7100",
+        "height": 174.0,
+        "width": 81.4,
+        "depth": 18.9
+    },
+    {
+        "name": "Blackview BL8800 Pro",
+        "height": 176.2,
+        "width": 83.5,
+        "depth": 17.7
+    },
+    {
+        "name": "Blackview BL8800",
+        "height": 176.2,
+        "width": 83.5,
+        "depth": 17.7
+    },
+    {
+        "name": "Blackview A55 Pro",
+        "height": 164.8,
+        "width": 76.7,
+        "depth": 9.2
+    },
+    {
+        "name": "Blackview A50",
+        "height": 156.4,
+        "width": 72.9,
+        "depth": 8.9
+    },
+    {
+        "name": "Blackview A95",
+        "height": 163.7,
+        "width": 75.5,
+        "depth": 8.6
+    },
+    {
+        "name": "Blackview BV6600 Pro",
+        "height": 159.0,
+        "width": 79.4,
+        "depth": 18.0
+    },
+    {
+        "name": "Blackview BV6600E",
+        "height": 159.0,
+        "width": 79.4,
+        "depth": 18.0
+    },
+    {
+        "name": "Blackview BV4900s",
+        "height": 157.5,
+        "width": 78.1,
+        "depth": 13.7
+    },
+    {
+        "name": "Blackview A90",
+        "height": 166.3,
+        "width": 77.6,
+        "depth": 8.8
+    },
+    {
+        "name": "Blackview BV6600",
+        "height": 159.0,
+        "width": 79.4,
+        "depth": 18.0
+    },
+    {
+        "name": "Blackview A100",
+        "height": 166.3,
+        "width": 77.6,
+        "depth": 8.8
+    },
+    {
+        "name": "Blackview BL5000",
+        "height": 164.0,
+        "width": 80.4,
+        "depth": 12.8
+    },
+    {
+        "name": "Blackview A70",
+        "height": 165.3,
+        "width": 77.5,
+        "depth": 8.3
+    },
+    {
+        "name": "Blackview A80s",
+        "height": 157.6,
+        "width": 76.3,
+        "depth": 8.8
+    },
+    {
+        "name": "Blackview BV8800",
+        "height": 176.2,
+        "width": 83.5,
+        "depth": 17.7
+    },
+    {
+        "name": "Blackview A70 Pro",
+        "height": 165.2,
+        "width": 77.0,
+        "depth": 9.6
+    },
+    {
+        "name": "Blackview A55",
+        "height": 164.5,
+        "width": 76.7,
+        "depth": 9.1
+    },
+    {
+        "name": "Blackview BV9900E",
+        "height": 156.5,
+        "width": 78.3,
+        "depth": 14.2
+    },
+    {
+        "name": "Blackview BV4900 Pro",
+        "height": 157.5,
+        "width": 78.1,
+        "depth": 13.7
+    },
+    {
+        "name": "Blackview BL6000 Pro",
+        "height": 166.7,
+        "width": 81.3,
+        "depth": 12.8
+    },
+    {
+        "name": "Blackview BV5100",
+        "height": 159.4,
+        "width": 77.7,
+        "depth": 13.7
+    },
+    {
+        "name": "Blackview BV6300 Pro",
+        "height": 159.6,
+        "width": 78.2,
+        "depth": 12.8
+    },
+    {
+        "name": "Blackview A80 Plus",
+        "height": 162.8,
+        "width": 77.8,
+        "depth": 8.8
+    },
+    {
+        "name": "Blackview BV4900",
+        "height": 157.5,
+        "width": 78.1,
+        "depth": 13.7
+    },
+    {
+        "name": "Blackview BV9800 Pro",
+        "height": 168.5,
+        "width": 81.0,
+        "depth": 14.8
+    },
+    {
+        "name": "Blackview BV5900",
+        "height": 159.0,
+        "width": 80.0,
+        "depth": 15.0
+    },
+    {
+        "name": "BLU Bold N3",
+        "height": 164.2,
+        "width": 74.7,
+        "depth": 8.8
+    },
+    {
+        "name": "BLU G93",
+        "height": 168.7,
+        "width": 76.7,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU G73",
+        "height": 168.3,
+        "width": 78.8,
+        "depth": 9.9
+    },
+    {
+        "name": "BLU G63",
+        "height": 173.0,
+        "width": 78.0,
+        "depth": 9.2
+    },
+    {
+        "name": "BLU G53",
+        "height": 164.8,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU G33",
+        "height": 159.4,
+        "width": 78.3,
+        "depth": 10.4
+    },
+    {
+        "name": "BLU F92e",
+        "height": 164.7,
+        "width": 76.0,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU G72 Max",
+        "height": 168.3,
+        "width": 78.8,
+        "depth": 9.9
+    },
+    {
+        "name": "BLU G52L",
+        "height": 164.5,
+        "width": 76.0,
+        "depth": 9.2
+    },
+    {
+        "name": "BLU Studio X5 Max",
+        "height": 164.7,
+        "width": 76.0,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU Studio X5",
+        "height": 145.0,
+        "width": 72.4,
+        "depth": 10.1
+    },
+    {
+        "name": "BLU G40",
+        "height": 163.4,
+        "width": 78.8,
+        "depth": 10.8
+    },
+    {
+        "name": "BLU Bold N2",
+        "height": 158.7,
+        "width": 74.1,
+        "depth": 8.6
+    },
+    {
+        "name": "BLU Studio X10L 2022",
+        "height": 145.9,
+        "width": 73.5,
+        "depth": 9.8
+    },
+    {
+        "name": "BLU S91 Pro",
+        "height": 164.7,
+        "width": 76.0,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU J6S",
+        "height": 152.9,
+        "width": 73.3,
+        "depth": 9.7
+    },
+    {
+        "name": "BLU C7X",
+        "height": 165.6,
+        "width": 76.7,
+        "depth": 9.8
+    },
+    {
+        "name": "BLU S91",
+        "height": 164.8,
+        "width": 76.3,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU G51",
+        "height": 155.3,
+        "width": 73.5,
+        "depth": 9.5
+    },
+    {
+        "name": "BLU G61s",
+        "height": 159.5,
+        "width": 76.5,
+        "depth": 9.8
+    },
+    {
+        "name": "BLU G50 Mega 2022",
+        "height": 156.1,
+        "width": 72.5,
+        "depth": 9.3
+    },
+    {
+        "name": "BLU F91",
+        "height": 168.7,
+        "width": 76.8,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU G71L",
+        "height": 164.4,
+        "width": 75.9,
+        "depth": 9.6
+    },
+    {
+        "name": "BLU G91 Max",
+        "height": 168.6,
+        "width": 77.0,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU G71+",
+        "height": 160.2,
+        "width": 76.7,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU M8L 2022",
+        "height": 209.0,
+        "width": 126.0,
+        "depth": 10.6
+    },
+    {
+        "name": "BLU G51S",
+        "height": 162.4,
+        "width": 77.5,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU C5 Max",
+        "height": 159.2,
+        "width": 76.5,
+        "depth": 9.8
+    },
+    {
+        "name": "BLU Studio X10 2022",
+        "height": 145.9,
+        "width": 73.5,
+        "depth": 9.8
+    },
+    {
+        "name": "BLU C5L Max",
+        "height": 159.5,
+        "width": 76.5,
+        "depth": 10.5
+    },
+    {
+        "name": "BLU G91s",
+        "height": 168.0,
+        "width": 76.5,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU View 3",
+        "height": 160.2,
+        "width": 76.7,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU M8L Plus",
+        "height": 208.0,
+        "width": 123.7,
+        "depth": 10.5
+    },
+    {
+        "name": "BLU M8L",
+        "height": 208.0,
+        "width": 125.0,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU Studio X10L",
+        "height": 142.9,
+        "width": 73.1,
+        "depth": 9.9
+    },
+    {
+        "name": "BLU G91 Pro",
+        "height": 165.2,
+        "width": 76.9,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU J9L",
+        "height": 161.6,
+        "width": 76.9,
+        "depth": 9.7
+    },
+    {
+        "name": "BLU G51 Plus",
+        "height": 165.0,
+        "width": 76.5,
+        "depth": 9.3
+    },
+    {
+        "name": "BLU C7",
+        "height": 165.0,
+        "width": 76.5,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU View 2",
+        "height": 153.7,
+        "width": 71.0,
+        "depth": 9.5
+    },
+    {
+        "name": "BLU G91",
+        "height": 163.0,
+        "width": 76.0,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU G71",
+        "height": 165.0,
+        "width": 76.6,
+        "depth": 8.9
+    },
+    {
+        "name": "BLU Studio X12",
+        "height": 160.0,
+        "width": 77.5,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU G61",
+        "height": 164.6,
+        "width": 75.8,
+        "depth": 9.3
+    },
+    {
+        "name": "BLU Studio X10+",
+        "height": 146.0,
+        "width": 72.3,
+        "depth": 9.0
+    },
+    {
+        "name": "BLU A5L",
+        "height": 124.5,
+        "width": 64.5,
+        "depth": 10.6
+    },
+    {
+        "name": "BLU M7L",
+        "height": 194.4,
+        "width": 109.2,
+        "depth": 11.0
+    },
+    {
+        "name": "BLU View Mega",
+        "height": 167.5,
+        "width": 78.0,
+        "depth": 9.4
+    },
+    {
+        "name": "BLU G50 Mega",
+        "height": 156.1,
+        "width": 72.5,
+        "depth": 9.3
+    },
+    {
+        "name": "BLU J7L",
+        "height": 155.0,
+        "width": 74.7,
+        "depth": 10.9
+    },
+    {
+        "name": "BLU J5L",
+        "height": 144.0,
+        "width": 72.3,
+        "depth": 11.2
+    },
+    {
+        "name": "BLU J6 2020",
+        "height": 160.7,
+        "width": 78.4,
+        "depth": 10.3
+    },
+    {
+        "name": "BLU C6L 2020",
+        "height": 155.0,
+        "width": 74.7,
+        "depth": 10.9
+    },
+    {
+        "name": "BLU C5L 2020",
+        "height": 144.0,
+        "width": 72.3,
+        "depth": 11.2
+    },
+    {
+        "name": "BLU C6 2020",
+        "height": 160.7,
+        "width": 78.4,
+        "depth": 10.3
+    },
+    {
+        "name": "BLU G50 Plus",
+        "height": 158.7,
+        "width": 76.0,
+        "depth": 9.1
+    },
+    {
+        "name": "BLU G50",
+        "height": 147.8,
+        "width": 70.9,
+        "depth": 10.1
+    },
+    {
+        "name": "BLU G90 Pro",
+        "height": 162.0,
+        "width": 77.0,
+        "depth": 10.1
+    },
+    {
+        "name": "BLU Studio X10",
+        "height": 146.0,
+        "width": 73.5,
+        "depth": 9.3
+    },
+    {
+        "name": "BLU G90",
+        "height": 164.6,
+        "width": 76.5,
+        "depth": 8.8
+    },
+    {
+        "name": "BLU G80",
+        "height": 163.9,
+        "width": 75.5,
+        "depth": 8.4
+    },
+    {
+        "name": "BLU Studio X9 HD",
+        "height": 143.0,
+        "width": 73.0,
+        "depth": 10.1
+    },
+    {
+        "name": "BLU J6",
+        "height": 159.6,
+        "width": 76.6,
+        "depth": 9.1
+    },
+    {
+        "name": "BLU J4",
+        "height": 151.0,
+        "width": 72.3,
+        "depth": 10.0
+    },
+    {
+        "name": "BLU J2",
+        "height": 144.0,
+        "width": 73.1,
+        "depth": 10.3
+    },
+    {
+        "name": "BLU Tank Xtreme",
+        "height": 153.6,
+        "width": 71.8,
+        "depth": 10.2
+    },
+    {
+        "name": "BLU G70",
+        "height": 156.8,
+        "width": 75.0,
+        "depth": 8.6
+    },
+    {
+        "name": "BLU G60",
+        "height": 156.5,
+        "width": 73.6,
+        "depth": 9.5
+    },
+    {
+        "name": "BLU View 1",
+        "height": 142.2,
+        "width": 71.1,
+        "depth": 10.1
+    },
+    {
+        "name": "BLU C5 Plus",
+        "height": 151.0,
+        "width": 72.3,
+        "depth": 10.0
+    },
+    {
+        "name": "BLU C5 2019",
+        "height": 144.0,
+        "width": 73.1,
+        "depth": 10.3
+    },
+    {
+        "name": "BLU C6 2019",
+        "height": 159.6,
+        "width": 76.6,
+        "depth": 9.1
+    },
+    {
+        "name": "BLU Advance L5",
+        "height": 124.8,
+        "width": 65.2,
+        "depth": 10.4
+    },
+    {
+        "name": "BLU Bold N1",
+        "height": 158.7,
+        "width": 74.1,
+        "depth": 8.6
+    },
+    {
+        "name": "BLU Studio Mini",
+        "height": 150.5,
+        "width": 71.5,
+        "depth": 10.4
+    },
+    {
+        "name": "BLU Vivo XL5",
+        "height": 161.4,
+        "width": 78.0,
+        "depth": 9.6
+    },
+    {
+        "name": "BLU Vivo X5",
+        "height": 153.0,
+        "width": 73.4,
+        "depth": 9.1
+    },
+    {
+        "name": "BLU G9 Pro",
+        "height": 157.0,
+        "width": 75.1,
+        "depth": 8.6
+    },
+    {
+        "name": "BLU Studio Mega 2019",
+        "height": 161.4,
+        "width": 78.0,
+        "depth": 9.6
+    },
+    {
+        "name": "BLU G8",
+        "height": 161.4,
+        "width": 78.0,
+        "depth": 9.6
+    },
+    {
+        "name": "BLU G6",
+        "height": 153.0,
+        "width": 73.4,
+        "depth": 9.1
+    },
+    {
+        "name": "BLU G5 Plus",
+        "height": 161.4,
+        "width": 78.0,
+        "depth": 9.6
+    },
+    {
+        "name": "BLU G5",
+        "height": 150.5,
+        "width": 71.5,
+        "depth": 10.4
+    },
+    {
+        "name": "BLU G9",
+        "height": 155.4,
+        "width": 71.8,
+        "depth": 8.0
+    },
+    {
+        "name": "BLU C5L",
+        "height": 144.3,
+        "width": 72.5,
+        "depth": 10.3
+    },
+    {
+        "name": "BLU Studio X8 HD (2019)",
+        "height": 145.5,
+        "width": 74.5,
+        "depth": 9.8
+    },
+    {
+        "name": "BLU C6L",
+        "height": 154.4,
+        "width": 78.6,
+        "depth": 10.4
+    },
+    {
+        "name": "BLU Vivo One Plus (2019)",
+        "height": 156.7,
+        "width": 75.2,
+        "depth": 8.3
+    },
+    {
+        "name": "Cat S75",
+        "height": 171.0,
+        "width": 80.0,
+        "depth": 11.9
+    },
+    {
+        "name": "Cat S53",
+        "height": 171.0,
+        "width": 81.0,
+        "depth": 16.0
+    },
+    {
+        "name": "Cat S22 Flip",
+        "height": 119.4,
+        "width": 61.0,
+        "depth": 23.0
+    },
+    {
+        "name": "Cat S62",
+        "height": 157.5,
+        "width": 76.2,
+        "depth": 12.7
+    },
+    {
+        "name": "Cat S42 H+",
+        "height": 161.3,
+        "width": 77.2,
+        "depth": 12.7
+    },
+    {
+        "name": "Cat B40",
+        "height": 145.0,
+        "width": 62.0,
+        "depth": 18.0
+    },
+    {
+        "name": "Cat S62 Pro",
+        "height": 158.5,
+        "width": 76.7,
+        "depth": 11.9
+    },
+    {
+        "name": "Cat S42",
+        "height": 161.4,
+        "width": 77.3,
+        "depth": 12.7
+    },
+    {
+        "name": "Cat S52",
+        "height": 158.1,
+        "width": 76.6,
+        "depth": 9.7
+    },
+    {
+        "name": "Coolpad Cool 30 Play",
+        "height": 169.6,
+        "width": 76.6,
+        "depth": 8.5
+    },
+    {
+        "name": "Coolpad C15",
+        "height": 164.2,
+        "width": 75.7,
+        "depth": 8.8
+    },
+    {
+        "name": "Coolpad Cool 30i",
+        "height": 166.2,
+        "width": 76.7,
+        "depth": 8.3
+    },
+    {
+        "name": "Coolpad CP12s",
+        "height": 169.7,
+        "width": 76.7,
+        "depth": 8.2
+    },
+    {
+        "name": "Coolpad CP12",
+        "height": 164.2,
+        "width": 75.7,
+        "depth": 8.3
+    },
+    {
+        "name": "Coolpad Cool 20+",
+        "height": 164.3,
+        "width": 75.7,
+        "depth": 8.7
+    },
+    {
+        "name": "Coolpad CP12p",
+        "height": 166.2,
+        "width": 76.7,
+        "depth": 8.3
+    },
+    {
+        "name": "Coolpad Cool 20s",
+        "height": 163.0,
+        "width": 74.8,
+        "depth": 8.3
+    },
+    {
+        "name": "Coolpad Cool 20",
+        "height": 164.3,
+        "width": 75.7,
+        "depth": 8.7
+    },
+    {
+        "name": "Coolpad Cool 20 Pro",
+        "height": 162.8,
+        "width": 74.8,
+        "depth": 8.3
+    },
+    {
+        "name": "Coolpad Cool 10A",
+        "height": 165.0,
+        "width": 76.0,
+        "depth": 8.8
+    },
+    {
+        "name": "Coolpad Cool S",
+        "height": 161.2,
+        "width": 76.2,
+        "depth": 8.9
+    },
+    {
+        "name": "Coolpad Cool 6",
+        "height": 162.4,
+        "width": 76.5,
+        "depth": 9.2
+    },
+    {
+        "name": "Coolpad Cool 12A",
+        "height": 156.2,
+        "width": 75.2,
+        "depth": 8.9
+    },
+    {
+        "name": "Coolpad Cool 10",
+        "height": 165.7,
+        "width": 76.5,
+        "depth": 9.1
+    },
+    {
+        "name": "Coolpad Legacy",
+        "height": 165.9,
+        "width": 80.5,
+        "depth": 8.4
+    },
+    {
+        "name": "Coolpad Cool 5",
+        "height": 157.0,
+        "width": 76.0,
+        "depth": 8.0
+    },
+    {
+        "name": "Coolpad Cool 3 Plus",
+        "height": 145.7,
+        "width": 70.9,
+        "depth": 8.2
+    },
+    {
+        "name": "Cubot Max 5",
+        "height": 173.9,
+        "width": 78.9,
+        "depth": 9.2
+    },
+    {
+        "name": "Cubot KingKong X",
+        "height": 170.9,
+        "width": 82.2,
+        "depth": 18.7
+    },
+    {
+        "name": "Cubot KingKong Ace 3",
+        "height": 173.9,
+        "width": 81.8,
+        "depth": 12.7
+    },
+    {
+        "name": "Cubot A10",
+        "height": 165.6,
+        "width": 75.5,
+        "depth": 10.4
+    },
+    {
+        "name": "Cubot X90",
+        "height": 162.2,
+        "width": 74.0,
+        "depth": 9.4
+    },
+    {
+        "name": "Cubot X1",
+        "height": 52.7,
+        "width": 44.5,
+        "depth": 14.2
+    },
+    {
+        "name": "Cubot Hafury V1",
+        "height": 165.8,
+        "width": 75.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Cubot Hafury Meet",
+        "height": 162.2,
+        "width": 74.0,
+        "depth": 9.4
+    },
+    {
+        "name": "Cubot KingKong AX",
+        "height": 172.0,
+        "width": 80.9,
+        "depth": 12.7
+    },
+    {
+        "name": "Cubot A1",
+        "height": 165.6,
+        "width": 75.5,
+        "depth": 10.4
+    },
+    {
+        "name": "Cubot C21",
+        "height": 46.5,
+        "width": 46.5,
+        "depth": 13.0
+    },
+    {
+        "name": "Cubot C20 Pro",
+        "height": 54.0,
+        "width": 43.0,
+        "depth": 12.9
+    },
+    {
+        "name": "Cubot KingKong 8",
+        "height": 169.9,
+        "width": 80.2,
+        "depth": 20.0
+    },
+    {
+        "name": "Cubot Note 40",
+        "height": 165.8,
+        "width": 75.8,
+        "depth": 10.1
+    },
+    {
+        "name": "Cubot Note 21",
+        "height": 165.8,
+        "width": 75.9,
+        "depth": 10.6
+    },
+    {
+        "name": "Cubot Note 50",
+        "height": 165.8,
+        "width": 75.8,
+        "depth": 10.1
+    },
+    {
+        "name": "Cubot KingKong Star",
+        "height": 180.2,
+        "width": 80.8,
+        "depth": 17.8
+    },
+    {
+        "name": "Doogee V20S",
+        "height": 170.9,
+        "width": 81.9,
+        "depth": 14.0
+    },
+    {
+        "name": "Doogee DK10",
+        "height": 181.7,
+        "width": 83.1,
+        "depth": 12.7
+    },
+    {
+        "name": "Doogee Smini",
+        "height": 133.0,
+        "width": 60.0,
+        "depth": 13.5
+    },
+    {
+        "name": "Doogee V30 Pro",
+        "height": 178.5,
+        "width": 83.1,
+        "depth": 17.9
+    },
+    {
+        "name": "Doogee V31GT",
+        "height": 178.5,
+        "width": 83.1,
+        "depth": 17.9
+    },
+    {
+        "name": "Doogee S110",
+        "height": 178.5,
+        "width": 83.1,
+        "depth": 17.9
+    },
+    {
+        "name": "Doogee V30T",
+        "height": 178.4,
+        "width": 83.1,
+        "depth": 17.8
+    },
+    {
+        "name": "Doogee S100 Pro",
+        "height": 178.5,
+        "width": 83.1,
+        "depth": 27.3
+    },
+    {
+        "name": "Doogee V20 Pro",
+        "height": 170.5,
+        "width": 81.2,
+        "depth": 14.0
+    },
+    {
+        "name": "Doogee V Max",
+        "height": 178.5,
+        "width": 83.1,
+        "depth": 27.3
+    },
+    {
+        "name": "Doogee S100",
+        "height": 178.5,
+        "width": 83.1,
+        "depth": 17.9
+    },
+    {
+        "name": "Doogee V30",
+        "height": 178.4,
+        "width": 83.1,
+        "depth": 18.3
+    },
+    {
+        "name": "Doogee D11",
+        "height": 46.0,
+        "width": 46.0,
+        "depth": 10.7
+    },
+    {
+        "name": "Doogee V11",
+        "height": 169.3,
+        "width": 81.2,
+        "depth": 16.1
+    },
+    {
+        "name": "Doogee CS3",
+        "height": 43.9,
+        "width": 35.4,
+        "depth": 11.3
+    },
+    {
+        "name": "Doogee S35T",
+        "height": 153.4,
+        "width": 82.9,
+        "depth": 15.7
+    },
+    {
+        "name": "Doogee V20",
+        "height": 170.5,
+        "width": 81.2,
+        "depth": 14.0
+    },
+    {
+        "name": "Doogee X96",
+        "height": 165.2,
+        "width": 76.7,
+        "depth": 9.7
+    },
+    {
+        "name": "Doogee DG Ares",
+        "height": 45.9,
+        "width": 45.9,
+        "depth": 10.3
+    },
+    {
+        "name": "Doogee V10",
+        "height": 169.3,
+        "width": 81.2,
+        "depth": 16.1
+    },
+    {
+        "name": "Doogee X96 Pro",
+        "height": 165.2,
+        "width": 76.7,
+        "depth": 9.7
+    },
+    {
+        "name": "Doogee CS2",
+        "height": 43.8,
+        "width": 36.9,
+        "depth": 10.5
+    },
+    {
+        "name": "Doogee CS1",
+        "height": 41.5,
+        "width": 35.9,
+        "depth": 8.9
+    },
+    {
+        "name": "Energizer Ultimate U652S",
+        "height": 164.3,
+        "width": 76.1,
+        "depth": 9.1
+    },
+    {
+        "name": "Energizer E130S",
+        "height": 115.0,
+        "width": 49.2,
+        "depth": 14.8
+    },
+    {
+        "name": "Energizer U506S",
+        "height": 144.8,
+        "width": 72.4,
+        "depth": 11.6
+    },
+    {
+        "name": "Energizer U683S",
+        "height": 172.8,
+        "width": 78.5,
+        "depth": 9.7
+    },
+    {
+        "name": "Energizer H67G",
+        "height": 178.6,
+        "width": 84.0,
+        "depth": 13.5
+    },
+    {
+        "name": "Energizer E242s+",
+        "height": 130.8,
+        "width": 53.6,
+        "depth": 13.0
+    },
+    {
+        "name": "Energizer E244s",
+        "height": 131.2,
+        "width": 54.0,
+        "depth": 12.0
+    },
+    {
+        "name": "Energizer E13",
+        "height": 116.0,
+        "width": 50.0,
+        "depth": 14.5
+    },
+    {
+        "name": "Energizer E20+",
+        "height": 105.0,
+        "width": 52.6,
+        "depth": 19.9
+    },
+    {
+        "name": "Energizer E29",
+        "height": 137.6,
+        "width": 62.5,
+        "depth": 15.6
+    },
+    {
+        "name": "Energizer E4",
+        "height": 115.0,
+        "width": 46.0,
+        "depth": 13.5
+    },
+    {
+        "name": "Energizer Ultimate U608s",
+        "height": 155.4,
+        "width": 73.3,
+        "depth": 9.8
+    },
+    {
+        "name": "Energizer E242s",
+        "height": 130.8,
+        "width": 53.6,
+        "depth": 13.0
+    },
+    {
+        "name": "Energizer E284S",
+        "height": 137.6,
+        "width": 62.5,
+        "depth": 15.6
+    },
+    {
+        "name": "Energizer Ultimate U505s",
+        "height": 138.5,
+        "width": 73.5,
+        "depth": 10.6
+    },
+    {
+        "name": "Energizer E282SC",
+        "height": 108.5,
+        "width": 58.0,
+        "depth": 18.5
+    },
+    {
+        "name": "Energizer Hard Case G5",
+        "height": 167.7,
+        "width": 78.2,
+        "depth": 13.7
+    },
+    {
+        "name": "Energizer U680S",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Energizer E28",
+        "height": 134.5,
+        "width": 56.0,
+        "depth": 16.9
+    },
+    {
+        "name": "Energizer E24",
+        "height": 125.3,
+        "width": 54.0,
+        "depth": 14.5
+    },
+    {
+        "name": "Energizer E3",
+        "height": 113.9,
+        "width": 48.0,
+        "depth": 14.0
+    },
+    {
+        "name": "Energizer E2",
+        "height": 116.0,
+        "width": 50.0,
+        "depth": 13.9
+    },
+    {
+        "name": "Energizer E280s",
+        "height": 134.5,
+        "width": 56.0,
+        "depth": 16.8
+    },
+    {
+        "name": "Energizer Hardcase H621S",
+        "height": 163.0,
+        "width": 78.2,
+        "depth": 12.0
+    },
+    {
+        "name": "Energizer Hardcase H620S",
+        "height": 163.0,
+        "width": 78.2,
+        "depth": 12.0
+    },
+    {
+        "name": "Energizer Energy E12",
+        "height": 117.0,
+        "width": 51.0,
+        "depth": 15.0
+    },
+    {
+        "name": "Energizer Hardcase H10",
+        "height": 109.0,
+        "width": 49.0,
+        "depth": 15.0
+    },
+    {
+        "name": "Energizer Hardcase H570S",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Energizer Hardcase H501S",
+        "height": 149.4,
+        "width": 69.9,
+        "depth": 12.0
+    },
+    {
+        "name": "Energizer Hardcase H280S",
+        "height": 142.0,
+        "width": 64.0,
+        "depth": 16.5
+    },
+    {
+        "name": "Energizer Hardcase H242",
+        "height": 125.3,
+        "width": 54.0,
+        "depth": 14.5
+    },
+    {
+        "name": "Energizer Energy E241s",
+        "height": 125.3,
+        "width": 54.0,
+        "depth": 14.5
+    },
+    {
+        "name": "Energizer Energy E241",
+        "height": 125.3,
+        "width": 54.0,
+        "depth": 14.5
+    },
+    {
+        "name": "Energizer Energy E220s",
+        "height": 119.0,
+        "width": 59.0,
+        "depth": 16.5
+    },
+    {
+        "name": "Energizer Energy E220",
+        "height": 119.0,
+        "width": 59.0,
+        "depth": 16.5
+    },
+    {
+        "name": "Fairphone 5",
+        "height": 161.6,
+        "width": 75.8,
+        "depth": 9.6
+    },
+    {
+        "name": "Fairphone 4",
+        "height": 162.0,
+        "width": 75.5,
+        "depth": 10.5
+    },
+    {
+        "name": "Fairphone 3+",
+        "height": 158.0,
+        "width": 71.8,
+        "depth": 9.9
+    },
+    {
+        "name": "Gionee G13 Pro",
+        "height": 158.0,
+        "width": 76.0,
+        "depth": 9.2
+    },
+    {
+        "name": "Gionee P15",
+        "height": 164.7,
+        "width": 76.3,
+        "depth": 9.0
+    },
+    {
+        "name": "Gionee M15",
+        "height": 165.2,
+        "width": 77.0,
+        "depth": 9.0
+    },
+    {
+        "name": "Gionee M3",
+        "height": 163.2,
+        "width": 75.9,
+        "depth": 9.3
+    },
+    {
+        "name": "Gionee P15 Pro",
+        "height": 173.8,
+        "width": 78.5,
+        "depth": 9.5
+    },
+    {
+        "name": "Gionee Max Pro",
+        "height": 165.0,
+        "width": 75.0,
+        "depth": 10.0
+    },
+    {
+        "name": "Gionee K30 Pro",
+        "height": 165.0,
+        "width": 76.0,
+        "depth": 8.0
+    },
+    {
+        "name": "Gionee P12",
+        "height": 156.1,
+        "width": 73.7,
+        "depth": 9.7
+    },
+    {
+        "name": "Gionee M12",
+        "height": 163.9,
+        "width": 76.8,
+        "depth": 9.3
+    },
+    {
+        "name": "Gionee S12 Lite",
+        "height": 166.2,
+        "width": 76.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Gionee S12",
+        "height": 164.6,
+        "width": 76.6,
+        "depth": 8.8
+    },
+    {
+        "name": "Gionee M30",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Gionee Max",
+        "height": 148.0,
+        "width": 70.9,
+        "depth": 10.8
+    },
+    {
+        "name": "Gionee K3 Pro",
+        "height": 164.3,
+        "width": 77.6,
+        "depth": 9.7
+    },
+    {
+        "name": "Gionee K6",
+        "height": 157.6,
+        "width": 75.9,
+        "depth": 10.2
+    },
+    {
+        "name": "Google Pixel 8a",
+        "height": 152.1,
+        "width": 72.7,
+        "depth": 8.9
+    },
+    {
+        "name": "Google Pixel 8 Pro",
+        "height": 162.6,
+        "width": 76.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Google Pixel 8",
+        "height": 150.5,
+        "width": 70.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Google Pixel Fold",
+        "height": 139.7,
+        "width": 79.5,
+        "depth": 12.1
+    },
+    {
+        "name": "Google Pixel 7a",
+        "height": 152.0,
+        "width": 72.9,
+        "depth": 9.0
+    },
+    {
+        "name": "Google Pixel 7 Pro",
+        "height": 162.9,
+        "width": 76.6,
+        "depth": 8.9
+    },
+    {
+        "name": "Google Pixel 7",
+        "height": 155.6,
+        "width": 73.2,
+        "depth": 8.7
+    },
+    {
+        "name": "Google Pixel 6a",
+        "height": 152.2,
+        "width": 71.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Google Pixel 6 Pro",
+        "height": 163.9,
+        "width": 75.9,
+        "depth": 8.9
+    },
+    {
+        "name": "Google Pixel 6",
+        "height": 158.6,
+        "width": 74.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Google Pixel 5a 5G",
+        "height": 156.2,
+        "width": 73.2,
+        "depth": 8.8
+    },
+    {
+        "name": "Google Pixel 5",
+        "height": 144.7,
+        "width": 70.4,
+        "depth": 8.0
+    },
+    {
+        "name": "Google Pixel 4a 5G",
+        "height": 153.9,
+        "width": 74.0,
+        "depth": 8.2
+    },
+    {
+        "name": "Google Pixel 4a",
+        "height": 144.0,
+        "width": 69.4,
+        "depth": 8.2
+    },
+    {
+        "name": "Google Pixel 4 XL",
+        "height": 160.4,
+        "width": 75.1,
+        "depth": 8.2
+    },
+    {
+        "name": "Google Pixel 4",
+        "height": 147.1,
+        "width": 68.8,
+        "depth": 8.2
+    },
+    {
+        "name": "Google Pixel 3a XL",
+        "height": 160.1,
+        "width": 76.1,
+        "depth": 8.2
+    },
+    {
+        "name": "Google Pixel 3a",
+        "height": 151.3,
+        "width": 70.1,
+        "depth": 8.2
+    },
+    {
+        "name": "HMD Skyline",
+        "height": 159.8,
+        "width": 76.0,
+        "depth": 8.9
+    },
+    {
+        "name": "HMD 110",
+        "height": 115.5,
+        "width": 49.5,
+        "depth": 14.0
+    },
+    {
+        "name": "HMD 105",
+        "height": 115.5,
+        "width": 49.5,
+        "depth": 14.0
+    },
+    {
+        "name": "HMD Aura",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "HMD T21",
+        "height": 247.5,
+        "width": 157.3,
+        "depth": 7.5
+    },
+    {
+        "name": "HMD XR21",
+        "height": 168.0,
+        "width": 78.6,
+        "depth": 10.5
+    },
+    {
+        "name": "HMD Vibe",
+        "height": 163.8,
+        "width": 75.2,
+        "depth": 8.4
+    },
+    {
+        "name": "HMD Pulse Pro",
+        "height": 163.2,
+        "width": 75.0,
+        "depth": 8.6
+    },
+    {
+        "name": "HMD Pulse+",
+        "height": 163.2,
+        "width": 75.0,
+        "depth": 8.5
+    },
+    {
+        "name": "HMD Pulse",
+        "height": 163.2,
+        "width": 75.0,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor Magic Vs3",
+        "height": 156.8,
+        "width": 74.0,
+        "depth": 9.8
+    },
+    {
+        "name": "Honor Magic V3",
+        "height": 156.6,
+        "width": 74.0,
+        "depth": 9.2
+    },
+    {
+        "name": "Honor Play 60 Plus",
+        "height": 167.0,
+        "width": 76.8,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor X7b 5G (50 MP)",
+        "height": 166.7,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor Magic V Flip",
+        "height": 86.5,
+        "width": 75.6,
+        "depth": 14.9
+    },
+    {
+        "name": "Honor X6b",
+        "height": 163.6,
+        "width": 75.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 200 Pro",
+        "height": 163.3,
+        "width": 75.2,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 200",
+        "height": 161.5,
+        "width": 74.6,
+        "depth": 7.7
+    },
+    {
+        "name": "Honor 200 Lite",
+        "height": 161.1,
+        "width": 74.6,
+        "depth": 6.8
+    },
+    {
+        "name": "Honor 90 Smart",
+        "height": 166.7,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor X7b 5G",
+        "height": 166.7,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor Magic6 RSR Porsche Design",
+        "height": 162.5,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor Magic6 Ultimate",
+        "height": 162.5,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor Magic V2 RSR Porsche Design",
+        "height": 156.7,
+        "width": 74.0,
+        "depth": 9.9
+    },
+    {
+        "name": "Honor Magic6 Pro",
+        "height": 162.5,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor Magic6",
+        "height": 161.8,
+        "width": 75.4,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor X50 GT",
+        "height": 163.6,
+        "width": 75.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor 90 GT",
+        "height": 161.0,
+        "width": 74.2,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor X8b",
+        "height": 161.1,
+        "width": 74.6,
+        "depth": 6.8
+    },
+    {
+        "name": "Honor Magic6 Lite",
+        "height": 163.6,
+        "width": 75.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor X7b",
+        "height": 166.7,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 100 Pro",
+        "height": 163.7,
+        "width": 74.7,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 100",
+        "height": 161.9,
+        "width": 74.1,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor X50i+",
+        "height": 161.1,
+        "width": 74.6,
+        "depth": 6.8
+    },
+    {
+        "name": "Honor X5 Plus",
+        "height": 163.3,
+        "width": 75.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor X9b",
+        "height": 163.6,
+        "width": 75.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor Play 8T",
+        "height": 166.7,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor Magic Vs2",
+        "height": 157.5,
+        "width": 74.4,
+        "depth": 10.7
+    },
+    {
+        "name": "Honor Play 50 Plus",
+        "height": 166.7,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor V Purse",
+        "height": 156.5,
+        "width": 74.7,
+        "depth": 8.6
+    },
+    {
+        "name": "Honor X40 GT Racing",
+        "height": 166.1,
+        "width": 75.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor X6a",
+        "height": 163.3,
+        "width": 75.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor Magic V2",
+        "height": 156.7,
+        "width": 74.1,
+        "depth": 9.9
+    },
+    {
+        "name": "Honor X50",
+        "height": 163.6,
+        "width": 75.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor Play 40",
+        "height": 163.3,
+        "width": 75.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor X50i",
+        "height": 162.9,
+        "width": 74.5,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor 90 Lite",
+        "height": 162.9,
+        "width": 74.5,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor 90 Pro",
+        "height": 163.8,
+        "width": 74.9,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor 90",
+        "height": 161.9,
+        "width": 74.1,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor Play7T Pro",
+        "height": 162.9,
+        "width": 74.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Honor Play7T",
+        "height": 167.5,
+        "width": 76.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Honor 70 Lite",
+        "height": 163.7,
+        "width": 75.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Honor Magic5 Ultimate",
+        "height": 162.9,
+        "width": 76.7,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor Magic5 Pro",
+        "height": 162.9,
+        "width": 76.7,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor Magic5",
+        "height": 161.4,
+        "width": 75.5,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor Magic5 Lite",
+        "height": 161.6,
+        "width": 73.9,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor X8a",
+        "height": 162.9,
+        "width": 74.5,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor X5",
+        "height": 164.0,
+        "width": 75.6,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor X9a",
+        "height": 161.6,
+        "width": 73.9,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor X7a",
+        "height": 167.5,
+        "width": 76.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Honor 80 Pro Flat",
+        "height": 162.3,
+        "width": 75.3,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor 80 GT",
+        "height": 162.5,
+        "width": 75.3,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor 80 Pro",
+        "height": 163.3,
+        "width": 74.9,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor 80",
+        "height": 161.1,
+        "width": 73.9,
+        "depth": 7.7
+    },
+    {
+        "name": "Honor 80 SE",
+        "height": 161.3,
+        "width": 73.4,
+        "depth": 7.7
+    },
+    {
+        "name": "Honor Magic Vs Ultimate",
+        "height": 160.3,
+        "width": 72.6,
+        "depth": 12.9
+    },
+    {
+        "name": "Honor Magic Vs",
+        "height": 160.3,
+        "width": 72.6,
+        "depth": 12.9
+    },
+    {
+        "name": "Honor Play 40 Plus",
+        "height": 167.5,
+        "width": 76.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Honor X40 GT",
+        "height": 166.1,
+        "width": 75.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor Play6C",
+        "height": 163.7,
+        "width": 75.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Honor X6",
+        "height": 163.7,
+        "width": 75.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Honor X40",
+        "height": 161.6,
+        "width": 73.9,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor X8 5G",
+        "height": 163.7,
+        "width": 75.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Honor X40i",
+        "height": 162.9,
+        "width": 74.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Honor 70 Pro+",
+        "height": 163.9,
+        "width": 74.6,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 70 Pro",
+        "height": 163.9,
+        "width": 74.6,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 70",
+        "height": 161.4,
+        "width": 73.3,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor Play 30",
+        "height": 163.7,
+        "width": 75.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Honor Play6T Pro",
+        "height": 163.4,
+        "width": 74.7,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor Play6T",
+        "height": 167.6,
+        "width": 77.2,
+        "depth": 8.6
+    },
+    {
+        "name": "Honor Magic4 Lite",
+        "height": 166.0,
+        "width": 75.8,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor X7",
+        "height": 167.6,
+        "width": 77.2,
+        "depth": 8.6
+    },
+    {
+        "name": "Honor X9",
+        "height": 166.1,
+        "width": 75.8,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor X9 5G",
+        "height": 166.1,
+        "width": 75.8,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor Magic4 Ultimate",
+        "height": 163.6,
+        "width": 74.7,
+        "depth": 11.4
+    },
+    {
+        "name": "Honor X8",
+        "height": 163.4,
+        "width": 74.7,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor Magic4 Pro",
+        "height": 163.6,
+        "width": 74.7,
+        "depth": 9.1
+    },
+    {
+        "name": "Honor Magic4",
+        "height": 163.6,
+        "width": 74.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor 60 SE",
+        "height": 161.3,
+        "width": 73.4,
+        "depth": 7.7
+    },
+    {
+        "name": "Honor Magic V",
+        "height": 160.4,
+        "width": 72.7,
+        "depth": 14.3
+    },
+    {
+        "name": "Honor X30",
+        "height": 166.1,
+        "width": 75.8,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor Play 30 Plus",
+        "height": 167.6,
+        "width": 77.2,
+        "depth": 8.6
+    },
+    {
+        "name": "Honor 60 Pro",
+        "height": 163.9,
+        "width": 74.8,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 60",
+        "height": 161.4,
+        "width": 73.3,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor X30 Max",
+        "height": 174.4,
+        "width": 84.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Honor X30i",
+        "height": 163.4,
+        "width": 74.7,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor 50 Lite",
+        "height": 161.8,
+        "width": 74.7,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor Play5 Youth",
+        "height": 161.8,
+        "width": 74.7,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor X20",
+        "height": 161.8,
+        "width": 74.7,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor Magic3 Pro+",
+        "height": 162.8,
+        "width": 74.9,
+        "depth": 9.9
+    },
+    {
+        "name": "Honor Magic3 Pro",
+        "height": 162.8,
+        "width": 74.9,
+        "depth": 9.0
+    },
+    {
+        "name": "Honor Magic3",
+        "height": 162.8,
+        "width": 74.9,
+        "depth": 8.99
+    },
+    {
+        "name": "Honor Play 5T Pro",
+        "height": 160.7,
+        "width": 73.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor X20 SE",
+        "height": 160.7,
+        "width": 73.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 50 Pro",
+        "height": 163.5,
+        "width": 74.7,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor 50",
+        "height": 160.0,
+        "width": 73.8,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor 50 SE",
+        "height": 164.7,
+        "width": 75.6,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor Play5 5G",
+        "height": 161.6,
+        "width": 74.8,
+        "depth": 7.5
+    },
+    {
+        "name": "Honor Play 20",
+        "height": 164.0,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor Play 5T Youth",
+        "height": 165.2,
+        "width": 76.0,
+        "depth": 9.2
+    },
+    {
+        "name": "Honor V40 Lite",
+        "height": 160.1,
+        "width": 74.1,
+        "depth": 7.6
+    },
+    {
+        "name": "Honor V40 5G",
+        "height": 163.1,
+        "width": 74.3,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor 10X Lite",
+        "height": 165.7,
+        "width": 76.9,
+        "depth": 9.3
+    },
+    {
+        "name": "Honor 30i",
+        "height": 157.2,
+        "width": 73.2,
+        "depth": 7.7
+    },
+    {
+        "name": "Honor X10 Max 5G",
+        "height": 174.4,
+        "width": 84.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Honor 30 Youth",
+        "height": 160.0,
+        "width": 75.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 8S 2020",
+        "height": 147.1,
+        "width": 70.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor Play4",
+        "height": 170.0,
+        "width": 78.5,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor Play4 Pro",
+        "height": 162.7,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor X10 5G",
+        "height": 163.7,
+        "width": 76.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor V6",
+        "height": 245.2,
+        "width": 154.9,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor 9A",
+        "height": 159.1,
+        "width": 74.1,
+        "depth": 9.0
+    },
+    {
+        "name": "Honor 9C",
+        "height": 159.8,
+        "width": 76.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor 9S",
+        "height": 146.5,
+        "width": 70.9,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 9X Lite",
+        "height": 160.4,
+        "width": 76.6,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor 30 Pro+",
+        "height": 160.3,
+        "width": 73.6,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 30 Pro",
+        "height": 160.3,
+        "width": 73.6,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 30",
+        "height": 160.3,
+        "width": 74.2,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor 20e",
+        "height": 154.8,
+        "width": 73.6,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor Play 4T Pro",
+        "height": 157.4,
+        "width": 73.2,
+        "depth": 7.8
+    },
+    {
+        "name": "Honor Play 4T",
+        "height": 159.8,
+        "width": 76.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor 8A 2020",
+        "height": 156.3,
+        "width": 73.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 8A Prime",
+        "height": 156.3,
+        "width": 73.5,
+        "depth": 8.2
+    },
+    {
+        "name": "Honor 30S",
+        "height": 162.3,
+        "width": 75.0,
+        "depth": 8.6
+    },
+    {
+        "name": "Honor Play 9A",
+        "height": 159.1,
+        "width": 74.1,
+        "depth": 9.0
+    },
+    {
+        "name": "Honor View30 Pro",
+        "height": 162.7,
+        "width": 75.8,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor View30",
+        "height": 162.7,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor V30 Pro",
+        "height": 162.7,
+        "width": 75.8,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor V30",
+        "height": 162.7,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Honor 9X",
+        "height": 163.5,
+        "width": 77.3,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor 20 lite (China)",
+        "height": 157.2,
+        "width": 73.2,
+        "depth": 7.7
+    },
+    {
+        "name": "Honor Play 3e",
+        "height": 147.1,
+        "width": 70.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor Play 3",
+        "height": 159.8,
+        "width": 76.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Honor 20S",
+        "height": 154.3,
+        "width": 74.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor 9X Pro",
+        "height": 163.5,
+        "width": 77.3,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor 9X (China)",
+        "height": 163.1,
+        "width": 77.2,
+        "depth": 8.8
+    },
+    {
+        "name": "Honor 8S",
+        "height": 147.1,
+        "width": 70.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Honor 20 Pro",
+        "height": 154.6,
+        "width": 74.0,
+        "depth": 8.4
+    },
+    {
+        "name": "Honor 20",
+        "height": 154.3,
+        "width": 74.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Honor 20 lite",
+        "height": 154.8,
+        "width": 73.6,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor 20i",
+        "height": 154.8,
+        "width": 73.6,
+        "depth": 8.0
+    },
+    {
+        "name": "Honor 8A Pro",
+        "height": 156.3,
+        "width": 73.5,
+        "depth": 8.0
+    },
+    {
+        "name": "HTC U24 Pro",
+        "height": 167.1,
+        "width": 74.9,
+        "depth": 9.0
+    },
+    {
+        "name": "HTC A101 Plus",
+        "height": 256.6,
+        "width": 168.2,
+        "depth": 7.5
+    },
+    {
+        "name": "HTC A104",
+        "height": 245.6,
+        "width": 155.4,
+        "depth": 8.0
+    },
+    {
+        "name": "HTC Wildfire E star",
+        "height": 164.8,
+        "width": 76.5,
+        "depth": 9.2
+    },
+    {
+        "name": "HTC U23",
+        "height": 166.6,
+        "width": 77.1,
+        "depth": 8.9
+    },
+    {
+        "name": "HTC U23 Pro",
+        "height": 166.6,
+        "width": 77.1,
+        "depth": 8.9
+    },
+    {
+        "name": "HTC A103 Plus",
+        "height": 239.2,
+        "width": 157.9,
+        "depth": 7.9
+    },
+    {
+        "name": "HTC A103",
+        "height": 244.0,
+        "width": 162.6,
+        "depth": 8.5
+    },
+    {
+        "name": "HTC A102",
+        "height": 257.9,
+        "width": 162.5,
+        "depth": 7.9
+    },
+    {
+        "name": "HTC A101",
+        "height": 241.5,
+        "width": 160.3,
+        "depth": 8.4
+    },
+    {
+        "name": "HTC Wildfire E2 Play",
+        "height": 174.2,
+        "width": 78.6,
+        "depth": 9.3
+    },
+    {
+        "name": "HTC Wildfire E3 lite",
+        "height": 164.8,
+        "width": 76.5,
+        "depth": 9.2
+    },
+    {
+        "name": "HTC Wildfire E plus",
+        "height": 164.1,
+        "width": 75.9,
+        "depth": 8.8
+    },
+    {
+        "name": "HTC Desire 22 Pro",
+        "height": 166.3,
+        "width": 76.9,
+        "depth": 9.4
+    },
+    {
+        "name": "HTC Wildfire E2 Plus",
+        "height": 174.2,
+        "width": 78.6,
+        "depth": 9.3
+    },
+    {
+        "name": "HTC Wildfire E3",
+        "height": 165.7,
+        "width": 76.6,
+        "depth": 9.0
+    },
+    {
+        "name": "HTC Desire 21 Pro 5G",
+        "height": 167.1,
+        "width": 78.1,
+        "depth": 9.4
+    },
+    {
+        "name": "HTC Desire 20+",
+        "height": 164.9,
+        "width": 75.7,
+        "depth": 9.0
+    },
+    {
+        "name": "HTC Wildfire E1 lite",
+        "height": 147.9,
+        "width": 71.4,
+        "depth": 8.9
+    },
+    {
+        "name": "HTC Wildfire E2",
+        "height": 158.4,
+        "width": 75.9,
+        "depth": 9.0
+    },
+    {
+        "name": "HTC Wildfire E1 plus",
+        "height": 157.5,
+        "width": 75.0,
+        "depth": 8.9
+    },
+    {
+        "name": "HTC Wildfire E1",
+        "height": 157.5,
+        "width": 75.0,
+        "depth": 8.9
+    },
+    {
+        "name": "HTC Wildfire E",
+        "height": 147.9,
+        "width": 71.4,
+        "depth": 8.9
+    },
+    {
+        "name": "HTC U20 5G",
+        "height": 171.2,
+        "width": 78.1,
+        "depth": 9.4
+    },
+    {
+        "name": "HTC Desire 20 Pro",
+        "height": 162.0,
+        "width": 77.0,
+        "depth": 9.4
+    },
+    {
+        "name": "HTC Desire 19s",
+        "height": 156.2,
+        "width": 74.8,
+        "depth": 8.5
+    },
+    {
+        "name": "HTC Exodus 1s",
+        "height": 154.2,
+        "width": 72.7,
+        "depth": 8.3
+    },
+    {
+        "name": "HTC Wildfire X",
+        "height": 156.7,
+        "width": 74.9,
+        "depth": 8.0
+    },
+    {
+        "name": "HTC U19e",
+        "height": 156.6,
+        "width": 75.9,
+        "depth": 8.0
+    },
+    {
+        "name": "HTC Desire 19+",
+        "height": 156.2,
+        "width": 74.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Huawei Pura 70 Ultra",
+        "height": 162.6,
+        "width": 75.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Pura 70 Pro+",
+        "height": 162.6,
+        "width": 75.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Pura 70 Pro",
+        "height": 162.6,
+        "width": 75.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Pura 70",
+        "height": 157.6,
+        "width": 74.3,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei nova 12i",
+        "height": 163.3,
+        "width": 74.7,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei nova 12 SE",
+        "height": 162.4,
+        "width": 75.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Huawei nova 12s",
+        "height": 161.3,
+        "width": 75.0,
+        "depth": 6.9
+    },
+    {
+        "name": "Huawei Pocket 2",
+        "height": 87.8,
+        "width": 75.5,
+        "depth": 15.3
+    },
+    {
+        "name": "Huawei Enjoy 70z",
+        "height": 168.3,
+        "width": 77.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei nova Y72",
+        "height": 168.3,
+        "width": 77.7,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei nova 12 Ultra",
+        "height": 163.1,
+        "width": 75.0,
+        "depth": 7.7
+    },
+    {
+        "name": "Huawei nova 12 Pro",
+        "height": 163.1,
+        "width": 75.0,
+        "depth": 7.7
+    },
+    {
+        "name": "Huawei nova 12",
+        "height": 161.5,
+        "width": 75.4,
+        "depth": 7.0
+    },
+    {
+        "name": "Huawei nova 12 Lite",
+        "height": 161.3,
+        "width": 75.0,
+        "depth": 6.9
+    },
+    {
+        "name": "Huawei Enjoy 70",
+        "height": 168.3,
+        "width": 77.7,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei nova 11 SE",
+        "height": 162.4,
+        "width": 75.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Huawei Mate 60 RS Ultimate",
+        "height": 163.7,
+        "width": 79.0,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei Mate 60 Pro+",
+        "height": 163.7,
+        "width": 79.0,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei Mate X5",
+        "height": 156.9,
+        "width": 72.4,
+        "depth": 11.1
+    },
+    {
+        "name": "Huawei Mate 60 Pro",
+        "height": 163.7,
+        "width": 79.0,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei Mate 60",
+        "height": 161.4,
+        "width": 76.0,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei nova Y91",
+        "height": 171.6,
+        "width": 79.9,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei nova 11i",
+        "height": 164.6,
+        "width": 75.6,
+        "depth": 8.6
+    },
+    {
+        "name": "Huawei nova Y71",
+        "height": 168.3,
+        "width": 77.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei Enjoy 60X",
+        "height": 171.6,
+        "width": 79.9,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei nova 11 Ultra",
+        "height": 164.3,
+        "width": 74.4,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova 11 Pro",
+        "height": 164.3,
+        "width": 74.4,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova 11",
+        "height": 161.3,
+        "width": 75.0,
+        "depth": 6.9
+    },
+    {
+        "name": "Huawei Mate X3",
+        "height": 156.9,
+        "width": 72.4,
+        "depth": 11.1
+    },
+    {
+        "name": "Huawei P60 Pro",
+        "height": 161.0,
+        "width": 74.5,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei P60",
+        "height": 161.0,
+        "width": 74.5,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei P60 Art",
+        "height": 161.0,
+        "width": 74.5,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei Enjoy 60",
+        "height": 168.3,
+        "width": 77.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei nova 10 Youth",
+        "height": 164.6,
+        "width": 75.6,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei Enjoy 50z",
+        "height": 164.3,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei Pocket S",
+        "height": 87.3,
+        "width": 75.5,
+        "depth": 15.2
+    },
+    {
+        "name": "Huawei nova Y61",
+        "height": 164.3,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei nova 10 SE",
+        "height": 162.4,
+        "width": 75.5,
+        "depth": 7.4
+    },
+    {
+        "name": "Huawei Mate 50 RS Porsche Design",
+        "height": 162.1,
+        "width": 75.5,
+        "depth": 9.9
+    },
+    {
+        "name": "Huawei Mate 50 Pro",
+        "height": 162.1,
+        "width": 75.5,
+        "depth": 8.5
+    },
+    {
+        "name": "Huawei Mate 50E",
+        "height": 161.5,
+        "width": 76.1,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei Mate 50",
+        "height": 161.5,
+        "width": 76.1,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei nova 10z",
+        "height": 160.7,
+        "width": 73.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei nova 10 Pro",
+        "height": 164.2,
+        "width": 74.5,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova 10",
+        "height": 162.2,
+        "width": 73.9,
+        "depth": 6.9
+    },
+    {
+        "name": "Huawei nova Y90",
+        "height": 163.3,
+        "width": 74.7,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Mate Xs 2",
+        "height": 156.5,
+        "width": 75.5,
+        "depth": 11.1
+    },
+    {
+        "name": "Huawei nova 9 SE 5G",
+        "height": 164.6,
+        "width": 75.6,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova Y70 Plus",
+        "height": 168.3,
+        "width": 77.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei P50E",
+        "height": 156.5,
+        "width": 73.8,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova 9 SE",
+        "height": 164.6,
+        "width": 75.6,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei P50 Pocket",
+        "height": 87.3,
+        "width": 75.5,
+        "depth": 15.2
+    },
+    {
+        "name": "Huawei nova 8 SE 4G",
+        "height": 161.5,
+        "width": 74.8,
+        "depth": 7.5
+    },
+    {
+        "name": "Huawei nova Y60",
+        "height": 165.2,
+        "width": 76.0,
+        "depth": 9.2
+    },
+    {
+        "name": "Huawei Enjoy 20e",
+        "height": 159.1,
+        "width": 74.1,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei nova 9 Pro",
+        "height": 163.4,
+        "width": 74.4,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei nova 9",
+        "height": 160.0,
+        "width": 73.7,
+        "depth": 7.8
+    },
+    {
+        "name": "Huawei nova 8",
+        "height": 160.1,
+        "width": 74.1,
+        "depth": 7.6
+    },
+    {
+        "name": "Huawei P50 Pro",
+        "height": 158.8,
+        "width": 72.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Huawei P50",
+        "height": 156.5,
+        "width": 73.8,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova 8 SE Youth",
+        "height": 160.7,
+        "width": 73.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei nova 8i",
+        "height": 161.9,
+        "width": 74.7,
+        "depth": 8.6
+    },
+    {
+        "name": "Huawei Mate 40 Pro 4G",
+        "height": 162.9,
+        "width": 75.5,
+        "depth": 9.1
+    },
+    {
+        "name": "Huawei Mate 40E 4G",
+        "height": 158.6,
+        "width": 72.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei Mate X2 4G",
+        "height": 161.8,
+        "width": 74.6,
+        "depth": 14.7
+    },
+    {
+        "name": "Huawei nova 8 Pro 4G",
+        "height": 163.3,
+        "width": 74.1,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei Mate 40E",
+        "height": 158.6,
+        "width": 72.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei P40 4G",
+        "height": 148.9,
+        "width": 71.1,
+        "depth": 8.5
+    },
+    {
+        "name": "Huawei Mate X2",
+        "height": 161.8,
+        "width": 74.6,
+        "depth": 14.7
+    },
+    {
+        "name": "Huawei nova 8 Pro 5G",
+        "height": 163.3,
+        "width": 74.1,
+        "depth": 7.9
+    },
+    {
+        "name": "Huawei nova 8 5G",
+        "height": 160.1,
+        "width": 74.1,
+        "depth": 7.6
+    },
+    {
+        "name": "Huawei Enjoy 20 SE",
+        "height": 165.7,
+        "width": 76.9,
+        "depth": 9.3
+    },
+    {
+        "name": "Huawei nova 8 SE",
+        "height": 161.1,
+        "width": 74.8,
+        "depth": 7.5
+    },
+    {
+        "name": "Huawei Mate 40 RS Porsche Design",
+        "height": 162.9,
+        "width": 75.5,
+        "depth": 10.1
+    },
+    {
+        "name": "Huawei Mate 40 Pro+",
+        "height": 162.9,
+        "width": 75.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei Mate 40 Pro",
+        "height": 162.9,
+        "width": 75.5,
+        "depth": 9.1
+    },
+    {
+        "name": "Huawei Mate 40",
+        "height": 158.6,
+        "width": 72.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei Mate 30E Pro 5G",
+        "height": 158.1,
+        "width": 73.1,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei nova 7 SE 5G Youth",
+        "height": 162.3,
+        "width": 75.0,
+        "depth": 8.6
+    },
+    {
+        "name": "Huawei Y7a",
+        "height": 165.7,
+        "width": 76.9,
+        "depth": 9.3
+    },
+    {
+        "name": "Huawei P smart 2021",
+        "height": 165.7,
+        "width": 76.9,
+        "depth": 9.3
+    },
+    {
+        "name": "Huawei Y9a",
+        "height": 163.5,
+        "width": 76.5,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei Enjoy 20 Plus 5G",
+        "height": 163.5,
+        "width": 76.5,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei Enjoy 20 5G",
+        "height": 165.2,
+        "width": 76.0,
+        "depth": 9.2
+    },
+    {
+        "name": "Huawei Enjoy 20 Pro",
+        "height": 160.0,
+        "width": 75.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Enjoy Z 5G",
+        "height": 160.0,
+        "width": 75.3,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei P Smart S",
+        "height": 157.4,
+        "width": 73.2,
+        "depth": 7.8
+    },
+    {
+        "name": "Huawei Y8p",
+        "height": 157.4,
+        "width": 73.2,
+        "depth": 7.8
+    },
+    {
+        "name": "Huawei P40 lite 5G",
+        "height": 162.3,
+        "width": 75.0,
+        "depth": 8.6
+    },
+    {
+        "name": "Huawei P30 Pro New Edition",
+        "height": 158.0,
+        "width": 73.4,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Y8s",
+        "height": 162.4,
+        "width": 77.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei Y6p",
+        "height": 159.1,
+        "width": 74.1,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei Y5p",
+        "height": 146.5,
+        "width": 70.9,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei P smart 2020",
+        "height": 155.2,
+        "width": 73.4,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei nova 7 Pro 5G",
+        "height": 160.4,
+        "width": 73.7,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei nova 7 5G",
+        "height": 160.6,
+        "width": 74.3,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei Enjoy 10e",
+        "height": 159.1,
+        "width": 74.1,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei P40 Pro+",
+        "height": 158.2,
+        "width": 72.6,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei P40 Pro",
+        "height": 158.2,
+        "width": 72.6,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei P40",
+        "height": 148.9,
+        "width": 71.1,
+        "depth": 8.5
+    },
+    {
+        "name": "Huawei P40 lite E",
+        "height": 159.8,
+        "width": 76.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei P40 lite",
+        "height": 159.2,
+        "width": 76.3,
+        "depth": 8.7
+    },
+    {
+        "name": "Huawei Mate Xs",
+        "height": 161.3,
+        "width": 78.5,
+        "depth": 11.0
+    },
+    {
+        "name": "Huawei P30 lite New Edition",
+        "height": 152.9,
+        "width": 72.7,
+        "depth": 7.4
+    },
+    {
+        "name": "Huawei Y7p",
+        "height": 159.8,
+        "width": 76.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei nova 7i",
+        "height": 159.2,
+        "width": 76.3,
+        "depth": 8.7
+    },
+    {
+        "name": "Huawei Y6s (2019)",
+        "height": 156.3,
+        "width": 73.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei P smart Pro 2019",
+        "height": 163.1,
+        "width": 77.2,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei nova 6 5G",
+        "height": 162.7,
+        "width": 75.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Huawei nova 6",
+        "height": 162.6,
+        "width": 75.7,
+        "depth": 8.6
+    },
+    {
+        "name": "Huawei nova 6 SE",
+        "height": 159.2,
+        "width": 76.3,
+        "depth": 8.7
+    },
+    {
+        "name": "Huawei Mate X",
+        "height": 161.3,
+        "width": 78.3,
+        "depth": 11.0
+    },
+    {
+        "name": "Huawei Y9s",
+        "height": 163.1,
+        "width": 77.2,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei nova 5z",
+        "height": 156.1,
+        "width": 73.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei Enjoy 10s",
+        "height": 157.4,
+        "width": 73.2,
+        "depth": 7.8
+    },
+    {
+        "name": "Huawei Enjoy 10",
+        "height": 159.8,
+        "width": 76.1,
+        "depth": 8.1
+    },
+    {
+        "name": "Huawei Mate 30 RS Porsche Design",
+        "height": 158.1,
+        "width": 73.1,
+        "depth": 9.3
+    },
+    {
+        "name": "Huawei Mate 30 Pro 5G",
+        "height": 158.1,
+        "width": 73.1,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei Mate 30 Pro",
+        "height": 158.1,
+        "width": 73.1,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei Mate 30 5G",
+        "height": 160.8,
+        "width": 76.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei Mate 30",
+        "height": 160.8,
+        "width": 76.1,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei nova 5i Pro",
+        "height": 156.1,
+        "width": 73.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei Enjoy 10 Plus",
+        "height": 163.5,
+        "width": 77.3,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei nova 5T",
+        "height": 154.3,
+        "width": 74.0,
+        "depth": 7.8
+    },
+    {
+        "name": "Huawei nova 5 Pro",
+        "height": 157.4,
+        "width": 74.8,
+        "depth": 7.3
+    },
+    {
+        "name": "Huawei nova 5",
+        "height": 157.4,
+        "width": 74.8,
+        "depth": 7.3
+    },
+    {
+        "name": "Huawei nova 5i",
+        "height": 159.1,
+        "width": 75.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei Y9 Prime (2019)",
+        "height": 163.5,
+        "width": 77.3,
+        "depth": 8.9
+    },
+    {
+        "name": "Huawei P20 lite (2019)",
+        "height": 159.1,
+        "width": 75.9,
+        "depth": 8.3
+    },
+    {
+        "name": "Huawei P Smart Z",
+        "height": 163.5,
+        "width": 77.3,
+        "depth": 8.8
+    },
+    {
+        "name": "Huawei Mate 20 X (5G)",
+        "height": 174.6,
+        "width": 85.4,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei P30 Pro",
+        "height": 158.0,
+        "width": 73.4,
+        "depth": 8.4
+    },
+    {
+        "name": "Huawei P30",
+        "height": 149.1,
+        "width": 71.4,
+        "depth": 7.6
+    },
+    {
+        "name": "Huawei P30 lite",
+        "height": 152.9,
+        "width": 72.7,
+        "depth": 7.4
+    },
+    {
+        "name": "Huawei nova 4e",
+        "height": 152.9,
+        "width": 72.7,
+        "depth": 7.4
+    },
+    {
+        "name": "Huawei Y5 (2019)",
+        "height": 147.1,
+        "width": 70.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Huawei Enjoy 9e",
+        "height": 156.3,
+        "width": 73.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Huawei Enjoy 9s",
+        "height": 155.2,
+        "width": 73.4,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Note 40 5G",
+        "height": 165.5,
+        "width": 75.9,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix GT 20 Pro",
+        "height": 164.3,
+        "width": 75.4,
+        "depth": 8.2
+    },
+    {
+        "name": "Infinix Note 40 Pro+",
+        "height": 164.3,
+        "width": 74.5,
+        "depth": 8.1
+    },
+    {
+        "name": "Infinix Note 40 Pro",
+        "height": 164.3,
+        "width": 74.5,
+        "depth": 8.1
+    },
+    {
+        "name": "Infinix Note 40 Pro 4G",
+        "height": 164.4,
+        "width": 74.6,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Note 40",
+        "height": 164.1,
+        "width": 74.5,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Smart 8 Plus",
+        "height": 163.7,
+        "width": 75.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Infinix Smart 8 Pro",
+        "height": 163.6,
+        "width": 75.6,
+        "depth": 8.5
+    },
+    {
+        "name": "Infinix Smart 8 (India)",
+        "height": 163.6,
+        "width": 75.6,
+        "depth": 8.5
+    },
+    {
+        "name": "Infinix Smart 8 HD",
+        "height": 163.6,
+        "width": 75.6,
+        "depth": 8.5
+    },
+    {
+        "name": "Infinix Hot 40 Pro",
+        "height": 168.6,
+        "width": 76.6,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Hot 40",
+        "height": 168.6,
+        "width": 76.6,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Hot 40i",
+        "height": 163.6,
+        "width": 75.6,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Smart 8",
+        "height": 163.6,
+        "width": 75.6,
+        "depth": 8.5
+    },
+    {
+        "name": "Infinix Zero 30 4G",
+        "height": 164.5,
+        "width": 75.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Zero 30",
+        "height": 164.5,
+        "width": 75.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix GT 10 Pro",
+        "height": 162.7,
+        "width": 75.9,
+        "depth": 8.1
+    },
+    {
+        "name": "Infinix Hot 30 5G",
+        "height": 168.5,
+        "width": 76.5,
+        "depth": 9.2
+    },
+    {
+        "name": "Infinix Note 30 VIP",
+        "height": 162.7,
+        "width": 75.9,
+        "depth": 8.2
+    },
+    {
+        "name": "Infinix Hot 30 Play NFC",
+        "height": 170.6,
+        "width": 77.5,
+        "depth": 8.6
+    },
+    {
+        "name": "Infinix Note 30 Pro",
+        "height": 162.7,
+        "width": 76.0,
+        "depth": 8.2
+    },
+    {
+        "name": "Infinix Note 30",
+        "height": 168.6,
+        "width": 76.6,
+        "depth": 8.6
+    },
+    {
+        "name": "Infinix Note 30 5G",
+        "height": 168.5,
+        "width": 76.5,
+        "depth": 8.5
+    },
+    {
+        "name": "Infinix Note 30i",
+        "height": 164.5,
+        "width": 76.7,
+        "depth": 8.2
+    },
+    {
+        "name": "Infinix Smart 7 HD",
+        "height": 163.9,
+        "width": 75.5,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Hot 30i",
+        "height": 164.0,
+        "width": 75.8,
+        "depth": 8.4
+    },
+    {
+        "name": "Infinix Hot 30",
+        "height": 168.7,
+        "width": 76.6,
+        "depth": 8.4
+    },
+    {
+        "name": "Infinix Smart 7 (India)",
+        "height": 164.2,
+        "width": 75.6,
+        "depth": 9.4
+    },
+    {
+        "name": "Infinix Smart 7",
+        "height": 163.8,
+        "width": 75.6,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Zero 5G 2023",
+        "height": 168.7,
+        "width": 76.5,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Hot 20 Play",
+        "height": 171.0,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Hot 20S",
+        "height": 168.7,
+        "width": 76.8,
+        "depth": 8.5
+    },
+    {
+        "name": "Infinix Hot 20",
+        "height": 170.7,
+        "width": 77.4,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Note 12 (2023)",
+        "height": 164.4,
+        "width": 76.5,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Zero Ultra",
+        "height": 165.5,
+        "width": 74.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 20 5G",
+        "height": 166.3,
+        "width": 76.5,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Hot 20i",
+        "height": 164.8,
+        "width": 76.4,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Zero 20",
+        "height": 164.4,
+        "width": 76.7,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Note 12i 2022",
+        "height": 164.5,
+        "width": 76.7,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Hot 12 Pro",
+        "height": 164.2,
+        "width": 75.8,
+        "depth": 8.4
+    },
+    {
+        "name": "Infinix Smart 6 Plus (India)",
+        "height": 172.6,
+        "width": 77.7,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Note 12 Pro",
+        "height": 164.4,
+        "width": 76.5,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Note 12 Pro 5G",
+        "height": 164.7,
+        "width": 76.9,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Note 12 5G",
+        "height": 164.7,
+        "width": 76.9,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Hot 11s NFC",
+        "height": 168.9,
+        "width": 77.0,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 12 Play",
+        "height": 171.0,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Hot 12 Play NFC",
+        "height": 171.0,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Note 12 VIP",
+        "height": 163.5,
+        "width": 76.7,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Note 12 G96",
+        "height": 164.6,
+        "width": 76.8,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Note 12i",
+        "height": 170.7,
+        "width": 77.4,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Note 12",
+        "height": 164.4,
+        "width": 76.7,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Hot 12",
+        "height": 170.5,
+        "width": 77.6,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Smart 6 HD",
+        "height": 165.6,
+        "width": 76.4,
+        "depth": 9.1
+    },
+    {
+        "name": "Infinix Hot 11 2022",
+        "height": 166.8,
+        "width": 76.6,
+        "depth": 9.1
+    },
+    {
+        "name": "Infinix Hot 12i",
+        "height": 164.8,
+        "width": 76.4,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Zero 5G",
+        "height": 168.7,
+        "width": 76.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Smart 5 Pro",
+        "height": 164.4,
+        "width": 75.6,
+        "depth": 9.5
+    },
+    {
+        "name": "Infinix Hot 11 Play",
+        "height": 171.8,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Note 11i",
+        "height": 173.2,
+        "width": 78.7,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Note 11s",
+        "height": 173.1,
+        "width": 78.4,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Note 11",
+        "height": 164.4,
+        "width": 76.7,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Smart 6",
+        "height": 165.6,
+        "width": 76.4,
+        "depth": 9.1
+    },
+    {
+        "name": "Infinix Note 11 Pro",
+        "height": 173.1,
+        "width": 78.4,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Hot 11s",
+        "height": 168.9,
+        "width": 77.0,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 11",
+        "height": 164.7,
+        "width": 76.2,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Zero X Pro",
+        "height": 164.1,
+        "width": 75.7,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Zero X",
+        "height": 164.1,
+        "width": 75.7,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Zero X Neo",
+        "height": 168.4,
+        "width": 76.5,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 10i",
+        "height": 164.3,
+        "width": 76.0,
+        "depth": 9.6
+    },
+    {
+        "name": "Infinix Note 10 Pro NFC",
+        "height": 172.8,
+        "width": 78.3,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Note 10 Pro",
+        "height": 172.8,
+        "width": 78.3,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix Note 10",
+        "height": 173.2,
+        "width": 78.7,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 10T",
+        "height": 171.5,
+        "width": 77.5,
+        "depth": 9.2
+    },
+    {
+        "name": "Infinix Hot 10s NFC",
+        "height": 171.5,
+        "width": 77.5,
+        "depth": 9.2
+    },
+    {
+        "name": "Infinix Hot 10s",
+        "height": 171.5,
+        "width": 77.5,
+        "depth": 9.2
+    },
+    {
+        "name": "Infinix Smart 5 (India)",
+        "height": 171.8,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Hot 10 Play",
+        "height": 171.8,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Smart HD 2021",
+        "height": 158.3,
+        "width": 75.2,
+        "depth": 9.8
+    },
+    {
+        "name": "Infinix Zero 8i",
+        "height": 168.7,
+        "width": 76.1,
+        "depth": 9.1
+    },
+    {
+        "name": "Infinix Note 8",
+        "height": 175.3,
+        "width": 78.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Infinix Note 8i",
+        "height": 171.4,
+        "width": 77.7,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Hot 10 Lite",
+        "height": 165.5,
+        "width": 76.4,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 10",
+        "height": 171.1,
+        "width": 77.6,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Zero 8",
+        "height": 168.7,
+        "width": 76.1,
+        "depth": 9.1
+    },
+    {
+        "name": "Infinix Smart 5",
+        "height": 165.4,
+        "width": 76.4,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 9 Play",
+        "height": 171.8,
+        "width": 78.0,
+        "depth": 8.9
+    },
+    {
+        "name": "Infinix Note 7",
+        "height": 173.4,
+        "width": 79.0,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Note 7 Lite",
+        "height": 165.4,
+        "width": 76.8,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix Hot 9 Pro",
+        "height": 165.0,
+        "width": 76.8,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Hot 9",
+        "height": 165.4,
+        "width": 76.8,
+        "depth": 8.8
+    },
+    {
+        "name": "Infinix S5 Pro (16+32)",
+        "height": 162.5,
+        "width": 76.9,
+        "depth": 9.0
+    },
+    {
+        "name": "Infinix S5 Pro (48+40)",
+        "height": 162.5,
+        "width": 76.9,
+        "depth": 9.0
+    },
+    {
+        "name": "Infinix S5 Pro",
+        "height": 162.5,
+        "width": 76.9,
+        "depth": 9.0
+    },
+    {
+        "name": "Infinix S5 lite",
+        "height": 164.0,
+        "width": 76.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Smart 4",
+        "height": 167.0,
+        "width": 76.0,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Smart 4c",
+        "height": 167.0,
+        "width": 76.0,
+        "depth": 8.3
+    },
+    {
+        "name": "Infinix Hot 8 Lite",
+        "height": 165.0,
+        "width": 76.3,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix S5",
+        "height": 164.0,
+        "width": 76.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Hot 8",
+        "height": 165.0,
+        "width": 76.3,
+        "depth": 8.7
+    },
+    {
+        "name": "Infinix Note 6",
+        "height": 154.2,
+        "width": 74.5,
+        "depth": 7.7
+    },
+    {
+        "name": "Infinix Smart3 Plus",
+        "height": 157.0,
+        "width": 76.0,
+        "depth": 7.8
+    },
+    {
+        "name": "Infinix S4",
+        "height": 156.0,
+        "width": 75.0,
+        "depth": 7.9
+    },
+    {
+        "name": "Infinix Hot 7 Pro",
+        "height": 155.0,
+        "width": 74.8,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Hot 7",
+        "height": 157.0,
+        "width": 75.7,
+        "depth": 8.0
+    },
+    {
+        "name": "Infinix Zero 6 Pro",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Infinix Zero 6",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "itel A50",
+        "height": 163.9,
+        "width": 75.7,
+        "depth": 8.7
+    },
+    {
+        "name": "itel RS4",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "itel S24",
+        "height": 163.5,
+        "width": 75.5,
+        "depth": 8.3
+    },
+    {
+        "name": "itel P55+",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "itel P55",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "itel A70",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "itel P55 5G",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "itel S23+",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Lava Blaze X",
+        "height": 162.4,
+        "width": 73.9,
+        "depth": 8.5
+    },
+    {
+        "name": "Lava Yuva 5G",
+        "height": 163.4,
+        "width": 76.2,
+        "depth": 9.1
+    },
+    {
+        "name": "Lava O2",
+        "height": 165.0,
+        "width": 76.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Lava Blaze Curve",
+        "height": 161.8,
+        "width": 74.0,
+        "depth": 8.8
+    },
+    {
+        "name": "Lava Yuva 3",
+        "height": 164.2,
+        "width": 76.0,
+        "depth": 8.5
+    },
+    {
+        "name": "Lava Storm",
+        "height": 168.7,
+        "width": 76.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Yuva 3 Pro",
+        "height": 165.0,
+        "width": 76.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Lava Blaze 2 5G",
+        "height": 164.2,
+        "width": 76.0,
+        "depth": 8.5
+    },
+    {
+        "name": "Lava Blaze Pro 5G",
+        "height": 168.7,
+        "width": 76.7,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Blaze 2 Pro",
+        "height": 163.0,
+        "width": 75.2,
+        "depth": 8.5
+    },
+    {
+        "name": "Lava Yuva 2",
+        "height": 165.0,
+        "width": 76.1,
+        "depth": 8.7
+    },
+    {
+        "name": "Lava Agni 2",
+        "height": 164.2,
+        "width": 74.7,
+        "depth": 8.8
+    },
+    {
+        "name": "Lava Blaze 1X",
+        "height": 165.3,
+        "width": 76.4,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Blaze 2",
+        "height": 165.0,
+        "width": 76.1,
+        "depth": 8.6
+    },
+    {
+        "name": "Lava Yuva 2 Pro",
+        "height": 164.5,
+        "width": 76.0,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava X3",
+        "height": 164.6,
+        "width": 75.8,
+        "depth": 9.2
+    },
+    {
+        "name": "Lava Blaze Nxt",
+        "height": 164.8,
+        "width": 76.3,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Yuva Pro",
+        "height": 164.4,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Blaze 5G",
+        "height": 165.3,
+        "width": 76.4,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Blaze Pro",
+        "height": 164.8,
+        "width": 76.3,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Blaze",
+        "height": 164.8,
+        "width": 76.3,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Z3 Pro",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava Z3",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Lava X2",
+        "height": 165.0,
+        "width": 76.0,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Agni 5G",
+        "height": 168.8,
+        "width": 76.8,
+        "depth": 9.1
+    },
+    {
+        "name": "Lava Z2s",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Z2 Max",
+        "height": 174.7,
+        "width": 78.6,
+        "depth": 9.1
+    },
+    {
+        "name": "Lava Z6",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Z4",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Z2",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Z1",
+        "height": 145.1,
+        "width": 73.3,
+        "depth": 10.3
+    },
+    {
+        "name": "Lava Z61 Pro",
+        "height": 147.0,
+        "width": 71.8,
+        "depth": 9.2
+    },
+    {
+        "name": "Lava Z71",
+        "height": 145.6,
+        "width": 70.9,
+        "depth": 9.0
+    },
+    {
+        "name": "Lava Z40",
+        "height": 125.5,
+        "width": 63.9,
+        "depth": 11.7
+    },
+    {
+        "name": "Lava Z92",
+        "height": 156.9,
+        "width": 75.8,
+        "depth": 8.0
+    },
+    {
+        "name": "Lenovo Legion Y700 (2023)",
+        "height": 208.9,
+        "width": 129.5,
+        "depth": 7.6
+    },
+    {
+        "name": "Lenovo Legion Y70",
+        "height": 163.6,
+        "width": 77.0,
+        "depth": 8.0
+    },
+    {
+        "name": "Lenovo Legion Y700",
+        "height": 207.1,
+        "width": 128.1,
+        "depth": 7.9
+    },
+    {
+        "name": "Lenovo Legion Y90",
+        "height": 177.0,
+        "width": 78.4,
+        "depth": 10.1
+    },
+    {
+        "name": "Lenovo K14 Plus",
+        "height": 165.1,
+        "width": 75.7,
+        "depth": 9.1
+    },
+    {
+        "name": "Lenovo K13 Pro",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Lenovo K13",
+        "height": 165.1,
+        "width": 75.9,
+        "depth": 9.2
+    },
+    {
+        "name": "Lenovo K13 Note",
+        "height": 165.2,
+        "width": 75.7,
+        "depth": 9.1
+    },
+    {
+        "name": "Lenovo Legion 2 Pro",
+        "height": 176.0,
+        "width": 78.5,
+        "depth": 9.9
+    },
+    {
+        "name": "Lenovo Legion Duel 2",
+        "height": 176.0,
+        "width": 78.5,
+        "depth": 9.9
+    },
+    {
+        "name": "Lenovo K12 Pro",
+        "height": 172.1,
+        "width": 76.8,
+        "depth": 9.7
+    },
+    {
+        "name": "Lenovo K12 (China)",
+        "height": 165.2,
+        "width": 75.7,
+        "depth": 9.2
+    },
+    {
+        "name": "Lenovo A8 2020",
+        "height": 163.8,
+        "width": 75.6,
+        "depth": 9.3
+    },
+    {
+        "name": "Lenovo Legion Duel",
+        "height": 169.2,
+        "width": 78.5,
+        "depth": 9.9
+    },
+    {
+        "name": "Lenovo Legion Pro",
+        "height": 169.2,
+        "width": 78.5,
+        "depth": 9.9
+    },
+    {
+        "name": "Lenovo A7",
+        "height": 155.0,
+        "width": 75.0,
+        "depth": 12.0
+    },
+    {
+        "name": "Lenovo M10 Plus",
+        "height": 244.2,
+        "width": 153.3,
+        "depth": 8.2
+    },
+    {
+        "name": "Lenovo M10 FHD REL",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Lenovo K10 Plus",
+        "height": 158.3,
+        "width": 75.8,
+        "depth": 8.3
+    },
+    {
+        "name": "Lenovo K10 Note",
+        "height": 156.6,
+        "width": 74.3,
+        "depth": 7.9
+    },
+    {
+        "name": "Lenovo A6 Note",
+        "height": 154.7,
+        "width": 72.9,
+        "depth": 9.2
+    },
+    {
+        "name": "Lenovo Z6",
+        "height": 157.0,
+        "width": 74.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Lenovo Z6 Pro 5G",
+        "height": 157.5,
+        "width": 74.6,
+        "depth": 8.7
+    },
+    {
+        "name": "Lenovo Z6 Youth",
+        "height": 156.6,
+        "width": 74.3,
+        "depth": 7.9
+    },
+    {
+        "name": "Lenovo Z6 Pro",
+        "height": 157.5,
+        "width": 74.6,
+        "depth": 8.7
+    },
+    {
+        "name": "Lenovo K6 Enjoy",
+        "height": 156.4,
+        "width": 75.0,
+        "depth": 8.0
+    },
+    {
+        "name": "LG W41 Pro",
+        "height": 166.5,
+        "width": 77.3,
+        "depth": 9.3
+    },
+    {
+        "name": "LG W41+",
+        "height": 166.5,
+        "width": 77.3,
+        "depth": 9.3
+    },
+    {
+        "name": "LG W41",
+        "height": 166.5,
+        "width": 77.3,
+        "depth": 9.3
+    },
+    {
+        "name": "LG W31+",
+        "height": 166.2,
+        "width": 76.3,
+        "depth": 8.4
+    },
+    {
+        "name": "LG W31",
+        "height": 166.2,
+        "width": 76.3,
+        "depth": 8.4
+    },
+    {
+        "name": "LG K92 5G",
+        "height": 166.4,
+        "width": 77.2,
+        "depth": 8.4
+    },
+    {
+        "name": "LG K62",
+        "height": 165.0,
+        "width": 76.7,
+        "depth": 8.4
+    },
+    {
+        "name": "LG Q52",
+        "height": 165.0,
+        "width": 76.7,
+        "depth": 8.4
+    },
+    {
+        "name": "LG K52",
+        "height": 165.0,
+        "width": 76.7,
+        "depth": 8.4
+    },
+    {
+        "name": "LG K42",
+        "height": 165.0,
+        "width": 76.7,
+        "depth": 8.4
+    },
+    {
+        "name": "LG K71",
+        "height": 171.4,
+        "width": 77.7,
+        "depth": 8.7
+    },
+    {
+        "name": "LG Wing 5G",
+        "height": 169.5,
+        "width": 74.5,
+        "depth": 10.9
+    },
+    {
+        "name": "LG K22",
+        "height": 155.7,
+        "width": 75.4,
+        "depth": 8.4
+    },
+    {
+        "name": "LG Q92 5G",
+        "height": 166.5,
+        "width": 77.3,
+        "depth": 8.5
+    },
+    {
+        "name": "LG Q31",
+        "height": 147.9,
+        "width": 71.0,
+        "depth": 8.7
+    },
+    {
+        "name": "LG K31",
+        "height": 147.8,
+        "width": 71.1,
+        "depth": 8.6
+    },
+    {
+        "name": "LG Velvet 5G UW",
+        "height": 167.2,
+        "width": 74.1,
+        "depth": 7.9
+    },
+    {
+        "name": "LG Q61",
+        "height": 164.5,
+        "width": 77.5,
+        "depth": 8.3
+    },
+    {
+        "name": "LG Stylo 6",
+        "height": 171.2,
+        "width": 77.7,
+        "depth": 8.6
+    },
+    {
+        "name": "LG Velvet",
+        "height": 167.1,
+        "width": 74.1,
+        "depth": 7.9
+    },
+    {
+        "name": "LG Velvet 5G",
+        "height": 167.2,
+        "width": 74.1,
+        "depth": 7.9
+    },
+    {
+        "name": "LG Folder 2",
+        "height": 107.9,
+        "width": 55.0,
+        "depth": 18.0
+    },
+    {
+        "name": "LG V60 ThinQ 5G UW",
+        "height": 169.3,
+        "width": 77.6,
+        "depth": 8.9
+    },
+    {
+        "name": "LG V60 ThinQ 5G",
+        "height": 169.3,
+        "width": 77.6,
+        "depth": 8.9
+    },
+    {
+        "name": "LG Q51",
+        "height": 164.5,
+        "width": 77.5,
+        "depth": 8.4
+    },
+    {
+        "name": "LG W10 Alpha",
+        "height": 147.3,
+        "width": 71.0,
+        "depth": 8.9
+    },
+    {
+        "name": "LG K61",
+        "height": 164.5,
+        "width": 77.5,
+        "depth": 8.4
+    },
+    {
+        "name": "LG K51S",
+        "height": 165.2,
+        "width": 76.7,
+        "depth": 8.3
+    },
+    {
+        "name": "LG K41S",
+        "height": 165.8,
+        "width": 76.5,
+        "depth": 8.3
+    },
+    {
+        "name": "LG V50S ThinQ 5G",
+        "height": 159.3,
+        "width": 75.8,
+        "depth": 8.4
+    },
+    {
+        "name": "LG G8X ThinQ",
+        "height": 159.3,
+        "width": 75.8,
+        "depth": 8.4
+    },
+    {
+        "name": "LG Q70",
+        "height": 162.1,
+        "width": 76.8,
+        "depth": 8.3
+    },
+    {
+        "name": "LG K30 (2019)",
+        "height": 146.9,
+        "width": 71.5,
+        "depth": 8.5
+    },
+    {
+        "name": "LG K20 (2019)",
+        "height": 148.6,
+        "width": 71.9,
+        "depth": 8.3
+    },
+    {
+        "name": "LG K40S",
+        "height": 156.3,
+        "width": 73.9,
+        "depth": 8.6
+    },
+    {
+        "name": "LG K50S",
+        "height": 165.8,
+        "width": 77.5,
+        "depth": 8.2
+    },
+    {
+        "name": "LG W30 Pro",
+        "height": 157.7,
+        "width": 75.9,
+        "depth": 8.3
+    },
+    {
+        "name": "LG W30",
+        "height": 159.0,
+        "width": 76.5,
+        "depth": 8.2
+    },
+    {
+        "name": "LG W10",
+        "height": 156.0,
+        "width": 76.2,
+        "depth": 8.5
+    },
+    {
+        "name": "LG Stylo 5",
+        "height": 160.0,
+        "width": 77.7,
+        "depth": 8.4
+    },
+    {
+        "name": "LG V50 ThinQ 5G",
+        "height": 159.2,
+        "width": 76.1,
+        "depth": 8.3
+    },
+    {
+        "name": "LG G8S ThinQ",
+        "height": 155.3,
+        "width": 76.6,
+        "depth": 8.0
+    },
+    {
+        "name": "LG G8 ThinQ",
+        "height": 151.9,
+        "width": 71.8,
+        "depth": 8.4
+    },
+    {
+        "name": "LG Q60",
+        "height": 161.3,
+        "width": 77.0,
+        "depth": 8.7
+    },
+    {
+        "name": "LG K50",
+        "height": 161.3,
+        "width": 77.0,
+        "depth": 8.7
+    },
+    {
+        "name": "LG K40",
+        "height": 153.0,
+        "width": 71.9,
+        "depth": 8.3
+    },
+    {
+        "name": "LG Q9",
+        "height": 153.2,
+        "width": 71.9,
+        "depth": 7.9
+    },
+    {
+        "name": "Meizu Blue 20",
+        "height": null,
+        "width": null,
+        "depth": null
+    },
+    {
+        "name": "Meizu 21 Note",
+        "height": 162.4,
+        "width": 76.9,
+        "depth": 8.2
+    },
+    {
+        "name": "Meizu 21 Pro",
+        "height": 165.0,
+        "width": 74.4,
+        "depth": 8.0
+    },
+    {
+        "name": "Meizu 21",
+        "height": 156.7,
+        "width": 75.3,
+        "depth": 7.9
+    },
+    {
+        "name": "Meizu 20 Classic",
+        "height": 157.9,
+        "width": 73.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Meizu 20 Infinity",
+        "height": 163.4,
+        "width": 73.3,
+        "depth": 8.2
+    },
+    {
+        "name": "Meizu 20 Pro",
+        "height": 164.2,
+        "width": 76.4,
+        "depth": 7.8
+    },
+    {
+        "name": "Meizu 20",
+        "height": 157.9,
+        "width": 73.5,
+        "depth": 8.0
+    },
+    {
+        "name": "Meizu 18s Pro",
+        "height": 162.5,
+        "width": 73.0,
+        "depth": 8.1
+    },
+    {
+        "name": "Meizu 18s",
+        "height": 152.4,
+        "width": 69.2,
+        "depth": 8.2
+    },
+    {
+        "name": "Meizu 18x",
+        "height": 165.1,
+        "width": 76.4,
+        "depth": 8.0
+    },
+    {
+        "name": "Meizu 18 Pro",
+        "height": 162.5,
+        "width": 73.0,
+        "depth": 8.1
+    },
+    {
+        "name": "Meizu 18",
+        "height": 152.4,
+        "width": 69.2,
+        "depth": 8.2
+    },
+    {
+        "name": "Meizu 17 Pro",
+        "height": 160.0,
+        "width": 77.2,
+        "depth": 8.5
+    },
+    {
+        "name": "Meizu 17",
+        "height": 160.0,
+        "width": 77.2,
+        "depth": 8.5
+    },
+    {
+        "name": "Meizu 16T",
+        "height": 159.6,
+        "width": 78.2,
+        "depth": 8.3
+    },
+    {
+        "name": "Meizu M10",
+        "height": 164.9,
+        "width": 76.3,
+        "depth": 8.5
+    },
+    {
+        "name": "Meizu 16s Pro",
+        "height": 151.9,
+        "width": 73.4,
+        "depth": 7.7
+    },
+    {
+        "name": "Meizu 16Xs",
+        "height": 152.0,
+        "width": 74.4,
+        "depth": 8.3
+    },
+    {
+        "name": "Meizu 16s",
+        "height": 151.9,
+        "width": 73.4,
+        "depth": 7.6
+    },
+    {
+        "name": "Meizu Note 9",
+        "height": 153.1,
+        "width": 74.4,
+        "depth": 8.7
+    },
+    {
+        "name": "Micromax In 2c",
+        "height": 164.3,
+        "width": 75.7,
+        "depth": 8.6
+    },
+    {
+        "name": "Micromax In note 2",
+        "height": 159.9,
+        "width": 74.3,
+        "depth": 8.3
+    },
+    {
+        "name": "Micromax In 2b",
+        "height": 164.3,
+        "width": 75.7,
+        "depth": 8.6
+    },
+    {
+        "name": "Micromax In 1",
+        "height": 165.2,
+        "width": 77.0,
+        "depth": 9.0
+    },
+    {
+        "name": "Micromax In note 1",
+        "height": 165.2,
+        "width": 77.0,
+        "depth": 9.0
+    },
+    {
+        "name": "Micromax In 1b",
+        "height": 164.5,
+        "width": 75.8,
+        "depth": 8.9
+    },
+    {
+        "name": "Microsoft Surface Duo 2",
+        "height": 145.2,
+        "width": 92.1,
+        "depth": 11.0
+    },
+    {
+        "name": "Microsoft Surface Duo",
+        "height": 145.2,
+        "width": 93.3,
+        "depth": 9.9
+    }
+]
