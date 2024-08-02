@@ -377,7 +377,7 @@ Pada database borma_dago, saya melakukan *create table* dengan menggunakan psyco
   <img src="Data Scraping/screenshot/ss_create_table.png" width="600"/>
 </div>
 
-informasi produk diskon didapatkan melalui halaman promo. Ketika proses *scrapping*, informasi produk tersebut justru terdapat di file __potongan_promo.json__ padahal seharusnya ada di __produk.json__. Cara saya menyiasatinya adalah ketika melalukan *eksport* ke __SQL__ sayang memasukkan beberapa atribut pada dari __potongan_promo.json__ ke __produk.json__
+informasi produk diskon didapatkan melalui halaman promo. Ketika proses *scrapping*, informasi produk tersebut justru terdapat di file __potongan_promo.json__ padahal seharusnya ada di __produk.json__. Cara saya menyiasatinya adalah ketika melalukan *eksport* ke __SQL__ saya memasukkan beberapa atribut pada dari __potongan_promo.json__ ke __produk.json__
 <div align="center">
   <img src="Data Scraping/screenshot/ss_storing.png" width="600"/>
 </div>
