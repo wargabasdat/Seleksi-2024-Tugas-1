@@ -25,14 +25,18 @@ Pada proyek ini, data-data yang diperoleh dari hasil scraping akan diolah dan di
 
 ## Spesifikasi Program
 #### Data Scraping
+Proses pengambilan data dilakukan dengan bantuan beberapa alat berikut:
 
+`Selenium`: Alat ini digunakan karena sangat cocok untuk berinteraksi dengan situs web dinamis. Selenium memungkinkan otomatisasi tugas-tugas browsing dan pengumpulan data pada situs web yang sering berubah atau memuat konten secara dinamis, sehingga memastikan data yang diambil selalu terkini dan akurat.
+
+`JSON`: Format ini digunakan karena memenuhi kriteria yang diharapkan untuk pengiriman dan penyimpanan data. 
 
 
 
 #### Data Storing
-Proses penyimpanan data dilakukan pada proyek ini dengan memasukkan data hasil _scraping_ ke dalam RDBMS sesuai dengan desain ERD dan diagram relasional yang telah dibuat. RDBMS yang dihasilkan terdiri dari delapan relasi, yaitu `team`, `team_standings`, `venue`, `player_stats`, dan `info`. Relasi `player`, `player_stats`, `team`, `team_standings`, `venue`, `match_stats`, dan `official` yang diambil dari hasil _scraping_ telah dimasukkan ke dalam sistem. Sementara itu, relasi `official_phone`, yang merupakan pengembangan dari ERD, belum memiliki data di dalamnya, tetapi telah diatur dengan _constraint_ yang sesuai..
+Proses penyimpanan data dilakukan pada proyek ini dengan memasukkan data hasil _scraping_ ke dalam RDBMS sesuai dengan desain ERD dan diagram relasional yang telah dibuat. RDBMS yang dihasilkan terdiri dari delapan relasi, yaitu `team`, `team_standings`, `venue`, `player_stats`, `player`, `official`, `official_phone` dan `info`. Relasi `player`, `player_stats`, `team`, `team_standings`, `venue`, `match_stats`, dan `official` yang diambil dari hasil _scraping_ telah dimasukkan ke dalam sistem. Sementara itu, relasi `official_phone`, yang merupakan pengembangan dari ERD, belum memiliki data di dalamnya, tetapi telah diatur dengan _constraint_ yang sesuai..
 
-## How to use
+## Cara Menggunakan
 
 ## Melakukan *Scraping* Data
 1. Lakukan *clone repository*
@@ -78,7 +82,7 @@ Proses penyimpanan data dilakukan pada proyek ini dengan memasukkan data hasil _
   $ psql -U {username} -d {nama database} < ibl_data.sql
 ```
 
-## JSON Structure
+## JSON Struktur
 Data hasil _scraping_ disimpan dalam format `JSON`, yaitu pada folder `Data Scraping` > data. Struktur dari `file` JSON tersebut adalah sebagai berikut. Sebagai contoh, salah satu _file_ yang disimpan adalah `player_stats.json`, yang menunjukkan statistik pemain.
 ```
 [
@@ -114,7 +118,7 @@ Data hasil _scraping_ disimpan dalam format `JSON`, yaitu pada folder `Data Scra
 ```
 
 Struktur `JSON` tersebut dibuat dengan format judul:value, di mana setiap entri terdiri dari pasangan judul dan nilai. Format ini memastikan bahwa data tersusun secara terorganisir, dengan setiap judul mewakili kolom dan nilai yang sesuai dengan entri di dalam baris.
-## Database Structure
+## Database Struktur
 #### ERD (Entity Relationship Diagram)
 <div align="center">
 <img src="Data Storing/design/ERD IBL.png" alt="ERD IBL" width="500">
@@ -216,7 +220,14 @@ Pada website IBL, data pertandingan terdapat pada halaman *Schedule*. Namun, dat
   <img src="Data Scraping/screenshot/match_stats_code.jpg" width="400"/>
 </div>
 
-6. Meng-*export* data yang sudah di-*scrape* ke JSON
+6. Melakukan *data cleaning*
+Sebelum data digunakan untuk analisis lebih lanjut, semua data dibersihkan terlebih dahulu untuk memastikan tidak ada nilai null. Proses pembersihan data ini sangat penting untuk meningkatkan kualitas dan keandalan data
+
+<div align="center">
+  <img src="Data Scraping/screenshot/data_cleaning_code.jpg" width="400"/>
+</div>
+
+7. Meng-*export* data yang sudah di-*scrape* ke JSON
 Setelah semua data yang diperlukan maka data di *export* dengan JSON format
 
 <div align="center">
@@ -299,10 +310,10 @@ Insight : Dari hasil analisis tersebut, dapat disimpulkan bahwa pada Regular Sea
 Insight dari visualisasi tersebut menunjukkan total skor yang dicetak oleh setiap tim, baik saat bermain di kandang (home) maupun saat bertandang (away). Analisis ini memberikan evaluasi penting bagi setiap tim. Sebagai contoh, Dewa United tampaknya mencetak lebih banyak skor ketika bermain di kandang, menunjukkan kekuatan mereka saat memiliki dukungan suporter dan familiaritas dengan lapangan. Sebaliknya, Pacific Caesar menunjukkan performa yang lebih baik saat bertandang, mengindikasikan kemampuan mereka untuk tampil optimal dalam situasi away. Insight ini bisa membantu tim dalam merencanakan strategi dan penyesuaian untuk meningkatkan performa di masa mendatang.
 
 ## Reference 
-1. [Website IBL](https://iblindonesia.com/)
-2. [Website Wikipedia](https://en.wikipedia.org/wiki/2024_IBL_Indonesia)
-3. [Dokumentasi PostgreSQL](https://www.postgresql.org/)
-4. [Dokumentasi Selenium](https://selenium-python.readthedocs.io/)
+1. Website IBL : (https://iblindonesia.com/)
+2. Website Wikipedia : (https://en.wikipedia.org/wiki/2024_IBL_Indonesia)
+3. Dokumentasi PostgreSQL : (https://www.postgresql.org/)
+4. Dokumentasi Selenium : (https://selenium-python.readthedocs.io/)
 
 ## Author
 Ricky Wijaya - 18222043  
