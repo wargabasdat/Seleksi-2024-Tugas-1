@@ -1,6 +1,21 @@
 <div align="center">
   <h1>ETL Project: Data Scraping, Database Modeling, and Data Storing</h1>
+  <h2>Data Properti Hunian (Rumah dan Apartemen) di Jakarta Pusat</h2>
 </div>
+
+## Daftar Isi
+- [Daftar Isi](#daftar-isi)
+- [Author](#author)
+- [Overview](#overview)
+- [Deskripsi](#deskripsi)
+- [Cara Menggunakan Scraper dan Menggunakan Hasil Outputnya](#cara-menggunakan-scraper-dan-menggunakan-hasil-outputnya)
+- [Struktur JSON](#struktur-json)
+- [Struktur ERD dan Diagram Relasional](#struktur-erd-dan-diagram-relasional)
+- [Proses Translasi ERD Menjadi Diagram Relasional](#proses-translasi-erd-menjadi-diagram-relasional)
+- [Visualization](#visualization)
+- [Scheduling](#scheduling)
+- [Screenshot](#screenshot)
+- [Referensi](#referensi)
 
 ## Author
 |Nama|NIM|
@@ -301,6 +316,45 @@ Translasi dari ER diagram menjadi relational model dilakukan dengan prosedur yan
 
 Seluruh relasi yang dihasilkan telah memenuhi bentuk normal form `BCNF`. Sebuah relasi R berada dalam Boyce-Codd Normal Form (BCNF) jika dan hanya jika untuk setiap ketergantungan fungsional X → Y yang berlaku dalam R,  maka X → Y adalah trivial atau X adalah superkey dari R.
 
+## *Visualization*
+Visualisasi dilakukan dengan menggunakan `notebook` di `Data Visualization/dashboard.ipynb`. Instal terlebih dahulu libraries yang diperlukan sesuai instruksi di awal _cell-code_. Lalu `Run All` hingga seluruh _cell_ berhasil dijalankan. Jika di repository hasil visualisasi tidak keluar, berikut cuplikan yang bisa dilihat. Jika di sini kurang jelas bisa Anda jalankan saja di `notebook`-nya.
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Informasi Hunian</h3></div>
+<img src="Data Visualization\screenshot\boxplot_luas_bangunan.png"> 
+<img src="Data Visualization\screenshot\dist_kamar_tidur.png"> 
+<img src="Data Visualization\screenshot\dist_kamar_mandi.png"> 
+<img src="Data Visualization\screenshot\dist_sertifikat_hunian.png"> 
+
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Informasi Rumah</h3></div>
+<img src="Data Visualization\screenshot\rumah_luas_tanah.png"> 
+<img src="Data Visualization\screenshot\taman.png"> 
+<img src="Data Visualization\screenshot\carport.png"> 
+
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Informasi Apartemen</h3></div>
+<img src="Data Visualization\screenshot\condition.png"> 
+<img src="Data Visualization\screenshot\furniture.png"> 
+
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Informasi Agen</h3></div>
+<img src="Data Visualization\screenshot\affiliation.png"> 
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Top 5 Agents by Total Sales and Rentals</h3></div>
+<img src="Data Visualization\screenshot\top_agen.png"> 
+
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Informasi Properti Disewakan</h3></div>
+<img src="Data Visualization\screenshot\period.png"> 
+<img src="Data Visualization\screenshot\price_vs_building_area_rent.png"> 
+<img src="Data Visualization\screenshot\price_vs_certif_rent.png"> 
+
+<div align='center'><h3>====================</h3></div>
+<div align='center'><h3>Informasi Properti Dijual</h3></div>
+<img src="Data Visualization\screenshot\price_vs_building_area_sale.png"> 
+<img src="Data Visualization\screenshot\price_vs_certif_sale.png"> 
+
+
 ## Scheduling
 Seiring berkembangnya waktu, mungkin saja informasi iklan hunian yang ada di [Rumah123](https://www.rumah123.com/) memiliki pembaruan. Oleh karena itu, perlu dibuat adanya program yang mengotomatisasi keseluruhan proses tersebut, mulai dari scraping, preprocessing, hingga storing ke DBMS.
 
@@ -313,8 +367,11 @@ Untuk mengatasi redundansi akibat adanya informasi yang sama yang ter-_scraping_
 </div>
 
 ## Screenshot
-### scraping.ipynb
 
+### rumah123.com
+<img src="Data Scraping\screenshot\rumah123.png"> 
+
+### scraping.ipynb
 <img src="Data Scraping\screenshot\scraping\1_definisi_global.png"> 
 <img src="Data Scraping\screenshot\scraping\2_get_function.png"> 
 <img src="Data Scraping\screenshot\scraping\3_get_property.png"> 
@@ -381,7 +438,7 @@ Untuk mengatasi redundansi akibat adanya informasi yang sama yang ter-_scraping_
 | Rumah123     |https://www.rumah123.com/|
 
 
-| Libraries | |
+| Program | Libraries |
 |----------|----------|
 | Scraping | BeautifulSoup (bs4), selenium, request, re, os, pandas, json, IPython, math, time, random, datetime |
 | Preprocessing | pandas, locale, re, os, datetime |
