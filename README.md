@@ -1,5 +1,5 @@
 # Seleksi Asisten Basis Data - 2024
-
+![alt text](Scraping/screenshot/Sc1.png)
 Nama : Farah Aulia
 
 NIM : 18222096
