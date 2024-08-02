@@ -6,7 +6,7 @@ import mysql.connector
 import pandas as pd
 from datetime import datetime
 
-# Connect to MySQL database
+# connect mysql
 conn = mysql.connector.connect(
     host='localhost',       
     user='root',  
@@ -14,10 +14,10 @@ conn = mysql.connector.connect(
     database='tennis_database'  
 )
 
-# Initialize the Dash app
+# inisialisasi app
 app = dash.Dash(__name__)
 
-# Define the layout of the app
+# layout
 app.layout = html.Div([
     html.H1("Tennis Player Analytics Dashboard"),
     dcc.Tabs(id="tabs", value='tab-1', children=[

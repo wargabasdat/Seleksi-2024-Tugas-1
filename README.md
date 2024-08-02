@@ -139,6 +139,7 @@ mysqldump -u <Username> -p --column-statistics=0 tennis_database > <filename.sql
 cd ..
 cd ..
 cd "Data Visualization"
+cd src
 python3 visualization.py
 ```
 
@@ -276,6 +277,10 @@ Bukti jalannya adalah sebagai berikut:
 
 ## Screenshot
 ### Data Scraping
+
+#### Hasil Run
+<img src="Data Scraping/screenshot/Hasil Run.png" />
+
 #### Database
 <img src="Data Scraping/screenshot/database1.png" />
 <img src="Data Scraping/screenshot/database2.png" />
