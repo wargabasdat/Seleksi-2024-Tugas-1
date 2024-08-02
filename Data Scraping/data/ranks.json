@@ -1,0 +1,2402 @@
+[
+    {
+        "rank": 1,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3623,
+        "points": 9570,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 2,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 296,
+        "points": 8460,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 3,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3782,
+        "points": 8130,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 4,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2375,
+        "points": 6845,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 5,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2383,
+        "points": 6525,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 6,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2651,
+        "points": 4185,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 7,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2726,
+        "points": 4105,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 8,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2642,
+        "points": 3885,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 9,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2989,
+        "points": 3880,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 10,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1287,
+        "points": 3770,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 11,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2869,
+        "points": 3705,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 12,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2946,
+        "points": 3500,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 13,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2964,
+        "points": 3410,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 14,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 9250,
+        "points": 2750,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 15,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3085,
+        "points": 2405,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 16,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3764,
+        "points": 2340,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 17,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3659,
+        "points": 2300,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 18,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3340,
+        "points": 2250,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 19,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3209,
+        "points": 2115,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 20,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2970,
+        "points": 1918,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 21,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2367,
+        "points": 1830,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 22,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3368,
+        "points": 1795,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 23,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10052,
+        "points": 1770,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 24,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2377,
+        "points": 1745,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 25,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2865,
+        "points": 1650,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 26,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3700,
+        "points": 1540,
+        "change_in_rank": 11
+    },
+    {
+        "rank": 27,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3856,
+        "points": 1511,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 28,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3319,
+        "points": 1510,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 29,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2708,
+        "points": 1405,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 30,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3754,
+        "points": 1360,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 31,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 242,
+        "points": 1360,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 32,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1266,
+        "points": 1340,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 33,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2244,
+        "points": 1331,
+        "change_in_rank": 8
+    },
+    {
+        "rank": 34,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 7833,
+        "points": 1331,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 35,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2337,
+        "points": 1310,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 36,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3739,
+        "points": 1300,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 37,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 9992,
+        "points": 1292,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 38,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1993,
+        "points": 1265,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 39,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3811,
+        "points": 1229,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 40,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2622,
+        "points": 1215,
+        "change_in_rank": 10
+    },
+    {
+        "rank": 41,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3024,
+        "points": 1181,
+        "change_in_rank": -10
+    },
+    {
+        "rank": 42,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2623,
+        "points": 1178,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 43,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 4115,
+        "points": 1176,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 44,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3212,
+        "points": 1155,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 45,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3793,
+        "points": 1155,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 46,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2366,
+        "points": 1140,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 47,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 9213,
+        "points": 1025,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 48,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 7602,
+        "points": 1018,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 49,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 8885,
+        "points": 1002,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 50,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2226,
+        "points": 939,
+        "change_in_rank": 36
+    },
+    {
+        "rank": 51,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2874,
+        "points": 935,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 52,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1769,
+        "points": 926,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 53,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2012,
+        "points": 920,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 54,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3774,
+        "points": 915,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 55,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3304,
+        "points": 904,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 56,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 8710,
+        "points": 885,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 57,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3052,
+        "points": 881,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 58,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 901,
+        "points": 844,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 59,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2645,
+        "points": 835,
+        "change_in_rank": 7
+    },
+    {
+        "rank": 60,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 11400,
+        "points": 831,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 61,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3375,
+        "points": 830,
+        "change_in_rank": 30
+    },
+    {
+        "rank": 62,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3694,
+        "points": 827,
+        "change_in_rank": 15
+    },
+    {
+        "rank": 63,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2862,
+        "points": 821,
+        "change_in_rank": -17
+    },
+    {
+        "rank": 64,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3572,
+        "points": 814,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 65,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10319,
+        "points": 796,
+        "change_in_rank": 16
+    },
+    {
+        "rank": 66,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2636,
+        "points": 785,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 67,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3345,
+        "points": 785,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 68,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3511,
+        "points": 781,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 69,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2886,
+        "points": 778,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 70,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3437,
+        "points": 776,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 71,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3366,
+        "points": 773,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 72,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2709,
+        "points": 767,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 73,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10073,
+        "points": 759,
+        "change_in_rank": 16
+    },
+    {
+        "rank": 74,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 669,
+        "points": 749,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 75,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2638,
+        "points": 747,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 76,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1733,
+        "points": 745,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 77,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2025,
+        "points": 745,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 78,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 7598,
+        "points": 744,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 79,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1841,
+        "points": 743,
+        "change_in_rank": -6
+    },
+    {
+        "rank": 80,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3716,
+        "points": 741,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 81,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1857,
+        "points": 734,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 82,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3849,
+        "points": 718,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 83,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2202,
+        "points": 704,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 84,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3310,
+        "points": 702,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 85,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3471,
+        "points": 694,
+        "change_in_rank": -25
+    },
+    {
+        "rank": 86,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1862,
+        "points": 685,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 87,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3203,
+        "points": 676,
+        "change_in_rank": -16
+    },
+    {
+        "rank": 88,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3356,
+        "points": 672,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 89,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3093,
+        "points": 671,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 90,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1837,
+        "points": 669,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 91,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2320,
+        "points": 667,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 92,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3666,
+        "points": 663,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 93,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2206,
+        "points": 656,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 94,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3301,
+        "points": 653,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 95,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 7841,
+        "points": 651,
+        "change_in_rank": -3
+    },
+    {
+        "rank": 96,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2939,
+        "points": 650,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 97,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 4010,
+        "points": 626,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 98,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2365,
+        "points": 621,
+        "change_in_rank": -41
+    },
+    {
+        "rank": 99,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3308,
+        "points": 620,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 100,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1360,
+        "points": 619,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 101,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10044,
+        "points": 610,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 102,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1989,
+        "points": 605,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 103,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3322,
+        "points": 591,
+        "change_in_rank": 13
+    },
+    {
+        "rank": 104,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1842,
+        "points": 584,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 105,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2863,
+        "points": 579,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 106,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 7887,
+        "points": 571,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 107,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3897,
+        "points": 560,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 108,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2361,
+        "points": 552,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 109,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3953,
+        "points": 547,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 110,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3012,
+        "points": 540,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 111,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 9376,
+        "points": 529,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 112,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2950,
+        "points": 526,
+        "change_in_rank": 7
+    },
+    {
+        "rank": 113,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1611,
+        "points": 520,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 114,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 7491,
+        "points": 520,
+        "change_in_rank": 8
+    },
+    {
+        "rank": 115,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2228,
+        "points": 518,
+        "change_in_rank": -9
+    },
+    {
+        "rank": 116,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2189,
+        "points": 517,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 117,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 235,
+        "points": 503,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 118,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 8814,
+        "points": 499,
+        "change_in_rank": -14
+    },
+    {
+        "rank": 119,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2362,
+        "points": 498,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 120,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 8243,
+        "points": 498,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 121,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1766,
+        "points": 496,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 122,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10638,
+        "points": 494,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 123,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2278,
+        "points": 490,
+        "change_in_rank": 13
+    },
+    {
+        "rank": 124,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3009,
+        "points": 486,
+        "change_in_rank": 13
+    },
+    {
+        "rank": 125,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10153,
+        "points": 481,
+        "change_in_rank": 21
+    },
+    {
+        "rank": 126,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2625,
+        "points": 480,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 127,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1613,
+        "points": 479,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 128,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1854,
+        "points": 475,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 129,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 310,
+        "points": 474,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 130,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 4011,
+        "points": 473,
+        "change_in_rank": 18
+    },
+    {
+        "rank": 131,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2355,
+        "points": 468,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 132,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1935,
+        "points": 467,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 133,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3809,
+        "points": 466,
+        "change_in_rank": -20
+    },
+    {
+        "rank": 134,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1141,
+        "points": 463,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 135,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 4099,
+        "points": 462,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 136,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 11382,
+        "points": 461,
+        "change_in_rank": 11
+    },
+    {
+        "rank": 137,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3587,
+        "points": 457,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 138,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3206,
+        "points": 452,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 139,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2860,
+        "points": 450,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 140,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1849,
+        "points": 449,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 141,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 2242,
+        "points": 447,
+        "change_in_rank": -10
+    },
+    {
+        "rank": 142,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3619,
+        "points": 444,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 143,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3211,
+        "points": 436,
+        "change_in_rank": -23
+    },
+    {
+        "rank": 144,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 8325,
+        "points": 436,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 145,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 1852,
+        "points": 433,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 146,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10026,
+        "points": 431,
+        "change_in_rank": 13
+    },
+    {
+        "rank": 147,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 10071,
+        "points": 427,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 148,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3885,
+        "points": 424,
+        "change_in_rank": 21
+    },
+    {
+        "rank": 149,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 264,
+        "points": 423,
+        "change_in_rank": -40
+    },
+    {
+        "rank": 150,
+        "date": "2024-07-29",
+        "rank_type": "ATP",
+        "player_id": 3820,
+        "points": 417,
+        "change_in_rank": -8
+    },
+    {
+        "rank": 1,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3730,
+        "points": 11005,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 2,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3626,
+        "points": 8173,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 3,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3038,
+        "points": 7061,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 4,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3126,
+        "points": 6376,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 5,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2615,
+        "points": 5373,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 6,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2113,
+        "points": 4665,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 7,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6048,
+        "points": 4025,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 8,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3018,
+        "points": 3925,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 9,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3262,
+        "points": 3702,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 10,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2042,
+        "points": 3573,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 11,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2195,
+        "points": 3418,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 12,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2191,
+        "points": 3283,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 13,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3840,
+        "points": 2950,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 14,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1556,
+        "points": 2878,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 15,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3785,
+        "points": 2729,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 16,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1803,
+        "points": 2631,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 17,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2977,
+        "points": 2550,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 18,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2735,
+        "points": 2473,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 19,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3382,
+        "points": 2240,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 20,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 421,
+        "points": 2159,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 21,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2040,
+        "points": 2138,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 22,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2028,
+        "points": 2108,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 23,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 9820,
+        "points": 1968,
+        "change_in_rank": 9
+    },
+    {
+        "rank": 24,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 8017,
+        "points": 1930,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 25,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3641,
+        "points": 1920,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 26,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1804,
+        "points": 1878,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 27,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6970,
+        "points": 1873,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 28,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3142,
+        "points": 1840,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 29,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3182,
+        "points": 1813,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 30,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3039,
+        "points": 1751,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 31,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1797,
+        "points": 1750,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 32,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1802,
+        "points": 1741,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 33,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 824,
+        "points": 1717,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 34,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2054,
+        "points": 1688,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 35,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2221,
+        "points": 1629,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 36,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3387,
+        "points": 1581,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 37,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1774,
+        "points": 1555,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 38,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2248,
+        "points": 1546,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 39,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2665,
+        "points": 1428,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 40,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2916,
+        "points": 1422,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 41,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1649,
+        "points": 1361,
+        "change_in_rank": 7
+    },
+    {
+        "rank": 42,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2971,
+        "points": 1295,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 43,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2392,
+        "points": 1275,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 44,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 740,
+        "points": 1255,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 45,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1472,
+        "points": 1217,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 46,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2027,
+        "points": 1200,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 47,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2411,
+        "points": 1186,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 48,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2672,
+        "points": 1185,
+        "change_in_rank": 9
+    },
+    {
+        "rank": 49,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3436,
+        "points": 1100,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 50,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2780,
+        "points": 1097,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 51,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5848,
+        "points": 1082,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 52,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3155,
+        "points": 1075,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 53,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 8495,
+        "points": 1069,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 54,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2746,
+        "points": 1061,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 55,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3508,
+        "points": 1057,
+        "change_in_rank": -11
+    },
+    {
+        "rank": 56,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3746,
+        "points": 1027,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 57,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2737,
+        "points": 1004,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 58,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5868,
+        "points": 1002,
+        "change_in_rank": 18
+    },
+    {
+        "rank": 59,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3332,
+        "points": 1002,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 60,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3157,
+        "points": 984,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 61,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3831,
+        "points": 947,
+        "change_in_rank": -15
+    },
+    {
+        "rank": 62,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2731,
+        "points": 940,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 63,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3792,
+        "points": 932,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 64,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5734,
+        "points": 930,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 65,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 4666,
+        "points": 928,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 66,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3899,
+        "points": 920,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 67,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2341,
+        "points": 918,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 68,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2346,
+        "points": 914,
+        "change_in_rank": -9
+    },
+    {
+        "rank": 69,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2902,
+        "points": 910,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 70,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 630,
+        "points": 904,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 71,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2929,
+        "points": 886,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 72,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2910,
+        "points": 878,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 73,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2533,
+        "points": 872,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 74,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2458,
+        "points": 864,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 75,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2200,
+        "points": 859,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 76,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1374,
+        "points": 858,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 77,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6059,
+        "points": 851,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 78,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2114,
+        "points": 844,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 79,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2794,
+        "points": 842,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 80,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2848,
+        "points": 839,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 81,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6724,
+        "points": 829,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 82,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2179,
+        "points": 826,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 83,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3404,
+        "points": 821,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 84,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1726,
+        "points": 818,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 85,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3220,
+        "points": 816,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 86,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3256,
+        "points": 813,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 87,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 9525,
+        "points": 812,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 88,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 7438,
+        "points": 804,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 89,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3398,
+        "points": 799,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 90,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 687,
+        "points": 783,
+        "change_in_rank": 7
+    },
+    {
+        "rank": 91,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 636,
+        "points": 783,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 92,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1644,
+        "points": 780,
+        "change_in_rank": -15
+    },
+    {
+        "rank": 93,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1881,
+        "points": 778,
+        "change_in_rank": -29
+    },
+    {
+        "rank": 94,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3040,
+        "points": 773,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 95,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2751,
+        "points": 764,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 96,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2043,
+        "points": 750,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 97,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3913,
+        "points": 744,
+        "change_in_rank": 4
+    },
+    {
+        "rank": 98,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2692,
+        "points": 743,
+        "change_in_rank": 8
+    },
+    {
+        "rank": 99,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3836,
+        "points": 742,
+        "change_in_rank": -5
+    },
+    {
+        "rank": 100,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2789,
+        "points": 739,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 101,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1809,
+        "points": 725,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 102,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5309,
+        "points": 724,
+        "change_in_rank": 22
+    },
+    {
+        "rank": 103,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 810,
+        "points": 719,
+        "change_in_rank": -41
+    },
+    {
+        "rank": 104,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1371,
+        "points": 715,
+        "change_in_rank": -8
+    },
+    {
+        "rank": 105,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3908,
+        "points": 706,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 106,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2734,
+        "points": 703,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 107,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 495,
+        "points": 692,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 108,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3153,
+        "points": 679,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 109,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2984,
+        "points": 678,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 110,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2177,
+        "points": 667,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 111,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2738,
+        "points": 655,
+        "change_in_rank": -8
+    },
+    {
+        "rank": 112,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5260,
+        "points": 651,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 113,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2425,
+        "points": 642,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 114,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3380,
+        "points": 637,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 115,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5528,
+        "points": 636,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 116,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 13231,
+        "points": 636,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 117,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3271,
+        "points": 625,
+        "change_in_rank": 0
+    },
+    {
+        "rank": 118,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5749,
+        "points": 622,
+        "change_in_rank": -6
+    },
+    {
+        "rank": 119,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 8690,
+        "points": 619,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 120,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5712,
+        "points": 615,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 121,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3148,
+        "points": 606,
+        "change_in_rank": 27
+    },
+    {
+        "rank": 122,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3184,
+        "points": 606,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 123,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5057,
+        "points": 604,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 124,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1549,
+        "points": 596,
+        "change_in_rank": -1
+    },
+    {
+        "rank": 125,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5775,
+        "points": 584,
+        "change_in_rank": 28
+    },
+    {
+        "rank": 126,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2764,
+        "points": 575,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 127,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1639,
+        "points": 572,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 128,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5941,
+        "points": 566,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 129,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 7436,
+        "points": 566,
+        "change_in_rank": 6
+    },
+    {
+        "rank": 130,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3000,
+        "points": 565,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 131,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6723,
+        "points": 554,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 132,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 5604,
+        "points": 552,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 133,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2588,
+        "points": 549,
+        "change_in_rank": 1
+    },
+    {
+        "rank": 134,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6769,
+        "points": 548,
+        "change_in_rank": 7
+    },
+    {
+        "rank": 135,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 10500,
+        "points": 548,
+        "change_in_rank": 15
+    },
+    {
+        "rank": 136,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3034,
+        "points": 545,
+        "change_in_rank": -16
+    },
+    {
+        "rank": 137,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 7819,
+        "points": 543,
+        "change_in_rank": -12
+    },
+    {
+        "rank": 138,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 4583,
+        "points": 542,
+        "change_in_rank": -6
+    },
+    {
+        "rank": 139,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6061,
+        "points": 542,
+        "change_in_rank": 3
+    },
+    {
+        "rank": 140,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 14146,
+        "points": 541,
+        "change_in_rank": 19
+    },
+    {
+        "rank": 141,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 6929,
+        "points": 540,
+        "change_in_rank": -2
+    },
+    {
+        "rank": 142,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2748,
+        "points": 540,
+        "change_in_rank": 5
+    },
+    {
+        "rank": 143,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 906,
+        "points": 539,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 144,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 4166,
+        "points": 535,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 145,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 2183,
+        "points": 532,
+        "change_in_rank": -7
+    },
+    {
+        "rank": 146,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3286,
+        "points": 532,
+        "change_in_rank": -6
+    },
+    {
+        "rank": 147,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 7759,
+        "points": 529,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 148,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 7672,
+        "points": 519,
+        "change_in_rank": -4
+    },
+    {
+        "rank": 149,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 1322,
+        "points": 515,
+        "change_in_rank": 2
+    },
+    {
+        "rank": 150,
+        "date": "2024-07-29",
+        "rank_type": "WTA",
+        "player_id": 3476,
+        "points": 503,
+        "change_in_rank": -1
+    }
+]
