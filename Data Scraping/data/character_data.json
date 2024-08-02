@@ -1,0 +1,604 @@
+[
+    {
+        "name": "Albedo",
+        "rarity": "rarity-5",
+        "element": "Geo",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Alhaitham",
+        "rarity": "rarity-5",
+        "element": "Dendro",
+        "weapon_type": "Sword",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Arlecchino",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Polearm",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Ayaka",
+        "rarity": "rarity-5",
+        "element": "Cryo",
+        "weapon_type": "Sword",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Ayato",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Sword",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Baizhu",
+        "rarity": "rarity-5",
+        "element": "Dendro",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Childe",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Bow",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Chiori",
+        "rarity": "rarity-5",
+        "element": "Geo",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Clorinde",
+        "rarity": "rarity-5",
+        "element": "Electro",
+        "weapon_type": "Sword",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Cyno",
+        "rarity": "rarity-5",
+        "element": "Electro",
+        "weapon_type": "Polearm",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Dehya",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Claymore",
+        "role": "Support"
+    },
+    {
+        "name": "Diluc",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Eula",
+        "rarity": "rarity-5",
+        "element": "Cryo",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Furina",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Ganyu",
+        "rarity": "rarity-5",
+        "element": "Cryo",
+        "weapon_type": "Bow",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Hu Tao",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Polearm",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Itto",
+        "rarity": "rarity-5",
+        "element": "Geo",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Jean",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Kazuha",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Keqing",
+        "rarity": "rarity-5",
+        "element": "Electro",
+        "weapon_type": "Sword",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Klee",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Catalyst",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Kokomi",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Lyney",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Bow",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Mona",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Nahida",
+        "rarity": "rarity-5",
+        "element": "Dendro",
+        "weapon_type": "Catalyst",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Navia",
+        "rarity": "rarity-5",
+        "element": "Geo",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Neuvillette",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Catalyst",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Nilou",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Qiqi",
+        "rarity": "rarity-5",
+        "element": "Cryo",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Raiden",
+        "rarity": "rarity-5",
+        "element": "Electro",
+        "weapon_type": "Polearm",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Shenhe",
+        "rarity": "rarity-5",
+        "element": "Cryo",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Tighnari",
+        "rarity": "rarity-5",
+        "element": "Dendro",
+        "weapon_type": "Bow",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Traveler (Anemo)",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Traveler (Dendro)",
+        "rarity": "rarity-5",
+        "element": "Dendro",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Traveler (Electro)",
+        "rarity": "rarity-5",
+        "element": "Electro",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Traveler (Geo)",
+        "rarity": "rarity-5",
+        "element": "Geo",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Traveler (Hydro)",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Venti",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Bow",
+        "role": "Support"
+    },
+    {
+        "name": "Wanderer",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Catalyst",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Wriothesley",
+        "rarity": "rarity-5",
+        "element": "Cryo",
+        "weapon_type": "Catalyst",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Xianyun",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Xiao",
+        "rarity": "rarity-5",
+        "element": "Anemo",
+        "weapon_type": "Polearm",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Yae Miko",
+        "rarity": "rarity-5",
+        "element": "Electro",
+        "weapon_type": "Catalyst",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Yelan",
+        "rarity": "rarity-5",
+        "element": "Hydro",
+        "weapon_type": "Bow",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Yoimiya",
+        "rarity": "rarity-5",
+        "element": "Pyro",
+        "weapon_type": "Bow",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Zhongli",
+        "rarity": "rarity-5",
+        "element": "Geo",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Amber",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Bow",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Barbara",
+        "rarity": "rarity-4",
+        "element": "Hydro",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Beidou",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Claymore",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Bennett",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Candace",
+        "rarity": "rarity-4",
+        "element": "Hydro",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Charlotte",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Chevreuse",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Chongyun",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Claymore",
+        "role": "Support"
+    },
+    {
+        "name": "Collei",
+        "rarity": "rarity-4",
+        "element": "Dendro",
+        "weapon_type": "Bow",
+        "role": "Support"
+    },
+    {
+        "name": "Diona",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Bow",
+        "role": "Support"
+    },
+    {
+        "name": "Dori",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Claymore",
+        "role": "Support"
+    },
+    {
+        "name": "Faruzan",
+        "rarity": "rarity-4",
+        "element": "Anemo",
+        "weapon_type": "Bow",
+        "role": "Support"
+    },
+    {
+        "name": "Fischl",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Bow",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Freminet",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Gaming",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Gorou",
+        "rarity": "rarity-4",
+        "element": "Geo",
+        "weapon_type": "Bow",
+        "role": "Support"
+    },
+    {
+        "name": "Heizou",
+        "rarity": "rarity-4",
+        "element": "Anemo",
+        "weapon_type": "Catalyst",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Kaeya",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Kaveh",
+        "rarity": "rarity-4",
+        "element": "Dendro",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Kirara",
+        "rarity": "rarity-4",
+        "element": "Dendro",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Kuki Shinobu",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Layla",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Lisa",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Lynette",
+        "rarity": "rarity-4",
+        "element": "Anemo",
+        "weapon_type": "Sword",
+        "role": "Support"
+    },
+    {
+        "name": "Mika",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Ningguang",
+        "rarity": "rarity-4",
+        "element": "Geo",
+        "weapon_type": "Catalyst",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Noelle",
+        "rarity": "rarity-4",
+        "element": "Geo",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Razor",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Claymore",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Rosaria",
+        "rarity": "rarity-4",
+        "element": "Cryo",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Sara",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Bow",
+        "role": "Support"
+    },
+    {
+        "name": "Sayu",
+        "rarity": "rarity-4",
+        "element": "Anemo",
+        "weapon_type": "Claymore",
+        "role": "Support"
+    },
+    {
+        "name": "Sethos",
+        "rarity": "rarity-4",
+        "element": "Electro",
+        "weapon_type": "Bow",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Sucrose",
+        "rarity": "rarity-4",
+        "element": "Anemo",
+        "weapon_type": "Catalyst",
+        "role": "Support"
+    },
+    {
+        "name": "Thoma",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Xiangling",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Polearm",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Xingqiu",
+        "rarity": "rarity-4",
+        "element": "Hydro",
+        "weapon_type": "Sword",
+        "role": "Sub DPS"
+    },
+    {
+        "name": "Xinyan",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Claymore",
+        "role": "Support"
+    },
+    {
+        "name": "Yanfei",
+        "rarity": "rarity-4",
+        "element": "Pyro",
+        "weapon_type": "Catalyst",
+        "role": "Main DPS"
+    },
+    {
+        "name": "Yaoyao",
+        "rarity": "rarity-4",
+        "element": "Dendro",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    },
+    {
+        "name": "Yun Jin",
+        "rarity": "rarity-4",
+        "element": "Geo",
+        "weapon_type": "Polearm",
+        "role": "Support"
+    }
+]
