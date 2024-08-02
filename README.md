@@ -12,6 +12,7 @@
 * [Struktur Relational Database](#Struktur-Relational-Database)
 * [Proses translasi](#Proses-translasi)
 * [Website](#Website)
+* [Data RDBMS](#Data-RDBMS)
 
 
 ## Deskripsi
@@ -112,7 +113,7 @@ Struktur ini memiliki 9 relasi yaitu :
 - Karena relationship chat merupakan many to many dari pembeli ke gabungan penjual dan mobil, sehingga translasikan dengan membentuk relasi chat dan menambahkan primary key sekaligus foreign key pada pembeli, penjual, dan mobil. Tambahkan juga atribut waktu dan isi_teks
 - Karena relationship like merupakan many to many dari pembeli ke mobil, sehingga translasikan dengan membentuk relasi like dan menambahkan primary key sekaligus foreign key pada pembeli dan mobil. Dikarenakan mobil meruakan weak entity sehingga tambahkan juga primary key dari entity penjual.
 
-## Website <a href="website"></a>
+## Website
 Website yang saya scraping yaitu olx
 ### Bagian halaman penjualan mobil bekas
 ![mainWeb](Data%20Scraping/screenshot/forREADME/ssWeb_main.png)
@@ -120,3 +121,37 @@ Website yang saya scraping yaitu olx
 ![produkWeb](Data%20Scraping/screenshot/forREADME/ssWeb_produk.png)
 ### Bagian Profil
 ![profilWeb](Data%20Scraping/screenshot/forREADME/ssWeb_profil.png)
+
+## Data RDBMS
+### Melihat isi data
+- Tabel penjual
+![data](Data%20Storing/screenshot/tabel_penjual_atas.png)
+![data](Data%20Storing/screenshot/tabel_penjual_bawah.png)
+
+- Tabel cicilan
+![data](Data%20Storing/screenshot/tabel_cicilan_atas.png)
+![data](Data%20Storing/screenshot/tabel_cicilan_bawah.png)
+
+- Tabel post_mobil
+![data](Data%20Storing/screenshot/tabel_post_mobil_atas.png)
+![data](Data%20Storing/screenshot/tabel_post_mobil_bawah.png)
+
+</br>
+
+Selaian itu saya juga menambahkan trigger sehingga harga pada post_mobil, dp pada cicilan, dan cicilan pada cicilan tidak boleh bernilai negatif
+![trigger](Data%20Storing/screenshot/trigger.png)
+
+</br>
+
+### Constraint
+- tabel penjual
+![trigger](Data%20Storing/screenshot/show_penjual.png)
+- tabel post_mobil
+![trigger](Data%20Storing/screenshot/show_post_mobil.png)
+disini ditambahkan foreign key apabila nama_penjual di penjual dihapus, maka nama_penjual di post_mobil juag dihapus. Untuk atribut judul juga tidak boleh null
+- tabel cicilan
+![trigger](Data%20Storing/screenshot/show_cicilan.png)
+disini ditambahkan foreign key apabila link pada post mobil dihapus, maka link pada cicilan juga dihapus (on delete cascade). 
+
+### Describe
+![trigger](Data%20Storing/screenshot/describe_all_tables.png)
