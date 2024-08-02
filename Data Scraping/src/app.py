@@ -241,7 +241,7 @@ def scrape():
 
     companies['sector_id'] = companies['sector_name'].map(sector_map)
 
-    # Connect to the PostgreSQL database
+    # Connect ke database PostgreSQL
     engine = create_engine('postgresql+psycopg2://postgres:postgres@localhost:5432/titans')
 
     with engine.connect() as connection:
@@ -273,6 +273,8 @@ def scrape():
                 'change_percentage': row['change_percentage'],
                 'date': row['date']
             })
+        
+            connection.commit()
 
 def daily_scraping_task():
     while True:

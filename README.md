@@ -180,10 +180,16 @@ Berikut merupakan *screenshot* yang berhubungan dengan *scraping website* IDN Fi
 
 ## Automated Scraping
 <p align="justify">
-Saat ini, fitur automated scraping yang saya rancang baru bisa berjalan di lokal. Sehingga, harus terdapat terminal yang selalu terbuka untuk merealisasikan fitur ini. </p>
+Saat ini, fitur automated scraping yang saya rancang baru bisa <strong> bekerja di lokal </strong>. Sehingga, harus terdapat terminal yang selalu terbuka untuk merealisasikan fitur ini. </p>
 
 <p align="justify">
-Fitur ini dirancang untuk melakukan scraping setiap 24 jam guna mengambil data perubahan harga harian. Kode yang digunakan pada fitur ini dapat dicek di file <code>app.py</code>. File ini dapat ditemukan pada <code>Data Scraping/src</code></p>
+Fitur ini dirancang untuk melakukan scraping setiap 24 jam guna mengambil data perubahan harga harian. Kode yang digunakan pada fitur ini dapat ditemukan pada <code>Data Scraping/src/app</code></p>
+
+**Data <m> batch </m> pertama**
+![Batch 1](Data%20Storing/screenshot/automated1.png)
+
+**Data <m> batch </m> kedua**
+![Batch 2](Data%20Storing/screenshot/automated2.png)
 
 ## Referensi
   - [selenium](https://selenium-python.readthedocs.io/)
