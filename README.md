@@ -72,7 +72,7 @@ Proses translasi dari ERD ke relasional mengikuti seperti yang diajarkan dari pe
 - Many-to-one relationship dapat direpresentasikan dengan menambahkan primary key sisi "one" ke relasi "many" <br>
 - Ternary relationship dibuat dengan menambahkan relasi baru yang berisi primary key dari masing-masing relasi ternary. <br>
 
-## SCREENSHOT PROGRAM
+
 
 ## REFERENSI
 - BeautifulSoup4
