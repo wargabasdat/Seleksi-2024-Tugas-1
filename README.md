@@ -99,7 +99,8 @@ Gambar lebih lengkap bisa dilihat di bagian masing-masing folder.
 2. Storing
 Dilakukan dengan mendefinisikan masing-masing tabel dengan dependenciesnya.
 ![Data1](Data%20Storing/screenshot/CreateTable1png.png)
-![Data2](Data%20Storing/screenshot/CreateTable2png.png)
+![Data2](Data%20Storing/screenshot/CreateTable2.png)
+
 Tampilan semua data seperti yang ada di website.
 ![AllData](Data%20Storing/screenshot/All%20Data.png)
 Tampilan tabel city
