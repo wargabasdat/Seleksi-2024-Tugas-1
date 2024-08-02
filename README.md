@@ -289,11 +289,17 @@ http://127.0.0.1:8050/
 ```
 # Screenshot
 ## Data Scraping
+![scrape basdat](https://github.com/user-attachments/assets/a1c73dc0-6ce0-494a-a2ab-ec3c91c1f825)
 
 
 ## Data Storing
+![drama-1](https://github.com/user-attachments/assets/047eb61b-eb2c-456d-8cc8-3da25e10b69a)
+![drama-2](https://github.com/user-attachments/assets/72f6ef82-c94d-4eb8-82ee-984cdc904704)
 
 ## Data Visualization
+![visualization-1](https://github.com/user-attachments/assets/49c6fc8e-85e4-4383-a793-f03d93a66318)
+![visualization-2](https://github.com/user-attachments/assets/49caaf69-72fd-4985-b598-0ff24142a759)
+
 # Referensi
 1. Website Scraping: 
 2. Library yang digunakan :
