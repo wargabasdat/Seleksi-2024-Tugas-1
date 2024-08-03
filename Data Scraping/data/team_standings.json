@@ -1,0 +1,114 @@
+[
+    {
+        "RANK": 1.0,
+        "TEAM": "Dewa United Banten",
+        "G": 26.0,
+        "W": 22.0,
+        "L": 4.0,
+        "PTS": 48.0
+    },
+    {
+        "RANK": 2.0,
+        "TEAM": "Pelita Jaya Jakarta",
+        "G": 26.0,
+        "W": 21.0,
+        "L": 5.0,
+        "PTS": 47.0
+    },
+    {
+        "RANK": 3.0,
+        "TEAM": "Prawira Harum Bandung",
+        "G": 26.0,
+        "W": 21.0,
+        "L": 5.0,
+        "PTS": 47.0
+    },
+    {
+        "RANK": 4.0,
+        "TEAM": "Kesatria Bengawan Solo",
+        "G": 26.0,
+        "W": 19.0,
+        "L": 7.0,
+        "PTS": 45.0
+    },
+    {
+        "RANK": 5.0,
+        "TEAM": "Satria Muda Pertamina Jakarta",
+        "G": 26.0,
+        "W": 19.0,
+        "L": 7.0,
+        "PTS": 45.0
+    },
+    {
+        "RANK": 6.0,
+        "TEAM": "RANS Simba Bogor",
+        "G": 26.0,
+        "W": 16.0,
+        "L": 10.0,
+        "PTS": 42.0
+    },
+    {
+        "RANK": 7.0,
+        "TEAM": "Bali United Basketball",
+        "G": 26.0,
+        "W": 13.0,
+        "L": 13.0,
+        "PTS": 39.0
+    },
+    {
+        "RANK": 8.0,
+        "TEAM": "Borneo Hornbills",
+        "G": 26.0,
+        "W": 11.0,
+        "L": 15.0,
+        "PTS": 37.0
+    },
+    {
+        "RANK": 9.0,
+        "TEAM": "Rajawali Medan",
+        "G": 26.0,
+        "W": 10.0,
+        "L": 16.0,
+        "PTS": 36.0
+    },
+    {
+        "RANK": 10.0,
+        "TEAM": "Amartha Hangtuah Jakarta",
+        "G": 26.0,
+        "W": 9.0,
+        "L": 17.0,
+        "PTS": 35.0
+    },
+    {
+        "RANK": 11.0,
+        "TEAM": "Tangerang Hawks Basketball Club",
+        "G": 26.0,
+        "W": 8.0,
+        "L": 18.0,
+        "PTS": 34.0
+    },
+    {
+        "RANK": 12.0,
+        "TEAM": "Satya Wacana Salatiga",
+        "G": 26.0,
+        "W": 6.0,
+        "L": 20.0,
+        "PTS": 32.0
+    },
+    {
+        "RANK": 13.0,
+        "TEAM": "Bima Perkasa Jogja",
+        "G": 26.0,
+        "W": 4.0,
+        "L": 22.0,
+        "PTS": 30.0
+    },
+    {
+        "RANK": 14.0,
+        "TEAM": "Pacific Caesar Surabaya",
+        "G": 26.0,
+        "W": 3.0,
+        "L": 23.0,
+        "PTS": 29.0
+    }
+]
