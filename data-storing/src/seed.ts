@@ -12,13 +12,13 @@ import { pool } from "./lib/db";
 async function startSeed() {
   // Read json file
   const locations: Location[] = JSON.parse(
-    fs.readFileSync("../../Data Scraping/data/locations.json", "utf8")
+    fs.readFileSync("../../data-scraping/data/locations.json", "utf8")
   );
   const scrapeLogs: ScrapeLog[] = JSON.parse(
-    fs.readFileSync("../../Data Scraping/data/scrape-logs.json", "utf8")
+    fs.readFileSync("../../data-scraping/data/scrape-logs.json", "utf8")
   );
   const weatherData: WeatherData[] = JSON.parse(
-    fs.readFileSync("../../Data Scraping/data/weather-data.json", "utf8")
+    fs.readFileSync("../../data-scraping/data/weather-data.json", "utf8")
   );
 
   let conn: mariadb.PoolConnection | null = null;

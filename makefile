@@ -1,5 +1,5 @@
 init-network:
-	docker network create weather_app_network
+	docker network create weather-wise-network
 
 run-db: # Run the database
 	docker compose up --build db

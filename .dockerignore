@@ -1,6 +1,6 @@
 db_data
-Data Visualization/node_modules
-Data Visualization/.next
-Data Visualization/next-env.d.ts
-Data Storing
-Data Scraping
+data-visualization/node_modules
+data-visualization/.next
+data-visualization/next-env.d.ts
+data-storing
+data-scraping

@@ -2,7 +2,7 @@
 
 <p align="center">
 <img
-  src="https://raw.githubusercontent.com/dewodt/Seleksi-2024-Tugas-1/main/Data%20Visualization/public/link-preview.jpg" alt="Weather Wise Logo"
+  src="https://raw.githubusercontent.com/dewodt/Seleksi-2024-Tugas-1/main/data-visualization/public/link-preview.jpg" alt="Weather Wise Logo"
   width="500">
 </p>
 
@@ -39,7 +39,7 @@ Your interactive dashboard for comprehensive weather analytics. Explore historic
    or (if you don't have a makefile)
 
    ```bash
-   docker network create weather_app_network
+   docker network create weather-wise-network
    ```
 
 3. Setup docker database.
@@ -56,12 +56,12 @@ Your interactive dashboard for comprehensive weather analytics. Explore historic
 
    **NOTE:**
 
-   - This will automatically fill the database with the dump from `./Data Storing/export/dump-seeded.sql`.
+   - This will automatically fill the database with the dump from `./data-storing/export/dump-seeded.sql`.
 
    - The database will be available at `PORT 3307` (host port) and `PORT 3306` (container port). Thus IF you want to connect to this database docker container from the CLI run
 
      ```bash
-     mariadb -h localhost -P 3307 -u weather_app -p123456
+     mariadb -h localhost -P 3307 -u weather-wise -p123456
      ```
 
 4. Setup docker app.
@@ -135,26 +135,26 @@ Your interactive dashboard for comprehensive weather analytics. Explore historic
 
 1.  Make sure to have Node.js and MariaDB locally
 
-2.  Create a local database `weather_app`, with a new user `weather_app` and password `123456` and load the dump data from `./Data Storing/export/dump-seeded.sql`.
+2.  Create a local database `weather-wise`, with a new user `weather-wise` and password `123456` and load the dump data from `./data-storing/export/dump-seeded.sql`.
 
 3.  Setup app.
 
-    1.  Go to `./Data Visualization` directory
+    1.  Go to `./data-visualization` directory
 
         ```bash
-        cd Data Visualization
+        cd data-visualization
         ```
 
-    2.  Create `.env` file om `./Data Visualization/`
+    2.  Create `.env` file om `./data-visualization/`
 
         ```bash
         # NON DOCKER USAGE
         DB_HOST=localhost
         DB_PORT=3306 # Your mariadb port
-        DB_USER=weather_app
+        DB_USER=weather-wise
         DB_PASSWORD=123456
         DB_ROOT_PASSWORD=123456
-        DB_DATABASE=weather_app
+        DB_DATABASE=weather-wise
         ```
 
     3.  Install dependency
@@ -181,22 +181,22 @@ Your interactive dashboard for comprehensive weather analytics. Explore historic
 
 4.  Setup scheduler.
 
-    1. Go to `./Scheduler/` directory
+    1. Go to `./scheduler/` directory
 
        ```bash
-       cd Scheduler
+       cd scheduler
        ```
 
-    2. Create `.env` file om `./Scheduler/`
+    2. Create `.env` file om `./scheduler/`
 
        ```bash
        # NON DOCKER USAGE
        DB_HOST=localhost
        DB_PORT=3306 # Your mariadb port
-       DB_USER=weather_app
+       DB_USER=weather-wise
        DB_PASSWORD=123456
        DB_ROOT_PASSWORD=123456
-       DB_DATABASE=weather_app
+       DB_DATABASE=weather-wise
        ```
 
     3. Install dependency
@@ -213,13 +213,13 @@ Your interactive dashboard for comprehensive weather analytics. Explore historic
 
 ### OTHERS
 
-The scripts that are written in `./Data Scraping` was used to get the first version of the scraped data (stored in json `./Data Scraping/data`).
+The scripts that are written in `./data-scraping` was used to get the first version of the scraped data (stored in json `./data-scraping/data`).
 **NOTE: this script only updates the json files and is not containerized.** To run this script,
 
-1. Go to `./Data Scraping/src` directory
+1. Go to `./data-scraping/src` directory
 
    ```bash
-   cd ./Data Scraping/src
+   cd ./data-scraping/src
    ```
 
 2. Install dependency
@@ -234,12 +234,12 @@ The scripts that are written in `./Data Scraping` was used to get the first vers
    npx tsx scrape.ts
    ```
 
-The scripts that are written in `./Data Storing` was used to insert the first scraped data from `./Data Scraping/data/*.json` into the database. **NOTE: this script is not containzerized.** To run this script,
+The scripts that are written in `./data-storing` was used to insert the first scraped data from `./data-scraping/data/*.json` into the database. **NOTE: this script is not containzerized.** To run this script,
 
-1. Go to `./Data Storing/src` directory
+1. Go to `./data-storing/src` directory
 
    ```bash
-   cd ./Data Storing/src
+   cd ./data-storing/src
    ```
 
 2. Install dependency
@@ -265,71 +265,71 @@ The weather data is scraped from [https://www.wunderground.com](https://www.wund
 3. Run the scraping queue.
 4. Write data to the json files.
 
-| ![Cached Scraping](<https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/cached%20(previously%20scraped).jpeg?raw=true>) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                 Cached Scraping Result                                                                  |
+| ![Cached Scraping](<https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-scraping/screenshot/cached%20(previously%20scraped).jpeg?raw=true>) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                Cached Scraping Result                                                                 |
 
-| ![space-1.jpg](<https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Scraping/screenshot/not-cached%20(previously%20not%20scraped).jpeg?raw=true>) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                       Uncached Scraping                                                                       |
+| ![space-1.jpg](<https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-scraping/screenshot/not-cached%20(previously%20not%20scraped).jpeg?raw=true>) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                      Uncached Scraping                                                                      |
 
 ## Data Storing
 
 The ERD/relational design is quite simple since there isn't much entity in this topic.
 
-| ![ERD Design](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/erd.png?raw=true) |
-| :------------------------------------------------------------------------------------------------------------: |
-|                                                   ERD Design                                                   |
+| ![ERD Design](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-storing/design/erd.png?raw=true) |
+| :----------------------------------------------------------------------------------------------------------: |
+|                                                  ERD Design                                                  |
 
-| ![Relational Diagram Design](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/design/relational.png?raw=true) |
-| :----------------------------------------------------------------------------------------------------------------------------------: |
-|                                                      Relational Diagram Design                                                       |
+| ![Relational Diagram Design](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-storing/design/relational.png?raw=true) |
+| :--------------------------------------------------------------------------------------------------------------------------------: |
+|                                                     Relational Diagram Design                                                      |
 
 Here is proof that the data was successfully inserted.
 
-| ![location](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/locations.png?raw=true) |
-| :--------------------------------------------------------------------------------------------------------------------: |
-|                                                       `location`                                                       |
+| ![location](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-storing/screenshot/locations.png?raw=true) |
+| :------------------------------------------------------------------------------------------------------------------: |
+|                                                      `location`                                                      |
 
-| ![scrape_logs table](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/scrape_logs.png?raw=true) |
-| :-------------------------------------------------------------------------------------------------------------------------------: |
-|                                                           `scrape_logs`                                                           |
+| ![scrape_logs table](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-storing/screenshot/scrape_logs.png?raw=true) |
+| :-----------------------------------------------------------------------------------------------------------------------------: |
+|                                                          `scrape_logs`                                                          |
 
-| ![Weather table](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Storing/screenshot/weather.png?raw=true) |
-| :-----------------------------------------------------------------------------------------------------------------------: |
-|                                                         `weather`                                                         |
+| ![Weather table](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-storing/screenshot/weather.png?raw=true) |
+| :---------------------------------------------------------------------------------------------------------------------: |
+|                                                        `weather`                                                        |
 
 ## Data Visualization
 
 Data visualization dashboard is made using Next.js. Here is a few screenshots of the application.
 
-| ![Home Page](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/public/ss-1.jpeg?raw=true) |
-| :-------------------------------------------------------------------------------------------------------------------: |
-|                                                       Home Page                                                       |
+| ![Home Page](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-visualization/public/ss-1.jpeg?raw=true) |
+| :-----------------------------------------------------------------------------------------------------------------: |
+|                                                      Home Page                                                      |
 
-| ![Dashboard Part #1](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/public/ss-2.jpeg?raw=true) |
-| :---------------------------------------------------------------------------------------------------------------------------: |
-|                                                       Dashboard Part #1                                                       |
+| ![Dashboard Part #1](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-visualization/public/ss-2.jpeg?raw=true) |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+|                                                      Dashboard Part #1                                                      |
 
-| ![Dashboard Part #2](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/public/ss-3.jpeg?raw=true) |
-| :---------------------------------------------------------------------------------------------------------------------------: |
-|                                                       Dashboard Part 2                                                        |
+| ![Dashboard Part #2](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-visualization/public/ss-3.jpeg?raw=true) |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+|                                                      Dashboard Part 2                                                       |
 
-| ![Dashboard Part #3](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/public/ss-4.jpeg?raw=true) |
-| :---------------------------------------------------------------------------------------------------------------------------: |
-|                                                       Dashboard Part 3                                                        |
+| ![Dashboard Part #3](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-visualization/public/ss-4.jpeg?raw=true) |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+|                                                      Dashboard Part 3                                                       |
 
-| ![Dashboard Part #4](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/public/ss-5.jpeg?raw=true) |
-| :---------------------------------------------------------------------------------------------------------------------------: |
-|                                                       Dashboard Part #4                                                       |
+| ![Dashboard Part #4](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-visualization/public/ss-5.jpeg?raw=true) |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+|                                                      Dashboard Part #4                                                      |
 
-| ![Dashboard Part #5](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Data%20Visualization/public/ss-6.jpeg?raw=true) |
-| :---------------------------------------------------------------------------------------------------------------------------: |
-|                                                       Dashboard Part #5                                                       |
+| ![Dashboard Part #5](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/data-visualization/public/ss-6.jpeg?raw=true) |
+| :-------------------------------------------------------------------------------------------------------------------------: |
+|                                                      Dashboard Part #5                                                      |
 
 ## Scheduler
 
-The scheduler is useful to update the database with new weather data from the [https://www.wunderground.com](https://www.wunderground.com/history/). The scheduler runs on first time executed and every hour. The script must be kept on running for the scheduler to work continously. **NOTE that the scheduler only updates the database, and do not update the json files in `./Data Scraping`.** General algorithm:
+The scheduler is useful to update the database with new weather data from the [https://www.wunderground.com](https://www.wunderground.com/history/). The scheduler runs on first time executed and every hour. The script must be kept on running for the scheduler to work continously. **NOTE that the scheduler only updates the database, and do not update the json files in `./data-scraping`.** General algorithm:
 
 1. Read scrape_logs from the database and find the latest successfull scrape log for each station.
 2. Generate the URLs to be scraped.
@@ -338,11 +338,11 @@ The scheduler is useful to update the database with new weather data from the [h
 
 Here are a few screenshots of the Scheduler script.
 
-| ![Scheduler Script Running](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Scheduler/public/scheduler-running.jpeg?raw=true) |
+| ![Scheduler Script Running](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/scheduler/public/scheduler-running.jpeg?raw=true) |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                        Scheduler Script Running                                                        |
 
-| ![Scraping Dates (Newest by scheduler script is at August 1st)](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/Scheduler/public/scrape-log-date-proof.jpeg?raw=true) |
+| ![Scraping Dates (Newest by scheduler script is at August 1st)](https://github.com/dewodt/Seleksi-2024-Tugas-1/blob/main/scheduler/public/scrape-log-date-proof.jpeg?raw=true) |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                          Scraping Dates (Newest by scheduler script is at August 1st)                                                          |
 

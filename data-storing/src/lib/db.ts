@@ -1,9 +1,9 @@
 import mariadb from "mariadb";
 
 export const pool = mariadb.createPool({
-  database: "weather_app",
+  database: "weather-wise",
   host: "localhost",
   port: 3307,
-  user: "weather_app",
+  user: "weather-wise",
   password: "123456",
 });

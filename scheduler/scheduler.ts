@@ -403,8 +403,7 @@ async function funcJob() {
   console.log("====================================");
 }
 
-// Run the job every hour and when the program starts
+// Run the job every 24 hour at 3 am and when the program starts
 // NOTE: PROGRAM MUST ALWAYS BE RUNNING
-const job = schedule.scheduleJob("0 * * * *", funcJob);
-// const job = schedule.scheduleJob("*/1 * * * *", funcJob);
+const job = schedule.scheduleJob("0 3 * * *", funcJob);
 job.invoke();

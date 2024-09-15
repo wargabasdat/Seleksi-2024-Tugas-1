@@ -3,7 +3,7 @@ version: "3.8"
 services:
   # Maria DB
   db:
-    container_name: weather_app_db
+    container_name: weather-wise-db
     image: mariadb:latest
     env_file: .env
     environment:
@@ -12,12 +12,12 @@ services:
       - MYSQL_USER=${DB_USER}
       - MYSQL_PASSWORD=${DB_PASSWORD}
     volumes:
-      - ./Data Storing/export/:/docker-entrypoint-initdb.d # Load the seeded data when the container is created
+      - ./data-storing/export/:/docker-entrypoint-initdb.d # Load the seeded data when the container is created
       - ./db_data:/var/lib/mysql # Persist the data
     ports:
       - "3307:3306" # 3307 (host) to 3306 (container). 3306 is (maybe) used by local MySQLis already used by host's local MySQL
     networks:
-      - weather_app_network
+      - weather-wise-network
     healthcheck:
       test:
         [
@@ -38,10 +38,11 @@ services:
 
   # App development
   app-dev:
-    container_name: weather_app_dev
+    container_name: weather-wise-dev
     build:
       context: .
       target: app_dev
+      dockerfile: ./data-visualization/dockerfile
     env_file: .env
     ports:
       - 3000:3000
@@ -49,20 +50,21 @@ services:
     environment:
       - NODE_ENV=development
     volumes:
-      - ./Data Visualization:/app
+      - ./data-visualization:/app
       - /app/node_modules
       - /app/.next
     depends_on:
       - db
     networks:
-      - weather_app_network
+      - weather-wise-network
 
   # App production
   app-prod:
-    container_name: weather_app_prod
+    container_name: weather-wise-prod
     build:
       context: .
       target: app_runner
+      dockerfile: ./data-visualization/dockerfile
     env_file: .env
     environment:
       - NODE_ENV=production
@@ -71,26 +73,27 @@ services:
     depends_on:
       - db
     networks:
-      - weather_app_network
+      - weather-wise-network
 
   # Scheduler
   scheduler:
-    container_name: weather_app_scheduler
+    container_name: weather-wise-scheduler
     build:
       context: .
       target: scheduler_runner
+      dockerfile: ./scheduler/dockerfile
     env_file: .env
     environment:
       - NODE_ENV=production
     depends_on:
       - db
     networks:
-      - weather_app_network
+      - weather-wise-network
 
 volumes:
   db_data:
 
 networks: # Network for the services
-  weather_app_network:
+  weather-wise-network:
     external: true
     driver: bridge
