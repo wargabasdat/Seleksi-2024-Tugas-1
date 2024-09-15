@@ -42,7 +42,7 @@ services:
     build:
       context: .
       target: app_dev
-      dockerfile: ./data-visualization/dockerfile
+      dockerfile: ./data-visualization/Dockerfile
     env_file: .env
     ports:
       - 3000:3000
@@ -64,7 +64,7 @@ services:
     build:
       context: .
       target: app_runner
-      dockerfile: ./data-visualization/dockerfile
+      dockerfile: ./data-visualization/Dockerfile
     env_file: .env
     environment:
       - NODE_ENV=production
@@ -81,7 +81,7 @@ services:
     build:
       context: .
       target: scheduler_runner
-      dockerfile: ./scheduler/dockerfile
+      dockerfile: ./scheduler/Dockerfile
     env_file: .env
     environment:
       - NODE_ENV=production
