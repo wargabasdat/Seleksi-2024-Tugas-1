@@ -12,6 +12,7 @@ export async function dbQuery<T>(sql: string, params: any[] = []): Promise<T> {
       user: process.env.DB_USER as string,
       password: process.env.DB_PASSWORD as string,
       database: process.env.DB_DATABASE as string,
+      timeout: 10000,
     });
 
     const result = await conn.query(sql, params);

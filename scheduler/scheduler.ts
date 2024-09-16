@@ -80,6 +80,8 @@ async function funcJob() {
   const browser = await puppeteer.launch({
     executablePath: "/usr/bin/chromium-browser",
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    timeout: 60000,
+    protocolTimeout: 300000,
   });
 
   // Initialize queue to scrape
