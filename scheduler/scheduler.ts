@@ -405,7 +405,12 @@ async function funcJob() {
   console.log("====================================");
 }
 
-// Run the job every 24 hour at 3 am and when the program starts
-// NOTE: PROGRAM MUST ALWAYS BE RUNNING
-const job = schedule.scheduleJob("0 3 * * *", funcJob);
-job.invoke();
+// Railway cron job:
+// The job schedule is configured from railway, not here
+funcJob();
+
+// Docker:
+// // Run the job every 24 hour at 3 am and when the program starts
+// // NOTE: PROGRAM MUST ALWAYS BE RUNNING
+// const job = schedule.scheduleJob("0 3 * * *", funcJob);
+// job.invoke();
