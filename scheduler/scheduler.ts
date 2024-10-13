@@ -6,7 +6,7 @@ import { generateRandomDelay, generateScrapeURL } from "./lib/utils";
 import { addDays, startOfDay } from "date-fns";
 import { WeatherData } from "./models/weather-data";
 import puppeteer from "puppeteer";
-import Queue from "queue";
+import Queue, { QueueEvent } from "queue";
 import { ScrapeStatus } from "./lib/enum";
 
 /**
@@ -79,17 +79,27 @@ async function funcJob() {
   // Launch the browser
   const browser = await puppeteer.launch({
     executablePath: "/usr/bin/chromium-browser",
-    args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    timeout: 60000,
+    headless: true,
+    args: [
+      "--no-sandbox",
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-accelerated-2d-canvas",
+      "--no-first-run",
+      "--no-zygote",
+      "--disable-gpu",
+    ],
+    timeout: 30000,
     protocolTimeout: 300000,
   });
 
   // Initialize queue to scrape
-  const q = new Queue({ concurrency: 10 });
+  const q = new Queue({ concurrency: 4, results: [] });
+  let isAllProcessingDone = q.length === 0;
 
   // Scrape the data
   scrapeToDo.forEach(({ station, date, url }) => {
-    q.push(async () => {
+    q.push(async (cb) => {
       // Generate a random delay
       await generateRandomDelay();
 
@@ -103,27 +113,45 @@ async function funcJob() {
       const newUserAgent = generateUserAgent();
       await page.setUserAgent(newUserAgent);
 
-      try {
-        // Throws an error if the table is not found
-        await page.goto(url, { timeout: 30000 });
-        await page.waitForSelector(tableSelector, { timeout: 30000 });
-      } catch (error) {
-        // Store the log
-        const errMessage = `Table not found for ${station} on ${date}`;
+      let retry = 0;
+      const maxRetry = 3;
+      while (retry < maxRetry) {
+        try {
+          await page.goto(url, { timeout: 15000, waitUntil: "load" });
+          console.log("Page loaded for ", station, date);
+          await page.waitForSelector(tableSelector, { timeout: 15000 });
+          console.log("Table loaded for ", station, date);
+          break;
+        } catch (error) {
+          console.error(
+            `Error loading page or table for ${station} on ${date}. Retrying ${retry}...`
+          );
+          retry++;
 
-        console.error(errMessage);
+          if (retry === maxRetry) {
+            // Store the log
+            const errMessage = `Table not found for ${station} on ${date}`;
+            console.error(errMessage);
 
-        newScrapeLogs.push({
-          scrapeStation: station,
-          scrapeDateTime: date,
-          logDateTime: new Date(),
-          status: ScrapeStatus.ERROR,
-          error: errMessage,
-        });
+            newScrapeLogs.push({
+              scrapeStation: station,
+              scrapeDateTime: date,
+              logDateTime: new Date(),
+              status: ScrapeStatus.ERROR,
+              error: errMessage,
+            });
 
-        await page.close();
+            await page.close();
+            if (cb) {
+              cb(undefined, undefined);
+              if (q.length == 0) {
+                isAllProcessingDone = true;
+              }
+            }
 
-        return;
+            return;
+          }
+        }
       }
 
       // // DEBUG
@@ -351,15 +379,28 @@ async function funcJob() {
         status: ScrapeStatus.SUCCESS,
       });
 
-      // Close the page
-      await page.close();
-
       // Log
       console.log("Finishing scrape: ", station, date, url);
+
+      // Close the page
+      await page.close();
+      if (cb) {
+        cb(undefined, undefined);
+        if (q.length == 0) {
+          isAllProcessingDone = true;
+        }
+      }
     });
   });
 
   await q.start();
+
+  // wait until all job is done processing
+  while (!isAllProcessingDone) {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+  }
+
+  console.log("Scrape done");
 
   await browser.close();
 
